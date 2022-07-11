@@ -4,14 +4,18 @@
     <title>Accès rapides on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/fr/400_shortcodes/</link>
     <description>Recent content in Accès rapides on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/400_shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/400_shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Raccourcis clavier</title>
       <link>https://edrlab.github.io/thorium-reader-doc/fr/400_shortcodes/401_Keyboard-shortcuts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_shortcodes/401_Keyboard-shortcuts/</guid>
-      <description>CTRL + F10 : contenu (FocusMain) dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier sur le point de repère de la zone &#34;principale&#34; (dans la vue du lecteur, c&#39;est juste avant le cadre qui affiche le contenu de la publication). CTRL + t : barre d&#39;outils (FocusToolbar) dans les fenêtres de lecteur et de bibliothèque, déplace le focus du clavier sur la barre d&#39;outils horizontale supérieure, immédiatement avant le lien &#34;</description>
+      <description>CTRL + F10 : contenu (FocusMain)   dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier sur le point de repère de la zone &#34;principale&#34; (dans la vue du lecteur, c&#39;est juste avant le cadre qui affiche le contenu de la publication).     CTRL + t : barre d&#39;outils (FocusToolbar)   dans les fenêtres de lecteur et de bibliothèque, déplace le focus du clavier sur la barre d&#39;outils horizontale supérieure, immédiatement avant le lien &#34;</description>
     </item>
     
     <item>
@@ -29,7 +33,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_shortcodes/404_glossary/</guid>
-      <description> Lexique des termes techniques Fiche livre </description>
+      <description> Lexique des termes techniques  Fiche livre   </description>
     </item>
     
     <item>
@@ -38,7 +42,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_shortcodes/403_faq/</guid>
-      <description> Questions courantes # </description>
+      <description>Questions courantes </description>
     </item>
     
   </channel>

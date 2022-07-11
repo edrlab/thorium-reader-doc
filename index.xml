@@ -4,7 +4,11 @@
     <title>Introduction on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/</link>
     <description>Recent content in Introduction on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://edrlab.github.io/thorium-reader-doc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title></title>
       <link>https://edrlab.github.io/thorium-reader-doc/Keyboard-shortcuts/</link>
@@ -13,7 +17,7 @@
       <guid>https://edrlab.github.io/thorium-reader-doc/Keyboard-shortcuts/</guid>
       <description>Note to developers: this PR introduced support for configurable keyboard shortcuts in Thorium.
 TIP: holding the SHIFT + ALT modifier keys together while pressing enter or mouse-clicking to activate links in the slide-out modal navigation pane keeps the user interface panel open (e.g. table of contents, landmarks, bookmarks, &amp;ldquo;go to page&amp;rdquo; button, etc.)
-CTRL + F10 (FocusMain): in reader and library windows, moves the keyboard focus to the &amp;ldquo;main&amp;rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content) CTRL + t (FocusToolbar): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &amp;ldquo;skip&amp;rdquo; link (which itself moves focus to the &amp;ldquo;main&amp;rdquo; area landmark) CTRL + n (FocusReaderNavigation): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.</description>
+ CTRL + F10 (FocusMain): in reader and library windows, moves the keyboard focus to the &amp;ldquo;main&amp;rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content) CTRL + t (FocusToolbar): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &amp;ldquo;skip&amp;rdquo; link (which itself moves focus to the &amp;ldquo;main&amp;rdquo; area landmark) CTRL + n (FocusReaderNavigation): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.</description>
     </item>
     
   </channel>
