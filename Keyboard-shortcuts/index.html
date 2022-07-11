@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Note to developers: this PR introduced support for configurable keyboard shortcuts in Thorium.
+TIP: holding the SHIFT &#43; ALT modifier keys together while pressing enter or mouse-clicking to activate links in the slide-out modal navigation pane keeps the user interface panel open (e.g. table of contents, landmarks, bookmarks, &ldquo;go to page&rdquo; button, etc.)
+CTRL &#43; F10 (FocusMain): in reader and library windows, moves the keyboard focus to the &ldquo;main&rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content) CTRL &#43; t (FocusToolbar): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &ldquo;skip&rdquo; link (which itself moves focus to the &ldquo;main&rdquo; area landmark) CTRL &#43; n (FocusReaderNavigation): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="Note to developers: this PR introduced support for configurable keyboard shortcuts in Thorium.
+TIP: holding the SHIFT &#43; ALT modifier keys together while pressing enter or mouse-clicking to activate links in the slide-out modal navigation pane keeps the user interface panel open (e.g. table of contents, landmarks, bookmarks, &ldquo;go to page&rdquo; button, etc.)
+CTRL &#43; F10 (FocusMain): in reader and library windows, moves the keyboard focus to the &ldquo;main&rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content) CTRL &#43; t (FocusToolbar): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &ldquo;skip&rdquo; link (which itself moves focus to the &ldquo;main&rdquo; area landmark) CTRL &#43; n (FocusReaderNavigation): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/Keyboard-shortcuts/" /><meta property="article:section" content="" />
+
+
+
+<title>Keyboard Shortcuts | Thorium Reader</title>
+<link rel="manifest" href="/thorium-reader-doc/manifest.json">
+<link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/thorium-reader-doc/book.min.7362f578422c154ea78c3d5b684122d888d68823c5bf2fe72665c631526b7a4c.css" integrity="sha256-c2L1eEIsFU6njD1baEEi2IjWiCPFvy/nJmXGMVJrekw=" crossorigin="anonymous">
+  <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
+  <script defer src="/thorium-reader-doc/en.search.min.30e05fe31f32bfb748678bd18553b9201a22f1cb112b5b8c950dace363ae8856.js" integrity="sha256-MOBf4x8yv7dIZ4vRhVO5IBoi8csRK1uMlQ2s42OuiFY=" crossorigin="anonymous"></script>
+
+  <script defer src="/thorium-reader-doc/sw.min.fd032f86b90938c9ef0834ebcd6a02f9b39e8a30078f9552eff1b404fbb0824a.js" integrity="sha256-/QMvhrkJOMnvCDTrzWoC&#43;bOeijAHj5VS7/G0BPuwgko=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/thorium-reader-doc/"><img src="/thorium-reader-doc/logo.png" alt="Logo" /><span>Thorium Reader</span><br/>
+    
+  </a>
+  
+</h2>
+<hr/>
+<p class="right">the reading experience</p>
+<hr/>
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/thorium-reader-doc/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://edrlab.github.io/thorium-reader-doc/fr/">
+          Français
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+<hr/>
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/Keyboard-shortcuts/" class="active">Keyboard Shortcuts</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+<hr/>
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/thorium-reader-doc/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Keyboard Shortcuts</strong>
+
+  <label for="toc-control">
+    
+    <img src="/thorium-reader-doc/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>Note to developers: 
+  <a href="https://github.com/readium/readium-desktop/pull/958">this PR</a> introduced support for configurable keyboard shortcuts in Thorium.</p>
+<p>TIP: holding the SHIFT + ALT modifier keys together while pressing enter or mouse-clicking to activate links in the slide-out modal navigation pane keeps the user interface panel open (e.g. table of contents, landmarks, bookmarks, &ldquo;go to page&rdquo; button, etc.)</p>
+<ul>
+<li><code>CTRL</code> + <code>F10</code> (<code>FocusMain</code>): in reader and library windows, moves the keyboard focus to the &ldquo;main&rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content)</li>
+<li><code>CTRL</code> + <code>t</code> (<code>FocusToolbar</code>): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &ldquo;skip&rdquo; link (which itself moves focus to the &ldquo;main&rdquo; area landmark)</li>
+<li><code>CTRL</code> + <code>n</code> (<code>FocusReaderNavigation</code>): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.)</li>
+<li><code>SHIFT</code> + <code>CTRL</code> + <code>n</code> (<code>FocusReaderNavigationTOC</code>): in reader window, moves the keyboard focus to the navigation panel, but more specifically into the table of contents, and if possible at the detected heading  / closest to the reading location.</li>
+<li><code>SHIFT</code> + <code>CTRL</code> + <code>p</code> (<code>FocusReaderGotoPage</code>): in reader window, moves the keyboard focus to the &ldquo;goto page&rdquo; section in the navigation panel</li>
+<li><code>CTRL</code> + <code>s</code> (<code>FocusReaderSettings</code>): in reader window, moves the keyboard focus to the settings panel (user preferences for displaying publication content)</li>
+<li><code>CTRL</code> + <code>b</code> (<code>ToggleBookmark</code>): in reader window, toggle bookmark (a notification is produced so that screen readers announce the change)</li>
+<li><code>CTRL</code> + <code>F11</code> (<code>ToggleReaderFullscreen</code>): in reader window, toggle fullscreen</li>
+<li><code>CTRL</code> + <code>i</code> (<code>OpenReaderInfo</code>): in reader window, publication info popup modal dialog (may be used in future Thorium version for similar feature in library window)</li>
+<li><code>SHIFT</code> + <code>CTRL</code> + <code>i</code> (<code>OpenReaderInfoWhereAmI</code>): in reader window, publication info popup modal dialog with direct keyboard focus on section that displays the headings hierarchy trail and other contextual information for the current reading location, such as nearest preceding page break, as well as document index in the reading order (this is the &ldquo;where am I&rdquo; feature).</li>
+<li><code>SHIFT</code> + <code>CTRL</code> + <code>k</code> (<code>SpeakReaderInfoWhereAmI</code>): in reader window, this is the &ldquo;where am I&rdquo; feature, just as above, but only spoken via screen reader TTS thanks to an ARIA live region with assertive speech which interrupts the current narration.</li>
+<li><code>CTRL</code> + <code>w</code> (<code>CloseReader</code>): in reader window, closes the window and returns to the library view.</li>
+<li><code>CTRL</code> + <code>f</code> (<code>FocusSearch</code>): in library window, moves the keyboard focus to the search text input of local bookshelf or OPDS feed</li>
+<li><code>CTRL</code> + <code>f</code> (<code>FocusSearch</code>): in reader window, moves the keyboard focus to the publication-wide search text input</li>
+<li><code>SHIFT</code> (optional) + <code>F3</code> (<code>SearchPrevious</code> / <code>SearchNext</code>): in reader window, when the publication-wide search text input is open, finds the previous / next match</li>
+<li><code>SHIFT</code> (optional) + <code>CTRL</code> + <code>G</code> (<code>SearchPreviousAlt</code> / <code>SearchNextAlt</code>): same as above (alternative keyboard shortcut)</li>
+<li><code>CTRL</code> + <code>left</code> or <code>right</code> (<code>NavigatePreviousOPDSPage</code> / <code>NavigateNextOPDSPage</code>): in library window for OPDS feeds, activates the previous or next pagination links</li>
+<li><code>CTRL</code> + <code>comma</code> or <code>period</code> (<code>NavigatePreviousOPDSPageAlt</code> / <code>NavigateNextOPDSPageAlt</code>): same as above (alternative keyboard shortcut)</li>
+<li><code>CTRL</code> + <code>SHIFT</code> + <code>ALT</code> (except on MacOS) + <code>left</code> or <code>right</code> (<code>NavigatePreviousChapter</code> / <code>NavigateNextChapter</code>): in reader window, move to previous or next &ldquo;chapter&rdquo; (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the &ldquo;main&rdquo; area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).</li>
+<li><code>CTRL</code> + <code>page down</code> or <code>page up</code> (<code>NavigatePreviousChapterAlt</code> / <code>NavigateNextChapterAlt</code>): same as above (alternative keyboard shortcut)</li>
+<li><code>left</code> or <code>right</code> (<code>NavigatePreviousPage</code> / <code>NavigateNextPage</code>): in reader window, move to previous or next &ldquo;page&rdquo; (or scroll unit, if pagination is disabled)</li>
+<li><code>CTRL</code> + <code>comma</code> or <code>period</code> (<code>NavigatePreviousPageAlt</code> / <code>NavigateNextPageAlt</code>): same as above (alternative keyboard shortcut)</li>
+<li><code>CTRL</code> + <code>Home</code> or <code>End</code> (<code>NavigateToBegin</code> / <code>NavigateToEnd</code>): in reader window, goes to the beginning or the end of the publication</li>
+<li><code>CTRL</code> + <code>1</code> (<code>AudioPrevious</code>): in reader window, calls the &ldquo;previous&rdquo; command for audio (TTS or EPUB3 Media Overlays readaloud, or &ldquo;rewind&rdquo; for audiobooks)</li>
+<li><code>CTRL</code> + <code>2</code> (<code>AudioPlayPause</code>): in reader window, calls the &ldquo;play&rdquo; or &ldquo;pause&rdquo; toggle commands for audio (TTS or EPUB3 Media Overlays readaloud)</li>
+<li><code>CTRL</code> + <code>3</code> (<code>AudioNext</code>): in reader window, calls the &ldquo;next&rdquo; command for audio (TTS or EPUB3 Media Overlays readaloud, or &ldquo;forward&rdquo; for audiobooks)</li>
+<li><code>CTRL</code> + <code>4</code> (<code>AudioStop</code>): in reader window, calls the &ldquo;stop&rdquo; command for audio (TTS or EPUB3 Media Overlays readaloud, or &ldquo;pause&rdquo; for audiobooks)</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+<hr/>
+<div class="center">
+  | <a href="sitemap.xml">Site Map</a>
+  | <img src="/thorium-reader-doc/edrlab_logo@2x.jpg" alt=""/>
+    <span>Published and maintained by</span>
+    <a href=""> EDRLab</a>
+   | <a href="sitemap.xml">Accessibility</a>
+   | <a href="900_about">About</a>
+   | <a href="910_legals">legals</a>
+   | Made With<a href="Hugo"> Hugo</a>
+</div>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

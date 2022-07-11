@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Thorium Reader s&rsquo;adresse à tous, y compris aux personnes aveugles ou ayant d&rsquo;autres types de handicap visuel. L&rsquo;application est compatible avec les lecteurs d&rsquo;écran, notamment JAWS, NVDA, Narrator et VoiceOver, et elle inclut une fonction de lecture à voix haute avec mise en évidence visuelle. Thorium Reader peut être utilisé avec la souris ou le clavier, et les raccourcis clavier sont configurables. L&rsquo;affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment en ce qui concerne les couleurs, la taille du texte, l&rsquo;espacement, la police et la mise en page.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Accessibilité" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/" /><meta property="og:site_name" content="Thorium Reader" />
+
+<title>Accessibilité | Thorium Reader</title>
+<link rel="manifest" href="/thorium-reader-doc/manifest.json">
+<link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/thorium-reader-doc/book.min.7362f578422c154ea78c3d5b684122d888d68823c5bf2fe72665c631526b7a4c.css" integrity="sha256-c2L1eEIsFU6njD1baEEi2IjWiCPFvy/nJmXGMVJrekw=" crossorigin="anonymous">
+  <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
+  <script defer src="/thorium-reader-doc/fr.search.min.b3a4666aeb9c271b48a7720c26bf91602f8f3e49811890588c347489520dbecb.js" integrity="sha256-s6RmauucJxtIp3IMJr&#43;RYC&#43;PPkmBGJBYjDR0iVINvss=" crossorigin="anonymous"></script>
+
+  <script defer src="/thorium-reader-doc/sw.min.fd032f86b90938c9ef0834ebcd6a02f9b39e8a30078f9552eff1b404fbb0824a.js" integrity="sha256-/QMvhrkJOMnvCDTrzWoC&#43;bOeijAHj5VS7/G0BPuwgko=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/index.xml" title="Thorium Reader" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/thorium-reader-doc/fr/"><img src="/thorium-reader-doc/logo.png" alt="Logo" /><span>Thorium Reader</span><br/>
+    
+  </a>
+  
+</h2>
+<hr/>
+<p class="right">l&#39;experience de lecture</p>
+<hr/>
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Rechercher" aria-label="Rechercher" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/thorium-reader-doc/svg/translate.svg" class="book-icon" alt="Languages" />
+        Français
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://edrlab.github.io/thorium-reader-doc/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+<hr/>
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/100_quickStart/" class="">Commencer à lire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/101_formats/" class="">Formats pris en charge</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-06452091b2c4aaffce3867faec687958" class="toggle"  />
+    <label for="section-06452091b2c4aaffce3867faec687958" class="flex justify-between">
+      <a href="/thorium-reader-doc/fr/210_reading/" class="">Lire</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/210_reading/211_moving/" class="">Se déplacer dans un livre</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/210_reading/212_whereAmI/" class="">Où suis-je ?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/210_reading/213_search/" class="">Faire une recherche</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/210_reading/214_mark/" class="">Marquer une page ou un passage</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8c11dd16436d946fa8434473d2cb8c85" class="toggle"  />
+    <label for="section-8c11dd16436d946fa8434473d2cb8c85" class="flex justify-between">
+      <a href="/thorium-reader-doc/fr/220_organizing/" class="">Organiser</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/220_organizing/221_libraries/" class="">La bibliothèque</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/220_organizing/222_catalogs/" class="">Accéder à des catalogues</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/220_organizing/223_tags/" class="">Ajouter des tags</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/220_organizing/223_search/" class="">Rechercher</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0dc3090097fd24b0c860caaea3b577d4" class="toggle" checked />
+    <label for="section-0dc3090097fd24b0c860caaea3b577d4" class="flex justify-between">
+      <a href="/thorium-reader-doc/fr/300_accessibility/" class="active">Accessibilité</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/300_accessibility/301_A11yInfos/" class="">Informations d&#39;accessibilité</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/300_accessibility/310_natives/" class="">Fonctions natives</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/300_accessibility/310_NVDA/" class="">Lire avec Thorium et NVDA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/300_accessibility/391_epubTest/" class="">Tests et démarche</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-28a772e36488e8a0eb107bd30702c4c9" class="toggle"  />
+    <label for="section-28a772e36488e8a0eb107bd30702c4c9" class="flex justify-between">
+      <a href="/thorium-reader-doc/fr/400_shortcodes/" class="">Accès rapides</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/400_shortcodes/401_Keyboard-shortcuts/" class="">Raccourcis clavier</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/400_shortcodes/402_tips/" class="">Astuces</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/400_shortcodes/404_glossary/" class="">Lexique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/400_shortcodes/403_faq/" class="">Questions courantes</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e13c2d725e2f2ce7a2ba0eb9af5d74ad" class="toggle"  />
+    <label for="section-e13c2d725e2f2ce7a2ba0eb9af5d74ad" class="flex justify-between">
+      <a role="button" class="">À propos de ce site</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/900_about/902_credits/" class="">Crédits</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/900_about/903_support/" class="">Votre aide est précieuse</a>
+  
+
+        </li>
+      
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/thorium-reader-doc/fr/900_about/913_licence/" class="">Licence</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+<hr/>
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/thorium-reader-doc/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Accessibilité</strong>
+
+  <label for="toc-control">
+    
+    <img src="/thorium-reader-doc/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><p>Thorium Reader s&rsquo;adresse à tous, y compris aux personnes aveugles ou ayant d&rsquo;autres types de handicap visuel. L&rsquo;application est compatible avec les lecteurs d&rsquo;écran, notamment JAWS, NVDA, Narrator et VoiceOver, et elle inclut une fonction de lecture à voix haute avec mise en évidence visuelle. Thorium Reader peut être utilisé avec la souris ou le clavier, et les raccourcis clavier sont configurables. L&rsquo;affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment en ce qui concerne les couleurs, la taille du texte, l&rsquo;espacement, la police et la mise en page.</p>
+<blockquote class="book-hint warning">
+  Les fonctions d&rsquo;accessibilité peuvent être affecté par la qualité des fichiers lus.
+</blockquote>
+
+<dl>
+
+  <dt>
+    <a href="/thorium-reader-doc/fr/300_accessibility/301_A11yInfos/">Informations d&#39;accessibilité</a>
+  </dt>
+  <dd class="markdown-inner">
+    Informations d&rsquo;accessibilité # Actuellement Thorium affiche dans la Fiche Livre sous l&rsquo;intitulé Description le contenu de la métadonnée Résumé d&rsquo;accessibilité (accessibilitySummary).
+Des travaux sont en cours pour proposer un guide d&rsquo;affichage des informations d&rsquo;accessibilité. Nous suivons ces travaux et implementerons les recommandations prochainement. Les informations d&rsquo;accessibilité doivent être renseignées par les éditeurs. Thorium affiche ces informations telles qu&rsquo;elles ont étées définies. En cas de doute ou de réclamation contactez le distributeur ou l&rsquo;éditeur du fichier.
+  </dd>
+
+  <dt>
+    <a href="/thorium-reader-doc/fr/300_accessibility/310_natives/">Fonctions natives</a>
+  </dt>
+  <dd class="markdown-inner">
+    L&rsquo;accessibilité native # Les fonctions d&rsquo;accessibilité natives proposées par Thorium peuvent être affecté par la qualité des fichiers lus. Ajustements visuels # L&rsquo;application permet de modifier la taille du texte et les couleurs.
+il est possible d&rsquo;utiliser toutes les polices installées sur l&rsquo;ordinateur.
+Il est possible d&rsquo;augmenter la taille d&rsquo;une image avec Shift+clic sur l&rsquo;image. Renouveller plusieurs fois pour grossir l&rsquo;image à la taille souhaitée.
+L&rsquo;affichage peut être sélectionné comme paginé ou défilant,
+  </dd>
+
+  <dt>
+    <a href="/thorium-reader-doc/fr/300_accessibility/310_NVDA/">Lire avec Thorium et NVDA</a>
+  </dt>
+  <dd class="markdown-inner">
+    Thorium est utilsable avec le lecteur d&rsquo;écran NVDA # Lors du lancement de Thorium, si un lecteur d&rsquo;écran est repéré, les fonctions relatives sont activées. Les fonctions d&rsquo;accessibilité adressées aux technologies d&rsquo;assistance peuvent être affecté par la qualité des fichiers lus. Où suis-je ? # Appuyez sur la touche NVDA+F7, puis sur la touche de tabulation jusqu&rsquo;à ce que vous obteniez la vue de l&rsquo;en-tête. Cela vous montre où vous vous trouvez dans la structure du titre.
+  </dd>
+
+  <dt>
+    <a href="/thorium-reader-doc/fr/300_accessibility/391_epubTest/">Tests et démarche</a>
+  </dt>
+  <dd class="markdown-inner">
+    Thorium Reader est testé sur epubtest.org.
+La version 1.8 a reçu les scores suivants :
+Fonctions de base 86.67% (Thorium ne permet pas d&rsquo;annoter un document) Lecture non visuelle 100% Mathematiques 100% Descriptions étendues 100% EDRLab entretient des relations étroites avec le DAISY Consortium. Grâce aux personnes ayant des hadicaps visuels qui participent à notre design et à nos essais, Thorium Reader devient l&rsquo;une des applications de lecture les plus accessibles du marché.
+  </dd>
+
+</dl>
+
+<!--Section renders pages in section as definition list, using title and description.
+Example
+```tpl
+{{< section >}}
+```--></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+<hr/>
+<div class="center">
+  | <a href="sitemap.xml">Carte du site</a>
+  | <img src="/thorium-reader-doc/edrlab_logo@2x.jpg" alt=""/>
+    <span>Publié et maintenu par</span>
+    <a href=""> EDRLab</a>
+   | <a href="sitemap.xml">Accessibilité</a>
+   | <a href="900_about">À propos</a>
+   | <a href="910_legals">legals</a>
+   | Fabriqué avec<a href="Hugo"> Hugo</a>
+</div>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

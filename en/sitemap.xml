@@ -1,0 +1,27 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://edrlab.github.io/thorium-reader-doc/Keyboard-shortcuts/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://edrlab.github.io/thorium-reader-doc/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://edrlab.github.io/thorium-reader-doc/</loc>
+    <lastmod>2022-07-11T18:08:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://edrlab.github.io/thorium-reader-doc/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
