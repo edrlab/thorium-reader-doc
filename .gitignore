@@ -1,0 +1,7 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+
+public/
+.DS_Store
+.hugo_build.lock
