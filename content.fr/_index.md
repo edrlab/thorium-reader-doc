@@ -1,0 +1,74 @@
+---
+title: Aide et ressources pour une meilleure expérience de lecture 
+type: docs
+---
+
+  <p>
+    Thorium Reader est une application de lecture de référence pour Windows 10, MacOS et Linux.
+  </p>
+  <p>
+    Cette application <a href="https://edrlab.org">EDRLab</a> est en développement constant et vise à devenir la référence des applications de lecture de livres numériques, bandes dessinées, livres audio et documents PDF, y compris quand ils sont protégés par la
+    <a href="https://edrlab.org/readium-lcp">DRM LCP</a> (DRM signifiant Digital Rights Management).
+  </p>
+  <p>
+    Thorium est localisé dans un grand nombre de langues ; chaque mise à jour en offre de nouvelles grâce à l'aide de notre communauté. D'énormes efforts sont également déployés pour rendre Thorium Reader     accessible pour les personnes malvoyantes et dyslexiques.
+  </p>
+  <p>
+    Cette application est gratuite, sans publicité et sans fuite de données privées. C'est l'outil parfait pour les gros lecteurs, les usagers des bibliothèques et les étudiants.
+  </p>
+
+
+
+{{< columns >}}
+
+
+## Fonctions d'accessibilité
+<!--<img href="images/edrlab_home_accessibililty2.png" alt="">-->
+  <p>
+    Thorium Reader s'adresse à tous, y compris aux personnes aveugles ou ayant d'autres types de handicap visuel. L'application est compatible  avec les lecteurs d'écran, notamment JAWS, NVDA, Narrator et VoiceOver, et elle inclut une fonction de lecture à voix haute avec mise en évidence visuelle. Thorium Reader peut être utilisé avec la souris ou le     clavier, et les raccourcis clavier sont configurables. L'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment en ce qui concerne les couleurs, la taille du texte, l'espacement, la
+    police et la mise en page.
+  </p>
+
+  <p>
+    EDRLab entretient des relations étroites avec le
+    <a href="https://daisy.org/">DAISY Consortium</a>. Grâce aux personnes
+    ayant des hadicaps visuels qui participent à notre design et à nos
+    essais, Thorium Reader devient l'une des applications de lecture
+    les plus accessibles du marché.
+  </p>
+  <p>  <img src="/images/edrlab_home_accessibililty2.png" alt="" /></p>
+
+
+<--->
+
+
+
+  <h2>Readium LCP DRM</h2>
+<!--<img src="./images/lcp-user.png" alt="utilisatrice LCP lisant un livre" />-->
+
+  <p>
+    Thorium Reader gère la
+    <a href="https://www.edrlab.org/readium-lcp/">DRM Readium LCP</a>, conçue
+    à l'origine par la Fondation Readium. La
+    <a href="https://readium.org/lcp-specs/">spécification de cette DRM est publique</a>, et il s'agit d'une spécification technique ISO sous la référence
+    <a href="https://www.iso.org/standard/79485.html">ISO 23078-2</a>.
+  </p>
+
+  <p>
+    LCP a déjà été adopté par de nombreuses bibliothèques publiques,
+    universités et libraires du monde entier (Une
+      liste de <a href="https://www.edrlab.org/readium-lcp/certified-apps-servers/">distributeurs supportant LCP est maintenue ici</a>).
+  </p>
+  <p>
+    Les organisations du secteur de l'édition, dans le monde entier, sont
+    encouragées à adopter LCP comme moyen de protéger les livres
+    numériques contre le partage excessif, tout en offrant aux
+    utilisateurs une expérience sans friction et en conservant le contenu
+    correctement accessible. Veuillez
+    <a href="https://www.edrlab.org/contact/">contacter EDRLab</a> si votre
+    organisation est intéressée par l'adoption de LCP.
+  </p>
+
+
+
+{{< /columns >}}
