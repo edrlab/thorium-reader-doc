@@ -5,6 +5,11 @@ Built with [Hugo](https://gohugo.io/) & the [Hugo Book Theme](https://github.com
 
 Work in Progress, currently having the French version. 
 
+## Working with local preview
+
+1. Clone this Repo
+2. Install [Hugo](https://gohugo.io/getting-started/quick-start/) 
+3. `hugo server`
 
 ## More about Hugo Book Theme
 
