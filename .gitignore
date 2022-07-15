@@ -6,4 +6,4 @@ public/
 .DS_Store
 .hugo_build.lock
 000_notes.md
-resources/_gen
+resources/_gen/
