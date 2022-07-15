@@ -2,7 +2,8 @@
 title: "Lexique"
 description: ""
 draft: false
-weight: 402
+weight: 420
+
 toc: true
 ---
 

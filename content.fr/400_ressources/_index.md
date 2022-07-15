@@ -1,5 +1,5 @@
 ---
-Title: Accès rapides
+Title: Ressources
 weight: 400
 bookCollapseSection: true
 ---

@@ -2,7 +2,7 @@
 title: "Icones et fonctions"
 description: ""
 draft: false
-weight: 405
+weight: 401
 toc: true
 ---
 
@@ -17,6 +17,12 @@ toc: true
   </figcaption>
 </figure>
 
+
+<figure>
+  <img src="/thorium-reader-doc/images/icons/loop.svg" alt="" width="20px">
+  <figcaption class="icon">
+  </figcaption>
+</figure>
 
 <figure>
   <img src="/thorium-reader-doc/images/icons/list.svg" alt="" width="20px">
@@ -224,7 +230,6 @@ toc: true
   </figcaption>
 </figure>
 
-
 <figure>
   <img src="/thorium-reader-doc/images/icons/baseline-mute-24px.svg" alt="" width="20px">
   <figcaption class="icon"> Coupe le son
@@ -263,20 +268,27 @@ toc: true
   </figcaption>
 </figure>
 
+<!--
 <figure>
   <img src="/thorium-reader-doc/images/icons/baseline-more_vert-24px.svg" alt="" width="20px">
   <figcaption class="icon">Ouvrir le menu du livre (donne accès à la Fiche Livre, permet de Supprimer et d'Exporter un livre)
   </figcaption>
 </figure>
-
-
+-->
 
 <figure>
-  <img src="/thorium-reader-doc/images/icons/baseline-search-24px.svg" alt="" width="20px">
-   <img src="/thorium-reader-doc/images/icons/baseline-search-24px-grey.svg" alt="" width="20px"> <figcaption class="icon"> Rechercher
+  <img src="/thorium-reader-doc/images/icons/menu.svg" alt="" width="20px">
+  <figcaption class="icon">Ouvrir le menu du livre  (donne accès à la Fiche Livre, permet de Supprimer et d'Exporter un livre)
   </figcaption>
 </figure>
 
+<figure>
+  <!-- <img src="/thorium-reader-doc/images/icons/baseline-search-24px.svg" alt="" width="20px">
+   <img src="/thorium-reader-doc/images/icons/baseline-search-24px-grey.svg" alt="" width="20px"> <figcaption class="icon"> -->
+  <img src="/thorium-reader-doc/images/icons/magnifying_glass.svg" alt="" width="20px">
+  <figcaption class="icon">Rechercher
+  </figcaption>
+</figure>
 
 <figure>
   <img src="/thorium-reader-doc/images/icons/baseline-view_list-24px.svg" alt="" width="20px">
@@ -294,8 +306,6 @@ toc: true
   <figcaption class="icon">
   </figcaption>Vue grille des livres
 </figure>
-
-
 
 <figure>
   <img src="/thorium-reader-doc/images/icons/done.svg" alt="" width="20px">
@@ -321,28 +331,14 @@ toc: true
   <img src="/thorium-reader-doc/images/icons/loader.svg" alt="" width="20px">
   <figcaption class="icon">Indique que le livre est en cours d'ajout à Thorium. Cette indication n'est actuellement pas donnée aux utilisateurs de lecteur d'écran.
   
-  {{< hint warning >}}Cette [Issue n'est pas encore ouoverte], vous pouvez l'ouvrir en suivant le [Guide de contribution](https://github.com/edrlab/thorium-reader/issues/new)(https://github.com/edrlab/thorium-reader/issues/new){{< /hint >}}
+  {{< hint warning >}}Cette [Issue n'est pas encore ouverte], vous pouvez l'ouvrir en suivant le [Guide de contribution](https://github.com/edrlab/thorium-reader/issues/new)(https://github.com/edrlab/thorium-reader/issues/new){{< /hint >}}
   <!--TODO open Issue + Contributing.md-->
   </figcaption>
 </figure>
 
-<figure>
-  <img src="/thorium-reader-doc/images/icons/loop.svg" alt="" width="20px">
-  <figcaption class="icon">
-  </figcaption>
-</figure>
 
-<figure>
-  <img src="/thorium-reader-doc/images/icons/magnifying_glass.svg" alt="" width="20px">
-  <figcaption class="icon">
-  </figcaption>
-</figure>
 
-<figure>
-  <img src="/thorium-reader-doc/images/icons/menu.svg" alt="" width="20px">
-  <figcaption class="icon">
-  </figcaption>
-</figure>
+
 
 <figure>
   <img src="/thorium-reader-doc/images/icons/night.svg" alt="" width="20px">
