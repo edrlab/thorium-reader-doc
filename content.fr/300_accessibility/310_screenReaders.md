@@ -18,5 +18,4 @@ Les fonctions d'accessibilité adressées aux technologies d'assistance peuvent 
 
 ## Mathématiques 
 
-Vous pouvez lire les expressions mathématiques balisées avec MathML en utilisant les différentes approches de NVDA, par exemple en utilisant le complément [Access8Math](https://addons.nvda-project.org/addons/access8math.fr.html).
 
