@@ -73,47 +73,47 @@ toc: true
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>SHIFT<kbd> (optionnel) + <kbd>F3</kbd> : rechercher suivant ou précédent (<code>SearchPrevious<kbd> / <kbd>SearchNext</code>) </dt>
+    <dt> <kbd>SHIFT</kbd> (optionnel) + <kbd>F3</kbd> : rechercher suivant ou précédent (<code>SearchPrevious / SearchNext</code>) </dt>
     <dd> dans la fenêtre du lecteur, lorsque la recherche dans toute la publication est ouverte, trouve la correspondance précédente ou suivante.
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>SHIFT<kbd> (facultatif) + <kbd>CTRL</kbd> + <kbd>G<kbd>  rechercher suivant ou précédent  (<code>SearchPreviousAlt<kbd> / <kbd>SearchNextAlt</code>) </dt>
+    <dt> <kbd>SHIFT</kbd> (facultatif) + <kbd>CTRL</kbd> + <kbd>G</kbd>  rechercher suivant ou précédent  (<code>SearchPreviousAlt / SearchNextAlt</code>) </dt>
     <dd> même chose que ci-dessus (raccourci clavier alternatif)
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>CTRL</kbd> + <kbd>left<kbd> ou <kbd>right</kbd> : page de catalogue suivante ou précédente (<code>NavigatePreviousOPDSPage<kbd> / <kbd>NavigateNextOPDSPage</code>) </dt>
+    <dt> <kbd>CTRL</kbd> + <kbd>left</kbd> ou </kbd>right</kbd> : page de catalogue suivante ou précédente (<code>NavigatePreviousOPDSPage / NavigateNextOPDSPage</code>) </dt>
     <dd> dans la fenêtre de bibliothèque pour les flux OPDS, active les liens de pagination précédents ou suivants.
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>CTRL</kbd> + <kbd>comma<kbd> ou <kbd>period<kbd> page de catalogue suivante ou précédente  (<code>NavigatePreviousOPDSPageAlt<kbd> / <kbd>NavigateNextOPDSPageAlt</code>) </dt>
+    <dt> <kbd>CTRL</kbd> + <kbd>,</kbd> ou <kbd>.</kbd> page de catalogue suivante ou précédente  (<code>NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt</code>) </dt>
     <dd> même chose que ci-dessus (raccourci clavier alternatif)
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>ALT<kbd> (sauf sur MacOS) + <kbd>left<kbd> ou <kbd>right</kbd> : chapitre suivant ou précédent (<code>NavigatePreviousChapter<kbd> / <kbd>NavigateNextChapter</code>) </dt>
+    <dt> <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>left</kbd> ou <kbd>right</kbd> : chapitre suivant ou précédent (<code>NavigatePreviousChapter / NavigateNextChapter</code>) </dt>
     <dd> dans la fenêtre du lecteur, déplacement vers le "chapitre" précédent ou suivant (élément d'épine dans l'ordre de lecture de la publication). Notez que le focus du clavier est automatiquement déplacé vers le repère de la zone "principale", qui se trouve immédiatement avant le cadre qui affiche le contenu de la publication (comme lorsqu'on suit / active un lien dans la table des matières).
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>CTRL</kbd> + <kbd>page down<kbd> ou <kbd>page up<kbd>  : chapitre suivant ou précédent  (<code>NavigatePreviousChapterAlt<kbd> / <kbd>NavigateNextChapterAlt</code>) </dt>
+    <dt> <kbd>CTRL</kbd> + <kbd>page down</kbd> ou <kbd>page up</kbd>  : chapitre suivant ou précédent  (<code>NavigatePreviousChapterAlt / NavigateNextChapterAlt</code>) </dt>
     <dd> même chose que ci-dessus (raccourci clavier alternatif)
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>left<kbd> ou <kbd>right</kbd> : page suivante ou précédente (<code>NavigatePreviousPage<kbd> / <kbd>NavigateNextPage</code>) </dt>
+    <dt> <kbd>left</kbd> *ou* <kbd>right</kbd> : page suivante ou précédente (<code>NavigatePreviousPage / NavigateNextPage</code>) </dt>
     <dd> dans la fenêtre du lecteur, déplacement vers la "page" précédente ou suivante (ou unité de défilement, si la pagination est désactivée)
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>CTRL</kbd> + <kbd>comma<kbd> ou <kbd>period<kbd>  : page suivante ou précédente  (<code>NavigatePreviousPageAlt<kbd> / <kbd>NavigateNextPageAlt</code>) </dt>
+    <dt> <kbd>CTRL</kbd> + <kbd>comma</kbd> *ou* <kbd>.</kbd>  : page suivante ou précédente  (<code>NavigatePreviousPageAlt / NavigateNextPageAlt</code>) </dt>
     <dd> même chose que ci-dessus (raccourci clavier alternatif)
     </dd>
 </dl>
 <dl>
-    <dt> <kbd>CTRL</kbd> + <kbd>Home<kbd> ou <kbd>End</kbd> : Début ou Fin (<code>NavigateToBegin<kbd> / <kbd>NavigateToEnd</code>) </dt>
+    <dt> <kbd>CTRL</kbd> + <kbd>Home</kbd> ou <kbd>End</kbd> : Début ou Fin (<code>NavigateToBegin / NavigateToEnd</code>) </dt>
     <dd> dans la fenêtre du lecteur, va au début ou à la fin de la publication.
     </dd>
 </dl>
