@@ -9,7 +9,7 @@ toc: false
 # Informations d'accessibilité
 Actuellement Thorium affiche dans la <a href="../400_shortcodes/404_glossary.html#bookInformation">Fiche Livre</a> sous l'intitulé **Description** le contenu de la métadonnée Résumé d'accessibilité (<span lang="en">accessibilitySummary</span>). 
 
-<img src="/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
 
 {{< hint warning >}}
 Des travaux sont en cours pour proposer un guide d'affichage des informations d'accessibilité. Nous suivons ces travaux et implementerons les recommandations prochainement.
