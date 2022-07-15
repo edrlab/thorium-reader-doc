@@ -36,7 +36,6 @@ type: docs
     essais, Thorium Reader devient l'une des applications de lecture
     les plus accessibles du marché.
   </p>
-  <p>  <img src="/images/edrlab_home_accessibililty2.png" alt="" /></p>
 
 
 <--->
@@ -44,7 +43,6 @@ type: docs
 
 
   <h2>Readium LCP DRM</h2>
-<!--<img src="./images/lcp-user.png" alt="utilisatrice LCP lisant un livre" />-->
 
   <p>
     Thorium Reader gère la
