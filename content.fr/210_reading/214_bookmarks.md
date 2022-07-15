@@ -14,8 +14,8 @@ Le bouton **Signet** ou **Marque page** permet d'ajouter un point de repère per
 Un marque page peut être un point fixe ou comporter une sélection de texte. 
 
 {{< hint info >}}
-Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages ou la combinaison de touches <kbd>CTRL</kbd> + <kbd>B</kbd>. 
-<figure> <img src="/thorium-reader-doc/images/local-fr/thorium-signet.png" alt="">
+Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages (<img src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">) ou la combinaison de touches <kbd>CTRL</kbd> + <kbd>B</kbd>. 
+<figure> 
 </figure>
 {{< /hint >}}
 
