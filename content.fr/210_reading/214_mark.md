@@ -5,10 +5,19 @@ draft: false
 weight: 214
 toc: true
 ---
+# Marquer une page <br/>ou un passage
 
-# Ajouter un signet ou une surbrillance
+## Ajouter un signet ou une surbrillance
 
-le bouton **Signet** ou **Marque page** permet de 
+Le bouton **Signet** ou **Marque page** permet d'ajouter un point de repère personnalisé ou marque page. 
+
+Un marque page peut être un point fixe ou comporter une sélection de texte. 
+
+{{< hint info >}}
+Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages ou la combinaison de touches <kbd>CTRL</kbd> + <kbd>B</kbd>. 
+<figure> <img src="/thorium-reader-doc/images/local-fr/thorium-signet.png" alt="">
+</figure>
+{{< /hint >}}
 
 ## Révision et navigation dans les Marques-pages 
 
@@ -17,3 +26,13 @@ Appuyez sur le bouton de navigation (`CTRL+N`), puis sur le bouton `Signets`. Vo
 Accédez à la liste des signets dans la zone de navigation. Sélectionnez le signet auquel vous souhaitez accéder et appuyez sur la touche `Entrée`. Si vous avez renommé le signet, il sera facile d'aller à plusieurs endroits dans le livre.
 
 
+{{< details "Pour utiliser les **Marque-pages** avec NVDA">}}
+
+N'oubliez pas que les lecteurs d'écran sous Windows utilisent un tampon virtuel pour la lecture. Pour placer un signet à l'endroit où vous lisez actuellement, appuyez sur la touche `NVDA + entrée`, et NVDA dira *"activer"*. Cela synchronise le tampon virtuel avec l'emplacement réel actuel, puis utilisez `CTRL + B` pour placer un signet. 
+
+{{< hint info >}}
+Conseil : Essayez de copier la ligne sur laquelle vous vous trouvez dans le presse-papiers. Allez ensuite dans les options de navigation avec `CTRL + N`, puis descendez jusqu'à la rubrique des signets, où ils sont répertoriés. Appuyez sur la touche b pour vous déplacer vers le bouton d'édition afin de renommer le signet. Collez la ligne du presse-papiers et appuyez sur la touche `Entrée`. Cela renomme le signet avec la ligne de texte que vous avez copiée. Lorsque vous avez plusieurs signets, ce renommage des signets permet de les utiliser facilement.
+{{< /hint >}}
+
+Appuyez sur `NVDA+entrée` pour que Thorium déduise l'objet sur lequel se trouve le curseur. Puis appuyez sur `CTRL+B`. Une notification sonore vous informera du nombre de signets dans la publication en cours.
+{{< /details >}}
