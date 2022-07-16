@@ -6,7 +6,6 @@ weight: 913
 toc: true
 ---
 
-
   <h2>Licences</h2>
 
   <p>
@@ -20,7 +19,7 @@ toc: true
   </p>
 
   <p>
-    Le contenu de ce site web est libre et peut-être réutilisé selon les termes de la Licence Publique Générale. 
+    Le contenu de ce site web est libre et peut-être réutilisé selon les termes de la Licence BSD. 
   </p>
 
 <p>

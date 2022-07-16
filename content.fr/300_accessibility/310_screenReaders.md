@@ -16,6 +16,4 @@ Les fonctions d'accessibilité adressées aux technologies d'assistance peuvent 
 
 
 
-## Mathématiques 
-
 

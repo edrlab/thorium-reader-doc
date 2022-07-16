@@ -12,7 +12,7 @@ Thorium est un lecteur de livres numériques, c'est aussi une bibliothèque où 
 
 {{< columns >}}
 
-Sélectionnez le livre que vous souhaitez lire, utilisez le `menu contextuel (clic droit)`, sélectionnez `ouvrir avec` puis sélectionnez `Thorium`. 
+Sélectionnez le livre que vous souhaitez lire, utilisez le `menu contextuel` (clic droit), sélectionnez `ouvrir avec` puis sélectionnez `Thorium`. 
 
 {{< hint info >}} 
 Vous pouvez définir le lecteur par défaut de certains types de fichiers par le biais des paramètres de Windows. 
@@ -21,7 +21,7 @@ Vous pouvez définir le lecteur par défaut de certains types de fichiers par le
 
 <--->
 
-Thorium peut aussi être lancé à partir du menu de l'application ou de tout raccourci créé. Cela ouvrira la [bibliothèque](220_organizing/221_libraries) et vous permettra de choisir un livre ou d'en ajouter un mais aussi d'accèder à des [catalogues](220_organizing/222_catalogs) et d'organiser vos collection. Pour lire un livre cliquez simplement dessus ou validez avec `Entrée` lorsqu'il est sélectionné.
+Thorium peut aussi être lancé à partir du menu de l'application ou de tout raccourci créé. Cela ouvrira la [bibliothèque](220_organizing/221_libraries) et vous permettra de choisir un livre ou d'en ajouter un mais aussi d'accèder à des [catalogues](220_organizing/222_catalogs) et d'organiser vos collection. Pour lire un livre cliquez simplement dessus ou validez avec <kbd>Entrée</kbd> lorsqu'il est sélectionné.
 
 
 {{< /columns >}}

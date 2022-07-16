@@ -18,7 +18,7 @@ Les fonctions d'accessibilité natives proposées par Thorium peuvent être affe
 
 - il est possible d'utiliser toutes les polices installées sur l'ordinateur.
 
-- Il est possible d'augmenter la taille d'une image avec `Shift+clic` sur l'image. Renouveller plusieurs fois pour grossir l'image à la taille souhaitée.
+- Il est possible d'augmenter la taille d'une image avec <kbd>Shift+clic</kbd> sur l'image. Renouveller plusieurs fois pour grossir l'image à la taille souhaitée.
 
 - L'affichage peut être sélectionné comme paginé ou défilant, 
 
@@ -26,13 +26,15 @@ Les fonctions d'accessibilité natives proposées par Thorium peuvent être affe
 
 - l'espacement peut être ajusté de manière flexible, avec un contrôle sur la marge, les mots, les lettres et l'espacement des lignes. 
 
+{{< hint danger >}}Les ajustements visuels ne sont pas possibles avec les formats à mise en page fixe comme certains EPUBs ou les fichiers PDF.{{< /hint >}}
+
 ## Synthèse vocale (TTS)
 
-Readloud est lancé à l'aide du bouton haut-parleur au milieu de la barre d'outils, ou à l'aide du raccourci clavier ctrl 2.
+Readloud est lancé à l'aide du bouton haut-parleur au milieu de la barre d'outils, ou à l'aide du raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-La lecture et la pause peuvent être contrôlées avec le raccourci clavier ctrl 2.
+La lecture et la pause peuvent être contrôlées avec le raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-La position de lecture peut être déplacée avec ctrl 1 et ctrl 3 pour respectivement précédent et suivant.
+La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour respectivement précédent et suivant.
 
 Un contrôle de la vitesse est disponible lorsque la lecture à haute voix est sélectionnée, avec une plage allant de x0,5 à x2.
 

@@ -7,7 +7,7 @@ weight: 000
 toc: true
 ---
 <!--
-shift+click to zoom in.
+Shift+click to zoom in.
 
 
 Shortcodes

@@ -6,7 +6,6 @@ weight: 406
 toc: true
 ---
 
-
   <h1>Formats de publication pris en charge</h1>
 
   <dl>

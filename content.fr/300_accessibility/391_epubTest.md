@@ -15,4 +15,4 @@ La version 1.8 a reçu les scores suivants :
 * Descriptions étendues 100% 
 
 
-EDRLab entretient des relations étroites avec le DAISY Consortium. Grâce aux personnes ayant des hadicaps visuels qui participent à notre design et à nos essais, Thorium Reader devient l'une des applications de lecture les plus accessibles du marché. 
+EDRLab entretient des relations étroites avec le DAISY Consortium. Grâce aux personnes ayant des hadicaps visuels qui participent à notre design et à nos essais, Thorium Reader cherche à être l'une des applications de lecture les plus accessibles du marché. 

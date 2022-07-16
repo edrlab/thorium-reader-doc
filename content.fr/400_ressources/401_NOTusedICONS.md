@@ -1,5 +1,5 @@
 ---
-title: "Icones non documentées et o/ ou non utilisés"
+title: "NOTE : Icones non documentées et / ou non utilisés"
 description: ""
 draft: true
 weight: 401
@@ -65,9 +65,6 @@ toc: true
   <figcaption class="icon">
   </figcaption>
 </figure>
-
-
-
 
 <figure>
   <img src="/thorium-reader-doc/images/icons/outline-exit_to_app-24px.svg" alt="" width="20px">
