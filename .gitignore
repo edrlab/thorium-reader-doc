@@ -7,3 +7,4 @@ public/
 .hugo_build.lock
 000_notes.md
 resources/_gen/
+issues/
