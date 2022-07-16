@@ -1,7 +1,7 @@
 ---
 title: "Icones et fonctions"
 description: ""
-draft: false
+draft: true
 weight: 401
 toc: true
 ---
