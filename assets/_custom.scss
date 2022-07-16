@@ -17,3 +17,19 @@ kbd {
 }
 
 
+.book-hint {
+    padding:10px 30px 10px 10px;
+    border-left: 6px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-radius: 10px;
+    border-style: solid
+    ;
+
+}
+
+@mixin theme-light {}
+
+@mixin theme-dark {}
+
