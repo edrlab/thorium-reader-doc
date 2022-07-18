@@ -42,8 +42,8 @@ Le lecteur d'écran doit être en mode navigation ou curseur virtuel.
 |---|---|
 |Dire le caractère précédent |<kbd>&larr;</kbd>|
 |Dire le caractère suivant |<kbd>&rarr;</kbd>|
-|Mot précédent |<kbd>CTRL+<kbd>&larr;</kbd>|
-|Mot suivant |<kbd>CTRL+<kbd>&rarr;</kbd>|
+|Mot précédent |<kbd>CTRL</kbd>+<kbd>&larr;</kbd>|
+|Mot suivant |<kbd>CTRL</kbd>+<kbd>&rarr;</kbd>|
 |Ligne précédente |<kbd>&uarr;</kbd>|
 |Ligne suivante |<kbd>&darr;</kbd>|
 |Dire la phrase précédente |<kbd>ALT</kbd>+<kbd>&uarr;</kbd> (Jaws uniquement)|
