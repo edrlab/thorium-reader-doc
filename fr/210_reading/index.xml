@@ -4,20 +4,16 @@
     <title>Lire on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/</link>
     <description>Recent content in Lire on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/210_reading/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/210_reading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Se déplacer dans un livre</title>
       <link>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/211_moving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/211_moving/</guid>
-      <description>Naviguer dans un livre Les options de navigation peuvent être très différentes d&amp;rsquo;un livre à l&amp;rsquo;autre, cependant Thorium permet les éléments suivants.
-Le menu de la table des matières La table des matières représente l&amp;rsquo;architecture du livre telle que définie par l&amp;rsquo;organisation productrice de ce dernier.
-Naviguer dans le contenu par pages Il existe une option de navigation permettant d&amp;rsquo;aller à la page. Lorsque vous y accédez, cette option indique la page actuelle.</description>
+      <description>Naviguer dans un livre # Les options de navigation peuvent être très différentes d&amp;rsquo;un livre à l&amp;rsquo;autre, cependant Thorium permet les éléments suivants.
+Avancer et reculer # Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation situées en bas à droite de l&amp;rsquo;interface de lecture ().
+Le menu de la table des matières # La table des matières représente l&amp;rsquo;architecture du livre telle que définie par l&amp;rsquo;organisation productrice de ce dernier.</description>
     </item>
     
     <item>
@@ -26,8 +22,8 @@ Naviguer dans le contenu par pages Il existe une option de navigation permettant
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/212_whereAmI/</guid>
-      <description>Lorsque vous consultez le menu Navigation, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu Aller à la page
-Lire les informations de navigation Utilisez la fonction Informations (CTRL+SHIFT+I) pour ouvrir un panneau qui affiche la structure des titres et le numéro de page.
+      <description>Lorsque vous consultez le menu Navigation, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu Aller à la page.
+Lire les informations de navigation # Utilisez la fonction Informations (Ctrl+Shift+I) pour ouvrir un panneau qui affiche la structure des titres et le numéro de page.
 En plus des informations sur le livre, ce panneau indique au sous titre Progression :</description>
     </item>
     
@@ -37,18 +33,39 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/213_search/</guid>
-      <description>Faire une recherche dans un livre Vous pouvez utiliser les touches CTRL + F pour accéder au champ de recherche. Saisissez votre terme de recherche. En cliquant sur le bouton de recherche, vous obtenez un bouton Précédent, un bouton Suivant et un bouton Liste des résultats. Activez ce lien pour vous rendre à l&amp;rsquo;endroit du livre où la recherche a été trouvée.</description>
+      <description>Faire une recherche dans un livre # Vous pouvez utiliser les touches Ctrl + F pour accéder au champ de recherche. Saisissez votre terme de recherche. En cliquant sur le bouton de recherche, vous obtenez un bouton Précédent, un bouton Suivant et un bouton Liste des résultats. Activez ce lien pour vous rendre à l&amp;rsquo;endroit du livre où la recherche a été trouvée.</description>
     </item>
     
     <item>
       <title>Marquer une page ou un passage</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/214_mark/</link>
+      <link>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/214_bookmarks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/214_mark/</guid>
-      <description>Ajouter un signet ou une surbrillance le bouton Signet ou Marque page permet de
-Révision et navigation dans les Marques-pages Appuyez sur le bouton de navigation (CTRL+N), puis sur le bouton Signets. Vous pouvez modifier le nom de chaque signet, supprimer des signets et vous déplacer vers les signets en appuyant sur Entrée.
-Accédez à la liste des signets dans la zone de navigation. Sélectionnez le signet auquel vous souhaitez accéder et appuyez sur la touche Entrée.</description>
+      <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/214_bookmarks/</guid>
+      <description>Marquer une page ou un passage # Ajouter un signet ou une surbrillance # Le bouton Marque page permet d&amp;rsquo;ajouter un point de repère personnalisé ou marque page.
+Un marque page peut être un point fixe ou comporter une sélection de texte.
+Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages () ou la combinaison de touches Ctrl + B . Révision et navigation dans les Marques-pages # Appuyez sur le bouton de navigation (Ctrl+N), puis sur le bouton Signets.</description>
+    </item>
+    
+    <item>
+      <title>Paramètres de lecture</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/215_ReadingParameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/215_ReadingParameters/</guid>
+      <description>Utilisez le bouton Paramètres : en cliquant sur ce bouton, les options suivantes sont révélées.
+Thème # La couleur de l&amp;rsquo;arrière-plan et du premier plan peut être modifiée en utilisant l&amp;rsquo;un des trois thèmes disponibles - Neutre, Sépia et Nuit.
+Texte # La taille de la police peut être augmentée ou diminuée à l&amp;rsquo;aide du curseur. La police peut également être modifiée. Les options disponibles sont les suivantes : Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace et Monospace.</description>
+    </item>
+    
+    <item>
+      <title>Lire des mathématiques</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/221_maths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/221_maths/</guid>
+      <description>Thorium-Reader prend en charge les formules mathématiques MathMl grace au module MathJax. Ce dernier nécessitant des resszources mémoires il n&amp;rsquo;est pas activé d&amp;rsquo;office lorsque vous ouvrez Thorium. Pour l&amp;rsquo;activer lors de la lecture d&amp;rsquo;un livre allez dans le menu Paramtéres de lecture, en bas de l&amp;rsquo;onglet Affichage vous trouverez une case à cocher MathJax
+Une fois activé MathJax, vous pouvez utiliser le menu contextuel (clic droit) sur une formule mathématique insérée au format MathML et utiliser les nombreuses options comme la lecture à voix haute (speech), consulter le marquage sémantique ou copier la formule avec ses attributs sémantiques pour l&amp;rsquo;utiliser dans un éditeur compatible par exemple.</description>
     </item>
     
   </channel>
