@@ -5,6 +5,14 @@ draft: false
 weight: 402
 toc: true
 ---
+
+{{< hint info >}}
+Information
+
+La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, ou être indiquée par une fléche vide pointant vers le haut : <kbd><b>&#x21E7;</b></kbd>. 
+{{< /hint >}}
+
+
 <dl>
     <dt>  <kbd>Ctrl</kbd>  +  <kbd>F10</kbd>  : contenu (<code>FocusMain</code>) </dt>
         <dd>   dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier sur le point de repère de la zone "principale" (dans la vue du lecteur, c'est juste avant le cadre qui affiche le contenu de la publication).

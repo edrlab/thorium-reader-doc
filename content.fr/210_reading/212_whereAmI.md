@@ -6,11 +6,14 @@ weight: 212
 toc: true
 ---
 
-Lorsque vous consultez le menu *Navigation*, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu Aller à la page
+Lorsque vous consultez le menu *Navigation*, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu Aller à la page. 
 
-La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, ou être indiquée par une fléche vide pointant vers le haut : <kbd><b>&#x21E7;</b></kbd>. 
+<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation ets ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
+
 
 # Lire les informations de navigation
+
+{{< columns >}}
 
 Utilisez la fonction *Informations* (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd>) pour ouvrir un panneau qui affiche la structure des titres et le numéro de page. 
 
@@ -21,9 +24,10 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
 - la page courante ;
 - la structure des titres (h1 est un titre de niveau 1, h2 un titre de niveau , etc.)
 
-Appuyez sur  <kbd>Echap</kbd>  pour femer le panneau *Informations* et revenir au texte. 
-
-
+Appuyez sur  <kbd>Echap</kbd>  pour femer le panneau `Informations` et revenir au texte. 
+<--->
+<img src="/thorium-reader-doc/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
+{{< /columns >}}
 {{< details "Utiliser **Où suis-je** avec NVDA">}}
 
 Appuyez sur la touche <kbd>NVDA</kbd>+<kbd>F7</kbd>, puis sur la touche de tabulation jusqu'à ce que vous obteniez la vue de l'en-tête. Cela vous montre où vous vous trouvez dans la structure du titre. 

@@ -31,7 +31,7 @@ Lorsque vous êtes dans la bibliothèque de Thorium, sélectionnez l'onglet <kbd
 
 <p>Les liens suivants offrent <a href="http://gallica.bnf.fr/blog/27042017/retrouvez-tous-nos-livres-au-format-epub-dans-votre-application-de-lecture-favorite">plus d'information sur le catalogue OPDS de Gallica</a> et <a href="https://gallica.bnf.fr/edit/und/a-propos">à propos de Gallica.</a></p> 
 <figure>
-  <img src="/thorium-reader-doc/images/local-fr/thorium-opds-gallica-1.png">
+  <img src="/thorium-reader-doc/images/local-fr/thorium-opds-gallica-1.png" alt="">
   <figcaption class="icon">
   </figcaption>
 </figure>

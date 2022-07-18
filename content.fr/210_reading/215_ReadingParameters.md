@@ -1,11 +1,11 @@
 ---
-title: "Marquer une page ou un passage"
+title: "Paramètres de lecture"
 description: ""
 draft: false
 weight: 214
 toc: true
 ---
-Bouton Paramètres : En cliquant sur ce bouton, les options suivantes sont révélées.
+Utilisez le bouton `Paramètres` : en cliquant sur ce bouton, les options suivantes sont révélées.
 
 # Thème
 La couleur de l'arrière-plan et du premier plan peut être modifiée en utilisant l'un des trois thèmes disponibles - Neutre, Sépia et Nuit.

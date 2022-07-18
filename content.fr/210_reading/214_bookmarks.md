@@ -26,10 +26,17 @@ Accédez à la liste des signets dans la zone de navigation. Sélectionnez le si
 
 {{< hint info >}}
 Conseil 
-
+{{< columns >}}
 Si vous sélectionnez une portion de texte puis activez le bouton Marque-page, le marque-page créé aura pour intitulé la ligne sélectionnée.
 
 Si vous avec placé un signet sans sélectionner une portion de texte, essayez de copier la ligne sur laquelle vous vous trouvez dans le presse-papiers. Allez ensuite dans les options de navigation avec <kbd>Ctrl</kbd> + <kbd>N</kbd>, puis descendez jusqu'à la rubrique des Marque-page, où ils sont répertoriés. Appuyez sur la touche b pour vous déplacer vers le bouton d'édition afin de renommer le signet. Collez la ligne du presse-papiers et appuyez sur la touche <kbd>Entrée</kbd>. Cela renomme le signet avec la ligne de texte que vous avez copiée. Lorsque vous avez plusieurs signets, ce renommage des signets permet de les utiliser facilement.
+<--->
+<figure>
+  <img src="/thorium-reader-doc/images/local-fr/thorium-marquePages.png" alt="">
+  <figcaption class="icon">
+  </figcaption>
+</figure>
+{{< /columns >}}
 {{< /hint >}}
 
 {{< details "Utiliser les **Marque-pages** avec NVDA">}}
@@ -38,3 +45,4 @@ N'oubliez pas que les lecteurs d'écran sous Windows utilisent un tampon virtuel
 
 Appuyez sur <kbd>NVDA</kbd>+<kbd>entrée</kbd> pour que Thorium déduise l'objet sur lequel se trouve le curseur. Puis appuyez sur <kbd>Ctrl</kbd>+<kbd>B</kbd>. Une notification sonore vous informera du nombre de signets dans la publication en cours.
 {{< /details >}}
+
