@@ -8,6 +8,8 @@ toc: true
 # L'accessibilité native
 
 {{< hint warning >}}
+Attention !
+
 Les fonctions d'accessibilité natives proposées par Thorium peuvent être affecté par la qualité des fichiers lus. 
 {{< /hint >}}
 
@@ -26,7 +28,10 @@ Les fonctions d'accessibilité natives proposées par Thorium peuvent être affe
 
 - l'espacement peut être ajusté de manière flexible, avec un contrôle sur la marge, les mots, les lettres et l'espacement des lignes. 
 
-{{< hint danger >}}Les ajustements visuels ne sont pas possibles avec les formats à mise en page fixe comme certains EPUBs ou les fichiers PDF.{{< /hint >}}
+{{< hint danger >}}
+Attention !
+
+Les ajustements visuels ne sont pas possibles avec les formats à mise en page fixe comme certains EPUBs ou les fichiers PDF.{{< /hint >}}
 
 ## Synthèse vocale (TTS)
 

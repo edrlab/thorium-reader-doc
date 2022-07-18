@@ -12,7 +12,7 @@ toc: true
 
   <dl>
     <dt id="bookInformation">Fiche livre</dt>
-    <dd> 
+    <dd> Donne des informations sur le livre numérique. Ces informations sont extraites des métadonnées du fichier, leur qualité et quantité dépend de l'attention portée lors de la production du fichier par l'éditeur.
     </dd>
   </dl>
 

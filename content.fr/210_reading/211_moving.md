@@ -43,6 +43,8 @@ Les <a href="/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">li
 Les livres numérique de bonne qualité comportent des points de repères qui permettent d'identifier et d'atteindre rapidement les grandes parties d'un livre. 
 
 {{< hint info >}}
+Information 
+
 Chaque publication EPUB doit inclure un guide de tous les principaux points de repère. L'intitulé des points de repères est aux choix de l'éditeur mais la nature de chaque repère doit être identifiée selon un vocabulaire sémantique définis dont les principaux sont :
 
 * Texte principal (bodymatter)

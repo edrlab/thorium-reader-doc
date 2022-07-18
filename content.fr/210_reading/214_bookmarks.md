@@ -23,13 +23,18 @@ Appuyez sur le bouton de navigation (<kbd>Ctrl</kbd>+<kbd>N</kbd>), puis sur le 
 
 Accédez à la liste des signets dans la zone de navigation. Sélectionnez le signet auquel vous souhaitez accéder et appuyez sur la touche <kbd>Entrée</kbd>. Si vous avez renommé le signet, il sera facile d'aller à plusieurs endroits dans le livre.
 
-{{< details "Pour utiliser les **Marque-pages** avec NVDA">}}
-
-N'oubliez pas que les lecteurs d'écran sous Windows utilisent un tampon virtuel pour la lecture. Pour placer un signet à l'endroit où vous lisez actuellement, appuyez sur la touche <kbd>NVDA + entrée</kbd>, et NVDA dira *"activer"*. Cela synchronise le tampon virtuel avec l'emplacement réel actuel, puis utilisez <kbd>Ctrl + B</kbd> pour placer un signet. 
 
 {{< hint info >}}
-Conseil : Essayez de copier la ligne sur laquelle vous vous trouvez dans le presse-papiers. Allez ensuite dans les options de navigation avec <kbd>Ctrl</kbd> + <kbd>N</kbd>, puis descendez jusqu'à la rubrique des signets, où ils sont répertoriés. Appuyez sur la touche b pour vous déplacer vers le bouton d'édition afin de renommer le signet. Collez la ligne du presse-papiers et appuyez sur la touche <kbd>Entrée</kbd>. Cela renomme le signet avec la ligne de texte que vous avez copiée. Lorsque vous avez plusieurs signets, ce renommage des signets permet de les utiliser facilement.
+Conseil 
+
+Si vous sélectionnez une portion de texte puis activez le bouton Marque-page, le marque-page créé aura pour intitulé la ligne sélectionnée.
+
+Si vous avec placé un signet sans sélectionner une portion de texte, essayez de copier la ligne sur laquelle vous vous trouvez dans le presse-papiers. Allez ensuite dans les options de navigation avec <kbd>Ctrl</kbd> + <kbd>N</kbd>, puis descendez jusqu'à la rubrique des Marque-page, où ils sont répertoriés. Appuyez sur la touche b pour vous déplacer vers le bouton d'édition afin de renommer le signet. Collez la ligne du presse-papiers et appuyez sur la touche <kbd>Entrée</kbd>. Cela renomme le signet avec la ligne de texte que vous avez copiée. Lorsque vous avez plusieurs signets, ce renommage des signets permet de les utiliser facilement.
 {{< /hint >}}
+
+{{< details "Utiliser les **Marque-pages** avec NVDA">}}
+
+N'oubliez pas que les lecteurs d'écran sous Windows utilisent un tampon virtuel pour la lecture. Pour placer un signet à l'endroit où vous lisez actuellement, appuyez sur la touche <kbd>NVDA + entrée</kbd>, et NVDA dira *"activer"*. Cela synchronise le tampon virtuel avec l'emplacement réel actuel, puis utilisez <kbd>Ctrl + B</kbd> pour placer un signet. 
 
 Appuyez sur <kbd>NVDA</kbd>+<kbd>entrée</kbd> pour que Thorium déduise l'objet sur lequel se trouve le curseur. Puis appuyez sur <kbd>Ctrl</kbd>+<kbd>B</kbd>. Une notification sonore vous informera du nombre de signets dans la publication en cours.
 {{< /details >}}

@@ -15,6 +15,8 @@ Thorium est un lecteur de livres numériques, c'est aussi une bibliothèque où 
 Sélectionnez le livre que vous souhaitez lire, utilisez le `menu contextuel` (clic droit), sélectionnez `ouvrir avec` puis sélectionnez `Thorium`. 
 
 {{< hint info >}} 
+Information.
+
 Vous pouvez définir le lecteur par défaut de certains types de fichiers par le biais des paramètres de Windows. 
 (sélectionner un fichier, ouvrir le menu contextuel, sélectionner `Ouvrir avec`, dans la fenêtre pop-up sélectionner `Thorium`, cocher la case `Toujours ouvrir avec`). Cette opération doit être renouvelée pour chaque format de fichier que vous souhaitez lire avec Thorium.
 {{< /hint >}}

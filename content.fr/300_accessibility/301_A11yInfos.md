@@ -12,9 +12,13 @@ Actuellement Thorium affiche dans la <a href="../400_shortcodes/404_glossary.htm
 <img src="/thorium-reader-doc/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
 
 {{< hint warning >}}
+Attention !
+
 Des travaux sont en cours pour proposer un guide d'affichage des informations d'accessibilité. Nous suivons ces travaux et implementerons les recommandations prochainement.
 {{< /hint >}}
 
 {{< hint danger >}}
+Attention !
+
 Les informations d'accessibilité doivent être renseignées par les éditeurs. Thorium affiche ces informations telles qu'elles ont étées définies. En cas de doute ou de réclamation contactez le distributeur ou l'éditeur du fichier.
 {{< /hint >}}
