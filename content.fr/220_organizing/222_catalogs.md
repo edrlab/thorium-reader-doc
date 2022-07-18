@@ -15,8 +15,14 @@ De nombreuses bibliothèques publiques et librairies adoptent <a href="https://o
   {{< columns >}}
 
 {{< hint info >}}
-Lorsque vous êtes dans la bibliothèque de Thorium, sélectionnez l'onglet `Catalogues` puis le bouton `+ Ajouter un flux OPDS`. Indiquez un Nom pour désigner ce catalogues et collez une adresse correspondant à un catalogue distribué au format OPDS. Validez avec le bouton `Ajouter`
+Lorsque vous êtes dans la bibliothèque de Thorium, sélectionnez l'onglet <kbd>Catalogues</kbd> puis le bouton `+ Ajouter un flux OPDS`. Indiquez un Nom pour désigner ce catalogues et collez une adresse correspondant à un catalogue distribué au format OPDS. Validez avec le bouton `Ajouter`
 {{< /hint >}}
+
+<figure>
+  <img src="/thorium-reader-doc/images/local-fr/thorium-opds-add.png" alt="">
+  <figcaption class="icon">
+  </figcaption>
+</figure>
 
 <--->
 
@@ -24,6 +30,11 @@ Lorsque vous êtes dans la bibliothèque de Thorium, sélectionnez l'onglet `Cat
 <p>Gallica vous propose un&nbsp;<a href="http://gallica.bnf.fr/opds" target="_blank">catalogue OPDS</a>&nbsp;permettant de parcourir, télécharger et lire tous les livres de Gallica <a href="http://gallica.bnf.fr/ebooks" target="_blank">disponibles au format EPUB</a>.</p>
 
 <p>Les liens suivants offrent <a href="http://gallica.bnf.fr/blog/27042017/retrouvez-tous-nos-livres-au-format-epub-dans-votre-application-de-lecture-favorite">plus d'information sur le catalogue OPDS de Gallica</a> et <a href="https://gallica.bnf.fr/edit/und/a-propos">à propos de Gallica.</a></p> 
+<figure>
+  <img src="/thorium-reader-doc/images/local-fr/thorium-opds-gallica-1.png" alt="">
+  <figcaption class="icon">
+  </figcaption>
+</figure>
 
 {{< /columns >}}
 

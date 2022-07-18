@@ -7,8 +7,9 @@ weight: 000
 toc: true
 ---
 <!--
-shift+click to zoom in.
+Shift+click to zoom in.
 
+<img src="/thorium-reader-doc/images/local-fr/..." alt=""/>
 
 Shortcodes
 * {{< hint info >}}{{< /hint >}}

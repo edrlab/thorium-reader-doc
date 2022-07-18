@@ -29,7 +29,5 @@ toc: true
   </ul>
   <--->
 
-  <p>  <img src="/images/edrlab_home11.png" alt="" /></p>
-  <p>  <img src="/images/piggy-bank.jpeg" alt="" /></p>
 
   {{< /columns >}}

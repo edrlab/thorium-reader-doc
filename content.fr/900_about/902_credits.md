@@ -6,6 +6,8 @@ weight: 902
 toc: true
 ---
 
+Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.
+
   <h2>Qui a développé cette application</h2>
 
   <p>Thorium Reader est actuellement développé par :</p>
