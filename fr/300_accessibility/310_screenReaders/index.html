@@ -17,13 +17,13 @@ Les fonctions d&rsquo;accessibilité adressées aux technologies d&rsquo;assista
 Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&#39;écran (par exemple la touche de verrouillage des majuscules)" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/310_screenReaders/" />
-<meta property="article:modified_time" content="2022-07-18T17:19:57+02:00" /><meta property="og:site_name" content="Thorium Reader" />
+<meta property="article:modified_time" content="2022-07-18T17:32:23+02:00" /><meta property="og:site_name" content="Thorium Reader" />
 <title>Thorium et les lecteurs d&#39;écran | Thorium Reader</title>
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/thorium-reader-doc/book.min.c47943ae4776218575e2fca55b71d1411703b9f37aa1e2c891841814c9878e22.css" integrity="sha256-xHlDrkd2IYV14vylW3HRQRcDufN6oeLIkYQYFMmHjiI=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/fr.search.min.afaffdfa52dfc7924b10af459d9d074b60fcba0870c666ed4213fe1f682a19db.js" integrity="sha256-r6/9&#43;lLfx5JLEK9FnZ0HS2D8ughwxmbtQhP&#43;H2gqGds=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/fr.search.min.792b7536c41dd4d009e122e5f412df7d58e7188dfd70863970ba2e9d1b18e4b2.js" integrity="sha256-eSt1NsQd1NAJ4SLl9BLffVjnGI39cIY5cLounRsY5LI=" crossorigin="anonymous"></script>
 
   <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <!--
@@ -589,15 +589,41 @@ https://github.com/alex-shpak/hugo-book
 <p>(contribution de Prashant Verma, Consortium DAISY)</p>
 <p>Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d'écran (par exemple la touche de verrouillage des majuscules)</p>
 <h2 id="touches-rapides-pour-la-navigation">Touches rapides pour la navigation</h2>
-<p>Le lecteur d'écran doit être en mode navigation ou curseur virtuel.
-|Commande |description|
-|&mdash;|&mdash;|
-|Titre suivant |<kbd>H</kbd>|
-|Tableau suivant |<kbd>T</kbd>|
-|Graphique suivant |<kbd>G</kbd>|
-|Liste suivante |<kbd>L</kbd>|
-|Champ de formulaire suivant |<kbd>F</kbd>|
-|Liste d'éléments |<kbd>Insert</kbd>+<kbd>F7</kbd> (fonctionne quel que soit le mode du curseur)|</p>
+<p>Le lecteur d'écran doit être en mode navigation ou curseur virtuel.</p>
+<table>
+<thead>
+<tr>
+<th>Commande</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Titre suivant</td>
+<td><kbd>H</kbd></td>
+</tr>
+<tr>
+<td>Tableau suivant</td>
+<td><kbd>T</kbd></td>
+</tr>
+<tr>
+<td>Graphique suivant</td>
+<td><kbd>G</kbd></td>
+</tr>
+<tr>
+<td>Liste suivante</td>
+<td><kbd>L</kbd></td>
+</tr>
+<tr>
+<td>Champ de formulaire suivant</td>
+<td><kbd>F</kbd></td>
+</tr>
+<tr>
+<td>Liste d'éléments</td>
+<td><kbd>Insert</kbd>+<kbd>F7</kbd> (fonctionne quel que soit le mode du curseur)</td>
+</tr>
+</tbody>
+</table>
 <p><em>Utilisez les touches ci-dessus avec la touche Maj pour passer à l'élément précédent.</em></p>
 <h2 id="texte">Texte</h2>
 <table>
@@ -610,27 +636,27 @@ https://github.com/alex-shpak/hugo-book
 <tbody>
 <tr>
 <td>Dire le caractère précédent</td>
-<td><kbd>FLECHE GAUCHE</kbd></td>
+<td><kbd>←</kbd></td>
 </tr>
 <tr>
 <td>Dire le caractère suivant</td>
-<td><kbd>FLECHE DROITE</kbd></td>
+<td><kbd>→</kbd></td>
 </tr>
 <tr>
 <td>Mot précédent</td>
-<td><kbd>CTRL+<kbd>Flèche gauche</kbd></td>
+<td><kbd>CTRL+<kbd>←</kbd></td>
 </tr>
 <tr>
 <td>Mot suivant</td>
-<td><kbd>CTRL+<kbd>Flèche droite</kbd></td>
+<td><kbd>CTRL+<kbd>→</kbd></td>
 </tr>
 <tr>
 <td>Ligne précédente</td>
-<td><kbd>Flèche haut</kbd></td>
+<td><kbd>↑</kbd></td>
 </tr>
 <tr>
 <td>Ligne suivante</td>
-<td><kbd>Flèche bas</kbd></td>
+<td><kbd>↓</kbd></td>
 </tr>
 <tr>
 <td>Dire la phrase précédente</td>
@@ -638,11 +664,11 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 <tr>
 <td>Dire la phrase suivante</td>
-<td><kbd>ALT</kbd>+<kbd>Flèche bas</kbd>(Jaws seulement)</td>
+<td><kbd>ALT</kbd>+<kbd>↓</kbd>(Jaws seulement)</td>
 </tr>
 <tr>
 <td>Dire tout</td>
-<td><kbd>INSERT</kbd>+<kbd>Flèche bas</kbd></td>
+<td><kbd>INSERT</kbd>+<kbd>↓</kbd></td>
 </tr>
 <tr>
 <td>Dire Police</td>
@@ -661,19 +687,19 @@ https://github.com/alex-shpak/hugo-book
 <tbody>
 <tr>
 <td>Cellule vers la droite</td>
-<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>Flèche droite</kbd></td>
+<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>→</kbd></td>
 </tr>
 <tr>
 <td>Cellule vers la gauche</td>
-<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>Flèche gauche</kbd></td>
+<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>←</kbd></td>
 </tr>
 <tr>
 <td>Cellule en dessous</td>
-<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>Flèche bas</kbd></td>
+<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>↓</kbd></td>
 </tr>
 <tr>
 <td>Cellule au-dessus</td>
-<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>Flèche haut</kbd></td>
+<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>↑</kbd></td>
 </tr>
 </tbody>
 </table>
