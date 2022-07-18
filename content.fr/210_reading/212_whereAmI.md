@@ -24,7 +24,7 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
 Appuyez sur  <kbd>Echap</kbd>  pour femer le panneau *Informations* et revenir au texte. 
 
 
-{{< details "Pour utiliser **Où suis-je** avec NVDA">}}
+{{< details "Utiliser **Où suis-je** avec NVDA">}}
 
 Appuyez sur la touche <kbd>NVDA</kbd>+<kbd>F7</kbd>, puis sur la touche de tabulation jusqu'à ce que vous obteniez la vue de l'en-tête. Cela vous montre où vous vous trouvez dans la structure du titre. 
 

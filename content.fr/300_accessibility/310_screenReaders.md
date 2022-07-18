@@ -12,8 +12,3 @@ Les fonctions d'accessibilité adressées aux technologies d'assistance peuvent 
 {{< /hint >}}
 
 # Thorium est utilsable avec le lecteur d'écran NVDA
-
-
-
-
-

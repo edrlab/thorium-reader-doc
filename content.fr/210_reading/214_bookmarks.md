@@ -15,8 +15,6 @@ Un marque page peut être un point fixe ou comporter une sélection de texte.
 
 {{< hint info >}}
 Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages (<img src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">) ou la combinaison de touches  <kbd>Ctrl</kbd>  +  <kbd>B</kbd> . 
-<figure> 
-</figure>
 {{< /hint >}}
 
 ## Révision et navigation dans les Marques-pages 
@@ -24,7 +22,6 @@ Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. App
 Appuyez sur le bouton de navigation (<kbd>Ctrl</kbd>+<kbd>N</kbd>), puis sur le bouton `Signets`. Vous pouvez modifier le nom de chaque signet, supprimer des signets et vous déplacer vers les signets en appuyant sur <kbd>Entrée</kbd>.
 
 Accédez à la liste des signets dans la zone de navigation. Sélectionnez le signet auquel vous souhaitez accéder et appuyez sur la touche <kbd>Entrée</kbd>. Si vous avez renommé le signet, il sera facile d'aller à plusieurs endroits dans le livre.
-
 
 {{< details "Pour utiliser les **Marque-pages** avec NVDA">}}
 

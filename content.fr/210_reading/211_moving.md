@@ -11,10 +11,18 @@ Les options de navigation peuvent être très différentes d'un livre à l'autre
 
 ## Avancer et reculer 
 
-Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation.
+Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation situées en bas à droite de l'interface de lecture (<span class="InlineIcons"><img src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"><img src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px"></span>).
+
 
 ## Le menu de la table des matières
 La table des matières représente l'architecture du livre telle que définie par l'organisation productrice de ce dernier. 
+
+<img src="/thorium-reader-doc/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
+
+
+{{< details "Avec NVDA">}}
+Vous pouvez utiliser les fonctions de navigation par niveaux de titre (<kbd>NVDA</kbd>+<kbd>H</kbd>) pour explorer et vous déplacer dans la table des matières.
+{{< /details >}}
 
 ## Les pages de référence
 
@@ -25,7 +33,9 @@ Il existe une option de navigation permettant d'aller à la page. Lorsque vous y
 Il existe également un raccourci clavier pour cette fonction. Appuyez sur <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, puis saisissez le numéro de page dans la boîte d'édition en le tapant ou en modifiant la valeur à l'aide de la boîte `Aller à la page`.
 
 {{< hint warning >}}
-Les livres adaptés utilisent parfois la pagination de référnce pour proposer un découpage du livre régulier aux lecteurs. Dans ce cas la pagination de référence ne peut pas être utilisée pour se référer au livre imprimé.
+Attention ! 
+
+Les <a href="/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">livres adaptés</a> utilisent parfois la pagination de référence pour proposer un découpage du livre régulier aux lecteurs sans reproduire la pagination de l'original. Dans ce cas la pagination de référence ne peut pas être utilisée pour se référer au livre imprimé.
 {{< /hint >}}
 
 ## Les points de repères
@@ -46,9 +56,11 @@ La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.o
 {{< /hint >}}
 
 {{< hint danger >}}
+
+Attention ! 
+
 Les signets des fichiers PDF utilisés pour palier à l'absence de table des matière de ce format ne sont pas interprétés par Thorium.
 {{< /hint >}}
-
 
 <!-- Ne fonctionne pas
 ## Déplacement entre les chapitres sans utiliser la Table des matières
