@@ -13,23 +13,22 @@ Les options de navigation peuvent être très différentes d'un livre à l'autre
 
 Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation situées en bas à droite de l'interface de lecture (<span class="InlineIcons"><img src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"><img src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px"></span>).
 
-
-## Le menu de la table des matières
-
 {{< columns >}}
+## Le menu de la table des matières
 
 La table des matières représente l'architecture du livre telle que définie par l'organisation productrice de ce dernier. 
 
 Les titres de premier niveau sont indiqués sans marge, ceux qui comportent des sous titres (ou titre de niveau 2) sont présentés sur un fond grisés. Les sous titres sont décalés de la marge à gauche et un filet permet de savoir facilement à quel niveau de titre supérieur ils appartiennent.
 
+{{< details "Avec NVDA">}}
+Vous pouvez utiliser les fonctions de navigation par niveaux de titre (<kbd>NVDA</kbd>+<kbd>H</kbd>) pour explorer et vous déplacer dans la table des matières.
+{{< /details >}}
 <--->
 
 <img src="/thorium-reader-doc/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
 {{< /columns >}}
 
-{{< details "Avec NVDA">}}
-Vous pouvez utiliser les fonctions de navigation par niveaux de titre (<kbd>NVDA</kbd>+<kbd>H</kbd>) pour explorer et vous déplacer dans la table des matières.
-{{< /details >}}
+
 
 
 ## Les points de repères
