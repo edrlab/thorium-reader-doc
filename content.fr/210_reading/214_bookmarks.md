@@ -9,17 +9,19 @@ toc: true
 
 ## Ajouter un signet ou une surbrillance
 
-Le bouton `Marque page` permet d'ajouter un point de repère personnalisé ou marque page. 
+Le bouton `Marque-page` permet d'ajouter un point de repère personnalisé. 
 
-Un marque page peut être un point fixe ou comporter une sélection de texte. 
+Un Marque-page peut être un point fixe ou comporter une sélection de texte. 
 
 {{< hint info >}}
-Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages (<img src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">) ou la combinaison de touches  <kbd>Ctrl</kbd>  +  <kbd>B</kbd> . 
+
+Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton `Marque-pages` (<img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">) ou la combinaison de touches  <kbd>Ctrl</kbd>  +  <kbd>B</kbd>.
+
 {{< /hint >}}
 
 ## Révision et navigation dans les Marques-pages 
 
-Appuyez sur le bouton de navigation (<kbd>Ctrl</kbd>+<kbd>N</kbd>), puis sur le bouton `Signets`. Vous pouvez modifier le nom de chaque signet, supprimer des signets et vous déplacer vers les signets en appuyant sur <kbd>Entrée</kbd>.
+Appuyez sur le bouton de navigation (<kbd>Ctrl</kbd> + <kbd>N</kbd>), puis sur le bouton `Signets`. Vous pouvez modifier le nom de chaque signet, supprimer des signets et vous déplacer vers les signets en appuyant sur <kbd>Entrée</kbd>.
 
 Accédez à la liste des signets dans la zone de navigation. Sélectionnez le signet auquel vous souhaitez accéder et appuyez sur la touche <kbd>Entrée</kbd>. Si vous avez renommé le signet, il sera facile d'aller à plusieurs endroits dans le livre.
 
@@ -43,6 +45,6 @@ Si vous avec placé un signet sans sélectionner une portion de texte, essayez d
 
 N'oubliez pas que les lecteurs d'écran sous Windows utilisent un tampon virtuel pour la lecture. Pour placer un signet à l'endroit où vous lisez actuellement, appuyez sur la touche <kbd>NVDA + entrée</kbd>, et NVDA dira *"activer"*. Cela synchronise le tampon virtuel avec l'emplacement réel actuel, puis utilisez <kbd>Ctrl + B</kbd> pour placer un signet. 
 
-Appuyez sur <kbd>NVDA</kbd>+<kbd>entrée</kbd> pour que Thorium déduise l'objet sur lequel se trouve le curseur. Puis appuyez sur <kbd>Ctrl</kbd>+<kbd>B</kbd>. Une notification sonore vous informera du nombre de signets dans la publication en cours.
+Appuyez sur <kbd>NVDA</kbd> + <kbd>entrée</kbd> pour que Thorium déduise l'objet sur lequel se trouve le curseur. Puis appuyez sur <kbd>Ctrl</kbd> + <kbd>B</kbd>. Une notification sonore vous informera du nombre de signets dans la publication en cours.
 {{< /details >}}
 

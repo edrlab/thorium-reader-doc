@@ -86,7 +86,7 @@ toc: true
 <figure>
   <img class="icons" src="/thorium-reader-doc/images/icons/download.svg" alt="" width="20px">
   <figcaption class="icon">
-  </figcaption>Sauvegarder une copie du fichier du livre. Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les marque page ne sont pas présents dans ce fichier exporté..
+  </figcaption>Sauvegarder une copie du fichier du livre. Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les Marque-page ne sont pas présents dans ce fichier exporté..
 </figure>
 
 
@@ -150,7 +150,7 @@ toc: true
 <figure>
   <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px.svg" alt="" width="20px">
   <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark_border-24px.svg" alt="" width="20px">
-  <figcaption class="icon">Ajoute ou supprime un Marque Page
+  <figcaption class="icon">Ajoute ou supprime un Marque-page
   </figcaption>
 </figure>
 
@@ -159,7 +159,7 @@ toc: true
 <figure>
   <img class="icons" src="/thorium-reader-doc/images/icons/open_book.svg" alt="" width="20px">
   <figcaption class="icon">
-  </figcaption>Ouvre ou ferme le panneau de navigation (donne accès à la table des matières, aux repéres, aux Marque Pages et à la pagination de référence)
+  </figcaption>Ouvre ou ferme le panneau de navigation (donne accès à la table des matières, aux repéres, aux Marque-pages et à la pagination de référence)
 </figure>
 
 
@@ -211,7 +211,7 @@ toc: true
 ### Navigation
 <figure>
   <img class="icons" src="/thorium-reader-doc/images/icons/baseline-edit-24px.svg" alt="" width="20px">   <img class="icons" src="/thorium-reader-doc/images/icons/baseline-edit-24px-grey.svg" alt="" width="20px">
-  <figcaption class="icon">Éditer (le nom d'un marque page)
+  <figcaption class="icon">Éditer (le nom d'un Marque-page)
   </figcaption>
 </figure>
 

@@ -18,7 +18,7 @@ toc: true
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_list-24px.svg" alt="" width="20px">|<span class="function">Vue liste des livres</span>||||
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_module-24px.svg" alt="" width="20px">|<span class="function">Vue grille des livres</span>||||
 |<img class="icons" src="/thorium-reader-doc/images/icons/done.svg" alt="" width="20px">|<span class="function">Indique que l'action est terminée par exemple lors de l'import d'un livre</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/download.svg" alt="" width="20px">|<span class="function">Sauvegarder une copie du fichier du livre. </span>|Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les marque page ne sont pas présents dans ce fichier exporté.
+|<img class="icons" src="/thorium-reader-doc/images/icons/download.svg" alt="" width="20px">|<span class="function">Sauvegarder une copie du fichier du livre. </span>|Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les Marque-page ne sont pas présents dans ce fichier exporté.
 |||
 |<img class="icons" src="/thorium-reader-doc/images/icons/landmark.svg" alt="" width="20px">|<span class="function"> Repéres</span>||||
 |<img class="icons" src="/thorium-reader-doc/images/icons/loader.svg" alt="" width="20px">|<span class="function">Indique que le livre est en cours d'ajout à Thorium. Cette indication n'est actuellement pas donnée aux utilisateurs de lecteur d'écran.||||
@@ -32,8 +32,8 @@ toc: true
 |<img class="icons" src="/thorium-reader-doc/images/icons/outline-flip_to_front-24px.svg" alt="" width="20px">|<span class="function"> Préférences</span>||||
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="" width="20px">|<span class="function">Contenu suivant</span>||||
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="" width="20px">|<span class="function">Contenu précédent</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px.svg" alt="" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark_border-24px.svg" alt="" width="20px">|<span class="function">Ajoute ou supprime un Marque Page</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/open_book.svg" alt="" width="20px">|<span class="function">Ouvre ou ferme le panneau de navigation</span>|Donne accès à la table des matières, aux repéres, aux Marque Pages et à la pagination de référence||<kbd>Ctrl</kbd>  +  <kbd>n</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px.svg" alt="" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark_border-24px.svg" alt="" width="20px">|<span class="function">Ajoute ou supprime un Marque-page</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/open_book.svg" alt="" width="20px">|<span class="function">Ouvre ou ferme le panneau de navigation</span>|Donne accès à la table des matières, aux repéres, aux Marque-pages et à la pagination de référence||<kbd>Ctrl</kbd>  +  <kbd>n</kbd>|
 
 ### Préférences d'affichage
 
@@ -67,7 +67,7 @@ Panneau des paramètres & préférences de l'utilisateur pour l'affichage du con
 ### Navigation
 |Icone|Fonction|Description|Notes|Raccourcis|
 |---|---|---|---|---|
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-edit-24px.svg" alt="" width="20px">   <img class="icons" src="/thorium-reader-doc/images/icons/baseline-edit-24px-grey.svg" alt="" width="20px">|<span class="function">Éditer (le nom d'un marque page)</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-edit-24px.svg" alt="" width="20px">   <img class="icons" src="/thorium-reader-doc/images/icons/baseline-edit-24px-grey.svg" alt="" width="20px">|<span class="function">Éditer (le nom d'un Marque-page)</span>||||
 ||Table des matières|||<kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>n</kbd>|
 ||Menu Pages de références|||<kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>p</kbd> |
 

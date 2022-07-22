@@ -91,7 +91,7 @@ La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, ou
  </dd>
 </dl>
 <dl>
- <dt> <kbd>Ctrl</kbd> + <kbd>left</kbd> ou </kbd> right</kbd> : page de catalogue suivante ou précédente (<code>NavigatePreviousOPDSPage / NavigateNextOPDSPage</code>) </dt>
+ <dt> <kbd>Ctrl</kbd> + <kbd>&larr;</kbd> ou </kbd>&rarr;</kbd> : page de catalogue suivante ou précédente (<code>NavigatePreviousOPDSPage / NavigateNextOPDSPage</code>) </dt>
  <dd> dans la fenêtre de bibliothèque pour les flux OPDS, active les liens de pagination précédents ou suivants.
  </dd>
 </dl>
@@ -101,17 +101,17 @@ La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, ou
  </dd>
 </dl>
 <dl>
- <dt> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>left</kbd> ou <kbd>right</kbd> : chapitre suivant ou précédent (<code>NavigatePreviousChapter / NavigateNextChapter</code>) </dt>
- <dd> dans la fenêtre du lecteur, déplacement vers le "chapitre" précédent ou suivant (élément d'épine dans l'ordre de lecture de la publication). Notez que le focus du clavier est automatiquement déplacé vers le repère de la zone "principale", qui se trouve immédiatement avant le cadre qui affiche le contenu de la publication (comme lorsqu'on suit / active un lien dans la table des matières).
+ <dt> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&larr;</kbd> ou <kbd>&rarr;</kbd> : chapitre suivant ou précédent (<code>NavigatePreviousChapter / NavigateNextChapter</code>) </dt>
+ <dd> dans la fenêtre du lecteur, déplacement vers le "chapitre" précédent ou suivant. Notez que le focus du clavier est automatiquement déplacé vers le repère de la zone "principale", qui se trouve immédiatement avant le cadre qui affiche le contenu de la publication (comme lorsqu'on suit / active un lien dans la table des matières).
  </dd>
 </dl>
 <dl>
- <dt> <kbd>Ctrl</kbd> + <kbd>page down</kbd> ou <kbd>page up</kbd> : chapitre suivant ou précédent (<code>NavigatePreviousChapterAlt / NavigateNextChapterAlt</code>) </dt>
+ <dt> <kbd>Ctrl</kbd> + <kbd>Début(page down)</kbd> ou <kbd>Fin (page up)</kbd> : chapitre suivant ou précédent (<code>NavigatePreviousChapterAlt / NavigateNextChapterAlt</code>) </dt>
  <dd> même chose que ci-dessus (raccourci clavier alternatif)
  </dd>
 </dl>
 <dl>
- <dt> <kbd>left</kbd> *ou* <kbd>right</kbd> : page suivante ou précédente (<code>NavigatePreviousPage / NavigateNextPage</code>) </dt>
+ <dt> <kbd>&larr;</kbd> *ou* <kbd>&rarr;</kbd> : page suivante ou précédente (<code>NavigatePreviousPage / NavigateNextPage</code>) </dt>
  <dd> dans la fenêtre du lecteur, déplacement vers la "page" précédente ou suivante (ou unité de défilement, si la pagination est désactivée)
  </dd>
 </dl>
