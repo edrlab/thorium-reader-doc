@@ -79,14 +79,14 @@ toc: false
 
 <figure>
   <img class="icons" src="/thorium-reader-doc/images/icons/done.svg" alt="" width="20px">
-  <figcaption class="icon">Indique que l'action est terminée par exemple lors de l'import d'un livre
+  <figcaption class="icon">Indique que l'action est terminée par exemple lors de l'import d'un livre.
   </figcaption>
 </figure>
 
 <figure>
   <img class="icons" src="/thorium-reader-doc/images/icons/download.svg" alt="" width="20px">
   <figcaption class="icon">
-  </figcaption>Sauvegarder une copie du fichier du livre. Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les Marque-page ne sont pas présents dans ce fichier exporté..
+  </figcaption>Sauvegarder une copie du fichier du livre. Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les Marque-page ne sont pas présents dans ce fichier exporté.
 </figure>
 
 
@@ -112,7 +112,7 @@ toc: false
 
 <figure>
   <img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_back-24px.svg" alt="" width="20px">
-  <figcaption class="icon">Retour à la biliothèque (ferme le livre en cour de lecture)
+  <figcaption class="icon">Retour à la biliothèque (ferme le livre en cours de lecture)
   </figcaption>
 </figure>
 

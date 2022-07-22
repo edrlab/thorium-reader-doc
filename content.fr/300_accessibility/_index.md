@@ -7,6 +7,8 @@ bookCollapseSection: true
 
  {{< hint warning >}}
 
+Attention !
+
 Les fonctions d'accessibilité peuvent être affecté par la qualité des fichiers lus. 
 
 {{< /hint >}}

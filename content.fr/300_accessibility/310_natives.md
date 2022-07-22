@@ -16,7 +16,7 @@ Les fonctions d'accessibilité natives proposées par Thorium peuvent être affe
 
 ## Ajustements visuels
 
-- L'application permet de modifier la taille du texte et les couleurs.
+- L'application permet de [modifier les thèmes de couleurs](/thorium-reader-doc/fr/210_reading/215_ReadingParameters/#th%c3%a8me) et de [modifier la police d'affichage, la taille du texte](/thorium-reader-doc/fr/210_reading/215_ReadingParameters/#texte).
 
 - il est possible d'utiliser toutes les polices installées sur l'ordinateur.
 
@@ -32,7 +32,7 @@ Les fonctions d'accessibilité natives proposées par Thorium peuvent être affe
 
 Attention !
 
-Les ajustements visuels ne sont pas possibles avec les formats à mise en page fixe comme certains EPUBs ou les fichiers PDF.
+Les ajustements visuels ne sont pas possibles avec les formats à mise en page fixe comme certains EPUBs (dits <span lang="en">Fixed Layout</span>) ou les fichiers PDF.
 
 {{< /hint >}}
 
