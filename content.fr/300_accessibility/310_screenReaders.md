@@ -47,7 +47,7 @@ Le lecteur d'écran doit être en mode navigation ou curseur virtuel.
 |Ligne précédente |<kbd>&uarr;</kbd>|
 |Ligne suivante |<kbd>&darr;</kbd>|
 |Dire la phrase précédente |<kbd>ALT</kbd>+<kbd>&uarr;</kbd> (Jaws uniquement)|
-|Dire la phrase suivante |<kbd>ALT</kbd>+<kbd>&darr;</kbd>(Jaws seulement)|
+|Dire la phrase suivante |<kbd>ALT</kbd>+<kbd>&darr;</kbd> (Jaws uniquement)|
 |Dire tout |<kbd>INSERT</kbd>+<kbd>&darr;</kbd>|
 |Dire Police |<kbd>INSERT</kbd>+<kbd>F</kbd>|
 

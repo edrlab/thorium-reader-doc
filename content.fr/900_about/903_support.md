@@ -6,8 +6,6 @@ weight: 903
 toc: true
 ---
 
-{{< columns >}}
-
 
   <p>
     Vous aussi pouvez aider Thorium Reader à devenir la meilleure application de lecture en <a href="https://www.edrlab.org/become-a-member/">devenant membre à EDRLab</a>.
@@ -27,7 +25,3 @@ toc: true
   <li>Participer à la traduction des ressources.</li>
 
   </ul>
-  <--->
-
-
-  {{< /columns >}}
