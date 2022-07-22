@@ -6,39 +6,7 @@ weight: 110
 toc: true
 ---
 
-# Lecture non visuelle
-avec NVDA
 
-## Lancez "lire à partir d'ici".
-## Arrêt et reprise de la lecture
-## Tout le texte doit être lu dans le bon ordre.
-## Lecture du texte alternatif de l'image
-## Modifier la vitesse de lecture
-## La TTS permet de faire des pauses pour les titres, les paragraphes, les éléments de liste, etc.
-## Naviguer entre les cellules, les lignes et les colonnes d'un tableau
-La navigation dans les tableaux avec NVDA est entièrement prise en charge.
-## Naviguer entre les hyperliens internes
-Les liens internes fonctionnent correctement.
-## Passer à l'élément de bloc suivant
-## Navigation par caractères
-## Navigation par mots
-## Naviguer par lignes
-## Naviguer dans le contenu par les rubriques
-La navigation par titres et autres éléments pris en charge par NVDA fonctionne comme prévu.
-## Sélectionner et copier du texte
-# Résultats pour les mathématiques : 100%
-Vous vous trouvez dans le bloc MathML et vous pouvez le lire en utilisant les différentes approches NVDA, par exemple en utilisant le complément Access8Math.
-## Navigation dans le langage MathML en ligne avec les technologies d'assistance et autres technologies
-Fonctionne comme Block math.
-## Navigation dans les images du bloc mathématique suivies du résumé/détail avec MathML
-## Navigation dans des images mathématiques en ligne suivies par du MathML commenté
-## Résultats pour les descriptions étendues : 100%
-## Résumé
-lecture Testé sur Windows 11 avec NVDA 2021.3.1 et Thorium 1.8, disponible dans la boutique Microsoft. L'expérience de lecture est excellente. Les liens internes fonctionnent correctement
-## Détection et utilisation des éléments HTML Détails et Résumé
-L'élément HTML details se développe et se réduit comme prévu. Tout le contenu peut être lu à l'aide des fonctions de lecture, par exemple, le mode de lecture de tableau est disponible.
-## Technique permettant d'établir un lien vers une seule description étendue placée dans un fichier HTML distinct via des hyperliens textuels.
-Vérifiez si l'activation du lien hypertexte placé sous l'image vous amène à un fichier HTML séparé contenant des descriptions étendues, et si le lien retour qui s'y trouve vous ramène à l'image.
 
 # https://vimeo.com/472222491
 
@@ -152,46 +120,6 @@ Vous pouvez cliquer sur le bouton de menu avec le livre (forme de trois points) 
 
 Cliquez sur la couverture ou le titre du livre pour l'ouvrir et le lire. Si le livre a été ouvert précédemment, Thorium ouvrira la dernière page lue ou bien la première page du livre sera affichée. Vous pouvez maintenant utiliser les boutons gauche ou droite ou la barre de défilement pour feuilleter le livre. Vous pouvez également cliquer sur le bouton de navigation et ensuite sur le bouton Table des matières pour voir la liste des chapitres et des sous-sections du titre actuel.
 
-Traduit avec www.DeepL.com/Translator (version gratuite)
-
-# https://github.com/edrlab/thorium-reader/issues/155#issuecomment-538444673
-
-Séquences de touches communes à NVDA et JAWS
-
-(contribution de Prashant Verma, Consortium DAISY)
-
-Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d'insertion peut être remplacée par la touche modificatrice du lecteur d'écran (par exemple la touche de verrouillage des majuscules)
-Commande de description
-Dire le caractère précédent FLECHE GAUCHE
-Dire le caractère suivant FLECHE DROITE
-Mot précédent CTRL+Flèche gauche
-Mot suivant CTRL+Flèche droite
-Ligne précédente Flèche vers le haut
-Ligne suivante BAS ARROW
-Dire la phrase précédente Flèche ALT+HAUT (Jaws uniquement)
-Dire la phrase suivante Flèche ALT+BAS (Jaws seulement)
-Dire tout INSERT+Flèche BAS
-Dire Police INSERT+F
-
-Tableaux
-Description Commande
-Cellule vers la droite ALT+CTRL+Flèche droite
-Cellule vers la gauche ALT+CTRL+Flèche gauche
-Cellule en dessous ALT+CTRL+Flèche bas
-Cellule au-dessus ALT+CTRL+Flèche haut
-
-Touches rapides pour la navigation dans le navigateur
-
-Le lecteur d'écran doit être en mode navigation ou curseur virtuel.
-Description Commande
-Titre suivant h
-Tableau suivant t
-Graphique suivant g
-Liste suivante l
-Champ de formulaire suivant f
-Liste d'éléments Insert+F7 (fonctionne quel que soit le mode du curseur)
-
-Utilisez les touches ci-dessus avec la touche Maj pour passer à l'élément précédent.
 
 # 
 
@@ -254,11 +182,6 @@ George
 
 From: Daniel Weck <notifications@github.com>
 Sent: Thursday, March 12, 2020 2:24 AM
-To: readium/readium-desktop <readium-desktop@noreply.github.com>
-Cc: George <kerscher@montana.com>; Manual <manual@noreply.github.com>
-Subject: Re: [readium/readium-desktop] Keyboard shortcuts (#155)
-
-
 
 I insert a bookmark in a chapter somewhere, normally several heading s down. I then navigate away to a different chapter. I go to the bookmarks, and I get taken to the beginning of the chapter.
 
@@ -266,39 +189,23 @@ Ah, yes, this is a tricky general problem which is currently unresolved. Basical
 
 George, using your screen reader, are you able to generate a mouse click inside the currently-narrated HTML element? If so, then Thorium should be able to detect this "virtual" mouse click, which will then set the reading location to this exact spot. Then (after a few milliseconds), just hit CTRL + b in order to place a bookmark there.
 
-—
-You are receiving this because you are subscribed to this thread.
-Reply to this email directly, view it on GitHub <#155 (comment)> , or unsubscribe <https://github.com/notifications/unsubscribe-auth/ABW4OSHYM6UZSWIZNWZVQCDRHCL3LANCNFSM4FCS2VSA> .
-@gautierchomel
-Attach files by dragging & dropping, selecting or pasting them.
-Remember, contributions to this repository should follow our GitHub Community Guidelines.
-Assignees
-
-@danielweck
-danielweck
-Labels
-accessibility
-enhancement
-feature
-keyboard
-user-interface
-Projects
-None yet
-Milestone
-No milestone
-Development
-for this issue or link a pull request.
-Notifications
-Customize
-
-You’re receiving notifications because you’re watching this repository.
-7 participants
-@danielweck
-@panaC
-@gregoriopellegrino
-@GeorgeKerscher
-@ways2read
-@llemeurfr
-@manuellagrand
 
 
+
+# Non reproduit (juin 2022)
+ivan.jeukens@gmail.com
+octobre 2021
+I am learning how to use Thorium together with NVDA (on a windows 10). I noticed that using the automatic read feature of Thorium, I can start over from where I left the reading.
+However, when I stop it by pressing control 4, the focus is on the toolbar or the initial contents of the document.
+Isn't there a way to put the focus on the paragraph that Thorium's automatic reader was reading ?
+So for example, I can use the h key of NVDA to quickly find a part of the document I want to read, then start reading with control 2, then when I stop, I can skip or go back with up and down arrows, etc.
+I should add that with other features that behavior also happens. For example, if I use control N to look at the table of contents of a document, but then try to go back to the document, it will put focus again on the start of the document. Or if I use Thorium's search function, but find nothing, then go back, same behavior.
+In short, I can use NVDA to read the document, but if I try to use most of Thorium's features it will "lose" the position of where I was while reading.
+/
+
+J'apprends à utiliser Thorium avec NVDA (sur un Windows 10). J'ai remarqué qu'en utilisant la fonction de lecture automatique de Thorium, je peux recommencer là où j'ai laissé la lecture.
+Cependant, lorsque je l'arrête en appuyant sur Control 4, le focus est sur la barre d'outils ou le contenu initial du document.
+N'y a-t-il pas un moyen de mettre le focus sur le paragraphe que le lecteur automatique de Thorium était en train de lire ?
+Ainsi, par exemple, je peux utiliser la touche h de NVDA pour trouver rapidement une partie du document que je veux lire, puis commencer à lire avec la commande 2, puis lorsque je m'arrête, je peux sauter ou revenir en arrière avec les flèches haut et bas, etc.
+Je dois ajouter que ce comportement se produit également avec d'autres fonctions. Par exemple, si j'utilise la commande N pour consulter la table des matières d'un document, mais que j'essaie ensuite de revenir au document, la mise au point se fera à nouveau au début du document. Ou si j'utilise la fonction de recherche de Thorium, mais que je ne trouve rien, puis que je reviens en arrière, même comportement.
+En résumé, je peux utiliser NVDA pour lire le document, mais si j'essaie d'utiliser la plupart des fonctions de Thorium, je "perdrai" la position où je me trouvais pendant la lecture.
