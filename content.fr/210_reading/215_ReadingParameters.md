@@ -5,7 +5,7 @@ draft: false
 weight: 214
 toc: true
 ---
-Utilisez le bouton `Paramètres` : en cliquant sur ce bouton, les options suivantes sont révélées.
+Dans l'interface de lecture utilisez le bouton `Préférences` (<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="" width="20px">): en cliquant sur ce bouton, les options suivantes sont révélées.
 
 # Thème
 La couleur de l'arrière-plan et du premier plan peut être modifiée en utilisant l'un des trois thèmes disponibles - Neutre, Sépia et Nuit.

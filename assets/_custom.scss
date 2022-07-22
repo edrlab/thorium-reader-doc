@@ -16,7 +16,6 @@ kbd {
     border-radius: 5px;
 }
 
-
 .book-hint {
     padding:10px 30px 10px 10px;
     border-left: 6px;
@@ -26,10 +25,18 @@ kbd {
     border-radius: 10px;
     border-style: solid
     ;
-
 }
+
+/* Affects IMGs */
+.icons {
+    vertical-align: middle;
+    margin: 1px;}
 
 @mixin theme-light {}
 
 @mixin theme-dark {}
-
+.icons {
+    background-color: azure;  
+    border-radius: 2px; 
+    border-color: azure;
+}
