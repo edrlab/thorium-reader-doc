@@ -7,6 +7,7 @@
 .center {text-align: center;}
 .right {text-align: right;}
 .icon {display: inline; margin-left: 6px;}
+.InlineIcons {position: -10px;}
 
 kbd {
     color: black;
@@ -32,4 +33,7 @@ kbd {
 @mixin theme-light {}
 
 @mixin theme-dark {}
-
+.icons {
+    background-color: azure;  
+    border-radius: 2px; 
+    border-color: azure;}
