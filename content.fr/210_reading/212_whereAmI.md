@@ -3,7 +3,7 @@ title: "Où suis-je ?"
 description: ""
 draft: false
 weight: 212
-toc: true
+toc: false
 ---
 
 Lorsque vous consultez le menu *Navigation*, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu `Aller à la page`. 
@@ -24,9 +24,13 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
 - la structure des titres (h1 est un titre de niveau 1, h2 un titre de niveau , etc.)
 
 Appuyez sur  <kbd>Echap</kbd>  pour femer le panneau `Informations` et revenir au texte. 
+
 <--->
+
 <img src="/thorium-reader-doc/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
+
 {{< /columns >}}
+
 {{< details "Utiliser **Où suis-je** avec NVDA">}}
 
 Appuyez sur la touche <kbd>NVDA</kbd> + <kbd>F7</kbd>, puis sur la touche de tabulation jusqu'à ce que vous obteniez la vue de l'en-tête. Cela vous montre où vous vous trouvez dans la structure du titre. 

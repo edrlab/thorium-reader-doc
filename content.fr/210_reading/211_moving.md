@@ -3,7 +3,7 @@ title: "Se déplacer dans un livre"
 description: ""
 draft: false
 weight: 211
-toc: true
+toc: false
 ---
 
 # Naviguer dans un livre
@@ -13,19 +13,20 @@ Les options de navigation peuvent être très différentes d'un livre à l'autre
 
 Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation situées en bas à droite de l'interface de lecture (<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"><img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px">).
 
-Il est possible de se déplacer entre les chapitres en utilisant <kbd>Ctrl</kbd> + <kbd>Début</kbd> (chapitre précédent) et <kbd>Ctrl</kbd> + <kbd>Fin</kbd> (chapitre
-suivant) ou <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&larr;</kbd>(chapitre précédent) et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&rarr;</kbd> (chapitre suivant).
+Il est possible de se déplacer entre les chapitres en utilisant <kbd>Ctrl</kbd> + <kbd>Page précédente (Page Up)</kbd> (chapitre précédent) et <kbd>Ctrl</kbd> + <kbd>Page suivante (Page Down)</kbd> (chapitre
+suivant) ou <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&larr;</kbd> (chapitre précédent) et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&rarr;</kbd> (chapitre suivant).
 
-{{ < hint warning > }}
+{{< hint warning >}}
+
 Attention ! 
 
 Il existe deux raccourcis différents pour passer au chapitre suivant ou précédent. Selon votre configuration et l'usage ou non d'un lecteur d'écran il est possible que seule une de ces deux combinaisons fonctionne.
 
-{{ < /hint > }}
+{{< /hint >}}
 
 {{< columns >}}
 
-## Le menu de la table des matières
+## La table des matières
 
 La table des matières représente l'architecture du livre telle que définie par l'organisation productrice de ce dernier. 
 

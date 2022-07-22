@@ -3,7 +3,7 @@ title: "Raccourcis clavier"
 description: ""
 draft: false
 weight: 402
-toc: true
+toc: false
 ---
 
 {{< hint info >}}
@@ -91,7 +91,7 @@ La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, ou
  </dd>
 </dl>
 <dl>
- <dt> <kbd>Ctrl</kbd> + <kbd>&larr;</kbd> ou </kbd>&rarr;</kbd> : page de catalogue suivante ou précédente (<code>NavigatePreviousOPDSPage / NavigateNextOPDSPage</code>) </dt>
+ <dt> <kbd>Ctrl</kbd> + <kbd>&larr;</kbd> ou <kbd>&rarr;</kbd> : page de catalogue suivante ou précédente (<code>NavigatePreviousOPDSPage / NavigateNextOPDSPage</code>) </dt>
  <dd> dans la fenêtre de bibliothèque pour les flux OPDS, active les liens de pagination précédents ou suivants.
  </dd>
 </dl>
@@ -106,22 +106,22 @@ La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, ou
  </dd>
 </dl>
 <dl>
- <dt> <kbd>Ctrl</kbd> + <kbd>Début(page down)</kbd> ou <kbd>Fin (page up)</kbd> : chapitre suivant ou précédent (<code>NavigatePreviousChapterAlt / NavigateNextChapterAlt</code>) </dt>
+ <dt> <kbd>Ctrl</kbd> + <kbd>Page suivante (page down)</kbd> ou <kbd>Page précédente (page up)</kbd> : chapitre suivant ou précédent (<code>NavigatePreviousChapterAlt / NavigateNextChapterAlt</code>) </dt>
  <dd> même chose que ci-dessus (raccourci clavier alternatif)
  </dd>
 </dl>
 <dl>
- <dt> <kbd>&larr;</kbd> *ou* <kbd>&rarr;</kbd> : page suivante ou précédente (<code>NavigatePreviousPage / NavigateNextPage</code>) </dt>
+ <dt> <kbd>&larr;</kbd> ou <kbd>&rarr;</kbd> : page suivante ou précédente (<code>NavigatePreviousPage / NavigateNextPage</code>) </dt>
  <dd> dans la fenêtre du lecteur, déplacement vers la "page" précédente ou suivante (ou unité de défilement, si la pagination est désactivée)
  </dd>
 </dl>
 <dl>
- <dt> <kbd>Ctrl</kbd> + <kbd>comma</kbd> *ou* <kbd>.</kbd> : page suivante ou précédente (<code>NavigatePreviousPageAlt / NavigateNextPageAlt</code>) </dt>
+ <dt> <kbd>Ctrl</kbd> + <kbd>,</kbd> ou <kbd>.</kbd> : page suivante ou précédente (<code>NavigatePreviousPageAlt / NavigateNextPageAlt</code>) </dt>
  <dd> même chose que ci-dessus (raccourci clavier alternatif)
  </dd>
 </dl>
 <dl>
- <dt> <kbd>Ctrl</kbd> + <kbd>Home</kbd> ou <kbd>End</kbd> : Début ou Fin (<code>NavigateToBegin / NavigateToEnd</code>) </dt>
+ <dt> <kbd>Ctrl</kbd> + <kbd>Début</kbd> ou <kbd>Fin</kbd> : Début ou Fin (<code>NavigateToBegin / NavigateToEnd</code>) </dt>
  <dd> dans la fenêtre du lecteur, va au début ou à la fin de la publication.
  </dd>
 </dl>

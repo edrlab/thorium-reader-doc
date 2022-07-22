@@ -3,7 +3,7 @@ title: "NOTE : Icones non documentées et / ou non utilisés"
 description: ""
 draft: true
 weight: 401
-toc: true
+toc: false
 ---
 
 {{< columns >}}

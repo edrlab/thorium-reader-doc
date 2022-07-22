@@ -3,7 +3,7 @@ title: "Vous rencontrez un problème ?"
 description: ""
 draft: false
 weight: 904
-toc: true
+toc: false
 ---
 
 Si vous ne trouvez pas la réponse à votre problème sur ce site, vous pouvez nous indiquer votre problème via notre [outil de suivi de support](https://github.com/edrlab/thorium-reader-doc/issues/new).

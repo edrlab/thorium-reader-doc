@@ -3,7 +3,7 @@ title: "Fonctions"
 description: ""
 draft: true
 weight: 401
-toc: true
+toc: false
 ---
 
 ## les fonctions de la bibliothèque

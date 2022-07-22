@@ -3,7 +3,7 @@ title: "Icones et fonctions"
 description: ""
 draft: true
 weight: 401
-toc: true
+toc: false
 ---
 
 {{< columns >}}

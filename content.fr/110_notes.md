@@ -3,7 +3,7 @@ title: "notes"
 description: ""
 draft: true
 weight: 110
-toc: true
+toc: false
 ---
 
 
