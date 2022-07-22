@@ -44,7 +44,7 @@ La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, ou
  </dd>
 </dl>
 <dl>
- <dt> <kbd>Ctrl</kbd> + <kbd>b</kbd> : ajout ou suppression de signet (<code>ToggleBookmark</code>) </dt>
+ <dt> <kbd>Ctrl</kbd> + <kbd>b</kbd> : ajout ou suppression de Marque-page (<code>ToggleBookmark</code>) </dt>
  <dd> dans la fenêtre du lecteur, bascule le signet (une notification est produite pour que les lecteurs d'écran annoncent le changement)
  </dd>
 </dl>
