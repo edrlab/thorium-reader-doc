@@ -3,31 +3,29 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Lors du lancement de Thorium, si un lecteur d&rsquo;écran est repéré, les fonctions relatives sont activées.
+<meta name="description" content="Lors du lancement de Thorium, si un lecteur d&#39;écran est repéré, les fonctions relatives sont activées.
 Attention !
 Les fonctions d&rsquo;accessibilité adressées aux technologies d&rsquo;assistance peuvent être affecté par la qualité des fichiers lus.
-Séquences de touches communes à NVDA et JAWS # (contribution de Prashant Verma, Consortium DAISY)
-Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&rsquo;écran (par exemple la touche de verrouillage des majuscules)">
+ Séquences de touches communes à NVDA et JAWS (contribution de Prashant Verma, Consortium DAISY)
+Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&#39;écran (par exemple la touche de verrouillage des majuscules)">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Thorium et les lecteurs d&#39;écran" />
-<meta property="og:description" content="Lors du lancement de Thorium, si un lecteur d&rsquo;écran est repéré, les fonctions relatives sont activées.
+<meta property="og:description" content="Lors du lancement de Thorium, si un lecteur d&#39;écran est repéré, les fonctions relatives sont activées.
 Attention !
 Les fonctions d&rsquo;accessibilité adressées aux technologies d&rsquo;assistance peuvent être affecté par la qualité des fichiers lus.
-Séquences de touches communes à NVDA et JAWS # (contribution de Prashant Verma, Consortium DAISY)
-Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&rsquo;écran (par exemple la touche de verrouillage des majuscules)" />
+ Séquences de touches communes à NVDA et JAWS (contribution de Prashant Verma, Consortium DAISY)
+Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&#39;écran (par exemple la touche de verrouillage des majuscules)" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/310_screenReaders/" /><meta property="article:section" content="300_accessibility" />
-
-<meta property="article:modified_time" content="2022-07-18T17:32:23+02:00" /><meta property="og:site_name" content="Thorium Reader" />
-
+<meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/310_screenReaders/" />
+<meta property="article:modified_time" content="2022-07-22T11:59:23+02:00" /><meta property="og:site_name" content="Thorium Reader" />
 <title>Thorium et les lecteurs d&#39;écran | Thorium Reader</title>
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/thorium-reader-doc/book.min.c657d6d14b63d77b39450a200ae9f0c90fcb028aaafeb34ef957aa1e2b2151bc.css" integrity="sha256-xlfW0Utj13s5RQogCunwyQ/LAoqq/rNO&#43;VeqHishUbw=" crossorigin="anonymous">
+<link rel="stylesheet" href="/thorium-reader-doc/book.min.4e485d57dc1fb19e6fed960121194c069ebd336960a2471c5181651cb50f95f3.css" integrity="sha256-TkhdV9wfsZ5v7ZYBIRlMBp69M2lgokccUYFlHLUPlfM=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/fr.search.min.b353229db8dd59a112e5ed345be7ecc266d5f11e0b95fbcb4e70d4fc530bcf50.js" integrity="sha256-s1MinbjdWaES5e00W&#43;fswmbV8R4LlfvLTnDU/FMLz1A=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/fr.search.min.f5575a969ee275fe7255d2a748707c6d4922aeb70959d93726a089ffd10d0acb.js" integrity="sha256-9Vdalp7idf5yVdKnSHB8bUkirrcJWdk3JqCJ/9ENCss=" crossorigin="anonymous"></script>
 
-  <script defer src="/thorium-reader-doc/sw.min.fd032f86b90938c9ef0834ebcd6a02f9b39e8a30078f9552eff1b404fbb0824a.js" integrity="sha256-/QMvhrkJOMnvCDTrzWoC&#43;bOeijAHj5VS7/G0BPuwgko=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -551,7 +549,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 <hr/>
  
@@ -580,24 +578,18 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><p>Lors du lancement de Thorium, si un lecteur d&rsquo;écran est repéré, les fonctions relatives sont activées.</p>
+  <article class="markdown"><p>Lors du lancement de Thorium, si un lecteur d'écran est repéré, les fonctions relatives sont activées.</p>
 <aside class="book-hint warning">
   <p>Attention !</p>
 <p>Les fonctions d&rsquo;accessibilité adressées aux technologies d&rsquo;assistance peuvent être affecté par la qualité des fichiers lus.</p>
 
 </aside>
 
-<h1 id="séquences-de-touches-communes-à-nvda-et-jaws">
-  Séquences de touches communes à NVDA et JAWS
-  <a class="anchor" href="#s%c3%a9quences-de-touches-communes-%c3%a0-nvda-et-jaws">#</a>
-</h1>
+<h1 id="séquences-de-touches-communes-à-nvda-et-jaws">Séquences de touches communes à NVDA et JAWS</h1>
 <p>(contribution de Prashant Verma, Consortium DAISY)</p>
-<p>Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&rsquo;écran (par exemple la touche de verrouillage des majuscules)</p>
-<h2 id="touches-rapides-pour-la-navigation">
-  Touches rapides pour la navigation
-  <a class="anchor" href="#touches-rapides-pour-la-navigation">#</a>
-</h2>
-<p>Le lecteur d&rsquo;écran doit être en mode navigation ou curseur virtuel.</p>
+<p>Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d'écran (par exemple la touche de verrouillage des majuscules)</p>
+<h2 id="touches-rapides-pour-la-navigation">Touches rapides pour la navigation</h2>
+<p>Le lecteur d'écran doit être en mode navigation ou curseur virtuel.</p>
 <table>
 <thead>
 <tr>
@@ -627,16 +619,13 @@ https://github.com/alex-shpak/hugo-book
 <td><kbd>F</kbd></td>
 </tr>
 <tr>
-<td>Liste d&rsquo;éléments</td>
-<td><kbd>Insert</kbd>+<kbd>F7</kbd> (fonctionne quel que soit le mode du curseur)</td>
+<td>Liste d'éléments</td>
+<td><kbd>Insert</kbd> + <kbd>F7</kbd> (fonctionne quel que soit le mode du curseur)</td>
 </tr>
 </tbody>
 </table>
-<p><em>Utilisez les touches ci-dessus avec la touche Maj pour passer à l&rsquo;élément précédent.</em></p>
-<h2 id="texte">
-  Texte
-  <a class="anchor" href="#texte">#</a>
-</h2>
+<p><em>Utilisez les touches ci-dessus avec la touche Maj pour passer à l'élément précédent.</em></p>
+<h2 id="texte">Texte</h2>
 <table>
 <thead>
 <tr>
@@ -655,11 +644,11 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 <tr>
 <td>Mot précédent</td>
-<td><kbd>CTRL+<kbd>←</kbd></td>
+<td><kbd>CTRL</kbd> + <kbd>←</kbd></td>
 </tr>
 <tr>
 <td>Mot suivant</td>
-<td><kbd>CTRL+<kbd>→</kbd></td>
+<td><kbd>CTRL</kbd> + <kbd>→</kbd></td>
 </tr>
 <tr>
 <td>Ligne précédente</td>
@@ -671,26 +660,23 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 <tr>
 <td>Dire la phrase précédente</td>
-<td><kbd>ALT</kbd>+<kbd>↑</kbd> (Jaws uniquement)</td>
+<td><kbd>ALT</kbd> + <kbd>↑</kbd> (Jaws uniquement)</td>
 </tr>
 <tr>
 <td>Dire la phrase suivante</td>
-<td><kbd>ALT</kbd>+<kbd>↓</kbd>(Jaws seulement)</td>
+<td><kbd>ALT</kbd> + <kbd>↓</kbd> (Jaws uniquement)</td>
 </tr>
 <tr>
 <td>Dire tout</td>
-<td><kbd>INSERT</kbd>+<kbd>↓</kbd></td>
+<td><kbd>INSERT</kbd> + <kbd>↓</kbd></td>
 </tr>
 <tr>
 <td>Dire Police</td>
-<td><kbd>INSERT</kbd>+<kbd>F</kbd></td>
+<td><kbd>INSERT</kbd> + <kbd>F</kbd></td>
 </tr>
 </tbody>
 </table>
-<h2 id="tableaux">
-  Tableaux
-  <a class="anchor" href="#tableaux">#</a>
-</h2>
+<h2 id="tableaux">Tableaux</h2>
 <table>
 <thead>
 <tr>
@@ -701,19 +687,19 @@ https://github.com/alex-shpak/hugo-book
 <tbody>
 <tr>
 <td>Cellule vers la droite</td>
-<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>→</kbd></td>
+<td><kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd></td>
 </tr>
 <tr>
 <td>Cellule vers la gauche</td>
-<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>←</kbd></td>
+<td><kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd></td>
 </tr>
 <tr>
 <td>Cellule en dessous</td>
-<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>↓</kbd></td>
+<td><kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↓</kbd></td>
 </tr>
 <tr>
 <td>Cellule au-dessus</td>
-<td><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>↑</kbd></td>
+<td><kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↑</kbd></td>
 </tr>
 </tbody>
 </table>

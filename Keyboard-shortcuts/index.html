@@ -5,25 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Note to developers: this PR introduced support for configurable keyboard shortcuts in Thorium.
 TIP: holding the Shift &#43; ALT modifier keys together while pressing enter or mouse-clicking to activate links in the slide-out modal navigation pane keeps the user interface panel open (e.g. table of contents, landmarks, bookmarks, &ldquo;go to page&rdquo; button, etc.)
-Ctrl &#43; F10 (FocusMain): in reader and library windows, moves the keyboard focus to the &ldquo;main&rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content) Ctrl &#43; t (FocusToolbar): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &ldquo;skip&rdquo; link (which itself moves focus to the &ldquo;main&rdquo; area landmark) Ctrl &#43; n (FocusReaderNavigation): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.">
+ Ctrl &#43; F10 (FocusMain): in reader and library windows, moves the keyboard focus to the &ldquo;main&rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content) Ctrl &#43; t (FocusToolbar): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &ldquo;skip&rdquo; link (which itself moves focus to the &ldquo;main&rdquo; area landmark) Ctrl &#43; n (FocusReaderNavigation): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
 <meta property="og:description" content="Note to developers: this PR introduced support for configurable keyboard shortcuts in Thorium.
 TIP: holding the Shift &#43; ALT modifier keys together while pressing enter or mouse-clicking to activate links in the slide-out modal navigation pane keeps the user interface panel open (e.g. table of contents, landmarks, bookmarks, &ldquo;go to page&rdquo; button, etc.)
-Ctrl &#43; F10 (FocusMain): in reader and library windows, moves the keyboard focus to the &ldquo;main&rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content) Ctrl &#43; t (FocusToolbar): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &ldquo;skip&rdquo; link (which itself moves focus to the &ldquo;main&rdquo; area landmark) Ctrl &#43; n (FocusReaderNavigation): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc." />
+ Ctrl &#43; F10 (FocusMain): in reader and library windows, moves the keyboard focus to the &ldquo;main&rdquo; area landmark (in the reader view, this is immediately before the frame that displays publication content) Ctrl &#43; t (FocusToolbar): in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &ldquo;skip&rdquo; link (which itself moves focus to the &ldquo;main&rdquo; area landmark) Ctrl &#43; n (FocusReaderNavigation): in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/Keyboard-shortcuts/" /><meta property="article:section" content="" />
-
-
+<meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/Keyboard-shortcuts/" />
 
 <title>Keyboard Shortcuts | Thorium Reader</title>
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/thorium-reader-doc/book.min.c657d6d14b63d77b39450a200ae9f0c90fcb028aaafeb34ef957aa1e2b2151bc.css" integrity="sha256-xlfW0Utj13s5RQogCunwyQ/LAoqq/rNO&#43;VeqHishUbw=" crossorigin="anonymous">
+<link rel="stylesheet" href="/thorium-reader-doc/book.min.4e485d57dc1fb19e6fed960121194c069ebd336960a2471c5181651cb50f95f3.css" integrity="sha256-TkhdV9wfsZ5v7ZYBIRlMBp69M2lgokccUYFlHLUPlfM=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/en.search.min.b83e3d109f8fa666e03334300153cff26d473076bb8491f35ba0bd13b027b98e.js" integrity="sha256-uD49EJ&#43;PpmbgMzQwAVPP8m1HMHa7hJHzW6C9E7AnuY4=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/en.search.min.18c2e48991e673b4b9f27af5c92bf1ffed71811ad5a9ca8370a9856a192f666c.js" integrity="sha256-GMLkiZHmc7S58nr1ySvx/&#43;1xgRrVqcqDcKmFahkvZmw=" crossorigin="anonymous"></script>
 
-  <script defer src="/thorium-reader-doc/sw.min.fd032f86b90938c9ef0834ebcd6a02f9b39e8a30078f9552eff1b404fbb0824a.js" integrity="sha256-/QMvhrkJOMnvCDTrzWoC&#43;bOeijAHj5VS7/G0BPuwgko=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -141,7 +139,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 <hr/>
  
@@ -190,11 +188,11 @@ https://github.com/alex-shpak/hugo-book
 <li><kbd>Ctrl</kbd>  +  <kbd>f</kbd> (<code>FocusSearch</code>): in reader window, moves the keyboard focus to the publication-wide search text input</li>
 <li><kbd>Shift</kbd> (optional) + <kbd>F3</kbd> (<code>SearchPrevious&lt;/kbd&gt; / &lt;kbd&gt;SearchNext</code>): in reader window, when the publication-wide search text input is open, finds the previous / next match</li>
 <li><kbd>Shift</kbd> (optional) + <kbd>Ctrl</kbd>  +  <kbd>G</kbd> (<code>SearchPreviousAlt&lt;/kbd&gt; / &lt;kbd&gt;SearchNextAlt</code>): same as above (alternative keyboard shortcut)</li>
-<li><kbd>Ctrl</kbd>  +  <kbd>left</kbd> or <kbd>right</kbd> (<code>NavigatePreviousOPDSPage&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextOPDSPage</code>): in library window for OPDS feeds, activates the previous or next pagination links</li>
+<li><kbd>Ctrl</kbd>  +  <kbd>←</kbd> or <kbd>→</kbd> (<code>NavigatePreviousOPDSPage&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextOPDSPage</code>): in library window for OPDS feeds, activates the previous or next pagination links</li>
 <li><kbd>Ctrl</kbd>  +  <kbd>comma</kbd> or <kbd>period</kbd> (<code>NavigatePreviousOPDSPageAlt&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextOPDSPageAlt</code>): same as above (alternative keyboard shortcut)</li>
-<li><kbd>Ctrl</kbd>  +  <kbd>Shift</kbd>  +  <kbd>ALT</kbd> (except on MacOS) + <kbd>left</kbd> or <kbd>right</kbd> (<code>NavigatePreviousChapter&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextChapter</code>): in reader window, move to previous or next &ldquo;chapter&rdquo; (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the &ldquo;main&rdquo; area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).</li>
+<li><kbd>Ctrl</kbd>  +  <kbd>Shift</kbd>  +  <kbd>ALT</kbd> (except on MacOS) + <kbd>←</kbd> or <kbd>→</kbd> (<code>NavigatePreviousChapter&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextChapter</code>): in reader window, move to previous or next &ldquo;chapter&rdquo; (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the &ldquo;main&rdquo; area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).</li>
 <li><kbd>Ctrl</kbd>  +  <kbd>page down</kbd> or <kbd>page up</kbd> (<code>NavigatePreviousChapterAlt&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextChapterAlt</code>): same as above (alternative keyboard shortcut)</li>
-<li><kbd>left</kbd> or <kbd>right</kbd> (<code>NavigatePreviousPage&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextPage</code>): in reader window, move to previous or next &ldquo;page&rdquo; (or scroll unit, if pagination is disabled)</li>
+<li><kbd>←</kbd> or <kbd>→</kbd> (<code>NavigatePreviousPage&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextPage</code>): in reader window, move to previous or next &ldquo;page&rdquo; (or scroll unit, if pagination is disabled)</li>
 <li><kbd>Ctrl</kbd>  +  <kbd>comma</kbd> or <kbd>period</kbd> (<code>NavigatePreviousPageAlt&lt;/kbd&gt; / &lt;kbd&gt;NavigateNextPageAlt</code>): same as above (alternative keyboard shortcut)</li>
 <li><kbd>Ctrl</kbd>  +  <kbd>Home</kbd> or <kbd>End</kbd> (<code>NavigateToBegin&lt;/kbd&gt; / &lt;kbd&gt;NavigateToEnd</code>): in reader window, goes to the beginning or the end of the publication</li>
 <li><kbd>Ctrl</kbd>  +  <kbd>1</kbd> (<code>AudioPrevious</code>): in reader window, calls the &ldquo;previous&rdquo; command for audio (TTS or EPUB3 Media Overlays readaloud, or &ldquo;rewind&rdquo; for audiobooks)</li>

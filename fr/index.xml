@@ -4,7 +4,11 @@
     <title>Aide et ressources pour une meilleure expérience de lecture on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/fr/</link>
     <description>Recent content in Aide et ressources pour une meilleure expérience de lecture on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Commencer à lire</title>
       <link>https://edrlab.github.io/thorium-reader-doc/fr/100_quickStart/</link>
@@ -23,9 +27,9 @@ Vous pouvez définir le lecteur par défaut de certains types de fichiers par le
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/211_moving/</guid>
-      <description>Naviguer dans un livre # Les options de navigation peuvent être très différentes d&amp;rsquo;un livre à l&amp;rsquo;autre, cependant Thorium permet les éléments suivants.
-Avancer et reculer # Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation situées en bas à droite de l&amp;rsquo;interface de lecture ().
-Le menu de la table des matières # La table des matières représente l&amp;rsquo;architecture du livre telle que définie par l&amp;rsquo;organisation productrice de ce dernier.</description>
+      <description>Naviguer dans un livre Les options de navigation peuvent être très différentes d&amp;rsquo;un livre à l&amp;rsquo;autre. Thorium permet les éléments suivants.
+Avancer et reculer Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation situées en bas à droite de l&amp;rsquo;interface de lecture ().
+Il est possible de se déplacer entre les chapitres en utilisant Ctrl + Début (chapitre précédent) et Ctrl + Fin (chapitre suivant) ou Ctrl + Shift + ALT (sauf sur MacOS) + ←(chapitre précédent) et Ctrl + Shift + ALT (sauf sur MacOS) + → (chapitre suivant).</description>
     </item>
     
     <item>
@@ -35,7 +39,7 @@ Le menu de la table des matières # La table des matières représente l&amp;rsq
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/212_whereAmI/</guid>
       <description>Lorsque vous consultez le menu Navigation, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu Aller à la page.
-Lire les informations de navigation # Utilisez la fonction Informations (Ctrl+Shift+I) pour ouvrir un panneau qui affiche la structure des titres et le numéro de page.
+Lire les informations de navigation Utilisez la fonction Informations (Ctrl + Shift + I) pour ouvrir un panneau qui affiche la structure des titres et le numéro de page.
 En plus des informations sur le livre, ce panneau indique au sous titre Progression :</description>
     </item>
     
@@ -45,7 +49,7 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/213_search/</guid>
-      <description>Faire une recherche dans un livre # Vous pouvez utiliser les touches Ctrl + F pour accéder au champ de recherche. Saisissez votre terme de recherche. En cliquant sur le bouton de recherche, vous obtenez un bouton Précédent, un bouton Suivant et un bouton Liste des résultats. Activez ce lien pour vous rendre à l&amp;rsquo;endroit du livre où la recherche a été trouvée.</description>
+      <description>Faire une recherche dans un livre Vous pouvez utiliser les touches Ctrl + F pour accéder au champ de recherche. Saisissez votre terme de recherche. En cliquant sur le bouton de Recherche, vous obtenez un bouton Précédent, un bouton Suivant et un bouton Liste des résultats. Activez ce lien pour vous rendre à l&amp;rsquo;endroit du livre où la recherche a été trouvée.</description>
     </item>
     
     <item>
@@ -54,9 +58,9 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/214_bookmarks/</guid>
-      <description>Marquer une page ou un passage # Ajouter un signet ou une surbrillance # Le bouton Marque page permet d&amp;rsquo;ajouter un point de repère personnalisé ou marque page.
-Un marque page peut être un point fixe ou comporter une sélection de texte.
-Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages () ou la combinaison de touches Ctrl + B . Révision et navigation dans les Marques-pages # Appuyez sur le bouton de navigation (Ctrl+N), puis sur le bouton Signets.</description>
+      <description>Marquer une page ou un passage Ajouter un signet ou une surbrillance Le bouton Marque-page permet d&amp;rsquo;ajouter un point de repère personnalisé.
+Un Marque-page peut être un point fixe ou comporter une sélection de texte.
+Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages () ou la combinaison de touches Ctrl + B.  Révision et navigation dans les Marques-pages Appuyez sur le bouton de navigation (Ctrl + N), puis sur le bouton Signets.</description>
     </item>
     
     <item>
@@ -65,9 +69,9 @@ Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. App
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/215_ReadingParameters/</guid>
-      <description>Utilisez le bouton Paramètres : en cliquant sur ce bouton, les options suivantes sont révélées.
-Thème # La couleur de l&amp;rsquo;arrière-plan et du premier plan peut être modifiée en utilisant l&amp;rsquo;un des trois thèmes disponibles - Neutre, Sépia et Nuit.
-Texte # La taille de la police peut être augmentée ou diminuée à l&amp;rsquo;aide du curseur. La police peut également être modifiée. Les options disponibles sont les suivantes : Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace et Monospace.</description>
+      <description>Dans l&amp;rsquo;interface de lecture utilisez le bouton Préférences (): en cliquant sur ce bouton, les options suivantes sont révélées.
+Thème La couleur de l&amp;rsquo;arrière-plan et du premier plan peut être modifiée en utilisant l&amp;rsquo;un des trois thèmes disponibles - Neutre, Sépia et Nuit.
+Texte La taille de la police peut être augmentée ou diminuée à l&amp;rsquo;aide du curseur. La police peut également être modifiée. Les options disponibles sont les suivantes : Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace et Monospace.</description>
     </item>
     
     <item>
@@ -78,7 +82,7 @@ Texte # La taille de la police peut être augmentée ou diminuée à l&amp;rsquo
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/221_libraries/</guid>
       <description>Un livre peut être ajouté à la bibliothèque en l&amp;rsquo;ouvrant avec Thorium à partir de l&amp;rsquo;explorateur Windows ou en l&amp;rsquo;important à l&amp;rsquo;aide du bouton + Importer la publication.
 Lorsq&amp;rsquo;un livre est importé, il est copié et préparé dans un dossier réservé.
-Mes livres # Les livres importés sont présentés dans le menu Mes livres. Ce dernier propose une vue accés rapide organisée en deux sections : Récement ajouté et Reprendre la lecture.</description>
+Mes livres Les livres importés sont présentés dans le menu Mes livres. Ce dernier propose une vue accés rapide organisée en deux sections : Récement ajouté et Reprendre la lecture.</description>
     </item>
     
     <item>
@@ -97,7 +101,7 @@ Une fois activé MathJax, vous pouvez utiliser le menu contextuel (clic droit) s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/222_catalogs/</guid>
-      <description>Catalogues OPDS De nombreuses bibliothèques publiques et librairies adoptent OPDS comme format standard pour afficher leur catalogue sur le Web. Thorium peut consulter des catalogues OPDS 1 et 2. Il prend également en charge plusieurs formats d&#39;identification associés à OPDS et peut donc permettre aux utilisateurs d&#39;accéder à leur bibliothèque personnelle, c&#39;est-à-dire aux livres numériques que l&#39;utilisateur a acquis ou emprunté, ce qui permet de les télécharger et de les lire immédiatement.</description>
+      <description>Catalogues OPDS  De nombreuses bibliothèques publiques et librairies adoptent OPDS comme format standard pour afficher leur catalogue sur le Web. Thorium peut consulter des catalogues OPDS 1 et 2. Il prend également en charge plusieurs formats d&#39;identification associés à OPDS et peut donc permettre aux utilisateurs d&#39;accéder à leur bibliothèque personnelle, c&#39;est-à-dire aux livres numériques que l&#39;utilisateur a acquis ou emprunté, ce qui permet de les télécharger et de les lire immédiatement.</description>
     </item>
     
     <item>
@@ -118,7 +122,7 @@ Ouvrez la fiche livre, positionnez-vous dans le champ Ajouter un tag, écrivez l
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/223_search/</guid>
       <description>Appuyez sur Ctrl + F, saisissez le texte de la recherche, appuyez sur le bouton Résultats, puis appuyez sur la touche Entrée sur le lien vers le résultat souhaité.
-Dans la vue Tous les livres il est possible de rechercher dans chaque colonne. Par exemple parmis les auteurs seulement. </description>
+Dans la vue Tous les livres il est possible de rechercher dans chaque colonne. Par exemple parmis les auteurs seulement.  </description>
     </item>
     
     <item>
@@ -127,11 +131,11 @@ Dans la vue Tous les livres il est possible de rechercher dans chaque colonne. P
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/301_A11yInfos/</guid>
-      <description>Informations d&amp;rsquo;accessibilité # Actuellement Thorium affiche dans la Fiche Livre sous l&amp;rsquo;intitulé Description le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité (accessibilitySummary).
+      <description>Informations d&amp;rsquo;accessibilité Actuellement Thorium affiche dans la Fiche Livre sous l&amp;rsquo;intitulé Description le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité (accessibilitySummary).
 Attention !
 Des travaux sont en cours pour proposer un guide d&amp;rsquo;affichage des informations d&amp;rsquo;accessibilité. Nous suivons ces travaux et implementerons les recommandations prochainement.
-Attention !
-Les informations d&amp;rsquo;accessibilité doivent être renseignées par les éditeurs. Thorium affiche ces informations telles qu&amp;rsquo;elles ont étées définies. En cas de doute ou de réclamation contactez le distributeur ou l&amp;rsquo;éditeur du fichier.</description>
+ Attention !
+Les informations d&amp;rsquo;accessibilité doivent être renseignées par les éditeurs. Thorium affiche ces informations telles qu&amp;rsquo;elles ont étées définies. En cas de doute ou de réclamation contactez le distributeur ou l&#39;éditeur du fichier.</description>
     </item>
     
     <item>
@@ -140,12 +144,11 @@ Les informations d&amp;rsquo;accessibilité doivent être renseignées par les �
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/310_natives/</guid>
-      <description>L&amp;rsquo;accessibilité native # Attention !
+      <description>L&amp;rsquo;accessibilité native Attention !
 Les fonctions d&amp;rsquo;accessibilité natives proposées par Thorium peuvent être affecté par la qualité des fichiers lus.
-Ajustements visuels # L&amp;rsquo;application permet de modifier la taille du texte et les couleurs.
-il est possible d&amp;rsquo;utiliser toutes les polices installées sur l&amp;rsquo;ordinateur.
-Il est possible d&amp;rsquo;augmenter la taille d&amp;rsquo;une image avec Shift+clic sur l&amp;rsquo;image. Renouveller plusieurs fois pour grossir l&amp;rsquo;image à la taille souhaitée.
-L&amp;rsquo;affichage peut être sélectionné comme paginé ou défilant,</description>
+ Ajustements visuels   L&amp;rsquo;application permet de modifier la taille du texte et les couleurs.
+  il est possible d&amp;rsquo;utiliser toutes les polices installées sur l&amp;rsquo;ordinateur.
+  Il est possible d&amp;rsquo;augmenter la taille d&amp;rsquo;une image avec Shift+clic sur l&amp;rsquo;image. Renouveller plusieurs fois pour grossir l&amp;rsquo;image à la taille souhaitée.</description>
     </item>
     
     <item>
@@ -154,11 +157,11 @@ L&amp;rsquo;affichage peut être sélectionné comme paginé ou défilant,</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/310_screenReaders/</guid>
-      <description>Lors du lancement de Thorium, si un lecteur d&amp;rsquo;écran est repéré, les fonctions relatives sont activées.
+      <description>Lors du lancement de Thorium, si un lecteur d&#39;écran est repéré, les fonctions relatives sont activées.
 Attention !
 Les fonctions d&amp;rsquo;accessibilité adressées aux technologies d&amp;rsquo;assistance peuvent être affecté par la qualité des fichiers lus.
-Séquences de touches communes à NVDA et JAWS # (contribution de Prashant Verma, Consortium DAISY)
-Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&amp;rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&amp;rsquo;écran (par exemple la touche de verrouillage des majuscules)</description>
+ Séquences de touches communes à NVDA et JAWS (contribution de Prashant Verma, Consortium DAISY)
+Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&amp;rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&#39;écran (par exemple la touche de verrouillage des majuscules)</description>
     </item>
     
     <item>
@@ -167,9 +170,10 @@ Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/391_epubTest/</guid>
-      <description>Thorium Reader est testé sur epubtest.org.
+      <description>EDRLab entretient des relations étroites avec le DAISY Consortium. Grâce aux personnes ayant des hadicaps visuels qui participent à notre design et à nos essais, Thorium Reader cherche à être l&amp;rsquo;une des applications de lecture les plus accessibles du marché.
+Thorium Reader est testé sur epubtest.org.
 La version 1.8 a reçu les scores suivants :
-Fonctions de base 86.67% (Thorium ne permet pas d&amp;rsquo;annoter un document) Lecture non visuelle 100% Mathematiques 100% Descriptions étendues 100% EDRLab entretient des relations étroites avec le DAISY Consortium. Grâce aux personnes ayant des hadicaps visuels qui participent à notre design et à nos essais, Thorium Reader cherche à être l&amp;rsquo;une des applications de lecture les plus accessibles du marché.</description>
+ Fonctions de base 86.67% (Thorium ne permet pas d&amp;rsquo;annoter un document) Lecture non visuelle 100% Mathematiques 100% Descriptions étendues 100%  La liste des tests est la suivante :</description>
     </item>
     
     <item>
@@ -180,7 +184,7 @@ Fonctions de base 86.67% (Thorium ne permet pas d&amp;rsquo;annoter un document)
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/402_Keyboard-shortcuts/</guid>
       <description>Information
 La touche Shift est marquée Maj sur certains claviers, ou être indiquée par une fléche vide pointant vers le haut : ⇧.
-Ctrl + F10 : contenu (FocusMain) dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier sur le point de repère de la zone &#34;principale&#34; (dans la vue du lecteur, c&#39;est juste avant le cadre qui affiche le contenu de la publication). Ctrl + t : barre d&#39;outils (FocusToolbar) dans les fenêtres de lecteur et de bibliothèque, déplace le focus du clavier sur la barre d&#39;outils horizontale supérieure, immédiatement avant le lien &#34;</description>
+   Ctrl + F10 : contenu (FocusMain)   dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier sur le point de repère de la zone &#34;principale&#34; (dans la vue du lecteur, c&#39;est juste avant le cadre qui affiche le contenu de la publication).</description>
     </item>
     
     <item>
@@ -189,7 +193,7 @@ Ctrl + F10 : contenu (FocusMain) dans les fenêtres du lecteur et de la biblioth
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/406_formats/</guid>
-      <description>Formats de publication pris en charge EPUB 2 il s&#39;agit d&#39;un format ancien, uniquement adapté aux livres numériques basiques. Le contenu textuel est formaté en XHTML 1 et aucune fonction multimédia n&#39;est prise en charge. Les livres numériques EPUB 2 sont tout de même accessibles s&#39;ils sont correctement formatés. EPUB 3 c&#39;est le format recommandé pour le 21ème siècle. Le contenu textuel est formaté en (X)HTML 5, il est possible de créer des livres numériques à mise en page fixe, l&#39;enrichissement des livres numériques et les caractéristiques d&#39;accessibilité sont bien conçues.</description>
+      <description>Formats de publication pris en charge  EPUB 2  il s&#39;agit d&#39;un format ancien, uniquement adapté aux livres numériques basiques. Le contenu textuel est formaté en XHTML 1 et aucune fonction multimédia n&#39;est prise en charge. Les livres numériques EPUB 2 sont tout de même accessibles s&#39;ils sont correctement formatés.   EPUB 3  c&#39;est le format recommandé pour le 21ème siècle. Le contenu textuel est formaté en (X)HTML 5, il est possible de créer des livres numériques à mise en page fixe, l&#39;enrichissement des livres numériques et les caractéristiques d&#39;accessibilité sont bien conçues.</description>
     </item>
     
     <item>
@@ -207,7 +211,7 @@ Ctrl + F10 : contenu (FocusMain) dans les fenêtres du lecteur et de la biblioth
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/420_glossary/</guid>
-      <description>Lexique des termes techniques Fiche livre Donne des informations sur le livre numérique. Ces informations sont extraites des métadonnées du fichier, leur qualité et quantité dépend de l&#39;attention portée lors de la production du fichier par l&#39;éditeur. Livres adaptés Ce sont des livres numériques produits par des associations et mis à disposition des personnes en situation de handicap pour la lecture. En France ce dispositif est encadré par l&#39;exception handicap du code de la propriété intellectuelle.</description>
+      <description>Lexique des termes techniques  Fiche livre  Donne des informations sur le livre numérique. Ces informations sont extraites des métadonnées du fichier, leur qualité et quantité dépend de l&#39;attention portée lors de la production du fichier par l&#39;éditeur.    Livres adaptés Ce sont des livres numériques produits par des associations et mis à disposition des personnes en situation de handicap pour la lecture. En France ce dispositif est encadré par l&#39;exception handicap du code de la propriété intellectuelle.</description>
     </item>
     
     <item>
@@ -216,7 +220,7 @@ Ctrl + F10 : contenu (FocusMain) dans les fenêtres du lecteur et de la biblioth
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/410_faq/</guid>
-      <description> Questions courantes # </description>
+      <description>Questions courantes </description>
     </item>
     
     <item>
@@ -227,7 +231,7 @@ Ctrl + F10 : contenu (FocusMain) dans les fenêtres du lecteur et de la biblioth
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/902_credits/</guid>
       <description>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.
 Qui a développé cette application Thorium Reader est actuellement développé par :
-Daniel Weck, lead développeur. Pierre Leroux, développeur node.js. Plusieurs autres développeurs ont contribué à faire du Thorium ce qu&#39;il est aujourd&#39;hui : Simon Le Roux, UI designer. Cyrille Lebeaupin, créateur de noop.fr, développeur senior. Jiminy Panoz, créateur de Readium CSS. Léo Stéfani, développeur node.</description>
+Daniel Weck, lead développeur. Pierre Leroux, développeur node.js.   Plusieurs autres développeurs ont contribué à faire du Thorium ce qu&#39;il est aujourd&#39;hui : Simon Le Roux, UI designer. Cyrille Lebeaupin, créateur de noop.fr, développeur senior. Jiminy Panoz, créateur de Readium CSS.</description>
     </item>
     
     <item>
@@ -236,7 +240,7 @@ Daniel Weck, lead développeur. Pierre Leroux, développeur node.js. Plusieurs a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/903_support/</guid>
-      <description>Vous aussi pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab. Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels. Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi : Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre système de gestion de projet.</description>
+      <description>Vous aussi pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab.  Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels.  Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi :  Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre système de gestion de projet.</description>
     </item>
     
     <item>
@@ -248,7 +252,7 @@ Daniel Weck, lead développeur. Pierre Leroux, développeur node.js. Plusieurs a
       <description>Si vous ne trouvez pas la réponse à votre problème sur ce site, vous pouvez nous indiquer votre problème via notre outil de suivi de support.
 La page est en anglais mais vous pouvez rédiger dans votre langue en nous l&amp;rsquo;indiquant pour que nous puissions mobiliser les personnes ressources.
 Voici les informations dont nous avons besoin :
-Système d&amp;rsquo;exploitation et sa version Version de Thorium (elle est indiqué en bas de la bibliothèque sous le titre À propos de Thorium) </description>
+ Système d&amp;rsquo;exploitation et sa version Version de Thorium (elle est indiqué en bas de la bibliothèque sous le titre À propos de Thorium)  </description>
     </item>
     
     <item>
@@ -266,7 +270,7 @@ Système d&amp;rsquo;exploitation et sa version Version de Thorium (elle est ind
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/913_licence/</guid>
-      <description>Licences Copyright 2021 European Digital Reading Lab. Tous droits réservés. Licensed to the Readium Foundation under one or more contributor license agreements. L&#39;application est open-source, diffusée sous une licence BSD 3. Elle est basée sur la boîte à outils Readium Desktop, en code source libre. Le contenu de ce site web est libre et peut-être réutilisé selon les termes de la Licence BSD. Ce site statique est généré par Hugo et le thème Hugo Book.</description>
+      <description>Licences  Copyright 2021 European Digital Reading Lab. Tous droits réservés. Licensed to the Readium Foundation under one or more contributor license agreements.  L&#39;application est open-source, diffusée sous une licence BSD 3. Elle est basée sur la boîte à outils Readium Desktop, en code source libre.  Le contenu de ce site web est libre et peut-être réutilisé selon les termes de la Licence BSD.  Ce site statique est généré par Hugo et le thème Hugo Book.</description>
     </item>
     
   </channel>
