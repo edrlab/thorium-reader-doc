@@ -28,39 +28,27 @@ toc: false
 |Icone|Fonction|Description|Notes|Raccourcis|
 |---|---|---|---|---|
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_back-24px.svg" alt="Icone Retour à la biliothèque" width="20px">|<span class="function">Retour à la biliothèque (ferme le livre en cour de lecture)</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/info.svg" alt="Icone information" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-info-24px.svg" alt="Icone Information" width="20px">|<span class="function">Ouvre la fiche livre</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/info.svg" alt="Icone information" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-info-24px.svg" alt="Icone Information" width="20px">|<span class="function">Ouvre la fiche livre</span>|||<kbd>Ctrl</kbd> + <kbd>i</kbd>|
 |<img class="icons" src="/thorium-reader-doc/images/icons/outline-flip_to_front-24px.svg" alt="Icone Afficher la bibliothèque" width="20px">|<span class="function">Aller à la bibliothèque</span>||||
-<img class="icons" src="/thorium-reader-doc/images/icons/magnifying_glass.svg" alt="Icone Rechercher dans la publication" width="20px">|<span class="function">Recherche dans la publication</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="Icone Préférences" width="20px">|<span class="function"> Préférences d'affichage pour la lecture</span>||||
+<img class="icons" src="/thorium-reader-doc/images/icons/magnifying_glass.svg" alt="Icone Rechercher dans la publication" width="20px">|<span class="function">Recherche dans la publication</span>|||<kbd>Ctrl</kbd> + <kbd>f</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="Icone Préférences" width="20px">|<span class="function"> Préférences d'affichage pour la lecture</span>|||<kbd>Ctrl</kbd> + <kbd>s</kbd>|
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icone Droite" width="20px">|<span class="function">Contenu suivant</span>||||
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icone Gauche" width="20px">|<span class="function">Contenu précédent</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px.svg" alt="" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="Icone Marque-pages" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark_border-24px.svg" alt="Icone Marque page" width="20px">|<span class="function">Ajoute ou supprime un Marque-page</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px.svg" alt="" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="Icone Marque-pages" width="20px">  <img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark_border-24px.svg" alt="Icone Marque page" width="20px">|<span class="function">Ajoute ou supprime un Marque-page</span>|||<kbd>Ctrl</kbd> + <kbd>b</kbd>|
 |<img class="icons" src="/thorium-reader-doc/images/icons/open_book.svg" alt="Icone navigation" width="20px">|<span class="function">Ouvre ou ferme le panneau de navigation</span>|Donne accès à la table des matières, aux repéres, aux Marque-pages et à la pagination de référence||<kbd>Ctrl</kbd>  +  <kbd>n</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/sharp-crop_free-24px.svg" alt="Icone Mode plein écran" width="20px">|<span class="function">Plein écran</span>||| <kbd>Ctrl</kbd> + <kbd>F11</kbd>|
+
 
 ### Préférences d'affichage
 
 Panneau des paramètres & préférences de l'utilisateur pour l'affichage du contenu de la publication. <kbd>Ctrl</kbd>  +  <kbd>s</kbd>
 
-#### Texte
 |Icone|Fonction|Description|Notes|Raccourcis|
 |---|---|---|---|---|
-|<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="Icone taille du texte" width="20px">|<span class="function">Modifier la taille de la police</span>||||
-
-#### Affichage
-##### Disposition
-|Icone|Fonction|Description|Notes|Raccourcis|
-|---|---|---|---|---|
-|<img class="icons" src="/thorium-reader-doc/images/icons/auto.svg" alt="Icone " width="20px">|<span class="function">Défiler (le texte défile de haut en bas)</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/pagine.svg" alt="Icone " width="20px">|<span class="function">Paginé</span>||||
-
-##### Alignement
-|Icone|Fonction|Description|Notes|Raccourcis|
-|---|---|---|---|---|
-|<img class="icons" src="/thorium-reader-doc/images/icons/paragraph-left.svg" alt="Icone " width="20px">|<span class="function"> Automatique</span>| 
-
-##### Colonnes
-|Icone|Fonction|Description|Notes|Raccourcis|
-|---|---|---|---|---|
+|<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="Icone taille du texte" width="20px">|<span class="function">Texte : Modifier la taille de la police</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/auto.svg" alt="Icone " width="20px">|<span class="function">Affichage / Dispositon : Défiler (le texte défile de haut en bas)</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/pagine.svg" alt="Icone " width="20px">|<span class="function">Affichage / Disposition : Paginé</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/paragraph-left.svg" alt="Icone " width="20px">|<span class="function">Alignement Automatique</span>| 
 |<img class="icons" src="/thorium-reader-doc/images/icons/colonne.svg" alt="Icone " width="20px">|<span class="function">1 colonne</span>| 
 |<img class="icons" src="/thorium-reader-doc/images/icons/colonne2.svg" alt="Icone " width="20px">|<span class="function"> 2 colonnes</span>||||
 
@@ -75,9 +63,8 @@ Panneau des paramètres & préférences de l'utilisateur pour l'affichage du con
 |Icone|Fonction|Description|Notes|Raccourcis|
 |---|---|---|---|---|
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-volume_up-24px.svg" alt="Icone Activate texte to speech" width="20px">|<span class="function">Activer les fonctions audio</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-pause-24px.svg" alt="Icone pause" width="20px">|<span class="function">Met la lecture audio en pause  (voix enregistrée ou voix de synthése)</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-play_arrow-24px.svg" alt="Icone play" width="20px">|<span class="function"> Lance la lecture audio (voix enregistrée ou voix de synthése)</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-skip_next-24px.svg" alt="Icone previous" width="20px">|<span class="function">Passe à la portion audio suivante (selon la fabrication du livre)</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-skip_previous-24px.svg" alt="Icone next" width="20px">|<span class="function">Passe à la portion audio précédente (selon la fabrication du livre)</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-stop-24px.svg" alt="Icone " width="20px">|<span class="function">Arrête la lecture audio (voix enregistrée ou voix de synthése)</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/sharp-crop_free-24px.svg" alt="Icone Mode plein écran" width="20px">|<span class="function">Plein écran</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-pause-24px.svg" alt="Icone pause" width="20px">|<span class="function">Met la lecture audio en pause  (voix enregistrée ou voix de synthése)</span>|||<kbd>Ctrl</kbd> + <kbd>2</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-play_arrow-24px.svg" alt="Icone play" width="20px">|<span class="function"> Lance la lecture audio (voix enregistrée ou voix de synthése)</span>|||<kbd>Ctrl</kbd> + <kbd>2</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-skip_next-24px.svg" alt="Icone previous" width="20px">|<span class="function">Passe à la portion audio suivante (selon la fabrication du livre)</span>|||<kbd>Ctrl</kbd> + <kbd>3</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-skip_previous-24px.svg" alt="Icone next" width="20px">|<span class="function">Passe à la portion audio précédente (selon la fabrication du livre)</span>|||<kbd>Ctrl</kbd> + <kbd>1</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-stop-24px.svg" alt="Icone " width="20px">|<span class="function">Arrête la lecture audio (voix enregistrée ou voix de synthése)</span>|||<kbd>Ctrl</kbd> + <kbd>4</kbd>|
