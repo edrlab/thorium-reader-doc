@@ -5,6 +5,13 @@ draft: false
 weight: 212
 toc: false
 ---
+{{< columns >}}
+Le raccourcis clavier <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd> permet d'obtenir une mention rapide de la position de lecture dans le document. Cette information sera affichée dans la zone de notification en bas à gauche de l'interface et sera lue par un lecteur d'écran.
+
+<--->
+<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du brail) [32%] H1 VII / H2 Incident du baril."/>
+
+{{< /columns >}}
 
 Lorsque vous consultez le menu *Navigation*, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu `Aller à la page`. 
 
