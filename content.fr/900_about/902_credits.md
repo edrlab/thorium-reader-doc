@@ -8,6 +8,11 @@ toc: false
 
 Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.
 
+Les contributeurs principaux de cette documentation sont : 
+* Gautier Chomel
+* Noelia Ruiz Martínez
+* Georges Kerscher
+
   <h2>Qui a développé cette application</h2>
 
   <p>Thorium Reader est actuellement développé par :</p>
