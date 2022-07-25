@@ -4,17 +4,27 @@ description: ""
 draft: false
 images: [logo.png]
 weight: 100
-toc: true
+toc: false
 
 ---
 
 Thorium est un lecteur de livres numériques, c'est aussi une bibliothèque où ranger vos livre et un point d'accès à des catalogues en ligne. Thorium ne nécessite aucun compte ni accès en ligne pour être lancé et utilisé.
+
+{{< hint warning >}} 
+Pas-à-pas pour Windows.
+
+1. [Installez Thorium](https://www.edrlab.org/software/thorium-reader/github/win10).
+2. [Téléchargez un livre numérique](https://www.010101book.net/fr/epub/le_livre_010101_1971_2015_marie_lebert.epub).
+3. Ouvrez le fichier téléchargé avec Thorium.
+
+{{< /hint >}}
 
 {{< columns >}}
 
 Sélectionnez le livre que vous souhaitez lire, utilisez le `menu contextuel` (clic droit), sélectionnez `ouvrir avec` puis sélectionnez `Thorium`. 
 
 {{< hint info >}} 
+
 Information.
 
 Vous pouvez définir le lecteur par défaut de certains types de fichiers par le biais des paramètres de Windows. 

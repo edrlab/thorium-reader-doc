@@ -3,10 +3,17 @@ title: "Crédits"
 description: ""
 draft: false
 weight: 902
-toc: true
+toc: false
 ---
 
 Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.
+
+Les contributeurs principaux de cette documentation sont : 
+* Gautier Chomel
+* Noelia Ruiz Martínez
+* Georges Kerscher
+
+Ce site est réalisé avec le générateur de sites statiques  [Hugo](https://gohugo.io/) et le théme [Hugo Book Theme](https://github.com/alex-shpak/hugo-book/).
 
   <h2>Qui a développé cette application</h2>
 

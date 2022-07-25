@@ -3,8 +3,15 @@ title: "Où suis-je ?"
 description: ""
 draft: false
 weight: 212
-toc: true
+toc: false
 ---
+{{< columns >}}
+Le raccourcis clavier <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd> permet d'obtenir une mention rapide de la position de lecture dans le document. Cette information sera affichée dans la zone de notification en bas à gauche de l'interface et sera lue par un lecteur d'écran.
+
+<--->
+<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du brail) [32%] H1 VII / H2 Incident du baril."/>
+
+{{< /columns >}}
 
 Lorsque vous consultez le menu *Navigation*, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu `Aller à la page`. 
 
@@ -24,9 +31,13 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
 - la structure des titres (h1 est un titre de niveau 1, h2 un titre de niveau , etc.)
 
 Appuyez sur  <kbd>Echap</kbd>  pour femer le panneau `Informations` et revenir au texte. 
+
 <--->
+
 <img src="/thorium-reader-doc/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
+
 {{< /columns >}}
+
 {{< details "Utiliser **Où suis-je** avec NVDA">}}
 
 Appuyez sur la touche <kbd>NVDA</kbd> + <kbd>F7</kbd>, puis sur la touche de tabulation jusqu'à ce que vous obteniez la vue de l'en-tête. Cela vous montre où vous vous trouvez dans la structure du titre. 

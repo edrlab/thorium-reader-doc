@@ -3,7 +3,7 @@ title: Formats pris en charge
 description: ""
 draft: false
 weight: 406
-toc: true
+toc: false
 ---
 
   <h1>Formats de publication pris en charge</h1>

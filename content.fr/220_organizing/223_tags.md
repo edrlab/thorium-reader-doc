@@ -3,7 +3,7 @@ title: "Ajouter des tags"
 description: ""
 draft: false
 weight: 223
-toc: true
+toc: false
 ---
 Vous pouvez enrichier les informations des livres de votre bilbiothéque en leur ajoutant des `Tags`. Les `Tags` permettent de faire des recherches rapides et de trier les livres en vue liste. 
 

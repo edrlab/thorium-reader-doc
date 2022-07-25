@@ -1,19 +1,20 @@
 ---
-title: "Thorium et les lecteurs d'écran"
+title: "Lire avec un lecteur d'écran"
 description: ""
 draft: false
 weight: 310
-toc: true
+toc: false
 ---
 
 Lors du lancement de Thorium, si un lecteur d'écran est repéré, les fonctions relatives sont activées.
 
 {{< hint warning >}}
+
 Attention !
 
 Les fonctions d'accessibilité adressées aux technologies d'assistance peuvent être affecté par la qualité des fichiers lus. 
-{{< /hint >}}
 
+{{< /hint >}}
 
 # Séquences de touches communes à NVDA et JAWS
 

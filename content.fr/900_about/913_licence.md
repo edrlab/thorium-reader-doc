@@ -3,7 +3,7 @@ title: "Licence"
 description: ""
 draft: false
 weight: 913
-toc: true
+toc: false
 ---
 
   <h2>Licences</h2>
