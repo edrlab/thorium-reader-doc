@@ -4,11 +4,7 @@
     <title>À propos de ce site on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/</link>
     <description>Recent content in À propos de ce site on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/900_about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/900_about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crédits</title>
       <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/902_credits/</link>
@@ -16,8 +12,10 @@
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/902_credits/</guid>
       <description>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.
+Les contributeurs principaux de cette documentation sont :
+Gautier Chomel Noelia Ruiz Martínez Georges Kerscher Ce site est réalisé avec le générateur de sites statiques Hugo et le théme Hugo Book Theme.
 Qui a développé cette application Thorium Reader est actuellement développé par :
-Daniel Weck, lead développeur. Pierre Leroux, développeur node.js.   Plusieurs autres développeurs ont contribué à faire du Thorium ce qu&#39;il est aujourd&#39;hui : Simon Le Roux, UI designer. Cyrille Lebeaupin, créateur de noop.fr, développeur senior. Jiminy Panoz, créateur de Readium CSS.</description>
+Daniel Weck, lead développeur. Pierre Leroux, développeur node.js. Plusieurs autres développeurs ont contribué à faire du Thorium ce qu&#39;il est aujourd&#39;hui : Simon Le Roux, UI designer.</description>
     </item>
     
     <item>
@@ -26,7 +24,7 @@ Daniel Weck, lead développeur. Pierre Leroux, développeur node.js.   Plusieurs
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/903_support/</guid>
-      <description>Vous aussi pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab.  Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels.  Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi :  Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre système de gestion de projet.</description>
+      <description>Vous aussi pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab. Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels. Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi : Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre système de gestion de projet.</description>
     </item>
     
     <item>
@@ -35,10 +33,10 @@ Daniel Weck, lead développeur. Pierre Leroux, développeur node.js.   Plusieurs
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/904_issues/</guid>
-      <description>Si vous ne trouvez pas la réponse à votre problème sur ce site, vous pouvez nous indiquer votre problème via notre outil de suivi de support.
+      <description>Si vous ne trouvez pas la réponse à votre problème sur ce site, vous pouvez nous indiquer votre problème via le formulaire de contact ou via notre outil de suivi de support.
 La page est en anglais mais vous pouvez rédiger dans votre langue en nous l&amp;rsquo;indiquant pour que nous puissions mobiliser les personnes ressources.
 Voici les informations dont nous avons besoin :
- Système d&amp;rsquo;exploitation et sa version Version de Thorium (elle est indiqué en bas de la bibliothèque sous le titre À propos de Thorium)  </description>
+Système d&amp;rsquo;exploitation et sa version Version de Thorium (elle est indiqué en bas de la bibliothèque sous le titre À propos de Thorium) </description>
     </item>
     
     <item>
@@ -47,7 +45,11 @@ Voici les informations dont nous avons besoin :
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/905_contribute/</guid>
-      <description></description>
+      <description>Thorium et sa documentation sont développés grace à la communauté d&amp;rsquo;utilisateurs.
+Nous avons besoin d&amp;rsquo;aide pour traduire cette documentation.
+Pour ce faire, vous pouvez nous contacter.
+Si vous êtes suffisament à l&amp;rsquo;aise avec GitHub et le format Markdown vous pouvez proposer une nouvelle traduction via un Pull Request.
+Pour ce faire clonez le dépot et créez une branche du nom de la langue que vous souhaitez ajouter, faites une copie du dossier content.</description>
     </item>
     
     <item>
@@ -56,7 +58,7 @@ Voici les informations dont nous avons besoin :
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/913_licence/</guid>
-      <description>Licences  Copyright 2021 European Digital Reading Lab. Tous droits réservés. Licensed to the Readium Foundation under one or more contributor license agreements.  L&#39;application est open-source, diffusée sous une licence BSD 3. Elle est basée sur la boîte à outils Readium Desktop, en code source libre.  Le contenu de ce site web est libre et peut-être réutilisé selon les termes de la Licence BSD.  Ce site statique est généré par Hugo et le thème Hugo Book.</description>
+      <description>Licences Copyright 2021 European Digital Reading Lab. Tous droits réservés. Licensed to the Readium Foundation under one or more contributor license agreements. L&#39;application est open-source, diffusée sous une licence BSD 3. Elle est basée sur la boîte à outils Readium Desktop, en code source libre. Le contenu de ce site web est libre et peut-être réutilisé selon les termes de la Licence BSD. Ce site statique est généré par Hugo et le thème Hugo Book.</description>
     </item>
     
   </channel>
