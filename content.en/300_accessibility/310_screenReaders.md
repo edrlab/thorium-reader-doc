@@ -1,67 +1,67 @@
 ---
-title: "Lire avec un lecteur d'écran"
+title: "Reading with a screen reader"
 description: ""
 draft: false
 weight: 310
 toc: false
 ---
 
-Lors du lancement de Thorium, si un lecteur d'écran est repéré, les fonctions 
-relatives sont activées.
+When launching Thorium, if a screen reader is detected, the relative functions 
+functions are activated.
 
 {{< hint warning >}}
 
 Attention !
 
-Les fonctions d'accessibilité adressées aux technologies d'assistance 
-peuvent être affecté par la qualité des fichiers lus. 
+Accessibility features addressed to assistive technologies 
+may be affected by the quality of the files being played. 
 
 {{< /hint >}}
 
-# Séquences de touches communes à NVDA et JAWS
+# Keystrokes common to NVDA and JAWS
 
-(contribution de Prashant Verma, Consortium DAISY)
+(contribution from Prashant Verma, DAISY Consortium)
 
-Pour la lecture du texte, la navigation dans les tableaux, la navigation dans 
-la fenêtre du navigateur, la touche d'insertion peut être remplacée par la 
-touche modificatrice du lecteur d'écran (par exemple la touche de verrouillage 
-des majuscules)
+For reading text, navigating in tables, navigating in the browser window, the 
+the insertion key can be replaced by the 
+modifier key of the screen reader (e.g. the Caps Lock key). 
+key)
 
-## Touches rapides pour la navigation 
+## Quick keys for navigation 
 
-Le lecteur d'écran doit être en mode navigation ou curseur virtuel.
+The screen reader must be in navigation or virtual cursor mode.
 
-|Commande |description|
+|Command |description|
 |---|---|
-|Titre suivant |<kbd>H</kbd>|
-|Tableau suivant |<kbd>T</kbd>|
-|Graphique suivant |<kbd>G</kbd>|
-|Liste suivante |<kbd>L</kbd>|
-|Champ de formulaire suivant |<kbd>F</kbd>|
-|Liste d'éléments |<kbd>Insert</kbd> + <kbd>F7</kbd> (fonctionne quel que soit le mode du curseur)|
+|Next title |<kbd>H</kbd>|
+|Next table  |<kbd>T</kbd>|
+|Next chart |<kbd>G</kbd>|
+|Next list |<kbd>L</kbd>|
+|Next form field |<kbd>F</kbd>|
+|List of elements	 |<kbd>Insert</kbd> + <kbd>F7</kbd> (works regardless of cursor mode)|
 
-*Utilisez les touches ci-dessus avec la touche Maj pour passer à l'élément précédent.*
+*Use the above keys with the <kbd>Shift</kbd> key to move to the previous item.*
 
-## Texte
+## Text
 
-|Commande |description|
+|Command |description|
 |---|---|
-|Dire le caractère précédent |<kbd>&larr;</kbd>|
-|Dire le caractère suivant |<kbd>&rarr;</kbd>|
-|Mot précédent |<kbd>CTRL</kbd> + <kbd>&larr;</kbd>|
-|Mot suivant |<kbd>CTRL</kbd> + <kbd>&rarr;</kbd>|
-|Ligne précédente |<kbd>&uarr;</kbd>|
-|Ligne suivante |<kbd>&darr;</kbd>|
-|Dire la phrase précédente |<kbd>ALT</kbd> + <kbd>&uarr;</kbd> (Jaws uniquement)|
-|Dire la phrase suivante |<kbd>ALT</kbd> + <kbd>&darr;</kbd> (Jaws uniquement)|
-|Dire tout |<kbd>INSERT</kbd> + <kbd>&darr;</kbd>|
-|Dire Police |<kbd>INSERT</kbd> + <kbd>F</kbd>|
+|Say previous character  |<kbd>&larr;</kbd>|
+|Say the next character  |<kbd>&rarr;</kbd>|
+|Previous word  |<kbd>CTRL</kbd> + <kbd>&larr;</kbd>|
+|Next word  |<kbd>CTRL</kbd> + <kbd>&rarr;</kbd>|
+|Previous line |<kbd>&uarr;</kbd>|
+|Next line |<kbd>&darr;</kbd>|
+|Say previous sentence |<kbd>ALT</kbd> + <kbd>&uarr;</kbd> (Jaws only)|
+|Say next sentence |<kbd>ALT</kbd> + <kbd>&darr;</kbd> (Jaws only)|
+|Say all |<kbd>INSERT</kbd> + <kbd>&darr;</kbd>|
+|Say Font |<kbd>INSERT</kbd> + <kbd>F</kbd>|
 
-## Tableaux
+## Tables
 
-|Commande |description|
+|Command |description|
 |---|---|
-|Cellule vers la droite |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>&rarr;</kbd>|
-|Cellule vers la gauche |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>&larr;</kbd>|
-|Cellule en dessous |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>&darr;</kbd>|
-|Cellule au-dessus |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>&uarr;</kbd>|
+|Cell to the right  |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>&rarr;</kbd>|
+|Cell to the left  |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>&larr;</kbd>|
+|Cell below  |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>&darr;</kbd>|
+|Cell above |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>&uarr;</kbd>|

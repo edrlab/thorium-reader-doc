@@ -1,50 +1,54 @@
 ---
-title: "Paramètres de lecture"
+title: "Reading settings"
 description: ""
 draft: false
 weight: 214
 toc: false
 ---
-Dans l'interface de lecture utilisez le bouton `Préférences` 
+In the reading interface use the `Preferences` button
 (<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="" width="20px">)
-: en cliquant sur ce bouton, les options suivantes sont révélées.
+: By clicking on this button, the following options are revealed.
 
-## Thème
-La couleur de l'arrière-plan et du premier plan peut être modifiée en utilisant 
-l'un des trois thèmes disponibles - Neutre, Sépia et Nuit.
-        
-## Texte 
-La taille de la police peut être augmentée ou diminuée à l'aide du curseur. 
-La police peut également être modifiée. Les options disponibles sont les suivantes
- : Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), 
- Dualspace et Monospace.
+## Theme
 
-En sélectionnant les `...` vous pourrez renseigner le nom de la police que 
-vous souhaitez utiliser. Pour cela la police doit être présente sur votre système 
-d'exploitation et vous devez connaitre son nom exact tel qu'il est renseigné pour 
-le système d'exploitation. 
+The color of the background and foreground can be changed using one of the three
+available themes - Neutral, Sepia and Night.
+
+## Text
+
+The font size can be increased or decreased using the slider.
+The font can also be changed. The available options are as follows
+ Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia),
+ Dualspace and Monospace.
+
+By selecting the `...` you can enter the name of the font you want to use.
+you want to use. To do this, the font must be present on your 
+operating system and you must know its exact name as it is set for the operating
+the operating system.
 
 {{< hint info >}}
 
 {{< columns >}}
-### Exemple 1 : paramétrer Verdana comme police de lecture.
-1. Dans l'interface de lecture allez au menu Préférence puis Texte. 
-2. Dans la liste déroulante sélectionnez `...`.
-3. Écrivez le mot *Verdana* dans le champ vide apparu à côté de la liste déroulante. 
-4. Validez avec <kbd>Entrée</kbd>.
+
+### Example 1: Setting Verdana as the reading font
+
+1. In the reading interface go to the Preference menu and then Text.
+2. In the drop-down list select `...`.
+3. Write the word *Verdana* in the empty field that appears next to the drop-down list.
+4. Confirm with <kbd>Enter</kbd>.
 <--->
 <img class="icons" src="/thorium-reader-doc/images/local-fr/thorium-verdana.png" alt="">
 {{< /columns >}}
 
 {{< columns >}}
 
-### Exemple 2 : paramétrer Luciole comme police de lecture.
+### Example 2: Setting up Firefly as a reading font
 
-1. [Téléchargez et installez la police Luciole](https://www.luciole-vision.com/Fichiers/Luciole-Regular.ttf)
-2. Dans l'interface de lecture allez au menu Préférence puis Texte. 
-3. Dans la liste déroulante sélectionnez `...`.
-4. Écrivez le mot *Luciole* dans le champ vide apparu à côté de la liste déroulante. 
-5. Validez avec <kbd>Entrée</kbd>.
+1. [Download and install the Luciole font](https://www.luciole-vision.com/Fichiers/Luciole-Regular.ttf)
+2. In the reading interface go to the Preference menu and then Text.
+3. In the drop-down list select `...`.
+4. Write the word *Fly* in the empty field that appears next to the drop-down list.
+5. Confirm with <kbd>Enter</kbd>.
 
 <--->
 
@@ -54,19 +58,22 @@ le système d'exploitation.
 
 {{< /hint >}}
 
-## Affichage 
-Vous pouvez choisir entre une mise en page avec défilement ou pagination, 
-un alignement automatique ou justifié et une présentation automatique ou 
-sur 1 ou 2 colonnes. Ici aussi, MathJax peut être activé, pour l'affichage 
-des expressions mathématiques.
+## Display
 
-## Espacement
-Les marges, l'espacement des mots, l'espacement des lettres, des paragraphes 
-et des lignes peuvent être ajustés.
+You can choose between a page layout with scrolling or pagination,
+automatic or justified alignment and automatic or
+on 1 or 2 columns. Here also, MathJax can be activated, for the display of
+mathematical expressions.
 
-## Lecture à haute voix (Readaloud)
-Fournit des options pour une "vue propre" (`clean view`) non encombrée et pour 
-la possibilité de sauter les contenus secondaires (`skippability`) qui peuvent 
-comporter les notes de bas de page ou bien des encadrés selon la sémantique 
-indiquée lors de la fabrication du livre numérique.
-`Split TTS` découpera le contenu par phrase permettant un surlignage plus précis.
+## Spacing
+
+Margins, word spacing, letter spacing, paragraph spacing and line spacing
+and lines can be adjusted.
+
+## Readaloud
+
+Provides options for an uncluttered `clean view` and the ability to skip
+skipping secondary content (`skippability`) which may include 
+footnotes or sidebars according to the semantics indicated during the
+indicated during the production of the digital book.
+Split TTS will split the content by sentence for more precise highlighting.

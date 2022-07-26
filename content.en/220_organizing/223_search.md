@@ -1,17 +1,16 @@
 ---
-title: "Rechercher"
+title: "Search"
 description: ""
 draft: false
 weight: 223
 toc: false
 ---
 
-Appuyez sur <kbd>Ctrl + F</kbd>, saisissez le texte de la recherche, 
-appuyez sur le bouton `Résultats`, puis appuyez sur la touche 
-<kbd>Entrée</kbd> sur le lien vers le résultat souhaité.
+Press the <kbd>Ctrl + F</kbd> key combination, enter the text you want to search,
+press the `Results` button, then press the
+<kbd>Enter</kbd> on the link to the desired result.
 
 {{< hint info >}}
-Dans la vue **Tous les livres** il est possible de rechercher dans chaque colonne. 
-Par exemple parmis les auteurs seulement. 
+In the **All Books** view it is possible to search in each column.
+For example among the authors only.
 {{< /hint >}}
-

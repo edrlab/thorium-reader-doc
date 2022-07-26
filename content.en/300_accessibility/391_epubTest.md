@@ -1,47 +1,46 @@
 ---
-title: "Tests et démarche"
+title: "Tests and approach"
 description: ""
 draft: false
 weight: 391
 toc: false
 ---
 
+EDRLab has a close relationship with the DAISY Consortium. 
+Thanks to the people with visual impairments who participate in our design 
+and testing, Thorium Reader aims to be one of the most 
+accessible reading applications on the market. 
 
-EDRLab entretient des relations étroites avec le DAISY Consortium. 
-Grâce aux personnes ayant des hadicaps visuels qui participent à notre design 
-et à nos essais, Thorium Reader cherche à être l'une des applications de 
-lecture les plus accessibles du marché. 
+Thorium Reader is [tested on epubtest.org](https://epubtest.org/results/3632/).
 
-Thorium Reader est [testé sur epubtest.org](https://epubtest.org/results/3632/).
+Version 1.8 received the following scores: 
+ * Basic functions 86.67% (Thorium does not allow yet annotating a document)
+ * Non-visual reading 100% (Thorium does not annotate a document)
+ Mathematics 100% * Extended descriptions 100
+ * Extended descriptions 100%. 
 
-La version 1.8 a reçu les scores suivants : 
- * Fonctions de base 86.67% (Thorium ne permet pas d'annoter un document)
- * Lecture non visuelle 100%
- * Mathematiques 100%
- * Descriptions étendues 100% 
+The list of tests is as follows: 
 
-La liste des tests est la suivante : 
-
-*  Lecture non visuelle
- * Lancez "lire à partir d'ici".
- * Arrêt et reprise de la lecture
- * Tout le texte doit être lu dans le bon ordre.
- * Lecture du texte alternatif de l'image
- * Modifier la vitesse de lecture
- * La TTS permet de faire des pauses pour les titres, les paragraphes, les éléments de liste, etc.
- * Naviguer entre les cellules, les lignes et les colonnes d'un tableau
- * Naviguer entre les hyperliens internes
- * Passer à l'élément de bloc suivant
- * Navigation par caractères
- * Navigation par mots
- * Naviguer par lignes
- * Naviguer dans le contenu par les rubriques
- * Sélectionner et copier du texte
-*  Mathématiques
- * Navigation dans le langage MathML en ligne avec les technologies d'assistance et autres technologies
- * Navigation dans les images du bloc mathématique suivies du résumé/détail avec MathML
- * Navigation dans des images mathématiques en ligne suivies par du MathML commenté
-*  Descriptions étendues 
- * Résumé
- * Détection et utilisation des éléments HTML Détails et Résumé
- * Technique permettant d'établir un lien vers une seule description étendue placée dans un fichier HTML distinct via des hyperliens textuels.
+* Non-visual reading
+ * Launch "read from here".
+ * Stop and resume reading
+ * All text must be read in the correct order.
+ * Read the alternative text of the image
+ * Change the reading speed
+ * TTS allows pauses for titles, paragraphs, list items, etc.
+ * Navigate between cells, rows and columns in a table
+ * Navigate between internal hyperlinks
+ * Move to the next block element
+ * Navigate by characters
+ * Navigate by words
+ * Navigate by rows
+ * Navigate through content by headings
+ * Select and copy text
+* Mathematics
+ * Browsing in MathML online with assistive and other technologies
+ * Browsing in math block images followed by summary/detail with MathML
+ * Browsing online math images followed by commented MathML
+* Extended descriptions 
+ * Summary
+ * Detection and use of HTML elements Details and Summary
+ * Technique for linking to a single extended description placed in a separate HTML file via text hyperlinks.

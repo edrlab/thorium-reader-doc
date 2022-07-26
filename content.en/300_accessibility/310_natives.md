@@ -1,60 +1,60 @@
 ---
-title: "Fonctions natives"
+title: "Native functions"
 description: ""
 draft: false
 weight: 310
 toc: false
 ---
-# L'accessibilité native
+# Native accessibility
 
 {{< hint warning >}}
 Attention !
 
-Les fonctions d'accessibilité natives proposées par Thorium peuvent être affecté 
-par la qualité des fichiers lus. 
+The native accessibility features offered by Thorium are strongly 
+affected by the quality of the read files. 
 {{< /hint >}}
 
 
-## Ajustements visuels
+## Visual adjustments
 
-- L'application permet de [modifier les thèmes de couleurs](/thorium-reader-doc/fr/210_reading/215_ReadingParameters/#th%c3%a8me) et de [modifier la police d'affichage, la taille du texte](/thorium-reader-doc/fr/210_reading/215_ReadingParameters/#texte).
+- The application allows you to [change the color themes](/thorium-reader-doc/fr/210_reading/215_ReadingParameters/#th%c3%a8me) and [change the display font, text size](/thorium-reader-doc/fr/210_reading/215_ReadingParameters/#texte).
 
-- il est possible d'utiliser toutes les polices installées sur l'ordinateur.
+- it is possible to use all the fonts installed on the computer.
 
-- Il est possible d'augmenter la taille d'une image avec <kbd>Shift+clic</kbd> sur l'image. Renouveller plusieurs fois pour grossir l'image à la taille souhaitée.
+- It is possible to increase the size of an image with <kbd>Shift+clic</kbd> on the image. Repeat several times to enlarge the image to the desired size.
 
-- L'affichage peut être sélectionné comme paginé ou défilant, 
+- The display can be selected as paginated or scrolling, 
 
-- le texte peut être justifié ou aligné à gauche, et le nombre de colonnes contrôlé. 
+- text can be justified or left-aligned, and the number of columns controlled. 
 
-- l'espacement peut être ajusté de manière flexible, avec un contrôle sur la marge, les mots, les lettres et l'espacement des lignes. 
+- Spacing can be flexibly adjusted, with control over margin, word, letter and line spacing. 
 
 {{< hint danger >}}
 
 Attention !
 
-Les ajustements visuels ne sont pas possibles avec les formats à mise en page 
-fixe comme certains EPUBs (dits <span lang="en">Fixed Layout</span>) 
-ou les fichiers PDF.
+Visual adjustments are not possible with fixed layout formats such as some 
+formats such as some EPUBs (so-called <span lang="en">Fixed Layout</span>) 
+or PDF files.
 
 {{< /hint >}}
 
-## Synthèse vocale (TTS)
+## Text-to-Speech (TTS)
 
-La synthèse vocale est lancée à l'aide du bouton haut-parleur au milieu de la 
-barre d'outils, ou à l'aide du raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
+Text-to-speech is launched using the speaker button in the middle of the toolbar, or using the 
+toolbar, or by using the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-La lecture et la pause peuvent être contrôlées avec le raccourci clavier 
+Play and pause can be controlled with the keyboard shortcut 
 <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> 
-et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour respectivement précédent et suivant.
+The playback position can be moved with <kbd>Ctrl</kbd> + <kbd>1</kbd> 
+et <kbd>Ctrl</kbd> + <kbd>3</kbd> for previous and next respectively.
 
-Un contrôle de la vitesse est disponible lorsque la lecture à haute voix 
-est sélectionnée, avec une plage allant de x0,5 à x2.
+A speed control is available when read aloud 
+is selected, with a range from x0.5 to x2.
 
-La phrase en cours est surlignée en jaune pâle, et chaque mot prononcé est 
-souligné en orange.
+The current sentence is highlighted in light yellow, and each word spoken is 
+underlined in orange.
 
-Une vue alternative (simplifiée) de la publication est fournie par le biais 
-des options disponible dans le menu `Paramètres / Readaloud`.
+An alternative (simplified) view of the publication is provided through 
+options available in the `Settings / Readaloud` menu.

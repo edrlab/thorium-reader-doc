@@ -1,5 +1,5 @@
 ---
-title: Organiser
+title: Organize
 weight: 220
 bookCollapseSection: true
 ---

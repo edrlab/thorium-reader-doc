@@ -7,29 +7,29 @@ toc: false
 ---
 
 
-  <p>
-    Vous aussi pouvez aider Thorium Reader à devenir la meilleure application 
-    de lecture en <a href="https://www.edrlab.org/become-a-member/">
-    devenant membre à EDRLab</a>.
-  </p>
-  <p>
-    Ou bien en faisant un don à l'EDRLab via le 
-    <a href="https://github.com/sponsors/edrlab">parrainage Github</a> 
-    "piggy-bank", qui accepte de petits dons mensuels.
-  </p>
+ <p>
+  You too can help Thorium Reader become the best reading application 
+  reading application by<a href="https://www.edrlab.org/become-a-member/">
+  becoming a member of EDRLab</a>.
+ </p>
+ <p>
+  Or by making a donation to the EDRLab via the 
+  <a href="https://github.com/sponsors/edrlab">Github sponsorship</a> 
+  "piggy-bank", which accepts small monthly donations.
+ </p>
 
-  <p>
-  Thorium est construit grace à sa communauté. Si vous voulez participer prenez 
-  contact avec nous !
-  </p>
+ <p>
+ Thorium is built by its community. If you want to participate, please 
+ contact us !
+ </p>
 
-  <p>Vous pouvez aussi : 
-  <ul>
-  <li>Signaler une erreur ou suggérer une modification en ouvrant une Issue 
-  dans notre 
-  [outil de suivi de support](https://github.com/edrlab/thorium-reader-doc/issues/new).
-  </li>
-  
-  <li>Participer à la traduction des ressources.</li>
+ <p>You can also: 
+ <ul>
+ <li>Report an error or suggest a change by opening an Issue 
+ in our 
+ [support tracking tool](https://github.com/edrlab/thorium-reader-doc/issues/new).
+ </li>
+ 
+ <li>Participate in the translation of resources.</li>
 
-  </ul>
+ </ul>

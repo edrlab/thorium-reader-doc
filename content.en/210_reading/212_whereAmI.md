@@ -1,66 +1,66 @@
 ---
-title: "Où suis-je ?"
+title: "Where am I?"
 description: ""
 draft: false
 weight: 212
 toc: false
 ---
 {{< columns >}}
-Le raccourcis clavier <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd> 
-permet d'obtenir une mention rapide de la position de lecture dans le document. 
-Cette information sera affichée dans la zone de notification en bas à gauche de 
-l'interface et sera lue par un lecteur d'écran.
+The keyboard shortcuts <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd>
+allows to get a quick mention of the reading position in the document.
+This information will be displayed in the notification area at the bottom left
+of the interface and will be read by a screen reader.
 
 <--->
-<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du brail) [32%] H1 VII / H2 Incident du baril."/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>
 
 {{< /columns >}}
 
-Lorsque vous consultez le menu *Navigation*, Thorium indique le chapitre en cours 
-dans la table des matières ainsi que la page en cours dans le menu `Aller à la page`.
+When you look at the *Navigation* menu, Thorium shows the current chapter
+in the table of contents and the current page in the `Go to page` menu.
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-tdmfocus.png" alt="Screenshot, reading a book with title VII Barrel Incident. The navigation pane is open, the table of contents shows the title Barrel Incident in a square which indicates that this is the chapter being read."/>
 
 # Lire les informations de navigation
 
 {{< columns >}}
 
-Utilisez la fonction *Informations* (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>) 
-pour ouvrir un panneau qui affiche la structure des titres et le numéro de page.
+Use the *Information* function (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>)
+to open a panel that displays the title structure and page number.
 
-En plus des informations sur le livre, ce panneau indique au sous titre Progression :
+In addition to the book information, this sign shows at the subheading Progression:
 
-- le numéro du chapitre sur le nombre total de chapitre ;
-- le titre du chapitre en cours ;
-- le pourcentage lu du chapitre en cours ;
-- la page courante ;
-- la structure des titres (h1 est un titre de niveau 1, h2 un titre de niveau , etc.)
+- the chapter number out of the total number of chapters;
+- the title of the current chapter;
+- the percentage read of the current chapter;
+- the current page;
+- the title structure (h1 is a level 1 title, h2 is a level 2 title, etc.)
 
-Appuyez sur  <kbd>Echap</kbd>  pour femer le panneau `Informations` 
-et revenir au texte.
+Press the  <kbd>Escape</kbd> key to close the `Information` panel
+and return to the text.
 
 <--->
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-progression.png" alt="Screenshot, progress: 14/25 (barrel incident) [1%] h1: VII"/>
 
 {{< /columns >}}
 
-{{< details "Utiliser **Où suis-je** avec NVDA">}}
+{{< details "Use **Where am I** with NVDA">}}
 
-Appuyez sur la touche <kbd>NVDA</kbd> + <kbd>F7</kbd>, puis sur la touche de 
-tabulation jusqu'à ce que vous obteniez la vue de l'en-tête. 
-Cela vous montre où vous vous trouvez dans la structure du titre.
+Press the <kbd>NVDA</kbd> + <kbd>F7</kbd> keys, and then the
+tab key until you get the header view.
+This shows you where you are in the title structure.
 
-Appuyez sur <kbd>NVDA</kbd> + <kbd>Entrée</kbd> pour enregistrer la position 
-actuelle. Puis <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> pour placer le 
-curseur dans la section Progress de la boîte de dialogue contenant des 
-informations sur la publication. Le numéro du document HTML actuel par rapport 
-au nombre total de documents, le pourcentage, la page actuelle et la section 
-correspondante sont affichés, avec la possibilité d'afficher des liens pour 
-faire défiler les sections précédentes. Après avoir fermé le dialogue, par 
-exemple en appuyant sur  <kbd>Echap</kbd> , il est possible de revenir au point 
-de lecture par le biais du lien du lecteur d'écran (marqué d'un double 
-soulignement) dans le cadre de contenu principal (vers lequel on peut naviguer 
-par la touche Tab ou avec la lettre  <kbd>M</kbd>  en mode navigation).
+Press the <kbd>NVDA</kbd> + <kbd>Enter</kbd> keys to save the current position.
+current position. Then <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> to place the
+cursor in the Progress section of the dialog box containing information about the
+information dialog box. The number of the current HTML document in relation to the
+the total number of documents, the percentage, the current page and the corresponding
+section are displayed, with the option of displaying links to
+scroll backwards and forwards. After closing the dialog, for example by
+for example by pressing  <kbd>Escape</kbd> key, it is possible to return to the point
+through the screen reader link (marked with a double underline) in the main
+underline) in the main content frame (which can be navigated to with the
+with the <kbd>Tab</kbd> key or with the letter  <kbd>M</kbd>  in navigation mode).
 
 {{< /details >}}

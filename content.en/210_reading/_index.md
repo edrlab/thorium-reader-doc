@@ -1,12 +1,13 @@
 ---
-title: Lire
+title: Read
 weight: 210
 bookCollapseSection: true
 ---
 
-Thorium permet une lecture visuelle et audio. Pour assurer un bon repérage dans 
-la publication, Thorium propose aussi de nombreuses options de navigation ainsi 
-que la possibilité d'ajouter des Marque-pages ou de rcehercher dans la publication.
+Thorium provides visual reading and audio playback. 
+In order to ensure that you can find your way around the 
+the publication, Thorium also offers many navigation options  
+as well as the possibility to add bookmarks or to search within the publication.
 
 {{<section>}}
 <!--Section renders pages in section as definition list, using title and description.

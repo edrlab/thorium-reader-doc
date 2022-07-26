@@ -1,91 +1,99 @@
 ---
-title: "Se déplacer dans un livre"
+title: "Moving around in a book"
 description: ""
 draft: false
 weight: 211
 toc: false
 ---
 
-# Naviguer dans un livre
+# Navigate in a book
 
-Les options de navigation peuvent être très différentes d'un livre à l'autre. 
-Thorium permet les éléments suivants.
+The navigation options can be very different from one book to another. 
+Thorium allows the following.
 
-## Avancer et reculer
+## Move forward and backward
 
-Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez 
-utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation 
-situées en bas à droite de l'interface de lecture 
-(<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"><img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px">).
+To navigate forward and backward in the content of the book you can 
+use the arrows on your keyboard or click on the navigation arrows 
+located at the bottom right of the reading interface 
+(<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Previous content button" width="15px"><img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Next content button" width="15px">).
 
-Il est possible de se déplacer entre les chapitres en utilisant 
-<kbd>Ctrl</kbd> + <kbd>Page précédente (Page Up)</kbd> (chapitre précédent) et 
-<kbd>Ctrl</kbd> + <kbd>Page suivante (Page Down)</kbd> (chapitre
-suivant) ou <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&larr;</kbd> (chapitre précédent) 
-et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&rarr;</kbd> (chapitre suivant).
+It is possible to move between chapters using 
+<kbd>Ctrl</kbd> + <kbd>Previous page (Page Up)</kbd> (previous chapter) and 
+<kbd>Ctrl</kbd> + <kbd>Next page (Page Down)</kbd> (next chapter) 
+or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> 
+(except on MacOS) + <kbd>&larr;</kbd> 
+(previous chapter) 
+et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> 
+(except on MacOS) + <kbd>&rarr;</kbd> 
+(next chapter).
 
 {{< hint warning >}}
 
-Attention !
+Attention!
 
-Il existe deux raccourcis différents pour passer au chapitre suivant ou précédent. 
-Selon votre configuration et l'usage ou non d'un lecteur d'écran il est possible 
-que seule une de ces deux combinaisons fonctionne.
+There are two different shortcuts to go to the next or previous chapter. 
+Depending on your configuration and whether or not you use a screen reader, it is possible that only one of these 
+that only one of these two combinations works.
 
 {{< /hint >}}
 
 {{< columns >}}
 
-## La table des matières
+## The table of contents
 
-La table des matières représente l'architecture du livre telle que définie par 
-l'organisation productrice de ce dernier.
+The table of contents represents the architecture of the book as defined by 
+the book's producing organization.
 
-Les titres de premier niveau sont indiqués sans marge, ceux qui comportent des 
-sous titres (ou titre de niveau 2) sont présentés sur un fond grisé. 
-Les sous titres sont décalés de la marge à gauche et un filet permet de savoir 
-facilement à quel niveau de titre supérieur ils appartiennent.
+The first level titles are indicated without margin, those with 
+subtitles (or second level title) are presented on a gray background. 
+The sub-headings are shifted from the margin to the left and a 
+vertical line makes it easy to know 
+to which level of title they belong.
 
-{{< details "Avec NVDA">}}
-Vous pouvez utiliser les fonctions de navigation par niveaux de titre 
-(<kbd>NVDA</kbd> + <kbd>H</kbd>) pour explorer et vous déplacer dans la table des matières.
+
+{{< details "With NVDA">}}
+You can use the title level navigation functions 
+(<kbd>NVDA</kbd> + <kbd>H</kbd>) 
+to explore and move through the table of contents.
 {{< /details >}}
 
 <--->
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-TDM-light.png" alt="Screenshot, table of contents: Titles Level 1 Cover, Title, Copyright, Dedicae, Exergue, Introduction, The Mark of Four; Title Level 2 Deduction elevated to a science."/>
 
 {{< /columns >}}
 
-## Les points de repères
+## Landmarks
 
 {{< columns >}}
 
-Les livres numérique de bonne qualité comportent des points de repères qui 
-permettent d'identifier et d'atteindre rapidement les grandes parties d'un livre.
+Good-quality digital books have markers that allow you to quickly identify and 
+identify and quickly reach the main parts of a book.
 
 {{< hint info >}}
 
 Information
 
-Chaque publication EPUB doit inclure un guide de tous les principaux 
-points de repère. L'intitulé des points de repères est aux choix de l'éditeur 
-mais la nature de chaque repère doit être identifiée selon un 
-vocabulaire sémantique définis. Les principaux sont :
+Each EPUB publication should include a guide to all major 
+benchmarks. The titles of the benchmarks are at the discretion of the publisher 
+choice, but the nature of each benchmark must be identified according to a 
+semantic vocabulary. The main ones are:
 
-* Texte principal (bodymatter)
-* Table des matières (toc)
-* bibliographie
+* Main text (bodymatter)
+* Table of contents (toc)
+* bibliography
 * index
-* glossaire
+* glossary
 
-La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.org/TR/epub-ssv/) est disponible sur le site du W3C.
+The [complete list of semantic vocabulary EPUB in English](https://www.w3.org/TR/epub-ssv/)
+is available on the W3C website.
 
 {{< /hint >}}
 
 <--->
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-reperes.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 
 {{< /columns >}}
 
@@ -93,28 +101,28 @@ La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.o
 
 Attention !
 
-Les signets des fichiers PDF utilisés pour palier à l'absence de table des matière de ce format ne sont pas interprétés par Thorium.
+PDF bookmarks used to compensate for the lack of a table of contents in this format are not interpreted by Thorium.
 
 {{< /hint >}}
 
-## Les pages de référence
+## The reference pages
 
 {{< columns >}}
 
-Les livres numériques peuvent comporter une pagination de référence permettant 
-une correspondance à la pagination du livre imprimé.
+Digital books can have a reference pagination allowing 
+correspondence to the pagination of the printed book.
 
-Il existe une option de navigation permettant d'aller à la page. Lorsque vous y 
-accédez, cette option indique la page actuelle.
+There is a navigation option to go to the page. 
+When you access it, this option shows the current page.
 
-Il existe également un raccourci clavier pour cette fonction. Appuyez sur 
+There is also a keyboard shortcut for this function. Press the 
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, 
-puis saisissez le numéro de page dans la boîte d'édition en le tapant ou 
-en modifiant la valeur à l'aide de la boîte `Aller à la page`.
+then enter the page number in the edit box by typing it or 
+changing the value using the `Go to page` box.
 
 <--->
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-gotopage.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 
 {{< /columns >}}
 
@@ -122,10 +130,10 @@ en modifiant la valeur à l'aide de la boîte `Aller à la page`.
 
 Attention !
 
-Les <a href="/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">
-livres adaptés</a> utilisent parfois la pagination de référence pour proposer un 
-découpage du livre régulier aux lecteurs sans reproduire la pagination de 
-l'original. Dans ce cas la pagination de référence ne peut pas être utilisée 
-pour se référer au livre imprimé.
+<a href="/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">
+Adapted books</a> sometimes use the reference pagination to offer a regular 
+book breakdown to readers without reproducing the pagination of the 
+original pagination. In this case the reference pagination cannot be used 
+to refer to the printed book.
 
 {{< /hint >}}

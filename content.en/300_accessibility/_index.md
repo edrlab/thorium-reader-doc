@@ -1,24 +1,24 @@
 ---
-title: "Accessibilité"
+title: "Accessibility"
 weight: 300
 bookCollapseSection: true
 ---
- Thorium Reader s'adresse à tous, y compris aux personnes aveugles ou ayant 
- d'autres types de handicap visuel, cognitif ou moteur. L'application est 
- compatible avec les lecteurs d'écran, notamment JAWS, NVDA, Narrateur et 
- VoiceOver. Elle inclut une fonction de lecture à voix haute avec mise en 
- évidence visuelle. Thorium Reader peut être utilisé avec la souris ou le 
- clavier, et les raccourcis clavier sont configurables. L'affichage peut être 
- personnalisé pour répondre aux besoins des utilisateurs, notamment en ce qui 
- concerne les couleurs, la taille du texte, l'espacement, la police et la mise 
- en page.
+ Thorium Reader is for everyone, including people who are blind or have other types of visual 
+ other types of visual, cognitive or motor disabilities. The application is 
+ compatible with screen readers, including JAWS, NVDA, Narrator and 
+ VoiceOver. It includes a read-aloud feature with visual highlighting. 
+ visual highlighting. Thorium Reader can be used with the mouse or the keyboard 
+ keyboard, and keyboard shortcuts are configurable. The display can be 
+ customized to meet the needs of users, including colors, text size 
+ text size, spacing, font and layout. 
+ layout.
 
  {{< hint warning >}}
 
 Attention !
 
-Les fonctions d'accessibilité peuvent être affecté par la qualité des fichiers 
-lus. 
+The accessibility features can be affected by the quality of the files 
+read. 
 
 {{< /hint >}}
 

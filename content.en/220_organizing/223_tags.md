@@ -1,21 +1,21 @@
 ---
-title: "Ajouter des tags"
+title: "Add tags"
 description: ""
 draft: false
 weight: 223
 toc: false
 ---
-Vous pouvez enrichier les informations des livres de votre bilbiothéque en leur 
-ajoutant des `Tags`. Les `Tags` permettent de faire des recherches rapides et de 
-trier les livres en vue liste. 
+You can enrich the information of the books in your library by 
+adding `Tags` to them. Tags' allow you to quickly search and sort books in list view. 
+sort books in list view. 
 
 {{< hint info >}}
-Mise en pratique.
+Putting it into practice.
 
-Ouvrez la fiche livre, positionnez-vous dans le champ *Ajouter un tag*, écrivez 
-le nom du tag que vous souhaitez ajouter puis appuyez sur le bouton `Ajouter`. 
-Le tag est ajouté dans une boite bleu, vous pouvez le supprimer en cliquant sur 
-la croix. 
+Open the book form, position yourself in the field *Add a tag*, write 
+the name of the tag you want to add then press the `Add` button. 
+The tag is added in a blue box, you can remove it by clicking on 
+the cross. 
 {{< /hint >}}
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-tags.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique 1 correspondance"/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-tags.png" alt="Screenshot, the search bar is present above the text, the corresponding text is highlighted in green and the Search panel shows 1 match"/>

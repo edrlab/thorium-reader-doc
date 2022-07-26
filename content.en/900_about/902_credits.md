@@ -1,78 +1,75 @@
 ---
-title: "Crédits"
+title: "Credits"
 description: ""
 draft: false
 weight: 902
 toc: false
 ---
 
-Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.
+This documentation site is designed and maintained by EDRLab 
+as part of the development of the Thorium-Reader application.
 
-Les contributeurs principaux de cette documentation sont : 
+The main contributors of this documentation are : 
 * Gautier Chomel
-* Noelia Ruiz Martínez
 * Georges Kerscher
+* Noelia Ruiz Martínez
+* Prashant Verma
 
-Ce site est réalisé avec le générateur de sites statiques  
-[Hugo](https://gohugo.io/) et le théme 
+This site is made with the static site generator 
+[Hugo](https://gohugo.io/) and the
 [Hugo Book Theme](https://github.com/alex-shpak/hugo-book/).
 
-  <h2>Qui a développé cette application</h2>
+ <h2>Who has developed this app</h2>
 
-  <p>Thorium Reader est actuellement développé par :</p>
+ <p>Thorium Reader is currently developed by:</p>
 
-  <ul class="nobullet">
-    <li>Daniel Weck, lead développeur.</li>
-    <li>Pierre Leroux, développeur node.js.</li>
-  </ul>
+ <ul class="nobullet">
+ <li>Daniel Weck, lead developer.</li>
+ <li>Pierre Leroux, node.js developer.</li>
+ </ul>
 
-  <p>
-    Plusieurs autres développeurs ont contribué à faire du Thorium ce qu'il
-    est aujourd'hui :
-  </p>
+ <p>Several other developers have helped making Thorium what it is today:</p>
 
-  <ul class="nobullet">
-    <li>Simon Le Roux, UI designer.</li>
-    <li>Cyrille Lebeaupin, créateur de noop.fr, développeur senior.</li>
-    <li>Jiminy Panoz, créateur de Readium CSS.</li>
-    <li>Léo Stéfani, développeur node.js, React.</li>
-    <li>Manuel Lagrand, stagiaire, développeur node.js.</li>
-    <li>Thibault Lamour, intégrateur HTML/CSS.</li>
-  </ul>
+ <ul class="nobullet">
+ <li>Simon Le Roux, UI designer.</li>
+ <li>Cyrille Lebeaupin, CEO of noop.fr, senior developer.</li>
+ <li>Jiminy Panoz, creator of Readium CSS.</li>
+ <li>Léo Stéfani, node.js, React developer.</li>
+ <li>Manuel Lagrand, intern, node.js developer.</li>
+ </ul>
 
-  <p>Le projet est supervisé par Laurent Le Meur, Directeur technique d'EDRLab.</p>
+ <p>The project is supervised by Laurent Le Meur, EDRLab CTO.</p>
 
-  <h2>Qui finance cette application</h2>
+ <h2>Who is financing this app</h2>
 
-  <p>
-    EDRLab est une organisation à but non lucratif. Notre budget provient
-    essentiellement de nos membres. EDRLab a démarré en France, mais compte
-    maintenant 65 membres en Europe, Amérique du Nord, Amérique du Sud et
-    Asie.
-  </p>
+ <p>
+ EDRLab is a non-profit organization. Our budget essentially originates
+ from our members. EDRLab started in France, but is now counting 60 members
+ from Europe, North America, South America and Asia.
+ </p>
 
-  <p>Ce projet n'aurait pas vu le jour sans :</p>
-  <p>
-    1- L'implication financière de nos membres fondateurs : Editis, Hachette
-    Livre, Madrigall, Média-Participations, Cercle de la Librarie, Syndicat
-    national de l'Edition. Ils comprennent que le financement de standards
-    ouverts et logiciels open-source est le meilleur moyen de dynamiser un marché
-    innovant pour l'industrie de l'édition.
-  </p>
+ <p>This project would have not seen the light without:</p>
+ <p>
+ 1- The financial implication of our founding members: Editis, Hachette
+ Livre, Magrigall, Media-Participations, Cercle de la Librarie, Syndicat
+ national de l'Edition. They understand that financing open-standards and
+ open-source is the best way to energize an open and innovative market for
+ the publishing industry.
+ </p>
 
-  <p>2- Subventions financières des organismes publics suivants:</p>
-  <ul>
-    <li>CNL (Centre National du livre, France)</li>
-    <li>Ministère de la Culture (France)</li>
-  </ul>
+ <p>2- Financial grants from the following French public organizations:</p>
+ <ul>
+ <li>CNL (Centre National du livre)</li>
+ <li>Ministère de la Culture</li>
+ </ul>
 
-  <p>
-    3- Subventions supplémentaires des membres de l'EDRLab intéressés par
-    l'ajout de caractéristiques spécifiques:
-  </p>
-  <ul>
-    <li>Fênix Editorial, Brésil</li>
-    <li>Canadian Electronic library, Canada</li>
-    <li>MLOL / Horizons Illimités, Italie</li>
-    <li>Lyrasis, USA</li>
-  </ul>
+ <p>
+ 3- Additional grants from EDRLab members interested by the addition of
+ specific features:
+ </p>
+ <ul>
+ <li>Fênix Editorial, Brazil</li>
+ <li>Canadian Electronic library, Canada</li>
+ <li>MLOL / Horizons Unlimited, Italy</li>
+ <li>Lyrasis, USA</li>
+ </ul>

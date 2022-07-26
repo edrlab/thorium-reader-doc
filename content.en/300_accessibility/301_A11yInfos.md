@@ -1,26 +1,25 @@
 ---
-title: "Informations d'accessibilité"
+title: "Accessibility information"
 description: ""
 draft: false
 weight: 301
 toc: false
 ---
 
-# Informations d'accessibilité
-Actuellement Thorium affiche dans la 
-<a href="../400_shortcodes/404_glossary.html#bookInformation">Fiche Livre</a> 
-sous l'intitulé `Description` le contenu de la métadonnée Résumé d'accessibilité 
+# Accessibility informationCurrently Thorium displays in the 
+<a href="../400_shortcodes/404_glossary.html#bookInformation">Book information panel</a> 
+under the heading `Description` the content of the accessibility summary metadata 
 (<span lang="en">accessibilitySummary</span>). 
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
+<img src="/thorium-reader-doc/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs »."/>
 
 {{< hint warning >}}
 
 Attention !
 
-Des travaux sont en cours pour proposer un guide d'affichage des informations 
-d'accessibilité. Nous suivons ces travaux et implementerons les recommandations 
-prochainement.
+Work is underway to develop a guide for displaying accessibility information. 
+accessibility information. We are following this work and will implement the recommendations 
+soon.
 
 {{< /hint >}}
 
@@ -28,8 +27,8 @@ prochainement.
 
 Attention !
 
-Les informations d'accessibilité doivent être renseignées par les éditeurs. 
-Thorium affiche ces informations telles qu'elles ont étées définies. 
-En cas de doute ou de réclamation contactez le distributeur ou l'éditeur du fichier.
+Accessibility information must be filled in by the editors. 
+Thorium displays this information as it was defined. 
+In case of doubt or complaint, please contact the distributor or the publisher of the file.
 
 {{< /hint >}}

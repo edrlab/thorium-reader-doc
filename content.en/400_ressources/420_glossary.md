@@ -1,5 +1,5 @@
 ---
-title: "Lexique"
+title: "Glossary"
 description: ""
 draft: false
 weight: 420
@@ -8,24 +8,24 @@ toc: false
 ---
 
 
-  <h1>Lexique des termes techniques</h1>
+  <h1>Glossary of technical terms</h1>
 
   <dl>
-    <dt id="bookInformation">Fiche livre</dt>
-    <dd> Donne des informations sur le livre numérique. Ces informations sont 
-    extraites des métadonnées du fichier, leur qualité et quantité dépend de 
-    l'attention portée lors de la production du fichier par l'éditeur.
+    <dt id="bookInformation">Book information panel (Book Details)</dt>
+    <dd> Gives information about the digital book. This information is 
+    extracted from the file's metadata, its quality and quantity depends on the 
+    the attention paid during the production of the file by the publisher.
     </dd>
   </dl>
 
   <dl>
-    <dt id="AdaptedBooks">Livres adaptés</dt>
-    <dd>Ce sont des livres numériques produits par des associations et mis à 
-    disposition des personnes en situation de handicap pour la lecture. 
-    En France ce dispositif est encadré par 
-    <a href="https://www.culture.gouv.fr/Thematiques/Livre-et-lecture/Les-politiques-de-soutien-a-l-economie-du-livre/L-exception-au-droit-d-auteur-en-faveur-des-personnes-handicapees">
-    l'exception handicap du code de la propriété intellectuelle.
-    </a>
+    <dt id="AdaptedBooks">Adapted books</dt>
+    <dd>These are digital books produced by associations and made 
+    available to people with disabilities for reading.
+   Worldwild, this system is governed by 
+    <a href="https://www.wipo.int/marrakesh_treaty/en/">
+   The Marrakech Treaty
+    </a>.
     </dd>
   </dl>
   

@@ -1,53 +1,52 @@
 ---
-title: "Marquer une page ou un passage"
+title: "Mark a page or a passage"
 description: ""
 draft: false
 weight: 214
 toc: false
 ---
-# Marquer une page <br/>ou un passage
+# Mark a page or a passage
 
-## Ajouter un Marque_page
+## Add a bookmark
 
-Le bouton `Marque-pages` permet d'ajouter un point de repère personnalisé. 
+The `bookmark` button allows you to add a custom bookmark.
 
-Un Marque-page peut être un point fixe ou comporter une sélection de texte.
+A bookmark can be a fixed point or a text selection.
 
 {{< hint info >}}
 
-Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. 
-Appuyez sur le bouton `Marque-pages` 
+Position the cursor or select the text you want to mark.
+Press the `bookmark` button
 (<img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">)
- ou la combinaison de touches  <kbd>Ctrl</kbd>  +  <kbd>B</kbd>.
+ or the key combination  <kbd>Ctrl</kbd>  +  <kbd>B</kbd>.
 
 {{< /hint >}}
 
-## Révision et navigation dans les Marques-pages 
+## Reviewing and navigating the Bookmarks
 
-Appuyez sur le bouton de navigation (<kbd>Ctrl</kbd> + <kbd>N</kbd>), puis sur 
-le bouton `Marque-pages`. Vous pouvez modifier le nom de chaque signet, supprimer 
-des signets et vous déplacer vers les signets en appuyant sur <kbd>Entrée</kbd>.
+Press the `Navigation` button (<kbd>Ctrl</kbd> + <kbd>N</kbd>), then on
+the `Bookmarks` button. You can change the name of each bookmark, delete 
+bookmarks and move between bookmarks by pressing <kbd>Enter</kbd>.
 
-Accédez à la liste des signets dans la zone de navigation. Sélectionnez le signet 
-auquel vous souhaitez accéder et appuyez sur la touche <kbd>Entrée</kbd>. Si vous 
-avez renommé le signet, il sera facile d'aller à plusieurs endroits dans le livre.
-
+Access the list of bookmarks in the navigation area. Select the bookmark
+you wish to access and press the <kbd>Enter</kbd> key. If you have
+renamed the bookmark, it will be easy to go to several places in the book.
 
 {{< hint info >}}
-Conseil 
+Advice
 {{< columns >}}
-Si vous sélectionnez une portion de texte puis activez le bouton Marque-page, le 
-marque-page créé aura pour intitulé la ligne sélectionnée.
+If you select a portion of text and then activate the `Bookmark` button, 
+the bookmark created will have the selected line as its title.
 
-Si vous avec placé un signet sans sélectionner une portion de texte, essayez de 
-copier la ligne sur laquelle vous vous trouvez dans le presse-papiers. 
-Allez ensuite dans les options de navigation avec <kbd>Ctrl</kbd> + <kbd>N</kbd>, 
-puis descendez jusqu'à la rubrique des Marque-page, où ils sont répertoriés. 
-Appuyez sur la touche b pour vous déplacer vers le bouton d'édition afin de 
-renommer le signet. Collez la ligne du presse-papiers et appuyez sur la touche 
-<kbd>Entrée</kbd>. Cela renomme le signet avec la ligne de texte que vous avez 
-copiée. Lorsque vous avez plusieurs signets, ce renommage des signets permet 
-de les utiliser facilement.
+If you have bookmarked a line without selecting a portion of text, try copying 
+the line you are on in the clipboard.
+Then go to the navigation options with <kbd>Ctrl</kbd> + <kbd>N</kbd>,
+then scroll down to the Bookmark section, where they are listed.
+Press the b key to move to the edit button to 
+rename the bookmark. Paste the line from the clipboard and press
+<kbd>Enter</kbd>. This renames the bookmark with the line of text that you have
+copied. When you have several bookmarks, this renaming of the bookmarks allows 
+you to use them easily.
 <--->
 <figure>
   <img src="/thorium-reader-doc/images/local-fr/thorium-marquePages.png" alt="">
@@ -57,16 +56,16 @@ de les utiliser facilement.
 {{< /columns >}}
 {{< /hint >}}
 
-{{< details "Utiliser les **Marque-pages** avec NVDA">}}
+{{< details "Using bookmarks with NVDA">}}
 
-N'oubliez pas que les lecteurs d'écran sous Windows utilisent un tampon virtuel 
-pour la lecture. Pour placer un signet à l'endroit où vous lisez actuellement, 
-appuyez sur la touche <kbd>NVDA + entrée</kbd>, et NVDA dira *"activer"*. Cela 
-synchronise le tampon virtuel avec l'emplacement réel actuel, puis utilisez 
-<kbd>Ctrl + B</kbd> pour placer un signet. 
+Remember that Windows screen readers use a virtual buffer
+for reading. To place a bookmark where you are currently reading
+press the key combination <kbd>NVDA + Enter</kbd>, and NVDA will say *"activate "*. This
+synchronizes the virtual buffer with the current real location, then use
+<kbd>Ctrl + B</kbd> to place a bookmark.
 
-Appuyez sur <kbd>NVDA</kbd> + <kbd>entrée</kbd> pour que Thorium déduise l'objet 
-sur lequel se trouve le curseur. Puis appuyez sur <kbd>Ctrl</kbd> + <kbd>B</kbd>. 
-Une notification sonore vous informera du nombre de signets dans la publication 
-en cours.
+Use <kbd>NVDA</kbd> + <kbd>Enter</kbd> for Thorium to deduce the object
+on which the cursor is located. Then press <kbd>Ctrl</kbd> + <kbd>B</kbd>.
+A sound notification will inform you of the number of bookmarks in the current publication.
+in the current publication.
 {{< /details >}}

@@ -6,17 +6,17 @@ weight: 912
 toc: false
 ---
 
-Ce site a été testé avec NVDA sur Firefox sous Windows 10. Aucun bloqueur d'accessibilité n'a été repéré.
+This site was tested with NVDA on Firefox on Windows 10. No accessibility blockers were found.
 
-Si vous rencontrez des difficultés vous pouvez nous en informer via le 
-formulaire de contact ou en ouvrant une Issue sur notre 
-[outil de suivi de support](https://github.com/edrlab/thorium-reader-doc/issues/new).
+If you encounter any difficulties you can inform us via the 
+contact form or by opening an issue on our 
+[support tracker](https://github.com/edrlab/thorium-reader-doc/issues/new).
 
-La page est en anglais mais vous pouvez rédiger dans votre langue en nous 
-l'indiquant pour que nous puissions mobiliser les personnes ressources.
+The page is in English but you can write in your language by telling us so we can 
+in your language so that we can mobilize the right people.
 
-Voici les informations dont nous avons besoin :
+Here is the information we need:
 
-* Système d'exploitation et sa version
-* Version de Thorium (elle est indiqué en bas de la bibliothèque sous le titre À propos de Thorium)
-* Technologie d'assistance utilisée.
+* Operating system and its version
+* Thorium version (it is indicated at the bottom of the library under the title About Thorium)
+* Assistive technology used.

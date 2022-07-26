@@ -6,29 +6,29 @@ weight: 905
 toc: false
 ---
 
-Thorium et sa documentation sont développés grace à la communauté d'utilisateurs.
+Thorium and its documentation are developed thanks to the user community.
 
-Nous avons besoin d'aide pour traduire cette documentation. 
+We need help to translate this documentation. 
 
-Pour ce faire, vous pouvez nous 
-<a href="https://www.edrlab.org/contact/">contacter</a>.
+To do so, you can 
+<a href="https://www.edrlab.org/contact/">contact us</a>.
 
-Si vous êtes suffisament à l'aise avec GitHub et le format Markdown vous 
-pouvez proposer une nouvelle traduction via un Pull Request. 
+If you are comfortable enough with GitHub and the Markdown format you can 
+can propose a new translation via a Pull Request. 
 
-Pour ce faire clonez le dépot et créez une branche du nom de la langue que vous 
-souhaitez ajouter, faites une copie du dossier `content.en` et renommez le avec 
-deux lettres correspondants à la langue que vous souhaitez ajouter (par exemple 
-`content.es` contiendra la traduction en espagnol). Les noms des fichiers ne 
-doivent pas être modifiès.
+To do this clone the repository and create a branch with the name of the language
+you want to add, make a copy of the `content.en` folder and rename it with 
+two letters corresponding to the language you want to add (for example 
+content.es` will contain the Spanish translation). The names of the files should
+not be changed.
 
-Le dossier i18n contient les traductions pour les éléments fixes de l'entête et 
-du pied de page. Plusieurs langues sont déja présentes, si votre langue n'est 
-pas présente, copiez le fichier en.yaml et renommez le avec les deux premieres 
-lettres de la langue que vous souhaitez ajouter. 
+The i18n folder contains the translations for the fixed elements of the header and footer. 
+footer. Several languages are already present, if your language is 
+not present, copy the .yaml file and rename it with the first two letters of the 
+letters of the language you want to add. 
 
-Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier 
-`config.toml` et ajoutez la langue avec le code suivant : 
+Finally to activate the menu of the language you add, edit the file 
+and add the language with the following code: 
 
 ```
 [languages.en]
@@ -37,11 +37,11 @@ Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier
   weight = 1
 ```
 
-Vous devez remplacer `.en` par les deux premières lettres de la langue que vous 
-ajoutez et renseigner le nom de la langue comme valeur de `languageName`. 
-Le `weight` indique l'ordre d'apparition dans le menu des langues. 
+You must replace `.en' with the first two letters of the language you are adding and 
+you are adding and fill in the name of the language as the `languageName` value. 
+The `weight` indicates the order of appearance in the language menu. 
 
-Exemple pour l'espagnol : 
+Example for Spanish : 
 
 ```
 [languages.es]
@@ -50,5 +50,5 @@ Exemple pour l'espagnol :
   weight = 3
 ```
 
-Les images localisées comme les  captures d'écran doivent être ajoutées dans le 
-dossier `statics/images/local-(deux lettres de la langue)`.
+Localized images such as screenshots should be added to the 
+folder `statics/images/local-(two letter language)`.
