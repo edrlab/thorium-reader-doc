@@ -1,5 +1,5 @@
 ---
-title: "Commencer à lire"
+title: "Start reading"
 description: ""
 draft: false
 images: [logo.png]
@@ -8,43 +8,43 @@ toc: false
 
 ---
 
-Thorium est un lecteur de livres numériques, c'est aussi une bibliothèque
-où ranger vos livre et un point d'accès à des catalogues en ligne.
-Thorium ne nécessite aucun compte ni accès en ligne pour être lancé et utilisé.
+Thorium is a digital book reader, it is also a library
+where you can store your books and access to online catalogs.
+Thorium does not require any account or online access to be launched and used.
 
 {{< hint warning >}}
-Pas-à-pas pour Windows.
+Step by step for Windows.
 
-1. [Installez Thorium](https://www.edrlab.org/software/thorium-reader/github/win10).
-2. [Téléchargez un livre numérique](https://www.010101book.net/fr/epub/le_livre_010101_1971_2015_marie_lebert.epub).
-3. Ouvrez le fichier téléchargé avec Thorium.
+1. [Install Thorium](https://www.edrlab.org/software/thorium-reader/github/win10).
+2. [Download a digital book](https://www.gutenberg.org/ebooks/2701.epub.noimages?).
+3. Open the downloaded file with Thorium.
 
 {{< /hint >}}
 
 {{< columns >}}
 
-Sélectionnez le livre que vous souhaitez lire, utilisez le `menu contextuel`
-(clic droit), sélectionnez `ouvrir avec` puis sélectionnez `Thorium`.
+Select the book you want to read, use the `contextual menu` 
+(right click), select `open with` and then select `Thorium`.
 
 {{< hint info >}}
 
 Information.
 
-Vous pouvez définir le lecteur par défaut de certains types de fichiers par le
-biais des paramètres de Windows.
-(sélectionner un fichier, ouvrir le menu contextuel, sélectionner `Ouvrir avec`,
-dans la fenêtre pop-up sélectionner `Thorium`, cocher la case
-`Toujours ouvrir avec`). Cette opération doit être renouvelée pour chaque format
-de fichier que vous souhaitez lire avec Thorium.
+You can set the default drive for certain file types through the Windows
+through the Windows settings.
+(select a file, open the context menu, select `Open with`,
+in the pop-up window select `Thorium`, check the box
+Always open with"). This operation must be repeated for each  
+file format you wish to read with Thorium.
 {{< /hint >}}
 
 <--->
 
 Thorium peut aussi être lancé à partir du menu de l'application ou de tout
-raccourci créé. Cela ouvrira la [bibliothèque](220_organizing/221_libraries)
-et vous permettra de choisir un livre ou d'en ajouter un mais aussi d'accèder
-à des [catalogues](220_organizing/222_catalogs) et d'organiser vos collection.
-Pour lire un livre cliquez simplement dessus ou validez avec <kbd>Entrée</kbd>
-lorsqu'il est sélectionné.
+raccourci créé. This will open the [library](220_organizing/221_libraries)
+and will allow you to choose a book or to add one but also to access
+to [catalogs](220_organizing/222_catalogs) and organize your collection.
+To read a book just click on it or validate with <kbd>Enter</kbd>
+when selected.
 
 {{< /columns >}}

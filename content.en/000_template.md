@@ -6,6 +6,8 @@ bookhidden: true
 weight: 000
 toc: false
 ---
+This is a template for new files including some shortcodes that can be used.
+
 <!--
 Shift+click to zoom in.
 
