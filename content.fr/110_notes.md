@@ -8,9 +8,9 @@ toc: false
 
 
 
-# https://vimeo.com/472222491
+# <https://vimeo.com/472222491>
 
-selct thorium, 
+selct thorium,
 place sur le premier ouvrage, down arrow pass vers graphical menu.
 
 entrée sur couverture ouvre livre
@@ -43,7 +43,7 @@ ctrl N navigation
 
 -->
 
-# https://daisy.org/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/
+# <https://daisy.org/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/>
 
 Guide de démarrage de Thorium Reader
 
@@ -62,8 +62,6 @@ Les liens de téléchargement de Thorium pour Windows, MacOS et Linux sont dispo
 
 Les nightly builds des versions Windows 10, MacOS et Linux peuvent être téléchargées sur la plateforme Github de Readium.
 Vidéos des fonctionnalités d'accessibilité
-
-
 
 Interface utilisateur de Thorium
 
@@ -120,16 +118,15 @@ Vous pouvez cliquer sur le bouton de menu avec le livre (forme de trois points) 
 
 Cliquez sur la couverture ou le titre du livre pour l'ouvrir et le lire. Si le livre a été ouvert précédemment, Thorium ouvrira la dernière page lue ou bien la première page du livre sera affichée. Vous pouvez maintenant utiliser les boutons gauche ou droite ou la barre de défilement pour feuilleter le livre. Vous pouvez également cliquer sur le bouton de navigation et ensuite sur le bouton Table des matières pour voir la liste des chapitres et des sous-sections du titre actuel.
 
-
-# 
+#
 
 With every screen reader there is a "start continuous reading" from current position.
-For NVDA I printed this PDF: https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts
+For NVDA I printed this PDF: <https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts>
 @danielweck
 Member
 danielweck commented on 10 Oct 2019
 
-For JAWS: https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts
+For JAWS: <https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts>
 
 -keyboard shortcuts using NVDA version 19.3 on Windows 10.
 
@@ -144,8 +141,6 @@ Most of theshortcut keys worked as expected, except for these:
 
 Did you start NVDA before launching Thorium? This is important, because the Electron framework and the Chromium webview subsystem (which Thorium is based on) activate a special accessibility bridge when a screen reader is detected (apparently, this is because of significant performance loss when the screen reader layer is activated unnecessarily).
 In the specific case of Thorium (or for that matter, any app built on top of Readium's Electron "navigator" component), we actually go one step further by ensuring that EPUB content documents are rendered in completely fresh frames (internally: cleanly-reloaded webviews) every time a link is followed (e.g. TOC, bookmark, etc.). This introduces a small delay but based on my tests with NVDA and VoiceOver this is a necessary evil, because otherwise the screen reader buffer continues to read the old DOM (even though it has been completely garbage-collected by the underlying Electron / Chromium components).
-
-
 
     I insert a bookmark in a chapter somewhere, normally several heading s down. I then navigate away to a different chapter. I go to the bookmarks, and I get taken to the beginning of the chapter.
 
@@ -168,17 +163,11 @@ The net result is that the "click on HTML element" technique cannot be reliably 
 GeorgeKerscher commented on 12 Mar 2020
 Hello,
 
-
-
 What about highlighting some text and even copying it to the clipboard? This might be more like an annotation, but if it gives us focus, that could work. This may have an added benefit of the bookmarks getting text associated with it instead of just a number, which is difficult to track if you have a bunch.
-
-
 
 Best
 
 George
-
-
 
 From: Daniel Weck <notifications@github.com>
 Sent: Thursday, March 12, 2020 2:24 AM
@@ -189,10 +178,8 @@ Ah, yes, this is a tricky general problem which is currently unresolved. Basical
 
 George, using your screen reader, are you able to generate a mouse click inside the currently-narrated HTML element? If so, then Thorium should be able to detect this "virtual" mouse click, which will then set the reading location to this exact spot. Then (after a few milliseconds), just hit CTRL + b in order to place a bookmark there.
 
-
-
-
 # Non reproduit (juin 2022)
+
 ivan.jeukens@gmail.com
 octobre 2021
 I am learning how to use Thorium together with NVDA (on a windows 10). I noticed that using the automatic read feature of Thorium, I can start over from where I left the reading.

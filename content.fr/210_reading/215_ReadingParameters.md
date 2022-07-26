@@ -5,15 +5,24 @@ draft: false
 weight: 214
 toc: false
 ---
-Dans l'interface de lecture utilisez le bouton `Préférences` (<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="" width="20px">): en cliquant sur ce bouton, les options suivantes sont révélées.
+Dans l'interface de lecture utilisez le bouton `Préférences` 
+(<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="" width="20px">)
+: en cliquant sur ce bouton, les options suivantes sont révélées.
 
 ## Thème
-La couleur de l'arrière-plan et du premier plan peut être modifiée en utilisant l'un des trois thèmes disponibles - Neutre, Sépia et Nuit.
+La couleur de l'arrière-plan et du premier plan peut être modifiée en utilisant 
+l'un des trois thèmes disponibles - Neutre, Sépia et Nuit.
         
 ## Texte 
-La taille de la police peut être augmentée ou diminuée à l'aide du curseur. La police peut également être modifiée. Les options disponibles sont les suivantes : Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace et Monospace.
+La taille de la police peut être augmentée ou diminuée à l'aide du curseur. 
+La police peut également être modifiée. Les options disponibles sont les suivantes
+ : Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), 
+ Dualspace et Monospace.
 
-En sélectionnant les `...` vous pourrez renseigner le nom de la police que vous souhaitez utiliser. Pour cela la police doit être présente sur votre système d'exploitation et vous devez connaitre son nom exact tel qu'il est renseigné pour le système d'exploitation. 
+En sélectionnant les `...` vous pourrez renseigner le nom de la police que 
+vous souhaitez utiliser. Pour cela la police doit être présente sur votre système 
+d'exploitation et vous devez connaitre son nom exact tel qu'il est renseigné pour 
+le système d'exploitation. 
 
 {{< hint info >}}
 
@@ -46,11 +55,18 @@ En sélectionnant les `...` vous pourrez renseigner le nom de la police que vous
 {{< /hint >}}
 
 ## Affichage 
-Vous pouvez choisir entre une mise en page avec défilement ou pagination, un alignement automatique ou justifié et une présentation automatique ou sur 1 ou 2 colonnes. Ici aussi, MathJax peut être activé, pour l'affichage des expressions mathématiques.
+Vous pouvez choisir entre une mise en page avec défilement ou pagination, 
+un alignement automatique ou justifié et une présentation automatique ou 
+sur 1 ou 2 colonnes. Ici aussi, MathJax peut être activé, pour l'affichage 
+des expressions mathématiques.
 
 ## Espacement
-Les marges, l'espacement des mots, l'espacement des lettres, des paragraphes et des lignes peuvent être ajustés.
+Les marges, l'espacement des mots, l'espacement des lettres, des paragraphes 
+et des lignes peuvent être ajustés.
 
 ## Lecture à haute voix (Readaloud)
-Fournit des options pour une "vue propre" (`clean view`) non encombrée et pour la possibilité de sauter les contenus secondaires (`skippability`) qui peuvent comporter les notes de bas de page ou bien des encadrés selon la sémantique indiquée lors de la fabrication du livre numérique.
+Fournit des options pour une "vue propre" (`clean view`) non encombrée et pour 
+la possibilité de sauter les contenus secondaires (`skippability`) qui peuvent 
+comporter les notes de bas de page ou bien des encadrés selon la sémantique 
+indiquée lors de la fabrication du livre numérique.
 `Split TTS` découpera le contenu par phrase permettant un surlignage plus précis.

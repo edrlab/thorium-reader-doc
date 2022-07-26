@@ -3,7 +3,7 @@ title: Introduction
 type: docs
 ---
 
-# Help and ressources for enhanced reading experience 
+# Help and ressources for enhanced reading experience
 
 Thorium Reader is the Reading Application of choice for Windows 10, MacOS and Linux.
 
@@ -15,16 +15,15 @@ Huge efforts are also made to get Thorium Reader highly accessible for visually 
 
 This application is free, with no ads and no leaks of private data.
 
-This is the perfect tools for heavy readers, library patrons and students. 
+This is the perfect tools for heavy readers, library patrons and students.
 
 {{< columns >}}
-
 
 ## Accessibility functions
 
 Thorium Reader is for everyone, including people who are blind or have other print disabilities. The application is compatible with screen readers including JAWS, NVDA, Narrator and VoiceOver, and it includes a read aloud feature with visual highlighting. Thorium Reader can be used with the mouse or keyboard, and keyboard shortcuts are configurable. The display can be personalized to suit user’s needs, including colors, text size, spacing, font and layout.
 
-EDRLab has strong relationships with the DAISY Consortium. Together with people with print disabilities who participate in our design and testing, we are making Thorium Reader one of the most accessible reading applications available. 
+EDRLab has strong relationships with the DAISY Consortium. Together with people with print disabilities who participate in our design and testing, we are making Thorium Reader one of the most accessible reading applications available.
 
 <--->
 
@@ -40,13 +39,11 @@ EDRLab has strong relationships with the DAISY Consortium. Together with people 
 
 * Audiobooks: a standardized format for audiobooks has been designed by the W3C Publishing Working Group in 2020, and EDRLab was part of this WG. Thorium is supporting the packaged (LPF) audiobook format, which will soon be widely used by booksellers, or so we hope.
 
-* Visual narratives: EDRLab has designed a standard format for comics, manga, webtoons and other styles of digital works based on sequances of images. Divina is the name of this format. This is still an experimental format, and we hope that publishers will size it in 2021+. 
+* Visual narratives: EDRLab has designed a standard format for comics, manga, webtoons and other styles of digital works based on sequances of images. Divina is the name of this format. This is still an experimental format, and we hope that publishers will size it in 2021+.
 
 {{< /columns >}}
 
-
 {{< columns >}}
-
 
 ## OPDS Catalogs
 
@@ -54,7 +51,7 @@ Many Public Libraries and booksellers are adopting OPDS as a standard way to exp
 
 Using OPDS, libraries and booksellers can also expose the personal bookshelf of a patron or customer, i.e. the ebooks the user has acquired and can immediately download and read.
 
-Thorium can browse OPDS 1 and 2 catalogs. It also supports several OPDS compliant authentication mechanisms, and can therefore allow users access to their personal bookshelf. 
+Thorium can browse OPDS 1 and 2 catalogs. It also supports several OPDS compliant authentication mechanisms, and can therefore allow users access to their personal bookshelf.
 <--->
 
 ## Readium LCP DRM
@@ -63,7 +60,7 @@ Thorium Reader supports the Readium LCP DRM, originally designed by the Readium 
 
 LCP has already been adopted by many Public Libraries, Universities and booksellers around the world (a list is maintained here).
 
-Organizations in the publishing sector, worldwide, are encouraged to adopt LCP as a way to protect ebooks against oversharing, while offering to users a frictionless experience and keeping content properly accessible. Please contact EDRLab if your organization is interested by adopting LCP. 
+Organizations in the publishing sector, worldwide, are encouraged to adopt LCP as a way to protect ebooks against oversharing, while offering to users a frictionless experience and keeping content properly accessible. Please contact EDRLab if your organization is interested by adopting LCP.
 
 {{< /columns >}}
 
@@ -112,4 +109,4 @@ This project would have not seen the light without:
 
 You can also help Thorium Reader becoming a better application by becoming an EDRLab member.
 
-Alternatively, you can donate to EDRLab via the Github Sponsor "piggy-bank", which accepts small monthly donations. 
+Alternatively, you can donate to EDRLab via the Github Sponsor "piggy-bank", which accepts small monthly donations.
