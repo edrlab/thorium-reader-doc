@@ -1,3 +1,9 @@
+---
+title: Introduction
+type: docs
+draft: true
+---
+
 Note to developers: [this PR](https://github.com/readium/readium-desktop/pull/958) introduced support for configurable keyboard shortcuts in Thorium.
 
 TIP: holding the Shift + ALT modifier keys together while pressing enter or mouse-clicking to activate links in the slide-out modal navigation pane keeps the user interface panel open (e.g. table of contents, landmarks, bookmarks, "go to page" button, etc.)
