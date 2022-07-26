@@ -6,13 +6,15 @@ weight: 310
 toc: false
 ---
 
-Lors du lancement de Thorium, si un lecteur d'écran est repéré, les fonctions relatives sont activées.
+Lors du lancement de Thorium, si un lecteur d'écran est repéré, les fonctions 
+relatives sont activées.
 
 {{< hint warning >}}
 
 Attention !
 
-Les fonctions d'accessibilité adressées aux technologies d'assistance peuvent être affecté par la qualité des fichiers lus. 
+Les fonctions d'accessibilité adressées aux technologies d'assistance 
+peuvent être affecté par la qualité des fichiers lus. 
 
 {{< /hint >}}
 
@@ -20,7 +22,10 @@ Les fonctions d'accessibilité adressées aux technologies d'assistance peuvent 
 
 (contribution de Prashant Verma, Consortium DAISY)
 
-Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d'insertion peut être remplacée par la touche modificatrice du lecteur d'écran (par exemple la touche de verrouillage des majuscules)
+Pour la lecture du texte, la navigation dans les tableaux, la navigation dans 
+la fenêtre du navigateur, la touche d'insertion peut être remplacée par la 
+touche modificatrice du lecteur d'écran (par exemple la touche de verrouillage 
+des majuscules)
 
 ## Touches rapides pour la navigation 
 

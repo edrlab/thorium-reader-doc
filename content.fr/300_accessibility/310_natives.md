@@ -10,7 +10,8 @@ toc: false
 {{< hint warning >}}
 Attention !
 
-Les fonctions d'accessibilité natives proposées par Thorium peuvent être affecté par la qualité des fichiers lus. 
+Les fonctions d'accessibilité natives proposées par Thorium peuvent être affecté 
+par la qualité des fichiers lus. 
 {{< /hint >}}
 
 
@@ -32,20 +33,28 @@ Les fonctions d'accessibilité natives proposées par Thorium peuvent être affe
 
 Attention !
 
-Les ajustements visuels ne sont pas possibles avec les formats à mise en page fixe comme certains EPUBs (dits <span lang="en">Fixed Layout</span>) ou les fichiers PDF.
+Les ajustements visuels ne sont pas possibles avec les formats à mise en page 
+fixe comme certains EPUBs (dits <span lang="en">Fixed Layout</span>) 
+ou les fichiers PDF.
 
 {{< /hint >}}
 
 ## Synthèse vocale (TTS)
 
-La synthèse vocale est lancée à l'aide du bouton haut-parleur au milieu de la barre d'outils, ou à l'aide du raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
+La synthèse vocale est lancée à l'aide du bouton haut-parleur au milieu de la 
+barre d'outils, ou à l'aide du raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-La lecture et la pause peuvent être contrôlées avec le raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
+La lecture et la pause peuvent être contrôlées avec le raccourci clavier 
+<kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour respectivement précédent et suivant.
+La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> 
+et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour respectivement précédent et suivant.
 
-Un contrôle de la vitesse est disponible lorsque la lecture à haute voix est sélectionnée, avec une plage allant de x0,5 à x2.
+Un contrôle de la vitesse est disponible lorsque la lecture à haute voix 
+est sélectionnée, avec une plage allant de x0,5 à x2.
 
-La phrase en cours est surlignée en jaune pâle, et chaque mot prononcé est souligné en orange.
+La phrase en cours est surlignée en jaune pâle, et chaque mot prononcé est 
+souligné en orange.
 
-Une vue alternative (simplifiée) de la publication est fournie par le biais de Paramètres / Readaloud.
+Une vue alternative (simplifiée) de la publication est fournie par le biais 
+des options disponible dans le menu `Paramètres / Readaloud`.

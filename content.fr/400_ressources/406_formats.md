@@ -35,7 +35,8 @@ toc: false
   <dl>
     <dt>Livres audio</dt>
 <dd> Un
-    <a href="https://www.w3.org/TR/audiobooks/">format standardisé pour les livres audio</a>
+    <a href="https://www.w3.org/TR/audiobooks/">format standardisé pour 
+    les livres audio</a>
     a été conçu par le groupe de travail sur l'édition du W3C en 2020, et
     EDRLab faisait partie de celui-ci. Thorium supporte le format de livre
     audio <a href="https://www.w3.org/TR/lpf/">LPF</a>, qui sera bientôt
@@ -46,6 +47,7 @@ toc: false
 <dd> EDRLab a conçu un format standard pour les
     bandes dessinées, mangas, webtoons et autres styles d'œuvres numériques
     basés sur des séquences d'images.
-    Le format <a href="https://www.edrlab.org/open-standards/">Divina</a> est encore expérimental
+    Le format <a href="https://www.edrlab.org/open-standards/">Divina</a> 
+    est encore expérimental
     et nous espérons que les éditeurs l'adopteront dès 2022.
   </dd></dl>

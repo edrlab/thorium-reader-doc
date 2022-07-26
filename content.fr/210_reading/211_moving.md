@@ -7,20 +7,30 @@ toc: false
 ---
 
 # Naviguer dans un livre
-Les options de navigation peuvent être très différentes d'un livre à l'autre. Thorium permet les éléments suivants.
 
-## Avancer et reculer 
+Les options de navigation peuvent être très différentes d'un livre à l'autre. 
+Thorium permet les éléments suivants.
 
-Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation situées en bas à droite de l'interface de lecture (<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"><img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px">).
+## Avancer et reculer
 
-Il est possible de se déplacer entre les chapitres en utilisant <kbd>Ctrl</kbd> + <kbd>Page précédente (Page Up)</kbd> (chapitre précédent) et <kbd>Ctrl</kbd> + <kbd>Page suivante (Page Down)</kbd> (chapitre
-suivant) ou <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&larr;</kbd> (chapitre précédent) et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&rarr;</kbd> (chapitre suivant).
+Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez 
+utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation 
+situées en bas à droite de l'interface de lecture 
+(<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"><img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px">).
+
+Il est possible de se déplacer entre les chapitres en utilisant 
+<kbd>Ctrl</kbd> + <kbd>Page précédente (Page Up)</kbd> (chapitre précédent) et 
+<kbd>Ctrl</kbd> + <kbd>Page suivante (Page Down)</kbd> (chapitre
+suivant) ou <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&larr;</kbd> (chapitre précédent) 
+et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&rarr;</kbd> (chapitre suivant).
 
 {{< hint warning >}}
 
-Attention ! 
+Attention !
 
-Il existe deux raccourcis différents pour passer au chapitre suivant ou précédent. Selon votre configuration et l'usage ou non d'un lecteur d'écran il est possible que seule une de ces deux combinaisons fonctionne.
+Il existe deux raccourcis différents pour passer au chapitre suivant ou précédent. 
+Selon votre configuration et l'usage ou non d'un lecteur d'écran il est possible 
+que seule une de ces deux combinaisons fonctionne.
 
 {{< /hint >}}
 
@@ -28,12 +38,17 @@ Il existe deux raccourcis différents pour passer au chapitre suivant ou précé
 
 ## La table des matières
 
-La table des matières représente l'architecture du livre telle que définie par l'organisation productrice de ce dernier. 
+La table des matières représente l'architecture du livre telle que définie par 
+l'organisation productrice de ce dernier.
 
-Les titres de premier niveau sont indiqués sans marge, ceux qui comportent des sous titres (ou titre de niveau 2) sont présentés sur un fond grisé. Les sous titres sont décalés de la marge à gauche et un filet permet de savoir facilement à quel niveau de titre supérieur ils appartiennent.
+Les titres de premier niveau sont indiqués sans marge, ceux qui comportent des 
+sous titres (ou titre de niveau 2) sont présentés sur un fond grisé. 
+Les sous titres sont décalés de la marge à gauche et un filet permet de savoir 
+facilement à quel niveau de titre supérieur ils appartiennent.
 
 {{< details "Avec NVDA">}}
-Vous pouvez utiliser les fonctions de navigation par niveaux de titre (<kbd>NVDA</kbd> + <kbd>H</kbd>) pour explorer et vous déplacer dans la table des matières.
+Vous pouvez utiliser les fonctions de navigation par niveaux de titre 
+(<kbd>NVDA</kbd> + <kbd>H</kbd>) pour explorer et vous déplacer dans la table des matières.
 {{< /details >}}
 
 <--->
@@ -46,17 +61,21 @@ Vous pouvez utiliser les fonctions de navigation par niveaux de titre (<kbd>NVDA
 
 {{< columns >}}
 
-Les livres numérique de bonne qualité comportent des points de repères qui permettent d'identifier et d'atteindre rapidement les grandes parties d'un livre.
+Les livres numérique de bonne qualité comportent des points de repères qui 
+permettent d'identifier et d'atteindre rapidement les grandes parties d'un livre.
 
 {{< hint info >}}
 
-Information 
+Information
 
-Chaque publication EPUB doit inclure un guide de tous les principaux points de repère. L'intitulé des points de repères est aux choix de l'éditeur mais la nature de chaque repère doit être identifiée selon un vocabulaire sémantique définis. Les principaux sont :
+Chaque publication EPUB doit inclure un guide de tous les principaux 
+points de repère. L'intitulé des points de repères est aux choix de l'éditeur 
+mais la nature de chaque repère doit être identifiée selon un 
+vocabulaire sémantique définis. Les principaux sont :
 
 * Texte principal (bodymatter)
 * Table des matières (toc)
-* bibliographie 
+* bibliographie
 * index
 * glossaire
 
@@ -72,7 +91,7 @@ La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.o
 
 {{< hint danger >}}
 
-Attention ! 
+Attention !
 
 Les signets des fichiers PDF utilisés pour palier à l'absence de table des matière de ce format ne sont pas interprétés par Thorium.
 
@@ -82,11 +101,16 @@ Les signets des fichiers PDF utilisés pour palier à l'absence de table des mat
 
 {{< columns >}}
 
-Les livres numériques peuvent comporter une pagination de référence permettant une correspondance à la pagination du livre imprimé. 
+Les livres numériques peuvent comporter une pagination de référence permettant 
+une correspondance à la pagination du livre imprimé.
 
-Il existe une option de navigation permettant d'aller à la page. Lorsque vous y accédez, cette option indique la page actuelle. 
+Il existe une option de navigation permettant d'aller à la page. Lorsque vous y 
+accédez, cette option indique la page actuelle.
 
-Il existe également un raccourci clavier pour cette fonction. Appuyez sur <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, puis saisissez le numéro de page dans la boîte d'édition en le tapant ou en modifiant la valeur à l'aide de la boîte `Aller à la page`.
+Il existe également un raccourci clavier pour cette fonction. Appuyez sur 
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, 
+puis saisissez le numéro de page dans la boîte d'édition en le tapant ou 
+en modifiant la valeur à l'aide de la boîte `Aller à la page`.
 
 <--->
 
@@ -96,8 +120,12 @@ Il existe également un raccourci clavier pour cette fonction. Appuyez sur <kbd>
 
 {{< hint warning >}}
 
-Attention ! 
+Attention !
 
-Les <a href="/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">livres adaptés</a> utilisent parfois la pagination de référence pour proposer un découpage du livre régulier aux lecteurs sans reproduire la pagination de l'original. Dans ce cas la pagination de référence ne peut pas être utilisée pour se référer au livre imprimé.
+Les <a href="/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">
+livres adaptés</a> utilisent parfois la pagination de référence pour proposer un 
+découpage du livre régulier aux lecteurs sans reproduire la pagination de 
+l'original. Dans ce cas la pagination de référence ne peut pas être utilisée 
+pour se référer au livre imprimé.
 
 {{< /hint >}}
