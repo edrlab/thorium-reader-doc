@@ -8,9 +8,11 @@ toc: false
 
 ---
 
-Thorium est un lecteur de livres numériques, c'est aussi une bibliothèque où ranger vos livre et un point d'accès à des catalogues en ligne. Thorium ne nécessite aucun compte ni accès en ligne pour être lancé et utilisé.
+Thorium est un lecteur de livres numériques, c'est aussi une bibliothèque
+où ranger vos livre et un point d'accès à des catalogues en ligne.
+Thorium ne nécessite aucun compte ni accès en ligne pour être lancé et utilisé.
 
-{{< hint warning >}} 
+{{< hint warning >}}
 Pas-à-pas pour Windows.
 
 1. [Installez Thorium](https://www.edrlab.org/software/thorium-reader/github/win10).
@@ -21,18 +23,28 @@ Pas-à-pas pour Windows.
 
 {{< columns >}}
 
-Sélectionnez le livre que vous souhaitez lire, utilisez le `menu contextuel` (clic droit), sélectionnez `ouvrir avec` puis sélectionnez `Thorium`. 
+Sélectionnez le livre que vous souhaitez lire, utilisez le `menu contextuel`
+(clic droit), sélectionnez `ouvrir avec` puis sélectionnez `Thorium`.
 
-{{< hint info >}} 
+{{< hint info >}}
 
 Information.
 
-Vous pouvez définir le lecteur par défaut de certains types de fichiers par le biais des paramètres de Windows. 
-(sélectionner un fichier, ouvrir le menu contextuel, sélectionner `Ouvrir avec`, dans la fenêtre pop-up sélectionner `Thorium`, cocher la case `Toujours ouvrir avec`). Cette opération doit être renouvelée pour chaque format de fichier que vous souhaitez lire avec Thorium.
+Vous pouvez définir le lecteur par défaut de certains types de fichiers par le
+biais des paramètres de Windows.
+(sélectionner un fichier, ouvrir le menu contextuel, sélectionner `Ouvrir avec`,
+dans la fenêtre pop-up sélectionner `Thorium`, cocher la case
+`Toujours ouvrir avec`). Cette opération doit être renouvelée pour chaque format
+de fichier que vous souhaitez lire avec Thorium.
 {{< /hint >}}
 
 <--->
 
-Thorium peut aussi être lancé à partir du menu de l'application ou de tout raccourci créé. Cela ouvrira la [bibliothèque](220_organizing/221_libraries) et vous permettra de choisir un livre ou d'en ajouter un mais aussi d'accèder à des [catalogues](220_organizing/222_catalogs) et d'organiser vos collection. Pour lire un livre cliquez simplement dessus ou validez avec <kbd>Entrée</kbd> lorsqu'il est sélectionné.
+Thorium peut aussi être lancé à partir du menu de l'application ou de tout
+raccourci créé. Cela ouvrira la [bibliothèque](220_organizing/221_libraries)
+et vous permettra de choisir un livre ou d'en ajouter un mais aussi d'accèder
+à des [catalogues](220_organizing/222_catalogs) et d'organiser vos collection.
+Pour lire un livre cliquez simplement dessus ou validez avec <kbd>Entrée</kbd>
+lorsqu'il est sélectionné.
 
 {{< /columns >}}
