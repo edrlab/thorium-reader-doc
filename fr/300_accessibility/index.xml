@@ -4,22 +4,18 @@
     <title>Accessibilité on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/</link>
     <description>Recent content in Accessibilité on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Informations d&#39;accessibilité</title>
       <link>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/301_A11yInfos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/301_A11yInfos/</guid>
-      <description>Informations d&amp;rsquo;accessibilité Actuellement Thorium affiche dans la Fiche Livre sous l&amp;rsquo;intitulé Description le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité (accessibilitySummary).
+      <description>Informations d&amp;rsquo;accessibilité # Actuellement Thorium affiche dans la Fiche Livre sous l&amp;rsquo;intitulé Description le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité (accessibilitySummary).
 Attention !
 Des travaux sont en cours pour proposer un guide d&amp;rsquo;affichage des informations d&amp;rsquo;accessibilité. Nous suivons ces travaux et implementerons les recommandations prochainement.
- Attention !
-Les informations d&amp;rsquo;accessibilité doivent être renseignées par les éditeurs. Thorium affiche ces informations telles qu&amp;rsquo;elles ont étées définies. En cas de doute ou de réclamation contactez le distributeur ou l&#39;éditeur du fichier.</description>
+Attention !
+Les informations d&amp;rsquo;accessibilité doivent être renseignées par les éditeurs. Thorium affiche ces informations telles qu&amp;rsquo;elles ont étées définies. En cas de doute ou de réclamation contactez le distributeur ou l&amp;rsquo;éditeur du fichier.</description>
     </item>
     
     <item>
@@ -28,11 +24,11 @@ Les informations d&amp;rsquo;accessibilité doivent être renseignées par les �
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/310_natives/</guid>
-      <description>L&amp;rsquo;accessibilité native Attention !
+      <description>L&amp;rsquo;accessibilité native # Attention !
 Les fonctions d&amp;rsquo;accessibilité natives proposées par Thorium peuvent être affecté par la qualité des fichiers lus.
- Ajustements visuels   L&amp;rsquo;application permet de modifier les thèmes de couleurs et de modifier la police d&amp;rsquo;affichage, la taille du texte.
-  il est possible d&amp;rsquo;utiliser toutes les polices installées sur l&amp;rsquo;ordinateur.
-  Il est possible d&amp;rsquo;augmenter la taille d&amp;rsquo;une image avec Shift+clic sur l&amp;rsquo;image. Renouveller plusieurs fois pour grossir l&amp;rsquo;image à la taille souhaitée.</description>
+Ajustements visuels # L&amp;rsquo;application permet de modifier les thèmes de couleurs et de modifier la police d&amp;rsquo;affichage, la taille du texte.
+il est possible d&amp;rsquo;utiliser toutes les polices installées sur l&amp;rsquo;ordinateur.
+Il est possible d&amp;rsquo;augmenter la taille d&amp;rsquo;une image avec Shift+clic sur l&amp;rsquo;image. Renouveller plusieurs fois pour grossir l&amp;rsquo;image à la taille souhaitée.</description>
     </item>
     
     <item>
@@ -41,11 +37,11 @@ Les fonctions d&amp;rsquo;accessibilité natives proposées par Thorium peuvent 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/310_screenReaders/</guid>
-      <description>Lors du lancement de Thorium, si un lecteur d&#39;écran est repéré, les fonctions relatives sont activées.
+      <description>Lors du lancement de Thorium, si un lecteur d&amp;rsquo;écran est repéré, les fonctions relatives sont activées.
 Attention !
 Les fonctions d&amp;rsquo;accessibilité adressées aux technologies d&amp;rsquo;assistance peuvent être affecté par la qualité des fichiers lus.
- Séquences de touches communes à NVDA et JAWS (contribution de Prashant Verma, Consortium DAISY)
-Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&amp;rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&#39;écran (par exemple la touche de verrouillage des majuscules)</description>
+Séquences de touches communes à NVDA et JAWS # (contribution de Prashant Verma, Consortium DAISY)
+Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la fenêtre du navigateur, la touche d&amp;rsquo;insertion peut être remplacée par la touche modificatrice du lecteur d&amp;rsquo;écran (par exemple la touche de verrouillage des majuscules)</description>
     </item>
     
     <item>
@@ -57,7 +53,7 @@ Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la
       <description>EDRLab entretient des relations étroites avec le DAISY Consortium. Grâce aux personnes ayant des hadicaps visuels qui participent à notre design et à nos essais, Thorium Reader cherche à être l&amp;rsquo;une des applications de lecture les plus accessibles du marché.
 Thorium Reader est testé sur epubtest.org.
 La version 1.8 a reçu les scores suivants :
- Fonctions de base 86.67% (Thorium ne permet pas d&amp;rsquo;annoter un document) Lecture non visuelle 100% Mathematiques 100% Descriptions étendues 100%  La liste des tests est la suivante :</description>
+Fonctions de base 86.67% (Thorium ne permet pas d&amp;rsquo;annoter un document) Lecture non visuelle 100% Mathematiques 100% Descriptions étendues 100% La liste des tests est la suivante :</description>
     </item>
     
   </channel>

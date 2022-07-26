@@ -1,1 +1,0 @@
-if(navigator.serviceWorker){navigator.serviceWorker.register("/thorium-reader-doc/sw.js",{scope:"/thorium-reader-doc/"});}
