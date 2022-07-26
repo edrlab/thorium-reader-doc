@@ -11,13 +11,13 @@ Une fois activé MathJax, vous pouvez utiliser le menu contextuel (clic droit) s
 Une fois activé MathJax, vous pouvez utiliser le menu contextuel (clic droit) sur une formule mathématique insérée au format MathML et utiliser les nombreuses options comme la lecture à voix haute (speech), consulter le marquage sémantique ou copier la formule avec ses attributs sémantiques pour l&rsquo;utiliser dans un éditeur compatible." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/fr/210_reading/221_maths/" />
-<meta property="article:modified_time" content="2022-07-25T11:09:25+02:00" /><meta property="og:site_name" content="Thorium Reader" />
+<meta property="article:modified_time" content="2022-07-26T10:54:52+02:00" /><meta property="og:site_name" content="Thorium Reader" />
 <title>Lire des mathématiques | Thorium Reader</title>
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/thorium-reader-doc/book.min.792f017ba0cacf1925295d76f8639b4a71e15d2cfa8b9cd442cc94b4860033dc.css" integrity="sha256-eS8Be6DKzxklKV12&#43;GObSnHhXSz6i5zUQsyUtIYAM9w=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/fr.search.min.ab8da7b019bbad33432f92463451ecbaf633f091889ac03894571ddd092c1e0f.js" integrity="sha256-q42nsBm7rTNDL5JGNFHsuvYz8JGImsA4lFcd3QksHg8=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/fr.search.min.1f35da18c55cba9a749e4497cb765ae2072a6ec4bd8a588687783dc930f17c79.js" integrity="sha256-HzXaGMVcupp0nkSXy3Za4gcqbsS9iliGh3g9yTDxfHk=" crossorigin="anonymous"></script>
 
   <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <!--
@@ -570,22 +570,39 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><p>Thorium-Reader prend en charge les formules mathématiques au format MathML grace au module MathJax. Ce dernier nécessitant des ressources mémoires il n&rsquo;est pas activé d&rsquo;office lorsque vous ouvrez Thorium.
-Pour l&rsquo;activer lors de la lecture d&rsquo;un livre allez dans le menu <code>Paramétres de lecture</code>, en bas de l&rsquo;onglet <code>Affichage</code> vous trouverez une case à cocher <code>MathJax</code>.</p>
+  <article class="markdown"><p>Thorium-Reader prend en charge les formules mathématiques au format MathML
+grace au module MathJax. Ce dernier nécessitant des ressources mémoires
+il n&rsquo;est pas activé d&rsquo;office lorsque vous ouvrez Thorium.
+Pour l&rsquo;activer lors de la lecture d&rsquo;un livre allez dans le menu
+<code>Paramétres de lecture</code>, en bas de l&rsquo;onglet <code>Affichage</code> vous trouverez
+une case à cocher <code>MathJax</code>.</p>
 <img src="/thorium-reader-doc/images/local-fr/thorium-mathjax.png" alt="Capture d'écran (en anglais) d'une formule mathématique complexe correctement affichée grace à l'option MathJax cochée."/>
-<p>Une fois activé MathJax, vous pouvez utiliser le <code>menu contextuel</code> (clic droit) sur une formule mathématique insérée au format MathML et utiliser les nombreuses options comme la lecture à voix haute (speech), consulter le marquage sémantique ou copier la formule avec ses attributs sémantiques pour l&rsquo;utiliser dans un éditeur compatible.</p>
+<p>Une fois activé MathJax, vous pouvez utiliser le <code>menu contextuel</code> (clic droit)
+sur une formule mathématique insérée au format MathML et utiliser les nombreuses
+options comme la lecture à voix haute (speech), consulter le marquage sémantique
+ou copier la formule avec ses attributs sémantiques pour l&rsquo;utiliser dans un
+éditeur compatible.</p>
 <img src="/thorium-reader-doc/images/local-fr/thorium-mathjax-menu.png" alt="Capture d'écran du menu contextuel MathJax (en anglais) montrant le sous Menu Accessibility dont l'option Activate est cochée."/>
 <details ><summary>Lire les <strong>mathématiques</strong> avec NVDA</summary>
   <div class="markdown-inner">
-    Vous pouvez lire les expressions mathématiques balisées avec MathML en utilisant les différentes approches de NVDA, par exemple en utilisant le complément 
-  <a href="https://addons.nvda-project.org/addons/access8math.fr.html">Access8Math</a>. Les fonctions d&rsquo;accessibilité de MathJax devront pour celà être désactivées.
+    Vous pouvez lire les expressions mathématiques balisées avec MathML en utilisant
+les différentes approches de NVDA, par exemple en utilisant le complément
+
+  <a href="https://addons.nvda-project.org/addons/access8math.fr.html">Access8Math</a>.
+Les fonctions d&rsquo;accessibilité de MathJax devront pour celà être désactivées.
   </div>
 </details>
 
 <aside class="book-hint danger">
   <p>Attention !
-Ces fonctionalités ne peuvent être activées que si le livre a été conçu en insérant les formules mathématiques sous la forme MathML. Pour des raisons de facilité de production les formules mathématiques sont souvent incluses sous forme d&rsquo;images et c&rsquo;est alors le texte alternatif qui doit permettre la compréhension de la formule via une description précise.</p>
-<p>Les livres qui comportent des mathématiques sous la forme MathML doivent l&rsquo;indiquer dans leurs informations d&rsquo;accessibilité. Si cela n&rsquo;est pas indiqué, alors il s&rsquo;agit certainement d&rsquo;images décrites.</p>
+Ces fonctionalités ne peuvent être activées que si le livre a été conçu en
+insérant les formules mathématiques sous la forme MathML. Pour des raisons de
+facilité de production les formules mathématiques sont souvent incluses sous
+forme d&rsquo;images et c&rsquo;est alors le texte alternatif qui doit permettre la
+compréhension de la formule via une description précise.</p>
+<p>Les livres qui comportent des mathématiques sous la forme MathML doivent
+l&rsquo;indiquer dans leurs informations d&rsquo;accessibilité.
+Si cela n&rsquo;est pas indiqué, alors il s&rsquo;agit certainement d&rsquo;images décrites.</p>
 
 </aside>
 

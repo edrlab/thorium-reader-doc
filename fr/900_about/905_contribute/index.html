@@ -17,13 +17,13 @@ Si vous êtes suffisament à l&rsquo;aise avec GitHub et le format Markdown vous
 Pour ce faire clonez le dépot et créez une branche du nom de la langue que vous souhaitez ajouter, faites une copie du dossier content." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/fr/900_about/905_contribute/" />
-<meta property="article:modified_time" content="2022-07-25T11:09:25+02:00" /><meta property="og:site_name" content="Thorium Reader" />
+<meta property="article:modified_time" content="2022-07-26T10:54:52+02:00" /><meta property="og:site_name" content="Thorium Reader" />
 <title>Contribuez ! | Thorium Reader</title>
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/thorium-reader-doc/book.min.792f017ba0cacf1925295d76f8639b4a71e15d2cfa8b9cd442cc94b4860033dc.css" integrity="sha256-eS8Be6DKzxklKV12&#43;GObSnHhXSz6i5zUQsyUtIYAM9w=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/fr.search.min.ab8da7b019bbad33432f92463451ecbaf633f091889ac03894571ddd092c1e0f.js" integrity="sha256-q42nsBm7rTNDL5JGNFHsuvYz8JGImsA4lFcd3QksHg8=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/fr.search.min.1f35da18c55cba9a749e4497cb765ae2072a6ec4bd8a588687783dc930f17c79.js" integrity="sha256-HzXaGMVcupp0nkSXy3Za4gcqbsS9iliGh3g9yTDxfHk=" crossorigin="anonymous"></script>
 
   <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <!--
@@ -578,22 +578,35 @@ https://github.com/alex-shpak/hugo-book
       
   <article class="markdown"><p>Thorium et sa documentation sont développés grace à la communauté d&rsquo;utilisateurs.</p>
 <p>Nous avons besoin d&rsquo;aide pour traduire cette documentation.</p>
-<p>Pour ce faire, vous pouvez nous     <a href="https://www.edrlab.org/contact/">contacter</a>.</p>
-<p>Si vous êtes suffisament à l&rsquo;aise avec GitHub et le format Markdown vous pouvez proposer une nouvelle traduction via un Pull Request.</p>
-<p>Pour ce faire clonez le dépot et créez une branche du nom de la langue que vous souhaitez ajouter, faites une copie du dossier <code>content.en</code> et renommez le avec deux lettres correspondants à la langue que vous souhaitez ajouter (par exemple <code>content.es</code> contiendra la traduction en espagnol). Les noms des fichiers ne doivent pas être modifiès.</p>
-<p>Le dossier i18n contient les traductions pour les éléments fixes de l&rsquo;entête et du pied de page. Plusieurs langues sont déja présentes, si votre langue n&rsquo;est pas présente, copiez le fichier en.yaml et renommez le avec les deux premieres lettres de la langue que vous souhaitez ajouter.</p>
-<p>Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier <code>config.toml</code> et ajoutez la langue avec le code suivant :</p>
+<p>Pour ce faire, vous pouvez nous
+<a href="https://www.edrlab.org/contact/">contacter</a>.</p>
+<p>Si vous êtes suffisament à l&rsquo;aise avec GitHub et le format Markdown vous
+pouvez proposer une nouvelle traduction via un Pull Request.</p>
+<p>Pour ce faire clonez le dépot et créez une branche du nom de la langue que vous
+souhaitez ajouter, faites une copie du dossier <code>content.en</code> et renommez le avec
+deux lettres correspondants à la langue que vous souhaitez ajouter (par exemple
+<code>content.es</code> contiendra la traduction en espagnol). Les noms des fichiers ne
+doivent pas être modifiès.</p>
+<p>Le dossier i18n contient les traductions pour les éléments fixes de l&rsquo;entête et
+du pied de page. Plusieurs langues sont déja présentes, si votre langue n&rsquo;est
+pas présente, copiez le fichier en.yaml et renommez le avec les deux premieres
+lettres de la langue que vous souhaitez ajouter.</p>
+<p>Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier
+<code>config.toml</code> et ajoutez la langue avec le code suivant :</p>
 <pre><code>[languages.en]
   languageName = 'English'
   contentDir = 'content.en'
   weight = 1
-</code></pre><p>Vous devez remplacer <code>.en</code> par les deux premières lettres de la langue que vous ajoutez et renseigner le nom de la langue comme valeur de <code>languageName</code>. Le <code>weight</code> indique l&rsquo;ordre d&rsquo;apparition dans le menu des langues.</p>
+</code></pre><p>Vous devez remplacer <code>.en</code> par les deux premières lettres de la langue que vous
+ajoutez et renseigner le nom de la langue comme valeur de <code>languageName</code>.
+Le <code>weight</code> indique l&rsquo;ordre d&rsquo;apparition dans le menu des langues.</p>
 <p>Exemple pour l&rsquo;espagnol :</p>
 <pre><code>[languages.es]
   languageName = 'Español'
   contentDir = 'content.es'
   weight = 3
-</code></pre><p>Les images localisées comme les  captures d'écran doivent être ajoutées dans le dossier <code>statics/images/local-(deux lettres de la langue)</code>.</p>
+</code></pre><p>Les images localisées comme les  captures d'écran doivent être ajoutées dans le
+dossier <code>statics/images/local-(deux lettres de la langue)</code>.</p>
 </article>
  
       
