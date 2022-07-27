@@ -3,7 +3,7 @@ title: Aide et ressources pour une meilleure expérience de lecture
 type: docs
 ---
 
-<h1>Bienvenue dans la documentation de Torium Reader</h1>
+<h1>Bienvenue dans la documentation de Thorium Reader</h1>
   <p>
     Thorium Reader est une application de lecture de référence pour
     Windows 10, MacOS et Linux.

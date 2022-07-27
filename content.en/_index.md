@@ -1,112 +1,80 @@
 ---
-title: Introduction
+title: Help and resources for a better reading experience
 type: docs
 ---
 
-# Help and ressources for enhanced reading experience
-
-Thorium Reader is the Reading Application of choice for Windows 10, MacOS and Linux.
-
-This EDRLab application is in constant development and aims at becoming a reference for accessing EPUB publications, PDF documents, audiobooks and visual narratives, optionally protected by the LCP DRM (DRM meaning Digital Rights Management).
-
-It is localized in a large set of languages; each version is offering new languages, thanks to the help of our community.
-
-Huge efforts are also made to get Thorium Reader highly accessible for visually impaired and dyslexic people.
-
-This application is free, with no ads and no leaks of private data.
-
-This is the perfect tools for heavy readers, library patrons and students.
-
-{{< columns >}}
-
-## Accessibility functions
-
-Thorium Reader is for everyone, including people who are blind or have other print disabilities. The application is compatible with screen readers including JAWS, NVDA, Narrator and VoiceOver, and it includes a read aloud feature with visual highlighting. Thorium Reader can be used with the mouse or keyboard, and keyboard shortcuts are configurable. The display can be personalized to suit user’s needs, including colors, text size, spacing, font and layout.
-
-EDRLab has strong relationships with the DAISY Consortium. Together with people with print disabilities who participate in our design and testing, we are making Thorium Reader one of the most accessible reading applications available.
-
-<--->
-
-## Supported publication formats
-
-* EPUB 2: this is a legacy format, only adequate for basic ebooks. Textual content is formatted in XHTML 1 and no multimedia feature is supported. EPUB 2 ebooks are still accessible if properly formatted.
-
-* EPUB 3: this is the recommended format for the 21st century. Textual content is formatted in (X)HTML 5, it is possible to create fixed-layout ebooks, enriched ebooks and accessibiltiy features are well designed.
-
-* DAISY v2.02 / v3 (text, audio, text+audio).
-
-* PDF: despite a well-known lack of flexibility (no reflow option) and accessibility, many ebooks are still available in PDF only, especially in public libraries.
-
-* Audiobooks: a standardized format for audiobooks has been designed by the W3C Publishing Working Group in 2020, and EDRLab was part of this WG. Thorium is supporting the packaged (LPF) audiobook format, which will soon be widely used by booksellers, or so we hope.
-
-* Visual narratives: EDRLab has designed a standard format for comics, manga, webtoons and other styles of digital works based on sequances of images. Divina is the name of this format. This is still an experimental format, and we hope that publishers will size it in 2021+.
-
-{{< /columns >}}
+<h1>Welcome to the Thorium Reader documentation</h1>
+  <p>
+    Thorium Reader is a reference reading application for
+    Windows 10, MacOS and Linux.
+    Actively developed by <a href="https://edrlab.org">EDRLab</a>
+    Thorium aims to provide the best possible reading experience for digital books
+    books, comics, audiobooks and PDF documents, including 
+    when they are protected by the
+    <a href="https://edrlab.org/readium-lcp">LCP DRM </a>
+    (DRM meaning <span lang="en">Digital Rights Management</span>).
+  </p>
+  <p>
+    Thorium is available in a large number of languages; each update
+    offers new ones thanks to the help of our community. Huge 
+    efforts are also being made to make Thorium Reader accessible for 
+    the visually impaired and dyslexic people.
+  </p>
+  <p>
+    This application is free, without advertising and without leakage of 
+    private data. It is the perfect tool for heavy readers, 
+    library users and students.
+  </p>
 
 {{< columns >}}
 
-## OPDS Catalogs
+## Accessibility
 
-Many Public Libraries and booksellers are adopting OPDS as a standard way to expose their catalogs on the Web.
+  <p>
+    Thorium Reader is for everyone, including people who are blind or have 
+    other types of visual disabilities. The application is compatible with
+    screen readers, including JAWS, NVDA, Narrator, and VoiceOver, and
+    includes a read-aloud feature with visual highlighting.
+    Thorium Reader can be used with the mouse or keyboard, and 
+    keyboard shortcuts are configurable. The display can be customized
+    to meet the needs of users, including 
+    colors, text size, spacing, font and layout.
 
-Using OPDS, libraries and booksellers can also expose the personal bookshelf of a patron or customer, i.e. the ebooks the user has acquired and can immediately download and read.
+  </p>
 
-Thorium can browse OPDS 1 and 2 catalogs. It also supports several OPDS compliant authentication mechanisms, and can therefore allow users access to their personal bookshelf.
+This site will allow you to learn more about
+[accessibility features of Thorium-Reader](/300_accessibility/).
+Specific information on key assistive technologies 
+such as screen readers is provided whenever necessary.
+
 <--->
 
-## Readium LCP DRM
+  <h2>Readium LCP DRM</h2>
 
-Thorium Reader supports the Readium LCP DRM, originally designed by the Readium Foundation. The specification of this DRM is public, and this is an ISO Technical Specification under the reference ISO 23078-2.
+  <p>
+    Thorium Reader supports the
+    <a href="https://www.edrlab.org/readium-lcp/">DRM Readium LCP</a>,
+    originally designed by the Readium Foundation. The
+    <a href="https://readium.org/lcp-specs/">specification of this DRM
+     is public</a>, and it is an ISO technical specification under the reference
+    <a href="https://www.iso.org/standard/79485.html">ISO 23078-2</a>.
+  </p>
 
-LCP has already been adopted by many Public Libraries, Universities and booksellers around the world (a list is maintained here).
-
-Organizations in the publishing sector, worldwide, are encouraged to adopt LCP as a way to protect ebooks against oversharing, while offering to users a frictionless experience and keeping content properly accessible. Please contact EDRLab if your organization is interested by adopting LCP.
+  <p>
+    LCP has already been adopted by many public libraries,
+    universities and booksellers around the world (A
+      list of
+      <a href="https://www.edrlab.org/readium-lcp/certified-apps-servers/">
+      distributors supporting LCP is maintained here</a>).
+  </p>
+  <p>
+    Publishing organizations around the world are 
+    encouraged to adopt LCP as a means of protecting digital 
+    books from over-sharing, while providing users with a 
+    frictionless experience for users and keeping content 
+    properly accessible. Please
+    <a href="https://www.edrlab.org/contact/">contact EDRLab</a> if your organization
+    is interested in adopting LCP.
+  </p>
 
 {{< /columns >}}
-
-## Licensing
-
-Copyright 2019 European Digital Reading Lab. All rights reserved. Licensed to the Readium Foundation under one or more contributor license agreements.
-
-This application is open-source, released under a BSD 3 license. It is based on the open-source Readium Desktop toolkit.
-
-## Who has developed this app
-
-Thorium Reader is currently developed by:
-
-    Daniel Weck, lead developer.
-    Pierre Leroux, node.js developer.
-
-Several other developers have helped making Thorium what it is today:
-
-    Simon Le Roux, UI designer.
-    Cyrille Lebeaupin, CEO of noop.fr, senior developer.
-    Jiminy Panoz, creator of Readium CSS.
-    Léo Stéfani, node.js, React developer.
-    Manuel Lagrand, intern, node.js developer.
-
-The project is supervised by Laurent Le Meur, EDRLab CTO.
-
-## Who is financing this app
-
-EDRLab is a non-profit organization. Our budget essentially originates from our members. EDRLab started in France, but is now counting 60 members from Europe, North America, South America and Asia.
-
-This project would have not seen the light without:
-
-1- The financial implication of our founding members: Editis, Hachette Livre, Magrigall, Media-Participations, Cercle de la Librarie, Syndicat national de l'Edition. They understand that financing open-standards and open-source is the best way to energize an open and innovative market for the publishing industry.
-
-2- Financial grants from the following French public organizations:
-
-    CNL (Centre National du livre)
-    Ministère de la Culture
-
-3- Additional grants from EDRLab members interested by the addition of specific features:
-
-    Fênix Editorial, Brazil
-    Canadian Electronic library, Canada
-    MLOL / Horizons Unlimited, Italy
-    Lyrasis, USA
-
-You can also help Thorium Reader becoming a better application by becoming an EDRLab member.
-
-Alternatively, you can donate to EDRLab via the Github Sponsor "piggy-bank", which accepts small monthly donations.
