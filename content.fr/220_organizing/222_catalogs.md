@@ -22,9 +22,14 @@ emprunté,  ce qui permet de les télécharger et de les lire immédiatement.
 
 {{< hint info >}}
 Lorsque vous êtes dans la bibliothèque de Thorium, sélectionnez l'onglet 
-<kbd>Catalogues</kbd> puis le bouton `+ Ajouter un flux OPDS`. 
+`Catalogues` puis le bouton `+ Ajouter un flux OPDS`. 
 Indiquez un Nom pour désigner ce catalogues et collez une adresse correspondant 
-à un catalogue distribué au format OPDS. Validez avec le bouton `Ajouter`
+à un catalogue distribué au format OPDS. Validez avec le bouton `Ajouter`.
+
+Exemple : 
+<a href="http://gallica.bnf.fr/opds" target="_blank">
+Clic droit Copier ce lien et le coller dans Thorium Ajouter un panneau OPDS 
+pour voir la magie opérer.</a>
 {{< /hint >}}
 
 <figure>

@@ -10,8 +10,10 @@ Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du dév
 
 Les contributeurs principaux de cette documentation sont : 
 * Gautier Chomel
-* Noelia Ruiz Martínez
 * Georges Kerscher
+* Noelia Ruiz Martínez
+* Prashant Verma
+
 
 Ce site est réalisé avec le générateur de sites statiques  
 [Hugo](https://gohugo.io/) et le théme 

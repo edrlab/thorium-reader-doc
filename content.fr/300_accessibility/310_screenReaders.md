@@ -46,16 +46,16 @@ Le lecteur d'écran doit être en mode navigation ou curseur virtuel.
 
 |Commande |description|
 |---|---|
-|Dire le caractère précédent |<kbd>&larr;</kbd>|
-|Dire le caractère suivant |<kbd>&rarr;</kbd>|
+|Caractère précédent |<kbd>&larr;</kbd>|
+|Caractère suivant |<kbd>&rarr;</kbd>|
 |Mot précédent |<kbd>CTRL</kbd> + <kbd>&larr;</kbd>|
 |Mot suivant |<kbd>CTRL</kbd> + <kbd>&rarr;</kbd>|
 |Ligne précédente |<kbd>&uarr;</kbd>|
 |Ligne suivante |<kbd>&darr;</kbd>|
-|Dire la phrase précédente |<kbd>ALT</kbd> + <kbd>&uarr;</kbd> (Jaws uniquement)|
-|Dire la phrase suivante |<kbd>ALT</kbd> + <kbd>&darr;</kbd> (Jaws uniquement)|
-|Dire tout |<kbd>INSERT</kbd> + <kbd>&darr;</kbd>|
-|Dire Police |<kbd>INSERT</kbd> + <kbd>F</kbd>|
+|Phrase précédente |<kbd>ALT</kbd> + <kbd>&uarr;</kbd> (Jaws uniquement)|
+|Phrase suivante |<kbd>ALT</kbd> + <kbd>&darr;</kbd> (Jaws uniquement)|
+|Lire tout |<kbd>INSERT</kbd> + <kbd>&darr;</kbd>|
+|Annoncer la Police |<kbd>INSERT</kbd> + <kbd>F</kbd>|
 
 ## Tableaux
 

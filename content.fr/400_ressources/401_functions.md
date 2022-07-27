@@ -9,16 +9,16 @@ toc: false
 ## les fonctions de la bibliothèque
 |Icone|Fonction|Description|Notes|Raccourcis|
 |---|---|---|---|---|
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-add-24px.svg" alt="Icone " width="20px"><img class="icons" src="/thorium-reader-doc/images/icons/plus.svg" alt="Icone " width="20px">|<span class="function">Ajouter un livre</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icone Droite" width="20px">|<span class="function">Livre suivant</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icone Gauche" width="20px">|<span class="function">Livre précédent</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-add-24px.svg" alt="Icone +" width="20px"><img class="icons" src="/thorium-reader-doc/images/icons/plus.svg" alt="Icone " width="20px">|<span class="function">Ajouter un livre</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icone Fléche Droite" width="20px">|<span class="function">Livre suivant</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icone Fléche Gauche" width="20px">|<span class="function">Livre précédent</span>||||
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-close-24px.svg" alt="Icone " width="20px">|<span class="function">Fermer (la fiche livre)</span>||||<!--|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-more_vert-24px.svg" alt="Icone " width="20px">|<span class="function">Ouvrir le menu du livre (donne accès à la Fiche Livre, permet de Supprimer et d'Exporter un livre)</span>||||-->
-|<img class="icons" src="/thorium-reader-doc/images/icons/menu.svg" alt="Icone " width="20px">|<span class="function">Ouvrir le menu du livre  (donne accès à la Fiche Livre, permet de Supprimer et d'Exporter un livre)</span>|||||<!-- <img class="icons" src="/thorium-reader-doc/images/icons/baseline-search-24px.svg" alt="Icone " width="20px"><img class="icons" src="/thorium-reader-doc/images/icons/baseline-search-24px-grey.svg" alt="Icone " width="20px"> <figcaption class="icon"> -->
-  <img class="icons" src="/thorium-reader-doc/images/icons/magnifying_glass.svg" alt="Icone " width="20px">|<span class="function">Rechercher</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_list-24px.svg" alt="Icone " width="20px">|<span class="function">Vue liste des livres</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_module-24px.svg" alt="Icone " width="20px">|<span class="function">Vue grille des livres</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/done.svg" alt="Icone " width="20px">|<span class="function">Indique que l'action est terminée par exemple lors de l'import d'un livre</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/download.svg" alt="Icone " width="20px">|<span class="function">Sauvegarder une copie du fichier du livre. </span>|Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les Marque-page ne sont pas présents dans ce fichier exporté.
+|<img class="icons" src="/thorium-reader-doc/images/icons/menu.svg" alt="Icone 3 points" width="20px">|<span class="function">Ouvrir le menu du livre  (donne accès à la Fiche Livre, permet de Supprimer et d'Exporter un livre)</span>|||||<!-- <img class="icons" src="/thorium-reader-doc/images/icons/baseline-search-24px.svg" alt="Icone " width="20px"><img class="icons" src="/thorium-reader-doc/images/icons/baseline-search-24px-grey.svg" alt="Icone " width="20px"> <figcaption class="icon"> -->
+  <img class="icons" src="/thorium-reader-doc/images/icons/magnifying_glass.svg" alt="Icone loupe" width="20px">|<span class="function">Rechercher</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_list-24px.svg" alt="Icone Liste" width="20px">|<span class="function">Vue liste des livres</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_module-24px.svg" alt="Icone grille width="20px">|<span class="function">Vue grille des livres</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/done.svg" alt="Icone cercle" width="20px">|<span class="function">Indique que l'action est terminée par exemple lors de l'import d'un livre</span>||||
+|<img class="icons" src="/thorium-reader-doc/images/icons/download.svg" alt="Icone fléche bas dans une boite" width="20px">|<span class="function">Sauvegarder une copie du fichier du livre. </span>|Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les Marque-page ne sont pas présents dans ce fichier exporté.
 |||
 |<img class="icons" src="/thorium-reader-doc/images/icons/landmark.svg" alt="Icone " width="20px">|<span class="function"> Repéres</span>||||
 |<img class="icons" src="/thorium-reader-doc/images/icons/loader.svg" alt="Icone " width="20px">|<span class="function">Indique que le livre est en cours d'ajout à Thorium. Cette indication n'est actuellement pas donnée aux utilisateurs de lecteur d'écran.||||
@@ -56,15 +56,15 @@ Panneau des paramètres & préférences de l'utilisateur pour l'affichage du con
 |Icone|Fonction|Description|Notes|Raccourcis|
 |---|---|---|---|---|
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-edit-24px.svg" alt="Icone " width="20px">   <img class="icons" src="/thorium-reader-doc/images/icons/baseline-edit-24px-grey.svg" alt="Icone " width="20px">|<span class="function">Éditer (le nom d'un Marque-page)</span>||||
-||Table des matières|||<kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>n</kbd>|
-||Menu Pages de références|||<kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>p</kbd> |
+|Pas d'icone (mention textuelle)|Table des matières|||<kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>n</kbd>|
+|Pas d'icone (mention textuelle)|Menu Pages de références|||<kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>p</kbd> |
 
-#### Lecture audio (voix de synthèse)
+#### Lecture audio (voix enregistrée ou voix de synthése)
 |Icone|Fonction|Description|Notes|Raccourcis|
 |---|---|---|---|---|
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-volume_up-24px.svg" alt="Icone Activate texte to speech" width="20px">|<span class="function">Activer les fonctions audio</span>||||
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-pause-24px.svg" alt="Icone pause" width="20px">|<span class="function">Met la lecture audio en pause  (voix enregistrée ou voix de synthése)</span>|||<kbd>Ctrl</kbd> + <kbd>2</kbd>|
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-play_arrow-24px.svg" alt="Icone play" width="20px">|<span class="function"> Lance la lecture audio (voix enregistrée ou voix de synthése)</span>|||<kbd>Ctrl</kbd> + <kbd>2</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-pause-24px.svg" alt="Icone pause" width="20px">|<span class="function">Met la lecture audio en pause </span>|||<kbd>Ctrl</kbd> + <kbd>2</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-play_arrow-24px.svg" alt="Icone play" width="20px">|<span class="function"> Lance la lecture audio</span>|||<kbd>Ctrl</kbd> + <kbd>2</kbd>|
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-skip_next-24px.svg" alt="Icone previous" width="20px">|<span class="function">Passe à la portion audio suivante (selon la fabrication du livre)</span>|||<kbd>Ctrl</kbd> + <kbd>3</kbd>|
 |<img class="icons" src="/thorium-reader-doc/images/icons/baseline-skip_previous-24px.svg" alt="Icone next" width="20px">|<span class="function">Passe à la portion audio précédente (selon la fabrication du livre)</span>|||<kbd>Ctrl</kbd> + <kbd>1</kbd>|
-|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-stop-24px.svg" alt="Icone " width="20px">|<span class="function">Arrête la lecture audio (voix enregistrée ou voix de synthése)</span>|||<kbd>Ctrl</kbd> + <kbd>4</kbd>|
+|<img class="icons" src="/thorium-reader-doc/images/icons/baseline-stop-24px.svg" alt="Icone " width="20px">|<span class="function">Arrête la lecture audio</span>|||<kbd>Ctrl</kbd> + <kbd>4</kbd>|

@@ -12,19 +12,24 @@ Un livre peut être ajouté à la bibliothèque en l'ouvrant avec Thorium
 
 Lorsq'un livre est importé, il est copié et préparé dans un dossier réservé. 
 
-### Mes livres
+## Mes livres
+
 Les livres importés sont présentés dans le menu `Mes livres`. 
 Ce dernier propose une vue accés rapide organisée en deux sections : 
 `Récement ajouté` et `Reprendre la lecture`. Le bouton `Tous les livres` 
 affichera la totalité des livres importés dans Thorium.
 
-La vue par défaut affiche les couvertures des livres, leur titre et leur auteur. 
+La vue par défaut est la vue grille (<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_module-24px.svg" alt="Icon grid" width="20px">)affiche les couvertures des livres, leur titre et leur auteur. 
 Cliquer sur un de ces éléments déclenche l'ouverture du livre dans une nouvelle 
 fenêtre. Un menu pour chaque livre permet d'accéder à la `Fiche livre`, de 
 `Supprimer` ou d'`Exporter` le livre.
 
-Il est possible de choisir une vue en liste des titres, dans cette vue la 
-couverture n'est plus affihcée mais l'année de publication et l'éditeur sont indiqués.
+Il est possible de choisir une vue en liste 
+<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_list-24px.svg" alt="Icon list" width="20px">).
+Dans cette vue la 
+couverture n'est plus affichée mais l'année de publication et l'éditeur sont indiqués.
+
+## Tous les livres
 
 La vue ``Tous les livres`` est organisée en tableau, elle affiche l'ensemble des 
 informations pour chaque livre. Si des informations sont manquantes c'est 
