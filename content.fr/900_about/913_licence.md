@@ -26,5 +26,5 @@ toc: false
 
 <p>
     Ce site statique est généré par Hugo et le thème Hugo Book. 
-    Son code source est public.
+    Son [code source](https://github.com/edrlab/thorium-reader-doc) est public.
   </p>

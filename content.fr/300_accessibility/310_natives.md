@@ -10,8 +10,8 @@ toc: false
 {{< hint warning >}}
 Attention !
 
-Les fonctions d'accessibilité natives proposées par Thorium peuvent être affecté 
-par la qualité des fichiers lus. 
+Les fonctions d'accessibilité natives proposées par Thorium peuvent-être 
+fortement affectées par la qualité des fichiers lus. 
 {{< /hint >}}
 
 
@@ -21,7 +21,7 @@ par la qualité des fichiers lus.
 
 - il est possible d'utiliser toutes les polices installées sur l'ordinateur.
 
-- Il est possible d'augmenter la taille d'une image avec <kbd>Shift+clic</kbd> sur l'image. Renouveller plusieurs fois pour grossir l'image à la taille souhaitée.
+- Il est possible d'augmenter la taille d'une image avec <kbd>Shift+clic</kbd> sur l'image. Renouveler plusieurs fois pour grossir l'image à la taille souhaitée.
 
 - L'affichage peut être sélectionné comme paginé ou défilant, 
 
@@ -48,7 +48,7 @@ La lecture et la pause peuvent être contrôlées avec le raccourci clavier
 <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
 La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> 
-et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour respectivement précédent et suivant.
+et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour, respectivement, précédent et suivant.
 
 Un contrôle de la vitesse est disponible lorsque la lecture à haute voix 
 est sélectionnée, avec une plage allant de x0,5 à x2.

@@ -8,7 +8,7 @@ toc: false
 
 
   <p>
-    Vous aussi pouvez aider Thorium Reader à devenir la meilleure application 
+    Vous pouvez aider Thorium Reader à devenir la meilleure application 
     de lecture en <a href="https://www.edrlab.org/become-a-member/">
     devenant membre à EDRLab</a>.
   </p>

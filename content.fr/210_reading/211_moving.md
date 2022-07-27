@@ -1,6 +1,6 @@
 ---
 title: "Se déplacer dans un livre"
-description: ""
+description: "Apprenez à vous déplacer avec agilité à travers un livre. Avancez et reculez rapidement vers le chapitre, la page ou le contenu suivant ou précédent. Naviguez à travers la table des matières, les points de repère et les pages de référence."
 draft: false
 weight: 211
 toc: false

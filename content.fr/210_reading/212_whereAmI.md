@@ -1,6 +1,6 @@
 ---
 title: "Où suis-je ?"
-description: ""
+description: " Situez où vous vous trouvez dans un livre,"
 draft: false
 weight: 212
 toc: false
@@ -16,12 +16,12 @@ l'interface et sera lue par un lecteur d'écran.
 
 {{< /columns >}}
 
-Lorsque vous consultez le menu *Navigation*, Thorium indique le chapitre en cours 
-dans la table des matières ainsi que la page en cours dans le menu `Aller à la page`.
+Lorsque vous consultez le menu `Navigation`, Thorium indique le chapitre en cours 
+dans la `table des matières` ainsi que la page en cours dans le menu `Aller à la page`.
 
 <img src="/thorium-reader-doc/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
 
-# Lire les informations de navigation
+# Informations de lecture
 
 {{< columns >}}
 
