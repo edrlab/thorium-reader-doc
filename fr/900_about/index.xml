@@ -17,7 +17,7 @@
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/902_credits/</guid>
       <description>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.
 Les contributeurs principaux de cette documentation sont :
- Gautier Chomel Noelia Ruiz Martínez Georges Kerscher  Ce site est réalisé avec le générateur de sites statiques
+ Gautier Chomel Georges Kerscher Noelia Ruiz Martínez Prashant Verma  Ce site est réalisé avec le générateur de sites statiques
 Hugo et le théme Hugo Book Theme.
 Qui a développé cette application Thorium Reader est actuellement développé par :
 Daniel Weck, lead développeur. Pierre Leroux, développeur node.</description>
@@ -29,7 +29,7 @@ Daniel Weck, lead développeur. Pierre Leroux, développeur node.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/903_support/</guid>
-      <description>Vous aussi pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab.  Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels.  Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi :  Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre [outil de suivi de support](https://github.</description>
+      <description>Vous pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab.  Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels.  Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi :  Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre [outil de suivi de support](https://github.</description>
     </item>
     
     <item>
@@ -55,6 +55,18 @@ Nous avons besoin d&amp;rsquo;aide pour traduire cette documentation.
 Pour ce faire, vous pouvez nous contacter.
 Si vous êtes suffisament à l&amp;rsquo;aise avec GitHub et le format Markdown vous pouvez proposer une nouvelle traduction via un Pull Request.
 Pour ce faire clonez le dépot et créez une branche du nom de la langue que vous souhaitez ajouter, faites une copie du dossier content.</description>
+    </item>
+    
+    <item>
+      <title>Accessibilité : conforme</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/912_accessibility_declaration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/912_accessibility_declaration/</guid>
+      <description>Ce site a été testé avec NVDA sur Firefox sous Windows 10. Aucun bloqueur d&amp;rsquo;accessibilité n&amp;rsquo;a été repéré.
+Si vous rencontrez des difficultés vous pouvez nous en informer via le formulaire de contact ou en ouvrant une Issue sur notre outil de suivi de support.
+La page est en anglais mais vous pouvez rédiger dans votre langue en nous l&amp;rsquo;indiquant pour que nous puissions mobiliser les personnes ressources.
+Voici les informations dont nous avons besoin :</description>
     </item>
     
     <item>

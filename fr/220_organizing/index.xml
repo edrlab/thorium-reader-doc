@@ -35,7 +35,7 @@ Mes livres Les livres importés sont présentés dans le menu Mes livres. Ce der
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/223_tags/</guid>
-      <description>Vous pouvez enrichier les informations des livres de votre bilbiothéque en leur ajoutant des Tags. Les Tags permettent de faire des recherches rapides et de trier les livres en vue liste.
+      <description>Vous pouvez enrichir les informations des livres de votre bibliothèque en leur ajoutant des Tags. Les Tags permettent de faire des recherches rapides et de trier les livres en vue liste.
 Mise en pratique.
 Ouvrez la fiche livre, positionnez-vous dans le champ Ajouter un tag, écrivez le nom du tag que vous souhaitez ajouter puis appuyez sur le bouton Ajouter. Le tag est ajouté dans une boite bleu, vous pouvez le supprimer en cliquant sur la croix.</description>
     </item>
@@ -47,7 +47,7 @@ Ouvrez la fiche livre, positionnez-vous dans le champ Ajouter un tag, écrivez l
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/223_search/</guid>
       <description>Appuyez sur Ctrl + F, saisissez le texte de la recherche, appuyez sur le bouton Résultats, puis appuyez sur la touche Entrée sur le lien vers le résultat souhaité.
-Dans la vue Tous les livres il est possible de rechercher dans chaque colonne. Par exemple parmis les auteurs seulement.  </description>
+En activant le champ de recherche, la vue Tous les livres s&amp;rsquo;affichera automatiquement. il est possible d&amp;rsquo;effectuer une recherche dans chaque colonne. Par exemple parmi les auteurs seulement.  La recherche est effectuée à travers les informations du livre, y compris les tags ajoutés par l&amp;rsquo;utilisateur.</description>
     </item>
     
   </channel>

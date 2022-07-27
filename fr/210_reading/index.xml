@@ -44,9 +44,8 @@ Il est possible de se déplacer entre les chapitres en utilisant Ctrl + Page pr�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/214_bookmarks/</guid>
-      <description>Marquer une page ou un passage Ajouter un Marque_page Le bouton Marque-pages permet d&amp;rsquo;ajouter un point de repère personnalisé.
-Un Marque-page peut être un point fixe ou comporter une sélection de texte.
-Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages () ou la combinaison de touches Ctrl + B.  Révision et navigation dans les Marques-pages Appuyez sur le bouton de navigation (Ctrl + N), puis sur le bouton Marque-pages.</description>
+      <description>Marquer une page ou un passage Ajouter un Marque_page Le bouton Marque-pages permet d&amp;rsquo;ajouter un point de repère personnalisé. Un Marque page peut-être un point fixe ou une portion de texte sélectionné.
+Un seul Marque page fixe est possible par page (pages du livre ou pages calculées s&amp;rsquo;il n&amp;rsquo;y a pas de référence de page dans le livre). Mais vous pouvez placer autant de Marque pages de sélection de texte que vous le souhaitez.</description>
     </item>
     
     <item>

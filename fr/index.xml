@@ -55,9 +55,8 @@ Il est possible de se déplacer entre les chapitres en utilisant Ctrl + Page pr�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/214_bookmarks/</guid>
-      <description>Marquer une page ou un passage Ajouter un Marque_page Le bouton Marque-pages permet d&amp;rsquo;ajouter un point de repère personnalisé.
-Un Marque-page peut être un point fixe ou comporter une sélection de texte.
-Positionnez le curseur ou sélectionnez le texte que vous souhaitez marquer. Appuyez sur le bouton Marque-pages () ou la combinaison de touches Ctrl + B.  Révision et navigation dans les Marques-pages Appuyez sur le bouton de navigation (Ctrl + N), puis sur le bouton Marque-pages.</description>
+      <description>Marquer une page ou un passage Ajouter un Marque_page Le bouton Marque-pages permet d&amp;rsquo;ajouter un point de repère personnalisé. Un Marque page peut-être un point fixe ou une portion de texte sélectionné.
+Un seul Marque page fixe est possible par page (pages du livre ou pages calculées s&amp;rsquo;il n&amp;rsquo;y a pas de référence de page dans le livre). Mais vous pouvez placer autant de Marque pages de sélection de texte que vous le souhaitez.</description>
     </item>
     
     <item>
@@ -106,7 +105,7 @@ Une fois activé MathJax, vous pouvez utiliser le menu contextuel (clic droit) s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/223_tags/</guid>
-      <description>Vous pouvez enrichier les informations des livres de votre bilbiothéque en leur ajoutant des Tags. Les Tags permettent de faire des recherches rapides et de trier les livres en vue liste.
+      <description>Vous pouvez enrichir les informations des livres de votre bibliothèque en leur ajoutant des Tags. Les Tags permettent de faire des recherches rapides et de trier les livres en vue liste.
 Mise en pratique.
 Ouvrez la fiche livre, positionnez-vous dans le champ Ajouter un tag, écrivez le nom du tag que vous souhaitez ajouter puis appuyez sur le bouton Ajouter. Le tag est ajouté dans une boite bleu, vous pouvez le supprimer en cliquant sur la croix.</description>
     </item>
@@ -118,7 +117,7 @@ Ouvrez la fiche livre, positionnez-vous dans le champ Ajouter un tag, écrivez l
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/223_search/</guid>
       <description>Appuyez sur Ctrl + F, saisissez le texte de la recherche, appuyez sur le bouton Résultats, puis appuyez sur la touche Entrée sur le lien vers le résultat souhaité.
-Dans la vue Tous les livres il est possible de rechercher dans chaque colonne. Par exemple parmis les auteurs seulement.  </description>
+En activant le champ de recherche, la vue Tous les livres s&amp;rsquo;affichera automatiquement. il est possible d&amp;rsquo;effectuer une recherche dans chaque colonne. Par exemple parmi les auteurs seulement.  La recherche est effectuée à travers les informations du livre, y compris les tags ajoutés par l&amp;rsquo;utilisateur.</description>
     </item>
     
     <item>
@@ -141,10 +140,10 @@ Les informations d&amp;rsquo;accessibilité doivent être renseignées par les �
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/300_accessibility/310_natives/</guid>
       <description>L&amp;rsquo;accessibilité native Attention !
-Les fonctions d&amp;rsquo;accessibilité natives proposées par Thorium peuvent être affecté par la qualité des fichiers lus.
+Les fonctions d&amp;rsquo;accessibilité natives proposées par Thorium peuvent-être fortement affectées par la qualité des fichiers lus.
  Ajustements visuels   L&amp;rsquo;application permet de modifier les thèmes de couleurs et de modifier la police d&amp;rsquo;affichage, la taille du texte.
   il est possible d&amp;rsquo;utiliser toutes les polices installées sur l&amp;rsquo;ordinateur.
-  Il est possible d&amp;rsquo;augmenter la taille d&amp;rsquo;une image avec Shift+clic sur l&amp;rsquo;image. Renouveller plusieurs fois pour grossir l&amp;rsquo;image à la taille souhaitée.</description>
+  Il est possible d&amp;rsquo;augmenter la taille d&amp;rsquo;une image avec Shift+clic sur l&amp;rsquo;image. Renouveler plusieurs fois pour grossir l&amp;rsquo;image à la taille souhaitée.</description>
     </item>
     
     <item>
@@ -207,7 +206,7 @@ La touche Shift est marquée Maj sur certains claviers, ou être indiquée par u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/420_glossary/</guid>
-      <description>Lexique des termes techniques  Fiche livre  Donne des informations sur le livre numérique. Ces informations sont extraites des métadonnées du fichier, leur qualité et quantité dépend de l&#39;attention portée lors de la production du fichier par l&#39;éditeur.    Livres adaptés Ce sont des livres numériques produits par des associations et mis à disposition des personnes en situation de handicap pour la lecture. En France ce dispositif est encadré par l&#39;exception handicap du code de la propriété intellectuelle.</description>
+      <description>Lexique des termes techniques  Fiche livre  Donne des informations sur le livre numérique. Ces informations sont extraites des métadonnées du fichier, leur qualité et quantité dépend de l&#39;attention portée lors de la production du fichier par l&#39;éditeur.    Livres adaptés Ce sont des livres numériques produits par des associations et mis à disposition des personnes en situation de handicap pour la lecture. Internationalement cette activité est reconnue par le Traité de Marrakech En France ce dispositif est encadré par l&#39;exception handicap du code de la propriété intellectuelle.</description>
     </item>
     
     <item>
@@ -218,7 +217,7 @@ La touche Shift est marquée Maj sur certains claviers, ou être indiquée par u
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/902_credits/</guid>
       <description>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.
 Les contributeurs principaux de cette documentation sont :
- Gautier Chomel Noelia Ruiz Martínez Georges Kerscher  Ce site est réalisé avec le générateur de sites statiques
+ Gautier Chomel Georges Kerscher Noelia Ruiz Martínez Prashant Verma  Ce site est réalisé avec le générateur de sites statiques
 Hugo et le théme Hugo Book Theme.
 Qui a développé cette application Thorium Reader est actuellement développé par :
 Daniel Weck, lead développeur. Pierre Leroux, développeur node.</description>
@@ -230,7 +229,7 @@ Daniel Weck, lead développeur. Pierre Leroux, développeur node.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/903_support/</guid>
-      <description>Vous aussi pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab.  Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels.  Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi :  Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre [outil de suivi de support](https://github.</description>
+      <description>Vous pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab.  Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels.  Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi :  Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre [outil de suivi de support](https://github.</description>
     </item>
     
     <item>
@@ -256,6 +255,18 @@ Nous avons besoin d&amp;rsquo;aide pour traduire cette documentation.
 Pour ce faire, vous pouvez nous contacter.
 Si vous êtes suffisament à l&amp;rsquo;aise avec GitHub et le format Markdown vous pouvez proposer une nouvelle traduction via un Pull Request.
 Pour ce faire clonez le dépot et créez une branche du nom de la langue que vous souhaitez ajouter, faites une copie du dossier content.</description>
+    </item>
+    
+    <item>
+      <title>Accessibilité : conforme</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/912_accessibility_declaration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/912_accessibility_declaration/</guid>
+      <description>Ce site a été testé avec NVDA sur Firefox sous Windows 10. Aucun bloqueur d&amp;rsquo;accessibilité n&amp;rsquo;a été repéré.
+Si vous rencontrez des difficultés vous pouvez nous en informer via le formulaire de contact ou en ouvrant une Issue sur notre outil de suivi de support.
+La page est en anglais mais vous pouvez rédiger dans votre langue en nous l&amp;rsquo;indiquant pour que nous puissions mobiliser les personnes ressources.
+Voici les informations dont nous avons besoin :</description>
     </item>
     
     <item>
