@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Read on Thorium Reader</title>
+    <link>https://edrlab.github.io/thorium-reader-doc/210_reading/</link>
+    <description>Recent content in Read on Thorium Reader</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/210_reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moving around in a book</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/210_reading/211_moving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/211_moving/</guid>
+      <description>Navigate in a book # The navigation options can be very different from one book to another. Thorium allows the following.
+Move forward and backward # To navigate forward and backward in the content of the book you can use the arrows on your keyboard or click on the navigation arrows located at the bottom right of the reading interface ().
+It is possible to move between chapters using Ctrl + Previous page (Page Up) (previous chapter) and Ctrl + Next page (Page Down) (next chapter) or Ctrl + Shift + ALT (except on MacOS) + ← (previous chapter) and Ctrl + Shift + ALT (except on MacOS) + → (next chapter).</description>
+    </item>
+    
+    <item>
+      <title>Where am I?</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/210_reading/212_whereAmI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/212_whereAmI/</guid>
+      <description>The keyboard shortcuts Shift + Ctrl + k allows to get a quick mention of the reading position in the document. This information will be displayed in the notification area at the bottom left of the interface and will be read by a screen reader. When you look at the Navigation menu, Thorium shows the current chapter in the table of contents and the current page in the Go to page menu.</description>
+    </item>
+    
+    <item>
+      <title>Search in a book</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/210_reading/213_search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/213_search/</guid>
+      <description>You can use Ctrl + F keys to access the search field. Enter your search term. By clicking on the Search button, you get Back and Next buttons to navigate between occurences. The number of matches found is a link that will open a List of results in the right panel. Each match displayed is a link you can Activate to go to the place of the book where the expression you are looking for was found.</description>
+    </item>
+    
+    <item>
+      <title>Mark a page or a passage</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/210_reading/214_bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/214_bookmarks/</guid>
+      <description>Marking pages # Add a bookmark # The bookmark button allows you to add a custom bookmark. A bookmark can be a fixed point or a text selection. Only one fixed point bookmark is possible per page (book pages or calculated pages in case there is not page reference in the book). But you can place as many texte selection bookmark as you want.
+When you add a Bookmark a notification appears to inform you that the Bookmark was Added or Deleted.</description>
+    </item>
+    
+    <item>
+      <title>Reading settings</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/210_reading/215_ReadingParameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/215_ReadingParameters/</guid>
+      <description>In the reading interface use the Preferences button (): the following options are revealed.
+Theme # The color of the background and foreground can be changed using one of the three available themes - Neutral, Sepia and Night.
+Text # The font size can be increased or decreased using the slider. The font can also be changed. The available options are as follows Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace and Monospace.</description>
+    </item>
+    
+    <item>
+      <title>Read mathematics</title>
+      <link>https://edrlab.github.io/thorium-reader-doc/210_reading/221_maths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/221_maths/</guid>
+      <description>Thorium-Reader supports mathematical formulas in MathML format thanks to the MathJax module. This last one requires memory resources so it is not automatically activated when you open Thorium. To activate it when reading a book, go to the menu Reading settings, at the bottom of the Display tab you will find a checkbox MathJax.
+Once MathJax is activated, you can use the contextual menu (right click) on a mathematical formula inserted in MathML format and use the many options proposed such as reading aloud (speech), viewing the semantic marking or copy the formula with its semantic attributes to use it in a compatible editor.</description>
+    </item>
+    
+  </channel>
+</rss>
