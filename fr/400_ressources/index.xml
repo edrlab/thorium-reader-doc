@@ -4,11 +4,7 @@
     <title>Ressources on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/</link>
     <description>Recent content in Ressources on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raccourcis clavier</title>
       <link>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/402_Keyboard-shortcuts/</link>
@@ -17,7 +13,7 @@
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/402_Keyboard-shortcuts/</guid>
       <description>Information
 La touche Shift est marquée Maj sur certains claviers, ou être indiquée par une fléche vide pointant vers le haut : ⇧.
-   Ctrl + F10 : contenu (FocusMain)   dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier sur le point de repère de la zone &#34;principale&#34; (dans la vue du lecteur, c&#39;est juste avant le cadre qui affiche le contenu de la publication).</description>
+Ctrl + F10 : contenu (FocusMain) dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier sur le point de repère de la zone &#34;principale&#34; (dans la vue du lecteur, c&#39;est juste avant le cadre qui affiche le contenu de la publication). Ctrl + t : barre d&#39;outils (FocusToolbar) dans les fenêtres de lecteur et de bibliothèque, déplace le focus du clavier sur la barre d&#39;outils horizontale supérieure, immédiatement avant le lien &#34;</description>
     </item>
     
     <item>
@@ -26,7 +22,7 @@ La touche Shift est marquée Maj sur certains claviers, ou être indiquée par u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/406_formats/</guid>
-      <description>Formats de publication pris en charge  EPUB 2  il s&#39;agit d&#39;un format ancien, uniquement adapté aux livres numériques basiques. Le contenu textuel est formaté en XHTML 1 et aucune fonction multimédia n&#39;est prise en charge. Les livres numériques EPUB 2 sont tout de même accessibles s&#39;ils sont correctement formatés.   EPUB 3  c&#39;est le format recommandé pour le 21ème siècle. Le contenu textuel est formaté en (X)HTML 5, il est possible de créer des livres numériques à mise en page fixe, l&#39;enrichissement des livres numériques et les caractéristiques d&#39;accessibilité sont bien conçues.</description>
+      <description>Formats de publication pris en charge EPUB 2 il s&#39;agit d&#39;un format ancien, uniquement adapté aux livres numériques basiques. Le contenu textuel est formaté en XHTML 1 et aucune fonction multimédia n&#39;est prise en charge. Les livres numériques EPUB 2 sont tout de même accessibles s&#39;ils sont correctement formatés. EPUB 3 c&#39;est le format recommandé pour le 21ème siècle. Le contenu textuel est formaté en (X)HTML 5, il est possible de créer des livres numériques à mise en page fixe, l&#39;enrichissement des livres numériques et les caractéristiques d&#39;accessibilité sont bien conçues.</description>
     </item>
     
     <item>
@@ -44,7 +40,7 @@ La touche Shift est marquée Maj sur certains claviers, ou être indiquée par u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/400_ressources/420_glossary/</guid>
-      <description>Lexique des termes techniques  Fiche livre  Donne des informations sur le livre numérique. Ces informations sont extraites des métadonnées du fichier, leur qualité et quantité dépend de l&#39;attention portée lors de la production du fichier par l&#39;éditeur.    Livres adaptés Ce sont des livres numériques produits par des associations et mis à disposition des personnes en situation de handicap pour la lecture. Internationalement cette activité est reconnue par le Traité de Marrakech En France ce dispositif est encadré par l&#39;exception handicap du code de la propriété intellectuelle.</description>
+      <description>Lexique des termes techniques Fiche livre Donne des informations sur le livre numérique. Ces informations sont extraites des métadonnées du fichier, leur qualité et quantité dépend de l&#39;attention portée lors de la production du fichier par l&#39;éditeur. Livres adaptés Ce sont des livres numériques produits par des associations et mis à disposition des personnes en situation de handicap pour la lecture. Internationalement cette activité est reconnue par le Traité de Marrakech En France ce dispositif est encadré par l&#39;exception handicap du code de la propriété intellectuelle.</description>
     </item>
     
   </channel>
