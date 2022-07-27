@@ -4,7 +4,11 @@
     <title>Organize on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/220_organizing/</link>
     <description>Recent content in Organize on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/220_organizing/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://edrlab.github.io/thorium-reader-doc/220_organizing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The library</title>
       <link>https://edrlab.github.io/thorium-reader-doc/220_organizing/221_libraries/</link>
@@ -12,7 +16,8 @@
       
       <guid>https://edrlab.github.io/thorium-reader-doc/220_organizing/221_libraries/</guid>
       <description>A book can be added to the library by opening it with Thorium from Windows Explorer or by importing it with the Import Book button. When a book is imported, it is copied and prepared in a reserved folder.
-My Books # The imported books are presented in the My Books menu. It offers a quick access view organized into two sections: Recently added and Resume reading. The All Books</description>
+My Books The imported books are presented in the My Books menu. It offers a quick access view organized into two sections: Recently added and Resume reading. The All Books
+button will display all the books imported into Thorium.</description>
     </item>
     
     <item>
@@ -42,7 +47,7 @@ Open the book form, position yourself in the field Add a tag, write the name of 
       
       <guid>https://edrlab.github.io/thorium-reader-doc/220_organizing/223_search/</guid>
       <description>Press the Ctrl + F key combination, enter the text you want to search, press the Results button, then press the Enter on the link to the desired result.
-Activating the Search box will automatically display the All books view where it is possible to search in each column. For example among the authors only. The search is performed thru the books informations including user added tags. The content of the book is not included in the search.</description>
+Activating the Search box will automatically display the All books view where it is possible to search in each column. For example among the authors only.  The search is performed thru the books informations including user added tags. The content of the book is not included in the search.</description>
     </item>
     
   </channel>

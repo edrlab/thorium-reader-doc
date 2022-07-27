@@ -4,7 +4,11 @@
     <title>Organiser on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/</link>
     <description>Recent content in Organiser on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>La bibliothèque</title>
       <link>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/221_libraries/</link>
@@ -13,7 +17,7 @@
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/221_libraries/</guid>
       <description>Un livre peut être ajouté à la bibliothèque en l&amp;rsquo;ouvrant avec Thorium à partir de l&amp;rsquo;explorateur Windows ou en l&amp;rsquo;important à l&amp;rsquo;aide du bouton + Importer un livre.
 Lorsq&amp;rsquo;un livre est importé, il est copié et préparé dans un dossier réservé.
-Mes livres # Les livres importés sont présentés dans le menu Mes livres. Ce dernier propose une vue accés rapide organisée en deux sections : Récement ajouté et Reprendre la lecture.</description>
+Mes livres Les livres importés sont présentés dans le menu Mes livres. Ce dernier propose une vue accés rapide organisée en deux sections : Récement ajouté et Reprendre la lecture.</description>
     </item>
     
     <item>
@@ -22,7 +26,7 @@ Mes livres # Les livres importés sont présentés dans le menu Mes livres. Ce d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/222_catalogs/</guid>
-      <description>Catalogues OPDS De nombreuses bibliothèques publiques et librairies adoptent OPDS comme format standard pour afficher leur catalogue sur le Web. Thorium peut consulter des catalogues OPDS 1 et 2. Il prend également en charge plusieurs formats d&#39;identification associés à OPDS et peut donc permettre aux utilisateurs d&#39;accéder à leur bibliothèque personnelle, c&#39;est-à-dire aux livres numériques que l&#39;utilisateur a acquis ou emprunté, ce qui permet de les télécharger et de les lire immédiatement.</description>
+      <description>Catalogues OPDS  De nombreuses bibliothèques publiques et librairies adoptent OPDS comme format standard pour afficher leur catalogue sur le Web. Thorium peut consulter des catalogues OPDS 1 et 2. Il prend également en charge plusieurs formats d&#39;identification associés à OPDS et peut donc permettre aux utilisateurs d&#39;accéder à leur bibliothèque personnelle, c&#39;est-à-dire aux livres numériques que l&#39;utilisateur a acquis ou emprunté, ce qui permet de les télécharger et de les lire immédiatement.</description>
     </item>
     
     <item>
@@ -43,7 +47,7 @@ Ouvrez la fiche livre, positionnez-vous dans le champ Ajouter un tag, écrivez l
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/220_organizing/223_search/</guid>
       <description>Appuyez sur Ctrl + F, saisissez le texte de la recherche, appuyez sur le bouton Résultats, puis appuyez sur la touche Entrée sur le lien vers le résultat souhaité.
-Dans la vue Tous les livres il est possible de rechercher dans chaque colonne. Par exemple parmis les auteurs seulement. </description>
+Dans la vue Tous les livres il est possible de rechercher dans chaque colonne. Par exemple parmis les auteurs seulement.  </description>
     </item>
     
   </channel>

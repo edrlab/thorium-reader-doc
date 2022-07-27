@@ -4,14 +4,18 @@
     <title>Ressources on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/400_ressources/</link>
     <description>Recent content in Ressources on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/400_ressources/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://edrlab.github.io/thorium-reader-doc/400_ressources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Functions</title>
       <link>https://edrlab.github.io/thorium-reader-doc/400_ressources/401_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/400_ressources/401_functions/</guid>
-      <description>library functions # Icon Function Description Notes Shortcuts Add book Next book	Previous book	Close (the book information panel)	Open book menu (gives access to the Book File, allows to Delete and Export a book)	Search Book list view Book grid view	Indicates that the action is finished, for example when importing a book Save a copy of the book file. Opens a system window to select the folder where to save the file.</description>
+      <description>library functions    Icon Function Description Notes Shortcuts      Add book       Next book	       Previous book	       Close (the book information panel)	       Open book menu (gives access to the Book File, allows to Delete and Export a book)	       Search       Book list view       Book grid view	       Indicates that the action is finished, for example when importing a book       Save a copy of the book file.</description>
     </item>
     
     <item>
@@ -20,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/400_ressources/402_Keyboard-shortcuts/</guid>
-      <description>Ctrl + F10: Main content(`FocusMain`) in reader and library windows, moves the keyboard focus to the &#34;main&#34; area landmark (in the reader view, this is immediately before the frame that displays publication content) Ctrl + t: Toolbar (`FocusToolbar`) in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &#34;skip&#34; link (which itself moves focus to the &#34;main&#34; area landmark) Ctrl + n: Navigation (`FocusReaderNavigation`) in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.</description>
+      <description>Ctrl + F10: Main content(`FocusMain`) in reader and library windows, moves the keyboard focus to the &#34;main&#34; area landmark (in the reader view, this is immediately before the frame that displays publication content)     Ctrl + t: Toolbar (`FocusToolbar`) in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &#34;skip&#34; link (which itself moves focus to the &#34;main&#34; area landmark)     Ctrl + n: Navigation (`FocusReaderNavigation`) in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.</description>
     </item>
     
     <item>
@@ -29,7 +33,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/400_ressources/406_formats/</guid>
-      <description>Supported publication formats EPUB 2 this is a legacy format, only adequate for basic ebooks. Textual content is formatted in XHTML 1 and no multimedia feature is supported. EPUB 2 ebooks are still accessible if properly formatted. EPUB 3 this is the recommended format for the 21st century. Textual content is formatted in (X)HTML 5, it is possible to create fixed-layout ebooks, enriched ebooks and accessibiltiy features are well designed. DAISY v2.</description>
+      <description>Supported publication formats  EPUB 2  this is a legacy format, only adequate for basic ebooks. Textual content is formatted in XHTML 1 and no multimedia feature is supported. EPUB 2 ebooks are still accessible if properly formatted.    EPUB 3  this is the recommended format for the 21st century. Textual content is formatted in (X)HTML 5, it is possible to create fixed-layout ebooks, enriched ebooks and accessibiltiy features are well designed.</description>
     </item>
     
     <item>
@@ -38,7 +42,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/400_ressources/420_glossary/</guid>
-      <description>Glossary of technical terms Book information panel (Book Details) Gives information about the digital book. This information is extracted from the file&#39;s metadata, its quality and quantity depends on the the attention paid during the production of the file by the publisher. Adapted books These are digital books produced by associations and made available to people with disabilities for reading. Worldwild, this system is governed by The Marrakech Treaty .</description>
+      <description>Glossary of technical terms  Book information panel (Book Details)  Gives information about the digital book. This information is extracted from the file&#39;s metadata, its quality and quantity depends on the the attention paid during the production of the file by the publisher.    Adapted books These are digital books produced by associations and made available to people with disabilities for reading. Worldwild, this system is governed by The Marrakech Treaty .</description>
     </item>
     
   </channel>

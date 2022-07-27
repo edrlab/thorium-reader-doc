@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Thorium provides visual reading and audio playback. In order to ensure that you can find your way around the the publication, Thorium also offers many navigation options as well as the possibility to add bookmarks or to search within the publication.
-Moving around in a book Learn how to move with agility thru a book. Fast forward and backward to next or previous chapter, page or content. Navigate thru table of content, landmarks and reference pages.">
+  Moving around in a book  Learn how to move with agility thru a book. Fast forward and backward to next or previous chapter, page or content. Navigate thru table of content, landmarks and reference pages.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Read" />
 <meta property="og:description" content="" />
@@ -15,11 +15,11 @@ Moving around in a book Learn how to move with agility thru a book. Fast forward
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="fr" href="https://edrlab.github.io/thorium-reader-doc/fr/210_reading/" title="Lire">
-<link rel="stylesheet" href="/thorium-reader-doc/book.min.695cc2ac43f3319e1f0be61e23d8e856ae0d502e36edfc65da1b117c55eb1ea0.css" integrity="sha256-aVzCrEPzMZ4fC&#43;YeI9joVq4NUC427fxl2hsRfFXrHqA=" crossorigin="anonymous">
+<link rel="stylesheet" href="/thorium-reader-doc/book.min.792f017ba0cacf1925295d76f8639b4a71e15d2cfa8b9cd442cc94b4860033dc.css" integrity="sha256-eS8Be6DKzxklKV12&#43;GObSnHhXSz6i5zUQsyUtIYAM9w=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/en.search.min.c4b8d42baa7adbf94caf48739e5e004294fbf9e30e3d995db05299b49199aa97.js" integrity="sha256-xLjUK6p62/lMr0hznl4AQpT7&#43;eMOPZldsFKZtJGZqpc=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/en.search.min.2622684d136c40806d09bbaf1ce02133f183e8adb148e2ab38551859f3eb0c9e.js" integrity="sha256-JiJoTRNsQIBtCbuvHOAhM/GD6K2xSOKrOFUYWfPrDJ4=" crossorigin="anonymous"></script>
 
-  <script defer src="/thorium-reader-doc/sw.min.fd032f86b90938c9ef0834ebcd6a02f9b39e8a30078f9552eff1b404fbb0824a.js" integrity="sha256-/QMvhrkJOMnvCDTrzWoC&#43;bOeijAHj5VS7/G0BPuwgko=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://edrlab.github.io/thorium-reader-doc/210_reading/index.xml" title="Thorium Reader" />
 <!--
 Made with Book Theme
@@ -544,7 +544,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 <hr/>
  
@@ -604,7 +604,7 @@ the possibility to add bookmarks or to search within the publication.</p>
     <a href="/thorium-reader-doc/210_reading/214_bookmarks/">Mark a page or a passage</a>
   </dt>
   <dd class="markdown-inner">
-    Marking pages # Add a bookmark # The bookmark button allows you to add a custom bookmark. A bookmark can be a fixed point or a text selection. Only one fixed point bookmark is possible per page (book pages or calculated pages in case there is not page reference in the book). But you can place as many texte selection bookmark as you want.
+    Marking pages Add a bookmark The bookmark button allows you to add a custom bookmark. A bookmark can be a fixed point or a text selection. Only one fixed point bookmark is possible per page (book pages or calculated pages in case there is not page reference in the book). But you can place as many texte selection bookmark as you want.
 When you add a Bookmark a notification appears to inform you that the Bookmark was Added or Deleted.
   </dd>
 
@@ -613,8 +613,8 @@ When you add a Bookmark a notification appears to inform you that the Bookmark w
   </dt>
   <dd class="markdown-inner">
     In the reading interface use the Preferences button (): the following options are revealed.
-Theme # The color of the background and foreground can be changed using one of the three available themes - Neutral, Sepia and Night.
-Text # The font size can be increased or decreased using the slider. The font can also be changed. The available options are as follows Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace and Monospace.
+Theme The color of the background and foreground can be changed using one of the three available themes - Neutral, Sepia and Night.
+Text The font size can be increased or decreased using the slider. The font can also be changed. The available options are as follows Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace and Monospace.
   </dd>
 
   <dt>
@@ -631,7 +631,9 @@ Once MathJax is activated, you can use the contextual menu (right click) on a ma
 Example
 ```tpl
 {{< section >}}
-```--></article>
+```--><blockquote>
+</blockquote>
+</article>
  
       
 

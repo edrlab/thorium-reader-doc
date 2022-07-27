@@ -4,17 +4,21 @@
     <title>Accessibility on Thorium Reader</title>
     <link>https://edrlab.github.io/thorium-reader-doc/300_accessibility/</link>
     <description>Recent content in Accessibility on Thorium Reader</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://edrlab.github.io/thorium-reader-doc/300_accessibility/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://edrlab.github.io/thorium-reader-doc/300_accessibility/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Accessibility information</title>
       <link>https://edrlab.github.io/thorium-reader-doc/300_accessibility/301_A11yInfos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/300_accessibility/301_A11yInfos/</guid>
-      <description>Accessibility informationCurrently Thorium displays in the # Book information panel under the heading Description the content of the accessibility summary metadata (accessibilitySummary).
+      <description>Accessibility informationCurrently Thorium displays in the Book information panel under the heading Description the content of the accessibility summary metadata (accessibilitySummary).
 Attention !
 Work is underway to develop a guide for displaying accessibility information. We are following this work and will implement the recommendations soon.
-Attention !
+ Attention !
 Accessibility information must be filled in by the editors. Thorium displays this information as it was defined. In case of doubt or complaint, please contact the distributor or the publisher of the file.</description>
     </item>
     
@@ -24,11 +28,11 @@ Accessibility information must be filled in by the editors. Thorium displays thi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/300_accessibility/310_natives/</guid>
-      <description>Native accessibility # Attention !
+      <description>Native accessibility Attention !
 The native accessibility features offered by Thorium are strongly affected by the quality of the read files.
-Visual adjustments # The application allows you to change the color themes and change the display font, text size.
-it is possible to use all the fonts installed on the computer.
-It is possible to increase the size of an image with Shift+clic on the image. Repeat several times to enlarge the image to the desired size.</description>
+ Visual adjustments   The application allows you to change the color themes and change the display font, text size.
+  it is possible to use all the fonts installed on the computer.
+  It is possible to increase the size of an image with Shift+clic on the image.</description>
     </item>
     
     <item>
@@ -40,7 +44,7 @@ It is possible to increase the size of an image with Shift+clic on the image. Re
       <description>When launching Thorium, if a screen reader is detected, the relative functions functions are activated.
 Attention !
 Accessibility features addressed to assistive technologies are strongly affected by the quality of the book files.
-Keystrokes common to NVDA and JAWS # (contribution from Prashant Verma, DAISY Consortium)
+ Keystrokes common to NVDA and JAWS (contribution from Prashant Verma, DAISY Consortium)
 For reading text, navigating in tables, navigating in the browser window,
 the insertion key can be replaced by the modifier key of the screen reader (e.</description>
     </item>
@@ -54,7 +58,7 @@ the insertion key can be replaced by the modifier key of the screen reader (e.</
       <description>EDRLab has a close relationship with the DAISY Consortium. Thanks to the people with visual impairments who participate in our design and testing, Thorium Reader aims to be one of the most accessible reading applications on the market.
 Thorium Reader is tested on epubtest.org.
 Version 1.8 received the following scores:
-Basic functions 86.67% (Thorium does not allow yet annotating a document) Non-visual reading 100% Mathematics 100% Extended descriptions 100%. The list of tests is as follows:</description>
+ Basic functions 86.67% (Thorium does not allow yet annotating a document) Non-visual reading 100% Mathematics 100% Extended descriptions 100%.  The list of tests is as follows:</description>
     </item>
     
   </channel>
