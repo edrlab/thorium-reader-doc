@@ -30,18 +30,22 @@ Select the book you want to read, use the `contextual menu`
 
 Information.
 
-You can set the default drive for certain file types through the Windows
+You can set the default application for certain file types 
 through the Windows settings.
-(select a file, open the context menu, select `Open with`,
+
+Select a file, open the context menu, select `Open with`,
 in the pop-up window select `Thorium`, check the box
-Always open with"). This operation must be repeated for each  
+`Always open with`. 
+
+This operation must be repeated for each  
 file format you wish to read with Thorium.
 {{< /hint >}}
 
 <--->
 
-Thorium peut aussi être lancé à partir du menu de l'application ou de tout
-raccourci créé. This will open the [library](220_organizing/221_libraries)
+Thorium can also be launched from the application menu 
+or from any shortcut created. 
+This will open the [library](220_organizing/221_libraries)
 and will allow you to choose a book or to add one but also to access
 to [catalogs](220_organizing/222_catalogs) and organize your collection.
 To read a book just click on it or validate with <kbd>Enter</kbd>

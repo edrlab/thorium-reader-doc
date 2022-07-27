@@ -1,6 +1,6 @@
 ---
 title: "Moving around in a book"
-description: ""
+description: "Learn how to move with agility thru a book. Fast forward and backward to next or previous chapter, page or content. Navigate thru table of content, landmarks and reference pages."
 draft: false
 weight: 211
 toc: false
@@ -24,7 +24,7 @@ It is possible to move between chapters using
 or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> 
 (except on MacOS) + <kbd>&larr;</kbd> 
 (previous chapter) 
-et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> 
+and <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> 
 (except on MacOS) + <kbd>&rarr;</kbd> 
 (next chapter).
 
@@ -33,8 +33,8 @@ et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd>
 Attention!
 
 There are two different shortcuts to go to the next or previous chapter. 
-Depending on your configuration and whether or not you use a screen reader, it is possible that only one of these 
-that only one of these two combinations works.
+Depending on your configuration and whether or not you use a screen reader,
+it is possible that only one of these two combinations works.
 
 {{< /hint >}}
 
@@ -46,11 +46,10 @@ The table of contents represents the architecture of the book as defined by
 the book's producing organization.
 
 The first level titles are indicated without margin, those with 
-subtitles (or second level title) are presented on a gray background. 
+subtitles (or second level title) are presented with a lightgray background. 
 The sub-headings are shifted from the margin to the left and a 
 vertical line makes it easy to know 
 to which level of title they belong.
-
 
 {{< details "With NVDA">}}
 You can use the title level navigation functions 
@@ -68,7 +67,7 @@ to explore and move through the table of contents.
 
 {{< columns >}}
 
-Good-quality digital books have markers that allow you to quickly identify and 
+Good-quality digital books have markers that allow you to 
 identify and quickly reach the main parts of a book.
 
 {{< hint info >}}
@@ -76,8 +75,8 @@ identify and quickly reach the main parts of a book.
 Information
 
 Each EPUB publication should include a guide to all major 
-benchmarks. The titles of the benchmarks are at the discretion of the publisher 
-choice, but the nature of each benchmark must be identified according to a 
+landmarks. The titles of the landmarks are at the discretion of the publisher 
+choice, but the nature of each landmark must be identified according to a 
 semantic vocabulary. The main ones are:
 
 * Main text (bodymatter)
@@ -101,7 +100,10 @@ is available on the W3C website.
 
 Attention !
 
-PDF bookmarks used to compensate for the lack of a table of contents in this format are not interpreted by Thorium.
+PDF bookmarks used to compensate for the lack of a table of contents 
+in this format are not interpreted by Thorium. 
+
+Unlike Landmarks, Bookmarks are made for users who want to place a mark into a book.
 
 {{< /hint >}}
 

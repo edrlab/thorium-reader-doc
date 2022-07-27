@@ -29,3 +29,7 @@ toc: false
     </dd>
   </dl>
   
+<dl>
+    <dt id="OPDS">OPDS</dt><dd> Open Publication Distribution System
+      </dd>
+  </dl>

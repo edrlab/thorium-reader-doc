@@ -15,21 +15,20 @@ type: docs
     (DRM meaning <span lang="en">Digital Rights Management</span>).
   </p>
   <p>
-    Thorium is available in a large number of languages; each update offers new ones
+    Thorium is available in a large number of languages; each update
     offers new ones thanks to the help of our community. Huge 
     efforts are also being made to make Thorium Reader accessible for 
-    the visually impaired and
-    visually impaired and dyslexic people.
+    the visually impaired and dyslexic people.
   </p>
   <p>
     This application is free, without advertising and without leakage of 
-    private data. It is the perfect tool for heavy readers, library users and students.
+    private data. It is the perfect tool for heavy readers, 
     library users and students.
   </p>
 
 {{< columns >}}
 
-## Accessibilité
+## Accessibility
 
   <p>
     Thorium Reader is for everyone, including people who are blind or have 
@@ -45,7 +44,7 @@ type: docs
 
 This site will allow you to learn more about
 [accessibility features of Thorium-Reader](/300_accessibility/).
-Specific information on key assistive technologies such as screen readers is provided
+Specific information on key assistive technologies 
 such as screen readers is provided whenever necessary.
 
 <--->
@@ -69,9 +68,9 @@ such as screen readers is provided whenever necessary.
       distributors supporting LCP is maintained here</a>).
   </p>
   <p>
-    Publishing organizations around the world are encouraged to adopt LCP as a means of
+    Publishing organizations around the world are 
     encouraged to adopt LCP as a means of protecting digital 
-    books from over-sharing, while providing users with a frictionless experience
+    books from over-sharing, while providing users with a 
     frictionless experience for users and keeping content 
     properly accessible. Please
     <a href="https://www.edrlab.org/contact/">contact EDRLab</a> if your organization

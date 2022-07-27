@@ -1,12 +1,13 @@
 ---
-title: "Accessibilité : conforme"
+title: "Accessibility : conforms to WCAG 2.1 AA"
 description: ""
 draft: true
 weight: 912
 toc: false
 ---
 
-This site was tested with NVDA on Firefox on Windows 10. No accessibility blockers were found.
+This site was tested with NVDA on Firefox on Windows 10. 
+No accessibility blockers were found.
 
 If you encounter any difficulties you can inform us via the 
 contact form or by opening an issue on our 

@@ -7,7 +7,7 @@ toc: false
 ---
 
 # Accessibility informationCurrently Thorium displays in the 
-<a href="../400_shortcodes/404_glossary.html#bookInformation">Book information panel</a> 
+<a href="/thorium-reader-doc/400_ressources/420_glossary#bookInformation">Book information panel</a> 
 under the heading `Description` the content of the accessibility summary metadata 
 (<span lang="en">accessibilitySummary</span>). 
 
@@ -18,8 +18,7 @@ under the heading `Description` the content of the accessibility summary metadat
 Attention !
 
 Work is underway to develop a guide for displaying accessibility information. 
-accessibility information. We are following this work and will implement the recommendations 
-soon.
+We are following this work and will implement the recommendations soon.
 
 {{< /hint >}}
 
@@ -29,6 +28,7 @@ Attention !
 
 Accessibility information must be filled in by the editors. 
 Thorium displays this information as it was defined. 
-In case of doubt or complaint, please contact the distributor or the publisher of the file.
+In case of doubt or complaint, 
+please contact the distributor or the publisher of the file.
 
 {{< /hint >}}

@@ -15,8 +15,8 @@ Thorium Reader is [tested on epubtest.org](https://epubtest.org/results/3632/).
 
 Version 1.8 received the following scores: 
  * Basic functions 86.67% (Thorium does not allow yet annotating a document)
- * Non-visual reading 100% (Thorium does not annotate a document)
- Mathematics 100% * Extended descriptions 100
+ * Non-visual reading 100% 
+ *  Mathematics 100% 
  * Extended descriptions 100%. 
 
 The list of tests is as follows: 

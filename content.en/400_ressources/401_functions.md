@@ -1,7 +1,7 @@
 ---
 title: "Functions"
 description: ""
-draft: true
+draft: false
 weight: 401
 toc: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Where am I?"
-description: ""
+description: "Know where you are in a book."
 draft: false
 weight: 212
 toc: false
@@ -16,12 +16,12 @@ of the interface and will be read by a screen reader.
 
 {{< /columns >}}
 
-When you look at the *Navigation* menu, Thorium shows the current chapter
-in the table of contents and the current page in the `Go to page` menu.
+When you look at the `Navigation` menu, Thorium shows the current chapter
+in the `table of contents` and the current page in the `Go to page` menu.
 
 <img src="/thorium-reader-doc/images/local-fr/thorium-whereami-tdmfocus.png" alt="Screenshot, reading a book with title VII Barrel Incident. The navigation pane is open, the table of contents shows the title Barrel Incident in a square which indicates that this is the chapter being read."/>
 
-# Lire les informations de navigation
+# Access more informations
 
 {{< columns >}}
 
@@ -52,7 +52,7 @@ tab key until you get the header view.
 This shows you where you are in the title structure.
 
 Press the <kbd>NVDA</kbd> + <kbd>Enter</kbd> keys to save the current position.
-current position. Then <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> to place the
+Then <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> to place the
 cursor in the Progress section of the dialog box containing information about the
 information dialog box. The number of the current HTML document in relation to the
 the total number of documents, the percentage, the current page and the corresponding

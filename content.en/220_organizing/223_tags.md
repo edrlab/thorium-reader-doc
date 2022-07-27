@@ -6,8 +6,8 @@ weight: 223
 toc: false
 ---
 You can enrich the information of the books in your library by 
-adding `Tags` to them. Tags' allow you to quickly search and sort books in list view. 
-sort books in list view. 
+adding `Tags` to them. 
+`Tags' allow you to quickly search and sort books in list view. 
 
 {{< hint info >}}
 Putting it into practice.

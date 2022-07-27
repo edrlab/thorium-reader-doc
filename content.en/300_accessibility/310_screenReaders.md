@@ -14,7 +14,7 @@ functions are activated.
 Attention !
 
 Accessibility features addressed to assistive technologies 
-may be affected by the quality of the files being played. 
+are strongly affected by the quality of the book files. 
 
 {{< /hint >}}
 
@@ -22,10 +22,9 @@ may be affected by the quality of the files being played.
 
 (contribution from Prashant Verma, DAISY Consortium)
 
-For reading text, navigating in tables, navigating in the browser window, the 
+For reading text, navigating in tables, navigating in the browser window,  
 the insertion key can be replaced by the 
 modifier key of the screen reader (e.g. the Caps Lock key). 
-key)
 
 ## Quick keys for navigation 
 
@@ -46,16 +45,16 @@ The screen reader must be in navigation or virtual cursor mode.
 
 |Command |description|
 |---|---|
-|Say previous character  |<kbd>&larr;</kbd>|
-|Say the next character  |<kbd>&rarr;</kbd>|
+|Previous character  |<kbd>&larr;</kbd>|
+|Next character  |<kbd>&rarr;</kbd>|
 |Previous word  |<kbd>CTRL</kbd> + <kbd>&larr;</kbd>|
-|Next word  |<kbd>CTRL</kbd> + <kbd>&rarr;</kbd>|
+|Say Next word  |<kbd>CTRL</kbd> + <kbd>&rarr;</kbd>|
 |Previous line |<kbd>&uarr;</kbd>|
 |Next line |<kbd>&darr;</kbd>|
-|Say previous sentence |<kbd>ALT</kbd> + <kbd>&uarr;</kbd> (Jaws only)|
-|Say next sentence |<kbd>ALT</kbd> + <kbd>&darr;</kbd> (Jaws only)|
-|Say all |<kbd>INSERT</kbd> + <kbd>&darr;</kbd>|
-|Say Font |<kbd>INSERT</kbd> + <kbd>F</kbd>|
+|Previous sentence |<kbd>ALT</kbd> + <kbd>&uarr;</kbd> (Jaws only)|
+|Next sentence |<kbd>ALT</kbd> + <kbd>&darr;</kbd> (Jaws only)|
+|Read all |<kbd>INSERT</kbd> + <kbd>&darr;</kbd>|
+|Announce Font |<kbd>INSERT</kbd> + <kbd>F</kbd>|
 
 ## Tables
 

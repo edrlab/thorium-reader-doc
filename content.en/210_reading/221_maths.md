@@ -15,8 +15,8 @@ a checkbox `MathJax`.
 <img src="/thorium-reader-doc/images/local-fr/thorium-mathjax.png" alt="Screenshot of a complex mathematical formula correctly displayed with the MathJax option checked."/>
 
 Once MathJax is activated, you can use the `contextual menu` (right click) 
-on a mathematical formula inserted in MathML format and use the many options like 
-options such as reading aloud (speech), viewing the semantic marking 
+on a mathematical formula inserted in MathML format and use the many 
+options proposed such as reading aloud (speech), viewing the semantic marking 
 or copy the formula with its semantic attributes to use it in a 
 compatible editor.
 
@@ -25,18 +25,17 @@ compatible editor.
 
 {{< details "Read  **mathematics** with NVDA">}}
 You can read mathematical expressions tagged with MathML using 
-different approaches to NVDA, for example using the complement 
+different NVDA approaches, for example using the complement 
 [Access8Math](https://addons.nvda-project.org/addons/access8math.fr.html). 
-You can read mathematical expressions tagged with MathML using 
-different approaches to NVDA, for example using the complement  
+The accessibility features of MathJax will have to be disabled for this. 
 {{< /details >}}
 
 {{< hint danger >}}
 Attention ! 
 These features can only be activated if the book has been designed by 
-inserting mathematical formulas in the MathML form. For reasons of 
-ease of production the mathematical formulas are often included in the form of 
-images and it is then the alternative text that must allow the understanding of the 
+inserting mathematical formulas in the MathML format. For reasons of 
+ease of production the mathematical formulas are often included as  
+images and it is then the alternative text that must allow the 
 understanding of the formula via a precise description. 
 
 Books that include mathematics in MathML form should 
