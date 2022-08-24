@@ -15,9 +15,9 @@ Thorium does not require any account or online access to be launched and used.
 {{< hint warning >}}
 Step by step for Windows.
 
-1. [Install Thorium](https://www.edrlab.org/software/thorium-reader/github/win10).
-2. [Download a digital book](https://www.gutenberg.org/ebooks/2701.epub.noimages?).
-3. Open the downloaded file with Thorium.
+1. [Install Thorium](https://www.edrlab.org/software/thorium-reader/github/win10). The link will open a download dialog box, save the .exe file and launch it from you file manager. follow the install process.
+2. [Download a digital book](https://www.gutenberg.org/ebooks/2701.epub.noimages?). The link will open a download dialog bo or automatically download the .epub book. You can choose to open it with Thorium or save it in your file manager and choose Open with Thorium from the contextual menu. 
+3. Start reading.
 
 {{< /hint >}}
 
