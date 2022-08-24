@@ -5,7 +5,6 @@ draft: false
 weight: 214
 toc: false
 ---
-# Marking pages
 
 ## Add a bookmark
 

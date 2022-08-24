@@ -1,11 +1,11 @@
 ---
-title: "Native functions"
+title: "Native accessibility functions"
 description: ""
 draft: false
 weight: 310
 toc: false
 ---
-# Native accessibility
+
 
 {{< hint warning >}}
 Attention !

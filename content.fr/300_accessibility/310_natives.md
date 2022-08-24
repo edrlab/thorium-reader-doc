@@ -1,11 +1,10 @@
 ---
-title: "Fonctions natives"
+title: "Fonctions d'accessibilité natives"
 description: ""
 draft: false
 weight: 310
 toc: false
 ---
-# L'accessibilité native
 
 {{< hint warning >}}
 Attention !

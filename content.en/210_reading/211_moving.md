@@ -6,8 +6,6 @@ weight: 211
 toc: false
 ---
 
-# Navigate in a book
-
 The navigation options can be very different from one book to another. 
 Thorium allows the following.
 

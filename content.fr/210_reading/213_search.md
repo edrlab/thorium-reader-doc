@@ -1,12 +1,10 @@
 ---
-title: "Faire une recherche"
+title: "Faire une recherche dans un livre"
 description: ""
 draft: false
 weight: 213
 toc: false
 ---
-
-# Faire une recherche dans un livre
 
 Vous pouvez utiliser les touches <kbd>Ctrl</kbd> + <kbd>F</kbd> pour accéder au 
 champ de recherche. Saisissez votre terme de recherche. En cliquant sur le 

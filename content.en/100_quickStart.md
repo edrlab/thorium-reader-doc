@@ -5,7 +5,6 @@ draft: false
 images: [logo.png]
 weight: 100
 toc: false
-
 ---
 
 Thorium is a digital book reader, it is also a library

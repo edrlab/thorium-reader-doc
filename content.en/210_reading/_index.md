@@ -1,5 +1,5 @@
 ---
-title: Read
+title: Read a book
 weight: 210
 bookCollapseSection: false
 ---

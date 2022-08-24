@@ -5,8 +5,7 @@ draft: false
 weight: 301
 toc: false
 ---
-
-# Accessibility informationCurrently Thorium displays in the 
+Currently Thorium displays in the 
 <a href="/thorium-reader-doc/400_ressources/420_glossary#bookInformation">Book information panel</a> 
 under the heading `Description` the content of the accessibility summary metadata 
 (<span lang="en">accessibilitySummary</span>). 

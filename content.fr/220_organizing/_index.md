@@ -1,5 +1,5 @@
 ---
-title: Organiser
+title: Organiser ses collections de livres
 weight: 220
 bookCollapseSection: false
 ---

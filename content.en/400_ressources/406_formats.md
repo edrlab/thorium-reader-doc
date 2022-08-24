@@ -7,8 +7,6 @@ toc: false
 ---
 
 
-<h1>Supported publication formats</h1>
-
 <dl>
 <dt>EPUB 2</dt>
 <dd> this is a legacy format, only adequate for basic ebooks.
