@@ -6,8 +6,6 @@ weight: 913
 toc: false
 ---
 
-  <h2>Licences</h2>
-
   <p>
     Copyright 2021 European Digital Reading Lab. Tous droits réservés.
     Licensed to the Readium Foundation under one or more contributor license

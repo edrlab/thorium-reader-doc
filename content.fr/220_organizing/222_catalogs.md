@@ -7,8 +7,6 @@ toc: false
 ---
 
 
-  <h1>Catalogues OPDS</h1>
-
   <p>
 De nombreuses bibliothèques publiques et librairies adoptent 
 <a href="https://opds.io/">OPDS</a> comme format standard pour afficher leur 

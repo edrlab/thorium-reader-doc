@@ -1,12 +1,11 @@
 ---
-title: Formats pris en charge 
+title: Formats de publication pris en charge 
 description: ""
 draft: false
 weight: 406
 toc: false
 ---
 
-  <h1>Formats de publication pris en charge</h1>
 
   <dl>
     <dt>EPUB 2</dt>

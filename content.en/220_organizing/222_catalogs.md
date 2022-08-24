@@ -7,8 +7,6 @@ toc: false
 ---
 
 
-  <h1>OPDS Catalogues</h1>
-
 <p>Many public libraries and bookstores are adopting 
 <a href="https://opds.io/">OPDS</a> as a standard format to display their 
 catalog on the Web. Thorium can provide access to OPDS 1 and 2 catalogs. 

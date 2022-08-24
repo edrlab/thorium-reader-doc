@@ -1,7 +1,7 @@
 ---
 Title: About this website
 weight: 900
-bookCollapseSection: true
+bookCollapseSection: false
 ---
 
 

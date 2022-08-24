@@ -3,7 +3,7 @@ title: Help and resources for a better reading experience
 type: docs
 ---
 
-<h1>Welcome to the Thorium Reader documentation</h1>
+<h2>Welcome to the Thorium Reader documentation</h2>
   <p>
     Thorium Reader is a reference reading application for
     Windows 10, MacOS and Linux.

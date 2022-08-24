@@ -8,7 +8,6 @@ toc: false
 ---
 
 
-  <h1>Glossary of technical terms</h1>
 
   <dl>
     <dt id="bookInformation">Book information panel (Book Details)</dt>
