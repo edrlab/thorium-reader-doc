@@ -4,6 +4,21 @@ type: docs
 ---
 
 <h1>Bienvenue dans la documentation de Thorium Reader</h1>
+
+Ce document est destiné à tous ceux qui n’ont jamais entendu parler de
+Thorium, qui ne le connaissent pas bien
+ou qui l'utilisent réguliérement mais veulent en savoir plus. 
+
+Thorium est un logiciel de lecture de livres numériques aux formats 
+EPUB, AudioBook, Divina, DAISY et PDF. 
+L'utilisation de Thorium est intuitive et nous vous conseillons de 
+commencer à lire un livre au plus vite
+pour essayer par vous même. 
+Néanmoins l'expérience intuitive peut amener à ignorer 
+des fonctionnalités ou des raccourcis.
+Vous trouverez ici les connaissances à acquérir pour utiliser Thorium 
+plus efficacement encore.
+
   <p>
     Thorium Reader est une application de lecture de référence pour
     Windows 10, MacOS et Linux.
