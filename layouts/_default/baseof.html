@@ -20,6 +20,7 @@
       </header>
 
       {{ partial "docs/inject/content-before" . }}
+      <h1>{{ .Title | title }}</h1>
       {{ template "main" . }} <!-- Page Content -->
       {{ partial "docs/inject/content-after" . }}
 
