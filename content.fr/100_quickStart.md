@@ -14,9 +14,9 @@ Thorium ne nécessite aucun compte ni accès en ligne pour être lancé et utili
 {{< hint warning >}}
 Pas-à-pas pour Windows.
 
-1. [Installez Thorium](https://www.edrlab.org/software/thorium-reader/github/win10).
-2. [Téléchargez un livre numérique](https://www.010101book.net/fr/epub/le_livre_010101_1971_2015_marie_lebert.epub).
-3. Ouvrez le fichier téléchargé avec Thorium.
+1. [Installez Thorium](https://www.edrlab.org/software/thorium-reader/github/win10). Le lien déclenchera le téléchargement du fichier d'installation. Enregistrez-le dans votre Explorateur et double cliquez pour lancer l'installation. Suivez le processus d'installation.
+2. [Téléchargez un livre numérique](https://www.010101book.net/fr/epub/le_livre_010101_1971_2015_marie_lebert.epub). Le lien déclenchera le téléchargement d'un fichier .epub que vous pouvez ouvrir avec Thorium.
+3. Commencez à lire.
 
 {{< /hint >}}
 
