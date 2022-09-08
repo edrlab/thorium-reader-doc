@@ -16,6 +16,8 @@ of the interface and will be read by a screen reader.
 
 {{< /columns >}}
 
+The keyboard shortcut <kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>n</kbd> will open the table of content Navigation menu centered and focused to the detected heading closest to the reading location. 
+
 When you look at the `Navigation` menu, Thorium shows the current chapter
 in the `table of contents` and the current page in the `Go to page` menu.
 
