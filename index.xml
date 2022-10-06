@@ -17,7 +17,7 @@
       <guid>https://edrlab.github.io/thorium-reader-doc/100_quickStart/</guid>
       <description>Thorium is a digital book reader, it is also a library where you can store your books and access to online catalogs. Thorium does not require any account or online access to be launched and used.
 Step by step for Windows.
-  Install Thorium.  Download a digital book. Open the downloaded file with Thorium.   Select the book you want to read, use the contextual menu (right click), select open with and then select Thorium.</description>
+  Install Thorium. The link will open a download dialog box, save the .exe file and launch it from you file manager. follow the install process.  Download a digital book.</description>
     </item>
     
     <item>
@@ -37,7 +37,8 @@ It is possible to move between chapters using Ctrl + Previous page (Page Up) (pr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/212_whereAmI/</guid>
-      <description>The keyboard shortcuts Shift + Ctrl + k allows to get a quick mention of the reading position in the document. This information will be displayed in the notification area at the bottom left of the interface and will be read by a screen reader.    When you look at the Navigation menu, Thorium shows the current chapter in the table of contents and the current page in the Go to page menu.</description>
+      <description>The keyboard shortcuts Shift + Ctrl + k allows to get a quick mention of the reading position in the document. This information will be displayed in the notification area at the bottom left of the interface and will be read by a screen reader.
+Screen reader&amp;rsquo;s page location is approximative Because of inherent limitation in current screen reader technology, Thorium has to estimates the reading location. Consequently the page number anounced by Thorium is not reflecting the place where the screen reader&amp;rsquo;s is actually reading, the error might be of some sentences.</description>
     </item>
     
     <item>
@@ -87,8 +88,7 @@ Once MathJax is activated, you can use the contextual menu (right click) on a ma
       
       <guid>https://edrlab.github.io/thorium-reader-doc/220_organizing/221_libraries/</guid>
       <description>A book can be added to the library by opening it with Thorium from Windows Explorer or by importing it with the Import Book button. When a book is imported, it is copied and prepared in a reserved folder.
-My Books The imported books are presented in the My Books menu. It offers a quick access view organized into two sections: Recently added and Resume reading. The All Books
-button will display all the books imported into Thorium.</description>
+Thorium copies files in a publications subfolder of the EDRLab.ThoriumReader folder. The location of this folder may vary depending on the operating system and may be placed in a hidden folder, you will need to activate display hidden files option to find it.</description>
     </item>
     
     <item>
@@ -237,9 +237,9 @@ Daniel Weck, lead developer. Pierre Leroux, node.js developer.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/900_about/904_issues/</guid>
-      <description>If you do not find the answer to your problem on this site, you can tell us your problem via the contact form or via our support tracking tool.
+      <description>If you do not find the answer to your problem on this site, you can tell us your problem via our support tracking tool or contact form.
 Here is the information we need:
- Operating system and its version Thorium version (it is indicated at the bottom of the library under the title About Thorium)  </description>
+ Operating system and it version Thorium version (it is indicated at the bottom of the library under the title About Thorium)  </description>
     </item>
     
     <item>

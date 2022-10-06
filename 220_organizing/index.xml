@@ -16,8 +16,7 @@
       
       <guid>https://edrlab.github.io/thorium-reader-doc/220_organizing/221_libraries/</guid>
       <description>A book can be added to the library by opening it with Thorium from Windows Explorer or by importing it with the Import Book button. When a book is imported, it is copied and prepared in a reserved folder.
-My Books The imported books are presented in the My Books menu. It offers a quick access view organized into two sections: Recently added and Resume reading. The All Books
-button will display all the books imported into Thorium.</description>
+Thorium copies files in a publications subfolder of the EDRLab.ThoriumReader folder. The location of this folder may vary depending on the operating system and may be placed in a hidden folder, you will need to activate display hidden files option to find it.</description>
     </item>
     
     <item>

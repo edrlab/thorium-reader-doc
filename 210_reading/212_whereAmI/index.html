@@ -9,14 +9,14 @@
 <meta property="og:description" content="Know where you are in a book." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/210_reading/212_whereAmI/" />
-<meta property="article:modified_time" content="2022-09-07T14:28:52+02:00" />
+<meta property="article:modified_time" content="2022-10-06T12:10:55+02:00" />
 <title>Where am I? | Thorium Reader</title>
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="fr" href="https://edrlab.github.io/thorium-reader-doc/fr/210_reading/212_whereAmI/" title="Où suis-je ?">
 <link rel="stylesheet" href="/thorium-reader-doc/book.min.792f017ba0cacf1925295d76f8639b4a71e15d2cfa8b9cd442cc94b4860033dc.css" integrity="sha256-eS8Be6DKzxklKV12&#43;GObSnHhXSz6i5zUQsyUtIYAM9w=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/en.search.min.fe8fce6fd5aad9e0360a7cc0907a83fe0243c3675542a934d5f780466cf2d656.js" integrity="sha256-/o/Ob9Wq2eA2CnzAkHqD/gJDw2dVQqk01feARmzy1lY=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/en.search.min.016290e5b3bd81ce24cab349114b5f5ef79d6b8f4a5337527fdcec1e51cc023c.js" integrity="sha256-AWKQ5bO9gc4kyrNJEUtfXveda49KUzdSf9zsHlHMAjw=" crossorigin="anonymous"></script>
 
   <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <!--
@@ -560,10 +560,20 @@ https://github.com/alex-shpak/hugo-book
   <article class="markdown"><div class="book-columns flex flex-wrap">
 
   <div class="flex-even markdown-inner">
-    The keyboard shortcuts <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd>
+    <p>The keyboard shortcuts <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd>
 allows to get a quick mention of the reading position in the document.
 This information will be displayed in the notification area at the bottom left
-of the interface and will be read by a screen reader.
+of the interface and will be read by a screen reader.</p>
+<details ><summary>Screen reader&rsquo;s page location is approximative</summary>
+  <div class="markdown-inner">
+    <p>Because of  inherent limitation in current screen reader technology, Thorium has to estimates the reading location. Consequently the page number anounced by Thorium is not reflecting the place where the screen reader&rsquo;s is actually reading, the error might be of some sentences.</p>
+<p>This 
+  <a href="https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338">screenreader page location issue</a> is known and we are discuting about a way to solve 
+  <a href="https://github.com/edrlab/thorium-reader/discussions/1799">accessible page numbers &amp; page breaks</a></p>
+<p>However NVDA will announce the page break as a separator if it has a title attribute (exemple: <code> &lt;span epub:type=&quot;pagebreak&quot; role=&quot;doc-pagebreak&quot; id=&quot;page_2&quot; class=&quot;page&quot; title=&quot;2&quot;/&gt;</code> will cause NVDA to anounce &ldquo;Two, separator&rdquo;).</p>
+  </div>
+</details>
+
   </div>
 
   <div class="flex-even markdown-inner">
@@ -572,6 +582,7 @@ of the interface and will be read by a screen reader.
 
 </div>
 
+<p>The keyboard shortcut <kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>n</kbd> will open the table of content Navigation menu centered and focused to the detected heading closest to the reading location.</p>
 <p>When you look at the <code>Navigation</code> menu, Thorium shows the current chapter
 in the <code>table of contents</code> and the current page in the <code>Go to page</code> menu.</p>
 <img src="/thorium-reader-doc/images/local-fr/thorium-whereami-tdmfocus.png" alt="Screenshot, reading a book with title VII Barrel Incident. The navigation pane is open, the table of contents shows the title Barrel Incident in a square which indicates that this is the chapter being read."/>

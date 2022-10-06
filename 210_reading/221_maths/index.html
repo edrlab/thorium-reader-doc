@@ -11,14 +11,14 @@ Once MathJax is activated, you can use the contextual menu (right click) on a ma
 Once MathJax is activated, you can use the contextual menu (right click) on a mathematical formula inserted in MathML format and use the many options proposed such as reading aloud (speech), viewing the semantic marking or copy the formula with its semantic attributes to use it in a compatible editor." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/210_reading/221_maths/" />
-<meta property="article:modified_time" content="2022-09-07T14:28:52+02:00" />
+<meta property="article:modified_time" content="2022-10-06T12:10:55+02:00" />
 <title>Read mathematics | Thorium Reader</title>
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="fr" href="https://edrlab.github.io/thorium-reader-doc/fr/210_reading/221_maths/" title="Lire des mathématiques">
 <link rel="stylesheet" href="/thorium-reader-doc/book.min.792f017ba0cacf1925295d76f8639b4a71e15d2cfa8b9cd442cc94b4860033dc.css" integrity="sha256-eS8Be6DKzxklKV12&#43;GObSnHhXSz6i5zUQsyUtIYAM9w=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/en.search.min.fe8fce6fd5aad9e0360a7cc0907a83fe0243c3675542a934d5f780466cf2d656.js" integrity="sha256-/o/Ob9Wq2eA2CnzAkHqD/gJDw2dVQqk01feARmzy1lY=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/en.search.min.016290e5b3bd81ce24cab349114b5f5ef79d6b8f4a5337527fdcec1e51cc023c.js" integrity="sha256-AWKQ5bO9gc4kyrNJEUtfXveda49KUzdSf9zsHlHMAjw=" crossorigin="anonymous"></script>
 
   <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <!--
@@ -574,11 +574,31 @@ compatible editor.</p>
 <img src="/thorium-reader-doc/images/local-fr/thorium-mathjax-menu.png" alt="Screenshot of the MathJax context menu showing the Accessibility sub-menu with the Activate option checked."/>
 <details ><summary>Read  <strong>mathematics</strong> with NVDA</summary>
   <div class="markdown-inner">
-    You can read mathematical expressions tagged with MathML using
-different NVDA approaches, for example using the complement
+    <p>You can read mathematical expressions tagged with MathML using
+different NVDA approaches. Although NVDA is already equipped with this feature by applying Math Player, some functions still needed to be improved, especially in Math Player some language support is not provided. You may want to use an addon like 
+  <a href="https://addons.nvda-project.org/addons/MathCAT.en.html">MathCAT</a> or 
+  <a href="https://addons.nvda-project.org/addons/access8math.fr.html">Access8Math</a>.</p>
+<p>In case of instabilities, we recommend to disable MathJax accessibility features thru context menu.</p>
+<p>Using Access8Math:</p>
+<p>To install the add-on, navigate to Access8Math webpage and click on “Stable” link to download the add-on.</p>
+<p>When reading a EPUB with Math content, Down Arrow to the line containing the equation and place your focus on the equation.
+Press Enter to activate &ldquo;Access8Math.
+This will open a small window containing interaction window&rdquo; which contains &ldquo;interactive&rdquo; and &ldquo;copy&rdquo; buttons.</p>
+<p>Interaction: This will allow Interaction within the math content. In order to navigate and browse, you can use the Down Arrow to partially explore the subparts in the expression and move or zoom the content between the subparts by using Right and Left Arrows.</p>
+<p>Copy: Use the Copy mode to Copy MathML object source code.</p>
+<p>Navigation mode commands:</p>
+<ul>
+<li>&ldquo;Down Arrow&rdquo;: Zoom in on a smaller subpart of the math content.</li>
+<li>&ldquo;Up Arrow&rdquo;: Zoom out to a larger sub-part of the math content.</li>
+<li>&ldquo;Left Arrow&rdquo;: Move to the previous math content.</li>
+<li>&ldquo;Right Arrow&rdquo;: Move to the next math content.</li>
+<li>&ldquo;Home&rdquo;: Move back to the top of the Entire math content.</li>
+<li>&ldquo;Ctrl + c&rdquo;: Copy object MathML source code</li>
+<li>&ldquo;Numpad 1to 9&rdquo;: Reading the math content into serialized text using NVDA Review Text.</li>
+<li>&ldquo;Escape&rdquo;: Exit the navigation mode.</li>
+<li>&ldquo;Ctrl + Alt + m&rdquo;: Switch the provider between Access8Math and Math Player.</li>
+</ul>
 
-  <a href="https://addons.nvda-project.org/addons/access8math.fr.html">Access8Math</a>.
-The accessibility features of MathJax will have to be disabled for this.
   </div>
 </details>
 

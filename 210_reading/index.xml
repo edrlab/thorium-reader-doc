@@ -26,7 +26,8 @@ It is possible to move between chapters using Ctrl + Previous page (Page Up) (pr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/212_whereAmI/</guid>
-      <description>The keyboard shortcuts Shift + Ctrl + k allows to get a quick mention of the reading position in the document. This information will be displayed in the notification area at the bottom left of the interface and will be read by a screen reader.    When you look at the Navigation menu, Thorium shows the current chapter in the table of contents and the current page in the Go to page menu.</description>
+      <description>The keyboard shortcuts Shift + Ctrl + k allows to get a quick mention of the reading position in the document. This information will be displayed in the notification area at the bottom left of the interface and will be read by a screen reader.
+Screen reader&amp;rsquo;s page location is approximative Because of inherent limitation in current screen reader technology, Thorium has to estimates the reading location. Consequently the page number anounced by Thorium is not reflecting the place where the screen reader&amp;rsquo;s is actually reading, the error might be of some sentences.</description>
     </item>
     
     <item>
