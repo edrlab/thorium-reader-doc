@@ -5,25 +5,22 @@ type: docs
 
 <h2>Welcome to the Thorium Reader documentation</h2>
   <p>
-    Thorium Reader is a reference reading application for
-    Windows 10, MacOS and Linux.
-    Actively developed by <a href="https://edrlab.org">EDRLab</a>
-    Thorium aims to provide the best possible reading experience for digital books
-    books, comics, audiobooks and PDF documents, including 
-    when they are protected by the
-    <a href="https://edrlab.org/readium-lcp">LCP DRM </a>
-    (DRM meaning <span lang="en">Digital Rights Management</span>).
+    For digital books, comics, audiobooks and PDF documents, including 
+    those protected by the
+    <a href="https://edrlab.org/readium-lcp">LCP DRM</a>
+    (DRM meaning <span lang="en">Digital Rights Management</span>)
+    on Linux, macOS, and Windows 10.
   </p>
   <p>
-    Thorium is available in a large number of languages; each update
-    offers new ones thanks to the help of our community. Huge 
-    efforts are also being made to make Thorium Reader accessible for 
-    the visually impaired and dyslexic people.
+    Thorium is available in many languages; each update
+    offers new ones thanks to the community. 
+    Thorium Reader is also being made accessible for 
+    visually impaired and dyslexic people.
   </p>
   <p>
-    This application is free, without advertising and without leakage of 
-    private data. It is the perfect tool for heavy readers, 
-    library users and students.
+    A libre and gratis app, with no advertising or leakage of private
+    data, and features for heavy readers, library users and students.
+    Made by <a href="https://edrlab.org">EDRLab</a>
   </p>
 
 {{< columns >}}
@@ -31,28 +28,25 @@ type: docs
 ## Accessibility
 
   <p>
-    Thorium Reader is for everyone, including people who are blind or have 
-    other types of visual disabilities. The application is compatible with
-    screen readers, including JAWS, NVDA, Narrator, and VoiceOver, and
-    includes a read-aloud feature with visual highlighting.
-    Thorium Reader can be used with the mouse or keyboard, and 
-    keyboard shortcuts are configurable. The display can be customized
-    to meet the needs of users, including 
-    colors, text size, spacing, font and layout.
+    _For everyone_ means any visual impairment,  and even blind people.
+    Compatible with JAWS, NVDA, Narrator, and VoiceOver screen readers.
+    A read-aloud feature with visual highlighting also helps.
+    Colors, text size, spacing, font and layout can be adjusted.
+    When used with mouse or keyboard, keyboard shortcuts can be set up.
 
   </p>
 
-This site will allow you to learn more about
+You can learn more about the
 [accessibility features of Thorium-Reader](/300_accessibility/).
-Specific information on key assistive technologies 
-such as screen readers is provided whenever necessary.
+Specific info on key assistive technologies 
+such as screen readers is provided as necessary.
 
 <--->
 
   <h2>Readium LCP DRM</h2>
 
   <p>
-    Thorium Reader supports the
+   Thorium Reader supports the
     <a href="https://www.edrlab.org/readium-lcp/">DRM Readium LCP</a>,
     originally designed by the Readium Foundation. The
     <a href="https://readium.org/lcp-specs/">specification of this DRM
@@ -71,7 +65,7 @@ such as screen readers is provided whenever necessary.
     Publishing organizations around the world are 
     encouraged to adopt LCP as a means of protecting digital 
     books from over-sharing, while providing users with a 
-    frictionless experience for users and keeping content 
+    frictionless experience and keeping content 
     properly accessible. Please
     <a href="https://www.edrlab.org/contact/">contact EDRLab</a> if your organization
     is interested in adopting LCP.
