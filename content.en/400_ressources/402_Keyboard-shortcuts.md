@@ -77,17 +77,17 @@ toc: false
  </dd>
 </dl>
 <dl>
- <dt>  <kbd>Shift</kbd> (optional) + <kbd>F3</kbd>: previous or next search result (`SearchPrevious / SearchNext`)</dt>
+ <dt>  <kbd>Shift</kbd> (optional) + <kbd>F3</kbd>: previous or next search result (`SearchPrevious` / `SearchNext`)</dt>
  <dd>in reader window, when the publication-wide search text input is open, finds the previous / next match
  </dd>
 </dl>
 <dl>
- <dt>  <kbd>Shift</kbd> (optional) + <kbd>Ctrl</kbd>  +  <kbd>G</kbd>: previous or next search result (`SearchPreviousAlt / SearchNextAlt`)</dt>
+ <dt>  <kbd>Shift</kbd> (optional) + <kbd>Ctrl</kbd>  +  <kbd>G</kbd>: previous or next search result (`SearchPreviousAlt` / `SearchNextAlt`)</dt>
  <dd>same as above (alternative keyboard shortcut)
  </dd>
 </dl>
 <dl>
- <dt>  <kbd>Ctrl</kbd>  +  <kbd>&larr;</kbd> or <kbd>&rarr;</kbd>: Next OPDS page (`NavigatePreviousOPDSPage / NavigateNextOPDSPage`)</dt>
+ <dt>  <kbd>Ctrl</kbd>  +  <kbd>&larr;</kbd> or <kbd>&rarr;</kbd>: Next OPDS page (`NavigatePreviousOPDSPage` / `NavigateNextOPDSPage`)</dt>
  <dd>in library window for OPDS feeds, activates the previous or next pagination links
  </dd>
 </dl>
@@ -97,30 +97,37 @@ toc: false
  </dd>
 </dl>
 <dl>
- <dt>  <kbd>Ctrl</kbd>  +  <kbd>Shift</kbd>  +  <kbd>ALT</kbd> (except on MacOS) + <kbd>&larr;</kbd> or <kbd>&rarr;</kbd>: Previous or next chapter (`NavigatePreviousChapter / NavigateNextChapter`)</dt>
+ <dt>  <kbd>Ctrl</kbd>  +  <kbd>Shift</kbd>  +  <kbd>ALT</kbd> (except on MacOS) + <kbd>&larr;</kbd> or <kbd>&rarr;</kbd>: Previous or next chapter (`NavigatePreviousChapter` / `NavigateNextChapter`)</dt>
  <dd>in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).
  </dd>
 </dl>
 <dl>
- <dt>  <kbd>Ctrl</kbd>  +  <kbd>page down</kbd> or <kbd>page up</kbd>: Previous or next chapter (`NavigatePreviousChapterAlt / NavigateNextChapterAlt`)</dt>
+ <dt>  <kbd>Ctrl</kbd>  +  <kbd>page down</kbd> or <kbd>page up</kbd>: Previous or next chapter (`NavigatePreviousChapterAlt` / `NavigateNextChapterAlt`)</dt>
  <dd>same as above (alternative keyboard shortcut)
  </dd>
 </dl>
 <dl>
- <dt>  <kbd>&larr;</kbd> or <kbd>&rarr;</kbd>: Previous or next page (`NavigatePreviousPage / NavigateNextPage`)</dt>
+ <dt>  <kbd>&larr;</kbd> or <kbd>&rarr;</kbd>: Previous or next page (`NavigatePreviousPage` / `NavigateNextPage`)</dt>
  <dd>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled)
  </dd>
 </dl>
 <dl>
- <dt>  <kbd>Ctrl</kbd>  +  <kbd>comma</kbd> or <kbd>period</kbd>: Previous or next page (`NavigatePreviousPageAlt / NavigateNextPageAlt`)</dt>
+ <dt>  <kbd>Ctrl</kbd>  +  <kbd>comma</kbd> or <kbd>period</kbd>: Previous or next page (`NavigatePreviousPageAlt` / `NavigateNextPageAlt`)</dt>
  <dd>same as above (alternative keyboard shortcut)
  </dd>
 </dl>
 <dl>
- <dt>  <kbd>Ctrl</kbd>  +  <kbd>Home</kbd> or <kbd>End</kbd>: Beginning or End of the publication (`NavigateToBegin / NavigateToEnd`)</dt>
+ <dt>  <kbd>Ctrl</kbd>  +  <kbd>Home</kbd> or <kbd>End</kbd>: Beginning or End of the publication (`NavigateToBegin` / `NavigateToEnd`)</dt>
  <dd>in reader window, goes to the beginning or the end of the publication
  </dd>
 </dl>
+<dl>
+ <dt>  <kbd>Ctrl</kbd>  +  <kbd>backspace</kbd> with <kbd>shift</kbd> modifier for the inverse operation: Previous History & Next History(`NavigatePreviousHistory` / `NavigateNextHistory`): </dt>
+ <dd>in reader window, go back or forward in the navigation history: Beginning or End of the publication 
+ </dd>
+</dl>
+
+
 <dl>
  <dt>  <kbd>Ctrl</kbd>  +  <kbd>1</kbd>: Previous audio (`AudioPrevious`)</dt>
  <dd>in reader window, calls the "previous" command for audio (TTS or EPUB3 Media Overlays readaloud, or "rewind" for audiobooks)

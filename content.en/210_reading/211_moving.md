@@ -10,6 +10,18 @@ toc: false
 
 The navigation options can be very different from one book to another. 
 Thorium allows the following.
+The navigation options can be very different from one book to another. Thorium allows: 
+
+* Move forward and backward in the reading
+* use table of contents, reference points and pagination (which must be included by the book's producing organization)
+* go to previous and next navigation points
+* move backward and forward in the history of navigation actions
+
+## history navigation: jump back & forward to reading points (new in Thorium 2.2. EPUB only)
+While reading, user has the power to navigate from one point to another using Navigation panel or following a link into the publication. This activates jump back (<kbd>Ctrl</kbd>  +  <kbd>backspace</kbd>) and jump forward (<kbd>Ctrl</kbd>  +  <kbd>Shift</kbd> + <kbd>backspace</kbd>) buttons on the bottom left of the reading window. Use this buttons to find a precedent place and return to the last place. 
+
+History Navigation takes into account user interactions, including clicks on bottom timeline, TOC, bookmarks, landmarks, where am I headings, go to page. It does not takes into account search previous and next and list links.
+>>>>>>> Stashed changes
 
 ## Move forward and backward
 
