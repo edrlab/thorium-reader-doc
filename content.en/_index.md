@@ -6,7 +6,7 @@ type: docs
 <h2>Welcome to the Thorium Reader documentation</h2>
   <p>
     For digital books, comics, audiobooks and PDF documents, including 
-    those protected by
+    those protected by the
     <a href="https://edrlab.org/readium-lcp">LCP DRM</a>
     (DRM meaning <span lang="en">Digital Rights Management</span>)
     on Linux, macOS, and Windows 10.
@@ -28,7 +28,7 @@ type: docs
 ## Accessibility
 
   <p>
-    _For everyone_ means any visial impairment,  and even blind people.
+    _For everyone_ means any visual impairment,  and even blind people.
     Compatible with JAWS, NVDA, Narrator, and VoiceOver screen readers.
     A read-aloud feature with visual highlighting also helps.
     Colors, text size, spacing, font and layout can be adjusted.
@@ -46,7 +46,7 @@ such as screen readers is provided as necessary.
   <h2>Readium LCP DRM</h2>
 
   <p>
-    There is support for
+   Thorium Reader supports the
     <a href="https://www.edrlab.org/readium-lcp/">DRM Readium LCP</a>,
     originally designed by the Readium Foundation. The
     <a href="https://readium.org/lcp-specs/">specification of this DRM
