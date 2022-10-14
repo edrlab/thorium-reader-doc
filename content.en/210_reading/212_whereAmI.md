@@ -11,10 +11,19 @@ allows to get a quick mention of the reading position in the document.
 This information will be displayed in the notification area at the bottom left
 of the interface and will be read by a screen reader.
 
+{{< details "Screen reader's page location is approximative">}}
+Because of  inherent limitation in current screen reader technology, Thorium has to estimates the reading location. Consequently the page number anounced by Thorium is not reflecting the place where the screen reader's is actually reading, the error might be of some sentences. 
+
+This [screenreader page location issue](https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338) is known and we are discuting about a way to solve [accessible page numbers & page breaks](https://github.com/edrlab/thorium-reader/discussions/1799)
+
+However NVDA will announce the page break as a separator if it has a title attribute (exemple: ` <span epub:type="pagebreak" role="doc-pagebreak" id="page_2" class="page" title="2"/>` will cause NVDA to anounce "Two, separator").
+{{< /details >}}
 <--->
 <img src="/thorium-reader-doc/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>
 
 {{< /columns >}}
+
+The keyboard shortcut <kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>n</kbd> will open the table of content Navigation menu centered and focused to the detected heading closest to the reading location. 
 
 When you look at the `Navigation` menu, Thorium shows the current chapter
 in the `table of contents` and the current page in the `Go to page` menu.

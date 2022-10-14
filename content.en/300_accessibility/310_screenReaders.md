@@ -6,15 +6,15 @@ weight: 310
 toc: false
 ---
 
-When launching Thorium, if a screen reader is detected, the relative functions 
+When launching Thorium, if a screen reader is detected, the relative functions
 functions are activated.
 
 {{< hint warning >}}
 
 Attention !
 
-Accessibility features addressed to assistive technologies 
-are strongly affected by the quality of the book files. 
+Accessibility features addressed to assistive technologies
+are strongly affected by the quality of the book files.
 
 {{< /hint >}}
 
@@ -23,10 +23,10 @@ are strongly affected by the quality of the book files.
 (contribution from Prashant Verma, DAISY Consortium)
 
 For reading text, navigating in tables, navigating in the browser window,  
-the insertion key can be replaced by the 
-modifier key of the screen reader (e.g. the Caps Lock key). 
+the insertion key can be replaced by the
+modifier key of the screen reader (e.g. the Caps Lock key).
 
-## Quick keys for navigation 
+## Quick keys for navigation
 
 The screen reader must be in navigation or virtual cursor mode.
 
@@ -37,7 +37,7 @@ The screen reader must be in navigation or virtual cursor mode.
 |Next chart |<kbd>G</kbd>|
 |Next list |<kbd>L</kbd>|
 |Next form field |<kbd>F</kbd>|
-|List of elements	 |<kbd>Insert</kbd> + <kbd>F7</kbd> (works regardless of cursor mode)|
+|List of elements  |<kbd>Insert</kbd> + <kbd>F7</kbd> (works regardless of cursor mode)|
 
 *Use the above keys with the <kbd>Shift</kbd> key to move to the previous item.*
 

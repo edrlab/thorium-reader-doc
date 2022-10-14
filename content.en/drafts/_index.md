@@ -12,7 +12,7 @@ This EDRLab application is in constant development and aims at becoming a refere
 
 It is localized in a large set of languages; each version is offering new languages, thanks to the help of our community.
 
-Huge efforts are also made to get Thorium Reader highly accessible for visually impaired and dyslexic people.
+Huge efforts are also made to get Thorium Reader highly accessible for persons facing print disabilities because of visual impairement, dyslexia or other disabilities.
 
 This application is free, with no ads and no leaks of private data.
 
