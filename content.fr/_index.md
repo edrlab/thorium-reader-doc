@@ -16,7 +16,7 @@ type: docs
   </p>
   <p>
     Thorium est disponible dans un grand nombre de langues ; chaque mise à jour
-    en offre de nouvelles grâce à l'aide de notre communauté. D'énormes efforts
+    en offre de nouvelles grâce à l'aide de notre communauté. d'importants efforts
     sont également déployés pour rendre Thorium Reader accessible pour les
     personnes malvoyantes et dyslexiques.
   </p>
@@ -42,7 +42,7 @@ type: docs
   </p>
 
 Ce site vous permettra d'en savoir plus sur les
-[fonctions d'accessibilité de Thorium-Reader](/300_accessibility/).
+[fonctions d'accessibilité de Thorium-Reader](/thorium-reader-doc/300_accessibility/).
 Des informations spécifiques aux principales technologies d'assistance
 comme les lecteurs d'écran sont fournies à chaque fois que c'est nécessaire.
 
