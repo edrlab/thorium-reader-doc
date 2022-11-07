@@ -37,7 +37,7 @@ type: docs
   </p>
 
 You can learn more about the
-[accessibility features of Thorium-Reader](/300_accessibility/).
+[accessibility features of Thorium-Reader](/thorium-reader-doc/300_accessibility/).
 Specific info on key assistive technologies 
 such as screen readers is provided as necessary.
 
