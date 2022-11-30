@@ -15,9 +15,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/210_reading/211_moving/</guid>
-      <description>The navigation options can be very different from one book to another. Thorium allows the following.
-Move forward and backward To navigate forward and backward in the content of the book you can use the arrows on your keyboard or click on the navigation arrows located at the bottom right of the reading interface ().
-It is possible to move between chapters using Ctrl + Previous page (Page Up) (previous chapter) and Ctrl + Next page (Page Down) (next chapter) or Ctrl + Shift + ALT (except on MacOS) + ← (previous chapter) and Ctrl + Shift + ALT (except on MacOS) + → (next chapter).</description>
+      <description>The navigation options can be very different from one book to another. Thorium allows the following. The navigation options can be very different from one book to another. Thorium allows:
+ Move forward and backward in the reading use table of contents, reference points and pagination (which must be included by the book&amp;rsquo;s producing organization) go to previous and next navigation points move backward and forward in the history of navigation actions  history navigation: jump back &amp;amp; forward to reading points (new in Thorium 2.</description>
     </item>
     
     <item>
