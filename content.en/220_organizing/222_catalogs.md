@@ -6,7 +6,6 @@ weight: 222
 toc: false
 ---
 
-
 <p>Many public libraries and bookstores are adopting 
 <a href="https://opds.io/">OPDS</a> as a standard format to display their 
 catalog on the Web. Thorium can provide access to OPDS 1 and 2 catalogs. 
@@ -28,6 +27,7 @@ Exemple : <p>
 Right clic Copy this link and paste it into Thorium Add an OPDS panel 
 to see the magic happen.</a>
 </p>
+
 {{< /hint >}}
 
 <figure>
@@ -53,5 +53,15 @@ more information on the OPDS catalog of Gallica (in French)</a> and
   <figcaption class="icon">
   </figcaption>
 </figure>
+
+## Example of an OPDS feed with LCP protected contents
+<p>For testing purposes EDRLab provides a feed with three free publications under LCP protection. You can add it to Thorium with the following address : <a href="opds://edrlab.org/public/feed/opds-lcp.json">Add EDRLab OPDS public feed</a></p>
+
+
+## Example of an OPDS feed with copyrighted books
+
+You can use [feedbooks OPDS](https://www.feedbooks.com/catalog) to browse [Feedbook catalog](https://www.feedbooks.com/#). Once you have selected a book you'll be redirected to the webpage where you can buy the book. 
+
+Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the *Shelf* button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface. 
 
 {{< /columns >}}
