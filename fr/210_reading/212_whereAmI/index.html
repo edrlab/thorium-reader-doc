@@ -9,14 +9,14 @@
 <meta property="og:description" content=" Situez où vous vous trouvez dans un livre," />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://edrlab.github.io/thorium-reader-doc/fr/210_reading/212_whereAmI/" />
-<meta property="article:modified_time" content="2022-11-30T10:40:29+01:00" /><meta property="og:site_name" content="Thorium Reader" />
+<meta property="article:modified_time" content="2022-11-30T10:41:00+01:00" /><meta property="og:site_name" content="Thorium Reader" />
 <title>Où suis-je ? | Thorium Reader</title>
 <link rel="manifest" href="/thorium-reader-doc/manifest.json">
 <link rel="icon" href="/thorium-reader-doc/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="en" href="https://edrlab.github.io/thorium-reader-doc/210_reading/212_whereAmI/" title="Where am I?">
 <link rel="stylesheet" href="/thorium-reader-doc/book.min.792f017ba0cacf1925295d76f8639b4a71e15d2cfa8b9cd442cc94b4860033dc.css" integrity="sha256-eS8Be6DKzxklKV12&#43;GObSnHhXSz6i5zUQsyUtIYAM9w=" crossorigin="anonymous">
   <script defer src="/thorium-reader-doc/flexsearch.min.js"></script>
-  <script defer src="/thorium-reader-doc/fr.search.min.aa21643af46a4eba9db8939806d67c9524ef863281f2e5a644a6243249aeb887.js" integrity="sha256-qiFkOvRqTrqduJOYBtZ8lSTvhjKB8uWmRKYkMkmuuIc=" crossorigin="anonymous"></script>
+  <script defer src="/thorium-reader-doc/fr.search.min.c29ecc6047b823349414ee6d92d4800cb011906639e2058bb33081c94008014f.js" integrity="sha256-wp7MYEe4IzSUFO5tktSADLARkGY54gWLszCByUAIAU8=" crossorigin="anonymous"></script>
 
   <script defer src="/thorium-reader-doc/sw.min.a67de0822f293dfe4cff02753781673cce7c5a3481c1482b791a8130cb48e64b.js" integrity="sha256-pn3ggi8pPf5M/wJ1N4FnPM58WjSBwUgreRqBMMtI5ks=" crossorigin="anonymous"></script>
 <!--
@@ -573,10 +573,18 @@ https://github.com/alex-shpak/hugo-book
   <article class="markdown"><div class="book-columns flex flex-wrap">
 
   <div class="flex-even markdown-inner">
-    Le raccourcis clavier <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd>
+    <p>Le raccourcis clavier <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd>
 permet d&rsquo;obtenir une mention rapide de la position de lecture dans le document.
 Cette information sera affichée dans la zone de notification en bas à gauche de
-l&rsquo;interface et sera lue par un lecteur d'écran.
+l&rsquo;interface et sera lue par un lecteur d'écran.</p>
+<details ><summary>L&rsquo;emplacement de la page est approximatif lorsqu&rsquo;un lecteur d'écran est utilisé</summary>
+  <div class="markdown-inner">
+    <p>En raison des limites inhérentes à la technologie actuelle des lecteurs d'écran, Thorium doit estimer l&rsquo;emplacement de la lecture. Par conséquent, le numéro de page annoncé par Thorium ne reflète pas l&rsquo;endroit où le lecteur d'écran lit réellement, l&rsquo;erreur peut être de quelques phrases.</p>
+<p>Ce [problème d&rsquo;emplacement de la page du lecteur d'écran] (<a href="https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338">https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338</a>) est connu et nous discutons d&rsquo;un moyen de le résoudre [numéros de page et sauts de page accessibles] (<a href="https://github.com/edrlab/thorium-reader/discussions/1799)">https://github.com/edrlab/thorium-reader/discussions/1799)</a>.</p>
+<p>Cependant, NVDA annoncera le saut de page comme un séparateur s&rsquo;il a un attribut title (exemple : <code> &lt;span epub:type=&quot;pagebreak&quot; role=&quot;doc-pagebreak&quot; id=&quot;page_2&quot; class=&quot;page&quot; title=&quot;2&quot;/&gt;</code> fera que NVDA annoncera &ldquo;Deux, séparateur&rdquo;).</p>
+  </div>
+</details>
+
   </div>
 
   <div class="flex-even markdown-inner">

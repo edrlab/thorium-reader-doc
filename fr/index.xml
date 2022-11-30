@@ -17,7 +17,7 @@
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/100_quickStart/</guid>
       <description>Thorium est un lecteur de livres numériques, c&amp;rsquo;est aussi une bibliothèque où ranger vos livre et un point d&amp;rsquo;accès à des catalogues en ligne. Thorium ne nécessite aucun compte ni accès en ligne pour être lancé et utilisé.
 Pas-à-pas pour Windows.
-  Installez Thorium.  Téléchargez un livre numérique. Ouvrez le fichier téléchargé avec Thorium.   Sélectionnez le livre que vous souhaitez lire, utilisez le menu contextuel (clic droit), sélectionnez ouvrir avec puis sélectionnez Thorium.</description>
+  Installez Thorium. Le lien déclenchera le téléchargement du fichier d&amp;rsquo;installation. Enregistrez-le dans votre Explorateur et double cliquez pour lancer l&amp;rsquo;installation. Suivez le processus d&amp;rsquo;installation.  Téléchargez un livre numérique.</description>
     </item>
     
     <item>
@@ -26,9 +26,8 @@ Pas-à-pas pour Windows.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/211_moving/</guid>
-      <description>Les options de navigation peuvent être très différentes d&amp;rsquo;un livre à l&amp;rsquo;autre. Thorium permet les éléments suivants.
-Avancer et reculer Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation situées en bas à droite de l&amp;rsquo;interface de lecture ().
-Il est possible de se déplacer entre les chapitres en utilisant Ctrl + Page précédente (Page Up) (chapitre précédent) et Ctrl + Page suivante (Page Down) (chapitre suivant) ou Ctrl + Shift + ALT (sauf sur MacOS) + ← (chapitre précédent) et Ctrl + Shift + ALT (sauf sur MacOS) + → (chapitre suivant).</description>
+      <description>Les options de navigation peuvent être très différentes d&amp;rsquo;un livre à l&amp;rsquo;autre. Thorium permet :
+ d&amp;rsquo;avancer et de reculer dans la lecture d&amp;rsquo;utiliser une table des matières, des points de repères et une pagination de référence (qui doivent être incluses par l&amp;rsquo;organisation productrice du livre) d&amp;rsquo;aller aux points de navigation précèdédents et suivants de se déplacer en arrière et en avant dans l&amp;rsquo;historique des actions de navigation  navigation dans l&amp;rsquo;historique : saut en arrière et en avant aux points de lecture (nouveau dans Thorium 2.</description>
     </item>
     
     <item>
@@ -37,7 +36,8 @@ Il est possible de se déplacer entre les chapitres en utilisant Ctrl + Page pr�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://edrlab.github.io/thorium-reader-doc/fr/210_reading/212_whereAmI/</guid>
-      <description>Le raccourcis clavier Shift + Ctrl + k permet d&amp;rsquo;obtenir une mention rapide de la position de lecture dans le document. Cette information sera affichée dans la zone de notification en bas à gauche de l&amp;rsquo;interface et sera lue par un lecteur d&#39;écran.    Lorsque vous consultez le menu Navigation, Thorium indique le chapitre en cours dans la table des matières ainsi que la page en cours dans le menu Aller à la page.</description>
+      <description>Le raccourcis clavier Shift + Ctrl + k permet d&amp;rsquo;obtenir une mention rapide de la position de lecture dans le document. Cette information sera affichée dans la zone de notification en bas à gauche de l&amp;rsquo;interface et sera lue par un lecteur d&#39;écran.
+L&amp;rsquo;emplacement de la page est approximatif lorsqu&amp;rsquo;un lecteur d&#39;écran est utilisé En raison des limites inhérentes à la technologie actuelle des lecteurs d&#39;écran, Thorium doit estimer l&amp;rsquo;emplacement de la lecture.</description>
     </item>
     
     <item>
