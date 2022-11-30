@@ -6,8 +6,18 @@ weight: 211
 toc: false
 ---
 
-Les options de navigation peuvent être très différentes d'un livre à l'autre. 
-Thorium permet les éléments suivants.
+Les options de navigation peuvent être très différentes d'un livre à l'autre. Thorium permet :
+
+* d'avancer et de reculer dans la lecture
+* d'utiliser une table des matières, des points de repères et une pagination de référence (qui doivent être incluses par l'organisation productrice du livre)
+* d'aller aux points de navigation précèdédents et suivants
+* de se déplacer en arrière et en avant dans l'historique des actions de navigation
+
+## navigation dans l'historique : saut en arrière et en avant aux points de lecture (nouveau dans Thorium 2.2. EPUB seulement)
+
+Pendant la lecture, l'utilisateur a la possibilité de naviguer d'un point à un autre en utilisant le panneau de navigation ou en suivant un lien dans la publication. Cela active les boutons de saut en arrière (<kbd>Ctrl</kbd>  +  <kbd>Retour Arrière</kbd>) et de saut en avant (<kbd>Ctrl</kbd>  +  <kbd>Shift</kbd> + <kbd>Retour Arrière</kbd>) en bas à gauche de la fenêtre de lecture. Utilisez ces boutons pour trouver un point précédent et revenir au dernier point. 
+
+La navigation dans l'historique prend en compte les interactions de l'utilisateur, notamment les clics sur la ligne de temps inférieure, la table des matières, les signets, les points de repère, les rubriques "Où suis-je ?" et "Aller à la page". Elle ne tient pas compte de la recherche des liens précédents et suivants et de la liste.
 
 ## Avancer et reculer
 

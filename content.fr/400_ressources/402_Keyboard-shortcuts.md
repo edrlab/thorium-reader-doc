@@ -174,6 +174,16 @@ ou être indiquée par une fléche vide pointant vers le haut :
  </dd>
 </dl>
 <dl>
+ <dt>  <kbd>Ctrl</kbd>  +  <kbd>Retour Arrière</kbd>Élèment d'historique de navigation précédent (`NavigatePreviousHistory`):</dt>
+ <dd>dans la fenêtre de lecture, permet revenir en arrière dans l'historique de navigation
+ </dd>
+ </dl>
+ <dl>
+ <dt>  <kbd>Ctrl</kbd>  + <kbd>shift</kbd> + <kbd>Retour Arrière</kbd>  Élèment d'historique de navigation suivant (`NavigateNextHistory`)</dt>
+ <dd>dans la fenêtre de lecture, permet revenir en arrière ou avancer dans l'historique de navigation.
+ </dd>
+ </dl>
+<dl>
  <dt> <kbd>Ctrl</kbd> + <kbd>1</kbd> : précédent (audio) 
  (<code>AudioPrevious</code>) </dt>
  <dd> dans la fenêtre de lecture, appelle la commande "précédent" pour l'audio 
