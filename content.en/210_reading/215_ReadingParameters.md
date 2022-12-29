@@ -76,3 +76,7 @@ secondary content (`skippability`) which may include
 footnotes or sidebars according to the semantics 
 indicated during the production of the digital book.
 `Split TTS` will split the content by sentence for more precise highlighting.
+
+{{< hint info >}}
+Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry [I can't select the adequate voice for read aloud function (TTS)](../400_ressources/430_faq#TTSvoices).
+{{< /hint >}}
