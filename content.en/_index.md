@@ -28,7 +28,7 @@ type: docs
 ## Accessibility
 
   <p>
-    _For everyone_ means any visual impairment,  and even blind people.
+    <em>For everyone</em> means any visual impairment,  and even blind people.
     Compatible with JAWS, NVDA, Narrator, and VoiceOver screen readers.
     A read-aloud feature with visual highlighting also helps.
     Colors, text size, spacing, font and layout can be adjusted.
