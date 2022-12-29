@@ -70,3 +70,7 @@ la possibilité de sauter les contenus secondaires (`skippability`) qui peuvent
 comporter les notes de bas de page ou bien des encadrés selon la sémantique 
 indiquée lors de la fabrication du livre numérique.
 `Split TTS` découpera le contenu par phrase permettant un surlignage plus précis.
+
+{{< hint info >}}
+Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée correspondante de la section questions fréquentes [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)](../400_ressources/430_faq#TTSvoicesFR)
+{{< /hint >}}

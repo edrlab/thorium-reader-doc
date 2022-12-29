@@ -43,17 +43,21 @@ ou les fichiers PDF.
 La synthèse vocale est lancée à l'aide du bouton haut-parleur au milieu de la 
 barre d'outils, ou à l'aide du raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-La lecture et la pause peuvent être contrôlées avec le raccourci clavier 
+* La lecture et la pause peuvent être contrôlées avec le raccourci clavier 
 <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> 
+* La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> 
 et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour, respectivement, précédent et suivant.
 
-Un contrôle de la vitesse est disponible lorsque la lecture à haute voix 
+* Un contrôle de la vitesse est disponible lorsque la lecture à haute voix 
 est sélectionnée, avec une plage allant de x0,5 à x2.
 
-La phrase en cours est surlignée en jaune pâle, et chaque mot prononcé est 
+* La phrase en cours est surlignée en jaune pâle, et chaque mot prononcé est 
 souligné en orange.
 
-Une vue alternative (simplifiée) de la publication est fournie par le biais 
+* Une vue alternative (simplifiée) de la publication est fournie par le biais 
 des options disponible dans le menu `Paramètres / Readaloud`.
+
+{{< hint info >}}
+Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée correspondante de la section questions fréquentes [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)](../400_ressources/430_faq#TTSvoicesFR)
+{{< /hint >}}
