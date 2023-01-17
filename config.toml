@@ -46,15 +46,15 @@ pygmentsStyle = "tango"
 blog = "/:section/:year/:month/:day/:slug/"
 
 # Image processing configuration.
-[imaging]
-resampleFilter = "CatmullRom"
-quality = 75
-anchor = "smart"
+# [imaging]
+# resampleFilter = "CatmullRom"
+# quality = 75
+# anchor = "smart"
 
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+# id = "UA-00000000-0"
 
 # Language configuration
 
@@ -90,8 +90,8 @@ time_format_blog = "02.01.2006"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
-privacy_policy = "https://policies.google.com/privacy"
+copyright = "EDRLab"
+privacy_policy = "/about/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -112,12 +112,12 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://example.com"
+url_latest_version = "https://github.com/edrlab/thorium-reader-doc"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/edrlab/thorium-reader-doc"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/edrlab/thorium-reader-doc"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -157,7 +157,7 @@ sidebar_search_disable = false
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
-[params.ui.feedback]
+# [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
@@ -181,11 +181,11 @@ enable = false
   url = "https://example.org/twitter"
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
-[[params.links.user]]
-  name = "Stack Overflow"
-  url = "https://example.org/stack"
-  icon = "fab fa-stack-overflow"
-  desc = "Practical questions and curated answers"
+# [[params.links.user]]
+#   name = "Stack Overflow"
+#   url = "https://example.org/stack"
+#   icon = "fab fa-stack-overflow"
+#   desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
