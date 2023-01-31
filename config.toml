@@ -1,6 +1,5 @@
 
-baseURL = ''
-url: "https://thorium.edrlab.org"
+baseURL = 'https://thorium.edrlab.org/'
 title = 'Thorium Reader'
 subtitle = 'The reading experience'
 theme = 'hugo-book'
