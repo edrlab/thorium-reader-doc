@@ -1,5 +1,5 @@
 
-baseURL = 'https://edrlab.github.io/thorium-reader-doc'
+baseURL = 'thorium.edrlab.org'
 title = 'Thorium Reader'
 subtitle = 'The reading experience'
 theme = 'hugo-book'
