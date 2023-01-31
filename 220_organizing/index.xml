@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Organize on Thorium Reader</title>
-    <link>https://edrlab.github.io/thorium-reader-doc/220_organizing/</link>
+    <link>thorium.edrlab.org/220_organizing/</link>
     <description>Recent content in Organize on Thorium Reader</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://edrlab.github.io/thorium-reader-doc/220_organizing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="thorium.edrlab.org/220_organizing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The library</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/220_organizing/221_libraries/</link>
+      <link>thorium.edrlab.org/220_organizing/221_libraries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/220_organizing/221_libraries/</guid>
+      <guid>thorium.edrlab.org/220_organizing/221_libraries/</guid>
       <description>A book can be added to the library by opening it with Thorium from Windows Explorer or by importing it with the Import Book button. When a book is imported, it is copied and prepared in a reserved folder.
 Thorium copies files in a publications subfolder of the EDRLab.ThoriumReader folder. The location of this folder may vary depending on the operating system and may be placed in a hidden folder, you will need to activate display hidden files option to find it.</description>
     </item>
     
     <item>
       <title>Access to catalogs</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/220_organizing/222_catalogs/</link>
+      <link>thorium.edrlab.org/220_organizing/222_catalogs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/220_organizing/222_catalogs/</guid>
+      <guid>thorium.edrlab.org/220_organizing/222_catalogs/</guid>
       <description>Many public libraries and bookstores are adopting OPDS as a standard format to display their catalog on the Web. Thorium can provide access to OPDS 1 and 2 catalogs. It also supports several identification formats associated with OPDS and can therefore provide users with access to their personal library, i.e. the digital books that the user has acquired or borrowed, allowing them to be downloaded and read immediately. When you are in the Thorium library, select the Catalogs tab then the button + Add an OPDS feed.</description>
     </item>
     
     <item>
       <title>Add tags</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/220_organizing/223_tags/</link>
+      <link>thorium.edrlab.org/220_organizing/223_tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/220_organizing/223_tags/</guid>
+      <guid>thorium.edrlab.org/220_organizing/223_tags/</guid>
       <description>You can enrich the information of the books in your library by adding Tags to them. `Tags&amp;rsquo; allow you to quickly search and sort books in list view.
 Putting it into practice.
 Open the book form, position yourself in the field Add a tag, write the name of the tag you want to add then press the Add button. The tag is added in a blue box, you can remove it by clicking on the cross.</description>
@@ -41,10 +41,10 @@ Open the book form, position yourself in the field Add a tag, write the name of 
     
     <item>
       <title>Search</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/220_organizing/223_search/</link>
+      <link>thorium.edrlab.org/220_organizing/223_search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/220_organizing/223_search/</guid>
+      <guid>thorium.edrlab.org/220_organizing/223_search/</guid>
       <description>Press the Ctrl + F key combination, enter the text you want to search, press the Results button, then press the Enter on the link to the desired result.
 Activating the Search box will automatically display the All books view where it is possible to search in each column. For example among the authors only.  The search is performed thru the books informations including user added tags. The content of the book is not included in the search.</description>
     </item>

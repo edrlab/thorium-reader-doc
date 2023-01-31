@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Thorium Reader</title>
-    <link>https://edrlab.github.io/thorium-reader-doc/tags/</link>
+    <link>thorium.edrlab.org/tags/</link>
     <description>Recent content in Tags on Thorium Reader</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://edrlab.github.io/thorium-reader-doc/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="thorium.edrlab.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

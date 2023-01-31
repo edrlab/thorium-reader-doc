@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>À propos de ce site on Thorium Reader</title>
-    <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/</link>
+    <link>thorium.edrlab.org/fr/900_about/</link>
     <description>Recent content in À propos de ce site on Thorium Reader</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://edrlab.github.io/thorium-reader-doc/fr/900_about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="thorium.edrlab.org/fr/900_about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Crédits</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/902_credits/</link>
+      <link>thorium.edrlab.org/fr/900_about/902_credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/902_credits/</guid>
+      <guid>thorium.edrlab.org/fr/900_about/902_credits/</guid>
       <description>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.
 Les contributeurs principaux de cette documentation sont :
  Gautier Chomel Georges Kerscher Noelia Ruiz Martínez Prashant Verma  Ce site est réalisé avec le générateur de sites statiques
@@ -25,19 +25,19 @@ Daniel Weck, lead développeur. Pierre Leroux, développeur node.</description>
     
     <item>
       <title>Votre aide est précieuse</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/903_support/</link>
+      <link>thorium.edrlab.org/fr/900_about/903_support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/903_support/</guid>
+      <guid>thorium.edrlab.org/fr/900_about/903_support/</guid>
       <description>Vous pouvez aider Thorium Reader à devenir la meilleure application de lecture en devenant membre à EDRLab.  Ou bien en faisant un don à l&#39;EDRLab via le parrainage Github &#34;piggy-bank&#34;, qui accepte de petits dons mensuels.  Thorium est construit grace à sa communauté. Si vous voulez participer prenez contact avec nous ! Vous pouvez aussi :  Signaler une erreur ou suggérer une modification en ouvrant une Issue dans notre [outil de suivi de support](https://github.</description>
     </item>
     
     <item>
       <title>Vous rencontrez un problème ?</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/904_issues/</link>
+      <link>thorium.edrlab.org/fr/900_about/904_issues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/904_issues/</guid>
+      <guid>thorium.edrlab.org/fr/900_about/904_issues/</guid>
       <description>Si vous ne trouvez pas la réponse à votre problème sur ce site, vous pouvez nous indiquer votre problème via le formulaire de contact ou via notre outil de suivi de support.
 La page est en anglais mais vous pouvez rédiger dans votre langue en nous l&amp;rsquo;indiquant pour que nous puissions mobiliser les personnes ressources.
 Voici les informations dont nous avons besoin :
@@ -46,10 +46,10 @@ Voici les informations dont nous avons besoin :
     
     <item>
       <title>Contribuez !</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/905_contribute/</link>
+      <link>thorium.edrlab.org/fr/900_about/905_contribute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/905_contribute/</guid>
+      <guid>thorium.edrlab.org/fr/900_about/905_contribute/</guid>
       <description>Thorium et sa documentation sont développés grace à la communauté d&amp;rsquo;utilisateurs.
 Nous avons besoin d&amp;rsquo;aide pour traduire cette documentation.
 Pour ce faire, vous pouvez nous contacter.
@@ -59,10 +59,10 @@ Pour ce faire clonez le dépot et créez une branche du nom de la langue que vou
     
     <item>
       <title>Accessibilité : conforme</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/912_accessibility_declaration/</link>
+      <link>thorium.edrlab.org/fr/900_about/912_accessibility_declaration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/912_accessibility_declaration/</guid>
+      <guid>thorium.edrlab.org/fr/900_about/912_accessibility_declaration/</guid>
       <description>Ce site a été testé avec NVDA sur Firefox sous Windows 10. Aucun bloqueur d&amp;rsquo;accessibilité n&amp;rsquo;a été repéré.
 Si vous rencontrez des difficultés vous pouvez nous en informer via le formulaire de contact ou en ouvrant une Issue sur notre outil de suivi de support.
 La page est en anglais mais vous pouvez rédiger dans votre langue en nous l&amp;rsquo;indiquant pour que nous puissions mobiliser les personnes ressources.
@@ -71,10 +71,10 @@ Voici les informations dont nous avons besoin :</description>
     
     <item>
       <title>Licence</title>
-      <link>https://edrlab.github.io/thorium-reader-doc/fr/900_about/913_licence/</link>
+      <link>thorium.edrlab.org/fr/900_about/913_licence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://edrlab.github.io/thorium-reader-doc/fr/900_about/913_licence/</guid>
+      <guid>thorium.edrlab.org/fr/900_about/913_licence/</guid>
       <description>Copyright 2021 European Digital Reading Lab. Tous droits réservés. Licensed to the Readium Foundation under one or more contributor license agreements.  L&#39;application est open-source, diffusée sous une licence BSD 3. Elle est basée sur la boîte à outils Readium Desktop, en code source libre.  Le contenu de ce site web est libre et peut-être réutilisé selon les termes de la Licence BSD.  Ce site statique est généré par Hugo et le thème Hugo Book.</description>
     </item>
     
