@@ -1,1 +1,0 @@
-if(navigator.serviceWorker){navigator.serviceWorker.register("/thorium.edrlab.org/sw.js",{scope:"/thorium.edrlab.org/"});}

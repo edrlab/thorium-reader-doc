@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accessibilité on Thorium Reader</title>
-    <link>thorium.edrlab.org/fr/300_accessibility/</link>
+    <link>https://thorium.edrlab.org/fr/300_accessibility/</link>
     <description>Recent content in Accessibilité on Thorium Reader</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="thorium.edrlab.org/fr/300_accessibility/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thorium.edrlab.org/fr/300_accessibility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Informations d&#39;accessibilité</title>
-      <link>thorium.edrlab.org/fr/300_accessibility/301_A11yInfos/</link>
+      <link>https://thorium.edrlab.org/fr/300_accessibility/301_A11yInfos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/fr/300_accessibility/301_A11yInfos/</guid>
+      <guid>https://thorium.edrlab.org/fr/300_accessibility/301_A11yInfos/</guid>
       <description>Actuellement Thorium affiche dans la Fiche Livre sous l&amp;rsquo;intitulé Description le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité (accessibilitySummary).
 Attention !
 Des travaux sont en cours pour proposer un guide d&amp;rsquo;affichage des informations d&amp;rsquo;accessibilité. Nous suivons ces travaux et implementerons les recommandations prochainement.
@@ -24,10 +24,10 @@ Les informations d&amp;rsquo;accessibilité doivent être renseignées par les �
     
     <item>
       <title>Fonctions d&#39;accessibilité natives</title>
-      <link>thorium.edrlab.org/fr/300_accessibility/310_natives/</link>
+      <link>https://thorium.edrlab.org/fr/300_accessibility/310_natives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/fr/300_accessibility/310_natives/</guid>
+      <guid>https://thorium.edrlab.org/fr/300_accessibility/310_natives/</guid>
       <description>Attention !
 Les fonctions d&amp;rsquo;accessibilité natives proposées par Thorium peuvent-être fortement affectées par la qualité des fichiers lus.
  Ajustements visuels   L&amp;rsquo;application permet de modifier les thèmes de couleurs et de modifier la police d&amp;rsquo;affichage, la taille du texte.
@@ -37,10 +37,10 @@ Les fonctions d&amp;rsquo;accessibilité natives proposées par Thorium peuvent-
     
     <item>
       <title>Lire avec un lecteur d&#39;écran</title>
-      <link>thorium.edrlab.org/fr/300_accessibility/310_screenReaders/</link>
+      <link>https://thorium.edrlab.org/fr/300_accessibility/310_screenReaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/fr/300_accessibility/310_screenReaders/</guid>
+      <guid>https://thorium.edrlab.org/fr/300_accessibility/310_screenReaders/</guid>
       <description>Lors du lancement de Thorium, si un lecteur d&#39;écran est repéré, les fonctions relatives sont activées.
 Attention !
 Les fonctions d&amp;rsquo;accessibilité adressées aux technologies d&amp;rsquo;assistance peuvent être affecté par la qualité des fichiers lus.
@@ -50,10 +50,10 @@ Pour la lecture du texte, la navigation dans les tableaux, la navigation dans la
     
     <item>
       <title>Tests et démarche</title>
-      <link>thorium.edrlab.org/fr/300_accessibility/391_epubTest/</link>
+      <link>https://thorium.edrlab.org/fr/300_accessibility/391_epubTest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/fr/300_accessibility/391_epubTest/</guid>
+      <guid>https://thorium.edrlab.org/fr/300_accessibility/391_epubTest/</guid>
       <description>EDRLab entretient des relations étroites avec le DAISY Consortium. Grâce aux personnes ayant des hadicaps visuels qui participent à notre design et à nos essais, Thorium Reader cherche à être l&amp;rsquo;une des applications de lecture les plus accessibles du marché.
 Thorium Reader est testé sur epubtest.org.
 La version 1.8 a reçu les scores suivants :

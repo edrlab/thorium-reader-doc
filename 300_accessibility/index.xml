@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accessibility on Thorium Reader</title>
-    <link>thorium.edrlab.org/300_accessibility/</link>
+    <link>https://thorium.edrlab.org/300_accessibility/</link>
     <description>Recent content in Accessibility on Thorium Reader</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="thorium.edrlab.org/300_accessibility/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thorium.edrlab.org/300_accessibility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Accessibility information</title>
-      <link>thorium.edrlab.org/300_accessibility/301_A11yInfos/</link>
+      <link>https://thorium.edrlab.org/300_accessibility/301_A11yInfos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/300_accessibility/301_A11yInfos/</guid>
+      <guid>https://thorium.edrlab.org/300_accessibility/301_A11yInfos/</guid>
       <description>Currently Thorium displays in the Book information panel under the heading Description the content of the accessibility summary metadata (accessibilitySummary).
 Attention !
 Work is underway to develop a guide for displaying accessibility information. We are following this work and will implement the recommendations soon.
@@ -24,10 +24,10 @@ Accessibility information must be filled in by the editors. Thorium displays thi
     
     <item>
       <title>Native accessibility functions</title>
-      <link>thorium.edrlab.org/300_accessibility/310_natives/</link>
+      <link>https://thorium.edrlab.org/300_accessibility/310_natives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/300_accessibility/310_natives/</guid>
+      <guid>https://thorium.edrlab.org/300_accessibility/310_natives/</guid>
       <description>Attention !
 The native accessibility features offered by Thorium are strongly affected by the quality of the read files.
  Visual adjustments   The application allows you to change the color themes and change the display font, text size.
@@ -37,10 +37,10 @@ The native accessibility features offered by Thorium are strongly affected by th
     
     <item>
       <title>Reading with a screen reader</title>
-      <link>thorium.edrlab.org/300_accessibility/310_screenReaders/</link>
+      <link>https://thorium.edrlab.org/300_accessibility/310_screenReaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/300_accessibility/310_screenReaders/</guid>
+      <guid>https://thorium.edrlab.org/300_accessibility/310_screenReaders/</guid>
       <description>When launching Thorium, if a screen reader is detected, the relative functions functions are activated.
 Attention !
 Accessibility features addressed to assistive technologies are strongly affected by the quality of the book files.
@@ -51,10 +51,10 @@ the insertion key can be replaced by the modifier key of the screen reader (e.</
     
     <item>
       <title>Tests and approach</title>
-      <link>thorium.edrlab.org/300_accessibility/391_epubTest/</link>
+      <link>https://thorium.edrlab.org/300_accessibility/391_epubTest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/300_accessibility/391_epubTest/</guid>
+      <guid>https://thorium.edrlab.org/300_accessibility/391_epubTest/</guid>
       <description>EDRLab has a close relationship with the DAISY Consortium. Thanks to the people with visual impairments who participate in our design and testing, Thorium Reader aims to be one of the most accessible reading applications on the market.
 Thorium Reader is tested on epubtest.org.
 Version 1.8 received the following scores:

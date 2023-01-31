@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Help and resources for a better reading experience on Thorium Reader</title>
-    <link>thorium.edrlab.org/</link>
+    <link>https://thorium.edrlab.org/</link>
     <description>Recent content in Help and resources for a better reading experience on Thorium Reader</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="thorium.edrlab.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thorium.edrlab.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Start reading</title>
-      <link>thorium.edrlab.org/100_quickStart/</link>
+      <link>https://thorium.edrlab.org/100_quickStart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/100_quickStart/</guid>
+      <guid>https://thorium.edrlab.org/100_quickStart/</guid>
       <description>Thorium is a digital book reader, it is also a library where you can store your books and access to online catalogs. Thorium does not require any account or online access to be launched and used.
 Step by step for Windows.
   Install Thorium. The link will open a download dialog box, save the .exe file and launch it from you file manager. follow the install process.  Download a digital book.</description>
@@ -22,49 +22,49 @@ Step by step for Windows.
     
     <item>
       <title>Moving around in a book</title>
-      <link>thorium.edrlab.org/210_reading/211_moving/</link>
+      <link>https://thorium.edrlab.org/210_reading/211_moving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/210_reading/211_moving/</guid>
+      <guid>https://thorium.edrlab.org/210_reading/211_moving/</guid>
       <description>The navigation options can be very different from one book to another. Thorium allows the following. The navigation options can be very different from one book to another. Thorium allows:
  Move forward and backward in the reading use table of contents, reference points and pagination (which must be included by the book&amp;rsquo;s producing organization) go to previous and next navigation points move backward and forward in the history of navigation actions  history navigation: jump back &amp;amp; forward to reading points (new in Thorium 2.</description>
     </item>
     
     <item>
       <title>Where am I?</title>
-      <link>thorium.edrlab.org/210_reading/212_whereAmI/</link>
+      <link>https://thorium.edrlab.org/210_reading/212_whereAmI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/210_reading/212_whereAmI/</guid>
+      <guid>https://thorium.edrlab.org/210_reading/212_whereAmI/</guid>
       <description>The keyboard shortcuts Shift + Ctrl + k allows to get a quick mention of the reading position in the document. This information will be displayed in the notification area at the bottom left of the interface and will be read by a screen reader.
 Screen reader&amp;rsquo;s page location is approximative Because of inherent limitation in current screen reader technology, Thorium has to estimates the reading location. Consequently the page number anounced by Thorium is not reflecting the place where the screen reader&amp;rsquo;s is actually reading, the error might be of some sentences.</description>
     </item>
     
     <item>
       <title>Search in a book</title>
-      <link>thorium.edrlab.org/210_reading/213_search/</link>
+      <link>https://thorium.edrlab.org/210_reading/213_search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/210_reading/213_search/</guid>
+      <guid>https://thorium.edrlab.org/210_reading/213_search/</guid>
       <description>You can use Ctrl + F keys to access the search field. Enter your search term. By clicking on the Search button, you get Back and Next buttons to navigate between occurences. The number of matches found is a link that will open a List of results in the right panel. Each match displayed is a link you can Activate to go to the place of the book where the expression you are looking for was found.</description>
     </item>
     
     <item>
       <title>Mark a page or a passage</title>
-      <link>thorium.edrlab.org/210_reading/214_bookmarks/</link>
+      <link>https://thorium.edrlab.org/210_reading/214_bookmarks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/210_reading/214_bookmarks/</guid>
+      <guid>https://thorium.edrlab.org/210_reading/214_bookmarks/</guid>
       <description>Add a bookmark The bookmark button allows you to add a custom bookmark. A bookmark can be a fixed point or a text selection. Only one fixed point bookmark is possible per page (book pages or calculated pages in case there is not page reference in the book). But you can place as many texte selection bookmark as you want.
 When you add a Bookmark a notification appears to inform you that the Bookmark was Added or Deleted.</description>
     </item>
     
     <item>
       <title>Reading settings</title>
-      <link>thorium.edrlab.org/210_reading/215_ReadingParameters/</link>
+      <link>https://thorium.edrlab.org/210_reading/215_ReadingParameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/210_reading/215_ReadingParameters/</guid>
+      <guid>https://thorium.edrlab.org/210_reading/215_ReadingParameters/</guid>
       <description>In the reading interface use the Preferences button (): the following options are revealed.
 Theme The color of the background and foreground can be changed using one of the three available themes - Neutral, Sepia and Night.
 Text The font size can be increased or decreased using the slider. The font can also be changed. The available options are as follows Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace and Monospace.</description>
@@ -72,39 +72,39 @@ Text The font size can be increased or decreased using the slider. The font can 
     
     <item>
       <title>Read mathematics</title>
-      <link>thorium.edrlab.org/210_reading/221_maths/</link>
+      <link>https://thorium.edrlab.org/210_reading/221_maths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/210_reading/221_maths/</guid>
+      <guid>https://thorium.edrlab.org/210_reading/221_maths/</guid>
       <description>Thorium-Reader supports mathematical formulas in MathML format thanks to the MathJax module. This last one requires memory resources so it is not automatically activated when you open Thorium. To activate it when reading a book, go to the menu Reading settings, at the bottom of the Display tab you will find a checkbox MathJax.
 Once MathJax is activated, you can use the contextual menu (right click) on a mathematical formula inserted in MathML format and use the many options proposed such as reading aloud (speech), viewing the semantic marking or copy the formula with its semantic attributes to use it in a compatible editor.</description>
     </item>
     
     <item>
       <title>The library</title>
-      <link>thorium.edrlab.org/220_organizing/221_libraries/</link>
+      <link>https://thorium.edrlab.org/220_organizing/221_libraries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/220_organizing/221_libraries/</guid>
+      <guid>https://thorium.edrlab.org/220_organizing/221_libraries/</guid>
       <description>A book can be added to the library by opening it with Thorium from Windows Explorer or by importing it with the Import Book button. When a book is imported, it is copied and prepared in a reserved folder.
 Thorium copies files in a publications subfolder of the EDRLab.ThoriumReader folder. The location of this folder may vary depending on the operating system and may be placed in a hidden folder, you will need to activate display hidden files option to find it.</description>
     </item>
     
     <item>
       <title>Access to catalogs</title>
-      <link>thorium.edrlab.org/220_organizing/222_catalogs/</link>
+      <link>https://thorium.edrlab.org/220_organizing/222_catalogs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/220_organizing/222_catalogs/</guid>
+      <guid>https://thorium.edrlab.org/220_organizing/222_catalogs/</guid>
       <description>Many public libraries and bookstores are adopting OPDS as a standard format to display their catalog on the Web. Thorium can provide access to OPDS 1 and 2 catalogs. It also supports several identification formats associated with OPDS and can therefore provide users with access to their personal library, i.e. the digital books that the user has acquired or borrowed, allowing them to be downloaded and read immediately. When you are in the Thorium library, select the Catalogs tab then the button + Add an OPDS feed.</description>
     </item>
     
     <item>
       <title>Add tags</title>
-      <link>thorium.edrlab.org/220_organizing/223_tags/</link>
+      <link>https://thorium.edrlab.org/220_organizing/223_tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/220_organizing/223_tags/</guid>
+      <guid>https://thorium.edrlab.org/220_organizing/223_tags/</guid>
       <description>You can enrich the information of the books in your library by adding Tags to them. `Tags&amp;rsquo; allow you to quickly search and sort books in list view.
 Putting it into practice.
 Open the book form, position yourself in the field Add a tag, write the name of the tag you want to add then press the Add button. The tag is added in a blue box, you can remove it by clicking on the cross.</description>
@@ -112,20 +112,20 @@ Open the book form, position yourself in the field Add a tag, write the name of 
     
     <item>
       <title>Search</title>
-      <link>thorium.edrlab.org/220_organizing/223_search/</link>
+      <link>https://thorium.edrlab.org/220_organizing/223_search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/220_organizing/223_search/</guid>
+      <guid>https://thorium.edrlab.org/220_organizing/223_search/</guid>
       <description>Press the Ctrl + F key combination, enter the text you want to search, press the Results button, then press the Enter on the link to the desired result.
 Activating the Search box will automatically display the All books view where it is possible to search in each column. For example among the authors only.  The search is performed thru the books informations including user added tags. The content of the book is not included in the search.</description>
     </item>
     
     <item>
       <title>Accessibility information</title>
-      <link>thorium.edrlab.org/300_accessibility/301_A11yInfos/</link>
+      <link>https://thorium.edrlab.org/300_accessibility/301_A11yInfos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/300_accessibility/301_A11yInfos/</guid>
+      <guid>https://thorium.edrlab.org/300_accessibility/301_A11yInfos/</guid>
       <description>Currently Thorium displays in the Book information panel under the heading Description the content of the accessibility summary metadata (accessibilitySummary).
 Attention !
 Work is underway to develop a guide for displaying accessibility information. We are following this work and will implement the recommendations soon.
@@ -135,10 +135,10 @@ Accessibility information must be filled in by the editors. Thorium displays thi
     
     <item>
       <title>Native accessibility functions</title>
-      <link>thorium.edrlab.org/300_accessibility/310_natives/</link>
+      <link>https://thorium.edrlab.org/300_accessibility/310_natives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/300_accessibility/310_natives/</guid>
+      <guid>https://thorium.edrlab.org/300_accessibility/310_natives/</guid>
       <description>Attention !
 The native accessibility features offered by Thorium are strongly affected by the quality of the read files.
  Visual adjustments   The application allows you to change the color themes and change the display font, text size.
@@ -148,10 +148,10 @@ The native accessibility features offered by Thorium are strongly affected by th
     
     <item>
       <title>Reading with a screen reader</title>
-      <link>thorium.edrlab.org/300_accessibility/310_screenReaders/</link>
+      <link>https://thorium.edrlab.org/300_accessibility/310_screenReaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/300_accessibility/310_screenReaders/</guid>
+      <guid>https://thorium.edrlab.org/300_accessibility/310_screenReaders/</guid>
       <description>When launching Thorium, if a screen reader is detected, the relative functions functions are activated.
 Attention !
 Accessibility features addressed to assistive technologies are strongly affected by the quality of the book files.
@@ -162,10 +162,10 @@ the insertion key can be replaced by the modifier key of the screen reader (e.</
     
     <item>
       <title>Tests and approach</title>
-      <link>thorium.edrlab.org/300_accessibility/391_epubTest/</link>
+      <link>https://thorium.edrlab.org/300_accessibility/391_epubTest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/300_accessibility/391_epubTest/</guid>
+      <guid>https://thorium.edrlab.org/300_accessibility/391_epubTest/</guid>
       <description>EDRLab has a close relationship with the DAISY Consortium. Thanks to the people with visual impairments who participate in our design and testing, Thorium Reader aims to be one of the most accessible reading applications on the market.
 Thorium Reader is tested on epubtest.org.
 Version 1.8 received the following scores:
@@ -174,55 +174,55 @@ Version 1.8 received the following scores:
     
     <item>
       <title>Functions</title>
-      <link>thorium.edrlab.org/400_ressources/401_functions/</link>
+      <link>https://thorium.edrlab.org/400_ressources/401_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/400_ressources/401_functions/</guid>
+      <guid>https://thorium.edrlab.org/400_ressources/401_functions/</guid>
       <description>library functions    Icon Function Description Notes Shortcuts      Add book       Next book	       Previous book	       Close (the book information panel)	       Open book menu (gives access to the Book File, allows to Delete and Export a book)	       Search       Book list view       Book grid view	       Indicates that the action is finished, for example when importing a book       Save a copy of the book file.</description>
     </item>
     
     <item>
       <title>Keyboard shortcuts</title>
-      <link>thorium.edrlab.org/400_ressources/402_Keyboard-shortcuts/</link>
+      <link>https://thorium.edrlab.org/400_ressources/402_Keyboard-shortcuts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/400_ressources/402_Keyboard-shortcuts/</guid>
+      <guid>https://thorium.edrlab.org/400_ressources/402_Keyboard-shortcuts/</guid>
       <description>Ctrl + F10: Main content(`FocusMain`) in reader and library windows, moves the keyboard focus to the &#34;main&#34; area landmark (in the reader view, this is immediately before the frame that displays publication content)     Ctrl + t: Toolbar (`FocusToolbar`) in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the &#34;skip&#34; link (which itself moves focus to the &#34;main&#34; area landmark)     Ctrl + n: Navigation (`FocusReaderNavigation`) in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.</description>
     </item>
     
     <item>
       <title>Supported publication formats</title>
-      <link>thorium.edrlab.org/400_ressources/406_formats/</link>
+      <link>https://thorium.edrlab.org/400_ressources/406_formats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/400_ressources/406_formats/</guid>
+      <guid>https://thorium.edrlab.org/400_ressources/406_formats/</guid>
       <description>EPUB 2  this is a legacy format, only adequate for basic ebooks. Textual content is formatted in XHTML 1 and no multimedia feature is supported. EPUB 2 ebooks are still accessible if properly formatted.    EPUB 3  this is the recommended format for the 21st century. Textual content is formatted in (X)HTML 5, it is possible to create fixed-layout ebooks, enriched ebooks and accessibiltiy features are well designed.</description>
     </item>
     
     <item>
       <title>Glossary</title>
-      <link>thorium.edrlab.org/400_ressources/420_glossary/</link>
+      <link>https://thorium.edrlab.org/400_ressources/420_glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/400_ressources/420_glossary/</guid>
+      <guid>https://thorium.edrlab.org/400_ressources/420_glossary/</guid>
       <description>Book information panel (Book Details)  Gives information about the digital book. This information is extracted from the file&#39;s metadata, its quality and quantity depends on the the attention paid during the production of the file by the publisher.    Adapted books These are digital books produced by associations and made available to people with disabilities for reading. Worldwild, this system is governed by The Marrakech Treaty .</description>
     </item>
     
     <item>
       <title>Frequently asked questions</title>
-      <link>thorium.edrlab.org/400_ressources/430_faq/</link>
+      <link>https://thorium.edrlab.org/400_ressources/430_faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/400_ressources/430_faq/</guid>
+      <guid>https://thorium.edrlab.org/400_ressources/430_faq/</guid>
       <description>I can&#39;t select the adequate voice for read aloud function (TTS) Thorium uses the voices from the computer&#39;s operating system, in combination with the language information provided by the book.  If you are using windows you can follow Microsoft&amp;rsquo;s guide Download the language pack for voice. If you are using Mac OSX the guide Change the voice that the Mac uses to pronounce text.  Once the required voice is installed, Thorium will choose the voice corresponding to the language of the book.</description>
     </item>
     
     <item>
       <title>Credits</title>
-      <link>thorium.edrlab.org/900_about/902_credits/</link>
+      <link>https://thorium.edrlab.org/900_about/902_credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/900_about/902_credits/</guid>
+      <guid>https://thorium.edrlab.org/900_about/902_credits/</guid>
       <description>This documentation site is designed and maintained by EDRLab as part of the development of the Thorium-Reader application.
 The main contributors of this documentation are :
  Gautier Chomel Georges Kerscher Noelia Ruiz Martínez Prashant Verma  This site is made with the static site generator Hugo and the Hugo Book Theme.
@@ -232,19 +232,19 @@ Daniel Weck, lead developer. Pierre Leroux, node.js developer.</description>
     
     <item>
       <title>Your help is precious</title>
-      <link>thorium.edrlab.org/900_about/903_support/</link>
+      <link>https://thorium.edrlab.org/900_about/903_support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/900_about/903_support/</guid>
+      <guid>https://thorium.edrlab.org/900_about/903_support/</guid>
       <description>You too can help Thorium Reader become the best reading application reading application bybecoming a member of EDRLab. Or by making a donation to the EDRLab via the Github sponsorship &#34;piggy-bank&#34;, which accepts small monthly donations.  Thorium is built by its community. If you want to participate, please contact us ! You can also:  Report an error or suggest a change by opening an Issue in our [support tracking tool](https://github.</description>
     </item>
     
     <item>
       <title>Stuck?</title>
-      <link>thorium.edrlab.org/900_about/904_issues/</link>
+      <link>https://thorium.edrlab.org/900_about/904_issues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/900_about/904_issues/</guid>
+      <guid>https://thorium.edrlab.org/900_about/904_issues/</guid>
       <description>If you do not find the answer to your problem on this site, you can tell us your problem via our support tracking tool or contact form.
 Here is the information we need:
  Operating system and it version Thorium version (it is indicated at the bottom of the library under the title About Thorium)  </description>
@@ -252,10 +252,10 @@ Here is the information we need:
     
     <item>
       <title>Contribute!</title>
-      <link>thorium.edrlab.org/900_about/905_contribute/</link>
+      <link>https://thorium.edrlab.org/900_about/905_contribute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/900_about/905_contribute/</guid>
+      <guid>https://thorium.edrlab.org/900_about/905_contribute/</guid>
       <description>Thorium and its documentation are developed thanks to the user community. We need help to translate this documentation.
 To do so, you can contact us.
 If you are comfortable enough with GitHub and the Markdown format you can propose a new translation via a Pull Request.
@@ -264,10 +264,10 @@ To do this: clone the repository and create a branch with the name of the langua
     
     <item>
       <title>Licence</title>
-      <link>thorium.edrlab.org/900_about/913_licence/</link>
+      <link>https://thorium.edrlab.org/900_about/913_licence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>thorium.edrlab.org/900_about/913_licence/</guid>
+      <guid>https://thorium.edrlab.org/900_about/913_licence/</guid>
       <description>Licensing  Copyright 2019 European Digital Reading Lab. All rights reserved. Licensed to the Readium Foundation under one or more contributor license agreements.  The Thorium-reader application is open-source, released under a BSD 3 license. It is based on the open-source Readium Desktop toolkit.  The content of this web site is free and may be reused under the terms of the the BSD License.  This static site is generated by Hugo and the Hugo Book theme.</description>
     </item>
     

@@ -1,14 +1,14 @@
 {
   "name": "Thorium Reader",
   "short_name": "Thorium Reader",
-  "start_url": "/thorium.edrlab.org/",
-  "scope": "/thorium.edrlab.org/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/thorium.edrlab.org/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "512x512"
     }
   ]
