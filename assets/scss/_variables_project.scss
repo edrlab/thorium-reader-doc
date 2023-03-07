@@ -6,6 +6,7 @@ Add styles or override variables from the theme here.
 
 $primary: #5994fb;
 $secondary: #1d3e80;
+$gray: #363636;
 
 .wp-image-10520{
     float: left;
@@ -14,6 +15,12 @@ $secondary: #1d3e80;
 
 .txt-dark{
    color: black ;
+}
+
+@media (min-width: 768px){
+.td-navbar-cover {
+    background: grey !important;
+}
 }
 
 /*f87300*/ 
