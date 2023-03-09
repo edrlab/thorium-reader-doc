@@ -1,12 +1,28 @@
-{{ if .Parent }}
-  {{ $name := .Get 0 }}
-  {{ $group := printf "tabs-%s" (.Parent.Get 0) }}
+<!-- Make sure that we are enclosed within a tabpane shortcode block -->
+{{ with $.Parent }}
+{{- if ne $.Parent.Name "tabpane" -}}
+{{- errorf "tab must be used within a tabpane block" -}}
+{{- end -}}
+{{- end -}}
 
-  {{ if not (.Parent.Scratch.Get $group) }}
-    {{ .Parent.Scratch.Set $group slice }}
-  {{ end }}
+<!-- Prefill header if not given as parameter -->
+{{ $header := default (printf "Tab %v" ( add $.Ordinal 1)) (.Get "header") }}
 
-  {{ .Parent.Scratch.Add $group (dict "Name" $name "Content" .Inner) }}
-{{ else }}
-  {{ errorf "%q: 'tab' shortcode must be inside 'tabs' shortcode" .Page.Path }}
-{{ end}}
+<!-- store all tab info in dict tab -->
+{{ $tab := dict "header" $header }}
+{{ with $.Get "lang" }}
+{{ $tab = merge $tab (dict "language" ($.Get "lang")) }}
+{{ end }}
+{{ with $.Get "highlight" }}
+{{ $tab = merge $tab (dict "highlight" ($.Get "highlight")) }}
+{{ end }}
+{{ with $.Inner }}
+<!-- Trim any leading and trailing newlines from .Inner, this avoids
+     spurious lines during syntax highlighting -->
+{{ $tab = merge $tab (dict "content" (trim $.Inner "\n")) }}
+{{ end }}
+
+<!-- add dict tab to parent's scratchpad -->
+{{ with .Parent }}
+{{- $.Parent.Scratch.SetInMap "tabs" (printf "%v" $.Ordinal) $tab -}}
+{{ end }}
