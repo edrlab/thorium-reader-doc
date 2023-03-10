@@ -92,6 +92,7 @@ section = ["HTML", "print", "RSS"]
 [params]
 copyright = "EDRLab"
 privacy_policy = "/about/privacy"
+accessibility = "/about/accessibility"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
