@@ -1,6 +1,10 @@
 ---
 title: Aide et ressources pour une meilleure expérience de lecture 
-type: docs
+linkTitle: "Documentation"
+weight: 20
+menu:
+  main:
+    weight: 20
 ---
 
 <h1>Bienvenue dans la documentation de Thorium Reader</h1>
