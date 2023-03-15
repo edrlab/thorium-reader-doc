@@ -3,7 +3,7 @@
 //
 
 .td-navbar-cover {
-    background: $primary;
+    background: $gray;
 
     @include media-breakpoint-up(md) {
         background: $gray !important;
@@ -25,7 +25,7 @@
 }
 
 .td-navbar {
-    background: $primary;
+    background: $gray;
     min-height: 4rem;
     margin: 0;
     z-index: 32;
