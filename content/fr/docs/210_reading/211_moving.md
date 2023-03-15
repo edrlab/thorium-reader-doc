@@ -24,7 +24,7 @@ La navigation dans l'historique prend en compte les interactions de l'utilisateu
 Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez 
 utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation 
 situées en bas à droite de l'interface de lecture 
-(<img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"><img class="icons" src="/thorium-reader-doc/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px">).
+(<img class="icons" src="/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"><img class="icons" src="/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px">).
 
 Il est possible de se déplacer entre les chapitres en utilisant 
 <kbd>Ctrl</kbd> + <kbd>Page précédente (Page Up)</kbd> (chapitre précédent) et 
@@ -61,7 +61,7 @@ Vous pouvez utiliser les fonctions de navigation par niveaux de titre
 
 <--->
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
+<img src="/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
 
 {{< /columns >}}
 
@@ -93,7 +93,7 @@ La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.o
 
 <--->
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
+<img src="/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 
 {{< /columns >}}
 
@@ -122,7 +122,7 @@ en modifiant la valeur à l'aide de la boîte `Aller à la page`.
 
 <--->
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
+<img src="/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 
 {{< /columns >}}
 

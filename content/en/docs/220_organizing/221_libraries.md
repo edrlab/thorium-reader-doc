@@ -26,12 +26,12 @@ It offers a quick access view organized into two sections:
 `Recently added` and `Resume reading`. The `All Books`  
 button will display all the books imported into Thorium.
 
-The default view is the grid view (<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_module-24px.svg" alt="Icon grid" width="20px">), it shows the book covers, title and author.
+The default view is the grid view (<img class="icons" src="/images/icons/baseline-view_module-24px.svg" alt="Icon grid" width="20px">), it shows the book covers, title and author.
 Clicking on any of these items will open the book in a new
 window. A menu for each book allows you to access the `Book File`,
 `Delete` or `Export` the book.
 
-It is possible to choose display as a `list view` (<img class="icons" src="/thorium-reader-doc/images/icons/baseline-view_list-24px.svg" alt="Icon list" width="20px">), in this view the cover is no longer
+It is possible to choose display as a `list view` (<img class="icons" src="/images/icons/baseline-view_list-24px.svg" alt="Icon list" width="20px">), in this view the cover is no longer
 displayed but the year of publication and the publisher are shown.
 
 ## All Books
@@ -45,7 +45,7 @@ books in English displayed.
 
 The column headers allow you to sort the books in ascending or descending order.
 The `magnifying glass` icon
-(<img class="icons" src="/thorium-reader-doc/images/icons/magnifying_glass.svg" alt="" width="20px">)
+(<img class="icons" src="/images/icons/magnifying_glass.svg" alt="" width="20px">)
 in the header of the first column activates a search field by column
 allowing for example to search for an expression only among the titles
 of the works.

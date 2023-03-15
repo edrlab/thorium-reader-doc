@@ -31,7 +31,7 @@ pour voir la magie opérer.</a>
 {{< /hint >}}
 
 <figure>
-  <img src="/thorium-reader-doc/images/local-fr/thorium-opds-add.png" alt="">
+  <img src="/images/local-fr/thorium-opds-add.png" alt="">
   <figcaption class="icon">
   </figcaption>
 </figure>
@@ -49,7 +49,7 @@ permettant de parcourir, télécharger et lire tous les livres de Gallica
 plus d'information sur le catalogue OPDS de Gallica</a> et 
 <a href="https://gallica.bnf.fr/edit/und/a-propos">à propos de Gallica.</a></p> 
 <figure>
-  <img src="/thorium-reader-doc/images/local-fr/thorium-opds-gallica-1.png" alt="">
+  <img src="/images/local-fr/thorium-opds-gallica-1.png" alt="">
   <figcaption class="icon">
   </figcaption>
 </figure>

@@ -9,7 +9,7 @@ toc: false
 <!--
 Shift+click to zoom in.
 
-<img src="/thorium-reader-doc/images/local-fr/..." alt=""/>
+<img src="/images/local-fr/..." alt=""/>
 
 Shortcodes
 * {{< hint info >}}{{< /hint >}}

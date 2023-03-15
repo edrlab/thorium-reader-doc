@@ -18,4 +18,4 @@ Le tag est ajouté dans une boite bleu, vous pouvez le supprimer en cliquant sur
 la croix. 
 {{< /hint >}}
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-tags.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique 1 correspondance"/>
+<img src="/images/local-fr/thorium-tags.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique 1 correspondance"/>

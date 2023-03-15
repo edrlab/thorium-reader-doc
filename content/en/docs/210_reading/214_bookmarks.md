@@ -24,7 +24,7 @@ after this action.
 
 Select the text you want to mark.
 Press the `bookmark` button
-(<img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">)
+(<img class="icons" src="/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">)
  or the key combination  <kbd>Ctrl</kbd>  +  <kbd>B</kbd>.
 
  If no text is selected so the full page will be marked. 
@@ -58,7 +58,7 @@ copied. When you have several bookmarks, this renaming of the bookmarks allows
 you to use them easily.
 <--->
 <figure>
-  <img src="/thorium-reader-doc/images/local-fr/thorium-marquePages.png" alt="">
+  <img src="/images/local-fr/thorium-marquePages.png" alt="">
   <figcaption class="icon">
   </figcaption>
 </figure>

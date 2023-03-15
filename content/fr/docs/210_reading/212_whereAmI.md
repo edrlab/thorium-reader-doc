@@ -21,14 +21,14 @@ Cependant, NVDA annoncera le saut de page comme un séparateur s'il a un attribu
 {{< /details >}}
 
 <--->
-<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du brail) [32%] H1 VII / H2 Incident du baril."/>
+<img src="/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."/>
 
 {{< /columns >}}
 
 Lorsque vous consultez le menu `Navigation`, Thorium indique le chapitre en cours 
 dans la `table des matières` ainsi que la page en cours dans le menu `Aller à la page`.
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
+<img src="/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
 
 # Informations de lecture
 
@@ -45,12 +45,12 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
 - la page courante ;
 - la structure des titres (h1 est un titre de niveau 1, h2 un titre de niveau , etc.)
 
-Appuyez sur  <kbd>Echap</kbd>  pour femer le panneau `Informations` 
+Appuyez sur  <kbd>Echap</kbd>  pour fermer le panneau `Informations` 
 et revenir au texte.
 
 <--->
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
+<img src="/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
 
 {{< /columns >}}
 

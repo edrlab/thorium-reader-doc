@@ -25,7 +25,7 @@ après cette action.
 
 Sélectionnez le texte que vous souhaitez marquer. 
 Appuyez sur le bouton `Marque-pages` 
-(<img class="icons" src="/thorium-reader-doc/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">)
+(<img class="icons" src="/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">)
  ou la combinaison de touches  <kbd>Ctrl</kbd>  +  <kbd>B</kbd>.
 
 Si aucun texte n'est sélectionné, 
@@ -62,7 +62,7 @@ que vous avez copiée. Lorsque vous avez plusieurs Marque-pages, ce renommage de
 Marque-pages permet de les utiliser facilement.
 <--->
 <figure>
-  <img src="/thorium-reader-doc/images/local-fr/thorium-marquePages.png" alt="">
+  <img src="/images/local-fr/thorium-marquePages.png" alt="">
   <figcaption class="icon">
   </figcaption>
 </figure>

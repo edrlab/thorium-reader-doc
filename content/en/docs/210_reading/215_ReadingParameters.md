@@ -6,7 +6,7 @@ weight: 214
 toc: false
 ---
 
-In the reading interface use the `Preferences` button (<img class="icons" src="/thorium-reader-doc/images/icons/font-size.svg" alt="" width="20px">): the following options are revealed.
+In the reading interface use the `Preferences` button (<img class="icons" src="/images/icons/font-size.svg" alt="" width="20px">): the following options are revealed.
 
 ## Theme
 
@@ -36,7 +36,7 @@ the operating system.
 3. Write the word *Verdana* in the empty field that appears next to the drop-down list.
 4. Confirm with <kbd>Enter</kbd>.
 <--->
-<img class="icons" src="/thorium-reader-doc/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">
+<img class="icons" src="/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">
 {{< /columns >}}
 
 {{< columns >}}
@@ -51,7 +51,7 @@ the operating system.
 
 <--->
 
-<img class="icons" src="/thorium-reader-doc/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"/>
+<img class="icons" src="/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"/>
 
 {{< /columns >}}
 

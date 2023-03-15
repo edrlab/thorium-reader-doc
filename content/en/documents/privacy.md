@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy of this web page"
 description: ""
-draft: true
+draft: false
 images: [logo.png]
 weight: 100
 toc: false

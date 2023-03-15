@@ -11,7 +11,7 @@ Actuellement Thorium affiche dans la
 sous l'intitulé `Description` le contenu de la métadonnée Résumé d'accessibilité 
 (<span lang="en">accessibilitySummary</span>). 
 
-<img src="/thorium-reader-doc/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
+<img src="/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
 
 {{< hint warning >}}
 

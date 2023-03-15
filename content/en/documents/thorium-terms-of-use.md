@@ -1,10 +1,8 @@
 ---
-title: "Privacy Policy of Thorium Reader"
+title: "Thorium Reader terms of use"
 description: ""
 draft: false
-images: [logo.png]
-weight: 100
-toc: false
+layout: single
 ---
 
 22 November 2022
