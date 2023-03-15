@@ -1,6 +1,5 @@
-baseURL = ""
+baseURL = "https://thorium.edrlab.org/"
 title = "Thorium Reader"
-
 # Language settings
 contentDir = "content/en"
 defaultContentLanguage = "en"
