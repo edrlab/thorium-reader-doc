@@ -3,6 +3,15 @@
 Add styles or override variables from the theme here.
 
 */
+
+kbd {
+    color: #000;
+    background-color: #f5f5f5;
+    padding: 1px 2px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
 $secondary: #1d3e80;
 $gray: #363636;
 
