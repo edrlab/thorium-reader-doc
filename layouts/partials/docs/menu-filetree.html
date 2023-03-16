@@ -36,7 +36,7 @@
       </a>
     </label>
   {{ else if .Page.Params.BookHref }}
-    <a href="{{ .Page.Params.BookHref }}" class="{{ if $current }}active{{ end }}" target="_blank" rel="noopener">
+    <a href="{{ .Page.Params.BookHref }}" class="{{ if $current }}active{{ end }}">
       {{- partial "docs/title" .Page -}}
     </a>
   {{ else if .Page.Content }}
