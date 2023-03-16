@@ -1,13 +1,11 @@
 ---
-title: Aide et ressources pour une meilleure expérience de lecture 
+title: Bienvenue dans la documentation de Thorium Reader
 linkTitle: "Documentation"
 weight: 20
 menu:
   main:
     weight: 20
 ---
-
-<h1>Bienvenue dans la documentation de Thorium Reader</h1>
 
 Ce document est destiné à tous ceux qui n’ont jamais entendu parler de
 Thorium, qui ne le connaissent pas bien
