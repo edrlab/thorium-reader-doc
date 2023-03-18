@@ -1,0 +1,244 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibilité</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/</link><description>Recent content in Accessibilité on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/fr/docs/300_accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Informations d'accessibilité</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/301_a11yinfos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/300_accessibility/301_a11yinfos/</guid><description>
+&lt;p>Actuellement Thorium affiche dans la
+&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_ressources/420_glossary#bookInformation">Fiche Livre&lt;/a>
+sous l&amp;rsquo;intitulé &lt;code>Description&lt;/code> le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité
+(&lt;span lang="en">accessibilitySummary&lt;/span>).&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !&lt;/p>
+&lt;p>Des travaux sont en cours pour proposer un guide d&amp;rsquo;affichage des informations
+d&amp;rsquo;accessibilité. Nous suivons ces travaux et implementerons les recommandations
+prochainement.&lt;/p>
+&lt;/div>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !&lt;/p>
+&lt;p>Les informations d&amp;rsquo;accessibilité doivent être renseignées par les éditeurs.
+Thorium affiche ces informations telles qu&amp;rsquo;elles ont étées définies.
+En cas de doute ou de réclamation contactez le distributeur ou l&amp;rsquo;éditeur du fichier.&lt;/p>
+&lt;/div></description></item><item><title>Docs: Fonctions d'accessibilité natives</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/310_natives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/300_accessibility/310_natives/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !&lt;/p>
+&lt;p>Les fonctions d&amp;rsquo;accessibilité natives proposées par Thorium peuvent-être
+fortement affectées par la qualité des fichiers lus.&lt;/p>
+&lt;/div>
+&lt;h2 id="ajustements-visuels">Ajustements visuels&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>L&amp;rsquo;application permet de &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/210_reading/215_ReadingParameters/#th%c3%a8me">modifier les thèmes de couleurs&lt;/a> et de &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/210_reading/215_ReadingParameters/#texte">modifier la police d&amp;rsquo;affichage, la taille du texte&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>il est possible d&amp;rsquo;utiliser toutes les polices installées sur l&amp;rsquo;ordinateur.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Il est possible d&amp;rsquo;augmenter la taille d&amp;rsquo;une image avec &lt;kbd>Shift+clic&lt;/kbd> sur l&amp;rsquo;image. Renouveler plusieurs fois pour grossir l&amp;rsquo;image à la taille souhaitée.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>L&amp;rsquo;affichage peut être sélectionné comme paginé ou défilant,&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>le texte peut être justifié ou aligné à gauche, et le nombre de colonnes contrôlé.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>l&amp;rsquo;espacement peut être ajusté de manière flexible, avec un contrôle sur la marge, les mots, les lettres et l&amp;rsquo;espacement des lignes.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !&lt;/p>
+&lt;p>Les ajustements visuels ne sont pas possibles avec les formats à mise en page
+fixe comme certains EPUBs (dits &lt;span lang="en">Fixed Layout&lt;/span>)
+ou les fichiers PDF.&lt;/p>
+&lt;/div>
+&lt;h2 id="synthèse-vocale-tts">Synthèse vocale (TTS)&lt;/h2>
+&lt;p>La synthèse vocale est lancée à l&amp;rsquo;aide du bouton haut-parleur au milieu de la
+barre d&amp;rsquo;outils, ou à l&amp;rsquo;aide du raccourci clavier &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>La lecture et la pause peuvent être contrôlées avec le raccourci clavier
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La position de lecture peut être déplacée avec &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd>
+et &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd> pour, respectivement, précédent et suivant.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Un contrôle de la vitesse est disponible lorsque la lecture à haute voix
+est sélectionnée, avec une plage allant de x0,5 à x2.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La phrase en cours est surlignée en jaune pâle, et chaque mot prononcé est
+souligné en orange.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Une vue alternative (simplifiée) de la publication est fournie par le biais
+des options disponible dans le menu &lt;code>Paramètres / Readaloud&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-primary" role="alert">
+Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l&amp;rsquo;entrée correspondante de la section questions fréquentes &lt;a href="../400_ressources/430_faq#TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)&lt;/a>
+&lt;/div></description></item><item><title>Docs: Lire avec un lecteur d'écran</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/310_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/300_accessibility/310_screenreaders/</guid><description>
+&lt;p>Lors du lancement de Thorium, si un lecteur d&amp;rsquo;écran est repéré, les fonctions
+relatives sont activées.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !&lt;/p>
+&lt;p>Les fonctions d&amp;rsquo;accessibilité adressées aux technologies d&amp;rsquo;assistance
+peuvent être affecté par la qualité des fichiers lus.&lt;/p>
+&lt;/div>
+&lt;h1 id="séquences-de-touches-communes-à-nvda-et-jaws">Séquences de touches communes à NVDA et JAWS&lt;/h1>
+&lt;p>(contribution de Prashant Verma, Consortium DAISY)&lt;/p>
+&lt;p>Pour la lecture du texte, la navigation dans les tableaux, la navigation dans
+la fenêtre du navigateur, la touche d&amp;rsquo;insertion peut être remplacée par la
+touche modificatrice du lecteur d&amp;rsquo;écran (par exemple la touche de verrouillage
+des majuscules)&lt;/p>
+&lt;h2 id="touches-rapides-pour-la-navigation">Touches rapides pour la navigation&lt;/h2>
+&lt;p>Le lecteur d&amp;rsquo;écran doit être en mode navigation ou curseur virtuel.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Commande&lt;/th>
+&lt;th>description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Titre suivant&lt;/td>
+&lt;td>&lt;kbd>H&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tableau suivant&lt;/td>
+&lt;td>&lt;kbd>T&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Graphique suivant&lt;/td>
+&lt;td>&lt;kbd>G&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Liste suivante&lt;/td>
+&lt;td>&lt;kbd>L&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Champ de formulaire suivant&lt;/td>
+&lt;td>&lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Liste d&amp;rsquo;éléments&lt;/td>
+&lt;td>&lt;kbd>Insert&lt;/kbd> + &lt;kbd>F7&lt;/kbd> (fonctionne quel que soit le mode du curseur)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>Utilisez les touches ci-dessus avec la touche Maj pour passer à l&amp;rsquo;élément précédent.&lt;/em>&lt;/p>
+&lt;h2 id="texte">Texte&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Commande&lt;/th>
+&lt;th>description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Caractère précédent&lt;/td>
+&lt;td>&lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Caractère suivant&lt;/td>
+&lt;td>&lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mot précédent&lt;/td>
+&lt;td>&lt;kbd>CTRL&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mot suivant&lt;/td>
+&lt;td>&lt;kbd>CTRL&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ligne précédente&lt;/td>
+&lt;td>&lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ligne suivante&lt;/td>
+&lt;td>&lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phrase précédente&lt;/td>
+&lt;td>&lt;kbd>ALT&lt;/kbd> + &lt;kbd>↑&lt;/kbd> (Jaws uniquement)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phrase suivante&lt;/td>
+&lt;td>&lt;kbd>ALT&lt;/kbd> + &lt;kbd>↓&lt;/kbd> (Jaws uniquement)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Lire tout&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Annoncer la Police&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="tableaux">Tableaux&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Commande&lt;/th>
+&lt;th>description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cellule vers la droite&lt;/td>
+&lt;td>&lt;kbd>ALT&lt;/kbd> + &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule vers la gauche&lt;/td>
+&lt;td>&lt;kbd>ALT&lt;/kbd> + &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule en dessous&lt;/td>
+&lt;td>&lt;kbd>ALT&lt;/kbd> + &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule au-dessus&lt;/td>
+&lt;td>&lt;kbd>ALT&lt;/kbd> + &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Tests et démarche</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/391_epubtest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/300_accessibility/391_epubtest/</guid><description>
+&lt;p>EDRLab entretient des relations étroites avec le DAISY Consortium.
+Grâce aux personnes ayant des hadicaps visuels qui participent à notre design
+et à nos essais, Thorium Reader cherche à être l&amp;rsquo;une des applications de
+lecture les plus accessibles du marché.&lt;/p>
+&lt;p>Thorium Reader est &lt;a href="https://epubtest.org/results/3632/">testé sur epubtest.org&lt;/a>.&lt;/p>
+&lt;p>La version 1.8 a reçu les scores suivants :&lt;/p>
+&lt;ul>
+&lt;li>Fonctions de base 86.67% (Thorium ne permet pas d&amp;rsquo;annoter un document)&lt;/li>
+&lt;li>Lecture non visuelle 100%&lt;/li>
+&lt;li>Mathematiques 100%&lt;/li>
+&lt;li>Descriptions étendues 100%&lt;/li>
+&lt;/ul>
+&lt;p>La liste des tests est la suivante :&lt;/p>
+&lt;ul>
+&lt;li>Lecture non visuelle&lt;/li>
+&lt;li>Lancez &amp;ldquo;lire à partir d&amp;rsquo;ici&amp;rdquo;.&lt;/li>
+&lt;li>Arrêt et reprise de la lecture&lt;/li>
+&lt;li>Tout le texte doit être lu dans le bon ordre.&lt;/li>
+&lt;li>Lecture du texte alternatif de l&amp;rsquo;image&lt;/li>
+&lt;li>Modifier la vitesse de lecture&lt;/li>
+&lt;li>La TTS permet de faire des pauses pour les titres, les paragraphes, les éléments de liste, etc.&lt;/li>
+&lt;li>Naviguer entre les cellules, les lignes et les colonnes d&amp;rsquo;un tableau&lt;/li>
+&lt;li>Naviguer entre les hyperliens internes&lt;/li>
+&lt;li>Passer à l&amp;rsquo;élément de bloc suivant&lt;/li>
+&lt;li>Navigation par caractères&lt;/li>
+&lt;li>Navigation par mots&lt;/li>
+&lt;li>Naviguer par lignes&lt;/li>
+&lt;li>Naviguer dans le contenu par les rubriques&lt;/li>
+&lt;li>Sélectionner et copier du texte&lt;/li>
+&lt;li>Mathématiques&lt;/li>
+&lt;li>Navigation dans le langage MathML en ligne avec les technologies d&amp;rsquo;assistance et autres technologies&lt;/li>
+&lt;li>Navigation dans les images du bloc mathématique suivies du résumé/détail avec MathML&lt;/li>
+&lt;li>Navigation dans des images mathématiques en ligne suivies par du MathML commenté&lt;/li>
+&lt;li>Descriptions étendues&lt;/li>
+&lt;li>Résumé&lt;/li>
+&lt;li>Détection et utilisation des éléments HTML Détails et Résumé&lt;/li>
+&lt;li>Technique permettant d&amp;rsquo;établir un lien vers une seule description étendue placée dans un fichier HTML distinct via des hyperliens textuels.&lt;/li>
+&lt;/ul></description></item></channel></rss>

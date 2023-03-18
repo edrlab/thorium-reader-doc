@@ -1,0 +1,334 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Lire</title><link>https://thorium.edrlab.org/fr/docs/210_reading/</link><description>Recent content in Lire on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/fr/docs/210_reading/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Se déplacer dans un livre</title><link>https://thorium.edrlab.org/fr/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/211_moving/</guid><description>
+&lt;p>Les options de navigation peuvent être très différentes d&amp;rsquo;un livre à l&amp;rsquo;autre. Thorium permet :&lt;/p>
+&lt;ul>
+&lt;li>d&amp;rsquo;avancer et de reculer dans la lecture&lt;/li>
+&lt;li>d&amp;rsquo;utiliser une table des matières, des points de repères et une pagination de référence (qui doivent être incluses par l&amp;rsquo;organisation productrice du livre)&lt;/li>
+&lt;li>d&amp;rsquo;aller aux points de navigation précèdédents et suivants&lt;/li>
+&lt;li>de se déplacer en arrière et en avant dans l&amp;rsquo;historique des actions de navigation&lt;/li>
+&lt;/ul>
+&lt;h2 id="navigation-dans-lhistorique--saut-en-arrière-et-en-avant-aux-points-de-lecture-nouveau-dans-thorium-22-epub-seulement">navigation dans l&amp;rsquo;historique : saut en arrière et en avant aux points de lecture (nouveau dans Thorium 2.2. EPUB seulement)&lt;/h2>
+&lt;p>Pendant la lecture, l&amp;rsquo;utilisateur a la possibilité de naviguer d&amp;rsquo;un point à un autre en utilisant le panneau de navigation ou en suivant un lien dans la publication. Cela active les boutons de saut en arrière (&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Retour Arrière&lt;/kbd>) et de saut en avant (&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Retour Arrière&lt;/kbd>) en bas à gauche de la fenêtre de lecture. Utilisez ces boutons pour trouver un point précédent et revenir au dernier point.&lt;/p>
+&lt;p>La navigation dans l&amp;rsquo;historique prend en compte les interactions de l&amp;rsquo;utilisateur, notamment les clics sur la ligne de temps inférieure, la table des matières, les signets, les points de repère, les rubriques &amp;ldquo;Où suis-je ?&amp;rdquo; et &amp;ldquo;Aller à la page&amp;rdquo;. Elle ne tient pas compte de la recherche des liens précédents et suivants et de la liste.&lt;/p>
+&lt;h2 id="avancer-et-reculer">Avancer et reculer&lt;/h2>
+&lt;p>Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez
+utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation
+situées en bas à droite de l&amp;rsquo;interface de lecture
+(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px">).&lt;/p>
+&lt;p>Il est possible de se déplacer entre les chapitres en utilisant
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Page précédente (Page Up)&lt;/kbd> (chapitre précédent) et
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Page suivante (Page Down)&lt;/kbd> (chapitre
+suivant) ou &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> (sauf sur MacOS) + &lt;kbd>←&lt;/kbd> (chapitre précédent)
+et &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> (sauf sur MacOS) + &lt;kbd>→&lt;/kbd> (chapitre suivant).&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !&lt;/p>
+&lt;p>Il existe deux raccourcis différents pour passer au chapitre suivant ou précédent.
+Selon votre configuration et l&amp;rsquo;usage ou non d&amp;rsquo;un lecteur d&amp;rsquo;écran il est possible
+que seule une de ces deux combinaisons fonctionne.&lt;/p>
+&lt;/div>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;h2 id="la-table-des-matières">La table des matières&lt;/h2>
+&lt;p>La table des matières représente l&amp;rsquo;architecture du livre telle que définie par
+l&amp;rsquo;organisation productrice de ce dernier.&lt;/p>
+&lt;p>Les titres de premier niveau sont indiqués sans marge, ceux qui comportent des
+sous titres (ou titre de niveau 2) sont présentés sur un fond grisé.
+Les sous titres sont décalés de la marge à gauche et un filet permet de savoir
+facilement à quel niveau de titre supérieur ils appartiennent.&lt;/p>
+&lt;details >&lt;summary>Avec NVDA&lt;/summary>
+&lt;div class="markdown-inner">
+Vous pouvez utiliser les fonctions de navigation par niveaux de titre
+(&lt;kbd>NVDA&lt;/kbd> + &lt;kbd>H&lt;/kbd>) pour explorer et vous déplacer dans la table des matières.
+&lt;/div>
+&lt;/details>
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="les-points-de-repères">Les points de repères&lt;/h2>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;p>Les livres numérique de bonne qualité comportent des points de repères qui
+permettent d&amp;rsquo;identifier et d&amp;rsquo;atteindre rapidement les grandes parties d&amp;rsquo;un livre.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;pre>&lt;code>&amp;lt;p&amp;gt;Information&amp;lt;/p&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>Chaque publication EPUB doit inclure un guide de tous les principaux
+points de repère. L&amp;rsquo;intitulé des points de repères est aux choix de l&amp;rsquo;éditeur
+mais la nature de chaque repère doit être identifiée selon un
+vocabulaire sémantique définis. Les principaux sont :&lt;/p>
+&lt;ul>
+&lt;li>Texte principal (bodymatter)&lt;/li>
+&lt;li>Table des matières (toc)&lt;/li>
+&lt;li>bibliographie&lt;/li>
+&lt;li>index&lt;/li>
+&lt;li>glossaire&lt;/li>
+&lt;/ul>
+&lt;p>La &lt;a href="https://www.w3.org/TR/epub-ssv/">liste complète du vocabulaire sémantique EPUB en anglais&lt;/a> est disponible sur le site du W3C.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !&lt;/p>
+&lt;p>Les signets des fichiers PDF utilisés pour palier à l&amp;rsquo;absence de table des matière de ce format ne sont pas interprétés par Thorium.&lt;/p>
+&lt;/div>
+&lt;h2 id="les-pages-de-référence">Les pages de référence&lt;/h2>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;p>Les livres numériques peuvent comporter une pagination de référence permettant
+une correspondance à la pagination du livre imprimé.&lt;/p>
+&lt;p>Il existe une option de navigation permettant d&amp;rsquo;aller à la page. Lorsque vous y
+accédez, cette option indique la page actuelle.&lt;/p>
+&lt;p>Il existe également un raccourci clavier pour cette fonction. Appuyez sur
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>P&lt;/kbd>,
+puis saisissez le numéro de page dans la boîte d&amp;rsquo;édition en le tapant ou
+en modifiant la valeur à l&amp;rsquo;aide de la boîte &lt;code>Aller à la page&lt;/code>.&lt;/p>
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !&lt;/p>
+&lt;p>Les &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">
+livres adaptés&lt;/a> utilisent parfois la pagination de référence pour proposer un
+découpage du livre régulier aux lecteurs sans reproduire la pagination de
+l&amp;rsquo;original. Dans ce cas la pagination de référence ne peut pas être utilisée
+pour se référer au livre imprimé.&lt;/p>
+&lt;/div></description></item><item><title>Docs: Où suis-je ?</title><link>https://thorium.edrlab.org/fr/docs/210_reading/212_whereami/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/212_whereami/</guid><description>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;p>Le raccourcis clavier &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>k&lt;/kbd>
+permet d&amp;rsquo;obtenir une mention rapide de la position de lecture dans le document.
+Cette information sera affichée dans la zone de notification en bas à gauche de
+l&amp;rsquo;interface et sera lue par un lecteur d&amp;rsquo;écran.&lt;/p>
+&lt;details >&lt;summary>L&amp;rsquo;emplacement de la page est approximatif lorsqu&amp;rsquo;un lecteur d&amp;rsquo;écran est utilisé&lt;/summary>
+&lt;div class="markdown-inner">
+&lt;p>En raison des limites inhérentes à la technologie actuelle des lecteurs d&amp;rsquo;écran, Thorium doit estimer l&amp;rsquo;emplacement de la lecture. Par conséquent, le numéro de page annoncé par Thorium ne reflète pas l&amp;rsquo;endroit où le lecteur d&amp;rsquo;écran lit réellement, l&amp;rsquo;erreur peut être de quelques phrases.&lt;/p>
+&lt;p>Ce [problème d&amp;rsquo;emplacement de la page du lecteur d&amp;rsquo;écran] (&lt;a href="https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338">https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338&lt;/a>) est connu et nous discutons d&amp;rsquo;un moyen de le résoudre [numéros de page et sauts de page accessibles] (&lt;a href="https://github.com/edrlab/thorium-reader/discussions/1799)">https://github.com/edrlab/thorium-reader/discussions/1799)&lt;/a>.&lt;/p>
+&lt;p>Cependant, NVDA annoncera le saut de page comme un séparateur s&amp;rsquo;il a un attribut title (exemple : &lt;code> &amp;lt;span epub:type=&amp;quot;pagebreak&amp;quot; role=&amp;quot;doc-pagebreak&amp;quot; id=&amp;quot;page_2&amp;quot; class=&amp;quot;page&amp;quot; title=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code> fera que NVDA annoncera &amp;ldquo;Deux, séparateur&amp;rdquo;).&lt;/p>
+&lt;/div>
+&lt;/details>
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."/>
+&lt;/div>
+&lt;/div>
+&lt;p>Lorsque vous consultez le menu &lt;code>Navigation&lt;/code>, Thorium indique le chapitre en cours
+dans la &lt;code>table des matières&lt;/code> ainsi que la page en cours dans le menu &lt;code>Aller à la page&lt;/code>.&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
+&lt;h1 id="informations-de-lecture">Informations de lecture&lt;/h1>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;p>Utilisez la fonction &lt;em>Informations&lt;/em> (&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>I&lt;/kbd>)
+pour ouvrir un panneau qui affiche la structure des titres et le numéro de page.&lt;/p>
+&lt;p>En plus des informations sur le livre, ce panneau indique au sous titre Progression :&lt;/p>
+&lt;ul>
+&lt;li>le numéro du chapitre sur le nombre total de chapitre ;&lt;/li>
+&lt;li>le titre du chapitre en cours ;&lt;/li>
+&lt;li>le pourcentage lu du chapitre en cours ;&lt;/li>
+&lt;li>la page courante ;&lt;/li>
+&lt;li>la structure des titres (h1 est un titre de niveau 1, h2 un titre de niveau , etc.)&lt;/li>
+&lt;/ul>
+&lt;p>Appuyez sur &lt;kbd>Echap&lt;/kbd> pour fermer le panneau &lt;code>Informations&lt;/code>
+et revenir au texte.&lt;/p>
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
+&lt;/div>
+&lt;/div>
+&lt;details >&lt;summary>Utiliser &lt;strong>Où suis-je&lt;/strong> avec NVDA&lt;/summary>
+&lt;div class="markdown-inner">
+&lt;p>Appuyez sur la touche &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>F7&lt;/kbd>, puis sur la touche de
+tabulation jusqu&amp;rsquo;à ce que vous obteniez la vue de l&amp;rsquo;en-tête.
+Cela vous montre où vous vous trouvez dans la structure du titre.&lt;/p>
+&lt;p>Appuyez sur &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>Entrée&lt;/kbd> pour enregistrer la position
+actuelle. Puis &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>I&lt;/kbd> pour placer le
+curseur dans la section Progress de la boîte de dialogue contenant des
+informations sur la publication. Le numéro du document HTML actuel par rapport
+au nombre total de documents, le pourcentage, la page actuelle et la section
+correspondante sont affichés, avec la possibilité d&amp;rsquo;afficher des liens pour
+faire défiler les sections précédentes. Après avoir fermé le dialogue, par
+exemple en appuyant sur &lt;kbd>Echap&lt;/kbd> , il est possible de revenir au point
+de lecture par le biais du lien du lecteur d&amp;rsquo;écran (marqué d&amp;rsquo;un double
+soulignement) dans le cadre de contenu principal (vers lequel on peut naviguer
+par la touche Tab ou avec la lettre &lt;kbd>M&lt;/kbd> en mode navigation).&lt;/p>
+&lt;/div>
+&lt;/details></description></item><item><title>Docs: Faire une recherche dans un livre</title><link>https://thorium.edrlab.org/fr/docs/210_reading/213_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/213_search/</guid><description>
+&lt;p>Vous pouvez utiliser les touches &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F&lt;/kbd> pour accéder au
+champ de recherche. Saisissez votre terme de recherche. En cliquant sur le
+bouton de &lt;code>Recherche&lt;/code>, vous obtenez un bouton &lt;code>Précédent&lt;/code>, un bouton &lt;code>Suivant&lt;/code>
+et un bouton &lt;code>Liste des résultats&lt;/code>. Activez ce lien pour vous rendre à l&amp;rsquo;endroit
+du livre où l&amp;rsquo;expression recherchée a été trouvée.&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-search-navpanel.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique une correspondance"/></description></item><item><title>Docs: Marquer une page ou un passage</title><link>https://thorium.edrlab.org/fr/docs/210_reading/214_bookmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/214_bookmarks/</guid><description>
+&lt;h2 id="ajouter-un-marque_page">Ajouter un Marque_page&lt;/h2>
+&lt;p>Le bouton &lt;code>Marque-pages&lt;/code> permet d&amp;rsquo;ajouter un point de repère personnalisé.
+Un &lt;code>Marque page&lt;/code> peut-être un point fixe ou une portion de texte sélectionné.&lt;/p>
+&lt;p>Un seul &lt;code>Marque page&lt;/code> fixe est possible par page
+(pages du livre ou pages calculées
+s&amp;rsquo;il n&amp;rsquo;y a pas de référence de page dans le livre).
+Mais vous pouvez placer autant de &lt;code>Marque pages&lt;/code> de sélection de texte
+que vous le souhaitez.&lt;/p>
+&lt;p>Lorsque vous ajoutez un &lt;code>Marque page&lt;/code>, une notification apparaît pour vous informer que
+le &lt;code>Marque page&lt;/code> a été &lt;em>ajouté&lt;/em> ou &lt;em>supprimé&lt;/em>.
+Le nombre juste après indique le nombre total de &lt;code>Marque pages&lt;/code> dans le livre
+après cette action.
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Sélectionnez le texte que vous souhaitez marquer.
+Appuyez sur le bouton &lt;code>Marque-pages&lt;/code>
+(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">)
+ou la combinaison de touches &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd>.&lt;/p>
+&lt;p>Si aucun texte n&amp;rsquo;est sélectionné,
+le &lt;code>Marque-pages&lt;/code> sera positionné
+au début de la page de référence ou de la page calculée par Thorium.&lt;/p>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="révision-et-navigation-dans-les-marques-pages">Révision et navigation dans les Marques-pages&lt;/h2>
+&lt;p>Appuyez sur le bouton de &lt;code>Navigation&lt;/code> (&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>N&lt;/kbd>), puis sur
+le bouton &lt;code>Marque-pages&lt;/code>. Vous pouvez modifier le nom de chaque Marque-pages, supprimer
+des Marque-pages et vous déplacer entre les Marque-pages en appuyant sur &lt;kbd>Entrée&lt;/kbd>.&lt;/p>
+&lt;p>Accédez à la liste des Marque-pages dans la zone de navigation. Sélectionnez le
+Marque-pages auquel vous souhaitez accéder et appuyez sur la touche
+&lt;kbd>Entrée&lt;/kbd>. Si vous
+avez renommé le Marque-pages, il sera facile de retrouver vos repéres dans le livre.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Conseil&lt;/p>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;p>Si vous sélectionnez une portion de texte puis activez le bouton &lt;code>Marque-page&lt;/code>,
+le marque-page créé aura pour intitulé la ligne sélectionnée.&lt;/p>
+&lt;p>Si vous avec placé un Marque-pages sans sélectionner une portion de texte, essayez de
+copier la ligne sur laquelle vous vous trouvez dans le presse-papiers.
+Allez ensuite dans les options de navigation avec &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>N&lt;/kbd>,
+puis descendez jusqu&amp;rsquo;à la rubrique des Marque-page, où ils sont répertoriés.
+Appuyez sur la touche &lt;kbd>b&lt;/kbd> pour vous déplacer vers le bouton d&amp;rsquo;édition afin de
+renommer le Marque-page. Collez la ligne du presse-papiers et appuyez sur la
+touche &lt;kbd>Entrée&lt;/kbd>. Cela renomme le Marque-page avec la ligne de texte
+que vous avez copiée. Lorsque vous avez plusieurs Marque-pages, ce renommage des
+Marque-pages permet de les utiliser facilement.&lt;/p>
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;figure>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-marquePages.png" alt="">
+&lt;figcaption class="icon">
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;details >&lt;summary>Utiliser les &lt;strong>Marque-pages&lt;/strong> avec NVDA&lt;/summary>
+&lt;div class="markdown-inner">
+Les lecteurs d&amp;rsquo;écran sous Windows utilisent un tampon virtuel
+pour la lecture.
+Pour placer un &lt;code>Marque page&lt;/code> à l&amp;rsquo;endroit où vous lisez,
+appuyez sur la touche &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>entrée&lt;/kbd>, et NVDA dira
+&lt;em>&amp;ldquo;activer&amp;rdquo;&lt;/em>. Cela
+synchronise le tampon virtuel avec l&amp;rsquo;emplacement réel actuel et permet
+à Thorium de déduire l&amp;rsquo;objet
+sur lequel se trouve le curseur.
+Puis utilisez
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> pour placer un &lt;code>Marque page&lt;/code>.
+Une notification sonore vous informera du nombre de &lt;code>Marque pages&lt;/code>
+dans la publication en cours.
+&lt;/div>
+&lt;/details></description></item><item><title>Docs: Paramètres de lecture</title><link>https://thorium.edrlab.org/fr/docs/210_reading/215_readingparameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/215_readingparameters/</guid><description>
+&lt;dl>
+&lt;dt>Dans l&amp;rsquo;interface de lecture utilisez le bouton &lt;code>Préférences&lt;/code>&lt;/dt>
+&lt;dt>(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="" width="20px">)&lt;/dt>
+&lt;dd>en cliquant sur ce bouton, les options suivantes sont révélées.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="thème">Thème&lt;/h2>
+&lt;p>La couleur de l&amp;rsquo;arrière-plan et du premier plan peut être modifiée en utilisant
+l&amp;rsquo;un des trois thèmes disponibles - Neutre, Sépia et Nuit.&lt;/p>
+&lt;h2 id="texte">Texte&lt;/h2>
+&lt;p>La taille de la police peut être augmentée ou diminuée à l&amp;rsquo;aide du curseur.
+La police peut également être modifiée. Les options disponibles sont les suivantes
+: Default, Old style, Modern, Sans, Humanist, Readable (Dyslexia),
+Dualspace et Monospace.&lt;/p>
+&lt;p>En sélectionnant les &lt;code>...&lt;/code> vous pourrez renseigner le nom de la police que
+vous souhaitez utiliser. Pour cela la police doit être présente sur votre système
+d&amp;rsquo;exploitation et vous devez connaitre son nom exact tel qu&amp;rsquo;il est renseigné pour
+le système d&amp;rsquo;exploitation.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;h3 id="exemple-1--paramétrer-verdana-comme-police-de-lecture">Exemple 1 : paramétrer Verdana comme police de lecture.&lt;/h3>
+&lt;ol>
+&lt;li>Dans l&amp;rsquo;interface de lecture allez au menu Préférence puis Texte.&lt;/li>
+&lt;li>Dans la liste déroulante sélectionnez &lt;code>...&lt;/code>.&lt;/li>
+&lt;li>Écrivez le mot &lt;em>Verdana&lt;/em> dans le champ vide apparu à côté de la liste déroulante.&lt;/li>
+&lt;li>Validez avec &lt;kbd>Entrée&lt;/kbd>.&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt="">
+&lt;/div>
+&lt;/div>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;h3 id="exemple-2--paramétrer-luciole-comme-police-de-lecture">Exemple 2 : paramétrer Luciole comme police de lecture.&lt;/h3>
+&lt;ol>
+&lt;li>&lt;a href="https://www.luciole-vision.com/Fichiers/Luciole-Regular.ttf">Téléchargez et installez la police Luciole&lt;/a>&lt;/li>
+&lt;li>Dans l&amp;rsquo;interface de lecture allez au menu Préférence puis Texte.&lt;/li>
+&lt;li>Dans la liste déroulante sélectionnez &lt;code>...&lt;/code>.&lt;/li>
+&lt;li>Écrivez le mot &lt;em>Luciole&lt;/em> dans le champ vide apparu à côté de la liste déroulante.&lt;/li>
+&lt;li>Validez avec &lt;kbd>Entrée&lt;/kbd>.&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-luciole.png" alt=""/>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="affichage">Affichage&lt;/h2>
+&lt;p>Vous pouvez choisir entre une mise en page avec défilement ou pagination,
+un alignement automatique ou justifié et une présentation automatique ou
+sur 1 ou 2 colonnes. Ici aussi, MathJax peut être activé, pour l&amp;rsquo;affichage
+des expressions mathématiques.&lt;/p>
+&lt;h2 id="espacement">Espacement&lt;/h2>
+&lt;p>Les marges, l&amp;rsquo;espacement des mots, l&amp;rsquo;espacement des lettres, des paragraphes
+et des lignes peuvent être ajustés.&lt;/p>
+&lt;h2 id="lecture-à-haute-voix-readaloud">Lecture à haute voix (Readaloud)&lt;/h2>
+&lt;p>Fournit des options pour une &amp;ldquo;vue propre&amp;rdquo; (&lt;code>clean view&lt;/code>) non encombrée et pour
+la possibilité de sauter les contenus secondaires (&lt;code>skippability&lt;/code>) qui peuvent
+comporter les notes de bas de page ou bien des encadrés selon la sémantique
+indiquée lors de la fabrication du livre numérique.
+&lt;code>Split TTS&lt;/code> découpera le contenu par phrase permettant un surlignage plus précis.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l&amp;rsquo;entrée correspondante de la section questions fréquentes &lt;a href="../400_ressources/430_faq#TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)&lt;/a>
+&lt;/div></description></item><item><title>Docs: Lire des mathématiques</title><link>https://thorium.edrlab.org/fr/docs/210_reading/221_maths/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/221_maths/</guid><description>
+&lt;p>Thorium-Reader prend en charge les formules mathématiques au format MathML
+grace au module MathJax. Ce dernier nécessitant des ressources mémoires
+il n&amp;rsquo;est pas activé d&amp;rsquo;office lorsque vous ouvrez Thorium.
+Pour l&amp;rsquo;activer lors de la lecture d&amp;rsquo;un livre allez dans le menu
+&lt;code>Paramétres de lecture&lt;/code>, en bas de l&amp;rsquo;onglet &lt;code>Affichage&lt;/code> vous trouverez
+une case à cocher &lt;code>MathJax&lt;/code>.&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-mathjax.png" alt="Capture d'écran (en anglais) d'une formule mathématique complexe correctement affichée grace à l'option MathJax cochée."/>
+&lt;p>Une fois activé MathJax, vous pouvez utiliser le &lt;code>menu contextuel&lt;/code> (clic droit)
+sur une formule mathématique insérée au format MathML et utiliser les nombreuses
+options comme la lecture à voix haute (speech), consulter le marquage sémantique
+ou copier la formule avec ses attributs sémantiques pour l&amp;rsquo;utiliser dans un
+éditeur compatible.&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-mathjax-menu.png" alt="Capture d'écran du menu contextuel MathJax (en anglais) montrant le sous Menu Accessibility dont l'option Activate est cochée."/>
+&lt;details >&lt;summary>Lire les &lt;strong>mathématiques&lt;/strong> avec NVDA&lt;/summary>
+&lt;div class="markdown-inner">
+Vous pouvez lire les expressions mathématiques balisées avec MathML en utilisant
+les différentes approches de NVDA, par exemple en utilisant le complément
+&lt;a href="https://addons.nvda-project.org/addons/access8math.fr.html">Access8Math&lt;/a>.
+Les fonctions d&amp;rsquo;accessibilité de MathJax devront pour celà être désactivées.
+&lt;/div>
+&lt;/details>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention !
+Ces fonctionalités ne peuvent être activées que si le livre a été conçu en
+insérant les formules mathématiques sous la forme MathML. Pour des raisons de
+facilité de production les formules mathématiques sont souvent incluses sous
+forme d&amp;rsquo;images et c&amp;rsquo;est alors le texte alternatif qui doit permettre la
+compréhension de la formule via une description précise.&lt;/p>
+&lt;p>Les livres qui comportent des mathématiques sous la forme MathML doivent
+l&amp;rsquo;indiquer dans leurs informations d&amp;rsquo;accessibilité.
+Si cela n&amp;rsquo;est pas indiqué, alors il s&amp;rsquo;agit certainement d&amp;rsquo;images décrites.&lt;/p>
+&lt;/div></description></item></channel></rss>

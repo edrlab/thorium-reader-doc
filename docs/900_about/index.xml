@@ -1,0 +1,132 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – About this website</title><link>https://thorium.edrlab.org/docs/900_about/</link><description>Recent content in About this website on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/docs/900_about/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Credits</title><link>https://thorium.edrlab.org/docs/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/900_about/902_credits/</guid><description>
+&lt;p>This documentation site is designed and maintained by EDRLab
+as part of the development of the Thorium-Reader application.&lt;/p>
+&lt;p>The main contributors of this documentation are :&lt;/p>
+&lt;ul>
+&lt;li>Gautier Chomel&lt;/li>
+&lt;li>Georges Kerscher&lt;/li>
+&lt;li>Noelia Ruiz Martínez&lt;/li>
+&lt;li>Prashant Verma&lt;/li>
+&lt;/ul>
+&lt;p>This site is made with the static site generator
+&lt;a href="https://gohugo.io/">Hugo&lt;/a> and the
+&lt;a href="https://github.com/alex-shpak/hugo-book/">Hugo Book Theme&lt;/a>.&lt;/p>
+&lt;h2>Who has developed this app&lt;/h2>
+&lt;p>Thorium Reader is currently developed by:&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Daniel Weck, lead developer.&lt;/li>
+&lt;li>Pierre Leroux, node.js developer.&lt;/li>
+&lt;/ul>
+&lt;p>Several other developers have helped making Thorium what it is today:&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Simon Le Roux, UI designer.&lt;/li>
+&lt;li>Cyrille Lebeaupin, CEO of noop.fr, senior developer.&lt;/li>
+&lt;li>Jiminy Panoz, creator of Readium CSS.&lt;/li>
+&lt;li>Léo Stéfani, node.js, React developer.&lt;/li>
+&lt;li>Manuel Lagrand, intern, node.js developer.&lt;/li>
+&lt;/ul>
+&lt;p>The project is supervised by Laurent Le Meur, EDRLab CTO.&lt;/p>
+&lt;h2>Who is financing this app&lt;/h2>
+&lt;p>
+EDRLab is a non-profit organization. Our budget essentially originates
+from our members. EDRLab started in France, but is now counting 60 members
+from Europe, North America, South America and Asia.
+&lt;/p>
+&lt;p>This project would have not seen the light without:&lt;/p>
+&lt;p>
+1- The financial implication of our founding members: Editis, Hachette
+Livre, Magrigall, Media-Participations, Cercle de la Librarie, Syndicat
+national de l'Edition. They understand that financing open-standards and
+open-source is the best way to energize an open and innovative market for
+the publishing industry.
+&lt;/p>
+&lt;p>2- Financial grants from the following French public organizations:&lt;/p>
+&lt;ul>
+&lt;li>CNL (Centre National du livre)&lt;/li>
+&lt;li>Ministère de la Culture&lt;/li>
+&lt;/ul>
+&lt;p>
+3- Additional grants from EDRLab members interested by the addition of
+specific features:
+&lt;/p>
+&lt;ul>
+&lt;li>Fênix Editorial, Brazil&lt;/li>
+&lt;li>Canadian Electronic library, Canada&lt;/li>
+&lt;li>MLOL / Horizons Unlimited, Italy&lt;/li>
+&lt;li>Lyrasis, USA&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Your help is precious</title><link>https://thorium.edrlab.org/docs/900_about/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/900_about/903_support/</guid><description>
+&lt;p>
+You too can help Thorium Reader become the best reading application
+reading application by&lt;a href="https://www.edrlab.org/become-a-member/">
+becoming a member of EDRLab&lt;/a>.
+Or by making a donation to the EDRLab via the
+&lt;a href="https://github.com/sponsors/edrlab">Github sponsorship&lt;/a>
+"piggy-bank", which accepts small monthly donations.
+&lt;/p>
+&lt;p>
+Thorium is built by its community. If you want to participate, please
+contact us !
+&lt;/p>
+&lt;p>You can also:
+&lt;ul>
+&lt;li>Report an error or suggest a change by opening an Issue
+in our
+[support tracking tool](https://github.com/edrlab/thorium-reader-doc/issues/new).
+&lt;/li>
+&lt;li>Participate in the translation of resources.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Stuck?</title><link>https://thorium.edrlab.org/docs/900_about/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/900_about/904_issues/</guid><description>
+&lt;p>If you do not find the answer to your problem on this site,
+you can tell us your problem via our &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">support tracking tool&lt;/a> or &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>.&lt;/p>
+&lt;p>Here is the information we need:&lt;/p>
+&lt;ul>
+&lt;li>Operating system and it version&lt;/li>
+&lt;li>Thorium version (it is indicated at the bottom of the library under the title &lt;code>About Thorium&lt;/code>)&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Contribute!</title><link>https://thorium.edrlab.org/docs/900_about/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/900_about/905_contribute/</guid><description>
+&lt;p>Thorium and its documentation are developed thanks to the user community.
+We need help to translate this documentation.&lt;/p>
+&lt;p>To do so, you can
+&lt;a href="https://www.edrlab.org/contact/">contact us&lt;/a>.&lt;/p>
+&lt;p>If you are comfortable enough with GitHub and the Markdown format you can
+propose a new translation via a Pull Request.&lt;/p>
+&lt;p>To do this: clone the repository and create a branch with the name of the language
+you want to add, make a copy of the &lt;code>content.en&lt;/code> folder and rename it with
+two letters corresponding to the language you want to add (for example
+&lt;code>content.es&lt;/code> will contain the Spanish translation). The names of the files must
+not be changed as they insure correspondence between languages.&lt;/p>
+&lt;p>The &lt;code>i18n&lt;/code> folder contains the translations for the fixed elements
+of the header and footer.
+Several languages are already present, if your language is
+not present, copy paste the .yaml file and rename it with the first two letters of the
+letters of the language you want to add.&lt;/p>
+&lt;p>Finally to activate the menu of the language you add, edit the file &lt;code>config.toml&lt;/code>
+and add the language with the following code:&lt;/p>
+&lt;pre tabindex="0">&lt;code>[languages.en]
+languageName = &amp;#39;English&amp;#39;
+contentDir = &amp;#39;content.en&amp;#39;
+weight = 1
+&lt;/code>&lt;/pre>&lt;p>You must replace &lt;code>.en' with the first two letters of the language you are adding and fill in the name of the language as the &lt;/code>languageName&lt;code>value. The&lt;/code>weight` indicates the order of appearance in the language menu.&lt;/p>
+&lt;p>Example for Spanish :&lt;/p>
+&lt;pre tabindex="0">&lt;code>[languages.es]
+languageName = &amp;#39;Español&amp;#39;
+contentDir = &amp;#39;content.es&amp;#39;
+weight = 3
+&lt;/code>&lt;/pre>&lt;p>Localized images such as screenshots should be added to the
+folder &lt;code>statics/images/local-(two letter language)&lt;/code>.&lt;/p></description></item><item><title>Docs: Licence</title><link>https://thorium.edrlab.org/docs/900_about/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/900_about/913_licence/</guid><description>
+&lt;h2>Licensing&lt;/h2>
+&lt;p>
+Copyright 2019 European Digital Reading Lab. All rights reserved. Licensed
+to the Readium Foundation under one or more contributor license
+agreements.
+&lt;/p>
+&lt;p>
+The Thorium-reader application is open-source, released under a BSD 3 license. It is
+based on the open-source Readium Desktop toolkit.
+&lt;/p>
+&lt;p>
+The content of this web site is free and may be reused under the terms of the
+the BSD License.
+&lt;/p>
+&lt;p>
+This static site is generated by Hugo and the Hugo Book theme.
+Its [source code is public](https://github.com/edrlab/thorium-reader-doc).
+&lt;/p></description></item></channel></rss>

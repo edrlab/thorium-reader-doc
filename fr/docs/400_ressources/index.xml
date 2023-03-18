@@ -1,0 +1,284 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Ressources</title><link>https://thorium.edrlab.org/fr/docs/400_ressources/</link><description>Recent content in Ressources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/fr/docs/400_ressources/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Raccourcis clavier</title><link>https://thorium.edrlab.org/fr/docs/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/400_ressources/402_keyboard-shortcuts/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Information&lt;/p>
+&lt;p>La touche &lt;kbd>Shift&lt;/kbd> est marquée &lt;kbd>Maj&lt;/kbd> sur certains claviers,
+ou être indiquée par une fléche vide pointant vers le haut :
+&lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd>.&lt;/p>
+&lt;/div>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd> : contenu (&lt;code>FocusMain&lt;/code>) &lt;/dt>
+&lt;dd> dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du
+clavier sur le point de repère de la zone "principale" (dans la vue du lecteur,
+c'est juste avant le cadre qui affiche le contenu de la publication).
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>t&lt;/kbd> : barre d'outils (&lt;code>FocusToolbar&lt;/code>) &lt;/dt>
+&lt;dd> dans les fenêtres de lecteur et de bibliothèque, déplace le focus du
+clavier sur la barre d'outils horizontale supérieure, immédiatement avant le
+lien "skip" (qui lui-même déplace le focus sur le repère de la zone "principale")
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> : menu de navigation (&lt;code>FocusReaderNavigation&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, déplace le focus du clavier sur le panneau de
+navigation (table des matières, signets, etc.)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> : table des matières (&lt;code>FocusReaderNavigationTOC&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre de lecture, déplace le focus du clavier sur le panneau de
+navigation, mais plus spécifiquement dans la table des matières, et si
+possible au niveau de la rubrique détectée / la plus proche du lieu de lecture.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>p&lt;/kbd> : menu des pages (&lt;code>FocusReaderGotoPage&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre de lecture, déplace le focus du clavier sur la section
+`Aller à la page` du panneau de navigation.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd> : paramétres de lecture (&lt;code>FocusReaderSettings&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, déplace le focus du clavier sur le panneau
+des paramètres (préférences de l'utilisateur pour l'affichage du contenu de
+la publication).
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd> : ajout ou suppression de Marque-page (&lt;code>ToggleBookmark&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, bascule le signet (une notification est
+produite pour que les lecteurs d'écran annoncent le changement)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> : plein écran (&lt;code>ToggleReaderFullscreen&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, bascule en mode plein écran.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd> : fiche livre (&lt;code>OpenReaderInfo&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, fenêtre modale d'information sur la
+publication (peut être utilisé dans la future version de Thorium pour une
+fonction similaire dans la fenêtre de la bibliothèque)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd> : où suis-je ? (&lt;code>OpenReaderInfoWhereAmI&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, fenêtre modale d'information sur la
+publication avec un focus direct sur la section qui affiche la piste
+hiérarchique des titres et d'autres informations contextuelles pour
+l'emplacement actuel de la lecture, comme le saut de page précédent le plus
+proche, ainsi que l'index du document dans l'ordre de lecture
+(c'est la fonctionnalité `où suis-je`).
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>k&lt;/kbd> :
+où suis-je (audio seulement) (&lt;code>SpeakReaderInfoWhereAmI&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, il s'agit de la fonction "où suis-je",
+comme ci-dessus, mais uniquement prononcée par le lecteur d'écran TTS grâce
+à une région ARIA en direct avec une parole affirmée qui interrompt la
+narration en cours.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>w&lt;/kbd> : fermer la fenêtre (&lt;code>CloseReader&lt;/code>)
+&lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, ferme la fenêtre et revient à la vue de la bibliothèque.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd> : rechercher (&lt;code>FocusSearch&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre de la bibliothèque, déplace le focus du clavier sur le
+texte de recherche de la bibliothèque locale ou du flux OPDS.
+&lt;/dd>
+&lt;dd> dans la fenêtre du lecteur, déplace le focus du clavier sur le texte de
+recherche de la publication.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> (optionnel) + &lt;kbd>F3&lt;/kbd> : rechercher suivant ou
+précédent (&lt;code>SearchPrevious / SearchNext&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, lorsque la recherche dans toute la publication
+est ouverte, trouve la correspondance précédente ou suivante.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> (facultatif) + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>G&lt;/kbd>
+rechercher suivant ou précédent (&lt;code>SearchPreviousAlt / SearchNextAlt&lt;/code>)
+&lt;/dt>
+&lt;dd> même chose que ci-dessus (raccourci clavier alternatif)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>&amp;larr;&lt;/kbd> ou &lt;kbd>&amp;rarr;&lt;/kbd> :
+page de catalogue suivante ou précédente
+(&lt;code>NavigatePreviousOPDSPage / NavigateNextOPDSPage&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre de bibliothèque pour les flux OPDS, active les liens
+de pagination précédents ou suivants.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>,&lt;/kbd> ou &lt;kbd>.&lt;/kbd> page de catalogue suivante
+ou précédente
+(&lt;code>NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt&lt;/code>) &lt;/dt>
+&lt;dd> même chose que ci-dessus (raccourci clavier alternatif)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> (sauf sur MacOS) +
+&lt;kbd>&amp;larr;&lt;/kbd> ou &lt;kbd>&amp;rarr;&lt;/kbd> : chapitre suivant ou précédent
+(&lt;code>NavigatePreviousChapter / NavigateNextChapter&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, déplacement vers le "chapitre" précédent ou
+suivant. Notez que le focus du clavier est automatiquement déplacé vers le
+repère de la zone "principale", qui se trouve immédiatement avant le cadre qui
+affiche le contenu de la publication (comme lorsqu'on suit / active un lien
+dans la table des matières).
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Page suivante (page down)&lt;/kbd> ou
+&lt;kbd>Page précédente (page up)&lt;/kbd> : chapitre suivant ou précédent
+(&lt;code>NavigatePreviousChapterAlt / NavigateNextChapterAlt&lt;/code>) &lt;/dt>
+&lt;dd> même chose que ci-dessus (raccourci clavier alternatif)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>&amp;larr;&lt;/kbd> ou &lt;kbd>&amp;rarr;&lt;/kbd> : page suivante ou précédente
+(&lt;code>NavigatePreviousPage / NavigateNextPage&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, déplacement vers la "page" précédente ou
+suivante (ou unité de défilement, si la pagination est désactivée)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>,&lt;/kbd> ou &lt;kbd>.&lt;/kbd> : page suivante ou
+précédente (&lt;code>NavigatePreviousPageAlt / NavigateNextPageAlt&lt;/code>) &lt;/dt>
+&lt;dd> même chose que ci-dessus (raccourci clavier alternatif)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Début&lt;/kbd> ou &lt;kbd>Fin&lt;/kbd> : Début ou Fin
+(&lt;code>NavigateToBegin / NavigateToEnd&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, va au début ou à la fin de la publication.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Retour Arrière&lt;/kbd>Élèment d'historique de navigation précédent (`NavigatePreviousHistory`):&lt;/dt>
+&lt;dd>dans la fenêtre de lecture, permet revenir en arrière dans l'historique de navigation
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>shift&lt;/kbd> + &lt;kbd>Retour Arrière&lt;/kbd> Élèment d'historique de navigation suivant (`NavigateNextHistory`)&lt;/dt>
+&lt;dd>dans la fenêtre de lecture, permet revenir en arrière ou avancer dans l'historique de navigation.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd> : précédent (audio)
+(&lt;code>AudioPrevious&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre de lecture, appelle la commande "précédent" pour l'audio
+(lecture à haute voix par TTS ou EPUB3 Media Overlays, ou "rembobinage" pour
+les livres audio)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd> : pause ou reprise (audio)
+(&lt;code>AudioPlayPause&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre du lecteur, appelle les commandes de lecture ou de pause
+pour l'audio (TTS ou EPUB3 Media Overlays pour la lecture à voix haute).
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd> : suivant (audio) (&lt;code>AudioNext&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre de lecture, appelle la commande "next" pour l'audio
+(TTS ou EPUB3 Media Overlays readaloud, ou "forward" pour les livres audio).
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>4&lt;/kbd> : stop (audio) (&lt;code>AudioStop&lt;/code>) &lt;/dt>
+&lt;dd> dans la fenêtre de lecture, appelle la commande "stop" pour l'audio
+(TTS ou EPUB3 Media Overlays readaloud, ou "pause" pour les livres audio).
+&lt;/dd>
+&lt;/dl></description></item><item><title>Docs: Formats de publication pris en charge</title><link>https://thorium.edrlab.org/fr/docs/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/400_ressources/406_formats/</guid><description>
+&lt;dl>
+&lt;dt>EPUB 2&lt;/dt>
+&lt;dd> il s'agit d'un format ancien, uniquement adapté aux
+livres numériques basiques. Le contenu textuel est formaté en XHTML 1 et
+aucune fonction multimédia n'est prise en charge. Les livres numériques
+EPUB 2 sont tout de même accessibles s'ils sont correctement formatés.
+&lt;/dd>&lt;/dl>
+&lt;dl>
+&lt;dt>EPUB 3&lt;/dt>
+&lt;dd> c'est le format recommandé pour le 21ème siècle. Le
+contenu textuel est formaté en (X)HTML 5, il est possible de créer des
+livres numériques à mise en page fixe, l'enrichissement des livres
+numériques et les caractéristiques d'accessibilité sont bien conçues.
+&lt;/dd>&lt;/dl>
+&lt;dl>
+&lt;dt>DAISY v2.02 / v3&lt;/dt> (text, audio, text+audio).
+&lt;/dd>&lt;/dl>
+&lt;dl>
+&lt;dt>PDF&lt;/dt>
+&lt;dd> malgré un manque de flexibilité bien connu (pas d'option de
+mise en page fluide) et un déficit d'accessibilité, de nombreux livres
+numériques ne sont encore disponibles qu'en format PDF, notamment
+au sein de certaines bibliothèques publiques.
+&lt;/dd>&lt;/dl>
+&lt;dl>
+&lt;dt>Livres audio&lt;/dt>
+&lt;dd> Un
+&lt;a href="https://www.w3.org/TR/audiobooks/">format standardisé pour
+les livres audio&lt;/a>
+a été conçu par le groupe de travail sur l'édition du W3C en 2020, et
+EDRLab faisait partie de celui-ci. Thorium supporte le format de livre
+audio &lt;a href="https://www.w3.org/TR/lpf/">LPF&lt;/a>, qui sera bientôt
+largement utilisé par les libraires, du moins nous l'espérons.
+&lt;/dd>&lt;/dl>
+&lt;dl>
+&lt;dt>Bandes dessinées&lt;/dt>
+&lt;dd> EDRLab a conçu un format standard pour les
+bandes dessinées, mangas, webtoons et autres styles d'œuvres numériques
+basés sur des séquences d'images.
+Le format &lt;a href="https://www.edrlab.org/open-standards/">Divina&lt;/a>
+est encore expérimental
+et nous espérons que les éditeurs l'adopteront dès 2022.
+&lt;/dd>&lt;/dl></description></item><item><title>Docs: Astuces</title><link>https://thorium.edrlab.org/fr/docs/400_ressources/409_tips/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/400_ressources/409_tips/</guid><description>
+&lt;p>En maintenant les touches modificatrices &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd>
+tout en appuyant sur la touche &lt;kbd>Entrée&lt;/kbd> ou en cliquant avec la souris
+pour activer les liens dans le volet de navigation modal coulissant, le panneau
+de l&amp;rsquo;interface utilisateur reste ouvert (par exemple, la table des matières,
+les points de repère, les signets, le bouton &lt;code>Aller à la page&lt;/code>, etc.)&lt;/p></description></item><item><title>Docs: Lexique</title><link>https://thorium.edrlab.org/fr/docs/400_ressources/420_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/400_ressources/420_glossary/</guid><description>
+&lt;dl>
+&lt;dt id="bookInformation">Fiche livre&lt;/dt>
+&lt;dd> Donne des informations sur le livre numérique. Ces informations sont
+extraites des métadonnées du fichier, leur qualité et quantité dépend de
+l'attention portée lors de la production du fichier par l'éditeur.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="AdaptedBooks">Livres adaptés&lt;/dt>
+&lt;dd>Ce sont des livres numériques produits par des associations et mis à
+disposition des personnes en situation de handicap pour la lecture.
+Internationalement cette activité est reconnue par le
+&lt;a href="https://www.wipo.int/marrakesh_treaty/fr/index.html">Traité de Marrakech&lt;/a>
+En France ce dispositif est encadré par
+&lt;a href="https://www.culture.gouv.fr/Thematiques/Livre-et-lecture/Les-politiques-de-soutien-a-l-economie-du-livre/L-exception-au-droit-d-auteur-en-faveur-des-personnes-handicapees">
+l'exception handicap du code de la propriété intellectuelle.
+&lt;/a>
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="OPDS">OPDS&lt;/dt>:&lt;dd lang="en"> Open Publication Distribution System
+&lt;/dd>
+&lt;/dl></description></item><item><title>Docs: Questions fréquentes</title><link>https://thorium.edrlab.org/fr/docs/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/400_ressources/430_faq/</guid><description>
+&lt;dl>
+&lt;dt id="TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS).&lt;/dt>
+&lt;dd>Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre.
+&lt;ul>
+&lt;li>Si vous utilisez Windows, vous pouvez suivre le guide de Microsoft &lt;a href="https://support.microsoft.com/fr-fr/topic/t%C3%A9l%C3%A9charger-le-module-linguistique-pour-la-reconnaissance-vocale-24d06ef3-ca09-ddcc-70a0-63606fd16394">Télécharger le module linguistique pour la reconnaissance vocale&lt;/a> (le tritre de cette page ets trompeur mais la manipulation porte bien sur l&amp;rsquo;ajout d&amp;rsquo;une voix correspondante à une langue).&lt;/li>
+&lt;li>Si vous utilisez Mac OSX, le guide &lt;a href="https://support.apple.com/fr-fr/guide/mac-help/mchlp2290/mac">Changer la voix utilisée par votre Mac pour énoncer du texte&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Une fois la voix requise installée, Thorium choisira la voix correspondant à la langue du livre.&lt;/p>
+&lt;p>Il peut arriver que le livre ne renseigne pas la bonne langue. Dans ce cas, Thorium vous permet de changer la voix pour une voix présente dans le système via le menu Voix.
+&lt;/dd>&lt;/p>
+&lt;/dl></description></item></channel></rss>
