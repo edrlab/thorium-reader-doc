@@ -1,11 +1,7 @@
-_site/
-.sass-cache/
-.jekyll-metadata
-
-public/
-.DS_Store
+/public
+resources/
+node_modules/
+package-lock.json
 .hugo_build.lock
-000_notes.md
-resources/_gen/
-issues/
-*.docx
+/W/
+Todo.md
