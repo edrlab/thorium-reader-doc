@@ -12,9 +12,9 @@ Shift+click to zoom in.
 <img src="/images/local-fr/..." alt=""/>
 
 Shortcodes
-* {{< hint info >}}{{< /hint >}}
-* {{< hint warning >}}{{< /hint >}}
-* {{< hint danger >}}{{< /hint >}}
+* {{< alert info >}}{{< /alert>}}
+* {{< alert warning >}}{{< /alert>}}
+* {{< alert danger >}}{{< /alert>}}
 * {{</* tabs "uniqueid" */>}}
     {{</* tab "tabName" */>}}{{</* /tab */>}}
     {{</* tab "tabName" */>}}{{</* /tab */>}}

@@ -9,14 +9,14 @@ toc: false
 When launching Thorium, if a screen reader is detected, the relative functions
 functions are activated.
 
-{{< hint warning >}}
+{{< alert warning >}}
 
 Attention !
 
 Accessibility features addressed to assistive technologies
 are strongly affected by the quality of the book files.
 
-{{< /hint >}}
+{{< /alert>}}
 
 # Keystrokes common to NVDA and JAWS
 

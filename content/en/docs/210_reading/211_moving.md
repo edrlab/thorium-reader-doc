@@ -19,7 +19,6 @@ The navigation options can be very different from one book to another. Thorium a
 While reading, user has the power to navigate from one point to another using Navigation panel or following a link into the publication. This activates jump back (<kbd>Ctrl</kbd>  +  <kbd>backspace</kbd>) and jump forward (<kbd>Ctrl</kbd>  +  <kbd>Shift</kbd> + <kbd>backspace</kbd>) buttons on the bottom left of the reading window. Use this buttons to find a precedent place and return to the last place. 
 
 History Navigation takes into account user interactions, including clicks on bottom timeline, TOC, bookmarks, landmarks, where am I headings, go to page. It does not takes into account search previous and next and list links.
->>>>>>> Stashed changes
 
 ## Move forward and backward
 
@@ -38,7 +37,7 @@ and <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd>
 (except on MacOS) + <kbd>&rarr;</kbd> 
 (next chapter).
 
-{{< hint warning >}}
+{{< alert  >}}
 
 Attention!
 
@@ -46,7 +45,7 @@ There are two different shortcuts to go to the next or previous chapter.
 Depending on your configuration and whether or not you use a screen reader,
 it is possible that only one of these two combinations works.
 
-{{< /hint >}}
+{{< /alert >}}
 
 {{< columns >}}
 
@@ -80,9 +79,9 @@ to explore and move through the table of contents.
 Good-quality digital books have markers that allow you to 
 identify and quickly reach the main parts of a book.
 
-{{< hint info >}}
+{{< alert info >}}
 
-Information
+Information 
 
 Each EPUB publication should include a guide to all major 
 landmarks. The titles of the landmarks are at the discretion of the publisher 
@@ -98,7 +97,7 @@ semantic vocabulary. The main ones are:
 The [complete list of semantic vocabulary EPUB in English](https://www.w3.org/TR/epub-ssv/)
 is available on the W3C website.
 
-{{< /hint >}}
+{{< /alert>}}
 
 <--->
 
@@ -106,7 +105,7 @@ is available on the W3C website.
 
 {{< /columns >}}
 
-{{< hint danger >}}
+{{< alert danger >}}
 
 Attention !
 
@@ -115,7 +114,7 @@ in this format are not interpreted by Thorium.
 
 Unlike Landmarks, Bookmarks are made for users who want to place a mark into a book.
 
-{{< /hint >}}
+{{< /alert>}}
 
 ## The reference pages
 
@@ -138,7 +137,7 @@ changing the value using the `Go to page` box.
 
 {{< /columns >}}
 
-{{< hint warning >}}
+{{< alert warning >}}
 
 Attention !
 
@@ -148,4 +147,4 @@ book breakdown to readers without reproducing the pagination of the
 original pagination. In this case the reference pagination cannot be used 
 to refer to the printed book.
 
-{{< /hint >}}
+{{< /alert>}}

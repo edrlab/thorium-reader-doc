@@ -54,7 +54,7 @@ Navigation mode commands:
 
 {{< /details >}}
 
-{{< hint danger >}}
+{{< alert danger >}}
 Attention !
 These features can only be activated if the book has been designed by
 inserting mathematical formulas in the MathML format. For reasons of
@@ -66,4 +66,4 @@ Books that include mathematics in MathML form should
 indicate this in their accessibility information.
 If this is not indicated, then they are certainly described images.
 
-{{< /hint >}}
+{{< /alert>}}

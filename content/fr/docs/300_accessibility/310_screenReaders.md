@@ -9,14 +9,14 @@ toc: false
 Lors du lancement de Thorium, si un lecteur d'écran est repéré, les fonctions 
 relatives sont activées.
 
-{{< hint warning >}}
+{{< alert warning >}}
 
 Attention !
 
 Les fonctions d'accessibilité adressées aux technologies d'assistance 
 peuvent être affecté par la qualité des fichiers lus. 
 
-{{< /hint >}}
+{{< /alert>}}
 
 # Séquences de touches communes à NVDA et JAWS
 

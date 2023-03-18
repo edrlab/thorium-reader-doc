@@ -16,7 +16,7 @@ borrowed, allowing them to be downloaded and read immediately.
   </p>
   {{< columns >}}
 
-{{< hint info >}}
+{{< alert info >}}
 When you are in the Thorium library, select the 
 `Catalogs` tab then the button `+ Add an OPDS feed`. 
 Indicate a Name to designate this catalog and paste an address corresponding to 
@@ -28,7 +28,7 @@ Right clic Copy this link and paste it into Thorium Add an OPDS panel
 to see the magic happen.</a>
 </p>
 
-{{< /hint >}}
+{{< /alert>}}
 
 <figure>
   <img src="/images/local-fr/thorium-opds-add.png" alt="">

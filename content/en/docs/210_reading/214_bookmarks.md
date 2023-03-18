@@ -20,7 +20,7 @@ The number just after indicates the total number of `Bookmarks` in the Book
 after this action. 
 
 
-{{< hint info >}}
+{{< alert info >}}
 
 Select the text you want to mark.
 Press the `bookmark` button
@@ -29,7 +29,7 @@ Press the `bookmark` button
 
  If no text is selected so the full page will be marked. 
 
-{{< /hint >}}
+{{< /alert>}}
 
 ## Reviewing and navigating the Bookmarks
 
@@ -41,7 +41,7 @@ Access the list of bookmarks in the navigation area. Select the bookmark
 you wish to access and press the <kbd>Enter</kbd> key. If you have
 renamed the bookmark, it will be easy to go to several places in the book.
 
-{{< hint info >}}
+{{< alert info >}}
 Advice
 {{< columns >}}
 If you select a portion of text and then activate the `Bookmark` button, 
@@ -63,7 +63,7 @@ you to use them easily.
   </figcaption>
 </figure>
 {{< /columns >}}
-{{< /hint >}}
+{{< /alert>}}
 
 {{< details "Using bookmarks with NVDA">}}
 

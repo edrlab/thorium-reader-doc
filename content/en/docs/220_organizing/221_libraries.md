@@ -11,13 +11,13 @@ from Windows Explorer or by importing it with the
 `Import Book` button.
 When a book is imported, it is copied and prepared in a reserved folder. 
 
-{{< hint danger >}}
+{{< alert danger >}}
 
 Thorium copies files in a publications subfolder of the EDRLab.ThoriumReader folder. The location of this folder may vary depending on the operating system and may be placed in a hidden folder, you will need to activate display hidden files option to find it. 
 
 Keep in mind that this folder is sensitive because linked to Thorium bookshelf database. For backups or moving from one computer to another, use the `Export` button from the book menu. We hope soon to propose an option to export all titles.
 
-{{< /hint >}}
+{{< /alert>}}
 
 ## My Books
 

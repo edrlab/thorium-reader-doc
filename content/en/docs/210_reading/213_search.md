@@ -15,13 +15,13 @@ in the right panel.
 Each match displayed is a link you can Activate to go to the place 
 of the book where the expression you are looking for was found.
 
-{{< hint warning >}}
+{{< alert warning >}}
 
 Remember that performing a search and navigating thru the results 
 will make you loose the reading point you where at. 
 Just place a Bookmark to make sure you find your way back.
 
-{{< /hint >}}
+{{< /alert>}}
 
 
 <img src="/images/local-fr/thorium-search-navpanel.png" alt="Screenshot, the search bar is present above the text, the corresponding text highlighted in green and the Search panel indicates a match"/>

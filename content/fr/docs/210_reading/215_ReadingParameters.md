@@ -24,7 +24,7 @@ vous souhaitez utiliser. Pour cela la police doit être présente sur votre syst
 d'exploitation et vous devez connaitre son nom exact tel qu'il est renseigné pour 
 le système d'exploitation. 
 
-{{< hint info >}}
+{{< alert info >}}
 
 {{< columns >}}
 ### Exemple 1 : paramétrer Verdana comme police de lecture.
@@ -52,7 +52,7 @@ le système d'exploitation.
 
 {{< /columns >}}
 
-{{< /hint >}}
+{{< /alert>}}
 
 ## Affichage 
 Vous pouvez choisir entre une mise en page avec défilement ou pagination, 
@@ -71,6 +71,6 @@ comporter les notes de bas de page ou bien des encadrés selon la sémantique
 indiquée lors de la fabrication du livre numérique.
 `Split TTS` découpera le contenu par phrase permettant un surlignage plus précis.
 
-{{< hint info >}}
+{{< alert info >}}
 Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée correspondante de la section questions fréquentes [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)](../400_ressources/430_faq#TTSvoicesFR)
-{{< /hint >}}
+{{< /alert>}}

@@ -7,12 +7,12 @@ toc: false
 ---
 
 
-{{< hint warning >}}
+{{< alert warning >}}
 Attention !
 
 The native accessibility features offered by Thorium are strongly 
 affected by the quality of the read files. 
-{{< /hint >}}
+{{< /alert>}}
 
 
 ## Visual adjustments
@@ -29,7 +29,7 @@ affected by the quality of the read files.
 
 - Spacing can be flexibly adjusted, with control over margin, word, letter and line. 
 
-{{< hint danger >}}
+{{< alert danger >}}
 
 Attention !
 
@@ -37,7 +37,7 @@ Visual adjustments are not possible with fixed layout formats such as some
 EPUBs (so-called <span lang="en">Fixed Layout</span>) 
 or PDF files.
 
-{{< /hint >}}
+{{< /alert>}}
 
 ## Text-to-Speech (TTS)
 
@@ -59,6 +59,6 @@ underlined in orange.
 * An alternative (simplified) view of the publication is provided through 
 options available in the `Settings / Readaloud` menu.
 
-{{< hint info >}}
+{{< alert info >}}
 Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry [I can't select the adequate voice for read aloud function (TTS)](../400_ressources/430_faq#TTSvoices).
-{{< /hint >}}
+{{< /alert>}}

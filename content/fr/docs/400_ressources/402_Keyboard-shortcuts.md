@@ -6,13 +6,13 @@ weight: 402
 toc: false
 ---
 
-{{< hint info >}}
+{{< alert info >}}
 Information
 
 La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, 
 ou être indiquée par une fléche vide pointant vers le haut : 
 <kbd><b>&#x21E7;</b></kbd>. 
-{{< /hint >}}
+{{< /alert>}}
 
 
 <dl>

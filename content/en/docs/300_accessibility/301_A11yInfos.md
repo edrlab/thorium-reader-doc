@@ -12,16 +12,16 @@ under the heading `Description` the content of the accessibility summary metadat
 
 <img src="/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs »."/>
 
-{{< hint warning >}}
+{{< alert warning >}}
 
 Attention !
 
 Work is underway to develop a guide for displaying accessibility information. 
 We are following this work and will implement the recommendations soon.
 
-{{< /hint >}}
+{{< /alert>}}
 
-{{< hint danger >}}
+{{< alert danger >}}
 
 Attention !
 
@@ -30,4 +30,4 @@ Thorium displays this information as it was defined.
 In case of doubt or complaint, 
 please contact the distributor or the publisher of the file.
 
-{{< /hint >}}
+{{< /alert>}}

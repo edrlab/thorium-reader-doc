@@ -6,12 +6,12 @@ weight: 310
 toc: false
 ---
 
-{{< hint warning >}}
+{{< alert warning >}}
 Attention !
 
 Les fonctions d'accessibilité natives proposées par Thorium peuvent-être 
 fortement affectées par la qualité des fichiers lus. 
-{{< /hint >}}
+{{< /alert>}}
 
 
 ## Ajustements visuels
@@ -28,7 +28,7 @@ fortement affectées par la qualité des fichiers lus.
 
 - l'espacement peut être ajusté de manière flexible, avec un contrôle sur la marge, les mots, les lettres et l'espacement des lignes. 
 
-{{< hint danger >}}
+{{< alert danger >}}
 
 Attention !
 
@@ -36,7 +36,7 @@ Les ajustements visuels ne sont pas possibles avec les formats à mise en page
 fixe comme certains EPUBs (dits <span lang="en">Fixed Layout</span>) 
 ou les fichiers PDF.
 
-{{< /hint >}}
+{{< /alert>}}
 
 ## Synthèse vocale (TTS)
 
@@ -58,6 +58,6 @@ souligné en orange.
 * Une vue alternative (simplifiée) de la publication est fournie par le biais 
 des options disponible dans le menu `Paramètres / Readaloud`.
 
-{{< hint info >}}
+{{< alert info >}}
 Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée correspondante de la section questions fréquentes [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)](../400_ressources/430_faq#TTSvoicesFR)
-{{< /hint >}}
+{{< /alert>}}

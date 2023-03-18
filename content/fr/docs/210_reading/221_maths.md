@@ -32,7 +32,7 @@ les différentes approches de NVDA, par exemple en utilisant le complément
 Les fonctions d'accessibilité de MathJax devront pour celà être désactivées. 
 {{< /details >}}
 
-{{< hint danger >}}
+{{< alert danger >}}
 Attention ! 
 Ces fonctionalités ne peuvent être activées que si le livre a été conçu en 
 insérant les formules mathématiques sous la forme MathML. Pour des raisons de 
@@ -44,4 +44,4 @@ Les livres qui comportent des mathématiques sous la forme MathML doivent
 l'indiquer dans leurs informations d'accessibilité. 
 Si cela n'est pas indiqué, alors il s'agit certainement d'images décrites.
 
-{{< /hint >}}
+{{< /alert>}}

@@ -13,13 +13,13 @@ bookCollapseSection: false
  concerne les couleurs, la taille du texte, l'espacement, la police et la mise
  en page.
 
- {{< hint warning >}}
+ {{< alert warning >}}
 
 Attention !
 
 Les fonctions d'accessibilité peuvent être affecté par la qualité des fichiers
 lus.
 
-{{< /hint >}}
+{{< /alert>}}
 
 {{<section>}}

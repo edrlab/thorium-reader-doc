@@ -14,7 +14,7 @@ toc: true
 Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight **required** contextual classes (e.g., `.alert-success`). For inline dismissal, use the [alerts jQuery plugin](#dismissing).
 
 {{< example >}}
-{{< alerts.inline >}}
+{{< alert s.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
 <div class="alert alert-{{ .name }}" role="alert">
   A simple {{ .name }} alert—check it out!
@@ -31,7 +31,7 @@ Alerts are available for any length of text, as well as an optional dismiss butt
 Use the `.alert-link` utility class to quickly provide matching colored links within any alert.
 
 {{< example >}}
-{{< alerts.inline >}}
+{{< alert s.inline >}}
 {{- range (index $.Site.Data "theme-colors") }}
 <div class="alert alert-{{ .name }}" role="alert">
   A simple {{ .name }} alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.

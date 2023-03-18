@@ -13,7 +13,7 @@ sous l'intitulé `Description` le contenu de la métadonnée Résumé d'accessib
 
 <img src="/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
 
-{{< hint warning >}}
+{{< alert warning >}}
 
 Attention !
 
@@ -21,9 +21,9 @@ Des travaux sont en cours pour proposer un guide d'affichage des informations
 d'accessibilité. Nous suivons ces travaux et implementerons les recommandations 
 prochainement.
 
-{{< /hint >}}
+{{< /alert>}}
 
-{{< hint danger >}}
+{{< alert danger >}}
 
 Attention !
 
@@ -31,4 +31,4 @@ Les informations d'accessibilité doivent être renseignées par les éditeurs.
 Thorium affiche ces informations telles qu'elles ont étées définies. 
 En cas de doute ou de réclamation contactez le distributeur ou l'éditeur du fichier.
 
-{{< /hint >}}
+{{< /alert>}}

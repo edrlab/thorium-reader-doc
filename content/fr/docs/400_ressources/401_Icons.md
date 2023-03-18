@@ -101,7 +101,7 @@ toc: false
   <img class="icons" src="/images/icons/loader.svg" alt="" width="20px">
   <figcaption class="icon">Indique que le livre est en cours d'ajout à Thorium. Cette indication n'est actuellement pas donnée aux utilisateurs de lecteur d'écran.
   
-  {{< hint warning >}}Cette [Issue n'est pas encore ouverte], vous pouvez l'ouvrir en suivant le [Guide de contribution](https://github.com/edrlab/thorium-reader/issues/new)(https://github.com/edrlab/thorium-reader/issues/new){{< /hint >}}
+  {{< alert warning >}}Cette [Issue n'est pas encore ouverte], vous pouvez l'ouvrir en suivant le [Guide de contribution](https://github.com/edrlab/thorium-reader/issues/new)(https://github.com/edrlab/thorium-reader/issues/new){{< /alert>}}
   <!--TODO open Issue + Contributing.md-->
   </figcaption>
 </figure>

@@ -32,7 +32,7 @@ Il est possible de se déplacer entre les chapitres en utilisant
 suivant) ou <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&larr;</kbd> (chapitre précédent) 
 et <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ALT</kbd> (sauf sur MacOS) + <kbd>&rarr;</kbd> (chapitre suivant).
 
-{{< hint warning >}}
+{{< alert warning >}}
 
 Attention !
 
@@ -40,7 +40,7 @@ Il existe deux raccourcis différents pour passer au chapitre suivant ou précé
 Selon votre configuration et l'usage ou non d'un lecteur d'écran il est possible 
 que seule une de ces deux combinaisons fonctionne.
 
-{{< /hint >}}
+{{< /alert>}}
 
 {{< columns >}}
 
@@ -72,7 +72,7 @@ Vous pouvez utiliser les fonctions de navigation par niveaux de titre
 Les livres numérique de bonne qualité comportent des points de repères qui 
 permettent d'identifier et d'atteindre rapidement les grandes parties d'un livre.
 
-{{< hint info >}}
+{{< alert info >}}
 
 Information
 
@@ -89,7 +89,7 @@ vocabulaire sémantique définis. Les principaux sont :
 
 La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.org/TR/epub-ssv/) est disponible sur le site du W3C.
 
-{{< /hint >}}
+{{< /alert>}}
 
 <--->
 
@@ -97,13 +97,13 @@ La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.o
 
 {{< /columns >}}
 
-{{< hint danger >}}
+{{< alert danger >}}
 
 Attention !
 
 Les signets des fichiers PDF utilisés pour palier à l'absence de table des matière de ce format ne sont pas interprétés par Thorium.
 
-{{< /hint >}}
+{{< /alert>}}
 
 ## Les pages de référence
 
@@ -126,7 +126,7 @@ en modifiant la valeur à l'aide de la boîte `Aller à la page`.
 
 {{< /columns >}}
 
-{{< hint warning >}}
+{{< alert warning >}}
 
 Attention !
 
@@ -136,4 +136,4 @@ découpage du livre régulier aux lecteurs sans reproduire la pagination de
 l'original. Dans ce cas la pagination de référence ne peut pas être utilisée 
 pour se référer au livre imprimé.
 
-{{< /hint >}}
+{{< /alert>}}

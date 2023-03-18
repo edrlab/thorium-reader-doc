@@ -21,7 +21,7 @@ Lorsque vous ajoutez un `Marque page`, une notification apparaît pour vous info
 le `Marque page` a été *ajouté* ou *supprimé*. 
 Le nombre juste après indique le nombre total de  `Marque pages` dans le livre 
 après cette action. 
-{{< hint info >}}
+{{< alert info >}}
 
 Sélectionnez le texte que vous souhaitez marquer. 
 Appuyez sur le bouton `Marque-pages` 
@@ -31,7 +31,7 @@ Appuyez sur le bouton `Marque-pages`
 Si aucun texte n'est sélectionné, 
 le `Marque-pages` sera positionné 
 au début de la page de référence ou de la page calculée par Thorium.
-{{< /hint >}}
+{{< /alert>}}
 
 ## Révision et navigation dans les Marques-pages 
 
@@ -45,7 +45,7 @@ Marque-pages auquel vous souhaitez accéder et appuyez sur la touche
 avez renommé le Marque-pages, il sera facile de retrouver vos repéres dans le livre.
 
 
-{{< hint info >}}
+{{< alert info >}}
 Conseil 
 {{< columns >}}
 Si vous sélectionnez une portion de texte puis activez le bouton `Marque-page`,
@@ -67,7 +67,7 @@ Marque-pages permet de les utiliser facilement.
   </figcaption>
 </figure>
 {{< /columns >}}
-{{< /hint >}}
+{{< /alert>}}
 
 {{< details "Utiliser les **Marque-pages** avec NVDA">}}
 

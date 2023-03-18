@@ -11,21 +11,21 @@ Thorium is a digital book reader, it is also a library
 where you can store your books and access to online catalogs.
 Thorium does not require any account or online access to be launched and used.
 
-{{< hint warning >}}
+{{< alert warning >}}
 Step by step for Windows.
 
 1. [Install Thorium](https://www.edrlab.org/software/thorium-reader/github/win10). The link will open a download dialog box, save the .exe file and launch it from you file manager. follow the install process.
 2. [Download a digital book](https://www.gutenberg.org/ebooks/2701.epub.noimages?). The link will open a download dialog bo or automatically download the .epub book. You can choose to open it with Thorium or save it in your file manager and choose Open with Thorium from the contextual menu. 
 3. Start reading.
 
-{{< /hint >}}
+{{< /alert>}}
 
 {{< columns >}}
 
 Select the book you want to read, use the `contextual menu` 
 (right click), select `open with` and then select `Thorium`.
 
-{{< hint info >}}
+{{< alert info >}}
 
 Information.
 
@@ -38,7 +38,7 @@ in the pop-up window select `Thorium`, check the box
 
 This operation must be repeated for each  
 file format you wish to read with Thorium.
-{{< /hint >}}
+{{< /alert>}}
 
 <--->
 

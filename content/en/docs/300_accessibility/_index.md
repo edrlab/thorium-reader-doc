@@ -14,13 +14,13 @@ The display can be
  customized to meet the needs of users, including colors,
  text size, spacing, font and layout.
 
- {{< hint warning >}}
+ {{< alert warning >}}
 
 Attention !
 
 The accessibility features are strongly dependant and affected by
 the quality of the electronic publication files.
 
-{{< /hint >}}
+{{< /alert>}}
 
 {{<section>}}
