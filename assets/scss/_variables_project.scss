@@ -3,6 +3,33 @@
 Add styles or override variables from the theme here.
 
 */
+.txt-blck{
+    color: #222;
+}
+
+.colonne50 {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    padding: 20px;
+    text-align: left;
+  }
+
+.colonne33 {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    padding: 20px;
+    text-align: right;
+  }
+.colonne66 {
+    display: inline-block;
+    vertical-align: top;
+    width: 66%;
+    padding: 20px;
+    text-align: left;
+}
+
 .documents{
     padding-top: 6em;
 }

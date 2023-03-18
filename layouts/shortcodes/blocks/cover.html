@@ -29,7 +29,6 @@
     <div class="row">
       <div class="col-12">
         <div class="text-center">
-          <img src="https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png" alt="logo of Thorium Reader" srcset="https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png 231w, https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue-100x100.png 100w, https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue-150x150.png 150w, https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue-480x480.png 480w" sizes="(max-width: 155px) 100vw, 155px" width="155" height="155"><p></p>
 
           {{ with .Get "title" }}<h1 class="display-1 mt-0 mt-md-5 pb-4">{{ $title := . }}{{ with $logo_image }}{{ $logo_image_resized := (.Fit (printf "70x70 %s" $logo_anchor)) }}<img class="td-cover-logo" src="{{ $logo_image_resized.RelPermalink }}" alt="{{ $title | html }} Logo">{{ end }}{{ $title | html }}</h1>{{ end }}
           {{ with .Get "subtitle" }}<p class="display-2 text-uppercase mb-0">{{ . | html }}</p>{{ end }}
