@@ -18,14 +18,15 @@ Add styles or override variables from the theme here.
 .colonne33 {
     display: inline-block;
     vertical-align: top;
-    width: 33%;
+    width: 30%;
     padding: 20px;
     text-align: right;
+    margin-right: 1.5em;
   }
 .colonne66 {
     display: inline-block;
     vertical-align: top;
-    width: 66%;
+    width: 60%;
     padding: 20px;
     text-align: left;
 }
