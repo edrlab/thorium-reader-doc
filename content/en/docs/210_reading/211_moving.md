@@ -66,7 +66,7 @@ You can use the title level navigation functions
 to explore and move through the table of contents.
 {{< /details >}}
 
-<--->
+
 
 <img src="/images/local-fr/thorium-TDM-light.png" alt="Screenshot, table of contents: Titles Level 1 Cover, Title, Copyright, Dedicae, Exergue, Introduction, The Mark of Four; Title Level 2 Deduction elevated to a science."/>
 
@@ -99,7 +99,7 @@ is available on the W3C website.
 
 {{< /alert>}}
 
-<--->
+
 
 <img src="/images/local-fr/thorium-reperes.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 
@@ -131,7 +131,7 @@ There is also a keyboard shortcut for this function. Press the
 then enter the page number in the edit box by typing it or 
 changing the value using the `Go to page` box.
 
-<--->
+
 
 <img src="/images/local-fr/thorium-gotopage.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 

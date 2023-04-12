@@ -55,7 +55,7 @@ You can learn more about the
 Specific info on key assistive technologies 
 such as screen readers is provided as necessary.
 
-<--->
+
 
   <h2>Readium LCP DRM</h2>
 

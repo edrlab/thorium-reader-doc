@@ -35,7 +35,7 @@ the operating system.
 2. In the drop-down list select `...`.
 3. Write the word *Verdana* in the empty field that appears next to the drop-down list.
 4. Confirm with <kbd>Enter</kbd>.
-<--->
+
 <img class="icons" src="/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">
 
 
@@ -49,7 +49,7 @@ the operating system.
 4. Write the word *Luciole* in the empty field that appears next to the drop-down list.
 5. Confirm with <kbd>Enter</kbd>.
 
-<--->
+
 
 <img class="icons" src="/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"/>
 

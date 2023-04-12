@@ -36,7 +36,7 @@ to see the magic happen.</a>
   </figcaption>
 </figure>
 
-<--->
+
 <!--TODO: find a localized exemple-->
 ## An exemple : Gallica (French)
 <p>Gallica proposes

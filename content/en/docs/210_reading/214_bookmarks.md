@@ -56,7 +56,7 @@ rename the bookmark. Paste the line from the clipboard and press
 <kbd>Enter</kbd>. This renames the bookmark with the line of text that you have
 copied. When you have several bookmarks, this renaming of the bookmarks allows 
 you to use them easily.
-<--->
+
 <figure>
   <img src="/images/local-fr/thorium-marquePages.png" alt="">
   <figcaption class="icon">

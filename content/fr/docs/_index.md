@@ -63,7 +63,7 @@ Ce site vous permettra d'en savoir plus sur les
 Des informations spécifiques aux principales technologies d'assistance
 comme les lecteurs d'écran sont fournies à chaque fois que c'est nécessaire.
 
-<--->
+
 
   <h2>Readium LCP DRM</h2>
 

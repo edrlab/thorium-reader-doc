@@ -330,7 +330,7 @@ toc: false
   </figcaption>
 </figure>
 
-<--->
+
 ## Doublons à confirmer
 <figure>
   <img class="icons" src="/images/icons/baseline-more_vert-24px.svg" alt="" width="20px">

@@ -32,7 +32,7 @@ le système d'exploitation.
 2. Dans la liste déroulante sélectionnez `...`.
 3. Écrivez le mot *Verdana* dans le champ vide apparu à côté de la liste déroulante. 
 4. Validez avec <kbd>Entrée</kbd>.
-<--->
+
 <img class="icons" src="/images/local-fr/thorium-verdana.png" alt="">
 
 
@@ -46,7 +46,7 @@ le système d'exploitation.
 4. Écrivez le mot *Luciole* dans le champ vide apparu à côté de la liste déroulante. 
 5. Validez avec <kbd>Entrée</kbd>.
 
-<--->
+
 
 <img class="icons" src="/images/local-fr/thorium-luciole.png" alt=""/>
 

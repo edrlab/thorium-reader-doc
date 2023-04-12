@@ -26,7 +26,7 @@ Thorium Reader is for everyone, including people who are blind or have other pri
 
 EDRLab has strong relationships with the DAISY Consortium. Together with people with print disabilities who participate in our design and testing, we are making Thorium Reader one of the most accessible reading applications available.
 
-<--->
+
 
 ## Supported publication formats
 
@@ -53,7 +53,7 @@ Many Public Libraries and booksellers are adopting OPDS as a standard way to exp
 Using OPDS, libraries and booksellers can also expose the personal bookshelf of a patron or customer, i.e. the ebooks the user has acquired and can immediately download and read.
 
 Thorium can browse OPDS 1 and 2 catalogs. It also supports several OPDS compliant authentication mechanisms, and can therefore allow users access to their personal bookshelf.
-<--->
+
 
 ## Readium LCP DRM
 
