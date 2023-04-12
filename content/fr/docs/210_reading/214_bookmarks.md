@@ -47,7 +47,7 @@ avez renommé le Marque-pages, il sera facile de retrouver vos repéres dans le 
 
 {{< alert info >}}
 Conseil 
-{{< columns >}}
+
 Si vous sélectionnez une portion de texte puis activez le bouton `Marque-page`,
 le marque-page créé aura pour intitulé la ligne sélectionnée.
 
@@ -66,7 +66,7 @@ Marque-pages permet de les utiliser facilement.
   <figcaption class="icon">
   </figcaption>
 </figure>
-{{< /columns >}}
+
 {{< /alert>}}
 
 {{< details "Utiliser les **Marque-pages** avec NVDA">}}

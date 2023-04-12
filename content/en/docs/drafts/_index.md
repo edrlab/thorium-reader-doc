@@ -18,7 +18,7 @@ This application is free, with no ads and no leaks of private data.
 
 This is the perfect tools for heavy readers, library patrons and students.
 
-{{< columns >}}
+
 
 ## Accessibility functions
 
@@ -42,9 +42,9 @@ EDRLab has strong relationships with the DAISY Consortium. Together with people 
 
 * Visual narratives: EDRLab has designed a standard format for comics, manga, webtoons and other styles of digital works based on sequances of images. Divina is the name of this format. This is still an experimental format, and we hope that publishers will size it in 2021+.
 
-{{< /columns >}}
 
-{{< columns >}}
+
+
 
 ## OPDS Catalogs
 
@@ -63,7 +63,7 @@ LCP has already been adopted by many Public Libraries, Universities and booksell
 
 Organizations in the publishing sector, worldwide, are encouraged to adopt LCP as a way to protect ebooks against oversharing, while offering to users a frictionless experience and keeping content properly accessible. Please contact EDRLab if your organization is interested by adopting LCP.
 
-{{< /columns >}}
+
 
 ## Licensing
 

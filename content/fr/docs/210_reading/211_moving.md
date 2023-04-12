@@ -42,7 +42,7 @@ que seule une de ces deux combinaisons fonctionne.
 
 {{< /alert>}}
 
-{{< columns >}}
+
 
 ## La table des matières
 
@@ -63,11 +63,11 @@ Vous pouvez utiliser les fonctions de navigation par niveaux de titre
 
 <img src="/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
 
-{{< /columns >}}
+
 
 ## Les points de repères
 
-{{< columns >}}
+
 
 Les livres numérique de bonne qualité comportent des points de repères qui 
 permettent d'identifier et d'atteindre rapidement les grandes parties d'un livre.
@@ -95,7 +95,7 @@ La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.o
 
 <img src="/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 
-{{< /columns >}}
+
 
 {{< alert danger >}}
 
@@ -107,7 +107,7 @@ Les signets des fichiers PDF utilisés pour palier à l'absence de table des mat
 
 ## Les pages de référence
 
-{{< columns >}}
+
 
 Les livres numériques peuvent comporter une pagination de référence permettant 
 une correspondance à la pagination du livre imprimé.
@@ -124,7 +124,7 @@ en modifiant la valeur à l'aide de la boîte `Aller à la page`.
 
 <img src="/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 
-{{< /columns >}}
+
 
 {{< alert warning >}}
 

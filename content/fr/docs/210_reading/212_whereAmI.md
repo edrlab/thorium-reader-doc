@@ -5,7 +5,7 @@ draft: false
 weight: 212
 toc: false
 ---
-{{< columns >}}
+
 Le raccourcis clavier <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd> 
 permet d'obtenir une mention rapide de la position de lecture dans le document. 
 Cette information sera affichée dans la zone de notification en bas à gauche de 
@@ -23,7 +23,7 @@ Cependant, NVDA annoncera le saut de page comme un séparateur s'il a un attribu
 <--->
 <img src="/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."/>
 
-{{< /columns >}}
+
 
 Lorsque vous consultez le menu `Navigation`, Thorium indique le chapitre en cours 
 dans la `table des matières` ainsi que la page en cours dans le menu `Aller à la page`.
@@ -32,7 +32,7 @@ dans la `table des matières` ainsi que la page en cours dans le menu `Aller à 
 
 # Informations de lecture
 
-{{< columns >}}
+
 
 Utilisez la fonction *Informations* (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>) 
 pour ouvrir un panneau qui affiche la structure des titres et le numéro de page.
@@ -52,7 +52,7 @@ et revenir au texte.
 
 <img src="/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
 
-{{< /columns >}}
+
 
 {{< details "Utiliser **Où suis-je** avec NVDA">}}
 

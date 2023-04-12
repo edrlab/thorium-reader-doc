@@ -43,7 +43,7 @@ plus efficacement encore.
     bibliothèques et les étudiants.
   </p>
 
-{{< columns >}}
+
 
 ## Accessibilité
 
@@ -93,4 +93,4 @@ comme les lecteurs d'écran sont fournies à chaque fois que c'est nécessaire.
     organisation est intéressée par l'adoption de LCP.
   </p>
 
-{{< /columns >}}
+

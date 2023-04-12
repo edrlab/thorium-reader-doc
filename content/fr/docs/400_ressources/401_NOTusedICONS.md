@@ -6,7 +6,7 @@ weight: 401
 toc: false
 ---
 
-{{< columns >}}
+
 
 ## Doutes
 
@@ -365,4 +365,3 @@ toc: false
 </figure>
 
 
-{{< /columns >}}

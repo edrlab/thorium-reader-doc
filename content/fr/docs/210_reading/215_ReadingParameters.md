@@ -26,7 +26,7 @@ le système d'exploitation.
 
 {{< alert info >}}
 
-{{< columns >}}
+
 ### Exemple 1 : paramétrer Verdana comme police de lecture.
 1. Dans l'interface de lecture allez au menu Préférence puis Texte. 
 2. Dans la liste déroulante sélectionnez `...`.
@@ -34,9 +34,9 @@ le système d'exploitation.
 4. Validez avec <kbd>Entrée</kbd>.
 <--->
 <img class="icons" src="/images/local-fr/thorium-verdana.png" alt="">
-{{< /columns >}}
 
-{{< columns >}}
+
+
 
 ### Exemple 2 : paramétrer Luciole comme police de lecture.
 
@@ -50,7 +50,7 @@ le système d'exploitation.
 
 <img class="icons" src="/images/local-fr/thorium-luciole.png" alt=""/>
 
-{{< /columns >}}
+
 
 {{< /alert>}}
 

@@ -14,7 +14,7 @@ and can therefore provide users with access to their personal library,
 i.e. the digital books that the user has acquired or 
 borrowed, allowing them to be downloaded and read immediately.
   </p>
-  {{< columns >}}
+  
 
 {{< alert info >}}
 When you are in the Thorium library, select the 
@@ -64,4 +64,4 @@ You can use [feedbooks OPDS](https://www.feedbooks.com/catalog) to browse [Feedb
 
 Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the *Shelf* button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface. 
 
-{{< /columns >}}
+
