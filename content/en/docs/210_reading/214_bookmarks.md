@@ -43,7 +43,7 @@ renamed the bookmark, it will be easy to go to several places in the book.
 
 {{< alert info >}}
 Advice
-{{< columns >}}
+
 If you select a portion of text and then activate the `Bookmark` button, 
 the bookmark created will have the selected line as its title.
 
@@ -62,7 +62,7 @@ you to use them easily.
   <figcaption class="icon">
   </figcaption>
 </figure>
-{{< /columns >}}
+
 {{< /alert>}}
 
 {{< details "Using bookmarks with NVDA">}}

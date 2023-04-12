@@ -47,7 +47,7 @@ it is possible that only one of these two combinations works.
 
 {{< /alert >}}
 
-{{< columns >}}
+
 
 ## The table of contents
 
@@ -70,11 +70,11 @@ to explore and move through the table of contents.
 
 <img src="/images/local-fr/thorium-TDM-light.png" alt="Screenshot, table of contents: Titles Level 1 Cover, Title, Copyright, Dedicae, Exergue, Introduction, The Mark of Four; Title Level 2 Deduction elevated to a science."/>
 
-{{< /columns >}}
+
 
 ## Landmarks
 
-{{< columns >}}
+
 
 Good-quality digital books have markers that allow you to 
 identify and quickly reach the main parts of a book.
@@ -103,7 +103,7 @@ is available on the W3C website.
 
 <img src="/images/local-fr/thorium-reperes.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 
-{{< /columns >}}
+
 
 {{< alert danger >}}
 
@@ -118,7 +118,7 @@ Unlike Landmarks, Bookmarks are made for users who want to place a mark into a b
 
 ## The reference pages
 
-{{< columns >}}
+
 
 Digital books can have a reference pagination allowing 
 correspondence to the pagination of the printed book.
@@ -135,7 +135,7 @@ changing the value using the `Go to page` box.
 
 <img src="/images/local-fr/thorium-gotopage.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 
-{{< /columns >}}
+
 
 {{< alert warning >}}
 

@@ -20,7 +20,7 @@ Pas-à-pas pour Windows.
 
 {{< /alert>}}
 
-{{< columns >}}
+
 
 Sélectionnez le livre que vous souhaitez lire, utilisez le `menu contextuel`
 (clic droit), sélectionnez `ouvrir avec` puis sélectionnez `Thorium`.
@@ -46,4 +46,4 @@ et vous permettra de choisir un livre ou d'en ajouter un mais aussi d'accèder
 Pour lire un livre cliquez simplement dessus ou validez avec <kbd>Entrée</kbd>
 lorsqu'il est sélectionné.
 
-{{< /columns >}}
+

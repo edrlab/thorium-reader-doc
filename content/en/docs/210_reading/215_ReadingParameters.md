@@ -27,7 +27,7 @@ the operating system.
 
 {{< alert info >}}
 
-{{< columns >}}
+
 
 ### Example 1: Setting Verdana as the reading font
 
@@ -37,9 +37,9 @@ the operating system.
 4. Confirm with <kbd>Enter</kbd>.
 <--->
 <img class="icons" src="/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">
-{{< /columns >}}
 
-{{< columns >}}
+
+
 
 ### Example 2: Setting up Luciole as the reading font
 
@@ -53,7 +53,7 @@ the operating system.
 
 <img class="icons" src="/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"/>
 
-{{< /columns >}}
+
 
 {{< /alert>}}
 

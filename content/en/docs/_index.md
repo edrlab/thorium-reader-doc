@@ -37,7 +37,7 @@ menu:
     Made by <a href="https://edrlab.org">EDRLab</a>
   </p>
 
-{{< columns >}}
+
 
 ## Accessibility
 
@@ -85,4 +85,4 @@ such as screen readers is provided as necessary.
     is interested in adopting LCP.
   </p>
 
-{{< /columns >}}
+

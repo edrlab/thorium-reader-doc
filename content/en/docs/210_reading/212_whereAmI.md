@@ -5,7 +5,7 @@ draft: false
 weight: 212
 toc: false
 ---
-{{< columns >}}
+
 The keyboard shortcuts <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>k</kbd>
 allows to get a quick mention of the reading position in the document.
 This information will be displayed in the notification area at the bottom left
@@ -21,7 +21,7 @@ However NVDA will announce the page break as a separator if it has a title attri
 <--->
 <img src="/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>
 
-{{< /columns >}}
+
 
 The keyboard shortcut <kbd>Shift</kbd>  +  <kbd>Ctrl</kbd>  +  <kbd>n</kbd> will open the table of content Navigation menu centered and focused to the detected heading closest to the reading location. 
 
@@ -32,7 +32,7 @@ in the `table of contents` and the current page in the `Go to page` menu.
 
 # Access more informations
 
-{{< columns >}}
+
 
 Use the *Information* function (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>)
 to open a panel that displays the title structure and page number.
@@ -52,7 +52,7 @@ and return to the text.
 
 <img src="/images/local-fr/thorium-progression.png" alt="Screenshot, progress: 14/25 (barrel incident) [1%] h1: VII"/>
 
-{{< /columns >}}
+
 
 {{< details "Use **Where am I** with NVDA">}}
 

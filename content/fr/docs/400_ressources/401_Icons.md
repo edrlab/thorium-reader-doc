@@ -6,7 +6,7 @@ weight: 401
 toc: false
 ---
 
-{{< columns >}}
+
 
 ## les icones de la bibliothèque
 <!--
@@ -261,4 +261,3 @@ toc: false
 </figure>
 
 
-{{< /columns >}}

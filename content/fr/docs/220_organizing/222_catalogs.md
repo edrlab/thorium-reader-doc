@@ -16,7 +16,7 @@ et peut donc permettre aux utilisateurs d'accéder à leur bibliothèque
 personnelle,  c'est-à-dire aux livres numériques que l'utilisateur a acquis ou 
 emprunté,  ce qui permet de les télécharger et de les lire immédiatement.
   </p>
-  {{< columns >}}
+  
 
 {{< alert info >}}
 Lorsque vous êtes dans la bibliothèque de Thorium, sélectionnez l'onglet 
@@ -54,4 +54,4 @@ plus d'information sur le catalogue OPDS de Gallica</a> et
   </figcaption>
 </figure>
 
-{{< /columns >}}
+

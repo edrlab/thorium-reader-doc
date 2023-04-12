@@ -20,7 +20,6 @@ Step by step for Windows.
 
 {{< /alert>}}
 
-{{< columns >}}
 
 Select the book you want to read, use the `contextual menu` 
 (right click), select `open with` and then select `Thorium`.
@@ -40,8 +39,6 @@ This operation must be repeated for each
 file format you wish to read with Thorium.
 {{< /alert>}}
 
-<--->
-
 Thorium can also be launched from the application menu 
 or from any shortcut created. 
 This will open the [library](220_organizing/221_libraries)
@@ -50,4 +47,4 @@ to [catalogs](220_organizing/222_catalogs) and organize your collection.
 To read a book just click on it or validate with <kbd>Enter</kbd>
 when selected.
 
-{{< /columns >}}
+
