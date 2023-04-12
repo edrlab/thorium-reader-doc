@@ -38,14 +38,11 @@ et peut donc permettre aux utilisateurs d'accéder à leur bibliothèque
 personnelle, c'est-à-dire aux livres numériques que l'utilisateur a acquis ou
 emprunté, ce qui permet de les télécharger et de les lire immédiatement.
 &lt;/p>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;div class="alert alert-primary" role="alert">
-&lt;pre>&lt;code>&amp;lt;p&amp;gt;Lorsque vous êtes dans la bibliothèque de Thorium, sélectionnez l&amp;amp;rsquo;onglet
-&lt;/code>&lt;/pre>
-&lt;p>&lt;code>Catalogues&lt;/code> puis le bouton &lt;code>+ Ajouter un flux OPDS&lt;/code>.
+&lt;p>Lorsque vous êtes dans la bibliothèque de Thorium, sélectionnez l&amp;rsquo;onglet
+&lt;code>Catalogues&lt;/code> puis le bouton &lt;code>+ Ajouter un flux OPDS&lt;/code>.
 Indiquez un Nom pour désigner ce catalogues et collez une adresse correspondant
-à un catalogue distribué au format OPDS. Validez avec le bouton &lt;code>Ajouter&lt;/code>.&lt;/p>&lt;/p>
+à un catalogue distribué au format OPDS. Validez avec le bouton &lt;code>Ajouter&lt;/code>.&lt;/p>
 &lt;p>Exemple :
 &lt;a href="http://gallica.bnf.fr/opds" target="_blank">
 Clic droit Copier ce lien et le coller dans Thorium Ajouter un panneau OPDS
@@ -56,8 +53,7 @@ pour voir la magie opérer.&lt;/a>&lt;/p>
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;h2 id="un-exemple--gallica">Un exemple : Gallica&lt;/h2>
 &lt;p>Gallica vous propose un
 &lt;a href="http://gallica.bnf.fr/opds" target="_blank">catalogue OPDS&lt;/a>
@@ -71,9 +67,7 @@ plus d'information sur le catalogue OPDS de Gallica&lt;/a> et
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-gallica-1.png" alt="">
 &lt;figcaption class="icon">
 &lt;/figcaption>
-&lt;/figure>
-&lt;/div>
-&lt;/div></description></item><item><title>Docs: Ajouter des tags</title><link>https://thorium.edrlab.org/fr/docs/220_organizing/223_tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/220_organizing/223_tags/</guid><description>
+&lt;/figure></description></item><item><title>Docs: Ajouter des tags</title><link>https://thorium.edrlab.org/fr/docs/220_organizing/223_tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/220_organizing/223_tags/</guid><description>
 &lt;p>Vous pouvez enrichir les informations des livres de votre bibliothèque en leur
 ajoutant des &lt;code>Tags&lt;/code>. Les &lt;code>Tags&lt;/code> permettent de faire des recherches rapides et de
 trier les livres en vue liste.&lt;/p>

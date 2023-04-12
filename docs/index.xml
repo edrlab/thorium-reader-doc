@@ -10,13 +10,10 @@ Thorium does not require any account or online access to be launched and used.&l
 &lt;li>Start reading.&lt;/li>
 &lt;/ol>
 &lt;/div>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;p>Select the book you want to read, use the &lt;code>contextual menu&lt;/code>
 (right click), select &lt;code>open with&lt;/code> and then select &lt;code>Thorium&lt;/code>.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
-&lt;pre>&lt;code>&amp;lt;p&amp;gt;Information.&amp;lt;/p&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;p>Information.&lt;/p>
 &lt;p>You can set the default application for certain file types
 through the Windows settings.&lt;/p>
 &lt;p>Select a file, open the context menu, select &lt;code>Open with&lt;/code>,
@@ -25,17 +22,13 @@ in the pop-up window select &lt;code>Thorium&lt;/code>, check the box
 &lt;p>This operation must be repeated for each&lt;br>
 file format you wish to read with Thorium.&lt;/p>
 &lt;/div>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
-Thorium can also be launched from the application menu
+&lt;p>Thorium can also be launched from the application menu
 or from any shortcut created.
 This will open the &lt;a href="220_organizing/221_libraries">library&lt;/a>
 and will allow you to choose a book or to add one but also to access
 to &lt;a href="220_organizing/222_catalogs">catalogs&lt;/a> and organize your collection.
 To read a book just click on it or validate with &lt;kbd>Enter&lt;/kbd>
-when selected.
-&lt;/div>
-&lt;/div></description></item><item><title>Docs: Moving around in a book</title><link>https://thorium.edrlab.org/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/210_reading/211_moving/</guid><description>
+when selected.&lt;/p></description></item><item><title>Docs: Moving around in a book</title><link>https://thorium.edrlab.org/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/210_reading/211_moving/</guid><description>
 &lt;p>The navigation options can be very different from one book to another.
 Thorium allows the following.
 The navigation options can be very different from one book to another. Thorium allows:&lt;/p>
@@ -68,8 +61,6 @@ and &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd>
 Depending on your configuration and whether or not you use a screen reader,
 it is possible that only one of these two combinations works.&lt;/p>
 &lt;/div>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;h2 id="the-table-of-contents">The table of contents&lt;/h2>
 &lt;p>The table of contents represents the architecture of the book as defined by
 the book&amp;rsquo;s producing organization.&lt;/p>
@@ -85,19 +76,13 @@ You can use the title level navigation functions
 to explore and move through the table of contents.
 &lt;/div>
 &lt;/details>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-TDM-light.png" alt="Screenshot, table of contents: Titles Level 1 Cover, Title, Copyright, Dedicae, Exergue, Introduction, The Mark of Four; Title Level 2 Deduction elevated to a science."/>
-&lt;/div>
-&lt;/div>
 &lt;h2 id="landmarks">Landmarks&lt;/h2>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;p>Good-quality digital books have markers that allow you to
 identify and quickly reach the main parts of a book.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
-&lt;pre>&lt;code>&amp;lt;p&amp;gt;Information&amp;lt;/p&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;p>Information&lt;/p>
 &lt;p>Each EPUB publication should include a guide to all major
 landmarks. The titles of the landmarks are at the discretion of the publisher
 choice, but the nature of each landmark must be identified according to a
@@ -112,11 +97,8 @@ semantic vocabulary. The main ones are:&lt;/p>
 &lt;p>The &lt;a href="https://www.w3.org/TR/epub-ssv/">complete list of semantic vocabulary EPUB in English&lt;/a>
 is available on the W3C website.&lt;/p>
 &lt;/div>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-reperes.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
-&lt;/div>
-&lt;/div>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;p>PDF bookmarks used to compensate for the lack of a table of contents
@@ -124,8 +106,6 @@ in this format are not interpreted by Thorium.&lt;/p>
 &lt;p>Unlike Landmarks, Bookmarks are made for users who want to place a mark into a book.&lt;/p>
 &lt;/div>
 &lt;h2 id="the-reference-pages">The reference pages&lt;/h2>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;p>Digital books can have a reference pagination allowing
 correspondence to the pagination of the printed book.&lt;/p>
 &lt;p>There is a navigation option to go to the page.
@@ -134,11 +114,8 @@ When you access it, this option shows the current page.&lt;/p>
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>P&lt;/kbd>,
 then enter the page number in the edit box by typing it or
 changing the value using the &lt;code>Go to page&lt;/code> box.&lt;/p>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-gotopage.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
-&lt;/div>
-&lt;/div>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_ressources/420_glossary#AdaptedBooks">
@@ -147,31 +124,24 @@ book breakdown to readers without reproducing the pagination of the
 original pagination. In this case the reference pagination cannot be used
 to refer to the printed book.
 &lt;/div></description></item><item><title>Docs: Where am I?</title><link>https://thorium.edrlab.org/docs/210_reading/212_whereami/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/210_reading/212_whereami/</guid><description>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;p>The keyboard shortcuts &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>k&lt;/kbd>
 allows to get a quick mention of the reading position in the document.
 This information will be displayed in the notification area at the bottom left
 of the interface and will be read by a screen reader.&lt;/p>
-&lt;details >&lt;summary>Screen reader&amp;rsquo;s page location is approximative&lt;/summary>
+&lt;p>&lt;details >&lt;summary>Screen reader&amp;rsquo;s page location is approximative&lt;/summary>
 &lt;div class="markdown-inner">
 &lt;p>Because of inherent limitation in current screen reader technology, Thorium has to estimates the reading location. Consequently the page number anounced by Thorium is not reflecting the place where the screen reader&amp;rsquo;s is actually reading, the error might be of some sentences.&lt;/p>
 &lt;p>This &lt;a href="https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338">screenreader page location issue&lt;/a> is known and we are discuting about a way to solve &lt;a href="https://github.com/edrlab/thorium-reader/discussions/1799">accessible page numbers &amp;amp; page breaks&lt;/a>&lt;/p>
 &lt;p>However NVDA will announce the page break as a separator if it has a title attribute (exemple: &lt;code> &amp;lt;span epub:type=&amp;quot;pagebreak&amp;quot; role=&amp;quot;doc-pagebreak&amp;quot; id=&amp;quot;page_2&amp;quot; class=&amp;quot;page&amp;quot; title=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code> will cause NVDA to anounce &amp;ldquo;Two, separator&amp;rdquo;).&lt;/p>
 &lt;/div>
 &lt;/details>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>
-&lt;/div>
-&lt;/div>
+&amp;lt;&amp;mdash;&amp;gt;
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>&lt;/p>
 &lt;p>The keyboard shortcut &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> will open the table of content Navigation menu centered and focused to the detected heading closest to the reading location.&lt;/p>
 &lt;p>When you look at the &lt;code>Navigation&lt;/code> menu, Thorium shows the current chapter
 in the &lt;code>table of contents&lt;/code> and the current page in the &lt;code>Go to page&lt;/code> menu.&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-tdmfocus.png" alt="Screenshot, reading a book with title VII Barrel Incident. The navigation pane is open, the table of contents shows the title Barrel Incident in a square which indicates that this is the chapter being read."/>
 &lt;h1 id="access-more-informations">Access more informations&lt;/h1>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;p>Use the &lt;em>Information&lt;/em> function (&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>I&lt;/kbd>)
 to open a panel that displays the title structure and page number.&lt;/p>
 &lt;p>In addition to the book information, this sign shows at the subheading Progression:&lt;/p>
@@ -184,11 +154,8 @@ to open a panel that displays the title structure and page number.&lt;/p>
 &lt;/ul>
 &lt;p>Press the &lt;kbd>Escape&lt;/kbd> key to close the &lt;code>Information&lt;/code> panel
 and return to the text.&lt;/p>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-progression.png" alt="Screenshot, progress: 14/25 (barrel incident) [1%] h1: VII"/>
-&lt;/div>
-&lt;/div>
 &lt;details >&lt;summary>Use &lt;strong>Where am I&lt;/strong> with NVDA&lt;/summary>
 &lt;div class="markdown-inner">
 &lt;p>Press the &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>F7&lt;/kbd> keys, and then the
@@ -246,8 +213,6 @@ you wish to access and press the &lt;kbd>Enter&lt;/kbd> key. If you have
 renamed the bookmark, it will be easy to go to several places in the book.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Advice&lt;/p>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;p>If you select a portion of text and then activate the &lt;code>Bookmark&lt;/code> button,
 the bookmark created will have the selected line as its title.&lt;/p>
 &lt;p>If you have bookmarked a line without selecting a portion of text, try copying
@@ -258,16 +223,13 @@ Press the &lt;kbd>b&lt;/kbd> key to move to the edit button to
 rename the bookmark. Paste the line from the clipboard and press
 &lt;kbd>Enter&lt;/kbd>. This renames the bookmark with the line of text that you have
 copied. When you have several bookmarks, this renaming of the bookmarks allows
-you to use them easily.&lt;/p>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+you to use them easily.
+&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;figure>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-marquePages.png" alt="">
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
-&lt;/div>
-&lt;/div>
 &lt;/div>
 &lt;details >&lt;summary>Using bookmarks with NVDA&lt;/summary>
 &lt;div class="markdown-inner">
@@ -297,22 +259,15 @@ To do this, the font must be present on your
 operating system and you must know its exact name as it is set for
 the operating system.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;h3 id="example-1-setting-verdana-as-the-reading-font">Example 1: Setting Verdana as the reading font&lt;/h3>
 &lt;ol>
 &lt;li>In the reading interface go to the &lt;code>Preference&lt;/code> menu and then &lt;code>Text&lt;/code>.&lt;/li>
 &lt;li>In the drop-down list select &lt;code>...&lt;/code>.&lt;/li>
 &lt;li>Write the word &lt;em>Verdana&lt;/em> in the empty field that appears next to the drop-down list.&lt;/li>
-&lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.&lt;/li>
+&lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.
+&amp;lt;&amp;mdash;&amp;gt;
+&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">&lt;/li>
 &lt;/ol>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
-&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">
-&lt;/div>
-&lt;/div>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;h3 id="example-2-setting-up-luciole-as-the-reading-font">Example 2: Setting up Luciole as the reading font&lt;/h3>
 &lt;ol>
 &lt;li>&lt;a href="https://www.luciole-vision.com/Fichiers/Luciole-Regular.ttf">Download and install the Luciole font&lt;/a>&lt;/li>
@@ -321,11 +276,8 @@ the operating system.&lt;/p>
 &lt;li>Write the word &lt;em>Luciole&lt;/em> in the empty field that appears next to the drop-down list.&lt;/li>
 &lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"/>
-&lt;/div>
-&lt;/div>
 &lt;/div>
 &lt;h2 id="display">Display&lt;/h2>
 &lt;p>You can choose between a page layout with scrolling or pagination,
@@ -434,14 +386,11 @@ and can therefore provide users with access to their personal library,
 i.e. the digital books that the user has acquired or
 borrowed, allowing them to be downloaded and read immediately.
 &lt;/p>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;div class="alert alert-primary" role="alert">
-&lt;pre>&lt;code>&amp;lt;p&amp;gt;When you are in the Thorium library, select the
-&lt;/code>&lt;/pre>
-&lt;p>&lt;code>Catalogs&lt;/code> tab then the button &lt;code>+ Add an OPDS feed&lt;/code>.
+&lt;p>When you are in the Thorium library, select the
+&lt;code>Catalogs&lt;/code> tab then the button &lt;code>+ Add an OPDS feed&lt;/code>.
 Indicate a Name to designate this catalog and paste an address corresponding to
-to a catalog distributed in OPDS format. Validate with the button &lt;code>Add&lt;/code>.&lt;/p>&lt;/p>
+to a catalog distributed in OPDS format. Validate with the button &lt;code>Add&lt;/code>.&lt;/p>
 &lt;p>Exemple : &lt;p>
 &lt;a href="http://gallica.bnf.fr/opds" target="_blank">
 Right clic Copy this link and paste it into Thorium Add an OPDS panel
@@ -453,8 +402,7 @@ to see the magic happen.&lt;/a>&lt;/p>
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;!--TODO: find a localized exemple-->
 &lt;h2 id="an-exemple--gallica-french">An exemple : Gallica (French)&lt;/h2>
 &lt;p>Gallica proposes
@@ -474,9 +422,7 @@ more information on the OPDS catalog of Gallica (in French)&lt;/a> and
 &lt;p>For testing purposes EDRLab provides a feed with three free publications under LCP protection. You can add it to Thorium with the following address : &lt;a href="opds://edrlab.org/public/feed/opds-lcp.json">Add EDRLab OPDS public feed&lt;/a>&lt;/p>
 &lt;h2 id="example-of-an-opds-feed-with-copyrighted-books">Example of an OPDS feed with copyrighted books&lt;/h2>
 &lt;p>You can use &lt;a href="https://www.feedbooks.com/catalog">feedbooks OPDS&lt;/a> to browse &lt;a href="https://www.feedbooks.com/#">Feedbook catalog&lt;/a>. Once you have selected a book you&amp;rsquo;ll be redirected to the webpage where you can buy the book.&lt;/p>
-&lt;p>Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the &lt;em>Shelf&lt;/em> button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface.&lt;/p>
-&lt;/div>
-&lt;/div></description></item><item><title>Docs: Add tags</title><link>https://thorium.edrlab.org/docs/220_organizing/223_tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/220_organizing/223_tags/</guid><description>
+&lt;p>Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the &lt;em>Shelf&lt;/em> button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface.&lt;/p></description></item><item><title>Docs: Add tags</title><link>https://thorium.edrlab.org/docs/220_organizing/223_tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/220_organizing/223_tags/</guid><description>
 &lt;p>You can enrich the information of the books in your library by
 adding &lt;code>Tags&lt;/code> to them.
 `Tags&amp;rsquo; allow you to quickly search and sort books in list view.&lt;/p>

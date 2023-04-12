@@ -39,14 +39,11 @@ and can therefore provide users with access to their personal library,
 i.e. the digital books that the user has acquired or
 borrowed, allowing them to be downloaded and read immediately.
 &lt;/p>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;div class="alert alert-primary" role="alert">
-&lt;pre>&lt;code>&amp;lt;p&amp;gt;When you are in the Thorium library, select the
-&lt;/code>&lt;/pre>
-&lt;p>&lt;code>Catalogs&lt;/code> tab then the button &lt;code>+ Add an OPDS feed&lt;/code>.
+&lt;p>When you are in the Thorium library, select the
+&lt;code>Catalogs&lt;/code> tab then the button &lt;code>+ Add an OPDS feed&lt;/code>.
 Indicate a Name to designate this catalog and paste an address corresponding to
-to a catalog distributed in OPDS format. Validate with the button &lt;code>Add&lt;/code>.&lt;/p>&lt;/p>
+to a catalog distributed in OPDS format. Validate with the button &lt;code>Add&lt;/code>.&lt;/p>
 &lt;p>Exemple : &lt;p>
 &lt;a href="http://gallica.bnf.fr/opds" target="_blank">
 Right clic Copy this link and paste it into Thorium Add an OPDS panel
@@ -58,8 +55,7 @@ to see the magic happen.&lt;/a>&lt;/p>
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;!--TODO: find a localized exemple-->
 &lt;h2 id="an-exemple--gallica-french">An exemple : Gallica (French)&lt;/h2>
 &lt;p>Gallica proposes
@@ -79,9 +75,7 @@ more information on the OPDS catalog of Gallica (in French)&lt;/a> and
 &lt;p>For testing purposes EDRLab provides a feed with three free publications under LCP protection. You can add it to Thorium with the following address : &lt;a href="opds://edrlab.org/public/feed/opds-lcp.json">Add EDRLab OPDS public feed&lt;/a>&lt;/p>
 &lt;h2 id="example-of-an-opds-feed-with-copyrighted-books">Example of an OPDS feed with copyrighted books&lt;/h2>
 &lt;p>You can use &lt;a href="https://www.feedbooks.com/catalog">feedbooks OPDS&lt;/a> to browse &lt;a href="https://www.feedbooks.com/#">Feedbook catalog&lt;/a>. Once you have selected a book you&amp;rsquo;ll be redirected to the webpage where you can buy the book.&lt;/p>
-&lt;p>Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the &lt;em>Shelf&lt;/em> button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface.&lt;/p>
-&lt;/div>
-&lt;/div></description></item><item><title>Docs: Add tags</title><link>https://thorium.edrlab.org/docs/220_organizing/223_tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/220_organizing/223_tags/</guid><description>
+&lt;p>Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the &lt;em>Shelf&lt;/em> button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface.&lt;/p></description></item><item><title>Docs: Add tags</title><link>https://thorium.edrlab.org/docs/220_organizing/223_tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/220_organizing/223_tags/</guid><description>
 &lt;p>You can enrich the information of the books in your library by
 adding &lt;code>Tags&lt;/code> to them.
 `Tags&amp;rsquo; allow you to quickly search and sort books in list view.&lt;/p>
