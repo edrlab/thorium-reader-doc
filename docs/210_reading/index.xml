@@ -46,7 +46,6 @@ You can use the title level navigation functions
 to explore and move through the table of contents.
 &lt;/div>
 &lt;/details>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-TDM-light.png" alt="Screenshot, table of contents: Titles Level 1 Cover, Title, Copyright, Dedicae, Exergue, Introduction, The Mark of Four; Title Level 2 Deduction elevated to a science."/>
 &lt;h2 id="landmarks">Landmarks&lt;/h2>
 &lt;p>Good-quality digital books have markers that allow you to
@@ -67,7 +66,6 @@ semantic vocabulary. The main ones are:&lt;/p>
 &lt;p>The &lt;a href="https://www.w3.org/TR/epub-ssv/">complete list of semantic vocabulary EPUB in English&lt;/a>
 is available on the W3C website.&lt;/p>
 &lt;/div>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-reperes.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
@@ -84,7 +82,6 @@ When you access it, this option shows the current page.&lt;/p>
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>P&lt;/kbd>,
 then enter the page number in the edit box by typing it or
 changing the value using the &lt;code>Go to page&lt;/code> box.&lt;/p>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-gotopage.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
@@ -98,15 +95,14 @@ to refer to the printed book.
 allows to get a quick mention of the reading position in the document.
 This information will be displayed in the notification area at the bottom left
 of the interface and will be read by a screen reader.&lt;/p>
-&lt;p>&lt;details >&lt;summary>Screen reader&amp;rsquo;s page location is approximative&lt;/summary>
+&lt;details >&lt;summary>Screen reader&amp;rsquo;s page location is approximative&lt;/summary>
 &lt;div class="markdown-inner">
 &lt;p>Because of inherent limitation in current screen reader technology, Thorium has to estimates the reading location. Consequently the page number anounced by Thorium is not reflecting the place where the screen reader&amp;rsquo;s is actually reading, the error might be of some sentences.&lt;/p>
 &lt;p>This &lt;a href="https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338">screenreader page location issue&lt;/a> is known and we are discuting about a way to solve &lt;a href="https://github.com/edrlab/thorium-reader/discussions/1799">accessible page numbers &amp;amp; page breaks&lt;/a>&lt;/p>
 &lt;p>However NVDA will announce the page break as a separator if it has a title attribute (exemple: &lt;code> &amp;lt;span epub:type=&amp;quot;pagebreak&amp;quot; role=&amp;quot;doc-pagebreak&amp;quot; id=&amp;quot;page_2&amp;quot; class=&amp;quot;page&amp;quot; title=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code> will cause NVDA to anounce &amp;ldquo;Two, separator&amp;rdquo;).&lt;/p>
 &lt;/div>
 &lt;/details>
-&amp;lt;&amp;mdash;&amp;gt;
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>
 &lt;p>The keyboard shortcut &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> will open the table of content Navigation menu centered and focused to the detected heading closest to the reading location.&lt;/p>
 &lt;p>When you look at the &lt;code>Navigation&lt;/code> menu, Thorium shows the current chapter
 in the &lt;code>table of contents&lt;/code> and the current page in the &lt;code>Go to page&lt;/code> menu.&lt;/p>
@@ -124,7 +120,6 @@ to open a panel that displays the title structure and page number.&lt;/p>
 &lt;/ul>
 &lt;p>Press the &lt;kbd>Escape&lt;/kbd> key to close the &lt;code>Information&lt;/code> panel
 and return to the text.&lt;/p>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-progression.png" alt="Screenshot, progress: 14/25 (barrel incident) [1%] h1: VII"/>
 &lt;details >&lt;summary>Use &lt;strong>Where am I&lt;/strong> with NVDA&lt;/summary>
 &lt;div class="markdown-inner">
@@ -193,8 +188,7 @@ Press the &lt;kbd>b&lt;/kbd> key to move to the edit button to
 rename the bookmark. Paste the line from the clipboard and press
 &lt;kbd>Enter&lt;/kbd>. This renames the bookmark with the line of text that you have
 copied. When you have several bookmarks, this renaming of the bookmarks allows
-you to use them easily.
-&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
+you to use them easily.&lt;/p>
 &lt;figure>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-marquePages.png" alt="">
 &lt;figcaption class="icon">
@@ -234,10 +228,9 @@ the operating system.&lt;/p>
 &lt;li>In the reading interface go to the &lt;code>Preference&lt;/code> menu and then &lt;code>Text&lt;/code>.&lt;/li>
 &lt;li>In the drop-down list select &lt;code>...&lt;/code>.&lt;/li>
 &lt;li>Write the word &lt;em>Verdana&lt;/em> in the empty field that appears next to the drop-down list.&lt;/li>
-&lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.
-&amp;lt;&amp;mdash;&amp;gt;
-&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">&lt;/li>
+&lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.&lt;/li>
 &lt;/ol>
+&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">
 &lt;h3 id="example-2-setting-up-luciole-as-the-reading-font">Example 2: Setting up Luciole as the reading font&lt;/h3>
 &lt;ol>
 &lt;li>&lt;a href="https://www.luciole-vision.com/Fichiers/Luciole-Regular.ttf">Download and install the Luciole font&lt;/a>&lt;/li>
@@ -246,7 +239,6 @@ the operating system.&lt;/p>
 &lt;li>Write the word &lt;em>Luciole&lt;/em> in the empty field that appears next to the drop-down list.&lt;/li>
 &lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"/>
 &lt;/div>
 &lt;h2 id="display">Display&lt;/h2>

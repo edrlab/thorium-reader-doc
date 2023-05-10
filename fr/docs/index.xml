@@ -21,7 +21,6 @@ dans la fenêtre pop-up sélectionner &lt;code>Thorium&lt;/code>, cocher la case
 &lt;code>Toujours ouvrir avec&lt;/code>). Cette opération doit être renouvelée pour chaque format
 de fichier que vous souhaitez lire avec Thorium.&lt;/p>
 &lt;/div>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;p>Thorium peut aussi être lancé à partir du menu de l&amp;rsquo;application ou de tout
 raccourci créé. Cela ouvrira la &lt;a href="220_organizing/221_libraries">bibliothèque&lt;/a>
 et vous permettra de choisir un livre ou d&amp;rsquo;en ajouter un mais aussi d&amp;rsquo;accèder
@@ -67,7 +66,6 @@ Vous pouvez utiliser les fonctions de navigation par niveaux de titre
 (&lt;kbd>NVDA&lt;/kbd> + &lt;kbd>H&lt;/kbd>) pour explorer et vous déplacer dans la table des matières.
 &lt;/div>
 &lt;/details>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
 &lt;h2 id="les-points-de-repères">Les points de repères&lt;/h2>
 &lt;p>Les livres numérique de bonne qualité comportent des points de repères qui
@@ -87,7 +85,6 @@ vocabulaire sémantique définis. Les principaux sont :&lt;/p>
 &lt;/ul>
 &lt;p>La &lt;a href="https://www.w3.org/TR/epub-ssv/">liste complète du vocabulaire sémantique EPUB en anglais&lt;/a> est disponible sur le site du W3C.&lt;/p>
 &lt;/div>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
@@ -102,7 +99,6 @@ accédez, cette option indique la page actuelle.&lt;/p>
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>P&lt;/kbd>,
 puis saisissez le numéro de page dans la boîte d&amp;rsquo;édition en le tapant ou
 en modifiant la valeur à l&amp;rsquo;aide de la boîte &lt;code>Aller à la page&lt;/code>.&lt;/p>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
@@ -123,8 +119,7 @@ l&amp;rsquo;interface et sera lue par un lecteur d&amp;rsquo;écran.&lt;/p>
 &lt;p>Cependant, NVDA annoncera le saut de page comme un séparateur s&amp;rsquo;il a un attribut title (exemple : &lt;code> &amp;lt;span epub:type=&amp;quot;pagebreak&amp;quot; role=&amp;quot;doc-pagebreak&amp;quot; id=&amp;quot;page_2&amp;quot; class=&amp;quot;page&amp;quot; title=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code> fera que NVDA annoncera &amp;ldquo;Deux, séparateur&amp;rdquo;).&lt;/p>
 &lt;/div>
 &lt;/details>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."/>&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."/>
 &lt;p>Lorsque vous consultez le menu &lt;code>Navigation&lt;/code>, Thorium indique le chapitre en cours
 dans la &lt;code>table des matières&lt;/code> ainsi que la page en cours dans le menu &lt;code>Aller à la page&lt;/code>.&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
@@ -141,7 +136,6 @@ pour ouvrir un panneau qui affiche la structure des titres et le numéro de page
 &lt;/ul>
 &lt;p>Appuyez sur &lt;kbd>Echap&lt;/kbd> pour fermer le panneau &lt;code>Informations&lt;/code>
 et revenir au texte.&lt;/p>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
 &lt;details >&lt;summary>Utiliser &lt;strong>Où suis-je&lt;/strong> avec NVDA&lt;/summary>
 &lt;div class="markdown-inner">
@@ -209,8 +203,7 @@ Appuyez sur la touche &lt;kbd>b&lt;/kbd> pour vous déplacer vers le bouton d&am
 renommer le Marque-page. Collez la ligne du presse-papiers et appuyez sur la
 touche &lt;kbd>Entrée&lt;/kbd>. Cela renomme le Marque-page avec la ligne de texte
 que vous avez copiée. Lorsque vous avez plusieurs Marque-pages, ce renommage des
-Marque-pages permet de les utiliser facilement.
-&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
+Marque-pages permet de les utiliser facilement.&lt;/p>
 &lt;figure>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-marquePages.png" alt="">
 &lt;figcaption class="icon">
@@ -256,10 +249,9 @@ le système d&amp;rsquo;exploitation.&lt;/p>
 &lt;li>Dans l&amp;rsquo;interface de lecture allez au menu Préférence puis Texte.&lt;/li>
 &lt;li>Dans la liste déroulante sélectionnez &lt;code>...&lt;/code>.&lt;/li>
 &lt;li>Écrivez le mot &lt;em>Verdana&lt;/em> dans le champ vide apparu à côté de la liste déroulante.&lt;/li>
-&lt;li>Validez avec &lt;kbd>Entrée&lt;/kbd>.
-&amp;lt;&amp;mdash;&amp;gt;
-&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt="">&lt;/li>
+&lt;li>Validez avec &lt;kbd>Entrée&lt;/kbd>.&lt;/li>
 &lt;/ol>
+&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt="">
 &lt;h3 id="exemple-2--paramétrer-luciole-comme-police-de-lecture">Exemple 2 : paramétrer Luciole comme police de lecture.&lt;/h3>
 &lt;ol>
 &lt;li>&lt;a href="https://www.luciole-vision.com/Fichiers/Luciole-Regular.ttf">Téléchargez et installez la police Luciole&lt;/a>&lt;/li>
@@ -268,7 +260,6 @@ le système d&amp;rsquo;exploitation.&lt;/p>
 &lt;li>Écrivez le mot &lt;em>Luciole&lt;/em> dans le champ vide apparu à côté de la liste déroulante.&lt;/li>
 &lt;li>Validez avec &lt;kbd>Entrée&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-luciole.png" alt=""/>
 &lt;/div>
 &lt;h2 id="affichage">Affichage&lt;/h2>
@@ -374,7 +365,6 @@ pour voir la magie opérer.&lt;/a>&lt;/p>
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>&amp;lt;&amp;mdash;&amp;gt;&lt;/p>
 &lt;h2 id="un-exemple--gallica">Un exemple : Gallica&lt;/h2>
 &lt;p>Gallica vous propose un
 &lt;a href="http://gallica.bnf.fr/opds" target="_blank">catalogue OPDS&lt;/a>
