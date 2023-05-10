@@ -20,7 +20,7 @@ Cependant, NVDA annoncera le saut de page comme un séparateur s'il a un attribu
 
 {{< /details >}}
 
-<--->
+
 <img src="/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."/>
 
 
@@ -48,7 +48,7 @@ En plus des informations sur le livre, ce panneau indique au sous titre Progress
 Appuyez sur  <kbd>Echap</kbd>  pour fermer le panneau `Informations` 
 et revenir au texte.
 
-<--->
+
 
 <img src="/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
 

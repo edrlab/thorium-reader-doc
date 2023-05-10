@@ -18,7 +18,7 @@ This [screenreader page location issue](https://github.com/edrlab/thorium-reader
 
 However NVDA will announce the page break as a separator if it has a title attribute (exemple: ` <span epub:type="pagebreak" role="doc-pagebreak" id="page_2" class="page" title="2"/>` will cause NVDA to anounce "Two, separator").
 {{< /details >}}
-<--->
+
 <img src="/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>
 
 
@@ -48,7 +48,7 @@ In addition to the book information, this sign shows at the subheading Progressi
 Press the  <kbd>Escape</kbd> key to close the `Information` panel
 and return to the text.
 
-<--->
+
 
 <img src="/images/local-fr/thorium-progression.png" alt="Screenshot, progress: 14/25 (barrel incident) [1%] h1: VII"/>
 

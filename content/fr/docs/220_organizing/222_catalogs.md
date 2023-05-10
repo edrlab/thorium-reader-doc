@@ -36,7 +36,7 @@ pour voir la magie opérer.</a>
   </figcaption>
 </figure>
 
-<--->
+
 
 ## Un exemple : Gallica
 <p>Gallica vous propose un 

@@ -60,7 +60,7 @@ renommer le Marque-page. Collez la ligne du presse-papiers et appuyez sur la
 touche <kbd>Entrée</kbd>. Cela renomme le Marque-page avec la ligne de texte 
 que vous avez copiée. Lorsque vous avez plusieurs Marque-pages, ce renommage des 
 Marque-pages permet de les utiliser facilement.
-<--->
+
 <figure>
   <img src="/images/local-fr/thorium-marquePages.png" alt="">
   <figcaption class="icon">

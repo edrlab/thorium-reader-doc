@@ -37,7 +37,7 @@ dans la fenêtre pop-up sélectionner `Thorium`, cocher la case
 de fichier que vous souhaitez lire avec Thorium.
 {{< /alert>}}
 
-<--->
+
 
 Thorium peut aussi être lancé à partir du menu de l'application ou de tout
 raccourci créé. Cela ouvrira la [bibliothèque](220_organizing/221_libraries)

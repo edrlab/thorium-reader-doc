@@ -107,7 +107,7 @@ toc: false
 </figure>
 
 
-<--->
+
 ## les icones du lecteur
 
 <figure>
