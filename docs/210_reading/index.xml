@@ -210,6 +210,9 @@ in the current publication.
 &lt;/div>
 &lt;/details></description></item><item><title>Docs: Reading settings</title><link>https://thorium.edrlab.org/docs/210_reading/215_readingparameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/210_reading/215_readingparameters/</guid><description>
 &lt;p>In the reading interface use the &lt;code>Preferences&lt;/code> button (&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="" width="20px">): the following options are revealed.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+Reading settings can be saved or reset by using buttons &lt;code>Save&lt;/code> and &lt;code>Reset&lt;/code> located in the menu &lt;code>Settings&lt;/code>, submenu &lt;code>Configuration&lt;/code> of the Reading window.
+&lt;/div>
 &lt;h2 id="theme">Theme&lt;/h2>
 &lt;p>The color of the background and foreground can be changed using one of the three
 available themes - Neutral, Sepia and Night.&lt;/p>

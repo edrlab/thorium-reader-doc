@@ -4,6 +4,7 @@
 &lt;p>La touche &lt;kbd>Shift&lt;/kbd> est marquée &lt;kbd>Maj&lt;/kbd> sur certains claviers,
 ou être indiquée par une fléche vide pointant vers le haut :
 &lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd>.&lt;/p>
+&lt;p>La touche &lt;kbd>Ctrl&lt;/kbd> est remplacée par la touche &lt;kbd>Cmd&lt;/kbd> pour les claviers Mac.&lt;/p>
 &lt;/div>
 &lt;dl>
 &lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd> : contenu (&lt;code>FocusMain&lt;/code>) &lt;/dt>

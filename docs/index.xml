@@ -240,6 +240,9 @@ in the current publication.
 &lt;/div>
 &lt;/details></description></item><item><title>Docs: Reading settings</title><link>https://thorium.edrlab.org/docs/210_reading/215_readingparameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/210_reading/215_readingparameters/</guid><description>
 &lt;p>In the reading interface use the &lt;code>Preferences&lt;/code> button (&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="" width="20px">): the following options are revealed.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+Reading settings can be saved or reset by using buttons &lt;code>Save&lt;/code> and &lt;code>Reset&lt;/code> located in the menu &lt;code>Settings&lt;/code>, submenu &lt;code>Configuration&lt;/code> of the Reading window.
+&lt;/div>
 &lt;h2 id="theme">Theme&lt;/h2>
 &lt;p>The color of the background and foreground can be changed using one of the three
 available themes - Neutral, Sepia and Night.&lt;/p>
@@ -338,11 +341,13 @@ understanding of the formula via a precise description.&lt;/p>
 indicate this in their accessibility information.
 If this is not indicated, then they are certainly described images.&lt;/p>
 &lt;/div></description></item><item><title>Docs: The library</title><link>https://thorium.edrlab.org/docs/220_organizing/221_libraries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/220_organizing/221_libraries/</guid><description>
-&lt;p>A book can be added to the library by opening it with Thorium
-from Windows Explorer or by importing it with the
-&lt;code>Import Book&lt;/code> button.
-When a book is imported, it is copied and prepared in a reserved folder.&lt;/p>
+&lt;h2 id="add-a-book-or-books">Add a book or books&lt;/h2>
+&lt;p>you can drag and drop a folder into the library window from your operating system&amp;rsquo;s file browser, and it will be scanned recursively (i.e., the subfolders will also be scanned for publications).&lt;/p>
+&lt;p>Alternatively you can select multiple files from your filesystem using your operating system&amp;rsquo;s file browser (the files can be located inside different folders of the tree / hierarchy), then drag and drop the selected publications into Thorium&amp;rsquo;s library window.&lt;/p>
+&lt;p>You can also click on the &lt;code>+&lt;/code> button in the user interface to open Thorium&amp;rsquo;s file chooser, and from there you can select multiple files from folders, or choose all files in a folder using the operating system&amp;rsquo;s shortcut &lt;kbd>Ctrl&lt;kbd> + &lt;kbd>A&lt;kbd> or mouse selection.&lt;/p>
+&lt;p>Note that the &amp;ldquo;open with&amp;rdquo; context menu in the operating system&amp;rsquo;s file explorer will open the reader window(s) for all selected publications, unlike the above methods which only import the files in Thorium&amp;rsquo;s library.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
+&lt;p>Attention&lt;/p>
 &lt;p>Thorium copies files in a publications subfolder of the EDRLab.ThoriumReader folder. The location of this folder may vary depending on the operating system and may be placed in a hidden folder, you will need to activate display hidden files option to find it.&lt;/p>
 &lt;p>Keep in mind that this folder is sensitive because linked to Thorium bookshelf database. For backups or moving from one computer to another, use the &lt;code>Export&lt;/code> button from the book menu. We hope soon to propose an option to export all titles.&lt;/p>
 &lt;/div>
@@ -1017,6 +1022,11 @@ accessible reading applications on the market.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Keyboard shortcuts</title><link>https://thorium.edrlab.org/docs/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/400_ressources/402_keyboard-shortcuts/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Information&lt;/p>
+&lt;p>The &lt;kbd>Shift&lt;/kbd> key is represented by an empty arrow pointing up on some keyboards: &lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd>.&lt;/p>
+&lt;p>The &lt;kbd>Ctrl&lt;/kbd> key is replaced by &lt;kbd>Cmd&lt;/kbd> key on Mac keyboards.&lt;/p>
+&lt;/div>
 &lt;dl>
 &lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd>: Main content(`FocusMain`)&lt;/dt>
 &lt;dd>in reader and library windows, moves the keyboard focus to the "main" area landmark (in the reader view, this is immediately before the frame that displays publication content)

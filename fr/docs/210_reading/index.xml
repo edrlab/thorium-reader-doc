@@ -203,6 +203,9 @@ dans la publication en cours.
 &lt;dt>(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="" width="20px">)&lt;/dt>
 &lt;dd>en cliquant sur ce bouton, les options suivantes sont révélées.&lt;/dd>
 &lt;/dl>
+&lt;div class="alert alert-primary" role="alert">
+Les paramétres de lecture peuvent être sauvegardés et réinitialisés depuis la fenétre de lecture via les boutons &lt;code>Sauvegarder&lt;/code> et &lt;code>Réinitialiser&lt;/code> qui se situent dans le sous menu &lt;code>Configuration&lt;/code> du menu &lt;code>Préférences&lt;/code>.
+&lt;/div>
 &lt;h2 id="thème">Thème&lt;/h2>
 &lt;p>La couleur de l&amp;rsquo;arrière-plan et du premier plan peut être modifiée en utilisant
 l&amp;rsquo;un des trois thèmes disponibles - Neutre, Sépia et Nuit.&lt;/p>
