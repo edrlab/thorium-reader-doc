@@ -8,6 +8,9 @@ toc: false
 
 In the reading interface use the `Preferences` button (<img class="icons" src="/images/icons/font-size.svg" alt="" width="20px">): the following options are revealed.
 
+{{< alert info >}}
+Reading settings can be saved or reset by using buttons `Save` and `Reset` located in the menu `Settings`, submenu `Configuration` of the Reading window.
+{{< /alert info >}}
 ## Theme
 
 The color of the background and foreground can be changed using one of the three
