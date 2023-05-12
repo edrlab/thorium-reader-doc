@@ -12,7 +12,7 @@ you can drag and drop a folder into the library window from your operating syste
 
 Alternatively you can select multiple files from your filesystem using your operating system's file browser (the files can be located inside different folders of the tree / hierarchy), then drag and drop the selected publications into Thorium's library window.
     
-You can also click on the `+` button in the user interface to open Thorium's file chooser, and from there you can select multiple files from folders, or choose all files in a folder using the operating system's shortcut <kbd>Ctrl<kbd> + <kbd>A<kbd> or mouse selection.
+You can also click on the `+` button in the user interface to open Thorium's file chooser, and from there you can select multiple files from folders, or choose all files in a folder using the operating system's shortcut <kbd>Ctrl</kbd> + <kbd>A</kbd> or mouse selection.
 
 Note that the "open with" context menu in the operating system's file explorer will open the reader window(s) for all selected publications, unlike the above methods which only import the files in Thorium's library.
 
