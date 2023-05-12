@@ -24,7 +24,7 @@ Thorium copies files in a publications subfolder of the EDRLab.ThoriumReader fol
 
 Keep in mind that this folder is sensitive because linked to Thorium bookshelf database. For backups or moving from one computer to another, use the `Export` button from the book menu. We hope soon to propose an option to export all titles.
 
-{{< /alert>}}
+{{< /alert >}}
 
 ## My Books
 

@@ -17,12 +17,14 @@ Vous pouvez également cliquer sur le bouton `+ Importer un livre` dans l'interf
 Notez que le menu contextuel `ouvrir avec` de l'explorateur de fichiers du système d'exploitation ouvrira la ou les fenêtres de lecture pour toutes les publications sélectionnées, contrairement aux méthodes ci-dessus qui n'importent que les fichiers de la bibliothèque de Thorium.
 
 {{< alert danger >}}
+
 Attention
 
 Thorium copie les fichiers dans un sous-dossier publications du dossier EDRLab.ThoriumReader. L'emplacement de ce dossier peut varier en fonction du système d'exploitation et peut être placé dans un dossier caché, vous devrez activer l'option d'affichage des fichiers cachés pour le trouver. 
 
 Gardez à l'esprit que ce dossier est sensible car il est lié à la base de données de l'étagère Thorium. Pour les sauvegardes ou les déplacements d'un ordinateur à l'autre, utilisez le bouton `Exporter` du menu livre. Nous espérons bientôt proposer une option permettant d'exporter tous les titres.
-{{< /alert>}}
+
+{{< /alert >}}
 ## Mes livres
 
 Les livres importés sont présentés dans le menu `Mes livres`. 
