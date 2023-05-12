@@ -60,5 +60,5 @@ underlined in orange.
 options available in the `Settings / Readaloud` menu.
 
 {{< alert info >}}
-Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry [I can't select the adequate voice for read aloud function (TTS)](../400_ressources/430_faq#TTSvoices).
+Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry [I can't select the adequate voice for read aloud function (TTS)](/docs/400_ressources/430_faq#TTSvoices).
 {{< /alert>}}
