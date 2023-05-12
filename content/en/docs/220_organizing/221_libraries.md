@@ -6,12 +6,19 @@ weight: 221
 toc: false
 ---
 
-A book can be added to the library by opening it with Thorium
-from Windows Explorer or by importing it with the
-`Import Book` button.
-When a book is imported, it is copied and prepared in a reserved folder. 
+## Add a book or books
+
+you can drag and drop a folder into the library window from your operating system's file browser, and it will be scanned recursively (i.e., the subfolders will also be scanned for publications). 
+
+Alternatively you can select multiple files from your filesystem using your operating system's file browser (the files can be located inside different folders of the tree / hierarchy), then drag and drop the selected publications into Thorium's library window.
+    
+You can also click on the `+` button in the user interface to open Thorium's file chooser, and from there you can select multiple files from folders, or choose all files in a folder using the operating system's shortcut <kbd>Ctrl<kbd> + <kbd>A<kbd> or mouse selection.
+
+Note that the "open with" context menu in the operating system's file explorer will open the reader window(s) for all selected publications, unlike the above methods which only import the files in Thorium's library.
 
 {{< alert danger >}}
+
+Attention
 
 Thorium copies files in a publications subfolder of the EDRLab.ThoriumReader folder. The location of this folder may vary depending on the operating system and may be placed in a hidden folder, you will need to activate display hidden files option to find it. 
 
