@@ -6,12 +6,23 @@ weight: 221
 toc: false
 ---
 
-Un livre peut être ajouté à la bibliothèque en l'ouvrant avec Thorium 
-à partir de l'explorateur Windows ou en l'important à l'aide du bouton 
-`+ Importer un livre`. 
+## Ajouter un ou des livres 
 
-Lorsq'un livre est importé, il est copié et préparé dans un dossier réservé. 
+Vous pouvez glisser-déposer un dossier dans la fenêtre de la bibliothèque à partir de l'explorateur de fichiers de votre système d'exploitation, il sera analysé de manière récursive (c'est-à-dire que les sous-dossiers seront également analysés à la recherche de publications). 
 
+Vous pouvez également sélectionner plusieurs fichiers dans votre système de fichiers en utilisant le navigateur de fichiers de votre système d'exploitation (les fichiers peuvent être situés dans différents dossiers de l'arborescence), puis glisser-déposer les publications sélectionnées dans la fenêtre de la bibliothèque de Thorium.
+
+Vous pouvez également cliquer sur le bouton `+ Importer un livre` dans l'interface utilisateur pour ouvrir le sélecteur de fichiers de Thorium, et à partir de là, vous pouvez sélectionner plusieurs fichiers dans des dossiers, ou choisir tous les fichiers d'un dossier en utilisant le raccourci <kbd>Ctrl<kbd> + <kbd>A<kbd> du système d'exploitation ou la sélection à la souris.
+
+Notez que le menu contextuel `ouvrir avec` de l'explorateur de fichiers du système d'exploitation ouvrira la ou les fenêtres de lecture pour toutes les publications sélectionnées, contrairement aux méthodes ci-dessus qui n'importent que les fichiers de la bibliothèque de Thorium.
+
+{{< alert danger >}}
+Attention
+
+Thorium copie les fichiers dans un sous-dossier publications du dossier EDRLab.ThoriumReader. L'emplacement de ce dossier peut varier en fonction du système d'exploitation et peut être placé dans un dossier caché, vous devrez activer l'option d'affichage des fichiers cachés pour le trouver. 
+
+Gardez à l'esprit que ce dossier est sensible car il est lié à la base de données de l'étagère Thorium. Pour les sauvegardes ou les déplacements d'un ordinateur à l'autre, utilisez le bouton `Exporter` du menu livre. Nous espérons bientôt proposer une option permettant d'exporter tous les titres.
+{{< /alert>}}
 ## Mes livres
 
 Les livres importés sont présentés dans le menu `Mes livres`. 

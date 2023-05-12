@@ -6,6 +6,17 @@ weight: 402
 toc: false
 ---
 
+{{< alert info >}}
+Information
+
+The <kbd>Shift</kbd> key is represented by an empty arrow pointing up on some keyboards: <kbd><b>&#x21E7;</b></kbd>. 
+
+The <kbd>Ctrl</kbd> key is replaced by <kbd>Cmd</kbd> key on Mac keyboards.
+
+
+{{< /alert>}}
+
+
 <dl>
  <dt>  <kbd>Ctrl</kbd>  +  <kbd>F10</kbd>: Main content(`FocusMain`)</dt>
  <dd>in reader and library windows, moves the keyboard focus to the "main" area landmark (in the reader view, this is immediately before the frame that displays publication content)

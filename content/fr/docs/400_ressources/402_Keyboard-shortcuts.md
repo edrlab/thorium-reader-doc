@@ -12,6 +12,10 @@ Information
 La touche <kbd>Shift</kbd> est marquée <kbd>Maj</kbd> sur certains claviers, 
 ou être indiquée par une fléche vide pointant vers le haut : 
 <kbd><b>&#x21E7;</b></kbd>. 
+
+La touche <kbd>Ctrl</kbd> est remplacée  par la touche <kbd>Cmd</kbd> pour les claviers Mac.
+
+
 {{< /alert>}}
 
 
