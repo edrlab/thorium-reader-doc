@@ -2,7 +2,7 @@
 &lt;h2 id="add-a-book-or-books">Add a book or books&lt;/h2>
 &lt;p>you can drag and drop a folder into the library window from your operating system&amp;rsquo;s file browser, and it will be scanned recursively (i.e., the subfolders will also be scanned for publications).&lt;/p>
 &lt;p>Alternatively you can select multiple files from your filesystem using your operating system&amp;rsquo;s file browser (the files can be located inside different folders of the tree / hierarchy), then drag and drop the selected publications into Thorium&amp;rsquo;s library window.&lt;/p>
-&lt;p>You can also click on the &lt;code>+&lt;/code> button in the user interface to open Thorium&amp;rsquo;s file chooser, and from there you can select multiple files from folders, or choose all files in a folder using the operating system&amp;rsquo;s shortcut &lt;kbd>Ctrl&lt;kbd> + &lt;kbd>A&lt;kbd> or mouse selection.&lt;/p>
+&lt;p>You can also click on the &lt;code>+&lt;/code> button in the user interface to open Thorium&amp;rsquo;s file chooser, and from there you can select multiple files from folders, or choose all files in a folder using the operating system&amp;rsquo;s shortcut &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>A&lt;/kbd> or mouse selection.&lt;/p>
 &lt;p>Note that the &amp;ldquo;open with&amp;rdquo; context menu in the operating system&amp;rsquo;s file explorer will open the reader window(s) for all selected publications, unlike the above methods which only import the files in Thorium&amp;rsquo;s library.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention&lt;/p>
