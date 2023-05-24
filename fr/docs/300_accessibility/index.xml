@@ -74,10 +74,10 @@ des options disponible dans le menu &lt;code>Paramètres / Readaloud&lt;/code>.&
 &lt;/li>
 &lt;/ul>
 &lt;div class="alert alert-primary" role="alert">
-Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l&amp;rsquo;entrée correspondante de la section questions fréquentes &lt;a href="../400_ressources/430_faq#TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)&lt;/a>
+Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l&amp;rsquo;entrée correspondante de la section questions fréquentes &lt;a href="https://thorium.edrlab.org/docs/400_ressources/430_faq#TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)&lt;/a>
 &lt;/div></description></item><item><title>Docs: Lire avec un lecteur d'écran</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/310_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/300_accessibility/310_screenreaders/</guid><description>
-&lt;p>Lors du lancement de Thorium, si un lecteur d&amp;rsquo;écran est repéré, les fonctions
-relatives sont activées.&lt;/p>
+&lt;p>Lors du lancement de Thorium, si un lecteur d&amp;rsquo;écran est repéré, les fonctions relatives sont activées.&lt;/p>
+&lt;p>Notez que les lecteurs d&amp;rsquo;écran utilisent une mémoire tampon séparée pour accéder au contenu HTML, ce qui entraîne une désynchronisation du défilement visuel et du décalage de la page. En d&amp;rsquo;autres termes, Thorium n&amp;rsquo;est généralement pas au courant de la position de lecture actuelle de l&amp;rsquo;utilisateur dans la mémoire tampon du lecteur d&amp;rsquo;écran, à moins que l&amp;rsquo;utilisateur du lecteur d&amp;rsquo;écran ne déclenche des événements API web standard (comme un clic de souris n&amp;rsquo;importe où dans le texte, ou une tabulation du clavier dans des éléments HTML focalisables).&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;p>Les fonctions d&amp;rsquo;accessibilité adressées aux technologies d&amp;rsquo;assistance
