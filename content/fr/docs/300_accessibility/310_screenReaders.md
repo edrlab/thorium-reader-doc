@@ -6,8 +6,9 @@ weight: 310
 toc: false
 ---
 
-Lors du lancement de Thorium, si un lecteur d'écran est repéré, les fonctions 
-relatives sont activées.
+Lors du lancement de Thorium, si un lecteur d'écran est repéré, les fonctions relatives sont activées.
+
+Notez que les lecteurs d'écran utilisent une mémoire tampon séparée pour accéder au contenu HTML, ce qui entraîne une désynchronisation du défilement visuel et du décalage de la page. En d'autres termes, Thorium n'est généralement pas au courant de la position de lecture actuelle de l'utilisateur dans la mémoire tampon du lecteur d'écran, à moins que l'utilisateur du lecteur d'écran ne déclenche des événements API web standard (comme un clic de souris n'importe où dans le texte, ou une tabulation du clavier dans des éléments HTML focalisables).
 
 {{< alert warning >}}
 
