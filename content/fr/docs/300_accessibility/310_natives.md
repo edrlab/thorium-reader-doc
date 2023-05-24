@@ -59,5 +59,5 @@ souligné en orange.
 des options disponible dans le menu `Paramètres / Readaloud`.
 
 {{< alert info >}}
-Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée correspondante de la section questions fréquentes [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)](../400_ressources/430_faq#TTSvoicesFR)
+Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée correspondante de la section questions fréquentes [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)](/docs/400_ressources/430_faq#TTSvoicesFR)
 {{< /alert>}}
