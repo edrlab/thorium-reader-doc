@@ -24,9 +24,9 @@ file format you wish to read with Thorium.&lt;/p>
 &lt;/div>
 &lt;p>Thorium can also be launched from the application menu
 or from any shortcut created.
-This will open the &lt;a href="220_organizing/221_libraries">library&lt;/a>
+This will open the &lt;a href="https://thorium.edrlab.org/docs/220_organizing/221_libraries/">library&lt;/a>
 and will allow you to choose a book or to add one but also to access
-to &lt;a href="220_organizing/222_catalogs">catalogs&lt;/a> and organize your collection.
+to &lt;a href="https://thorium.edrlab.org/docs/220_organizing/222_catalogs/">catalogs&lt;/a> and organize your collection.
 To read a book just click on it or validate with &lt;kbd>Enter&lt;/kbd>
 when selected.&lt;/p></description></item><item><title>Docs: Moving around in a book</title><link>https://thorium.edrlab.org/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/210_reading/211_moving/</guid><description>
 &lt;p>The navigation options can be very different from one book to another.
@@ -388,37 +388,28 @@ borrowed, allowing them to be downloaded and read immediately.
 &lt;code>Catalogs&lt;/code> tab then the button &lt;code>+ Add an OPDS feed&lt;/code>.
 Indicate a Name to designate this catalog and paste an address corresponding to
 to a catalog distributed in OPDS format. Validate with the button &lt;code>Add&lt;/code>.&lt;/p>
-&lt;p>Exemple : &lt;p>
-&lt;a href="http://gallica.bnf.fr/opds" target="_blank">
-Right clic Copy this link and paste it into Thorium Add an OPDS panel
-to see the magic happen.&lt;/a>&lt;/p>
-&lt;/p>
+&lt;p>Example :&lt;/p>
+&lt;p>Activating the following link will download a .atom file that can be opened with Thorium:
+&lt;a href="https://www.gutenberg.org/ebooks/search.opds/" target="_blank">Download OPDS feed for Gutenberg.org new titles
+&lt;/a>&lt;/p>
+&lt;p>It is also possible to use context menu (usually Right clic), Copy this link and paste it into Thorium Add an OPDS panel
+to see the magic happen.&lt;/p>
+&lt;p>OPDS feeds can also be provided as direct links which should open directly in Thorium. &lt;a href="opds://www.gutenberg.org/ebooks/search.opds/" target="_blank">Open OPDS feed for Gutenberg.org new titles&lt;/a>&lt;/p>
+&lt;p>Since Thorium 2.2, OPDS feeds can be edited so you can change the name or retrieve feed URL.&lt;/p>
 &lt;/div>
 &lt;figure>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-add.png" alt="">
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
-&lt;!--TODO: find a localized exemple-->
-&lt;h2 id="an-exemple--gallica-french">An exemple : Gallica (French)&lt;/h2>
-&lt;p>Gallica proposes
-&lt;a href="http://gallica.bnf.fr/opds" target="_blank">an OPDS catalog (in french)&lt;/a>
-to browse, download and read all the books in Gallica.
-&lt;a href="http://gallica.bnf.fr/ebooks" target="_blank">available in EPUB format&lt;/a>.&lt;/p>
-&lt;p>The following links provide
-&lt;a href="http://gallica.bnf.fr/blog/27042017/retrouvez-tous-nos-livres-au-format-epub-dans-votre-application-de-lecture-favorite">
-more information on the OPDS catalog of Gallica (in French)&lt;/a> and
-&lt;a href="https://gallica.bnf.fr/edit/und/a-propos">about Gallica.&lt;/a>&lt;/p>
-&lt;figure>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-gallica-1.png" alt="">
-&lt;figcaption class="icon">
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="example-of-an-opds-feed-with-lcp-protected-contents">Example of an OPDS feed with LCP protected contents&lt;/h2>
-&lt;p>For testing purposes EDRLab provides a feed with three free publications under LCP protection. You can add it to Thorium with the following address : &lt;a href="opds://edrlab.org/public/feed/opds-lcp.json">Add EDRLab OPDS public feed&lt;/a>&lt;/p>
-&lt;h2 id="example-of-an-opds-feed-with-copyrighted-books">Example of an OPDS feed with copyrighted books&lt;/h2>
-&lt;p>You can use &lt;a href="https://www.feedbooks.com/catalog">feedbooks OPDS&lt;/a> to browse &lt;a href="https://www.feedbooks.com/#">Feedbook catalog&lt;/a>. Once you have selected a book you&amp;rsquo;ll be redirected to the webpage where you can buy the book.&lt;/p>
-&lt;p>Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the &lt;em>Shelf&lt;/em> button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface.&lt;/p></description></item><item><title>Docs: Add tags</title><link>https://thorium.edrlab.org/docs/220_organizing/223_tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/220_organizing/223_tags/</guid><description>
+&lt;h2 id="example-of-opds-feeds-with-lcp-protected-contents">Example of OPDS feeds with LCP protected contents&lt;/h2>
+&lt;p>Feeds with protected contents should allow you to login directly from Thorium catalog page, the button or access to login might be different depending on the feed provider.&lt;/p>
+&lt;p>Archive.org OPDS feed allows to browse and borrow books under LCP license. An Archive org account is needed, authentication page will open once you select a book. You can add it to Thorium with the following address: &lt;a href="opds://archive.org/services/opds">Open Archive.org OPDS feed&lt;a>&lt;/p>
+&lt;p>You can use &lt;a href="https://catalog.feedbooks.com/catalog/index.json">feedbooks OPDS&lt;/a> to browse &lt;a href="https://www.feedbooks.com/#">Feedbook catalog&lt;/a>. Once you have selected a book you&amp;rsquo;ll be redirected to the webpage where you can buy the book.&lt;/p>
+&lt;p>Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the &lt;em>Shelf&lt;/em> button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface.&lt;/p>
+&lt;p>For testing purposes EDRLab provides a feed with three free publications under LCP protection. You can add it to Thorium with the following address: &lt;a href="opds://edrlab.org/public/feed/opds-lcp.json">Add EDRLab OPDS public feed&lt;/a>&lt;/p>
+&lt;h2 id="opds-feed-responsibility">OPDS Feed responsibility&lt;/h2>
+&lt;p>OPDS feeds and the access they provide to content are under responsibility of the feed publisher. So are the information given by the feed.&lt;/p></description></item><item><title>Docs: Add tags</title><link>https://thorium.edrlab.org/docs/220_organizing/223_tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/220_organizing/223_tags/</guid><description>
 &lt;p>You can enrich the information of the books in your library by
 adding &lt;code>Tags&lt;/code> to them.
 `Tags&amp;rsquo; allow you to quickly search and sort books in list view.&lt;/p>
