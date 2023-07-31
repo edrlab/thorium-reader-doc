@@ -39,7 +39,16 @@ Depuis Thorium 2.2, les flux OPDS peuvent être édités, ce qui permet de chang
   </figcaption>
 </figure>
 
-## Un exemple français : Gallica
+## Exemples français 
+### OpenEditions
+ L'ensemble du catalogue des livres et revues d'OpenEdition est accessible via le protocole OPDS: 
+ <a href="https://opds.openedition.org/">Télécharger le flux OPDS OpenEdition</a> 
+ ou 
+<a href="opds://opds.openedition.org/">Ouvrir le catalogue OPDS OpenEdition</a>
+
+*Attention, les revues sont téléchargeables directement depuis ce flux mais les livres proposés ne sont plus vendus par openEdition et ne peuvent par conséquent plus être achetés via ce flux.*
+
+### Gallica
 
 *Note de la rédaction : en juillet 2023, le flux OPDS de Gallica ne permet plus d'accéder aux livres, nous espérons qu'il soit rapidement réparé.*
 
