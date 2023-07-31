@@ -40,9 +40,9 @@ de fichier que vous souhaitez lire avec Thorium.
 
 
 Thorium peut aussi être lancé à partir du menu de l'application ou de tout
-raccourci créé. Cela ouvrira la [bibliothèque](220_organizing/221_libraries)
+raccourci créé. Cela ouvrira la [bibliothèque](/fr/docs/220_organizing/221_libraries/)
 et vous permettra de choisir un livre ou d'en ajouter un mais aussi d'accèder
-à des [catalogues](220_organizing/222_catalogs) et d'organiser vos collection.
+à des [catalogues](/fr/docs/220_organizing/222_catalogs/) et d'organiser vos collection.
 Pour lire un livre cliquez simplement dessus ou validez avec <kbd>Entrée</kbd>
 lorsqu'il est sélectionné.
 

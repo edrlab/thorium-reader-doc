@@ -41,9 +41,9 @@ file format you wish to read with Thorium.
 
 Thorium can also be launched from the application menu 
 or from any shortcut created. 
-This will open the [library](220_organizing/221_libraries)
+This will open the [library](/docs/220_organizing/221_libraries/)
 and will allow you to choose a book or to add one but also to access
-to [catalogs](220_organizing/222_catalogs) and organize your collection.
+to [catalogs](/docs/220_organizing/222_catalogs/) and organize your collection.
 To read a book just click on it or validate with <kbd>Enter</kbd>
 when selected.
 
