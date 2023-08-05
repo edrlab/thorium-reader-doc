@@ -374,7 +374,14 @@ Télécharger le flux OPDS pour les nouveaux titres de Gutenberg.org
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
-&lt;h2 id="un-exemple-français--gallica">Un exemple français : Gallica&lt;/h2>
+&lt;h2 id="exemples-français">Exemples français&lt;/h2>
+&lt;h3 id="openeditions">OpenEditions&lt;/h3>
+&lt;p>L&amp;rsquo;ensemble du catalogue des livres et revues d&amp;rsquo;OpenEdition est accessible via le protocole OPDS:
+&lt;a href="https://opds.openedition.org/">Télécharger le flux OPDS OpenEdition&lt;/a>
+ou
+&lt;a href="opds://opds.openedition.org/">Ouvrir le catalogue OPDS OpenEdition&lt;/a>&lt;/p>
+&lt;p>&lt;em>Attention, les revues sont téléchargeables directement depuis ce flux mais les livres proposés ne sont plus vendus par openEdition et ne peuvent par conséquent plus être achetés via ce flux.&lt;/em>&lt;/p>
+&lt;h3 id="gallica">Gallica&lt;/h3>
 &lt;p>&lt;em>Note de la rédaction : en juillet 2023, le flux OPDS de Gallica ne permet plus d&amp;rsquo;accéder aux livres, nous espérons qu&amp;rsquo;il soit rapidement réparé.&lt;/em>&lt;/p>
 &lt;p>Gallica propose un
 &lt;a href="http://gallica.bnf.fr/opds" target="_blank">catalogue OPDS&lt;/a>
