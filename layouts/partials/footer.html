@@ -17,7 +17,8 @@
         {{ end }}
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2 text-white">
-        {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }} 
+        <!-- {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }}  -->
+        <small class="text-white">© 2023 <a href="https://edrlab.org">EDRLab </a><a href="http://www.apache.org/licenses/LICENSE-2.0"></a>Apache-2.0 license </small>
        <br/>
         {{ with .Site.Params.privacy_policy }}<small class="ml-1"><a  class="orange"href="{{ . }}">{{ T "footer_privacy_policy" }}</a></small>{{ end }} 
         | {{ with .Site.Params.accessibility }} <small class="ml-1"><a  class="orange"href="{{ . }}">{{ T "footer_accessibility" }}</a></small>{{ end }} 
