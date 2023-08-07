@@ -7,13 +7,15 @@ toc: false
 ---
 Dans l'interface de lecture utilisez le bouton `Préférences` 
 (<img class="icons" src="/images/icons/font-size.svg" alt="" width="20px">)
-: en cliquant sur ce bouton, les options suivantes sont révélées.
+: en cliquant sur ce bouton, les options sont révélées.
 
 {{< alert info >}}
 
 Les paramétres de lecture peuvent être sauvegardés et réinitialisés depuis la fenétre de lecture via les boutons `Sauvegarder` et `Réinitialiser` qui se situent dans le sous menu `Configuration` du menu `Préférences`.
 
 {{< /alert >}}
+
+Les principaux paramètres de personnalisation sont disponibles pour les EPUB adaptable (Reflowable), les EPUB à mise en page fixe et les formats PDF ne permettent tout simplement pas de personnaliser l'apparence. La plupart des EPUB à mise en page fixe permettent d'ouvrir une vue d'image pour zoomer sur une page. Les PDF peuvent être agrandis via le sous menu `Zoom` du menu `préférences`.
 ## Thème
 La couleur de l'arrière-plan et du premier plan peut être modifiée en utilisant 
 l'un des trois thèmes disponibles - Neutre, Sépia et Nuit.
