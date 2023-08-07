@@ -2,7 +2,7 @@
 title: "Paramètres de lecture"
 description: ""
 draft: false
-weight: 214
+weight: 216
 toc: false
 ---
 Dans l'interface de lecture utilisez le bouton `Préférences` 
