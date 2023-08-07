@@ -2,7 +2,7 @@
 title: "Zoomer sur les images"
 description: ""
 draft: false
-weight: 212
+weight: 213
 toc: false
 ---
 Depuis la version 2.3, Thorium dispose d'une fonction de zoom sur les images (dans les epub seulement).
