@@ -5,8 +5,12 @@ draft: false
 weight: 221
 toc: false
 ---
-Thorium-Reader supports mathematical formulas in MathML
-format thanks to the MathJax module. This last one requires memory resources
+Since 2.3 Thorium Reader supports mathematical formulas in MathML natively thanks to Chromium. 
+MathJax module is incorporated and may be of use for interoperability and accessibility needs. 
+
+If you make use of the MathJax module you might be interested by [MathJax documentation](https://docs.mathjax.org/en/latest/). 
+
+Previous versions rely on the MathJax module. This last one requires memory resources
 so it is not automatically activated when you open Thorium.
 To activate it when reading a book, go to the
 menu `Reading settings`, at the bottom of the `Display` tab you will find
