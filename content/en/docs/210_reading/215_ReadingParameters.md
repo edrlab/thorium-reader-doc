@@ -12,7 +12,7 @@ In the reading interface use the `Preferences` button (<img class="icons" src="/
 Reading settings can be saved or reset by using buttons `Save` and `Reset` located in the menu `Settings`, submenu `Configuration` of the Reading window.
 {{< /alert >}}
 
-Major settings are available for EPUB Reflowable, Fixed Layout EPUBs and PDF formats just don't allow personalisation of appearance. Most Fixed Layout EPUBs will allow to open Image view for sooming on a page. PDFs can be enlarged using the Zoom sub-menu in the Preferences panel.
+Major settings are available for EPUB Reflowable, Fixed Layout EPUBs and PDF formats just don't allow personalisation of appearance. Most Fixed Layout EPUBs will allow to open Image view for zooming on a page. PDFs can be enlarged using the Zoom sub-menu in the Preferences panel.
 ## Theme
 
 The color of the background and foreground can be changed using one of the three
