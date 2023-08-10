@@ -41,24 +41,4 @@ or PDF files.
 
 ## Text-to-Speech (TTS)
 
-Text-to-speech is launched using the speaker button in the middle of the toolbar, 
-or by using the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>2</kbd>.
-
-* Play and pause can be controlled with the keyboard shortcut 
-<kbd>Ctrl</kbd> + <kbd>2</kbd>.
-
-* The playback position can be moved with <kbd>Ctrl</kbd> + <kbd>1</kbd> 
-and <kbd>Ctrl</kbd> + <kbd>3</kbd> for previous and next respectively.
-
-* A speed control is available when read aloud 
-is selected, with a range from x0.5 to x2.
-
-* The current sentence is highlighted in light yellow, and each word spoken is 
-underlined in orange.
-
-* An alternative (simplified) view of the publication is provided through 
-options available in the `Settings / Readaloud` menu.
-
-{{< alert info >}}
-Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry [I can't select the adequate voice for read aloud function (TTS)](/docs/400_ressources/430_faq#TTSvoices).
-{{< /alert>}}
+See dedicated section about [Text to Speech (TTS)](/docs/210_reading/230_TTS/).

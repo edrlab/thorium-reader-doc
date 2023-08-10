@@ -5,8 +5,12 @@ draft: false
 weight: 221
 toc: false
 ---
-Thorium-Reader supports mathematical formulas in MathML
-format thanks to the MathJax module. This last one requires memory resources
+Since 2.3 Thorium Reader supports mathematical formulas in MathML natively thanks to Chromium. 
+MathJax module is incorporated and may be of use for interoperability and accessibility needs. 
+
+If you make use of the MathJax module you might be interested by [MathJax documentation](https://docs.mathjax.org/en/latest/). 
+
+Previous versions rely on the MathJax module. This last one requires memory resources
 so it is not automatically activated when you open Thorium.
 To activate it when reading a book, go to the
 menu `Reading settings`, at the bottom of the `Display` tab you will find
@@ -42,15 +46,15 @@ Copy: Use the Copy mode to Copy MathML object source code.
 
 Navigation mode commands:
 
-* "Down Arrow": Zoom in on a smaller subpart of the math content.
-* "Up Arrow": Zoom out to a larger sub-part of the math content.
-* "Left Arrow": Move to the previous math content.
-* "Right Arrow": Move to the next math content.
-* "Home": Move back to the top of the Entire math content.
-* "Ctrl + c": Copy object MathML source code
-* "Numpad 1to 9": Reading the math content into serialized text using NVDA Review Text.
-* "Escape": Exit the navigation mode.
-* "Ctrl + Alt + m": Switch the provider between Access8Math and Math Player.
+* <kbd>Down Arrow</kbd>: Zoom in on a smaller subpart of the math content.
+* <kbd>Up Arrow</kbd>: Zoom out to a larger sub-part of the math content.
+* <kbd>Left Arrow</kbd>: Move to the previous math content.
+* <kbd>Right Arrow</kbd>: Move to the next math content.
+* <kbd>Home</kbd>: Move back to the top of the Entire math content.
+* <kbd>Ctrl</kbd> + <kbd>c</kbd>: Copy object MathML source code
+* <kbd>Numpad 1 to 9</kbd>: Reading the math content into serialized text using NVDA Review Text.
+* <kbd>Escape</kbd>: Exit the navigation mode.
+* <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>m</kbd>: Switch the provider between Access8Math and Math Player.
 
 {{< /details >}}
 

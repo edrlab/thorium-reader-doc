@@ -5,10 +5,12 @@ draft: false
 weight: 221
 toc: false
 ---
+Depuis la version 2.3, Thorium Reader supporte nativement les formules mathématiques en MathML grâce à Chromium. 
+Un module MathJax est incorporé et peut être utile pour les besoins d'interopérabilité et d'accessibilité.
 
+Si vous utilisez le module MathJax, vous serez peut-être intéressé par la [documentation MathJax (en anglais)](https://docs.mathjax.org/en/latest/).
 
-Thorium-Reader prend en charge les formules mathématiques au format MathML 
-grace au module MathJax. Ce dernier nécessitant des ressources mémoires 
+Les versions précédentes s'appuient sur le module MathJax. Ce dernier nécessitant des ressources mémoires 
 il n'est pas activé d'office lorsque vous ouvrez Thorium. 
 Pour l'activer lors de la lecture d'un livre allez dans le menu 
 `Paramétres de lecture`, en bas de l'onglet `Affichage` vous trouverez 
