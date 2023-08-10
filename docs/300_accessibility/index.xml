@@ -49,33 +49,7 @@ EPUBs (so-called &lt;span lang="en">Fixed Layout&lt;/span>)
 or PDF files.&lt;/p>
 &lt;/div>
 &lt;h2 id="text-to-speech-tts">Text-to-Speech (TTS)&lt;/h2>
-&lt;p>Text-to-speech is launched using the speaker button in the middle of the toolbar,
-or by using the keyboard shortcut &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Play and pause can be controlled with the keyboard shortcut
-&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The playback position can be moved with &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd>
-and &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd> for previous and next respectively.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>A speed control is available when read aloud
-is selected, with a range from x0.5 to x2.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The current sentence is highlighted in light yellow, and each word spoken is
-underlined in orange.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>An alternative (simplified) view of the publication is provided through
-options available in the &lt;code>Settings / Readaloud&lt;/code> menu.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="alert alert-primary" role="alert">
-Thorium uses the voices from the computer&amp;rsquo;s operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry &lt;a href="https://thorium.edrlab.org/docs/400_ressources/430_faq#TTSvoices">I can&amp;rsquo;t select the adequate voice for read aloud function (TTS)&lt;/a>.
-&lt;/div></description></item><item><title>Docs: Reading with a screen reader</title><link>https://thorium.edrlab.org/docs/300_accessibility/310_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/300_accessibility/310_screenreaders/</guid><description>
+&lt;p>See dedicated section about &lt;a href="https://thorium.edrlab.org/docs/210_reading/230_TTS/">Text to Speech (TTS)&lt;/a>.&lt;/p></description></item><item><title>Docs: Reading with a screen reader</title><link>https://thorium.edrlab.org/docs/300_accessibility/310_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/300_accessibility/310_screenreaders/</guid><description>
 &lt;p>When launching Thorium, if a screen reader is detected, the relative functions are activated.&lt;/p>
 &lt;p>Note that screen readers use a separate buffer to access the HTML content which results in the visual scroll / page offset to be out of sync. In other words, Thorium is generally not aware of the user&amp;rsquo;s current reading location inside the screen reader buffer, unless the screen reader user triggers standard web API events (such as mouse click anywhere in the text, or keyboard tab into focusable HTML elements).&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
