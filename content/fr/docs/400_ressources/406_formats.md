@@ -9,17 +9,12 @@ toc: false
 
   <dl>
     <dt>EPUB 2</dt>
-<dd> il s'agit d'un format ancien, uniquement adapté aux
-    livres numériques basiques. Le contenu textuel est formaté en XHTML 1 et
-    aucune fonction multimédia n'est prise en charge. Les livres numériques
-    EPUB 2 sont tout de même accessibles s'ils sont correctement formatés.
+<dd> il s'agit d'un format ancien, encore largement répandu. Le contenu textuel est formaté en XHTML 1. Plus limité que l'EPUB3, il n'en permet pas moins l'intégration d'images animées ou de vidéos et le support du MathML. En revanche, il n'est pas du tout adapté aux mises en pages fixes. Sa structuration claire et simple et sa mise en page adaptative le rend naturellement plus accessible, sous réserve bien entendu qu'il soit bien formaté.
   </dd></dl>
   <dl>
     <dt>EPUB 3</dt>
-<dd> c'est le format recommandé pour le 21ème siècle. Le
-    contenu textuel est formaté en (X)HTML 5, il est possible de créer des
-    livres numériques à mise en page fixe, l'enrichissement des livres
-    numériques et les caractéristiques d'accessibilité sont bien conçues.
+<dd> c'est le format recommandé pour les livres à mise en page fixe. Il offre davantage de fonctions multimédia que l'EPUB2, le
+    contenu textuel étant formaté en (X)HTML 5. Les caractéristiques d'accessibilité sont bien conçues.
   </dd></dl>
   <dl>
     <dt>DAISY v2.02 / v3</dt> (text, audio, text+audio).
