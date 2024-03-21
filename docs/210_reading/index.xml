@@ -343,10 +343,13 @@ is selected, with a range from x0.5 to x2.&lt;/p>
 &lt;p>The current sentence is highlighted in light yellow, and each word spoken is
 underlined in orange.&lt;/p>
 &lt;/li>
-&lt;li>
-&lt;p>An alternative (simplified) view of the publication is provided through
-options available in the &lt;code>Settings / Readaloud&lt;/code> menu.&lt;/p>
-&lt;/li>
+&lt;/ul>
+&lt;h3 id="options-for-tts">Options for TTS&lt;/h3>
+&lt;p>Three options are available in the &lt;code>Settings / Readaloud&lt;/code> menu:&lt;/p>
+&lt;ul>
+&lt;li>Simplified view auto scrolls text with focus by paragraphe.&lt;/li>
+&lt;li>Skippability does not display auxiliary contents authored as footnotes, endnotes, pagebreaks and asides.&lt;/li>
+&lt;li>Split text focuses phrase by phrase&lt;/li>
 &lt;/ul>
 &lt;div class="alert alert-primary" role="alert">
 Thorium uses the voices from the computer&amp;rsquo;s operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry &lt;a href="https://thorium.edrlab.org/docs/400_ressources/430_faq#TTSvoices">I can&amp;rsquo;t select the adequate voice for read aloud function (TTS)&lt;/a>.

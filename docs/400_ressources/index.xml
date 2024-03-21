@@ -482,23 +482,15 @@
 &lt;/dd>
 &lt;/dl></description></item><item><title>Docs: Supported publication formats</title><link>https://thorium.edrlab.org/docs/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/400_ressources/406_formats/</guid><description>
 &lt;dl>
-&lt;dt>EPUB 2&lt;/dt>
-&lt;dd> this is a legacy format, only adequate for basic ebooks.
-Textual content is formatted in XHTML 1 and no multimedia feature is
-supported. EPUB 2 ebooks are still accessible if properly formatted.
+&lt;dt>EPUB&lt;/dt>
+&lt;dd>(Electronic PUBlication) is an open file format for electronic publications.
+EPUB is a native semantic format allowing to use numerous standardised languages such as HTML, ARIA, MATHML, SVG and others.
+The actual version 3 is known to provide the best up to date reading experience. Obsolete EPUB2 files are also readable in Thorium.
 &lt;/dd>
 &lt;/dl>
 &lt;dl>
-&lt;dt>EPUB 3&lt;/dt>
-&lt;dd> this is the recommended format for the 21st century.
-Textual content is formatted in (X)HTML 5, it is possible to create
-fixed-layout ebooks, enriched ebooks and accessibiltiy features are well
-designed.
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt>DAISY v2.02 / v3&lt;/b> (text, audio, text+audio).
-&lt;/dd>
+&lt;dt>DAISY&lt;/b>&lt;/dt>
+&lt;dd>Usually produced and distributed by specialized libraries or NGOs, the DAISY format offers a significantly enhanced reading experience for ebooks that are not available in EPUB3. Thorium supports reading DAISY 3 and 2.02, both in their text only, audio only, and syncronised text and audio.&lt;/dd>
 &lt;/dl>
 &lt;dl>
 &lt;dt>PDF&lt;/dt>
