@@ -1,7 +1,23 @@
 name: Build with Hugo
 
 on: [push, pull_request]
-  
+
+# https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions
+permissions:
+    actions: none
+    checks: none
+    contents: write
+    deployments: none
+    id-token: none
+    issues: none
+    packages: none
+    pages: none
+    pull-requests: none
+    repository-projects: none
+    security-events: none
+    statuses: none
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
