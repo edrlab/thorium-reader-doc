@@ -52,7 +52,7 @@ jobs:
 
       - run: npm ci
       - run: hugo --minify
-
+      - run: rm -f ./public/CNAME && echo "thorium.edrlab.org" > ./public/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
