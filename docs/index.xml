@@ -445,7 +445,7 @@ The content of the book is not included in the search.
 To perform a search inside book content you have to open the book and
 activate the Search in a book function.&lt;/p></description></item><item><title>Docs: Text to Speech (TTS)</title><link>https://thorium.edrlab.org/docs/210_reading/230_tts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/210_reading/230_tts/</guid><description>
 &lt;div class="alert alert-primary" role="alert">
-Thorium 2.3 TTS reads page numbers by default which might result in a too verbose earing experience. The &lt;code>skipability&lt;/code> option in &lt;code>readaloud&lt;/code> parameter does not affect TTS reading as expected. This is fixed in &lt;a href="https://github.com/edrlab/thorium-reader/releases">2.4 alpha continuous test build&lt;/a> and will be shipped in 2.4 release.
+Text-to-speech functionalities are available only with EPUB and Daisy formats.
 &lt;/div>
 &lt;p>Text-to-speech is launched using the speaker button in the middle of the toolbar,
 or by using the keyboard shortcut &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>.&lt;/p>
@@ -476,6 +476,9 @@ underlined in orange.&lt;/p>
 &lt;/ul>
 &lt;div class="alert alert-primary" role="alert">
 Thorium uses the voices from the computer&amp;rsquo;s operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry &lt;a href="https://thorium.edrlab.org/docs/400_ressources/430_faq#TTSvoices">I can&amp;rsquo;t select the adequate voice for read aloud function (TTS)&lt;/a>.
+&lt;/div>
+&lt;div class="alert alert-primary" role="alert">
+Thorium 2.3 TTS reads page numbers by default which might result in a too verbose earing experience. The &lt;code>skipability&lt;/code> option in &lt;code>readaloud&lt;/code> parameter does not affect TTS reading as expected. This is fixed in &lt;a href="https://github.com/edrlab/thorium-reader/releases">2.4 alpha continuous test build&lt;/a> and will be shipped in 2.4 release.
 &lt;/div></description></item><item><title>Docs: Accessibility information</title><link>https://thorium.edrlab.org/docs/300_accessibility/301_a11yinfos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/docs/300_accessibility/301_a11yinfos/</guid><description>
 &lt;p>Currently Thorium displays in the
 &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_ressources/420_glossary#bookInformation">Book information panel&lt;/a>
