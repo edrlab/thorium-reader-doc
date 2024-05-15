@@ -1,4 +1,16 @@
 
+.orange{
+    font-weight: 600;
+}
+
+footer.bg-dark {
+    background: var(--success) !important;
+}
+
+.td-navbar {
+    background: var(--success) !important;
+}
+
 .td-content ul li, .td-content ol li {
       margin-top: 0.5rem;
       margin-left: 2rem;

@@ -80,7 +80,7 @@ $gray: #363636;
 $primary: #ACC8E5 !default;
 $primary-light: lighten($primary, 75%) !default;
 $secondary: #FFA630 !default;
-$success: #3772FF !default;
+$success: #4b80ff !default;
 $info: #fff !default;
 $warning: #ED6A5A !default;
 $danger: #ED6A5A !default;
@@ -101,4 +101,4 @@ $gray-800: #333 !default;
 $gray-900: #222 !default;
 $black: #000 !default;
 
-$code-color: darken($secondary, 20%) !default;
+// $code-color: darken($secondary, 20%) !default;
