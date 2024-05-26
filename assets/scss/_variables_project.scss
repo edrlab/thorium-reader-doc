@@ -4,6 +4,22 @@ Add styles or override variables from the theme here.
 
 */
 
+section{
+    margin: 0em ;
+    padding: 0em;
+}
+hr{
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-top-color: #4b80ff;
+    border-width: 1px;
+}
+
 .listnone{
     list-style-type: none;
 }
