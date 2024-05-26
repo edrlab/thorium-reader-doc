@@ -1,10 +1,10 @@
 ---
-title: "Legacy Thorium 2 documentation"
-linkTitle: "Thorium 2 documentation"
-weight: 20
+title: "Thorium 3 support"
+linkTitle: "Thorium 3 support"
+weight: 10
 menu:
   main:
-    weight: 20
+    weight: 10
 ---
 
 <!-- {{% pageinfo %}}
