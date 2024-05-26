@@ -1,6 +1,18 @@
 
+.left{
+    display: inline;
+    float: left;
+    margin-right: 1em;
+}
+
+.right{
+    display: inline;
+    float: right;
+}
+
 .orange{
     font-weight: 600;
+    color: aliceblue;
 }
 
 footer.bg-dark {
