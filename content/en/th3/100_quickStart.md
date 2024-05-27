@@ -1,5 +1,5 @@
 ---
-title: "Start reading"
+title: "Quick reading"
 description: ""
 draft: false
 images: [logo.png]

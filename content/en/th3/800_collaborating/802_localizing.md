@@ -1,7 +1,7 @@
 ---
-title: "Credits"
+title: "Translating"
 description: ""
-draft: true
+draft: false
 weight: 802
 toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-Title: About this website
+Title: Collaborating
 weight: 900
 bookCollapseSection: false
 ---
