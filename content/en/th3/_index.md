@@ -1,10 +1,10 @@
 ---
-title: "Legacy Thorium 2 documentation"
-linkTitle: "Thorium 2 documentation"
-weight: 20
+title: "Thorium 3 support"
+linkTitle: "Thorium 3 support"
+weight: 10
 menu:
   main:
-    weight: 20
+    weight: 10
 ---
 
 <!-- {{% pageinfo %}}
@@ -16,6 +16,11 @@ menu:
 {{% /pageinfo %}} -->
 
 
+<hr class="asterism"/>
+<p>
+ Thorium 3 documentation s available as EPUB, different translations are available thru the Thorium documentation catalog. You can <a class="" href="opds://raw.githack.com/edrlab/thorium-reader-doc/as-epub/feeds/opds.json">Add Documentation catalog to Thorium (OPDS link) </a> or <a class="" href="opds://raw.githack.com/edrlab/thorium-reader-doc/as-epub/feeds/opds.json">browse English documentation inline within the Readium web reader</a>.</p>
+
+</p>
 
 <h2>Welcome to the Thorium Reader documentation</h2>
   <p>

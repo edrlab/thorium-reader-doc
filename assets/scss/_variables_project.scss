@@ -1,86 +1,14 @@
-/*
 
-Add styles or override variables from the theme here.
-
-*/
-
-.listnone{
-    list-style-type: none;
-}
-
-.txt-blck{
-    color: #222;
-}
-
-.colonne50 {
-    display: inline-block;
-    vertical-align: top;
-    width: 49%;
-    padding: 20px;
-    text-align: left;
-  }
-
-.colonne33 {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    text-align: right;
-    margin-right: 1em;
-  }
-.colonne66 {
-    display: inline-block;
-    vertical-align: top;
-    width: 60%;
-    margin-left: 1em;
-    text-align: left;
-}
-
-.documents{
-    padding-top: 6em;
-}
-
-kbd {
-    color: #000 ! important;
-    background-color: #f5f5f5 ! important;
-    padding: 1px 2px;
-    border: 1px solid #000;
-    border-radius: 5px;
-}
 
 $secondary: #1d3e80;
 $gray: #363636;
-
-.wp-image-10520{
-    float: left;
-    margin-right: 1em;
-}
-
-.txt-dark{
-   color: black ;
-}
-
-@media (min-width: 768px){
-.td-navbar-cover {
-    background: grey !important;
-}
-}
-
-.orange{
-    color: orange !important;
-}
-
-.gray{
-    color: $gray;
-}
-
-/*f87300*/ 
 
 // Theme colors
 
 $primary: #ACC8E5 !default;
 $primary-light: lighten($primary, 75%) !default;
 $secondary: #FFA630 !default;
-$success: #3772FF !default;
+$success: #4b80ff !default;
 $info: #fff !default;
 $warning: #ED6A5A !default;
 $danger: #ED6A5A !default;
@@ -101,4 +29,4 @@ $gray-800: #333 !default;
 $gray-900: #222 !default;
 $black: #000 !default;
 
-$code-color: darken($secondary, 20%) !default;
+// $code-color: darken($secondary, 20%) !default;

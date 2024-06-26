@@ -1,6 +1,6 @@
 ---
-Title: Collaborating
-weight: 900
+Title: Want to collaborate?
+weight: 800
 bookCollapseSection: false
 ---
 
