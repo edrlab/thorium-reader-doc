@@ -1,0 +1,555 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Ressources</title><link>https://thorium.edrlab.org/th3/400_ressources/</link><description>Recent content in Ressources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/th3/400_ressources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Functions</title><link>https://thorium.edrlab.org/th3/400_ressources/401_functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/401_functions/</guid><description>
+&lt;h2 id="library-functions">library functions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icon&lt;/th>
+&lt;th>Function&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;th>Shortcuts&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-add-24px.svg" alt="Icon " width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/plus.svg" alt="Icon +" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Add book&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icon Right arrow" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Next book &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icon Left arrow" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Previous book &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-close-24px.svg" alt="Icon x" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Close (the book information panel) &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/menu.svg" alt="Icon 3 points" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Open book menu (gives access to the Book File, allows to Delete and Export a book) &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="Icon magnifying glass" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Search&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_list-24px.svg" alt="Icon list" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Book list view&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_module-24px.svg" alt="Icon grid" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Book grid view &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/done.svg" alt="Icon circle" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Indicates that the action is finished, for example when importing a book&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/download.svg" alt="Icon arrow down to a box" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Save a copy of the book file. &lt;/span>&lt;/td>
+&lt;td>Opens a system window to select the folder where to save the file. The bookmarks are not present in this exported file.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/landmark.svg" alt="Icon Bookmarks" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Bookmarks&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/loader.svg" alt="Icon " width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Icon Indicates that the book is being added to Thorium. This indication is not currently given to screen reader users.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="reading-functions">Reading functions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icon&lt;/th>
+&lt;th>Function&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;th>Shortcuts&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_back-24px.svg" alt="Icon fléche à gauche" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Return to library (closes the book being read) &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/info.svg" alt="Icon information" width="20px"> &lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-info-24px.svg" alt="Icon Information" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Open book information panel&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-flip_to_front-24px.svg" alt="Icon Display the library " width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Go to the library &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="Icon magnifying glass" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Search in the publication&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="Icon Settings" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Reading settings&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icon right arrow" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Next content &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icon Gauche" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Previous content &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px.svg" alt="" width="20px"> &lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px-grey.svg" alt="Icon Bookmarks" width="20px"> &lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark_border-24px.svg" alt="Icon Marque page" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Adds or removes a bookmark&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/open_book.svg" alt="Icon navigation" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Opens or closes the navigation panel&lt;/span>&lt;/td>
+&lt;td>Gives access to the table of contents, bookmarks, bookmarks and reference pagination&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/sharp-crop_free-24px.svg" alt="Icon Full screen mode" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Full screen &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="reading-settings">Reading settings&lt;/h3>
+&lt;p>User settings &amp;amp; preferences panel for the display of the publication content. &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icon&lt;/th>
+&lt;th>Function&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;th>Shortcuts&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="Text Size Icon" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Text: Change the font size &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/auto.svg" alt="Icon " width="20px">&lt;/td>
+&lt;td>&lt;span class="function">View / Layout : Scroll (text scrolls up and down)&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/pagine.svg" alt="Icon " width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Display / Layout : Paginated &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/paragraph-left.svg" alt="Icon " width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Automatic Alignment &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/colonne.svg" alt="Icon " width="20px">&lt;/td>
+&lt;td>&lt;span class="function">1 column&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/colonne2.svg" alt="Icon " width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> 2 columns&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="navigation">Navigation&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icon&lt;/th>
+&lt;th>Function&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;th>Shortcuts&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-edit-24px.svg" alt="Icon " width="20px"> &lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-edit-24px-grey.svg" alt="Edit Icon" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Edit (the name of a Bookmark&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>no icon (text mention)&lt;/td>
+&lt;td>Table of contents&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>no icon (text mention)&lt;/td>
+&lt;td>Reference pages menu&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>p&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="audio-playback-pré-recorded-ortts-synthetic-voice">Audio playback (Pré recorded orTTS synthetic voice)&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icon&lt;/th>
+&lt;th>Function&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;th>Shortcuts&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-volume_up-24px.svg" alt="Icon Activate texte to speech" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Activate audio functions&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-pause-24px.svg" alt="Icon pause" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Pauses audio playback &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-play_arrow-24px.svg" alt="Icon play" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Starts audio playback&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-skip_next-24px.svg" alt="Icon previous" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Goes to the next audio portion (depending on the book production)&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-skip_previous-24px.svg" alt="Icon next" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Goes to the previous audio portion (depending on the book production)&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-stop-24px.svg" alt="Icon " width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Stops audio playback &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>4&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Th3: Keyboard shortcuts</title><link>https://thorium.edrlab.org/th3/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/402_keyboard-shortcuts/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Information&lt;/p>
+&lt;p>The &lt;kbd>Shift&lt;/kbd> key is represented by an empty arrow pointing up on some keyboards: &lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd>.&lt;/p>
+&lt;p>The &lt;kbd>Ctrl&lt;/kbd> key is replaced by &lt;kbd>Cmd&lt;/kbd> key on Mac keyboards.&lt;/p>
+&lt;/div>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd>: Main content(`FocusMain`)&lt;/dt>
+&lt;dd>in reader and library windows, moves the keyboard focus to the "main" area landmark (in the reader view, this is immediately before the frame that displays publication content)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>t&lt;/kbd>: Toolbar (`FocusToolbar`)&lt;/dt>
+&lt;dd>in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the "skip" link (which itself moves focus to the "main" area landmark)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>: Navigation (`FocusReaderNavigation`)&lt;/dt>
+&lt;dd>in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>: Table Of Content (`FocusReaderNavigationTOC`)&lt;/dt>
+&lt;dd>in reader window, moves the keyboard focus to the navigation panel, but more specifically into the table of contents, and if possible at the detected heading / closest to the reading location.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>p&lt;/kbd>: Go to page (`FocusReaderGotoPage`)&lt;/dt>
+&lt;dd>in reader window, moves the keyboard focus to the "goto page" section in the navigation panel
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd>: Reader settings (`FocusReaderSettings`)&lt;/dt>
+&lt;dd>in reader window, moves the keyboard focus to the settings panel (user preferences for displaying publication content)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd>: Bookmarks (`ToggleBookmark`)&lt;/dt>
+&lt;dd>in reader window, toggle bookmark (a notification is produced so that screen readers announce the change)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd>: Fullscreen (`ToggleReaderFullscreen`)&lt;/dt>
+&lt;dd>in reader window, toggle fullscreen
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd>: Book information panel (`OpenReaderInfo`)&lt;/dt>
+&lt;dd>in reader window, publication info popup modal dialog (may be used in future Thorium version for similar feature in library window)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd>: where am I (`OpenReaderInfoWhereAmI`)&lt;/dt>
+&lt;dd>in reader window, publication info popup modal dialog with direct keyboard focus on section that displays the headings hierarchy trail and other contextual information for the current reading location, such as nearest preceding page break, as well as document index in the reading order (this is the "where am I" feature).
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>k&lt;/kbd>: where am I (quick notification supported by Screen readers) (`SpeakReaderInfoWhereAmI`)&lt;/dt>
+&lt;dd>in reader window, this is the "where am I" feature, just as above, but only spoken via screen reader TTS thanks to an ARIA live region with assertive speech which interrupts the current narration.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>w&lt;/kbd>: Close the book (`CloseReader`)&lt;/dt>
+&lt;dd>in reader window, closes the window and returns to the library view.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd>: Search a book (`FocusSearch`)&lt;/dt>
+&lt;dd>in library window, moves the keyboard focus to the search text input of local bookshelf or OPDS feed
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd>: search into a book (`FocusSearch`)&lt;/dt>
+&lt;dd>in reader window, moves the keyboard focus to the publication-wide search text input
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> (optional) + &lt;kbd>F3&lt;/kbd>: previous or next search result (`SearchPrevious` / `SearchNext`)&lt;/dt>
+&lt;dd>in reader window, when the publication-wide search text input is open, finds the previous / next match
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> (optional) + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>G&lt;/kbd>: previous or next search result (`SearchPreviousAlt` / `SearchNextAlt`)&lt;/dt>
+&lt;dd>same as above (alternative keyboard shortcut)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>&amp;larr;&lt;/kbd> or &lt;kbd>&amp;rarr;&lt;/kbd>: Next OPDS page (`NavigatePreviousOPDSPage` / `NavigateNextOPDSPage`)&lt;/dt>
+&lt;dd>in library window for OPDS feeds, activates the previous or next pagination links
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>comma&lt;/kbd> or &lt;kbd>period&lt;/kbd>: Next OPDS page (`NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt`)&lt;/dt>
+&lt;dd>same as above (alternative keyboard shortcut)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> (except on MacOS) + &lt;kbd>&amp;larr;&lt;/kbd> or &lt;kbd>&amp;rarr;&lt;/kbd>: Previous or next chapter (`NavigatePreviousChapter` / `NavigateNextChapter`)&lt;/dt>
+&lt;dd>in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>page down&lt;/kbd> or &lt;kbd>page up&lt;/kbd>: Previous or next chapter (`NavigatePreviousChapterAlt` / `NavigateNextChapterAlt`)&lt;/dt>
+&lt;dd>same as above (alternative keyboard shortcut)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>&amp;larr;&lt;/kbd> or &lt;kbd>&amp;rarr;&lt;/kbd>: Previous or next page (`NavigatePreviousPage` / `NavigateNextPage`)&lt;/dt>
+&lt;dd>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>comma&lt;/kbd> or &lt;kbd>period&lt;/kbd>: Previous or next page (`NavigatePreviousPageAlt` / `NavigateNextPageAlt`)&lt;/dt>
+&lt;dd>same as above (alternative keyboard shortcut)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Home&lt;/kbd> or &lt;kbd>End&lt;/kbd>: Beginning or End of the publication (`NavigateToBegin` / `NavigateToEnd`)&lt;/dt>
+&lt;dd>in reader window, goes to the beginning or the end of the publication
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>backspace&lt;/kbd> with &lt;kbd>shift&lt;/kbd> modifier for the inverse operation: Previous History &amp; Next History(`NavigatePreviousHistory` / `NavigateNextHistory`): &lt;/dt>
+&lt;dd>in reader window, go back or forward in the navigation history: Beginning or End of the publication
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd>: Previous audio (`AudioPrevious`)&lt;/dt>
+&lt;dd>in reader window, calls the "previous" command for audio (TTS or EPUB3 Media Overlays readaloud, or "rewind" for audiobooks)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>: Play or pause audio (`AudioPlayPause`)&lt;/dt>
+&lt;dd>in reader window, calls the "play" or "pause" toggle commands for audio (TTS or EPUB3 Media Overlays readaloud)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd>: Next audio (`AudioNext`)&lt;/dt>
+&lt;dd>in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlays readaloud, or "forward" for audiobooks)
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>4&lt;/kbd>: Stop audio (`AudioStop`)&lt;/dt>
+&lt;dd>in reader window, calls the "stop" command for audio (TTS or EPUB3 Media Overlays readaloud, or "pause" for audiobooks)
+&lt;/dd>
+&lt;/dl></description></item><item><title>Th3: Supported publication formats</title><link>https://thorium.edrlab.org/th3/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/406_formats/</guid><description>
+&lt;dl>
+&lt;dt>EPUB&lt;/dt>
+&lt;dd>(Electronic PUBlication) is an open file format for electronic publications.
+EPUB is a native semantic format allowing to use numerous standardised languages such as HTML, ARIA, MATHML, SVG and others.
+The actual version 3 is known to provide the best up to date reading experience. Obsolete EPUB2 files are also readable in Thorium.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>DAISY&lt;/b>&lt;/dt>
+&lt;dd>Usually produced and distributed by specialized libraries or NGOs, the DAISY format offers a significantly enhanced reading experience for ebooks that are not available in EPUB3. Thorium supports reading DAISY 3 and 2.02, both in their text only, audio only, and syncronised text and audio.&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>PDF&lt;/dt>
+&lt;dd> despite a well-known lack of flexibility (no reflow option)
+and accessibility, many ebooks are still available in PDF only, especially
+in public libraries.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>Audiobooks&lt;/dt>
+&lt;dd> a
+&lt;a href="https://www.w3.org/TR/audiobooks/"
+>standardized format for audiobooks&lt;/a
+>
+has been designed by the W3C Publishing Working Group in 2020, and EDRLab
+was part of this WG. Thorium is supporting the
+&lt;a href="https://www.w3.org/TR/lpf/">packaged (LPF)&lt;/a> audiobook format,
+which will soon be widely used by booksellers, or so we hope.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>Visual narratives&lt;/dt>
+&lt;dd> EDRLab has designed a standard format for
+comics, manga, webtoons and other styles of digital works based on
+sequances of images.
+&lt;a href="https://www.edrlab.org/open-standards/">Divina&lt;/a> is the name of
+this format. This is still an experimental format, and we hope that
+publishers will size it in 2021+.
+&lt;/dd>
+&lt;/dl></description></item><item><title>Th3: Glossary</title><link>https://thorium.edrlab.org/th3/400_ressources/420_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/420_glossary/</guid><description>
+&lt;dl>
+&lt;dt id="bookInformation">Book information panel (Book Details)&lt;/dt>
+&lt;dd> Gives information about the digital book. This information is
+extracted from the file's metadata, its quality and quantity depends on the
+the attention paid during the production of the file by the publisher.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="AdaptedBooks">Adapted books&lt;/dt>
+&lt;dd>These are digital books produced by associations and made
+available to people with disabilities for reading.
+Worldwild, this system is governed by
+&lt;a href="https://www.wipo.int/marrakesh_treaty/en/">
+The Marrakech Treaty
+&lt;/a>.
+&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="OPDS">OPDS&lt;/dt>&lt;dd> Open Publication Distribution System
+&lt;/dd>
+&lt;/dl></description></item><item><title>Th3: Frequently asked questions</title><link>https://thorium.edrlab.org/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/430_faq/</guid><description>
+&lt;dl>
+&lt;dt id="TTSvoices">I can't select the adequate voice for read aloud function (TTS)&lt;/dt>
+&lt;dd>Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book.
+&lt;ul>
+&lt;li>If you are using windows you can follow &lt;a href="https://support.microsoft.com/en-us/windows/download-language-pack-for-speech-24d06ef3-ca09-ddcc-70a0-63606fd16394">Microsoft&amp;rsquo;s guide Download the language pack for voice&lt;/a>.&lt;/li>
+&lt;li>If you are using Mac OSX the guide &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Change the voice that the Mac uses to pronounce text&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Once the required voice is installed, Thorium will choose the voice corresponding to the language of the book.&lt;/p>
+&lt;p>It may happen that the book has the wrong language. In this case, Thorium allows you to change the voice to one that is present in the system via the Voice menu
+&lt;/dd>&lt;/p>
+&lt;/dl></description></item></channel></rss>
