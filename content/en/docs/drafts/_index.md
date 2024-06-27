@@ -75,8 +75,11 @@ This application is open-source, released under a BSD 3 license. It is based on 
 
 Thorium Reader is currently developed by:
 
-    Daniel Weck, lead developer.
-    Pierre Leroux, node.js developer.
+* Daniel Weck, lead developer.
+* Pierre Leroux,  developer.
+* Arthur Le Meur, developper
+
+ <p>The UX and UI of Thorium 3 was designed by <a href="https://www.myleneboyrie.fr/">Mylène Boyrie</a></p>
 
 Several other developers have helped making Thorium what it is today:
 
