@@ -18,7 +18,7 @@ menu:
 
 <hr class="asterism"/>
 <p>
- Thorium 3 documentation s available as EPUB, different translations are available thru the Thorium documentation catalog. You can <a class="" href="opds://raw.githack.com/edrlab/thorium-reader-doc/as-epub/feeds/opds.json">Add Documentation catalog to Thorium (OPDS link) </a> or <a class="" href="opds://raw.githack.com/edrlab/thorium-reader-doc/as-epub/feeds/opds.json">browse English documentation inline within the Readium web reader</a>.</p>
+ Thorium 3 documentation s available as EPUB, different translations are available thru the Thorium documentation catalog. You can <a class="" href="https://rawcdn.githack.com/edrlab/publications/main/feeds/thorium3_documentation.json">Add Documentation catalog to Thorium (OPDS link) </a> or <a class="" href="https://rawcdn.githack.com/edrlab/publications/main/feeds/thorium3_documentation.json">browse English documentation inline within the Readium web reader</a>.</p>
 
 </p>
 
