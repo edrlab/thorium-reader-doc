@@ -21,11 +21,11 @@ This site is made with the static site generator
 
  <h2>Who has developed this app</h2>
 
- <p>Thorium Reader is currently developed by:</p>
+ <p>Thorium Reader 2 was developed by:</p>
 
  <ul class="nobullet">
  <li>Daniel Weck, lead developer.</li>
- <li>Pierre Leroux, node.js developer.</li>
+ <li>Pierre Leroux,  developer.</li>
  </ul>
 
  <p>Several other developers have helped making Thorium what it is today:</p>

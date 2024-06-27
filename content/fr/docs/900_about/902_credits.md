@@ -25,7 +25,7 @@ Ce site est réalisé avec le générateur de sites statiques
 
   <ul class="nobullet">
     <li>Daniel Weck, lead développeur.</li>
-    <li>Pierre Leroux, développeur node.js.</li>
+    <li>Pierre Leroux, développeur.</li>
   </ul>
 
   <p>
