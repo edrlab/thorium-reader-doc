@@ -28,7 +28,26 @@ This will open the &lt;a href="https://thorium.edrlab.org/docs/220_organizing/22
 and will allow you to choose a book or to add one but also to access
 to &lt;a href="https://thorium.edrlab.org/docs/220_organizing/222_catalogs/">catalogs&lt;/a> and organize your collection.
 To read a book just click on it or validate with &lt;kbd>Enter&lt;/kbd>
-when selected.&lt;/p></description></item><item><title>Th3: Functions</title><link>https://thorium.edrlab.org/th3/400_ressources/401_functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/401_functions/</guid><description>
+when selected.&lt;/p></description></item><item><title>Th3: Where to get ebooks?</title><link>https://thorium.edrlab.org/th3/get_ebooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/get_ebooks/</guid><description>
+&lt;p>In the digital age, e-books offer convenience, accessibility, and often, affordability.
+Whether you&amp;rsquo;re looking for the latest bestseller, a classic novel, a textbook, or a scholarly article, there&amp;rsquo;s an e-book source for you. This guide provides you with a variety of options, both free and paid, to find and enjoy e-books. Happy reading!&lt;/p>
+&lt;p>The landscape of places to find ebooks is highly varied and continuously evolving. Local sources will always be more pertinent to you, this guide is only providing short list of known sources.&lt;/p>
+&lt;h2 id="public-libraries">Public Libraries:&lt;/h2>
+&lt;p>Many public libraries offer e-book lending services. You can borrow e-books for free using your library card. The availability of services and platforms may vary by country and library system.&lt;/p>
+&lt;h2 id="-free-e-book-sources"># Free E-Book Sources:&lt;/h2>
+&lt;p>&lt;a href="https://www.gutenberg.org/">Project Gutenberg&lt;/a> is a library of over 60,000 free e-books. You can choose among free epub books, free kindle books, download them, or read them online. &lt;a href="opds://www.gutenberg.org/ebooks/search.opds/" target="_blank">Open OPDS feed for Gutenberg.org titles
+&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.europeana.eu/">Europeana&lt;/a> is a digital library funded by the European Union. It provides access to millions of books, music, artworks, and more from European museums, galleries, libraries, and archives.&lt;/p>
+&lt;p>Open Library: An initiative of the Internet Archive, Open Library is a web page for every book ever published. It has a vision to provide an open, editable library catalog.&lt;/p>
+&lt;p>Gallica proposes an
+&lt;a href="http://gallica.bnf.fr/opds" target="_blank"> OPDS Catalogue (in French)&lt;/a>
+&lt;p>ManyBooks: ManyBooks offers more than 50,000 free e-books in various genres and formats.&lt;/p>
+&lt;h2 id="online-retailers">Online Retailers:&lt;/h2>
+&lt;p>A large number of online libraries are providing access to ebooks.&lt;/p>
+&lt;h2 id="academic-and-professional-e-books">Academic and Professional E-Books:&lt;/h2>
+&lt;p>Google Scholar: Google Scholar provides a simple way to broadly search for scholarly literature. From one place, you can search across many disciplines and sources.&lt;/p>
+&lt;p>JSTOR: JSTOR is a digital library founded in 1995. Originally containing digitized back issues of academic journals, it now also includes books and primary sources. It is available to many universities and institutions across Europe.&lt;/p>
+&lt;p>Directory of Open Access Books (DOAB): DOAB provides open access to peer-reviewed books from various publishers. It is based in the Netherlands.&lt;/p></description></item><item><title>Th3: Functions</title><link>https://thorium.edrlab.org/th3/400_ressources/401_functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/401_functions/</guid><description>
 &lt;h2 id="library-functions">library functions&lt;/h2>
 &lt;table>
 &lt;thead>
