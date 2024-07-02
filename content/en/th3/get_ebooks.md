@@ -15,7 +15,7 @@ The landscape of places to find ebooks is highly varied and continuously evolvin
 ## Public Libraries:
 Many public libraries offer e-book lending services. You can borrow e-books for free using your library card. The availability of services and platforms may vary by country and library system.
 
-## # Free E-Book Sources:
+## Free E-Book Sources:
 [Project Gutenberg](https://www.gutenberg.org/) is a library of over 60,000 free e-books. You can choose among free epub books, free kindle books, download them, or read them online. <a href="opds://www.gutenberg.org/ebooks/search.opds/" target="_blank">Open OPDS feed for Gutenberg.org titles
 </a>
 
