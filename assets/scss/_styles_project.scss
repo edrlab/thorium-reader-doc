@@ -187,3 +187,228 @@ kbd {
 .gray{
     color: $gray;
 }
+
+
+.indexHeading {
+    padding: 0 40px;
+    color: $secondary;
+
+    h1 {
+        font-weight: bold;
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+.downloadPanel {
+    margin-top: 50px;
+    position: absolute;
+    left: -20px;
+    width: 45dvw;
+
+    > div {
+        padding-left: 100px;
+        height: 100px;
+        background-color: $secondary;
+        border-top: 1px solid white;
+        color: white;
+
+        &:nth-child(1) {
+            border-top: 0;
+        }
+
+        h4 {
+            margin: 0;
+        }
+
+        i {
+            font-size: 2rem;
+        }
+    }
+
+    > div, ul {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        a {
+            color: orange;
+            &:before {
+                content: "→";
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.col {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.bandeau {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: $secondary;
+    background-color: $primary;
+    height: 500px;
+    gap: 20px;
+    padding: 0 100px;
+
+    button {
+        color: white;
+        background-color: $secondary;
+        height: 50px;
+        border-radius: 10px;
+        border-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+
+        h4 {
+            margin: 0;
+        }
+        &:after {
+            content: "→";
+            margin-right: 10px;
+            border: 1px solid orange;
+            background-color: orange;
+            color: $secondary;
+            border-radius: 50%;
+            margin-left: 30px;
+            padding: 0 4px;
+            font-weight: bold;
+        }
+    }
+
+    :nth-child(1) {
+        flex: 2;
+    }
+
+    &-element {
+        flex: 1;
+        background-color: white;
+        border-radius: 10px;
+        position: relative;
+        height: 280px;
+        padding-top: 50px;
+        text-align: center;
+
+        i {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: -10px;
+            left: 50%;
+            font-size: 5rem;
+        }
+
+        ul {
+            text-align: start;
+            padding-left: 20px;
+
+            li {
+                font-size: 14px;
+                &:before {
+                    content: "✓";
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+    // overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 50px 0;
+
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        padding: 2px 10px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    button.prev {
+        left: 350px;
+        z-index: 10;
+    }
+    
+    button.next {
+        right: 350px;
+        z-index: 10;
+    }
+    
+    button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 800px;
+    height: 100%;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.carousel-comment {
+    width: 600px;
+    flex-shrink: 0;
+    margin: 0 100px;
+    border-radius: 10px;
+    background-color: $primary;
+    padding: 20px;
+    position: relative;
+    height: 200px;
+
+    &:before {
+        content: "";
+        width: 80px;
+        height: 50px;
+        border-radius: 40px;
+        background-color: orange;
+        position: absolute;
+        top: -20px;
+        left: -40px;
+        z-index: -1;
+    }
+
+    &:after {
+        content: "";
+        width: 80px;
+        height: 50px;
+        border-radius: 40px;
+        background-color: orange;
+        position: absolute;
+        bottom: -20px;
+        right: -40px;
+        z-index: -1;
+    }
+}
