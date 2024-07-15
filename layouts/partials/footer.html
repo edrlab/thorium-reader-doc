@@ -1,33 +1,107 @@
 {{ $links := .Site.Params.links }}
-<footer class="bg-dark py-5 row d-print-none">
+<footer class="py-5 row d-print-none footer">
   <div class="container-fluid mx-sm-5">
     <div class="row">
-      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+      <div class="" style="flex: 1;">
+        <img class="left" src="https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png"
+          alt="logo of Thorium Reader">
         {{ with $links }}
         {{ with index . "user"}}
-        {{ template "footer-links-block"  . }}
+        {{ template "footer-links-block" . }}
         {{ end }}
         {{ end }}
       </div>
-      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+      <div class="footer_links_block" style="flex: 1;">
+        <!-- {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }}  -->
+        {{ if not .Site.Params.ui.footer_about_disable }}
+        <!-- {{ with .Site.GetPage "about" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} |  -->
+        {{ end }}
+
+        <section class="accordion">
+          <div class="tab footer_link">
+            <input type="checkbox" name="accordion-1" id="cb1" checked>
+            <label for="cb1" class="tab__label">
+                <a href="{{ . }}">
+                  Documentation
+                </a>
+            </label>
+            <div class="tab__content">
+              <p>This open-source software development is made possible by funding from EDRLab members, grants, and small donations from satisfied users.</p>
+            </div>
+          </div>
+          <div class="tab footer_link">
+            <input type="checkbox" name="accordion-1" id="cb2">
+            <label for="cb2" class="tab__label">
+              {{ with .Site.Params.privacy_policy }}
+                <a href="{{ . }}">
+                  {{ T "footer_privacy_policy" }}
+                </a>
+              {{ end}}
+            </label>
+          </div>
+          <div class="tab footer_link">
+            <input type="checkbox" name="accordion-1" id="cb3">
+            <label for="cb3" class="tab__label">
+              {{ with .Site.Params.accessibility }}
+                <a href="{{ . }}">
+                  {{ T "footer_accessibility" }}
+                </a>
+              {{ end}}
+            </label>
+          </div>
+          <div class="tab footer_link">
+            <input type="checkbox" name="accordion-1" id="cb4">
+            <label for="cb4" class="tab__label">
+              {{ with .Site.Params.tou }}
+                <a  href="{{ . }}">
+                  {{ T "footer_tou" }}
+                </a>
+              {{ end}}
+            </label>
+          </div>
+        </section>
+
+
+      </div>
+      <div class="footer_nav" style="flex: 1; display: flex; justify-content: center;">
         {{ with $links }}
         {{ with index . "developer"}}
-        {{ template "footer-links-block"  . }}
+        {{ template "footer-links-block" . }}
         {{ end }}
         {{ end }}
-      </div>
-      <div class="col-12 col-sm-4 text-center py-2 order-sm-2 text-white">
-        <!-- {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }}  -->
-        <small class="text-white">© 2023 <a href="https://edrlab.org">EDRLab </a><a href="http://www.apache.org/licenses/LICENSE-2.0"></a>Apache-2.0 license </small>
-       <br/>
-        {{ with .Site.Params.privacy_policy }}<small class="ml-1"><a  class="orange"href="{{ . }}">{{ T "footer_privacy_policy" }}</a></small>{{ end }} 
-        | {{ with .Site.Params.accessibility }} <small class="ml-1"><a  class="orange"href="{{ . }}">{{ T "footer_accessibility" }}</a></small>{{ end }} 
-	{{ if not .Site.Params.ui.footer_about_disable }}
-		<!-- {{ with .Site.GetPage "about" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} |  -->
-	{{ end }}
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li>
+            <a class="nav-link active" href="/">HOME</a></li>
+          {{ $p := . }}
+          {{ range .Site.Menus.main }}
+          <li class="nav-item mr-4 mb-2 mb-lg-0">
+            {{ $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) }}
+            {{ with .Page }}
+            {{ $active = or $active ( $.IsDescendant .)  }}
+            {{ end }}
+            {{ $pre := .Pre }}
+            {{ $post := .Post }}
+            {{ $url := urls.Parse .URL }}
+            {{ $baseurl := urls.Parse $.Site.Params.Baseurl }}
+            <a class="nav-link{{if $active }} active{{end}}" href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}" {{ if ne $url.Host $baseurl.Host }}target="_blank" {{ end }}>{{ with .Pre}}{{ $pre }}{{ end }}<span{{if $active }} class="active"{{end}}>{{ .Name }}</span>{{ with .Post}}{{ $post }}{{ end }}</a>
+          </li>
+          {{ end }}
+          {{ if  .Site.Params.versions }}
+          <li class="nav-item dropdown mr-4 d-none d-lg-block">
+            {{ partial "navbar-version-selector.html" . }}
+          </li>
+          {{ end }}
+          {{ if  (gt (len .Site.Home.Translations) 0) }}
+          <li class="nav-item dropdown mr-4 d-lg-block">
+            {{ partial "navbar-lang-selector.html" . }}
+          </li>
+          {{ end }}
+        </ul>
       </div>
     </div>
   </div>
+  <small class="text-white">© 2024 <a href="https://edrlab.org">EDRLab </a><a
+      href="http://www.apache.org/licenses/LICENSE-2.0"></a>Apache-2.0 license </small>
 </footer>
 {{ define "footer-links-block" }}
 <ul class="list-inline mb-0">

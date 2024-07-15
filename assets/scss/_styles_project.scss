@@ -1,4 +1,10 @@
 
+$color-dark-blue: #0a2f7a;
+$color-orange: #f5931b;
+$color-grey: grey;
+$color-purple: #6b5bd4; 
+$color-extralight: #edf4ff;
+
 
 .excerpt{
     font-size: 1.8em;
@@ -58,7 +64,9 @@ footer.bg-dark {
 }
 
 .td-navbar {
-    background: var(--success) !important;
+    background: $color-dark-blue !important;
+    height: 100px;
+    padding: 0.5rem 5rem;
 }
 
 .td-content ul li, .td-content ol li {
@@ -176,7 +184,7 @@ kbd {
 
 @media (min-width: 768px){
 .td-navbar-cover {
-    background: grey !important;
+    background: $color-grey !important;
 }
 }
 
@@ -188,61 +196,97 @@ kbd {
     color: $gray;
 }
 
+.hero {
+    display: flex; 
+    gap: 20px; 
+    align-items: start; 
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+// HOME //
 
 .indexHeading {
-    padding: 0 40px;
-    color: $secondary;
+    padding: 40px;
+    color: $color-dark-blue;
+    background-color: $color-extralight;
+    border-radius: 20px;
 
     h1 {
         font-weight: bold;
-        font-size: 45px;
+        font-size: 30px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 24px;
     }
 }
 
 .downloadPanel {
     margin-top: 50px;
-    position: absolute;
-    left: -20px;
     width: 45dvw;
 
-    > div {
-        padding-left: 100px;
-        height: 100px;
-        background-color: $secondary;
-        border-top: 1px solid white;
-        color: white;
-
-        &:nth-child(1) {
-            border-top: 0;
-        }
-
-        h4 {
-            margin: 0;
-        }
-
-        i {
-            font-size: 2rem;
-        }
-    }
-
-    > div, ul {
+    &_title {
         display: flex;
         align-items: center;
-        gap: 50px;
+        gap: 20px;
+        img {
+            height: 50px;
+            width: 50px;
+        }
+        h3 {
+            font-weight: 900;
+            color: $color-dark-blue;
+        }
     }
 
-    ul {
-        list-style: none;
-        margin: 0;
-        a {
-            color: orange;
-            &:before {
-                content: "→";
-                margin-right: 10px;
+    .download {
+        &_line {
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-left: 10px;
+        color: $color-grey;
+        flex-wrap: wrap;
+
+            h4 {
+                margin: 0;
+                font-weight: 900;
+            }
+            i {
+                font-size: 2rem;
+            }
+            ul {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                margin: 0;
+                height: fit-content;
+
+                li {
+                    height: 60px;
+                }
+            }
+        }
+        &_button {
+            margin: 20px;
+            background-color: $color-dark-blue;
+            padding: 15px 20px;
+            border-radius: 20px;
+            color: $color-orange;
+            font-size: 20px;
+            &:after {
+                content: "\21E5";
+                display: inline-block;
+                transform: rotate(90deg);
+                border: 1px solid $color-orange;
+                background-color: $color-orange;
+                color: $color-dark-blue;
+                border-radius: 50%;
+                margin-left: 10px;
+                padding: 0 4px;
+                font-weight: bold;
             }
         }
     }
@@ -260,15 +304,19 @@ kbd {
     display: flex;
     align-items: center;
     margin: auto;
-    color: $secondary;
-    background-color: $primary;
+    color: $color-dark-blue;
+    background-color: $color-extralight;
     height: 500px;
     gap: 20px;
     padding: 0 100px;
 
+    h2 {
+        font-size: 50px;
+    }
+
     button {
         color: white;
-        background-color: $secondary;
+        background-color: $color-dark-blue;
         height: 50px;
         border-radius: 10px;
         border-style: none;
@@ -283,9 +331,9 @@ kbd {
         &:after {
             content: "→";
             margin-right: 10px;
-            border: 1px solid orange;
-            background-color: orange;
-            color: $secondary;
+            border: 1px solid $color-orange;
+            background-color: $color-orange;
+            color: $color-dark-blue;
             border-radius: 50%;
             margin-left: 30px;
             padding: 0 4px;
@@ -383,17 +431,17 @@ kbd {
     flex-shrink: 0;
     margin: 0 100px;
     border-radius: 10px;
-    background-color: $primary;
     padding: 20px;
     position: relative;
     height: 200px;
+    background-color: white;
 
     &:before {
         content: "";
         width: 80px;
         height: 50px;
         border-radius: 40px;
-        background-color: orange;
+        background-color: $color-orange;
         position: absolute;
         top: -20px;
         left: -40px;
@@ -405,10 +453,281 @@ kbd {
         width: 80px;
         height: 50px;
         border-radius: 40px;
-        background-color: orange;
+        background-color: $color-orange;
         position: absolute;
         bottom: -20px;
         right: -40px;
         z-index: -1;
+    }
+}
+
+
+.userReviews {
+    margin-top: 20px;
+    h2 {
+        text-align: center;
+        color: $color-dark-blue;
+        font-size: 40px;
+    }
+}
+
+
+// FOOTER //
+
+.footer {
+    background-color: $color-dark-blue;
+    position: relative;
+    min-height: fit-content;
+
+    small {
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+    }
+
+    &_links_block {
+        display: flex;
+        flex-direction: column;
+
+        .footer_link {
+            color: white;
+            text-align: start;
+            text-transform: uppercase;
+            font-size: 24px;
+            border-bottom: 1px solid white;
+
+            a {
+                color: white;
+            }
+
+            p {
+                padding-top: 0;
+                font-size: 14px;
+                text-transform: none;
+            }
+        }
+    }
+
+    &_nav {
+        .active {
+            color: white;
+        }
+        
+        a {
+            color: $color-grey;
+            font-size: 20px;
+        }
+    }
+}
+
+
+.tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+
+    &:checked~.tab__content {
+        max-height: 10rem;
+    }
+
+    &:checked+.tab__label::after {
+        transform: rotate(90deg);
+    }
+}
+
+.tab__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.35s;
+
+    p {
+        margin: 0;
+        padding: 1rem;
+    }
+}
+
+.accordion {
+    color: var(--theme);
+    overflow: hidden;
+}
+
+.tab__label,
+.tab__close {
+    display: flex;
+    color: white;
+    background: var(--theme);
+    cursor: pointer;
+}
+
+.tab__label {
+    justify-content: space-between;
+    padding: 1rem;
+
+    &::after {
+        content: "\276F";
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all 0.35s;
+    }
+}
+
+.tab__close {
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+}
+
+.accordion--radio {
+    --theme: var(--secondary);
+}
+
+
+// ABOUT //
+
+.about {
+    &_title {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+
+        h2 {
+            color: $color-dark-blue;
+            font-size: 60px;
+        }
+    }
+
+    ul {
+        margin-bottom: 50px;
+        list-style-type: square;
+    }
+
+    li {
+        color: $color-dark-blue;
+        font-size: 20px;
+        margin-left: 20px;
+
+        &::marker {
+            color: $color-grey;
+        }
+    }
+
+    .big_button_orange {
+        background-color: $color-orange;
+        padding: 15px 20px;
+        border-radius: 20px;
+        color: white;
+        font-size: 24px;
+        &:after {
+            content: "→";
+            margin-right: 10px;
+            border: 1px solid white;
+            background-color: white;
+            color: $color-dark-blue;
+            border-radius: 50%;
+            margin-left: 30px;
+            padding: 0 4px;
+            font-weight: bold;
+        }
+
+    }
+    
+    &_banner {
+        background-color: $color-purple;
+        display: flex;
+        padding: 20px 80px;
+        gap: 40px;
+        &_technology {
+            background-color: white;
+            border-radius: 40px;
+            padding: 80px;
+            color: $color-dark-blue;
+            font-size: 20px;
+            max-width: 550px;
+            max-height: 550px;
+        }
+
+        &_medias {
+            color: white;
+
+            li {
+                padding-left: 20px;
+                &::marker {
+                    color: $color-orange;
+                    margin-right: 50px;
+                }
+            }
+                
+
+            a, a:visited, li {
+                color: white;
+            }
+
+            a {
+                text-decoration: underline;
+            }
+        }
+
+        h2 {
+            font-size: 60px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .credits {
+        padding: 0 100px;
+        color: $color-dark-blue;
+        margin-top: 40px;
+        h2 {
+            font-size: 60px;
+        }
+
+        li {
+            color: $color-orange;
+
+            &::marker {
+                color: inherit;
+            }
+        }
+
+        &_rightside {
+            flex: 1.8;
+            font-size: 20px;
+
+            h3 {
+                margin-bottom: 40px;
+                font-size: 35px;
+            }
+
+            h4 {
+                font-weight: 900;
+            }
+
+            .financiers {
+                list-style-type: decimal;
+
+                > li {
+                    color: $color-dark-blue;
+                }
+            }
+        }
+
+        &_leftside {
+            font-size: 20px;
+            flex: 1.2;
+        }
+
+        &_contributors {
+            background-color: $color-dark-blue;
+            color: white;
+            padding: 40px;
+            border-radius: 40px;
+        }
+    }
+
+    .userReviews {
+        background-color: $color-extralight;
+        margin-top: 0 !important;
     }
 }

@@ -4,54 +4,56 @@ linkTitle = "ThoriumReader"
 +++
 
 <section class=" row td-box td-box--white td-box--gradient ">
-  <div class="col" style="display: flex; gap: 20px; align-items: start; justify-content: space-around;">
+  <div class="col hero" >
     <div style="flex: 1; max-width: 40dvw;">
       <div class="indexHeading">
-        <h1>Completely free, with no ads or data leaks to worry about</h1>
-        <h2>Perfect for heavy readers, library-goers, and students alike!</h2>
+        <h1>Perfect for heavy readers, library-goers, and students alike!</h1>
+        <h2>No ads, or data leaks to worry about</h2>
       </div>
       <div class="downloadPanel">
 
-        <div style="background-color: #4b80ff;">
-          <h3>Download</h3>
+        <div class="downloadPanel_title">
+          <img class="left" src="https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png"
+          alt="logo of Thorium Reader">
+          <h3>Download links</h3>
         </div>
 
-          <div>
+          <div class="download_line">
             <i class="fas fa-brands fa-windows"></i>
             <h4>Windows</h4>
             <ul>
-              <li> <a class="link orange"
-                  href="https://bit.ly/thoriumreader-en">Store</a>
+              <li> <a class="download_button"
+                  href="https://bit.ly/thoriumreader-en">Windows Store</a>
               </li>
-              <li> <a class="link orange"
+              <li> <a class="download_button"
                   href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/Thorium.Setup.3.0.0.exe">
-                  .exe</a></li>
+                  Direct Install</a></li>
             </ul>
           </div>
 
-          <div>
+          <div class="download_line">
             <i class="fas fa-brands fa-apple"></i>
             <h4>Mac</h4>
             <ul>
-              <li> <a class="link orange"
+              <li> <a class="download_button"
                   href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/Thorium-3.0.0-arm64.dmg">Apple Silicon</a>
               </li>
-              <li> <a class="link orange"
+              <li> <a class="download_button"
                   href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/Thorium-3.0.0.dmg">
                   Intel</a></li>
             </ul>
           </div>
 
-          <div>
+          <div class="download_line">
             <i class="fas fa-brands fa-linux"></i>
             <h4>Mac</h4>
             <ul>
-              <li> <a class="link orange"
+              <li> <a class="download_button"
                   href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/Thorium-3.0.0.AppImage">AppImage</a>
               </li>
-              <li> <a class="link orange"
+              <li> <a class="download_button"
                   href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/EDRLab.ThoriumReader_3.0.0_amd64.deb">
-                  .deb</a></li>
+                  Debian</a></li>
             </ul>
           </div>
 
@@ -127,60 +129,11 @@ linkTitle = "ThoriumReader"
         </div>
         <!-- <p><a href="https://github.com/edrlab/thorium-reader/releases/tag/v3.0.0">Read more …</a></p> -->
       </div>
-
-
-
-
     </div>
   </div>
 </section>
 
-<section>
-  <h2>From Our Partners</h2>
-  <div class="carousel">
-    <button class="prev" onclick="prevSlide()">&#10094;</button>
-    <div class="carousel-images">
-      <div class="carousel-comment">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Nibh euismod laoreet tincidunt ut laoreet dolore.
-      </div>
-      <div class="carousel-comment">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Nibh euismod laoreet tincidunt ut laoreet dolore.
-      </div>
-      <div class="carousel-comment">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Nibh euismod laoreet tincidunt ut laoreet dolore.
-      </div>
-    </div>
-    <button class="next" onclick="nextSlide()">&#10095;</button>
-</div>
-</section>
-
-<script>
-let currentIndex = 0;
-
-function showSlide(index) {
-    const slides = document.querySelectorAll('.carousel-images div');
-    if (index >= slides.length) {
-        currentIndex = 0;
-    } else if (index < 0) {
-        currentIndex = slides.length - 1;
-    } else {
-        currentIndex = index;
-    }
-    const offset = -currentIndex * 100;
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-    console.log(index, currentIndex)
-}
-
-function nextSlide() {
-    showSlide(currentIndex + 1);
-}
-
-function prevSlide() {
-    showSlide(currentIndex - 1);
-}
-
-showSlide(currentIndex);
-</script>
+{{< reviews >}}
 
 
 

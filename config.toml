@@ -92,6 +92,7 @@ section = ["HTML", "print", "RSS"]
 copyright = "EDRLab"
 privacy_policy = "/documents/privacy"
 accessibility = "/documents/accessibility"
+tou = "/documents/thorium-terms-of-use"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
