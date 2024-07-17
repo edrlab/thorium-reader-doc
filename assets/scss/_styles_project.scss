@@ -731,3 +731,95 @@ kbd {
         margin-top: 0 !important;
     }
 }
+
+
+// SUPPORT PAGE //
+
+.thorium-support {
+    color: $color-dark-blue;
+
+
+    aside {
+        // width: 1000px;
+        padding-top: 150px;
+        padding-left: 50px;
+        margin-right: 50px;
+        
+        .td-sidebar__inner {
+            background-color: $color-purple;
+            color: white;
+            border-radius: 20px;
+            width: 350px;
+            overflow: hidden;
+            height: unset;
+
+            .td-sidebar__search {
+                background-color: $color-extralight;
+            }
+
+            .td-search {
+                color: $color-grey;
+                border-bottom: 1px solid $color-grey;
+                margin: 0 20px;
+                &__input {
+                    width: 100%;
+                    padding: 20px;
+                    border: none;
+                    box-shadow: none;
+
+                    &:focus {
+                        background-color: transparent !important;
+                    }
+
+                    input:after {
+                        content: "→";
+                        margin-right: 10px;
+                        border: 1px solid $color-orange;
+                        background-color: $color-orange;
+                        color: $color-dark-blue;
+                        border-radius: 50%;
+                        margin-left: 30px;
+                        padding: 0 4px;
+                        font-weight: bold;
+                    }
+
+                    &::placeholder {
+                        color: $color-grey;
+                    }
+                }
+            }
+
+            a, a:visited {
+                color: white;
+                font-weight: bold;
+            }
+        }
+
+        .td-sidebar-nav {
+            padding: 20px;
+        }
+
+        .ul-2 { 
+            padding-left: 0;
+            li a:before {
+            content: "\276F";
+            width: 1em;
+            height: 1em;
+            text-align: center;
+            margin-right: 10px;
+        }
+    }
+    .td-sidebar-link__section {
+        font-style: italic;
+        font-weight: 400 !important;
+    }
+
+    .td-sidebar-nav__section .with-child {
+        margin: 20px 0;
+    }
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
