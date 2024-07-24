@@ -26,6 +26,10 @@ other = "Tous droits résérvés"
 other = "Politique de confidentialité"
 
 
+[footer_thorium2]
+other = "Vous cherchez Thorium 2 ?"
+
+
 # Post (blog, articles etc.)
 [post_byline_by]
 other = "Par"

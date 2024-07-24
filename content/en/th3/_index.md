@@ -1,6 +1,6 @@
 ---
 title: "Thorium 3 support"
-linkTitle: "Thorium 3 support"
+linkTitle: "Support"
 weight: 10
 menu:
   main:

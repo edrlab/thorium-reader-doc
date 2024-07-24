@@ -90,6 +90,7 @@ section = ["HTML", "print", "RSS"]
 
 [params]
 copyright = "EDRLab"
+thorium2 = "/docs"
 privacy_policy = "/documents/privacy"
 accessibility = "/documents/accessibility"
 tou = "/documents/thorium-terms-of-use"

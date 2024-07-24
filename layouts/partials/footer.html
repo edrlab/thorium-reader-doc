@@ -11,7 +11,7 @@
         {{ end }}
         {{ end }}
       </div>
-      <div class="footer_links_block" style="flex: 1;">
+      <div class="footer_links_block" style="flex: 1.5;">
         <!-- {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }}  -->
         {{ if not .Site.Params.ui.footer_about_disable }}
         <!-- {{ with .Site.GetPage "about" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} |  -->
@@ -33,6 +33,17 @@
           <div class="tab footer_link">
             <input type="checkbox" name="accordion-1" id="cb2">
             <label for="cb2" class="tab__label">
+              {{ with .Site.Params.thorium2 }}
+                <a href="{{ . }}">
+                  <img src="/images/icons/footer-th2-icon.svg" />
+                  {{ T "footer_thorium2" }}
+                </a>
+              {{ end}}
+            </label>
+          </div>
+          <div class="tab footer_link">
+            <input type="checkbox" name="accordion-1" id="cb3">
+            <label for="cb3" class="tab__label">
               {{ with .Site.Params.privacy_policy }}
                 <a href="{{ . }}">
                   <img src="/images/icons/footer-privacy-icon.svg" />
@@ -42,8 +53,8 @@
             </label>
           </div>
           <div class="tab footer_link">
-            <input type="checkbox" name="accordion-1" id="cb3">
-            <label for="cb3" class="tab__label">
+            <input type="checkbox" name="accordion-1" id="cb4">
+            <label for="cb4" class="tab__label">
               {{ with .Site.Params.accessibility }}
                 <a href="{{ . }}">
                   <img src="/images/icons/footer-access-icon.svg" />
@@ -53,8 +64,8 @@
             </label>
           </div>
           <div class="tab footer_link">
-            <input type="checkbox" name="accordion-1" id="cb4">
-            <label for="cb4" class="tab__label">
+            <input type="checkbox" name="accordion-1" id="cb5">
+            <label for="cb5" class="tab__label">
               {{ with .Site.Params.tou }}
                 <a  href="{{ . }}">
                   <img src="/images/icons/footer-tou-icon.svg" />
