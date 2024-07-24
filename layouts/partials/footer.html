@@ -22,6 +22,7 @@
             <input type="checkbox" name="accordion-1" id="cb1" checked>
             <label for="cb1" class="tab__label">
                 <a href="{{ . }}">
+                  <img src="/images/icons/footer-doc-icon.svg" />
                   Documentation
                 </a>
             </label>
@@ -34,6 +35,7 @@
             <label for="cb2" class="tab__label">
               {{ with .Site.Params.privacy_policy }}
                 <a href="{{ . }}">
+                  <img src="/images/icons/footer-privacy-icon.svg" />
                   {{ T "footer_privacy_policy" }}
                 </a>
               {{ end}}
@@ -44,6 +46,7 @@
             <label for="cb3" class="tab__label">
               {{ with .Site.Params.accessibility }}
                 <a href="{{ . }}">
+                  <img src="/images/icons/footer-access-icon.svg" />
                   {{ T "footer_accessibility" }}
                 </a>
               {{ end}}
@@ -54,6 +57,7 @@
             <label for="cb4" class="tab__label">
               {{ with .Site.Params.tou }}
                 <a  href="{{ . }}">
+                  <img src="/images/icons/footer-tou-icon.svg" />
                   {{ T "footer_tou" }}
                 </a>
               {{ end}}
