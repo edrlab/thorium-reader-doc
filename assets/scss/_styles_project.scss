@@ -135,6 +135,14 @@ ul {
 
 .row{
     align-content: center;
+
+    div {
+        flex: 1;
+    }
+
+    .footer_links_block {
+        flex: 1.5;
+    }
 }
 
 
@@ -448,6 +456,16 @@ kbd {
     &_section {
         height: 400px;
         position: relative;
+
+        > img {
+            position: absolute;
+            // transform: translate(-50%, -50%);
+            // top: 75%;
+            right: 680px;
+            height: 500px;
+            top: -10px;
+            z-index: 2;
+            }
     }
 
     &_container {
@@ -465,6 +483,7 @@ kbd {
         top: 50%;
         left: 0;
         height: 150px;
+        z-index: 3;
     }
 
     h3 {
@@ -544,7 +563,7 @@ kbd {
     padding: 20px;
     position: relative;
     height: 200px;
-    background-color: white;
+    background-color: $color-extralight;
 
     &:before {
         content: "";
@@ -580,8 +599,11 @@ kbd {
         color: $color-dark-blue;
         font-size: 40px;
     }
-}
 
+    .carousel-comment {
+        background-color: $color-extralight;
+    }
+}
 
 // FOOTER //
 
@@ -855,6 +877,10 @@ kbd {
     .userReviews {
         background-color: $color-extralight;
         margin-top: 0 !important;
+
+        .carousel-comment {
+            background-color: white;
+        }
     }
 }
 
@@ -986,5 +1012,191 @@ kbd {
         b {
             font-weight: 500;
         }
+    }
+}
+
+
+@media (max-width: 1380px) {
+
+    .hero {
+        padding: 0 20px !important;
+        max-width: unset;
+
+        > div {
+            padding-left: 50px;
+        }
+    }
+
+    .heroIllustration {
+        max-width: 30dvw;
+    }
+
+    .indexHeading {
+        padding-left: 40px;
+    }
+    
+    .downloadPanel {
+        width: calc(100dvw - 70px);
+    }
+
+    .bandeau {
+        flex-wrap: wrap;
+        gap: 50px;
+        height: 100%;
+        // padding-bottom: 50px;
+        padding: 100px 100px 50px;
+
+         >div:not(.bandeau-element) {
+            width: 100dvw;
+            flex: unset;
+            margin-bottom: 50px;
+        }
+    }
+
+    .rss_section > img {
+        display: none;
+    }
+
+    .rss_container {
+        position: relative;
+        right: unset;
+        margin: auto;
+    }
+
+    .carousel button.prev {
+        left: 20px;
+    }
+
+    .carousel button.next {
+        right: 20px;
+    }
+
+    footer .left {
+        width: 50%;
+    }
+
+    .thorium-support .flex-xl-nowrap {
+        display: block;
+
+        aside {
+            float: left;
+            margin-bottom: 100px;
+        }
+
+        main {
+            padding: 0 40px;
+        }
+    }
+
+    .credits_leftside {
+        display: flex;
+        align-items: center;
+        img {
+            width: 50%;
+        }
+    }
+
+    .credits > div {
+        flex-direction: column;
+    }
+
+    .about_banner {
+        flex-direction: column;
+
+        &_technology {
+            margin: auto;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .downloadPanel_content {
+        tr {
+            display: inline-flex;
+            flex-direction: column;
+            height: unset;
+        }
+    }
+    
+    .rss_container {
+        width: unset;
+    }
+
+    .heroIllustration {
+        position: relative;
+        max-width: 50dvw;
+        height: 50dvw;
+        margin: auto;
+    }
+
+    .hero > div {
+        max-width: unset !important;
+    }
+
+    .bandeau {
+        padding: 40px;
+        flex-direction: column;
+        gap: 150px;
+
+        > div:not(.bandeau-element) {
+            width: unset;
+        }
+    }
+
+    .carousel-images {
+        width: 100dvw;
+    }
+
+    .carousel-comment {
+        width: 70dvw;
+        margin: 0 15dvw;
+        height: fit-content;
+        max-height: 350px;
+    }
+
+    footer {
+        .navbar-nav, .left {
+            display: none;
+        }
+
+        .row {
+            div {
+                flex: 0;
+            }
+        }
+    }
+
+    .about_title {
+        flex-direction: column;
+    }
+
+    .about_banner {
+        padding: 20px;
+
+        &_technology {
+            padding: 20px;
+        }
+    }
+
+    .big_button_orange {
+        font-size: 1rem !important;
+    }
+
+    .credits {
+        padding: 20px !important;
+    }
+
+    .financers_section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .thorium-support aside {
+        padding: 50px 40px 0;
+        margin: 0 !important;
+    }
+
+    .sideright {
+        height: fit-content;
     }
 }

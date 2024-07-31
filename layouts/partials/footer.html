@@ -2,7 +2,7 @@
 <footer class="py-5 row d-print-none footer">
   <div class="container-fluid mx-sm-5">
     <div class="row">
-      <div class="" style="flex: 1;">
+      <div class="">
         <img class="left" src="https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png"
           alt="logo of Thorium Reader">
         {{ with $links }}
@@ -11,7 +11,7 @@
         {{ end }}
         {{ end }}
       </div>
-      <div class="footer_links_block" style="flex: 1.5;">
+      <div class="footer_links_block">
         <!-- {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }}  -->
         {{ if not .Site.Params.ui.footer_about_disable }}
         <!-- {{ with .Site.GetPage "about" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} |  -->
@@ -78,7 +78,7 @@
 
 
       </div>
-      <div class="footer_nav" style="flex: 1; display: flex; justify-content: center;">
+      <div class="footer_nav" style="display: flex; justify-content: center;">
         {{ with $links }}
         {{ with index . "developer"}}
         {{ template "footer-links-block" . }}
