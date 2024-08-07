@@ -272,17 +272,16 @@ kbd {
         color: white;
     }
 
-    h1 {
+    h1, h2 {
         font-weight: 400;
         font-size: 24px;
         width: fit-content;
     }
 
-    h2 {
+    h3 {
         font-size: 20px;
         font-weight: 300;
         width: fit-content;
-
     }
 }
 
@@ -359,7 +358,7 @@ kbd {
     margin: 0;
 }
 
-.bandeau {
+.banner {
     display: flex;
     align-items: start;
     margin: auto;
@@ -420,7 +419,7 @@ kbd {
         background-color: white;
         border-radius: 10px;
         position: relative;
-        height: 350px;
+        height: 400px;
         padding-top: 90px;
         text-align: center;
 
@@ -452,7 +451,7 @@ kbd {
     }
 }
 
-.rss{
+.donation {
     &_section {
         height: 400px;
         position: relative;
@@ -463,7 +462,7 @@ kbd {
             // top: 75%;
             right: 680px;
             height: 500px;
-            top: -10px;
+            top: 0;
             z-index: 2;
             }
     }
@@ -1039,25 +1038,25 @@ kbd {
         width: calc(100dvw - 70px);
     }
 
-    .bandeau {
+    .banner {
         flex-wrap: wrap;
         gap: 50px;
         height: 100%;
         // padding-bottom: 50px;
         padding: 100px 100px 50px;
 
-         >div:not(.bandeau-element) {
+         >div:not(.banner-element) {
             width: 100dvw;
             flex: unset;
             margin-bottom: 50px;
         }
     }
 
-    .rss_section > img {
+    .donation_section > img {
         display: none;
     }
 
-    .rss_container {
+    .donation_container {
         position: relative;
         right: unset;
         margin: auto;
@@ -1118,7 +1117,7 @@ kbd {
         }
     }
     
-    .rss_container {
+    .donation_container {
         width: unset;
     }
 
@@ -1133,12 +1132,12 @@ kbd {
         max-width: unset !important;
     }
 
-    .bandeau {
+    .banner {
         padding: 40px;
         flex-direction: column;
         gap: 150px;
 
-        > div:not(.bandeau-element) {
+        > div:not(.banner-element) {
             width: unset;
         }
     }
