@@ -19,57 +19,61 @@
 
         <section class="accordion">
           <div class="tab footer_link">
-            <input type="checkbox" name="accordion-1" id="cb1" checked>
+            <!-- <input type="checkbox" name="accordion-1" id="cb1" checked> -->
             <label for="cb1" class="tab__label">
-                <a href="{{ . }}">
+                <a href="opds://rawcdn.githack.com/edrlab/publications/main/feeds/thorium3_documentation.json">
                   <img src="/images/icons/footer-doc-icon.svg" />
                   Documentation
+                  <div class="tab__content">
+                    <p>This open-source software development is made possible by funding from EDRLab members, grants, and small donations from satisfied users.</p>
+                  </div>
                 </a>
             </label>
-            <div class="tab__content">
-              <p>This open-source software development is made possible by funding from EDRLab members, grants, and small donations from satisfied users.</p>
-            </div>
           </div>
           <div class="tab footer_link">
-            <input type="checkbox" name="accordion-1" id="cb2">
+            <!-- <input type="checkbox" name="accordion-1" id="cb2"> -->
             <label for="cb2" class="tab__label">
               {{ with .Site.Params.thorium2 }}
                 <a href="{{ . }}">
                   <img src="/images/icons/footer-th2-icon.svg" />
                   {{ T "footer_thorium2" }}
+                  <div class="tab__content"></div>
                 </a>
               {{ end}}
             </label>
           </div>
           <div class="tab footer_link">
-            <input type="checkbox" name="accordion-1" id="cb3">
+            <!-- <input type="checkbox" name="accordion-1" id="cb3"> -->
             <label for="cb3" class="tab__label">
               {{ with .Site.Params.privacy_policy }}
                 <a href="{{ . }}">
                   <img src="/images/icons/footer-privacy-icon.svg" />
                   {{ T "footer_privacy_policy" }}
+                  <div class="tab__content"></div>
                 </a>
               {{ end}}
             </label>
           </div>
           <div class="tab footer_link">
-            <input type="checkbox" name="accordion-1" id="cb4">
+            <!-- <input type="checkbox" name="accordion-1" id="cb4"> -->
             <label for="cb4" class="tab__label">
               {{ with .Site.Params.accessibility }}
                 <a href="{{ . }}">
                   <img src="/images/icons/footer-access-icon.svg" />
                   {{ T "footer_accessibility" }}
+                  <div class="tab__content"></div>
                 </a>
               {{ end}}
             </label>
           </div>
           <div class="tab footer_link">
-            <input type="checkbox" name="accordion-1" id="cb5">
+            <!-- <input type="checkbox" name="accordion-1" id="cb5"> -->
             <label for="cb5" class="tab__label">
               {{ with .Site.Params.tou }}
                 <a  href="{{ . }}">
                   <img src="/images/icons/footer-tou-icon.svg" />
                   {{ T "footer_tou" }}
+                  <div class="tab__content"></div>
                 </a>
               {{ end}}
             </label>
@@ -107,9 +111,9 @@
           </li>
           {{ end }}
           {{ if  (gt (len .Site.Home.Translations) 0) }}
-          <li class="nav-item dropdown mr-4 d-lg-block">
+          <!-- <li class="nav-item dropdown mr-4 d-lg-block">
             {{ partial "navbar-lang-selector.html" . }}
-          </li>
+          </li> -->
           {{ end }}
         </ul>
       </div>
