@@ -1,6 +1,6 @@
 ---
 title: "Thorium 3 support"
-linkTitle: "Thorium 3 support"
+linkTitle: "Support"
 weight: 10
 menu:
   main:
@@ -16,31 +16,33 @@ menu:
 {{% /pageinfo %}} -->
 
 
-<hr class="asterism"/>
-<p>
- Thorium 3 documentation s available as EPUB, different translations are available thru the Thorium documentation catalog. You can <a class="" href="opds://rawcdn.githack.com/edrlab/publications/main/feeds/thorium3_documentation.json">Add Documentation catalog to Thorium (OPDS link) </a> or <a class="" href="https://readium.firebaseapp.com/?epub=https://rawcdn.githack.com/edrlab/publications/main/thorium3-documentation/sources/en/">browse English documentation inline within the Readium web reader</a>.</p>
+<!-- <hr class="asterism"/> -->
+<p><b>
+ Thorium 3 documentation s available as EPUB, different translations are available thru the Thorium documentation catalog. You can <a class="" href="opds://rawcdn.githack.com/edrlab/publications/main/feeds/thorium3_documentation.json">Add Documentation catalog to Thorium (OPDS link) </a> or <a class="" href="https://readium.firebaseapp.com/?epub=https://rawcdn.githack.com/edrlab/publications/main/thorium3-documentation/sources/en/">browse English documentation inline within the Readium web reader</a>.</b></p>
 
 </p>
 
 <h2>Welcome to the Thorium Reader documentation</h2>
-  <p>
+<ul>
+  <li>
     For digital books, comics, audiobooks and PDF documents, including 
     those protected by the
     <a href="https://edrlab.org/readium-lcp">LCP DRM</a>
     (DRM meaning <span lang="en">Digital Rights Management</span>)
     on Linux, macOS, and Windows 10.
-  </p>
-  <p>
+  </li>
+  <li>
     Thorium is available in many languages; each update
     offers new ones thanks to the community. 
     Thorium Reader is also being made accessible for 
     visually impaired and dyslexic people.
-  </p>
-  <p>
+  </li>
+  <li>
     A libre and gratis app, with no advertising or leakage of private
     data, and features for heavy readers, library users and students.
     Made by <a href="https://edrlab.org">EDRLab</a>
-  </p>
+  </li>
+</ul>
 
 
 

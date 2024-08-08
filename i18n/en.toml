@@ -30,6 +30,12 @@ other = "Privacy Policy"
 [footer_accessibility]
 other = "Accessibility"
 
+[footer_thorium2]
+other = "Looking For Thorium 2?"
+
+[footer_tou]
+other = "Terms of use"
+
 # Post (blog, articles etc.)
 [post_byline_by]
 other = "By"

@@ -2,9 +2,9 @@
 title: "Legacy Thorium 2 documentation"
 linkTitle: "Thorium 2 documentation"
 weight: 20
-menu:
-  main:
-    weight: 20
+# menu:
+#   main:
+#     weight: 20
 ---
 
 <!-- {{% pageinfo %}}
