@@ -77,7 +77,7 @@ Thorium Reader is currently developed by:
 
 * Daniel Weck, lead developer.
 * Pierre Leroux,  developer.
-* Arthur Le Meur, developper
+* Arthur Le Meur, developer
 
  <p>The UX and UI of Thorium 3 was designed by <a href="https://www.myleneboyrie.fr/">Mylène Boyrie</a></p>
 
