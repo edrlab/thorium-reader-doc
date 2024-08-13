@@ -1,7 +1,7 @@
 
 $color-dark-blue: #1A3C6C;
 $color-orange: #EE8C3D;
-$color-grey: #a4aebc;
+$color-grey: #6B748E;
 $color-purple: #6975CF; 
 $color-extralight: #F4F8FD;
 
@@ -278,16 +278,16 @@ kbd {
 
     .exergue1, .exergue2 {
         font-weight: 400;
-        font-size: 24px;
+        font-size: 2rem;
         width: fit-content;
     }
 
     .exergue2 {
-        font-size: 22px;
+        font-size: 1.35rem;
     }
 
     .exergue3 {
-        font-size: 20px;
+        font-size: 1.3rem;
         font-weight: 300;
         width: fit-content;
     }
@@ -347,7 +347,7 @@ kbd {
             padding: 15px 20px;
             border-radius: 20px;
             color: white;
-            font-size: 20px;
+            font-size: 1.35rem;
             font-weight: 200;
             // &:after {
             //     content: "/images/icons/download-icon";
@@ -407,13 +407,13 @@ kbd {
     padding: 150px 100px 0;
 
     h1 {
-        font-size: 50px;
+        font-size: 3.35rem;
         font-weight: 400;
     }
 
     p {
         font-weight: 300;
-        font-size: 18px;
+        font-size: 1.1rem;
     }
 
     button {
@@ -480,7 +480,7 @@ kbd {
             margin: 0 20px;
 
             li {
-                font-size: 14px;
+                font-size: 0.9rem;
                 &:before {
                     content: "✓";
                     margin-right: 5px;
@@ -524,9 +524,9 @@ kbd {
         z-index: 3;
     }
 
-    h3 {
+    h2 {
         font-weight: 400;
-        font-size: 40px;
+        font-size: 2.35rem;
     }
 
     button {
@@ -635,7 +635,7 @@ kbd {
     h2 {
         text-align: center;
         color: $color-dark-blue;
-        font-size: 40px;
+        font-size: 2.35rem;
     }
 
     .carousel-comment {
@@ -664,7 +664,7 @@ kbd {
             color: white;
             text-align: start;
             text-transform: uppercase;
-            font-size: 20px;
+            font-size: 1.2rem;
             border-bottom: 1px solid white;
 
             a {
@@ -673,7 +673,7 @@ kbd {
 
             p {
                 padding-top: 0;
-                font-size: 14px;
+                font-size: 0.9rem;
                 text-transform: none;
             }
         }
@@ -686,7 +686,7 @@ kbd {
         
         a {
             color: $color-grey;
-            font-size: 20px;
+            font-size: 1.2rem;
         }
     }
 }
@@ -781,7 +781,7 @@ kbd {
 
         h2 {
             color: $color-dark-blue;
-            font-size: 50px;
+            font-size: 3rem;
             font-weight: 400;
         }
     }
@@ -793,7 +793,7 @@ kbd {
 
     li {
         color: $color-dark-blue;
-        font-size: 20px;
+        font-size: 1.2rem;
         margin-left: 20px;
 
         &::marker {
@@ -806,7 +806,7 @@ kbd {
         padding: 15px 20px;
         border-radius: 20px;
         color: white;
-        font-size: 24px;
+        font-size: 1.5rem;
         &:after {
             content: "→";
             margin-right: 10px;
@@ -831,7 +831,7 @@ kbd {
             border-radius: 40px;
             padding: 80px;
             color: $color-dark-blue;
-            font-size: 20px;
+            font-size: 1.2rem;
             max-width: 600px;
             max-height: 550px;
         }
@@ -858,7 +858,7 @@ kbd {
         }
 
         h2 {
-            font-size: 60px;
+            font-size: 3.8rem;
             margin-bottom: 30px;
         }
     }
@@ -876,7 +876,7 @@ kbd {
             background-color: $color-dark-blue;
         }
         h2 {
-            font-size: 60px;
+            font-size: 3.7rem;
             font-weight: 400;
         }
 
@@ -894,11 +894,11 @@ kbd {
 
         &_rightside {
             flex: 1.8;
-            font-size: 20px;
+            font-size: 1.1rem;
 
             h3 {
                 margin-bottom: 40px;
-                font-size: 35px;
+                font-size: 2.5rem;
             }
 
             h4 {
@@ -907,7 +907,7 @@ kbd {
         }
 
         &_leftside {
-            font-size: 20px;
+            font-size: 1.1rem;
             flex: 1.2;
 
             > p {
@@ -1048,7 +1048,7 @@ kbd {
     }
 
     p {
-        font-size: 18px;
+        font-size: 1rem;
         font-weight: 300;
 
         b {
