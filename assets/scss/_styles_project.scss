@@ -1,7 +1,7 @@
 
 $color-dark-blue: #1A3C6C;
 $color-orange: #EE8C3D;
-$color-grey: #BAC4D3;
+$color-grey: #6B748E;
 $color-purple: #6975CF; 
 $color-extralight: #F4F8FD;
 
@@ -256,6 +256,10 @@ kbd {
     position: relative;
     width: fit-content;
 
+    p {
+        margin: 0;
+    }
+
     .freeLabelIcon {
         position: absolute;
         transform: translate(-50%, -50%);
@@ -272,18 +276,18 @@ kbd {
         color: white;
     }
 
-    h1, h2 {
+    .exergue1, .exergue2 {
         font-weight: 400;
-        font-size: 24px;
+        font-size: 2rem;
         width: fit-content;
     }
 
-    h2 {
-        font-size: 22px;
+    .exergue2 {
+        font-size: 1.35rem;
     }
 
-    h3 {
-        font-size: 20px;
+    .exergue3 {
+        font-size: 1.3rem;
         font-weight: 300;
         width: fit-content;
     }
@@ -291,6 +295,7 @@ kbd {
 
 .downloadPanel {
     margin-top: 70px;
+    padding-top: 0 !important;
 
     &_title {
         display: flex;
@@ -301,27 +306,38 @@ kbd {
             height: 50px;
             width: 50px;
         }
-        h3 {
+        h1 {
             color: $color-dark-blue;
+            font-size: 1.5rem;
         }
     }
 
     &_content {
+        width: fit-content;
+        margin-top: 50px;
 
-        th {
+        p {
             padding: 20px 0;
         }
-        tr {
-            height: 80px;
-        }
-        h4 {
+
+        h2 {
             margin: 0;
             color: $color-grey;
+            font-size: 1.35rem;
+            width: 180px;
         }
+
         i {
             font-size: 2rem;
             color: $color-grey;
+            margin-right: 20px;
         }
+    }
+
+    &_element {
+        height: 80px;
+        display: grid;
+        grid-template-columns: 200px 1fr 1fr;
     }
 
     .download {
@@ -331,7 +347,7 @@ kbd {
             padding: 15px 20px;
             border-radius: 20px;
             color: white;
-            font-size: 20px;
+            font-size: 1.35rem;
             font-weight: 200;
             // &:after {
             //     content: "/images/icons/download-icon";
@@ -349,6 +365,24 @@ kbd {
             img {
                 height: 25px;
                 margin-left: 10px;
+            }
+        }
+    }
+
+    @media (max-width: 800px) {
+
+        &_content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        &_element {
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+    
+            > h2, > span {
+                height: 100px;
             }
         }
     }
@@ -372,14 +406,14 @@ kbd {
     gap: 20px;
     padding: 150px 100px 0;
 
-    h2 {
-        font-size: 50px;
+    h1 {
+        font-size: 3.35rem;
         font-weight: 400;
     }
 
     p {
         font-weight: 300;
-        font-size: 18px;
+        font-size: 1.1rem;
     }
 
     button {
@@ -398,8 +432,9 @@ kbd {
             margin: 0 10px;
         }
 
-        h4 {
+        h2 {
             margin: 0 10px;
+            font-size: 1.35rem;
         }
         // &:after {
         //     content: "→";
@@ -427,7 +462,7 @@ kbd {
         padding-top: 90px;
         text-align: center;
 
-        h4 {
+        h3 {
             font-weight: 300;
         }
 
@@ -445,7 +480,7 @@ kbd {
             margin: 0 20px;
 
             li {
-                font-size: 14px;
+                font-size: 0.9rem;
                 &:before {
                     content: "✓";
                     margin-right: 5px;
@@ -489,9 +524,9 @@ kbd {
         z-index: 3;
     }
 
-    h3 {
+    h2 {
         font-weight: 400;
-        font-size: 40px;
+        font-size: 2.35rem;
     }
 
     button {
@@ -600,7 +635,7 @@ kbd {
     h2 {
         text-align: center;
         color: $color-dark-blue;
-        font-size: 40px;
+        font-size: 2.35rem;
     }
 
     .carousel-comment {
@@ -629,7 +664,7 @@ kbd {
             color: white;
             text-align: start;
             text-transform: uppercase;
-            font-size: 20px;
+            font-size: 1.2rem;
             border-bottom: 1px solid white;
 
             a {
@@ -638,7 +673,7 @@ kbd {
 
             p {
                 padding-top: 0;
-                font-size: 14px;
+                font-size: 0.9rem;
                 text-transform: none;
             }
         }
@@ -651,7 +686,7 @@ kbd {
         
         a {
             color: $color-grey;
-            font-size: 20px;
+            font-size: 1.2rem;
         }
     }
 }
@@ -746,7 +781,7 @@ kbd {
 
         h2 {
             color: $color-dark-blue;
-            font-size: 50px;
+            font-size: 3rem;
             font-weight: 400;
         }
     }
@@ -758,7 +793,7 @@ kbd {
 
     li {
         color: $color-dark-blue;
-        font-size: 20px;
+        font-size: 1.2rem;
         margin-left: 20px;
 
         &::marker {
@@ -771,7 +806,7 @@ kbd {
         padding: 15px 20px;
         border-radius: 20px;
         color: white;
-        font-size: 24px;
+        font-size: 1.5rem;
         &:after {
             content: "→";
             margin-right: 10px;
@@ -796,7 +831,7 @@ kbd {
             border-radius: 40px;
             padding: 80px;
             color: $color-dark-blue;
-            font-size: 20px;
+            font-size: 1.2rem;
             max-width: 600px;
             max-height: 550px;
         }
@@ -823,7 +858,7 @@ kbd {
         }
 
         h2 {
-            font-size: 60px;
+            font-size: 3.8rem;
             margin-bottom: 30px;
         }
     }
@@ -841,7 +876,7 @@ kbd {
             background-color: $color-dark-blue;
         }
         h2 {
-            font-size: 60px;
+            font-size: 3.7rem;
             font-weight: 400;
         }
 
@@ -859,11 +894,11 @@ kbd {
 
         &_rightside {
             flex: 1.8;
-            font-size: 20px;
+            font-size: 1.1rem;
 
             h3 {
                 margin-bottom: 40px;
-                font-size: 35px;
+                font-size: 2.5rem;
             }
 
             h4 {
@@ -872,7 +907,7 @@ kbd {
         }
 
         &_leftside {
-            font-size: 20px;
+            font-size: 1.1rem;
             flex: 1.2;
 
             > p {
@@ -1013,7 +1048,7 @@ kbd {
     }
 
     p {
-        font-size: 18px;
+        font-size: 1rem;
         font-weight: 300;
 
         b {
