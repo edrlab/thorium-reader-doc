@@ -21,7 +21,9 @@ Many public libraries offer e-book lending services. You can borrow e-books for 
 
 [Europeana](https://www.europeana.eu/) is a digital library funded by the European Union. It provides access to millions of books, music, artworks, and more from European museums, galleries, libraries, and archives.
 
-Open Library: An initiative of the Internet Archive, Open Library is a web page for every book ever published. It has a vision to provide an open, editable library catalog.
+[Open Library](https://openlibrary.org/): An initiative of the Internet Archive, Open Library is a web page for every book ever published. It has a vision to provide an open, editable library catalog.
+
+[Standard Ebooks](https://standardebooks.org/) is a volunteer-driven project that produces new editions of public domain ebooks that are lovingly formatted, open source, free of U.S. copyright restrictions, and free of cost.
 
 <p>Gallica proposes an 
 <a href="http://gallica.bnf.fr/opds" target="_blank"> OPDS Catalogue (in French)</a>
