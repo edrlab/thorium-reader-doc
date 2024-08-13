@@ -1,7 +1,7 @@
 
 $color-dark-blue: #1A3C6C;
 $color-orange: #EE8C3D;
-$color-grey: #BAC4D3;
+$color-grey: #a4aebc;
 $color-purple: #6975CF; 
 $color-extralight: #F4F8FD;
 
@@ -256,6 +256,10 @@ kbd {
     position: relative;
     width: fit-content;
 
+    p {
+        margin: 0;
+    }
+
     .freeLabelIcon {
         position: absolute;
         transform: translate(-50%, -50%);
@@ -272,17 +276,17 @@ kbd {
         color: white;
     }
 
-    h1, h2 {
+    .exergue1, .exergue2 {
         font-weight: 400;
         font-size: 24px;
         width: fit-content;
     }
 
-    h2 {
+    .exergue2 {
         font-size: 22px;
     }
 
-    h3 {
+    .exergue3 {
         font-size: 20px;
         font-weight: 300;
         width: fit-content;
@@ -291,6 +295,7 @@ kbd {
 
 .downloadPanel {
     margin-top: 70px;
+    padding-top: 0 !important;
 
     &_title {
         display: flex;
@@ -301,27 +306,38 @@ kbd {
             height: 50px;
             width: 50px;
         }
-        h3 {
+        h1 {
             color: $color-dark-blue;
+            font-size: 1.5rem;
         }
     }
 
     &_content {
+        width: fit-content;
+        margin-top: 50px;
 
-        th {
+        p {
             padding: 20px 0;
         }
-        tr {
-            height: 80px;
-        }
-        h4 {
+
+        h2 {
             margin: 0;
             color: $color-grey;
+            font-size: 1.35rem;
+            width: 180px;
         }
+
         i {
             font-size: 2rem;
             color: $color-grey;
+            margin-right: 20px;
         }
+    }
+
+    &_element {
+        height: 80px;
+        display: grid;
+        grid-template-columns: 200px 1fr 1fr;
     }
 
     .download {
@@ -352,6 +368,24 @@ kbd {
             }
         }
     }
+
+    @media (max-width: 800px) {
+
+        &_content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        &_element {
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+    
+            > h2, > span {
+                height: 100px;
+            }
+        }
+    }
 }
 
 .col {
@@ -372,7 +406,7 @@ kbd {
     gap: 20px;
     padding: 150px 100px 0;
 
-    h2 {
+    h1 {
         font-size: 50px;
         font-weight: 400;
     }
@@ -398,8 +432,9 @@ kbd {
             margin: 0 10px;
         }
 
-        h4 {
+        h2 {
             margin: 0 10px;
+            font-size: 1.35rem;
         }
         // &:after {
         //     content: "→";
@@ -427,7 +462,7 @@ kbd {
         padding-top: 90px;
         text-align: center;
 
-        h4 {
+        h3 {
             font-weight: 300;
         }
 
