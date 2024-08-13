@@ -26,7 +26,7 @@ This site is made with the static site generator
  <ul class="nobullet">
  <li>Daniel Weck, lead developer.</li>
 <li>Pierre Leroux, developer.</li>
- <li>Arthur Le Meur, developper</li>
+ <li>Arthur Le Meur, developer</li>
  </ul>
 
  <p>The UX and UI of Thorium 3 was designed by <a href="https://www.myleneboyrie.fr/">Mylène Boyrie</a></p>
