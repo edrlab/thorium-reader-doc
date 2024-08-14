@@ -205,6 +205,21 @@ enable = false
   icon = "fa fa-envelope"
   desc = "Discuss development issues around the project"
 
+[[params.reviews]]
+content = "I love Thorium and have introduced it to my students for reading any digital content. It is doubly good when something that makes reading more accessible for visually impaired people is also something that makes things more flexible for all. It makes it so much easier to get buy-in for using it."
+name = "Suzanne Norman"
+place = "Simon Fraser University, Canada"
+
+[[params.reviews]]
+content = "I am very happy to have found this app. Its simple, easy to use, and most importantly, its very friendly for people who are blind and visually impaired."
+name = "Noberto"
+place = "USA"
+
+[[params.reviews]]
+content = "I can’t get enough of this ebook reader its clean and simple makes things easier for me to read! thank you I totally recommend this!"
+name = "Gigi"
+place = "USA"
+
 # hugo module configuration
 
 [module]
