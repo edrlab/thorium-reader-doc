@@ -11,6 +11,14 @@ body {
     font-weight: 300;
 }
 
+.skip_link {
+    position: absolute;
+    top: -1000000px;
+}
+.skip_link:hover {
+    top: 10px;
+}
+
 section {
     max-width: 1500px;
     margin: auto;
