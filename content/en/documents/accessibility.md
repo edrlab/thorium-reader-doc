@@ -7,7 +7,9 @@ weight: 100
 toc: false
 ---
 
-The thorium reader website content published since October 2022 is compliant with the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA level.
+The thorium reader website is actually not compliant with the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA level. 
+
+We are working actively to get compliance before the end of 2024. 
 
 ## Accessibility policy
 
