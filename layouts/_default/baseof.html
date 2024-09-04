@@ -3,7 +3,9 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
+  <body>
+    <a class="skip_link" aria-label="Accès rapide" id="skip_link" href="#main" target="_self"
+    >skip to main content</a>
     <header>
       {{ partial "navbar.html" . }}
     </header>
