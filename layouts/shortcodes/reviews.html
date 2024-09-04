@@ -1,3 +1,4 @@
+
 <section class="userReviews">
     <h2>User Reviews</h2>
     <div class="carousel">
@@ -5,30 +6,17 @@
         <img src="/images/icons/review-prev-icon.svg" />
       </button>
       <div class="carousel-images">
+
+        {{ range .Site.Params.reviews}}
         <div class="carousel-comment">
           <blockquote>
             <p>
-              “I love Thorium and have introduced it to my students for reading any digital content. It is doubly good when something that makes reading more accessible for visually impaired people is also something that makes things more flexible for all. It makes it so much easier to get buy-in for using it.”
+              "{{ .content }}"
             </p>
-            <footer><b>Suzanne Norman, </b><cite>Simon Fraser University, Canada</cite></footer>
+            <footer><b>{{ .name}}, </b><cite>{{ .place}}</cite></footer>
           </blockquote>
         </div>
-        <div class="carousel-comment">
-          <blockquote>
-            <p>
-              “I am very happy to have found this app. Its simple, easy to use, and most importantly, its very friendly for people who are blind and visually impaired.”
-            </p>
-            <footer><b>Noberto, </b><cite>USA</cite></footer>
-          </blockquote>
-        </div>
-        <div class="carousel-comment">
-          <blockquote>
-            <p>
-              “I can’t get enough of this ebook reader its clean and simple makes things easier for me to read! thank you I totally recommend this!”
-            </p>
-            <footer><b>Gigi, </b><cite>USA</cite></footer>
-          </blockquote>
-        </div>
+        {{ end }}
       </div>
       <button class="next" onclick="nextSlide()">
         <img src="/images/icons/review-next-icon.svg" />
