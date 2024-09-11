@@ -48,7 +48,21 @@ Whether you&amp;rsquo;re looking for the latest bestseller, a classic novel, a t
 &lt;h2 id="academic-and-professional-e-books">Academic and Professional E-Books:&lt;/h2>
 &lt;p>Google Scholar: Google Scholar provides a simple way to broadly search for scholarly literature. From one place, you can search across many disciplines and sources.&lt;/p>
 &lt;p>JSTOR: JSTOR is a digital library founded in 1995. Originally containing digitized back issues of academic journals, it now also includes books and primary sources. It is available to many universities and institutions across Europe.&lt;/p>
-&lt;p>Directory of Open Access Books (DOAB): DOAB provides open access to peer-reviewed books from various publishers. It is based in the Netherlands.&lt;/p></description></item><item><title>Th3: Functions</title><link>https://thorium.edrlab.org/th3/400_ressources/401_functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/401_functions/</guid><description>
+&lt;p>Directory of Open Access Books (DOAB): DOAB provides open access to peer-reviewed books from various publishers. It is based in the Netherlands.&lt;/p></description></item><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/390_requirements/</guid><description>
+&lt;p>Platform support is provided by Electron as defined in &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">Electron github repo Readme&lt;/a>&lt;/p>
+&lt;p>Each Electron release provides binaries for macOS, Windows, and Linux.&lt;/p>
+&lt;ul>
+&lt;li>macOS (Big Sur and up): Electron provides 64-bit Intel and Apple Silicon / ARM binaries for macOS.&lt;/li>
+&lt;li>Windows (Windows 10 and up): Electron provides ia32 (x86), x64 (amd64), and arm64 binaries for Windows. Windows on ARM support was added in Electron 5.0.8. Support for Windows 7, 8 and 8.1 was removed in Electron 23, in line with Chromium&amp;rsquo;s Windows deprecation policy.&lt;/li>
+&lt;li>Linux: The prebuilt binaries of Electron are built on Ubuntu 20.04. They have also been verified to work on:
+&lt;ul>
+&lt;li>Ubuntu 18.04 and newer&lt;/li>
+&lt;li>Fedora 32 and newer&lt;/li>
+&lt;li>Debian 10 and newer&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Thorium 3.0 has memories issues under Linux, as documented in Issue &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Functions</title><link>https://thorium.edrlab.org/th3/400_ressources/401_functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/401_functions/</guid><description>
 &lt;h2 id="library-functions">library functions&lt;/h2>
 &lt;table>
 &lt;thead>

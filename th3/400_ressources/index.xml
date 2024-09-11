@@ -1,4 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Ressources</title><link>https://thorium.edrlab.org/th3/400_ressources/</link><description>Recent content in Ressources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/th3/400_ressources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Functions</title><link>https://thorium.edrlab.org/th3/400_ressources/401_functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/401_functions/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Ressources</title><link>https://thorium.edrlab.org/th3/400_ressources/</link><description>Recent content in Ressources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/th3/400_ressources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/390_requirements/</guid><description>
+&lt;p>Platform support is provided by Electron as defined in &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">Electron github repo Readme&lt;/a>&lt;/p>
+&lt;p>Each Electron release provides binaries for macOS, Windows, and Linux.&lt;/p>
+&lt;ul>
+&lt;li>macOS (Big Sur and up): Electron provides 64-bit Intel and Apple Silicon / ARM binaries for macOS.&lt;/li>
+&lt;li>Windows (Windows 10 and up): Electron provides ia32 (x86), x64 (amd64), and arm64 binaries for Windows. Windows on ARM support was added in Electron 5.0.8. Support for Windows 7, 8 and 8.1 was removed in Electron 23, in line with Chromium&amp;rsquo;s Windows deprecation policy.&lt;/li>
+&lt;li>Linux: The prebuilt binaries of Electron are built on Ubuntu 20.04. They have also been verified to work on:
+&lt;ul>
+&lt;li>Ubuntu 18.04 and newer&lt;/li>
+&lt;li>Fedora 32 and newer&lt;/li>
+&lt;li>Debian 10 and newer&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Thorium 3.0 has memories issues under Linux, as documented in Issue &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Functions</title><link>https://thorium.edrlab.org/th3/400_ressources/401_functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/th3/400_ressources/401_functions/</guid><description>
 &lt;h2 id="library-functions">library functions&lt;/h2>
 &lt;table>
 &lt;thead>
