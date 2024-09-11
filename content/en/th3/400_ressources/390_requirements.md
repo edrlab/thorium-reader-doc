@@ -2,7 +2,7 @@
 title: "Minimum system requirements"
 description: ""
 draft: false
-weight: 410
+weight: 390
 toc: false
 ---
 
