@@ -1,6 +1,6 @@
 ---
 title: Prise en charge du thorium 3
-linkTitle: Soutien
+linkTitle: Assistance
 weight: '10'
 menu:
   main:
