@@ -1,9 +1,9 @@
 ---
 title: Glossaire
 description: ''
-draft: FAUX
+draft: false
 weight: '420'
-toc: FAUX
+toc: false
 ---
 
   <dl>

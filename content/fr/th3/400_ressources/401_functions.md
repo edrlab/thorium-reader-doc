@@ -1,9 +1,9 @@
 ---
 title: Fonctions
 description: ''
-draft: FAUX
+draft: false
 weight: '401'
-toc: FAUX
+toc: false
 ---
 
 ## fonctions de la bibliothèque

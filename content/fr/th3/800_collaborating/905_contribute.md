@@ -1,9 +1,9 @@
 ---
 title: Contribuer!
 description: ''
-draft: FAUX
+draft: false
 weight: '905'
-toc: FAUX
+toc: false
 ---
 
 Thorium et sa documentation sont développés grâce à la communauté des utilisateurs. Nous avons besoin d'aide pour traduire cette documentation.

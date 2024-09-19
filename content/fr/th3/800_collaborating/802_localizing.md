@@ -1,9 +1,9 @@
 ---
 title: Traduction
 description: ''
-draft: FAUX
+draft: false
 weight: '802'
-toc: FAUX
+toc: false
 ---
 
 La localisation de l'interface utilisateur du lecteur Thorium est assurée et maintenue grâce à des bénévoles et des organisations contributrices.

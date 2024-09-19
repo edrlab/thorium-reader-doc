@@ -1,11 +1,11 @@
 ---
 title: Lecture rapide
 description: ''
-draft: FAUX
+draft: false
 images:
   - logo.png
 weight: '100'
-toc: FAUX
+toc: false
 ---
 
 Thorium est un lecteur de livres numériques, c'est aussi une bibliothèque où vous pouvez stocker vos livres et accéder à des catalogues en ligne. Thorium ne nécessite aucun compte ni accès en ligne pour être lancé et utilisé.

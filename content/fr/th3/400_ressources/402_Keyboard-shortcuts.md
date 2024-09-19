@@ -1,9 +1,9 @@
 ---
 title: Raccourcis clavier
 description: ''
-draft: FAUX
+draft: false
 weight: '402'
-toc: FAUX
+toc: false
 ---
 
 {{&lt; info alerte &gt;}} Informations

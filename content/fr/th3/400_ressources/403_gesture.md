@@ -1,11 +1,11 @@
 ---
 title: Gestes tactiles
 description: ''
-draft: vrai
+draft: true
 images:
   - logo.png
 weight: '403'
-toc: FAUX
+toc: false
 ---
 
 Thorium Reader dispose d'un contrôle gestuel tactile à l'écran limité. Ils sont principalement implémentés pour le contrôle du zoom de l'image et le changement de page. Certains gestes natifs du système d'exploitation peuvent également fonctionner.

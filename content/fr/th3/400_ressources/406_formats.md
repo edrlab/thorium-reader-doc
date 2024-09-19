@@ -1,9 +1,9 @@
 ---
 title: Formats de publication pris en charge
 description: ''
-draft: FAUX
+draft: false
 weight: '406'
-toc: FAUX
+toc: false
 ---
 
 <dl>

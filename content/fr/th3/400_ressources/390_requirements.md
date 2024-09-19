@@ -1,9 +1,9 @@
 ---
 title: Configuration minimale requise
 description: ''
-draft: FAUX
+draft: false
 weight: '390'
-toc: FAUX
+toc: false
 ---
 
 Le support de la plateforme est fourni par Electron comme défini dans [le fichier Readme du dépôt GitHub d'Electron](https://github.com/electron/electron/blob/main/README.md#platform-support)

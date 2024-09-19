@@ -1,9 +1,9 @@
 ---
 title: Licence
 description: ''
-draft: FAUX
+draft: false
 weight: '913'
-toc: FAUX
+toc: false
 ---
 
 ## Licence

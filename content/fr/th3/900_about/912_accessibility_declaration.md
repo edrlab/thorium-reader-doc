@@ -1,9 +1,9 @@
 ---
 title: 'Accessibilité : conforme aux WCAG 2.1 AA'
 description: ''
-draft: vrai
+draft: true
 weight: '912'
-toc: FAUX
+toc: false
 ---
 
 Ce site a été testé avec NVDA sur Firefox sous Windows 10. Aucun bloqueur d'accessibilité n'a été trouvé.

@@ -1,9 +1,9 @@
 ---
 title: Crédits
 description: ''
-draft: FAUX
+draft: false
 weight: '902'
-toc: FAUX
+toc: false
 ---
 
 Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.

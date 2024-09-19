@@ -1,7 +1,7 @@
 ---
 Title: À propos de ce site
 weight: '900'
-bookCollapseSection: FAUX
+bookCollapseSection: false
 ---
 
 Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.

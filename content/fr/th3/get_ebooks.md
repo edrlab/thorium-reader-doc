@@ -1,11 +1,11 @@
 ---
 title: Où trouver des livres électroniques ?
 description: ''
-draft: FAUX
+draft: false
 images:
   - logo.png
 weight: '100'
-toc: FAUX
+toc: false
 ---
 
 À l'ère du numérique, les livres électroniques sont pratiques, accessibles et souvent abordables. Que vous recherchiez le dernier best-seller, un roman classique, un manuel ou un article scientifique, il existe une source de livres électroniques pour vous. Ce guide vous propose une variété d'options, gratuites et payantes, pour trouver et profiter des livres électroniques. Bonne lecture !
