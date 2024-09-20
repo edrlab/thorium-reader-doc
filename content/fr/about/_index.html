@@ -1,64 +1,162 @@
 ---
-title: À propos de Thorium Reader
-linkTitle: À propos
+title: L'application de lecture
+linkTitle: About
 menu:
   main:
-    weight: 10
-
+    weight: 30
 ---
 
-
-{{< blocks/cover color="secondary" >}}
-
-<div class="colonne33">
-	          <img src="https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png" alt="logo of Thorium Reader" width="120" height="120"><p></p>
-
-	<h2>L'application de lecture</h2>
-	<p><b><i>pour tous les lecteurs</i></b></p>
-
-  </div>
-  <div class="colonne66">
-
-    <h2>Pourquoi développer Thorium Reader ?</h2>
-    Pendant longtemps, il n'y a pas eu d'application de lecture moderne conforme à EPUB 3 utilisable sur Windows, OSX et Linux, correctement accessible aux personnes empéchées de lire les imprimés, avec un bon support pour la DRM LCP et capable de parcourir les catalogues OPDS.
-   
-    EDRLab a décidé de créer une telle application et de la mettre à disposition gratuitement, afin de fournir aux utilisateurs un excellent moyen d'apprécier sur un grand écran les publications EPUB, les bandes dessinées / comics / mangas, les livres audio, les documents PDF y compris protégés par LCP.
-    
-    Les personnes empéchées de lire les imprimés bénéficient désormais d'une application de lecture EPUB 3 qui prend en charge les lecteurs d'écran tels que Jaws et NVDA sous Windows, Voice Over sous Mac.
-    
+<section class="about">
+  {{< blocks/section color="white">}}
+    <div style="flex: 1.5;" class="about_header">
+      <div class="about_title">
+        <img class="left" src="https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png"
+          alt="logo of Thorium Reader" width="100 em" height="100 em">
+        <h2>L'application de lecture<br /> pour tous les lecteurs</h2>
       </div>
 
-{{< /blocks/cover >}}
+      <ul>
+        <li>Pendant longtemps, il n'existait aucune application de lecture moderne compatible EPUB 3 utilisable sous Windows, OSX et Linux,
+          correctement accessible aux personnes incapables de lire les textes imprimés, avec un bon support pour le DRM LCP et capable de naviguer
+          Catalogues OPDS.</li>
+        <li>EDRLab a décidé de créer une telle application et de la publier gratuitement, afin d'offrir aux utilisateurs un excellent moyen
+          pour profiter sur grand écran des publications EPUB, comics/manga/bandes dessinées, livres audio, PDF protégés LCP
+documents.</li>
+        <li>Les personnes incapables de lire les textes imprimés bénéficient désormais d'une application de lecture EPUB 3 qui prend en charge les lecteurs d'écran tels que Jaws et
+          NVDA sur Windows, Voice Over sur Mac.</li>
+      </ul>
+
+      <a href="https://www.youtube.com/watch?v=QYu_DJBpJkE" target="_blank" class="big_button_orange">Vidéo de présentation de Thorium Reader </a>
+    </div>
+    <img style="flex: 1; width: 400px; height: 100%; padding-top: 50px;" src="/images/about-ILLU.png"  alt="" role="presentation"/>
+
+    {{< /blocks/section>}}
 
 
-{{< blocks/lead  color="dark">}}
+      <section class="about_banner">
+        <div class="about_banner_technology">
+          <h2>Technologie</h2>
+          <p>Thorium Reader est basé sur un ensemble de modules open source sans chrome, une boîte à outils nommée Readium Desktop.
+            Thorium
+            Reader et Readium Desktop s'appuient tous deux sur Electron.js, node.js et typescript, qui sont efficaces
+            multiplateforme
+            technologiques. Thorium utilise également des composants React basés sur HTML 5/CSS 3.</p>
+        </div>
+        <div class="about_banner_medias">
+          <h2>Couverture médiatique</h2>
+          <ul>
+            <li>
+              <cite lang="en"><a
+                  href="https://accessinghigherground.org/introducing-thorium-a-new-free-desktop-epub-reader-for-windows-and-mac/">Introducing
+                  Thorium, a new free desktop EPUB reader for Windows and Mac</a></cite>,<br />
+              24th Annual Accessing Higher Ground, November 2019, speakers Richard Orme (CEO) and George Kerscher (Chief
+              Innovations Officer), DAISY Consortium.
+            </li>
+            <li><cite lang="en"><a
+                  href="https://goodereader.com/blog/e-book-news/thorium-reader-is-a-free-cross-platform-ebook-reading-app">Thorium
+                  Reader is a free cross-platform eBook reading app</a></cite>,<br /> May 2021, GoodEReader.</li>
+            <li lang="fr"><cite><a
+                  href="https://www.actualitte.com/article/lecture-numerique/thorium-reader-une-application-de-lecture-pour-windows-macos-et-linux/98877">Thorium
+                  Reader, une application de lecture pour Windows, macOS et Linux</a></cite>,<br /> January 2020,
+              Actualitté.</li>
+            <li lang="fr"><cite><a
+                  href="http://www.lettresnumeriques.be/2020/03/06/le-logiciel-de-lecture-depub-pour-windows-macos-et-linux-thorium-reader-est-disponible/">Le
+                  logiciel de lecture d’ePub pour Windows MacOS et Linux, Thorium Reader, est
+                  disponible</a></cite>,<br /> March
+              2020, Lettresnumerique.be.</li>
+            <li lang="fr"><cite><a
+                  href="https://www.actualitte.com/article/lecture-numerique/l-application-thorium-reader-peut-desormais-lire-les-livres-audio/100498">L’application
+                  Thorium Reader peut désormais lire les livres audio.</a></cite>,<br /> April 2020, Actualitté.</li>
+          </ul>
+        </div>
+      </section>
 
-<h2>En savoir plus sur Thorium Reader</h2>
 
-<p>Daniel Weck a présenté les dernières fonctionnalités de Thorium Reader lors du <a class="orange" href="https://www.edrlab.org/events/digital-publishing-summit-2022/">Digital Publishing Summit 2022</a> : voici les <a class="orange" href="https://docs.google.com/presentation/d/e/2PACX-1vTQvqZaRBQ_cOD4cWDo-juGkOUGrnw4Ky73DKGK4da_3lEstaEarvJaRrUl8850Y3Q3Ye7T-l0_7aPm/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.p">diapositives de sa présentation (en anglais)</a>.</p>
+      {{< reviews>}}
 
-  <h2>Technologies</h2>
-  
-  Thorium Reader est basé sur un ensemble de modules open-source, une boîte à outils nommée Readium Desktop. Thorium Reader et Readium Desktop s'appuient tous deux sur Electron.js, node.js et typescript, qui sont des technologies multiplateformes efficaces. Thorium utilise également des composants React basés sur HTML 5/CSS 3.
+        <section class="credits">
+          <h2>Credits</h2>
+          <div style="display: flex; gap: 100px;">
+            <div class="credits_leftside">
+              <p>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement du
+                Application Thorium-Reader.</p>
+              <img src="/images/credits-ILLU.png"  alt="" role="presentation"/>
+            </div>
+            <div class="credits_rightside">
+              <div class="credits_contributors">
+                <p><b>Les principaux contributeurs de cette documentation sont :</b>
+                <ul>
+                  <li>Gautier Chomel</li>
+                  <li>Georges Kerscher</li>
+                  <li>Noelia Ruiz Martínez</li>
+                  <li>Prashant Verma</li>
+                </ul>
+                Ce site est réalisé avec le générateur de sites statiques Hugo et le thème Hugo Book.
+                </p>
+              </div>
+              <h3>Qui a développé cette application</h3>
+              <ul>
+                <li>Daniel Weck, lead Developer</li>
+                <li>Pierre Leroux, developer</li>
+                <li>Arthur Le Meur, developer</li>
+              </ul>
 
+              <p>L'UX et l'UI de Thorium 3 ont été conçues par Mylène Boyrie. Plusieurs autres développeurs ont contribué à la création
+                Thorium ce qu'il est aujourd'hui:</p>
+              <ul>
+                <li>Simon Le Roux, designer</li>
+                <li>Cyrille Lebeaupin, CEO of noop.fr, senior developer</li>
+                <li>Jiminy Panoz, creator of Readium CSS</li>
+                <li>Léo Stéfani, node.js, React developer</li>
+                <li>Manuel Lagrand, intern, node.js developer</li>
+              </ul>
 
-{{< /blocks/lead >}} 
+              <p>Le projet est supervisé parLaurent Le Meur, EDRLab CTO</p>
+        </section>
 
-{{< blocks/lead class="txt-dark" color="white">}}
-<div class="colonne50"><h2>Quotes</h2>
-<blockquote><em>“J'adore Thorium et je l'ai présenté à mes étudiants pour la lecture de tout contenu numérique. C'est doublement bien quand quelque chose qui rend la lecture plus accessible aux malvoyants est aussi quelque chose qui rend les choses plus flexibles pour tous. Il est ainsi beaucoup plus facile d'obtenir l'adhésion à son utilisation.”</em> <br/> Suzanne Norman (Simon Fraser University, Canada)</blockquote>
-<blockquote><em>“Je suis très heureux d'avoir trouvé cette application. Elle est simple, facile à utiliser et, surtout, très conviviale pour les personnes aveugles et malvoyantes.”</em><br/>(Noberto, USA)</blockquote>
-<blockquote><em>“Je ne peux pas me passer de ce lecteur d'ebook, il est propre et simple, il me facilite la lecture ! merci, je le recommande totalement !”</em><br/> (Gigi, USA)</blockquote></div>
+        <section class="financers_section">
 
-<div class="colonne50">
-<h2>Couverture médiatique</h2>
+          <div>
+            <img src="/images/ministere.png"  alt="" role="presentation"/>
+            <img src="/images/cnl.png" alt="" role="presentation"/>
+          </div>
 
-<p lang="en" ><cite><a  href="https://accessinghigherground.org/introducing-thorium-a-new-free-desktop-epub-reader-for-windows-and-mac/" >Introducing Thorium, a new free desktop EPUB reader for Windows and Mac</a></cite>, 24th Annual Accessing Higher Ground, November 2019, speakers Richard Orme (CEO) and George Kerscher (Chief Innovations Officer), DAISY Consortium.</p>
-<p lang="en"><cite><a  href="https://goodereader.com/blog/e-book-news/thorium-reader-is-a-free-cross-platform-ebook-reading-app">Thorium Reader is a free cross-platform eBook reading app</a></cite>, May 2021, GoodEReader.</p>
-<p><cite><a  href="https://www.actualitte.com/article/lecture-numerique/thorium-reader-une-application-de-lecture-pour-windows-macos-et-linux/98877" >Thorium Reader, une application de lecture pour Windows, macOS et Linux</a></cite>, Janvier 2020, Actualitté.</p>
-<p><cite><a  href="http://www.lettresnumeriques.be/2020/03/06/le-logiciel-de-lecture-depub-pour-windows-macos-et-linux-thorium-reader-est-disponible/" >Le logiciel de lecture d’ePub pour Windows MacOS et Linux, Thorium Reader, est disponible</a></cite>, Mars 2020, Lettresnumerique.be.</p>
-<p><cite><a  href="https://www.actualitte.com/article/lecture-numerique/l-application-thorium-reader-peut-desormais-lire-les-livres-audio/100498" >L’application Thorium Reader peut désormais lire les livres audio.</a></cite>, Avril 2020, Actualitté.</p>
-</div>
-{{< /blocks/lead >}} 
+          <div>
+
+            <h3>Qui finance cette application ?</h3>
+
+            <p>EDRLab est une organisation à but non lucratif. Notre budget provient essentiellement de nos membres. EDRLab démarré
+              en France, mais compte désormais 60 membres en Europe, Amérique du Nord, Amérique du Sud et Asie.</p>
+
+            <h4>Ce projet n'aurait pas vu le jour sans : </h4>
+
+            <ol class="financeurs">
+              <li>L'implication financière de nos membres fondateurs : Editis, Hachette Livre, Magrigall,
+Médias-Participations, Cercle de la Libraire, Syndicat national de l'Edition. Ils comprennent que
+                le financement des normes ouvertes et de l’open source est le meilleur moyen de dynamiser un marché ouvert et innovant pour
+                l'industrie de l'édition.</li>
+              <li>Subventions financières des organismes publics français suivants :
+                <ul>
+                  <li>CNL (Centre National du Livre)</li>
+                  <li>Ministère de la Culture</li>
+                </ul>
+              </li>
+              <li>Des subventions supplémentaires des membres de l'EDRLab intéressés par l'ajout de fonctionnalités spécifiques :
+                <ul>
+                  <li>Fênix Editorial, Brazil</li>
+                  <li>Canadian Electronic Library, Canada</li>
+                  <li>MLOL / Horizons Limited, Italy</li>
+                  <li>Lyrasis, USA</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          </div>
+          </div>
+
+        </section>
+
+</section>
+
 
 

@@ -14,7 +14,6 @@
       <div class="footer_links_block">
         <!-- {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }}  -->
         {{ if not .Site.Params.ui.footer_about_disable }}
-        <!-- {{ with .Site.GetPage "about" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} |  -->
         {{ end }}
 
         <section class="accordion">
@@ -90,7 +89,7 @@
         {{ end }}
         <ul class="navbar-nav mt-2 mt-lg-0">
           <li>
-            <a class="nav-link active" href="/">HOME</a></li>
+            <a class="nav-link active" href="/">{{ T "home" }}</a></li>
           {{ $p := . }}
           {{ range .Site.Menus.main }}
           <li class="nav-item mr-4 mb-2 mb-lg-0">
