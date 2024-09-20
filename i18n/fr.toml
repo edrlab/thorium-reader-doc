@@ -36,6 +36,9 @@ other = "Des infos sur Thorium 2?"
 [footer_tou]
 other = "Conditions d'utilisation"
 
+[home]
+other = "Accueil"
+
 # Post (blog, articles etc.)
 [post_byline_by]
 other = "Par"
