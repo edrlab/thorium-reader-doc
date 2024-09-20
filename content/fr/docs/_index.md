@@ -2,9 +2,9 @@
 title: Bienvenue dans la documentation de Thorium Reader
 linkTitle: "Documentation"
 weight: 20
-menu:
-  main:
-    weight: 20
+# menu:
+#   main:
+#     weight: 20
 ---
 
 Ce document est destiné à tous ceux qui n’ont jamais entendu parler de
