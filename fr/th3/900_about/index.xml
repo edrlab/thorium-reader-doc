@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – À propos de ce site</title><link>https://thorium.edrlab.org/fr/th3/900_about/</link><description>Recent content in À propos de ce site on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/fr/th3/900_about/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Crédits</title><link>https://thorium.edrlab.org/fr/th3/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about/902_credits/</guid><description>
+&lt;p>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.&lt;/p>
+&lt;p>Les principaux contributeurs de cette documentation sont :&lt;/p>
+&lt;ul>
+&lt;li>Gautier Chomel&lt;/li>
+&lt;li>Georges Kerscher&lt;/li>
+&lt;li>Noelia Ruiz Martínez&lt;/li>
+&lt;li>Prashant Verma&lt;/li>
+&lt;/ul>
+&lt;p>Ce site est réalisé avec le générateur de site statique &lt;a href="https://gohugo.io/">Hugo&lt;/a> et le &lt;a href="https://github.com/alex-shpak/hugo-book/">thème Hugo Book&lt;/a> .&lt;/p>
+&lt;h2>Qui a développé cette application&lt;/h2>
+&lt;p>Thorium Reader est actuellement développé par :&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Daniel Weck, développeur principal.&lt;/li>
+&lt;li>Pierre Leroux, promoteur.&lt;/li>
+&lt;li>Arthur Le Meur, développeur&lt;/li>
+&lt;/ul>
+&lt;p>L'UX et l'UI de Thorium 3 ont été conçus par &lt;a href="https://www.myleneboyrie.fr/">Mylène Boyrie&lt;/a>&lt;/p>
+&lt;p>Plusieurs autres développeurs ont contribué à faire de Thorium ce qu’il est aujourd’hui :&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Simon Le Roux, designer UI.&lt;/li>
+&lt;li>Cyrille Lebeaupin, PDG de noop.fr, développeur sénior.&lt;/li>
+&lt;li>Jiminy Panoz, créateur de Readium CSS.&lt;/li>
+&lt;li>Léo Stéfani, node.js, développeur React.&lt;/li>
+&lt;li>Manuel Lagrand, stagiaire, développeur node.js.&lt;/li>
+&lt;/ul>
+&lt;p>Le projet est supervisé par Laurent Le Meur, CTO d'EDRLab.&lt;/p>
+&lt;h2>Qui finance cette application&lt;/h2>
+&lt;p> EDRLab est une association à but non lucratif. Notre budget provient essentiellement de nos membres. EDRLab a débuté en France, mais compte aujourd'hui 60 membres d'Europe, d'Amérique du Nord, d'Amérique du Sud et d'Asie. &lt;/p>
+&lt;p>Ce projet n'aurait pas vu le jour sans :&lt;/p>
+&lt;p> 1- L'implication financière de nos membres fondateurs : Editis, Hachette Livre, Magrigall, Media-Participations, Cercle de la Librairie, Syndicat national de l'Edition. Ils ont compris que le financement des standards ouverts et de l'open source est le meilleur moyen de dynamiser un marché ouvert et innovant pour l'édition. &lt;/p>
+&lt;p>2- Les subventions financières des organismes publics français suivants :&lt;/p>
+&lt;ul>
+&lt;li>CNL (Centre National du Livre)&lt;/li>
+&lt;li>Ministère de la Culture&lt;/li>
+&lt;/ul>
+&lt;p> 3- Subventions complémentaires des membres d'EDRLab intéressés par l'ajout de fonctionnalités spécifiques : &lt;/p>
+&lt;ul>
+&lt;li>Fênix Editorial, Brésil&lt;/li>
+&lt;li>Bibliothèque électronique canadienne, Canada&lt;/li>
+&lt;li>MLOL / Horizons Unlimited, Italie&lt;/li>
+&lt;li>Lyrasis, États-Unis&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Licence</title><link>https://thorium.edrlab.org/fr/th3/900_about/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about/913_licence/</guid><description>
+&lt;h2 id="licence">Licence&lt;/h2>
+&lt;p>Copyright 2019 European Digital Reading Lab. Tous droits réservés. Licence accordée à la Fondation Readium en vertu d&amp;rsquo;un ou plusieurs accords de licence de contributeur.&lt;/p>
+&lt;p>L&amp;rsquo;application Thorium-reader est open-source, publiée sous licence BSD 3. Elle est basée sur la boîte à outils open-source Readium Desktop.&lt;/p>
+&lt;p>Le contenu de ce site Web est libre et peut être réutilisé selon les termes de la licence BSD.&lt;/p>
+&lt;p>Ce site statique est généré par Hugo et le thème Hugo Book. &lt;a href="https://github.com/edrlab/thorium-reader-doc">Le code source est public&lt;/a> .&lt;/p></description></item></channel></rss>

@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Vous souhaitez collaborer ?</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/</link><description>Recent content in Vous souhaitez collaborer ? on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/fr/th3/800_collaborating/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Traduction</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/802_localizing/</guid><description>
+&lt;p>La localisation de l&amp;rsquo;interface utilisateur du lecteur Thorium est assurée et maintenue grâce à des bénévoles et des organisations contributrices.&lt;/p>
+&lt;p>Tous les paramètres régionaux sont stockés dans le dossier ressources locales sources.&lt;/p>
+&lt;p>Pour ajouter une traduction, vous pouvez partir de l&amp;rsquo;anglais &amp;ldquo;en.json&amp;rdquo;, le renommer en et modifier les valeurs après la ponctuation deux points (:).&lt;/p>
+&lt;p>Si vous êtes à l&amp;rsquo;aise avec github, vous pouvez ouvrir une pull request pour soumettre le fichier.&lt;/p>
+&lt;p>Sinon, vous pouvez simplement nous envoyer le fichier localisé par email et nous procéderons à l&amp;rsquo;ajout. Une liste des contributeurs est maintenue sur la page wiki Traduction de la langue de localisation (l10n).&lt;/p>
+&lt;p>Sachez que nous sommes actuellement en train de retravailler l&amp;rsquo;interface utilisateur, des changements importants pourraient donc survenir d&amp;rsquo;ici le premier trimestre 2024. Nous alertons généralement les contributeurs de localisation avant toute publication afin qu&amp;rsquo;ils puissent mettre à jour le fichier de traduction. Nous mentionnons également que le site Web de documentation de Thorium peut être localisé via une méthodologie de contribution similaire. ](../900_about)&lt;/p></description></item><item><title>Th3: Votre aide est précieuse</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</guid><description>
+&lt;p> Vous aussi, vous pouvez aider Thorium Reader à devenir la meilleure application de lecture en &lt;a href="https://www.edrlab.org/become-a-member/">devenant membre de l'EDRLab&lt;/a> . Ou en faisant un don à l'EDRLab via le &lt;a href="https://github.com/sponsors/edrlab">parrainage Github&lt;/a> "piggy-bank", qui accepte les petits dons mensuels. &lt;/p>
+&lt;p> Thorium est construit par sa communauté. Si vous souhaitez participer, contactez-nous ! &lt;/p>
+&lt;p>Vous pouvez également : &lt;/p>
+&lt;ul>
+&lt;li>Signalez une erreur ou suggérez une modification en ouvrant un problème dans notre [outil de suivi du support](https://github.com/edrlab/thorium-reader-doc/issues/new). &lt;/li>
+&lt;/ul>
+&lt;li>Participer à la traduction des ressources.&lt;/li></description></item><item><title>Th3: Bloqué?</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/904_issues/</guid><description>
+&lt;p>Si vous ne trouvez pas la réponse à votre problème sur ce site, vous pouvez nous faire part de votre problème via notre &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">outil de suivi du support&lt;/a> ou &lt;a href="https://www.edrlab.org/contact/">notre formulaire de contact&lt;/a> .&lt;/p>
+&lt;p>Voici les informations dont nous avons besoin :&lt;/p>
+&lt;ul>
+&lt;li>Système d&amp;rsquo;exploitation et sa version&lt;/li>
+&lt;li>Version Thorium (elle est indiquée en bas de la bibliothèque sous le titre &lt;code>About Thorium&lt;/code> )&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Contribuer!</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/905_contribute/</guid><description>
+&lt;p>Thorium et sa documentation sont développés grâce à la communauté des utilisateurs. Nous avons besoin d&amp;rsquo;aide pour traduire cette documentation.&lt;/p>
+&lt;p>Pour ce faire, vous pouvez &lt;a href="https://www.edrlab.org/contact/">nous contacter&lt;/a> .&lt;/p>
+&lt;p>Si vous êtes suffisamment à l&amp;rsquo;aise avec GitHub et le format Markdown, vous pouvez proposer une nouvelle traduction via une Pull Request.&lt;/p>
+&lt;p>Pour cela : clonez le dépôt et créez une branche avec le nom de la langue que vous souhaitez ajouter, faites une copie du dossier &lt;code>content.en&lt;/code> et renommez-le avec deux lettres correspondant à la langue que vous souhaitez ajouter (par exemple &lt;code>content.es&lt;/code> contiendra la traduction en espagnol). Les noms des fichiers ne doivent pas être modifiés car ils assurent la correspondance entre les langues.&lt;/p>
+&lt;p>Le dossier &lt;code>i18n&lt;/code> contient les traductions des éléments fixes de l&amp;rsquo;en-tête et du pied de page. Plusieurs langues sont déjà présentes, si votre langue n&amp;rsquo;est pas présente, copiez-collez le fichier .yaml et renommez-le avec les deux premières lettres des lettres de la langue que vous souhaitez ajouter.&lt;/p>
+&lt;p>Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier &lt;code>config.toml&lt;/code> et ajoutez la langue avec le code suivant :&lt;/p>
+&lt;pre tabindex="0">&lt;code>[languages.en]
+languageName = &amp;#39;English&amp;#39;
+contentDir = &amp;#39;content.en&amp;#39;
+weight = 1
+&lt;/code>&lt;/pre>&lt;p>Vous devez remplacer &lt;code>.en' with the first two letters of the language you are adding and fill in the name of the language as the&lt;/code> &lt;code>value. The&lt;/code> weight` indique l&amp;rsquo;ordre d&amp;rsquo;apparition dans le menu des langues.&lt;/p>
+&lt;p>Exemple pour l&amp;rsquo;espagnol :&lt;/p>
+&lt;pre tabindex="0">&lt;code>[languages.es]
+languageName = &amp;#39;Español&amp;#39;
+contentDir = &amp;#39;content.es&amp;#39;
+weight = 3
+&lt;/code>&lt;/pre>&lt;p>Les images localisées telles que les captures d&amp;rsquo;écran doivent être ajoutées au dossier &lt;code>statics/images/local-(two letter language)&lt;/code> .&lt;/p></description></item></channel></rss>
