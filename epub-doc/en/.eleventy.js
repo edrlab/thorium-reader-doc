@@ -29,7 +29,7 @@ module.exports = function(eleventyConfig) {
   return {
     passthroughFileCopy: true,
     dir: {
-      input: "src",
+      input: "en",
       output: "build/epub/EPUB"
     }
   };
