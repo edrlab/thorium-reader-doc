@@ -1,0 +1,667 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Soporte de torio 3</title><link>https://thorium.edrlab.org/es/th3/</link><description>Recent content in Soporte de torio 3 on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/es/th3/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: ¿Dónde conseguir libros electrónicos?</title><link>https://thorium.edrlab.org/es/th3/get_ebooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/get_ebooks/</guid><description>
+&lt;p>En la era digital, los libros electrónicos ofrecen comodidad, accesibilidad y, a menudo, asequibilidad. Ya sea que esté buscando el último éxito de ventas, una novela clásica, un libro de texto o un artículo académico, existe una fuente de libros electrónicos para usted. Esta guía le ofrece una variedad de opciones, tanto gratuitas como pagas, para encontrar y disfrutar de los libros electrónicos. ¡Feliz lectura!&lt;/p>
+&lt;p>El panorama de lugares donde encontrar libros electrónicos es muy variado y está en constante evolución. Las fuentes locales siempre serán más pertinentes para usted; esta guía solo ofrece una lista breve de fuentes conocidas.&lt;/p>
+&lt;h2 id="bibliotecas-públicas">Bibliotecas Públicas:&lt;/h2>
+&lt;p>Muchas bibliotecas públicas ofrecen servicios de préstamo de libros electrónicos. Puedes tomar prestados libros electrónicos de forma gratuita utilizando tu tarjeta de biblioteca. La disponibilidad de los servicios y plataformas puede variar según el país y el sistema de bibliotecas.&lt;/p>
+&lt;h2 id="fuentes-de-libros-electrónicos-gratuitos">Fuentes de libros electrónicos gratuitos:&lt;/h2>
+&lt;p>&lt;a href="https://www.gutenberg.org/">El Proyecto Gutenberg&lt;/a> es una biblioteca de más de 60.000 libros electrónicos gratuitos. Puedes elegir entre libros gratuitos en formato epub, libros gratuitos en formato Kindle, descargarlos o leerlos en línea. &lt;a href="opds://www.gutenberg.org/ebooks/search.opds/" target="_blank">Abre el feed OPDS para ver los títulos de Gutenberg.org&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.europeana.eu/">Europeana&lt;/a> es una biblioteca digital financiada por la Unión Europea. Proporciona acceso a millones de libros, música, obras de arte y mucho más de museos, galerías, bibliotecas y archivos europeos.&lt;/p>
+&lt;p>&lt;a href="https://openlibrary.org/">Open Library&lt;/a> : una iniciativa de Internet Archive, Open Library es una página web para todos los libros publicados. Su objetivo es ofrecer un catálogo de biblioteca abierto y editable.&lt;/p>
+&lt;p>&lt;a href="https://standardebooks.org/">Standard Ebooks&lt;/a> es un proyecto impulsado por voluntarios que produce nuevas ediciones de libros electrónicos de dominio público cuidadosamente formateados, de código abierto, libres de restricciones de derechos de autor de EE. UU. y sin costo.&lt;/p>
+&lt;p>Gallica propone un &lt;a href="http://gallica.bnf.fr/opds" target="_blank">catálogo OPDS (en francés)&lt;/a> &lt;/p>
+&lt;p>ManyBooks: ManyBooks ofrece más de 50.000 libros electrónicos gratuitos en varios géneros y formatos.&lt;/p>
+&lt;h2 id="minoristas-en-línea">Minoristas en línea:&lt;/h2>
+&lt;p>Un gran número de bibliotecas en línea ofrecen acceso a libros electrónicos.&lt;/p>
+&lt;h2 id="libros-electrónicos-académicos-y-profesionales">Libros electrónicos académicos y profesionales:&lt;/h2>
+&lt;p>Google Scholar: Google Scholar ofrece una forma sencilla de realizar búsquedas amplias de literatura académica. Desde un solo lugar, puede buscar en muchas disciplinas y fuentes.&lt;/p>
+&lt;p>JSTOR: JSTOR es una biblioteca digital fundada en 1995. Originalmente contenía números anteriores digitalizados de revistas académicas, pero ahora también incluye libros y fuentes primarias. Está disponible para muchas universidades e instituciones de toda Europa.&lt;/p>
+&lt;p>Directorio de libros de acceso abierto (DOAB): DOAB ofrece acceso abierto a libros revisados por pares de varias editoriales. Tiene su sede en los Países Bajos.&lt;/p></description></item><item><title>Th3: Requisitos mínimos del sistema</title><link>https://thorium.edrlab.org/es/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/390_requirements/</guid><description>
+&lt;p>El soporte de la plataforma lo proporciona Electron, tal como se define en el &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">archivo Readme del repositorio de Github de Electron.&lt;/a>&lt;/p>
+&lt;p>Cada versión de Electron proporciona binarios para macOS, Windows y Linux.&lt;/p>
+&lt;ul>
+&lt;li>macOS (Big Sur y superiores): Electron proporciona binarios Intel y Apple Silicon/ARM de 64 bits para macOS.&lt;/li>
+&lt;li>Windows (Windows 10 y posteriores): Electron proporciona binarios ia32 (x86), x64 (amd64) y arm64 para Windows. La compatibilidad con Windows en ARM se agregó en Electron 5.0.8. La compatibilidad con Windows 7, 8 y 8.1 se eliminó en Electron 23, de acuerdo con la política de desuso de Windows de Chromium.&lt;/li>
+&lt;li>Linux: Los binarios precompilados de Electron están compilados en Ubuntu 20.04. También se ha verificado que funcionan en:
+&lt;ul>
+&lt;li>Ubuntu 18.04 y posteriores&lt;/li>
+&lt;li>Fedora 32 y posteriores&lt;/li>
+&lt;li>Debian 10 y posteriores&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Thorium 3.0 tiene problemas de memoria en Linux, como se documenta en el número &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Funciones</title><link>https://thorium.edrlab.org/es/th3/400_ressources/401_functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/401_functions/</guid><description>
+&lt;h2 id="funciones-de-la-biblioteca">funciones de la biblioteca&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icono&lt;/th>
+&lt;th>Función&lt;/th>
+&lt;th>Descripción&lt;/th>
+&lt;th>Notas&lt;/th>
+&lt;th>Atajos&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-add-24px.svg" alt="Icono" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/plus.svg" alt="Icono +" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Añadir libro&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icono Flecha derecha" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Próximo libro &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icono Flecha izquierda" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Libro anterior &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-close-24px.svg" alt="Icono x" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Cerrar (el panel de información del libro) &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/menu.svg" alt="Icono 3 puntos" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Abrir el menú del libro (da acceso al archivo del libro, permite eliminar y exportar un libro) &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="Icono de lupa" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Buscar&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_list-24px.svg" alt="Lista de iconos" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Vista de lista de libros&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_module-24px.svg" alt="Cuadrícula de iconos" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Vista de cuadrícula de libros &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/done.svg" alt="Icono circular" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Indica que la acción ha finalizado, por ejemplo al importar un libro.&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/download.svg" alt="Icono de flecha hacia abajo para formar un cuadro" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Guarde una copia del archivo del libro. &lt;/span>&lt;/td>
+&lt;td>Abre una ventana del sistema para seleccionar la carpeta donde guardar el archivo. Los marcadores no están presentes en este archivo exportado.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/landmark.svg" alt="Marcadores de iconos" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Marcadores&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/loader.svg" alt="Icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Icono que indica que el libro se está agregando a Thorium. Esta indicación no se ofrece actualmente a los usuarios de lectores de pantalla.&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="funciones-de-lectura">Funciones de lectura&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icono&lt;/th>
+&lt;th>Función&lt;/th>
+&lt;th>Descripción&lt;/th>
+&lt;th>Notas&lt;/th>
+&lt;th>Atajos&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_back-24px.svg" alt="Icono de flecha a la izquierda" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Regresar a la biblioteca (cierra el libro que se está leyendo) &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/info.svg" alt="Información del icono" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-info-24px.svg" alt="Información del icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Panel informativo del libro abierto&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-flip_to_front-24px.svg" alt="Icono Mostrar la biblioteca" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Ir a la biblioteca &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="Icono de lupa" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Buscar en la publicación&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="Configuración de iconos" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Configuración de lectura&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icono de flecha derecha" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Siguiente contenido &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icono gauche" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Contenido anterior &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px.svg" alt="" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px-grey.svg" alt="Marcadores de iconos" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark_border-24px.svg" alt="Página de marca de iconos" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Agrega o elimina un marcador&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/open_book.svg" alt="Navegación por iconos" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Abre o cierra el panel de navegación.&lt;/span>&lt;/td>
+&lt;td>Da acceso a la tabla de contenidos, marcadores, marcadores y paginación de referencias.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/sharp-crop_free-24px.svg" alt="Icono Modo de pantalla completa" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Pantalla completa &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="configuración-de-lectura">Configuración de lectura&lt;/h3>
+&lt;p>Panel de configuración y preferencias del usuario para la visualización del contenido de la publicación. &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icono&lt;/th>
+&lt;th>Función&lt;/th>
+&lt;th>Descripción&lt;/th>
+&lt;th>Notas&lt;/th>
+&lt;th>Atajos&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="Icono de tamaño de texto" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Texto: Cambiar el tamaño de fuente &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/auto.svg" alt="Icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Ver/Diseño: Desplazarse (el texto se desplaza hacia arriba y hacia abajo)&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/pagine.svg" alt="Icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Visualización/disposición: paginada &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/paragraph-left.svg" alt="Icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Alineación automática &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/colonne.svg" alt="Icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">1 columna&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/colonne2.svg" alt="Icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> 2 columnas&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="navegación">Navegación&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icono&lt;/th>
+&lt;th>Función&lt;/th>
+&lt;th>Descripción&lt;/th>
+&lt;th>Notas&lt;/th>
+&lt;th>Atajos&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-edit-24px.svg" alt="Icono" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-edit-24px-grey.svg" alt="Editar icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Editar (el nombre de un marcador)&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sin icono (mención de texto)&lt;/td>
+&lt;td>Tabla de contenido&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Mayús&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sin icono (mención de texto)&lt;/td>
+&lt;td>Menú de páginas de referencia&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Mayús&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>p&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="reproducción-de-audio-voz-pregrabada-o-sintética-tts">Reproducción de audio (voz pregrabada o sintética TTS)&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Icono&lt;/th>
+&lt;th>Función&lt;/th>
+&lt;th>Descripción&lt;/th>
+&lt;th>Notas&lt;/th>
+&lt;th>Atajos&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-volume_up-24px.svg" alt="Icono Activar texto a voz" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Activar funciones de audio&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-pause-24px.svg" alt="Pausa de icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Pausa la reproducción de audio &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-play_arrow-24px.svg" alt="Juego de iconos" width="20px">&lt;/td>
+&lt;td>&lt;span class="function"> Inicia la reproducción de audio&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-skip_next-24px.svg" alt="Icono anterior" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Pasa a la siguiente parte de audio (dependiendo de la producción del libro)&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-skip_previous-24px.svg" alt="Icono siguiente" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Va a la parte de audio anterior (dependiendo de la producción del libro)&lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-stop-24px.svg" alt="Icono" width="20px">&lt;/td>
+&lt;td>&lt;span class="function">Detiene la reproducción de audio &lt;/span>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>4&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Th3: Atajos de teclado</title><link>https://thorium.edrlab.org/es/th3/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/402_keyboard-shortcuts/</guid><description>
+&lt;p>{{&amp;lt; alert info &amp;gt;}} Información&lt;/p>
+&lt;p>La tecla &lt;kbd>Shift&lt;/kbd> está representada por una flecha vacía que apunta hacia arriba en algunos teclados: &lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd> .&lt;/p>
+&lt;p>La tecla &lt;kbd>Ctrl&lt;/kbd> se reemplaza por la tecla &lt;kbd>Cmd&lt;/kbd> en los teclados Mac.&lt;/p>
+&lt;p>{{&amp;lt; /alerta&amp;gt;}}&lt;/p>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd> : Contenido principal (`FocusMain`)&lt;/dt>
+&lt;dd>En las ventanas del lector y de la biblioteca, mueve el foco del teclado al punto de referencia del área "principal" (en la vista del lector, esto está inmediatamente antes del marco que muestra el contenido de la publicación) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>t&lt;/kbd> : Barra de herramientas (`FocusToolbar`)&lt;/dt>
+&lt;dd>En las ventanas del lector y de la biblioteca, mueve el foco del teclado a la barra de herramientas horizontal superior, inmediatamente antes del enlace "omitir" (que a su vez mueve el foco al punto de referencia del área "principal") &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> : Navegación (`FocusReaderNavigation`)&lt;/dt>
+&lt;dd>En la ventana del lector, mueve el foco del teclado al panel de navegación (tabla de contenido, marcadores, etc.) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> : Tabla de contenido (`FocusReaderNavigationTOC`)&lt;/dt>
+&lt;dd>En la ventana del lector, mueve el foco del teclado al panel de navegación, pero más específicamente a la tabla de contenido y, si es posible, al encabezado detectado/más cercano a la ubicación de lectura. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>p&lt;/kbd> : Ir a la página (`FocusReaderGotoPage`)&lt;/dt>
+&lt;dd>En la ventana del lector, mueve el foco del teclado a la sección "Ir a página" en el panel de navegación &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd> : Configuración del lector (`FocusReaderSettings`)&lt;/dt>
+&lt;dd>En la ventana del lector, mueve el foco del teclado al panel de configuración (preferencias del usuario para mostrar el contenido de la publicación) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd> : Marcadores (`ToggleBookmark`)&lt;/dt>
+&lt;dd>En la ventana del lector, alternar marcador (se produce una notificación para que los lectores de pantalla anuncien el cambio) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> : Pantalla completa (`ToggleReaderFullscreen`)&lt;/dt>
+&lt;dd>En la ventana del lector, alternar pantalla completa &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd> : Panel de información del libro (`OpenReaderInfo`)&lt;/dt>
+&lt;dd>En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación (puede usarse en futuras versiones de Thorium para una función similar en la ventana de la biblioteca) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd> : dónde estoy (`OpenReaderInfoWhereAmI`)&lt;/dt>
+&lt;dd>En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación, con foco directo del teclado en la sección que muestra la jerarquía de encabezados y otra información contextual para la ubicación de lectura actual, como el salto de página anterior más cercano, así como el índice del documento en el orden de lectura (esta es la función "dónde estoy"). &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>k&lt;/kbd> : dónde estoy (notificación rápida compatible con lectores de pantalla) (`SpeakReaderInfoWhereAmI`)&lt;/dt>
+&lt;dd>En la ventana del lector, esta es la función "dónde estoy", igual que la anterior, pero solo se pronuncia a través del TTS del lector de pantalla gracias a una región en vivo ARIA con discurso asertivo que interrumpe la narración actual. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>w&lt;/kbd> : Cerrar el libro (`CloseReader`)&lt;/dt>
+&lt;dd>En la ventana del lector, cierra la ventana y regresa a la vista de la biblioteca. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd> : Buscar un libro (`FocusSearch`)&lt;/dt>
+&lt;dd>En la ventana de la biblioteca, mueve el foco del teclado a la entrada de texto de búsqueda de la estantería local o la fuente OPDS &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd> : buscar en un libro (`FocusSearch`)&lt;/dt>
+&lt;dd>En la ventana del lector, mueve el foco del teclado a la entrada de texto de búsqueda de toda la publicación. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> (opcional) + &lt;kbd>F3&lt;/kbd> : resultado de búsqueda anterior o siguiente (`SearchPrevious` / `SearchNext`)&lt;/dt>
+&lt;dd>En la ventana del lector, cuando la entrada de texto de búsqueda de toda la publicación está abierta, busca la coincidencia anterior/siguiente &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Shift&lt;/kbd> (opcional) + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>G&lt;/kbd> : resultado de búsqueda anterior o siguiente (`SearchPreviousAlt` / `SearchNextAlt`)&lt;/dt>
+&lt;dd>Lo mismo que arriba (atajo de teclado alternativo) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd> o &lt;kbd>→&lt;/kbd> : Siguiente página OPDS (`NavigatePreviousOPDSPage` / `NavigateNextOPDSPage`)&lt;/dt>
+&lt;dd>En la ventana de la biblioteca de feeds OPDS, activa los enlaces de paginación anterior o siguiente &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>coma&lt;/kbd> o &lt;kbd>punto&lt;/kbd> : Siguiente página OPDS (`NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt`)&lt;/dt>
+&lt;dd>Lo mismo que arriba (atajo de teclado alternativo) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> (excepto en MacOS) + &lt;kbd>←&lt;/kbd> o &lt;kbd>→&lt;/kbd> : Capítulo anterior o siguiente (`NavigatePreviousChapter` / `NavigateNextChapter`)&lt;/dt>
+&lt;dd>En la ventana del lector, desplazarse al "capítulo" anterior o siguiente (elemento del lomo en el orden de lectura de la publicación). Tenga en cuenta que el foco del teclado se mueve automáticamente al punto de referencia del área "principal", que se encuentra inmediatamente antes del marco que muestra el contenido de la publicación (al igual que cuando se sigue o se activa un enlace en la tabla de contenidos). &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>página abajo&lt;/kbd> o &lt;kbd>página arriba&lt;/kbd> : Capítulo anterior o siguiente (`NavigatePreviousChapterAlt` / `NavigateNextChapterAlt`)&lt;/dt>
+&lt;dd>Lo mismo que arriba (atajo de teclado alternativo) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>←&lt;/kbd> o &lt;kbd>→&lt;/kbd> : Página anterior o siguiente (`NavigatePreviousPage` / `NavigateNextPage`)&lt;/dt>
+&lt;dd>En la ventana del lector, pasar a la "página" anterior o siguiente (o desplazarse por la unidad, si la paginación está deshabilitada) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>coma&lt;/kbd> o &lt;kbd>punto&lt;/kbd> : Página anterior o siguiente (`NavigatePreviousPageAlt` / `NavigateNextPageAlt`)&lt;/dt>
+&lt;dd>Lo mismo que arriba (atajo de teclado alternativo) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Inicio&lt;/kbd> o &lt;kbd>Fin&lt;/kbd> : Inicio o Fin de la publicación (`NavigateToBegin` / `NavigateToEnd`)&lt;/dt>
+&lt;dd>En la ventana del lector, va al principio o al final de la publicación. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>retroceso&lt;/kbd> con modificador &lt;kbd>shift&lt;/kbd> para la operación inversa: Historial anterior e Historial siguiente (`NavigatePreviousHistory` / `NavigateNextHistory`): &lt;/dt>
+&lt;dd>En la ventana del lector, retroceder o avanzar en el historial de navegación: Inicio o Fin de la publicación &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd> : Audio anterior (`AudioPrevious`)&lt;/dt>
+&lt;dd>En la ventana del lector, llama al comando "anterior" para audio (superposiciones de medios TTS o EPUB3 para leer en voz alta, o "rebobinar" para audiolibros) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd> : Reproducir o pausar audio (`AudioPlayPause`)&lt;/dt>
+&lt;dd>En la ventana del lector, invoca los comandos de alternancia "reproducir" o "pausar" para audio (superposiciones de medios TTS o EPUB3 de lectura en voz alta) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd> : Siguiente audio (`AudioNext`)&lt;/dt>
+&lt;dd>En la ventana del lector, llama al comando "siguiente" para audio (TTS o EPUB3 Media Overlays leídos en voz alta, o "adelante" para audiolibros) &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>4&lt;/kbd> : Detener audio (`AudioStop`)&lt;/dt>
+&lt;dd>En la ventana del lector, llama al comando "detener" para audio (TTS o EPUB3 Media Overlays leídos en voz alta, o "pausa" para audiolibros) &lt;/dd>
+&lt;/dl></description></item><item><title>Th3: Gestos táctiles</title><link>https://thorium.edrlab.org/es/th3/400_ressources/403_gesture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/403_gesture/</guid><description>
+&lt;p>Thorium Reader tiene un control limitado de gestos táctiles en pantalla. Se implementan principalmente para controlar el zoom de imágenes y pasar páginas. Es posible que también funcionen algunos gestos nativos del sistema operativo.&lt;/p>
+&lt;p>La siguiente tabla repertoria los gestos de trabajo conocidos hasta el momento.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Gestos&lt;/th>
+&lt;th>Contexto&lt;/th>
+&lt;th>Acción&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Grifo&lt;/td>
+&lt;td>Todas las vistas&lt;/td>
+&lt;td>Botón de activación&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Toque, luego seleccione y mueva los cursores&lt;/td>
+&lt;td>En el texto&lt;/td>
+&lt;td>Seleccionar texto&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coloque un dedo en la pantalla y deslícelo horizontal o verticalmente&lt;/td>
+&lt;td>Lectura en formato desplazable&lt;/td>
+&lt;td>Voluta&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coloque un dedo en la pantalla y deslícelo horizontalmente&lt;/td>
+&lt;td>Lectura en formato paginado&lt;/td>
+&lt;td>Pasar página&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coloque los dedos sobre la pantalla y júntelos o estírelos.&lt;/td>
+&lt;td>Vista ampliada de la imagen&lt;/td>
+&lt;td>Acercar o alejar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mantenga pulsado&lt;/td>
+&lt;td>Todas las vistas&lt;/td>
+&lt;td>Mostrar más comandos (como hacer clic derecho)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Th3: Formatos de publicación admitidos</title><link>https://thorium.edrlab.org/es/th3/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/406_formats/</guid><description>
+&lt;dl>
+&lt;dt>EPUB&lt;/dt>
+&lt;dd>(Electronic PUBlication) es un formato de archivo abierto para publicaciones electrónicas. EPUB es un formato semántico nativo que permite utilizar numerosos lenguajes estandarizados como HTML, ARIA, MATHML, SVG y otros. La versión actual 3 es conocida por ofrecer la mejor experiencia de lectura actualizada. Los archivos EPUB2 obsoletos también se pueden leer en Thorium. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>MARGARITA&lt;/dt>
+&lt;dd>El formato DAISY, que suele producirse y distribuirse en bibliotecas especializadas u ONG, ofrece una experiencia de lectura significativamente mejorada para los libros electrónicos que no están disponibles en EPUB3. Thorium admite la lectura de DAISY 3 y 2.02, tanto en su versión de solo texto, solo audio y texto y audio sincronizados.&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>PDF&lt;/dt>
+&lt;dd> A pesar de la conocida falta de flexibilidad (sin opción de reflujo) y accesibilidad, muchos libros electrónicos todavía están disponibles solo en formato PDF, especialmente en bibliotecas públicas. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>Audiolibros&lt;/dt>
+&lt;dd> El grupo de trabajo de publicación del W3C diseñó en 2020 un &lt;a href="https://www.w3.org/TR/audiobooks/">formato estandarizado para audiolibros&lt;/a> , y EDRLab formó parte de este grupo de trabajo. Thorium respalda el formato de audiolibro &lt;a href="https://www.w3.org/TR/lpf/">empaquetado (LPF)&lt;/a> , que pronto será ampliamente utilizado por los libreros, o eso esperamos. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>Narrativas visuales&lt;/dt>
+&lt;dd> EDRLab ha diseñado un formato estándar para cómics, manga, webtoons y otros estilos de obras digitales basados en secuencias de imágenes. &lt;a href="https://www.edrlab.org/open-standards/">Divina&lt;/a> es el nombre de este formato. Este todavía es un formato experimental y esperamos que los editores lo adapten a partir de 2021. &lt;/dd>
+&lt;/dl></description></item><item><title>Th3: Glosario</title><link>https://thorium.edrlab.org/es/th3/400_ressources/420_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/420_glossary/</guid><description>
+&lt;dl>
+&lt;dt id="bookInformation">Panel informativo del libro (Detalles del libro)&lt;/dt>
+&lt;dd> Proporciona información sobre el libro digital. Esta información se extrae de los metadatos del archivo y su calidad y cantidad dependen de la atención que el editor haya prestado durante la producción del archivo. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="AdaptedBooks">Libros adaptados&lt;/dt>
+&lt;dd>Se trata de libros digitales producidos por asociaciones y puestos a disposición de personas con discapacidad para su lectura. En todo el mundo, este sistema se rige por &lt;a href="https://www.wipo.int/marrakesh_treaty/en/">el Tratado de Marrakech&lt;/a> . &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="OPDS">OPDS&lt;/dt>
+&lt;dd> Sistema de distribución de publicaciones abiertas &lt;/dd>
+&lt;/dl></description></item><item><title>Th3: Preguntas frecuentes</title><link>https://thorium.edrlab.org/es/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/430_faq/</guid><description>
+&lt;dl>
+&lt;dt id="PDFsupport">¿Por qué no hay lectura en voz alta ni anotaciones para los archivos PDF? &lt;/dt>
+&lt;dd>EDRLab considera que EPUB 3 es un formato de libro electrónico mucho mejor que PDF y, por lo tanto, prioriza su trabajo para ofrecer una gran experiencia a los usuarios de EPUB. En Thorium Reader, las funciones avanzadas como TTS y anotaciones están disponibles primero para EPUB y esperamos que otros desarrolladores de aplicaciones obtengan lo mejor de los archivos PDF. Esto no significa que las funciones avanzadas nunca estarán disponibles en PDF en Thorium, simplemente que nuestro presupuesto limitado se utiliza para lo que consideramos mejor para los lectores de libros electrónicos. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="TTSvoices">No puedo seleccionar la voz adecuada para la función de lectura en voz alta (TTS)&lt;/dt>
+&lt;dd>Thorium utiliza las voces del sistema operativo de la computadora, en combinación con la información del idioma proporcionada por el libro. &lt;/dd>
+&lt;/dl>
+&lt;ul>
+&lt;li>Si está utilizando Windows, puede seguir &lt;a href="https://support.microsoft.com/en-us/windows/download-language-pack-for-speech-24d06ef3-ca09-ddcc-70a0-63606fd16394">la guía de Microsoft Descargar el paquete de idioma para voz&lt;/a> .&lt;/li>
+&lt;li>Si está utilizando Mac OSX, la guía &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Cambiar la voz que usa Mac para pronunciar texto&lt;/a> .&lt;/li>
+&lt;/ul>
+&lt;p>Una vez instalada la voz requerida, Thorium elegirá la voz correspondiente al idioma del libro.&lt;/p>
+&lt;p>Puede suceder que el libro tenga el idioma incorrecto. En este caso, Thorium le permite cambiar la voz a una que esté presente en el sistema a través del menú Voz&lt;/p>
+&lt;dl>
+&lt;dt id="localStorage">¿Cómo puedo transferir toda la colección de libros de una máquina a otra?&lt;/dt>
+&lt;dd> Tener una interfaz de usuario para exportar todo el catálogo no es una prioridad actualmente. &lt;/dd>
+&lt;/dl>
+&lt;p>Las publicaciones se almacenan en un directorio conocido.&lt;/p>
+&lt;ul>
+&lt;li>en Windows 10: C:\Users\minombre\AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
+&lt;li>en MacOS: /Usuarios/minombre/Biblioteca/Soporte de aplicaciones/EDRLab.ThoriumReader/&lt;/li>
+&lt;/ul>
+&lt;p>En caso de una migración de una computadora a otra o casos de uso similares, puede copiar todos los archivos de libros electrónicos en este repositorio y abrirlos en la nueva instalación de Thorium.&lt;/p></description></item><item><title>Th3: Traductorio</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/</guid><description>
+&lt;p>La localización de la interfaz de usuario de Thorium Reader se proporciona y mantiene gracias a voluntarios y organizaciones colaboradoras.&lt;/p>
+&lt;p>Todas las configuraciones regionales se almacenan en la carpeta de recursos locales de fuentes.&lt;/p>
+&lt;p>Para agregar una traducción, puede comenzar desde el inglés &amp;ldquo;en.json&amp;rdquo;, cambiarle el nombre y cambiar los valores después de los dos puntos (:).&lt;/p>
+&lt;p>Si se siente cómodo con Github, puede abrir una solicitud de extracción para enviar el archivo.&lt;/p>
+&lt;p>De lo contrario, puede enviarnos el archivo localizado por correo electrónico y procederemos a agregarlo. Se mantiene una lista de colaboradores en la página wiki Traducción de idiomas de localización (l10n).&lt;/p>
+&lt;p>Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)&lt;/p></description></item><item><title>Th3: Créditos</title><link>https://thorium.edrlab.org/es/th3/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about/902_credits/</guid><description>
+&lt;p>Este sitio de documentación está diseñado y mantenido por EDRLab como parte del desarrollo de la aplicación Thorium-Reader.&lt;/p>
+&lt;p>Los principales contribuyentes a esta documentación son:&lt;/p>
+&lt;ul>
+&lt;li>Gautier Chomel&lt;/li>
+&lt;li>Georges Kerscher&lt;/li>
+&lt;li>Noelia Ruiz Martínez&lt;/li>
+&lt;li>Prashant Verma&lt;/li>
+&lt;/ul>
+&lt;p>Este sitio está hecho con el generador de sitios estáticos &lt;a href="https://gohugo.io/">Hugo&lt;/a> y el &lt;a href="https://github.com/alex-shpak/hugo-book/">tema Hugo Book&lt;/a> .&lt;/p>
+&lt;h2>¿Quién ha desarrollado esta aplicación?&lt;/h2>
+&lt;p>Thorium Reader está siendo desarrollado actualmente por:&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Daniel Weck, desarrollador principal.&lt;/li>
+&lt;li>Pierre Leroux, desarrollador.&lt;/li>
+&lt;li>Arthur Le Meur, desarrollador&lt;/li>
+&lt;/ul>
+&lt;p>La UX y la UI de Thorium 3 fueron diseñadas por &lt;a href="https://www.myleneboyrie.fr/">Mylène Boyrie&lt;/a>&lt;/p>
+&lt;p>Varios otros desarrolladores han contribuido a que Thorium sea lo que es hoy:&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Simon Le Roux, diseñador de UI.&lt;/li>
+&lt;li>Cyrille Lebeaupin, director general de noop.fr, desarrollador senior.&lt;/li>
+&lt;li>Jiminy Panoz, creador de Readium CSS.&lt;/li>
+&lt;li>Léo Stéfani, node.js, desarrollador de React.&lt;/li>
+&lt;li>Manuel Lagrand, pasante, desarrollador de node.js.&lt;/li>
+&lt;/ul>
+&lt;p>El proyecto está supervisado por Laurent Le Meur, CTO de EDRLab.&lt;/p>
+&lt;h2>¿Quién financia esta aplicación?&lt;/h2>
+&lt;p> EDRLab es una organización sin fines de lucro. Nuestro presupuesto proviene fundamentalmente de nuestros miembros. EDRLab comenzó en Francia, pero ahora cuenta con 60 miembros de Europa, América del Norte, América del Sur y Asia. &lt;/p>
+&lt;p>Este proyecto no habría visto la luz sin:&lt;/p>
+&lt;p> 1- La implicación financiera de nuestros miembros fundadores: Editis, Hachette Livre, Magrigall, Media-Participations, Cercle de la Librarie, Syndicat national de l'Edition. Ellos entienden que la financiación de los estándares abiertos y del código abierto es la mejor manera de dinamizar un mercado abierto e innovador para la industria editorial. &lt;/p>
+&lt;p>2- Subvenciones financieras de los siguientes organismos públicos franceses:&lt;/p>
+&lt;ul>
+&lt;li>CNL (Centro Nacional del Libro)&lt;/li>
+&lt;li>Ministerio de la Cultura&lt;/li>
+&lt;/ul>
+&lt;p> 3- Subvenciones adicionales de miembros de EDRLab interesados en la incorporación de características específicas: &lt;/p>
+&lt;ul>
+&lt;li>Editorial Fénix, Brasil&lt;/li>
+&lt;li>Biblioteca electrónica canadiense, Canadá&lt;/li>
+&lt;li>MLOL / Horizons Unlimited, Italia&lt;/li>
+&lt;li>Lyrasis, Estados Unidos&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Tu ayuda es valiosa</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</guid><description>
+&lt;p> Tú también puedes ayudar a que Thorium Reader se convierta en la mejor aplicación de lectura convirtiéndote &lt;a href="https://www.edrlab.org/become-a-member/">en miembro de EDRLab&lt;/a> o haciendo una donación a EDRLab a través de la "alcancía" &lt;a href="https://github.com/sponsors/edrlab">de patrocinio de Github&lt;/a> , que acepta pequeñas donaciones mensuales.&lt;/p>
+&lt;p> Thorium está construido por su comunidad. Si quieres participar, ¡contacta con nosotros!&lt;/p>
+&lt;p>También puedes:&lt;/p>
+&lt;ul>
+&lt;li>Informe un error o sugiera un cambio abriendo un problema en nuestra [herramienta de seguimiento de soporte](https://github.com/edrlab/thorium-reader-doc/issues/new).&lt;/li>
+&lt;/ul>
+&lt;li>Participar en la traducción de recursos.&lt;/li></description></item><item><title>Th3: ¿Atascado?</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/904_issues/</guid><description>
+&lt;p>Si no encuentra la respuesta a su problema en este sitio, puede informarnos su problema a través de nuestra &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">herramienta de seguimiento de soporte&lt;/a> o &lt;a href="https://www.edrlab.org/contact/">formulario de contacto&lt;/a> .&lt;/p>
+&lt;p>Aquí está la información que necesitamos:&lt;/p>
+&lt;ul>
+&lt;li>Sistema operativo y su versión&lt;/li>
+&lt;li>Versión de Torio (está indicada en la parte inferior de la biblioteca bajo el título &lt;code>About Thorium&lt;/code> )&lt;/li>
+&lt;/ul></description></item><item><title>Th3: ¡Contribuir!</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</guid><description>
+&lt;p>Thorium y su documentación se desarrollan gracias a la comunidad de usuarios. Necesitamos ayuda para traducir esta documentación.&lt;/p>
+&lt;p>Para ello, puede &lt;a href="https://www.edrlab.org/contact/">ponerse en contacto con nosotros&lt;/a> .&lt;/p>
+&lt;p>Si se siente lo suficientemente cómodo con GitHub y el formato Markdown, puede proponer una nueva traducción a través de una solicitud de extracción.&lt;/p>
+&lt;p>Para ello: clona el repositorio y crea una rama con el nombre del idioma que quieras añadir, haz una copia de la carpeta &lt;code>content.en&lt;/code> y renómbrala con dos letras correspondientes al idioma que quieras añadir (por ejemplo &lt;code>content.es&lt;/code> contendrá la traducción al español). Los nombres de los archivos no deben cambiarse ya que aseguran la correspondencia entre idiomas.&lt;/p>
+&lt;p>La carpeta &lt;code>i18n&lt;/code> contiene las traducciones de los elementos fijos del encabezado y pie de página. Ya hay varios idiomas presentes, si el tuyo no está presente, copia y pega el archivo .yaml y renómbralo con las dos primeras letras del idioma que quieras agregar.&lt;/p>
+&lt;p>Finalmente para activar el menú del idioma que agregues, edita el archivo &lt;code>config.toml&lt;/code> y agrega el idioma con el siguiente código:&lt;/p>
+&lt;pre tabindex="0">&lt;code>[languages.en]
+languageName = &amp;#39;English&amp;#39;
+contentDir = &amp;#39;content.en&amp;#39;
+weight = 1
+&lt;/code>&lt;/pre>&lt;p>Debes reemplazar &lt;code>.en' with the first two letters of the language you are adding and fill in the name of the language as the&lt;/code> &lt;code>value. The&lt;/code> peso` indica el orden de aparición en el menú de idiomas.&lt;/p>
+&lt;p>Ejemplo para español:&lt;/p>
+&lt;pre tabindex="0">&lt;code>[languages.es]
+languageName = &amp;#39;Español&amp;#39;
+contentDir = &amp;#39;content.es&amp;#39;
+weight = 3
+&lt;/code>&lt;/pre>&lt;p>Las imágenes localizadas, como capturas de pantalla, deben agregarse a la carpeta &lt;code>statics/images/local-(two letter language)&lt;/code> .&lt;/p></description></item><item><title>Th3: Licencia</title><link>https://thorium.edrlab.org/es/th3/900_about/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about/913_licence/</guid><description>
+&lt;h2 id="licencias">Licencias&lt;/h2>
+&lt;p>Copyright 2019 European Digital Reading Lab. Todos los derechos reservados. Licencia otorgada a Readium Foundation bajo uno o más acuerdos de licencia de colaborador.&lt;/p>
+&lt;p>La aplicación Thorium-Reader es de código abierto y se publicó bajo una licencia BSD 3. Se basa en el kit de herramientas de código abierto Readium Desktop.&lt;/p>
+&lt;p>El contenido de este sitio web es gratuito y puede reutilizarse bajo los términos de la Licencia BSD.&lt;/p>
+&lt;p>Este sitio estático es generado por Hugo y el tema Hugo Book. &lt;a href="https://github.com/edrlab/thorium-reader-doc">El código fuente es público&lt;/a> .&lt;/p></description></item></channel></rss>
