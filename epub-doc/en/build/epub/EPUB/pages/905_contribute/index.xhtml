@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css"/>
+    <title>Contribute</title>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/page.css"/>
+  </head>
+  <body>
+    <h2>Contribute!</h2>
+    <p>Thorium and its documentation are developed thanks to the user
+community. We need help to translate this documentation.</p>
+    <p>To do so, you can 
+      <a href="https://www.edrlab.org/contact/">contact us</a>.
+    </p>
+    <p>If you are comfortable enough with GitHub and the Markdown format you
+can propose a new translation via a Pull Request.</p>
+    <p>To do this: clone the repository and create a branch with the name of
+the language you want to add, make a copy of the 
+      <code>content.en</code> folder and
+rename it with two letters corresponding to the language you want to add
+(for example 
+      <code>content.es</code> will contain the Spanish translation). The
+names of the files must not be changed as they insure correspondence
+between languages.
+    </p>
+    <p>The 
+      <code>i18n</code> folder contains the translations for the fixed elements of
+the header and footer. Several languages are already present, if your
+language is not present, copy paste the .yaml file and rename it with
+the first two letters of the letters of the language you want to add.
+    </p>
+    <p>Finally to activate the menu of the language you add, edit the file
+
+      <code>config.toml</code> and add the language with the following code:
+    </p>
+    <pre>
+      <code>      [languages.en]
+  languageName = 'English'
+  contentDir = 'content.en'
+  weight = 1
+</code>
+    </pre>
+    <p>You must replace
+
+      <code>.en' with the first two letters of the language you are adding and fill in the name of the language as the </code>languageName
+
+      <code>value. The</code>weight` indicates the order of appearance in the language
+menu.
+    </p>
+    <p>Example for Spanish :</p>
+    <pre>
+      <code>      [languages.es]
+  languageName = 'Español'
+  contentDir = 'content.es'
+  weight = 3
+</code>
+    </pre>
+    <p>Localized images such as screenshots should be added to the folder
+
+      <code>statics/images/local-(two letter language)</code>.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css"/>
+    <title>Reading with a screen reader</title>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/page.css"/>
+  </head>
+  <body>
+    <h2>Reading with a screen reader</h2>
+    <p>When launching Thorium, if a screen reader is detected, the relative
+functions are activated.</p>
+    <p>Note that screen readers use a separate buffer to access the HTML
+content which results in the visual scroll / page offset to be out of
+sync. In other words, Thorium is generally not aware of the user's
+current reading location inside the screen reader buffer, unless the
+screen reader user triggers standard web API events (such as mouse click
+anywhere in the text, or keyboard tab into focusable HTML elements).</p>
+    <p>::: warning
+Attention !</p>
+    <p>Accessibility features addressed to assistive technologies are strongly
+affected by the quality of the book files.
+:::</p>
+    <h1>Keystrokes common to NVDA and JAWS</h1>
+    <p>(contribution from Prashant Verma, DAISY Consortium)</p>
+    <p>For reading text, navigating in tables, navigating in the browser
+window,
+      <br />
+the insertion key can be replaced by the modifier key of the screen
+reader (e.g. the Caps Lock key).
+    </p>
+    <h2>Quick keys for navigation</h2>
+    <p>The screen reader must be in navigation or virtual cursor mode.</p>
+    <p>Command            description</p>
+    <hr />
+    <p>Next title         [H]{.kbd}
+Next table         [T]{.kbd}
+Next chart         [G]{.kbd}
+Next list          [L]{.kbd}
+Next form field    [F]{.kbd}
+List of elements   [Insert]{.kbd} + [F7]{.kbd} (works regardless of cursor mode)</p>
+    <p>
+      <em>Use the above keys with the [Shift]{.kbd} key to move to the previous
+item.</em>
+    </p>
+    <h2>Text</h2>
+    <p>Command              description</p>
+    <hr />
+    <p>Previous character   [←]{.kbd}
+Next character       [→]{.kbd}
+Previous word        [CTRL]{.kbd} + [←]{.kbd}
+Say Next word        [CTRL]{.kbd} + [→]{.kbd}
+Previous line        [↑]{.kbd}
+Next line            [↓]{.kbd}
+Previous sentence    [ALT]{.kbd} + [↑]{.kbd} (Jaws only)
+Next sentence        [ALT]{.kbd} + [↓]{.kbd} (Jaws only)
+Read all             [INSERT]{.kbd} + [↓]{.kbd}
+Announce Font        [INSERT]{.kbd} + [F]{.kbd}</p>
+    <h2>Tables</h2>
+    <p>Command             description</p>
+    <hr />
+    <p>Cell to the right   [ALT]{.kbd} + [CTRL]{.kbd} + [→]{.kbd}
+Cell to the left    [ALT]{.kbd} + [CTRL]{.kbd} + [←]{.kbd}
+Cell below          [ALT]{.kbd} + [CTRL]{.kbd} + [↓]{.kbd}
+Cell above          [ALT]{.kbd} + [CTRL]{.kbd} + [↑]{.kbd}</p>
+  </body>
+</html>
