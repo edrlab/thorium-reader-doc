@@ -1,6 +1,6 @@
-/public
+public/
 resources/
 node_modules/
 .hugo_build.lock
-W
-Todo.md
+W/
+.vscode/
