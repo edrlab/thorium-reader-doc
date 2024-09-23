@@ -577,10 +577,11 @@ The Marrakech Treaty
 &lt;dt id="localStorage">How can I transfer the entire book collection from one machine to another?&lt;/dt>
 &lt;dd>
 Having a UI for exporting the whole catalog is not a priority currently.
-&lt;pre>&lt;code>The publications are stored in a well-known directory.
-* on Windows10: C:\Users\myname\AppData\Roaming\EDRLab.ThoriumReader\publications\
-* on MacOS: /Users/myname/Library/Application Support/EDRLab.ThoriumReader/
-&lt;/code>&lt;/pre>
+&lt;p>The publications are stored in a well-known directory.&lt;/p>
+&lt;ul>
+&lt;li>on Windows10: C:\Users\myname\AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
+&lt;li>on MacOS: /Users/myname/Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
+&lt;/ul>
 &lt;p>In case of a migration from one computer to another or similar usecases, you can copy all ebook files in this repository and open them in the new installation of Thorium.&lt;/p>
 &lt;/dd>
 &lt;/dl></description></item></channel></rss>
