@@ -622,6 +622,17 @@ The Marrakech Treaty
 &lt;p>Once the required voice is installed, Thorium will choose the voice corresponding to the language of the book.&lt;/p>
 &lt;p>It may happen that the book has the wrong language. In this case, Thorium allows you to change the voice to one that is present in the system via the Voice menu
 &lt;/dd>&lt;/p>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="localStorage">How can I transfer the entire book collection from one machine to another?&lt;/dt>
+&lt;dd>
+Having a UI for exporting the whole catalog is not a priority currently.
+&lt;pre>&lt;code>The publications are stored in a well-known directory.
+* on Windows10: C:\Users\myname\AppData\Roaming\EDRLab.ThoriumReader\publications\
+* on MacOS: /Users/myname/Library/Application Support/EDRLab.ThoriumReader/
+&lt;/code>&lt;/pre>
+&lt;p>In case of a migration from one computer to another or similar usecases, you can copy all ebook files in this repository and open them in the new installation of Thorium.&lt;/p>
+&lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Translating</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</guid><description>
 &lt;p>Thorium Reader user Interface localisation are provided and maintained thanks to volunteers and contributing organisations.&lt;/p>
 &lt;p>All locales are stored in the sources resources locales folder.&lt;/p>

@@ -961,17 +961,6 @@ l'exception handicap du code de la propriété intellectuelle.
 &lt;dl>
 &lt;dt id="OPDS">OPDS&lt;/dt>:&lt;dd lang="en"> Open Publication Distribution System
 &lt;/dd>
-&lt;/dl></description></item><item><title>Docs: Questions fréquentes</title><link>https://thorium.edrlab.org/fr/docs/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/400_ressources/430_faq/</guid><description>
-&lt;dl>
-&lt;dt id="TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS).&lt;/dt>
-&lt;dd>Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre.
-&lt;ul>
-&lt;li>Si vous utilisez Windows, vous pouvez suivre le guide de Microsoft &lt;a href="https://support.microsoft.com/fr-fr/topic/t%C3%A9l%C3%A9charger-le-module-linguistique-pour-la-reconnaissance-vocale-24d06ef3-ca09-ddcc-70a0-63606fd16394">Télécharger le module linguistique pour la reconnaissance vocale&lt;/a> (le tritre de cette page ets trompeur mais la manipulation porte bien sur l&amp;rsquo;ajout d&amp;rsquo;une voix correspondante à une langue).&lt;/li>
-&lt;li>Si vous utilisez Mac OSX, le guide &lt;a href="https://support.apple.com/fr-fr/guide/mac-help/mchlp2290/mac">Changer la voix utilisée par votre Mac pour énoncer du texte&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>Une fois la voix requise installée, Thorium choisira la voix correspondant à la langue du livre.&lt;/p>
-&lt;p>Il peut arriver que le livre ne renseigne pas la bonne langue. Dans ce cas, Thorium vous permet de changer la voix pour une voix présente dans le système via le menu Voix.
-&lt;/dd>&lt;/p>
 &lt;/dl></description></item><item><title>Docs: Crédits</title><link>https://thorium.edrlab.org/fr/docs/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/900_about/902_credits/</guid><description>
 &lt;p>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.&lt;/p>
 &lt;p>Les contributeurs principaux de cette documentation sont :&lt;/p>

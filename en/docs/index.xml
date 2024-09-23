@@ -1238,17 +1238,6 @@ The Marrakech Treaty
 &lt;dl>
 &lt;dt id="OPDS">OPDS&lt;/dt>&lt;dd> Open Publication Distribution System
 &lt;/dd>
-&lt;/dl></description></item><item><title>Docs: Frequently asked questions</title><link>https://thorium.edrlab.org/en/docs/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/400_ressources/430_faq/</guid><description>
-&lt;dl>
-&lt;dt id="TTSvoices">I can't select the adequate voice for read aloud function (TTS)&lt;/dt>
-&lt;dd>Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book.
-&lt;ul>
-&lt;li>If you are using windows you can follow &lt;a href="https://support.microsoft.com/en-us/windows/download-language-pack-for-speech-24d06ef3-ca09-ddcc-70a0-63606fd16394">Microsoft&amp;rsquo;s guide Download the language pack for voice&lt;/a>.&lt;/li>
-&lt;li>If you are using Mac OSX the guide &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Change the voice that the Mac uses to pronounce text&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>Once the required voice is installed, Thorium will choose the voice corresponding to the language of the book.&lt;/p>
-&lt;p>It may happen that the book has the wrong language. In this case, Thorium allows you to change the voice to one that is present in the system via the Voice menu
-&lt;/dd>&lt;/p>
 &lt;/dl></description></item><item><title>Docs: Credits</title><link>https://thorium.edrlab.org/en/docs/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/900_about/902_credits/</guid><description>
 &lt;p>This documentation site is designed and maintained by EDRLab
 as part of the development of the Thorium-Reader application.&lt;/p>

@@ -511,4 +511,15 @@
 &lt;li>Si vous utilisez Mac OSX, consultez le guide &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Modifier la voix utilisée par le Mac pour prononcer le texte&lt;/a> .&lt;/li>
 &lt;/ul>
 &lt;p>Une fois la voix requise installée, Thorium choisira la voix correspondant à la langue du livre.&lt;/p>
-&lt;p>Il peut arriver que le livre soit dans la mauvaise langue. Dans ce cas, Thorium vous permet de changer la voix pour une voix présente dans le système via le menu Voix&lt;/p></description></item></channel></rss>
+&lt;p>Il peut arriver que le livre soit dans la mauvaise langue. Dans ce cas, Thorium vous permet de changer la voix pour une voix présente dans le système via le menu Voix&lt;/p>
+&lt;dl>
+&lt;dt id="localStorage">Comment transférer l'intégralité de la collection de livres d'une machine à une autre.&lt;/dt>
+&lt;dd>
+Avoir une interface utilisateur pour exporter l’intégralité du catalogue n’est pas une priorité actuellement.
+&lt;pre>&lt;code>Les publications sont stockées dans un répertoire bien connu.
+*sous Windows10 : C:\Users\myname\AppData\Roaming\EDRLab.ThoriumReader\publications\
+*sur MacOS : /Users/myname/Library/Application Support/EDRLab.ThoriumReader/
+&lt;/code>&lt;/pre>
+&lt;p>En cas de migration d&amp;rsquo;un ordinateur vers un autre ou de cas d&amp;rsquo;utilisation similaires, vous pouvez copier tous les fichiers ebook de ce référentiel et les ouvrir dans la nouvelle installation de Thorium.&lt;/p>
+&lt;/dd>
+&lt;/dl></description></item></channel></rss>
