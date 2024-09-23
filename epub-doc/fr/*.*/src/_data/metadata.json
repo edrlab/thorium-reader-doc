@@ -2,13 +2,20 @@
   "dc": {
     "title": "Documentation de Thorium Reader en français",
     "creator": "EDRLab",
-    "publisher": "EDRLab"
+    "publisher": "EDRLab",
+    "description": "Apprenez à mieux connaître Thorium Reader",
+    "identifier": "com.github.edrlab.thorium-reader-doc-epub.0.0.1",
+    "language": "fr",
+    "rights": "Licence Creative Commons Attribution-Share Alike (CC BY-SA)."
   },
   "links": [
     {
+      "rel": "cc:licence",
+      "href": "http://creativecommons.org/licenses/by-sa/3.0/"
     }
   ],
   "properties": {
+    "dcterms:modified": "01/10/2023 à 00:00:00",
     "schema:accessibilityFeature": [
       "alternativeText",
       "readingOrder",
