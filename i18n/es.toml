@@ -29,6 +29,17 @@ other = "Derechos reservados"
 [footer_privacy_policy]
 other = "Política de privacidad"
 
+[footer_accessibility]
+other = "Accesibilidad"
+
+[footer_thorium2]
+other = "¿Información sobre Thorium 2?"
+
+[footer_tou]
+other = "Condiciones de uso"
+
+[home]
+other = "Bienvenido"
 
 # Post (blog, articles etc.)
 [post_byline_by]
