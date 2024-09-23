@@ -1,0 +1,30 @@
+{
+  "dc": {
+    "title": "Documentation de Thorium Reader en français",
+    "creator": "EDRLab",
+    "publisher": "EDRLab"
+  },
+  "links": [
+    {
+    }
+  ],
+  "properties": {
+    "schema:accessibilityFeature": [
+      "alternativeText",
+      "readingOrder",
+      "structuralNavigation",
+      "tableOfContents"
+    ],
+    "schema:accessibilitySummary": "La publication a été évaluée en termes d’accessibilité.",
+    "schema:accessibilityHazard": "none",
+    "schema:accessMode": [
+      "textual",
+      "visual"
+    ],
+    "schema:accessModeSufficient": "textual",
+    "schema:accessibilityControl": [
+      "fullKeyboardControl",
+      "fullMouseControl"
+    ]
+  }
+}
