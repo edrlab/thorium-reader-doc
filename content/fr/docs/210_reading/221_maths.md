@@ -16,7 +16,7 @@ Pour l'activer lors de la lecture d'un livre allez dans le menu
 `Paramétres de lecture`, en bas de l'onglet `Affichage` vous trouverez 
 une case à cocher `MathJax`.
 
-<img src="/images/local-fr/thorium-mathjax.png" alt="Capture d'écran (en anglais) d'une formule mathématique complexe correctement affichée grace à l'option MathJax cochée."/>
+<img src="/images/local-fr/thorium-mathjax.png" alt="Capture d'écran (en anglais) d'une formule mathématique complexe correctement affichée grace à l'option MathJax cochée."//>
 
 Une fois activé MathJax, vous pouvez utiliser le `menu contextuel` (clic droit) 
 sur une formule mathématique insérée au format MathML et utiliser les nombreuses 
@@ -24,7 +24,7 @@ options comme la lecture à voix haute (speech), consulter le marquage sémantiq
 ou copier la formule avec ses attributs sémantiques pour l'utiliser dans un 
 éditeur compatible.
 
-<img src="/images/local-fr/thorium-mathjax-menu.png" alt="Capture d'écran du menu contextuel MathJax (en anglais) montrant le sous Menu Accessibility dont l'option Activate est cochée."/>
+<img src="/images/local-fr/thorium-mathjax-menu.png" alt="Capture d'écran du menu contextuel MathJax (en anglais) montrant le sous Menu Accessibility dont l'option Activate est cochée."//>
 
 
 {{< details "Lire les **mathématiques** avec NVDA">}}

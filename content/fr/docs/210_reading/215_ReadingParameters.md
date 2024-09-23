@@ -6,7 +6,7 @@ weight: 216
 toc: false
 ---
 Dans l'interface de lecture utilisez le bouton `Préférences` 
-(<img class="icons" src="/images/icons/font-size.svg" alt="" width="20px">)
+(<img class="icons" src="/images/icons/font-size.svg" alt="" width="20px"/>)
 : en cliquant sur ce bouton, les options sont révélées.
 
 {{< alert info >}}
@@ -40,7 +40,7 @@ le système d'exploitation.
 3. Écrivez le mot *Verdana* dans le champ vide apparu à côté de la liste déroulante. 
 4. Validez avec <kbd>Entrée</kbd>.
 
-<img class="icons" src="/images/local-fr/thorium-verdana.png" alt="">
+<img class="icons" src="/images/local-fr/thorium-verdana.png" alt=""/>
 
 
 
@@ -55,7 +55,7 @@ le système d'exploitation.
 
 
 
-<img class="icons" src="/images/local-fr/thorium-luciole.png" alt=""/>
+<img class="icons" src="/images/local-fr/thorium-luciole.png" alt=""//>
 
 
 
