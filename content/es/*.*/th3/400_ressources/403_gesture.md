@@ -1,7 +1,7 @@
 ---
 title: Gestos táctiles
 description: ''
-draft: 'true'
+draft: 'false'
 images:
   - logotipo.png
 weight: '403'
