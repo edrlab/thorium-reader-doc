@@ -16,7 +16,7 @@ To activate it when reading a book, go to the
 menu `Reading settings`, at the bottom of the `Display` tab you will find
 a checkbox `MathJax`.
 
-<img src="/images/local-fr/thorium-mathjax.png" alt="Screenshot of a complex mathematical formula correctly displayed with the MathJax option checked."/>
+<img src="/images/local-fr/thorium-mathjax.png" alt="Screenshot of a complex mathematical formula correctly displayed with the MathJax option checked."//>
 
 Once MathJax is activated, you can use the `contextual menu` (right click)
 on a mathematical formula inserted in MathML format and use the many
@@ -24,7 +24,7 @@ options proposed such as reading aloud (speech), viewing the semantic marking
 or copy the formula with its semantic attributes to use it in a
 compatible editor.
 
-<img src="/images/local-fr/thorium-mathjax-menu.png" alt="Screenshot of the MathJax context menu showing the Accessibility sub-menu with the Activate option checked."/>
+<img src="/images/local-fr/thorium-mathjax-menu.png" alt="Screenshot of the MathJax context menu showing the Accessibility sub-menu with the Activate option checked."//>
 
 {{< details "Read  **mathematics** with NVDA">}}
 You can read mathematical expressions tagged with MathML using

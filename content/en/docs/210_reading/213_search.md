@@ -24,4 +24,4 @@ Just place a Bookmark to make sure you find your way back.
 {{< /alert>}}
 
 
-<img src="/images/local-fr/thorium-search-navpanel.png" alt="Screenshot, the search bar is present above the text, the corresponding text highlighted in green and the Search panel indicates a match"/>
+<img src="/images/local-fr/thorium-search-navpanel.png" alt="Screenshot, the search bar is present above the text, the corresponding text highlighted in green and the Search panel indicates a match"//>

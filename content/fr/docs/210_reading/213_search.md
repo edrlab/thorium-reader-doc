@@ -12,4 +12,4 @@ bouton de `Recherche`, vous obtenez un bouton `Précédent`, un bouton `Suivant`
 et un bouton `Liste des résultats`. Activez ce lien pour vous rendre à l'endroit 
 du livre où l'expression recherchée a été trouvée.
 
-<img src="/images/local-fr/thorium-search-navpanel.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique une correspondance"/>
+<img src="/images/local-fr/thorium-search-navpanel.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique une correspondance"//>

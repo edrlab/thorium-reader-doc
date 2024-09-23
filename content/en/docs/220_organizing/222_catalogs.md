@@ -37,7 +37,7 @@ Since Thorium 2.2, OPDS feeds can be edited so you can change the name or retrie
 {{< /alert>}}
 
 <figure>
-  <img src="/images/local-fr/thorium-opds-add.png" alt="">
+  <img src="/images/local-fr/thorium-opds-add.png" alt=""/>
   <figcaption class="icon">
   </figcaption>
 </figure>
