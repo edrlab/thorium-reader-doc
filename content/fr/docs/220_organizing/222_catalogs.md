@@ -34,7 +34,7 @@ Depuis Thorium 2.2, les flux OPDS peuvent être édités, ce qui permet de chang
 {{< /alert>}}
 
 <figure>
-  <img src="/images/local-fr/thorium-opds-add.png" alt="">
+  <img src="/images/local-fr/thorium-opds-add.png" alt=""/>
   <figcaption class="icon">
   </figcaption>
 </figure>
@@ -63,7 +63,7 @@ plus d'information sur le catalogue OPDS de Gallica</a> et
 <a href="https://gallica.bnf.fr/edit/und/a-propos">à propos de Gallica.</a></p> 
 
 <figure>
-  <img src="/images/local-fr/thorium-opds-gallica-1.png" alt="">
+  <img src="/images/local-fr/thorium-opds-gallica-1.png" alt=""/>
   <figcaption class="icon">
   </figcaption>
 </figure>

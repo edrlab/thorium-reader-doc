@@ -15,9 +15,9 @@
 {{ if .Params.image }}
 <p>
   {{ with .Resources.GetMatch .Params.image }}
-    <img src={{ .RelPermalink }} />
+    <img src={{ .RelPermalink }} //>
   {{ else }}
-    <img src={{ .Params.image | relURL }} />
+    <img src={{ .Params.image | relURL }} //>
   {{ end }}
 </p>
 {{ end }}

@@ -10,7 +10,7 @@ Currently Thorium displays in the
 under the heading `Description` the content of the accessibility summary metadata 
 (<span lang="en">accessibilitySummary</span>). 
 
-<img src="/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs »."/>
+<img src="/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs »."//>
 
 {{< alert warning >}}
 
