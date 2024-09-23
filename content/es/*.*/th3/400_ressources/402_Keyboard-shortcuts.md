@@ -6,7 +6,7 @@ weight: '402'
 toc: 'false'
 ---
 
-{{&lt; alert info &gt;}} Information
+{{&lt; alert info &gt;}} Información
 
 La tecla <kbd>Shift</kbd> está representada por una flecha vacía que apunta hacia arriba en algunos teclados: <kbd><b>⇧</b></kbd> .
 
