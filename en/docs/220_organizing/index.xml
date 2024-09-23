@@ -14,11 +14,11 @@
 It offers a quick access view organized into two sections:
 &lt;code>Recently added&lt;/code> and &lt;code>Resume reading&lt;/code>. The &lt;code>All Books&lt;/code>&lt;br>
 button will display all the books imported into Thorium.&lt;/p>
-&lt;p>The default view is the grid view (&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_module-24px.svg" alt="Icon grid" width="20px">), it shows the book covers, title and author.
+&lt;p>The default view is the grid view (&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_module-24px.svg" alt="Icon grid" width="20px"/>), it shows the book covers, title and author.
 Clicking on any of these items will open the book in a new
 window. A menu for each book allows you to access the &lt;code>Book File&lt;/code>,
 &lt;code>Delete&lt;/code> or &lt;code>Export&lt;/code> the book.&lt;/p>
-&lt;p>It is possible to choose display as a &lt;code>list view&lt;/code> (&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_list-24px.svg" alt="Icon list" width="20px">), in this view the cover is no longer
+&lt;p>It is possible to choose display as a &lt;code>list view&lt;/code> (&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_list-24px.svg" alt="Icon list" width="20px"/>), in this view the cover is no longer
 displayed but the year of publication and the publisher are shown.&lt;/p>
 &lt;h2 id="all-books">All Books&lt;/h2>
 &lt;p>The &lt;code>All books&lt;/code> view is organized as a table, it displays all the
@@ -29,7 +29,7 @@ For example, click on the word &lt;em>English&lt;/em> in the language column to 
 books in English displayed.&lt;/p>
 &lt;p>The column headers allow you to sort the books in ascending or descending order.
 The &lt;code>magnifying glass&lt;/code> icon
-(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="" width="20px">)
+(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="" width="20px"/>)
 in the header of the first column activates a search field by column
 allowing for example to search for an expression only among the titles
 of the works.&lt;/p></description></item><item><title>Docs: Access to catalogs</title><link>https://thorium.edrlab.org/en/docs/220_organizing/222_catalogs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/220_organizing/222_catalogs/</guid><description>
@@ -56,7 +56,7 @@ to see the magic happen.&lt;/p>
 &lt;p>Since Thorium 2.2, OPDS feeds can be edited so you can change the name or retrieve feed URL.&lt;/p>
 &lt;/div>
 &lt;figure>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-add.png" alt="">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-add.png" alt=""/>
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
@@ -78,7 +78,7 @@ the name of the tag you want to add then press the &lt;code>Add&lt;/code> button
 The tag is added in a blue box, you can remove it by clicking on
 the cross.&lt;/p>
 &lt;/div>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-tags.png" alt="Screenshot, the search bar is present above the text, the corresponding text is highlighted in green and the Search panel shows 1 match"/></description></item><item><title>Docs: Search</title><link>https://thorium.edrlab.org/en/docs/220_organizing/223_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/220_organizing/223_search/</guid><description>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-tags.png&amp;quot; alt=&amp;ldquo;Screenshot, the search bar is present above the text, the corresponding text is highlighted in green and the Search panel shows 1 match&amp;rdquo;//&amp;gt;&lt;/p></description></item><item><title>Docs: Search</title><link>https://thorium.edrlab.org/en/docs/220_organizing/223_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/220_organizing/223_search/</guid><description>
 &lt;p>Press the &lt;kbd>Ctrl + F&lt;/kbd> key combination, enter the text you want to search,
 press the &lt;code>Results&lt;/code> button, then press the
 &lt;kbd>Enter&lt;/kbd> on the link to the desired result.&lt;/p>

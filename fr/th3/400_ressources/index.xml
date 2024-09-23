@@ -26,70 +26,70 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-add-24px.svg" alt="Icône" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/plus.svg" alt="Icône +" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-add-24px.svg" alt="Icône" width="20px"/>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/plus.svg" alt="Icône +" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Ajouter un livre&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icône Flèche droite" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icône Flèche droite" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Prochain livre &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icône Flèche gauche" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icône Flèche gauche" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Livre précédent &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-close-24px.svg" alt="Icône x" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-close-24px.svg" alt="Icône x" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function"> Fermer (le panneau d&amp;rsquo;informations du livre) &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/menu.svg" alt="Icône 3 points" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/menu.svg" alt="Icône 3 points" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Ouvrir le menu du livre (donne accès au fichier du livre, permet de supprimer et d&amp;rsquo;exporter un livre) &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="Icône loupe" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="Icône loupe" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Recherche&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_list-24px.svg" alt="Liste des icônes" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_list-24px.svg" alt="Liste des icônes" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Affichage de la liste des livres&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_module-24px.svg" alt="Grille d'icônes" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_module-24px.svg" alt="Grille d'icônes" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Vue en grille du livre &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/done.svg" alt="Cercle d'icônes" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/done.svg" alt="Cercle d'icônes" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Indique que l&amp;rsquo;action est terminée, par exemple lors de l&amp;rsquo;importation d&amp;rsquo;un livre&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/download.svg" alt="Icône flèche vers le bas vers une case" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/download.svg" alt="Icône flèche vers le bas vers une case" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Enregistrez une copie du fichier du livre. &lt;/span>&lt;/td>
 &lt;td>Ouvre une fenêtre système pour sélectionner le dossier où enregistrer le fichier. Les signets ne sont pas présents dans ce fichier exporté.&lt;/td>
 &lt;td>&lt;/td>
@@ -103,14 +103,14 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/landmark.svg" alt="Signets d'icônes" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/landmark.svg" alt="Signets d'icônes" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function"> Signets&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/loader.svg" alt="Icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/loader.svg" alt="Icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Icône Indique que le livre est en cours d&amp;rsquo;ajout à Thorium. Cette indication n&amp;rsquo;est actuellement pas donnée aux utilisateurs de lecteurs d&amp;rsquo;écran.&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -131,70 +131,70 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_back-24px.svg" alt="Icône fléchée à gauche" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_back-24px.svg" alt="Icône fléchée à gauche" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function"> Retour à la bibliothèque (ferme le livre en cours de lecture) &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/info.svg" alt="Informations sur l'icône" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-info-24px.svg" alt="Informations sur l'icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/info.svg" alt="Informations sur l'icône" width="20px"/>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-info-24px.svg" alt="Informations sur l'icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Panneau d&amp;rsquo;information à livre ouvert&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-flip_to_front-24px.svg" alt="Icône Afficher la bibliothèque" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-flip_to_front-24px.svg" alt="Icône Afficher la bibliothèque" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Aller à la bibliothèque &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="Icône loupe" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="Icône loupe" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Rechercher dans la publication&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="Paramètres des icônes" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="Paramètres des icônes" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function"> Paramètres de lecture&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icône flèche droite" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Icône flèche droite" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Contenu suivant &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icône Gauche" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Icône Gauche" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function"> Contenu précédent &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px.svg" alt="" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px-grey.svg" alt="Signets d'icônes" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark_border-24px.svg" alt="Page de marque d'icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px.svg" alt="" width="20px"/>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px-grey.svg" alt="Signets d'icônes" width="20px"/>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark_border-24px.svg" alt="Page de marque d'icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Ajoute ou supprime un signet&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/open_book.svg" alt="Navigation par icônes" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/open_book.svg" alt="Navigation par icônes" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Ouvre ou ferme le panneau de navigation&lt;/span>&lt;/td>
 &lt;td>Donne accès à la table des matières, aux signets, aux signets et à la pagination de référence&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/sharp-crop_free-24px.svg" alt="Icône Mode plein écran" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/sharp-crop_free-24px.svg" alt="Icône Mode plein écran" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Plein écran &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -216,42 +216,42 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="Icône de taille de texte" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="Icône de taille de texte" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Texte : Changer la taille de la police &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/auto.svg" alt="Icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/auto.svg" alt="Icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Affichage / Disposition : Défilement (le texte défile de haut en bas)&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/pagine.svg" alt="Icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/pagine.svg" alt="Icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Affichage / Mise en page : Paginé &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/paragraph-left.svg" alt="Icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/paragraph-left.svg" alt="Icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Alignement automatique &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/colonne.svg" alt="Icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/colonne.svg" alt="Icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">1 colonne&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/colonne2.svg" alt="Icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/colonne2.svg" alt="Icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function"> 2 colonnes&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -272,7 +272,7 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-edit-24px.svg" alt="Icône" width="20px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-edit-24px-grey.svg" alt="Modifier l'icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-edit-24px.svg" alt="Icône" width="20px"/>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-edit-24px-grey.svg" alt="Modifier l'icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Modifier (le nom d&amp;rsquo;un signet&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -307,42 +307,42 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-volume_up-24px.svg" alt="Icône Activer la synthèse vocale" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-volume_up-24px.svg" alt="Icône Activer la synthèse vocale" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Activer les fonctions audio&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-pause-24px.svg" alt="Pause de l'icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-pause-24px.svg" alt="Pause de l'icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Met la lecture audio en pause &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-play_arrow-24px.svg" alt="Jeu d'icônes" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-play_arrow-24px.svg" alt="Jeu d'icônes" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function"> Démarre la lecture audio&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-skip_next-24px.svg" alt="Icône précédente" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-skip_next-24px.svg" alt="Icône précédente" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Passe à la partie audio suivante (en fonction de la production du livre)&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-skip_previous-24px.svg" alt="Icône suivante" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-skip_previous-24px.svg" alt="Icône suivante" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Passe à la partie audio précédente (en fonction de la production du livre)&lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-stop-24px.svg" alt="Icône" width="20px">&lt;/td>
+&lt;td>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-stop-24px.svg" alt="Icône" width="20px"/>&lt;/td>
 &lt;td>&lt;span class="function">Arrête la lecture audio &lt;/span>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>

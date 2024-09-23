@@ -41,7 +41,7 @@ lorsqu&amp;rsquo;il est sélectionné.&lt;/p></description></item><item><title>D
 &lt;p>Pour naviguer en avant et en arrière dans le contenu du livre vous pouvez
 utiliser les fléches de votre clavier ou cliquer sur les flèches de navigation
 situées en bas à droite de l&amp;rsquo;interface de lecture
-(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px">&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px">).&lt;/p>
+(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_left_ios-24px.svg" alt="Bouton Contenu précédent" width="15px"/>&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Bouton Contenu suivant" width="15px"/>).&lt;/p>
 &lt;p>Il est possible de se déplacer entre les chapitres en utilisant
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Page précédente (Page Up)&lt;/kbd> (chapitre précédent) et
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Page suivante (Page Down)&lt;/kbd> (chapitre
@@ -66,7 +66,7 @@ Vous pouvez utiliser les fonctions de navigation par niveaux de titre
 (&lt;kbd>NVDA&lt;/kbd> + &lt;kbd>H&lt;/kbd>) pour explorer et vous déplacer dans la table des matières.
 &lt;/div>
 &lt;/details>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-TDM-light.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d&amp;rsquo;une science.&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;h2 id="les-points-de-repères">Les points de repères&lt;/h2>
 &lt;p>Les livres numérique de bonne qualité comportent des points de repères qui
 permettent d&amp;rsquo;identifier et d&amp;rsquo;atteindre rapidement les grandes parties d&amp;rsquo;un livre.&lt;/p>
@@ -85,7 +85,7 @@ vocabulaire sémantique définis. Les principaux sont :&lt;/p>
 &lt;/ul>
 &lt;p>La &lt;a href="https://www.w3.org/TR/epub-ssv/">liste complète du vocabulaire sémantique EPUB en anglais&lt;/a> est disponible sur le site du W3C.&lt;/p>
 &lt;/div>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-reperes.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à.&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;p>Les signets des fichiers PDF utilisés pour palier à l&amp;rsquo;absence de table des matière de ce format ne sont pas interprétés par Thorium.&lt;/p>
@@ -99,7 +99,7 @@ accédez, cette option indique la page actuelle.&lt;/p>
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>P&lt;/kbd>,
 puis saisissez le numéro de page dans la boîte d&amp;rsquo;édition en le tapant ou
 en modifiant la valeur à l&amp;rsquo;aide de la boîte &lt;code>Aller à la page&lt;/code>.&lt;/p>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-gotopage.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à.&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;p>Les &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">
@@ -119,10 +119,10 @@ l&amp;rsquo;interface et sera lue par un lecteur d&amp;rsquo;écran.&lt;/p>
 &lt;p>Cependant, NVDA annoncera le saut de page comme un séparateur s&amp;rsquo;il a un attribut title (exemple : &lt;code> &amp;lt;span epub:type=&amp;quot;pagebreak&amp;quot; role=&amp;quot;doc-pagebreak&amp;quot; id=&amp;quot;page_2&amp;quot; class=&amp;quot;page&amp;quot; title=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code> fera que NVDA annoncera &amp;ldquo;Deux, séparateur&amp;rdquo;).&lt;/p>
 &lt;/div>
 &lt;/details>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-whereami-ctrlK.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril.&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;p>Lorsque vous consultez le menu &lt;code>Navigation&lt;/code>, Thorium indique le chapitre en cours
 dans la &lt;code>table des matières&lt;/code> ainsi que la page en cours dans le menu &lt;code>Aller à la page&lt;/code>.&lt;/p>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-whereami-tdmfocus.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, lecture d&amp;rsquo;un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c&amp;rsquo;est le chapitre en cours de lecture.&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;h1 id="informations-de-lecture">Informations de lecture&lt;/h1>
 &lt;p>Utilisez la fonction &lt;em>Informations&lt;/em> (&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>I&lt;/kbd>)
 pour ouvrir un panneau qui affiche la structure des titres et le numéro de page.&lt;/p>
@@ -136,7 +136,7 @@ pour ouvrir un panneau qui affiche la structure des titres et le numéro de page
 &lt;/ul>
 &lt;p>Appuyez sur &lt;kbd>Echap&lt;/kbd> pour fermer le panneau &lt;code>Informations&lt;/code>
 et revenir au texte.&lt;/p>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-progression.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, progression : 14/25 (incident du baril) [1%] h1: VII&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;details >&lt;summary>Utiliser &lt;strong>Où suis-je&lt;/strong> avec NVDA&lt;/summary>
 &lt;div class="markdown-inner">
 &lt;p>Appuyez sur la touche &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>F7&lt;/kbd>, puis sur la touche de
@@ -167,7 +167,7 @@ champ de recherche. Saisissez votre terme de recherche. En cliquant sur le
 bouton de &lt;code>Recherche&lt;/code>, vous obtenez un bouton &lt;code>Précédent&lt;/code>, un bouton &lt;code>Suivant&lt;/code>
 et un bouton &lt;code>Liste des résultats&lt;/code>. Activez ce lien pour vous rendre à l&amp;rsquo;endroit
 du livre où l&amp;rsquo;expression recherchée a été trouvée.&lt;/p>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-search-navpanel.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique une correspondance"/></description></item><item><title>Docs: Marquer une page ou un passage</title><link>https://thorium.edrlab.org/fr/docs/210_reading/214_bookmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/214_bookmarks/</guid><description>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-search-navpanel.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique une correspondance&amp;rdquo;//&amp;gt;&lt;/p></description></item><item><title>Docs: Marquer une page ou un passage</title><link>https://thorium.edrlab.org/fr/docs/210_reading/214_bookmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/214_bookmarks/</guid><description>
 &lt;h2 id="ajouter-un-marque_page">Ajouter un Marque_page&lt;/h2>
 &lt;p>Le bouton &lt;code>Marque-pages&lt;/code> permet d&amp;rsquo;ajouter un point de repère personnalisé.
 Un &lt;code>Marque page&lt;/code> peut-être un point fixe ou une portion de texte sélectionné.&lt;/p>
@@ -183,7 +183,7 @@ après cette action.
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Sélectionnez le texte que vous souhaitez marquer.
 Appuyez sur le bouton &lt;code>Marque-pages&lt;/code>
-(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px">)
+(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/outline-bookmark-24px-grey.svg" alt="" width="20px"/>)
 ou la combinaison de touches &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd>.&lt;/p>
 &lt;p>Si aucun texte n&amp;rsquo;est sélectionné,
 le &lt;code>Marque-pages&lt;/code> sera positionné
@@ -212,7 +212,7 @@ touche &lt;kbd>Entrée&lt;/kbd>. Cela renomme le Marque-page avec la ligne de te
 que vous avez copiée. Lorsque vous avez plusieurs Marque-pages, ce renommage des
 Marque-pages permet de les utiliser facilement.&lt;/p>
 &lt;figure>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-marquePages.png" alt="">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-marquePages.png" alt=""/>
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
@@ -235,7 +235,7 @@ dans la publication en cours.
 &lt;/details></description></item><item><title>Docs: Paramètres de lecture</title><link>https://thorium.edrlab.org/fr/docs/210_reading/215_readingparameters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/215_readingparameters/</guid><description>
 &lt;dl>
 &lt;dt>Dans l&amp;rsquo;interface de lecture utilisez le bouton &lt;code>Préférences&lt;/code>&lt;/dt>
-&lt;dt>(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="" width="20px">)&lt;/dt>
+&lt;dt>(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/font-size.svg" alt="" width="20px"/>)&lt;/dt>
 &lt;dd>en cliquant sur ce bouton, les options sont révélées.&lt;/dd>
 &lt;/dl>
 &lt;div class="alert alert-primary" role="alert">
@@ -262,7 +262,7 @@ le système d&amp;rsquo;exploitation.&lt;/p>
 &lt;li>Écrivez le mot &lt;em>Verdana&lt;/em> dans le champ vide apparu à côté de la liste déroulante.&lt;/li>
 &lt;li>Validez avec &lt;kbd>Entrée&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt="">
+&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-verdana.png" alt=""/>
 &lt;h3 id="exemple-2--paramétrer-luciole-comme-police-de-lecture">Exemple 2 : paramétrer Luciole comme police de lecture.&lt;/h3>
 &lt;ol>
 &lt;li>&lt;a href="https://www.luciole-vision.com/Fichiers/Luciole-Regular.ttf">Téléchargez et installez la police Luciole&lt;/a>&lt;/li>
@@ -271,7 +271,7 @@ le système d&amp;rsquo;exploitation.&lt;/p>
 &lt;li>Écrivez le mot &lt;em>Luciole&lt;/em> dans le champ vide apparu à côté de la liste déroulante.&lt;/li>
 &lt;li>Validez avec &lt;kbd>Entrée&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-luciole.png" alt=""/>
+&lt;p>&amp;lt;img class=&amp;ldquo;icons&amp;rdquo; src=&amp;quot;/images/local-fr/thorium-luciole.png&amp;quot; alt=&amp;quot;&amp;quot;//&amp;gt;
 &lt;/div>
 &lt;h2 id="affichage">Affichage&lt;/h2>
 &lt;p>Vous pouvez choisir entre une mise en page avec défilement ou pagination,
@@ -305,12 +305,12 @@ Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ord
 Ce dernier propose une vue accés rapide organisée en deux sections :
 &lt;code>Récement ajouté&lt;/code> et &lt;code>Reprendre la lecture&lt;/code>. Le bouton &lt;code>Tous les livres&lt;/code>
 affichera la totalité des livres importés dans Thorium.&lt;/p>
-&lt;p>La vue par défaut est la vue grille (&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_module-24px.svg" alt="Icon grid" width="20px">)affiche les couvertures des livres, leur titre et leur auteur.
+&lt;p>La vue par défaut est la vue grille (&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_module-24px.svg" alt="Icon grid" width="20px"/>)affiche les couvertures des livres, leur titre et leur auteur.
 Cliquer sur un de ces éléments déclenche l&amp;rsquo;ouverture du livre dans une nouvelle
 fenêtre. Un menu pour chaque livre permet d&amp;rsquo;accéder à la &lt;code>Fiche livre&lt;/code>, de
 &lt;code>Supprimer&lt;/code> ou d&amp;rsquo;&lt;code>Exporter&lt;/code> le livre.&lt;/p>
 &lt;p>Il est possible de choisir une vue en liste
-&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_list-24px.svg" alt="Icon list" width="20px">).
+&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/baseline-view_list-24px.svg" alt="Icon list" width="20px"/>).
 Dans cette vue la
 couverture n&amp;rsquo;est plus affichée mais l&amp;rsquo;année de publication et l&amp;rsquo;éditeur sont indiqués.&lt;/p>
 &lt;h2 id="tous-les-livres">Tous les livres&lt;/h2>
@@ -322,7 +322,7 @@ Cliquez par exemple sur la mention Français de la colonne langue et seuls les
 livres en français sont affichés.&lt;/p>
 &lt;p>Les entête des colonnes permettent de trier les livres par ordre croissant ou
 décroissant. L&amp;rsquo;icone &lt;code>Loupe&lt;/code>
-(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="" width="20px">)
+(&lt;img class="icons" src="https://thorium.edrlab.org/images/icons/magnifying_glass.svg" alt="" width="20px"/>)
 en entête de la première colonne active un champ de recherche par colonne
 permettant par exemple de rechercher une expression seulement parmis les titres
 des ouvrages.&lt;/p></description></item><item><title>Docs: Lire des mathématiques</title><link>https://thorium.edrlab.org/fr/docs/210_reading/221_maths/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/221_maths/</guid><description>
@@ -334,13 +334,13 @@ il n&amp;rsquo;est pas activé d&amp;rsquo;office lorsque vous ouvrez Thorium.
 Pour l&amp;rsquo;activer lors de la lecture d&amp;rsquo;un livre allez dans le menu
 &lt;code>Paramétres de lecture&lt;/code>, en bas de l&amp;rsquo;onglet &lt;code>Affichage&lt;/code> vous trouverez
 une case à cocher &lt;code>MathJax&lt;/code>.&lt;/p>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-mathjax.png" alt="Capture d'écran (en anglais) d'une formule mathématique complexe correctement affichée grace à l'option MathJax cochée."/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-mathjax.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran (en anglais) d&amp;rsquo;une formule mathématique complexe correctement affichée grace à l&amp;rsquo;option MathJax cochée.&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;p>Une fois activé MathJax, vous pouvez utiliser le &lt;code>menu contextuel&lt;/code> (clic droit)
 sur une formule mathématique insérée au format MathML et utiliser les nombreuses
 options comme la lecture à voix haute (speech), consulter le marquage sémantique
 ou copier la formule avec ses attributs sémantiques pour l&amp;rsquo;utiliser dans un
 éditeur compatible.&lt;/p>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-mathjax-menu.png" alt="Capture d'écran du menu contextuel MathJax (en anglais) montrant le sous Menu Accessibility dont l'option Activate est cochée."/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-mathjax-menu.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran du menu contextuel MathJax (en anglais) montrant le sous Menu Accessibility dont l&amp;rsquo;option Activate est cochée.&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;details >&lt;summary>Lire les &lt;strong>mathématiques&lt;/strong> avec NVDA&lt;/summary>
 &lt;div class="markdown-inner">
 Vous pouvez lire les expressions mathématiques balisées avec MathML en utilisant
@@ -380,7 +380,7 @@ Télécharger le flux OPDS pour les nouveaux titres de Gutenberg.org
 &lt;p>Depuis Thorium 2.2, les flux OPDS peuvent être édités, ce qui permet de changer le nom ou de récupérer l&amp;rsquo;URL du flux.&lt;/p>
 &lt;/div>
 &lt;figure>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-add.png" alt="">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-add.png" alt=""/>
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
@@ -402,7 +402,7 @@ permettant de parcourir, télécharger et lire tous les livres de Gallica
 plus d'information sur le catalogue OPDS de Gallica&lt;/a> et
 &lt;a href="https://gallica.bnf.fr/edit/und/a-propos">à propos de Gallica.&lt;/a>&lt;/p>
 &lt;figure>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-gallica-1.png" alt="">
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-opds-gallica-1.png" alt=""/>
 &lt;figcaption class="icon">
 &lt;/figcaption>
 &lt;/figure>
@@ -424,7 +424,7 @@ le nom du tag que vous souhaitez ajouter puis appuyez sur le bouton &lt;code>Ajo
 Le tag est ajouté dans une boite bleu, vous pouvez le supprimer en cliquant sur
 la croix.&lt;/p>
 &lt;/div>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-tags.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique 1 correspondance"/></description></item><item><title>Docs: Rechercher parmis les livres</title><link>https://thorium.edrlab.org/fr/docs/220_organizing/223_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/220_organizing/223_search/</guid><description>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-tags.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, la barre de recherche est présente au dessus du texte, le texte correspondant surligné en vert et le panneau Recherche indique 1 correspondance&amp;rdquo;//&amp;gt;&lt;/p></description></item><item><title>Docs: Rechercher parmis les livres</title><link>https://thorium.edrlab.org/fr/docs/220_organizing/223_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/220_organizing/223_search/</guid><description>
 &lt;p>Appuyez sur &lt;kbd>Ctrl + F&lt;/kbd>, saisissez le texte de la recherche,
 appuyez sur le bouton &lt;code>Résultats&lt;/code>, puis appuyez sur la touche
 &lt;kbd>Entrée&lt;/kbd> sur le lien vers le résultat souhaité.&lt;/p>
@@ -476,7 +476,7 @@ Thorium 2.3 TTS lit les numéros de page par défaut, ce qui peut entraîner une
 &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_ressources/420_glossary#bookInformation">Fiche Livre&lt;/a>
 sous l&amp;rsquo;intitulé &lt;code>Description&lt;/code> le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité
 (&lt;span lang="en">accessibilitySummary&lt;/span>).&lt;/p>
-&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
+&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-bookinfo-a11ysummary.png&amp;quot; alt=&amp;ldquo;Capture d&amp;rsquo;écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles ».&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;p>Des travaux sont en cours pour proposer un guide d&amp;rsquo;affichage des informations
