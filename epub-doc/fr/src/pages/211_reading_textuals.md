@@ -1,7 +1,7 @@
 ---
 title: Lire des contenus textuels
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ## Lire des contenus textuels
@@ -35,7 +35,7 @@ En sélectionnant `...` vous pouvez saisir le nom de la police que vous souhaite
 3. Écrivez le mot *Verdana* dans le champ vide qui apparaît à côté de la liste déroulante.
 4. Confirmez avec [Entrée]{.kbd}.
 
-<img src="../../resources/images/local-fr/thorium-verdana.png" alt="Capture d'écran montrant le panneau Paramètres de texte avec Verdana configuré comme&lt;span translate=" no=""> police de lecture" data-md-type="image"&gt;{.icons}
+<img src="../../resources/images/local-fr/thorium-verdana.png" alt="Capture d'écran montrant le panneau Paramètres de texte avec Verdana configuré comme&lt;span translate=" /> police de lecture" {.icons}
 
 #### Exemple 2 : Configuration de Luciole comme police de lecture {#read_text_example_luciole}
 
@@ -45,7 +45,7 @@ En sélectionnant `...` vous pouvez saisir le nom de la police que vous souhaite
 4. Écrivez le mot *Luciole* dans le champ vide qui apparaît à côté de la liste déroulante.
 5. Confirmez avec [Entrée]{.kbd}.
 
-<img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau Paramètres de texte avec Luciole configuré comme&lt;span translate=" no=""> police de lecture" data-md-type="image"&gt;{.icons} :::
+<img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau Paramètres de texte avec Luciole configuré comme&lt;span translate=" /> police de lecture" {.icons} :::
 
 ### Afficher {#read_text_display}
 
@@ -59,7 +59,7 @@ Les marges, l'espacement des mots, l'espacement des lettres, l'espacement des pa
 
 Fournit des options pour une `clean view` et épurée et la possibilité d'ignorer le contenu secondaire ( `skippability` ) qui peut inclure des notes de bas de page ou des barres latérales selon la sémantique indiquée lors de la production du livre numérique. `Split TTS` divisera le contenu par phrase pour une mise en évidence plus précise.
 
-::: info Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](../../400_ressources/430_faq.xhtml#TTSvoices). :::
+::: info Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](). :::
 
 ### Synthèse vocale (TTS) {#read_text_TTS}
 
@@ -75,4 +75,4 @@ La synthèse vocale est lancée à l'aide du bouton du haut-parleur au milieu de
 
 - Une vue alternative (simplifiée) de la publication est fournie via des options disponibles dans le menu `Settings / Readaloud` .
 
-::: info Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](../../400_ressources/430_faq.xhtml#TTSvoices). :::
+::: info Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](). :::

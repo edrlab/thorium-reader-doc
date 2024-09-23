@@ -1,7 +1,7 @@
 ---
 title: Actions des bibliothèques
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 # Actions des bibliothèques {#Libraries_actions}

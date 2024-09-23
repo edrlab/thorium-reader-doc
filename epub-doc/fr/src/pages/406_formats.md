@@ -1,7 +1,7 @@
 ---
 title: Formats de publication pris en charge
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ## Formats de publication pris en charge

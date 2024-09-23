@@ -1,7 +1,7 @@
 ---
 title: Rechercher dans un livre
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ## Rechercher dans un livre {#read_search}
@@ -10,7 +10,7 @@ Vous pouvez utiliser les touches [Ctrl]{.kbd} + [F]{.kbd} pour accéder au champ
 
 ::: Attention : en effectuant une recherche et en parcourant les résultats, vous perdrez le point de lecture où vous étiez. Placez simplement un signet pour vous assurer de retrouver votre chemin. :::
 
-<img src="../../resources/images/local-fr/thorium-search-navpanel.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le&lt;span translate=" no=""> texte correspondant surligné en vert et le panneau de recherche indique un<br>correspondance" data-md-type="image"&gt;
+<img src="../../resources/images/local-fr/thorium-search-navpanel.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le&lt;span translate=" /> texte correspondant surligné en vert et le panneau de recherche indique un<br/>correspondance" 
 
 ::: section
 

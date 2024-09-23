@@ -1,7 +1,7 @@
 ---
 title: Lire
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 # En lisant

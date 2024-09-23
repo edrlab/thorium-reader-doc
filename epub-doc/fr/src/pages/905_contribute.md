@@ -1,7 +1,7 @@
 ---
 title: Contribuer
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ## Contribuer!

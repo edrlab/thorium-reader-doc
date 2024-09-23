@@ -1,7 +1,7 @@
 ---
 title: Avant-propos
 role: doc-foreword
-draft: 'false'
+draft: false
 ---
 
 ::: {.section role="doc-foreword" aria-labelledby="forewords"}

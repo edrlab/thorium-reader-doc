@@ -1,7 +1,7 @@
 ---
 title: "Panneau d'information du livre"
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 # Panneau d'information sur le livre {#book_info_panel}

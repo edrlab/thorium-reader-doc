@@ -1,7 +1,7 @@
 ---
 title: Lecture de contenus visuels
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 # Lecture de contenus visuels

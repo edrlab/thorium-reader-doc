@@ -1,7 +1,7 @@
 ---
 title: "Lire avec un lecteur d'écran"
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ## Lire avec un lecteur d'écran

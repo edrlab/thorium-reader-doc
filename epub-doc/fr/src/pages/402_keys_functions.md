@@ -1,7 +1,7 @@
 ---
 title: Fonctions des touches
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ## Fonctions des touches

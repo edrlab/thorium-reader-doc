@@ -1,7 +1,7 @@
 ---
 title: Accessibilité
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 # Accessibilité {#a11y}
@@ -16,7 +16,7 @@ Les fonctionnalités d'accessibilité dépendent fortement de la qualité des fi
 
 Actuellement, Thorium affiche dans le [panneau Informations sur le livre]() sous le titre `Description` le contenu des métadonnées du résumé d'accessibilité ( [accessibilitySummary]{lang="fr"}).
 
-<img src="../../resources/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre The Mark of Four indique : Cette publication&lt;span translate=" no=""> conforme à la charte SNE - EPUB textuels nativement accessibles<br>». " data-md-type="image"&gt;
+<img src="../../resources/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre The Mark of Four indique : Cette publication&lt;span translate=" /> conforme à la charte SNE - EPUB textuels nativement accessibles<br/>». " 
 
 ::: avertissement Attention !
 

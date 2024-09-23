@@ -1,7 +1,7 @@
 ---
 title: Fenêtres, vues et panneaux
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ::: section

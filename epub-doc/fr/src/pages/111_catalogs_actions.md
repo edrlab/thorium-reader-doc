@@ -1,7 +1,7 @@
 ---
 title: Actions sur les catalogues
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ::: section

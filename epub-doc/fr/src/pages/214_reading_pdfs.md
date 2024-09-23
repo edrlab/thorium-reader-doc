@@ -1,7 +1,7 @@
 ---
 title: Lire des PDF
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 # Lire des PDF

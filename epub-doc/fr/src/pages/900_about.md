@@ -1,7 +1,7 @@
 ---
 title: À propos de cet ebook
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 # À propos de cet ebook

@@ -1,7 +1,7 @@
 ---
 title: Annotations
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ## Annotations

@@ -6,7 +6,7 @@ weight: 216
 toc: false
 ---
 
-In the reading interface use the `Preferences` button (<img class="icons" src="/images/icons/font-size.svg" alt="" width="20px">): the options are revealed.
+In the reading interface use the `Preferences` button (<img class="icons" src="/images/icons/font-size.svg" alt="" width="20px"/>): the options are revealed.
 
 {{< alert info >}}
 Reading settings can be saved or reset by using buttons `Save` and `Reset` located in the menu `Settings`, submenu `Configuration` of the Reading window.
@@ -41,7 +41,7 @@ the operating system.
 3. Write the word *Verdana* in the empty field that appears next to the drop-down list.
 4. Confirm with <kbd>Enter</kbd>.
 
-<img class="icons" src="/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font">
+<img class="icons" src="/images/local-fr/thorium-verdana.png" alt="Screenshot showing the Text settings Pannel with verdana set up as reading font"/>
 
 
 
@@ -56,7 +56,7 @@ the operating system.
 
 
 
-<img class="icons" src="/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"/>
+<img class="icons" src="/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"//>
 
 
 

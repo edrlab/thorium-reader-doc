@@ -1,7 +1,7 @@
 ---
 title: Ressources
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 # Ressources

@@ -1,4 +1,3 @@
-
 # eleventypub
 
 Create an EPUB by authoring your pages as simple [markdown](https://www.markdownguide.org/basic-syntax/) files and then letting a script do the rest. 

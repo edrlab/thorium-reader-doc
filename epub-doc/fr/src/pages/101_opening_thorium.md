@@ -1,7 +1,7 @@
 ---
 title: Ouverture du lecteur
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ::: section

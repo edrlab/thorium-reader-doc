@@ -1,5 +1,5 @@
 ---
-title: Aide et ressources pour une meilleure expérience de lecture du Thorium
+title: "Aide et ressources pour une meilleure expérience de lecture avec Thorium Reader"
 ---
 
 <h2>Bienvenue dans la documentation de Thorium Reader</h2>

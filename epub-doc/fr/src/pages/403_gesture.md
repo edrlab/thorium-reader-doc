@@ -1,7 +1,7 @@
 ---
 title: Gestes tactiles
-role: ''
-draft: 'false'
+role: 
+draft: false
 ---
 
 ## Gestes tactiles
