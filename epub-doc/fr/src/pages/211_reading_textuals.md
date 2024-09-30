@@ -12,7 +12,9 @@ Pour le contenu textuel, Thorium propose une lecture visuelle et une lecture aud
 
 Dans l'interface de lecture, utilisez le bouton `Preferences` (![](../../resources/images/icons3/textarea-icon.svg) {.icons}): les options sont révélées.
 
-::: info Les paramètres de lecture peuvent être sauvegardés ou réinitialisés en utilisant les boutons [Enregistrer]{.ui_button} et [Réinitialiser]{.ui_button} situés dans le menu [Paramètres]{.ui_button}, sous-menu [Configuration]{.ui_button} de la fenêtre de lecture. :::
+{% info %}
+Les paramètres de lecture peuvent être sauvegardés ou réinitialisés en utilisant les boutons [Enregistrer]{.ui_button} et [Réinitialiser]{.ui_button} situés dans le menu [Paramètres]{.ui_button}, sous-menu [Configuration]{.ui_button} de la fenêtre de lecture. 
+{% enddiv %}
 
 Les paramètres principaux sont disponibles pour les formats EPUB redistribuables, EPUB à mise en page fixe et PDF, mais ne permettent pas de personnaliser l'apparence. La plupart des EPUB à mise en page fixe permettent d'ouvrir la vue Image pour zoomer sur une page. Les PDF peuvent être agrandis à l'aide du sous-menu Zoom du panneau Préférences.
 
@@ -26,7 +28,7 @@ La taille de la police peut être augmentée ou diminuée à l'aide du curseur. 
 
 En sélectionnant `...` vous pouvez saisir le nom de la police que vous souhaitez utiliser. Pour ce faire, la police doit être présente sur votre système d'exploitation et vous devez connaître son nom exact tel qu'il est défini pour le système d'exploitation.
 
-::: info
+{% info %}
 
 #### Exemple 1 : Définition de Verdana comme police de lecture {#read_text_example_verdana}
 
@@ -45,7 +47,7 @@ En sélectionnant `...` vous pouvez saisir le nom de la police que vous souhaite
 4. Écrivez le mot *Luciole* dans le champ vide qui apparaît à côté de la liste déroulante.
 5. Confirmez avec [Entrée]{.kbd}.
 
-<img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau Paramètres de texte avec Luciole configuré comme&lt;span translate=" /> police de lecture" {.icons} :::
+<img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau Paramètres de texte avec Luciole configuré comme&lt;span translate=" /> police de lecture" {.icons} {% enddiv %}
 
 ### Afficher {#read_text_display}
 
@@ -59,7 +61,7 @@ Les marges, l'espacement des mots, l'espacement des lettres, l'espacement des pa
 
 Fournit des options pour une `clean view` et épurée et la possibilité d'ignorer le contenu secondaire ( `skippability` ) qui peut inclure des notes de bas de page ou des barres latérales selon la sémantique indiquée lors de la production du livre numérique. `Split TTS` divisera le contenu par phrase pour une mise en évidence plus précise.
 
-::: info Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](). :::
+{% info %} Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](). {% enddiv %}
 
 ### Synthèse vocale (TTS) {#read_text_TTS}
 
@@ -75,4 +77,4 @@ La synthèse vocale est lancée à l'aide du bouton du haut-parleur au milieu de
 
 - Une vue alternative (simplifiée) de la publication est fournie via des options disponibles dans le menu `Settings / Readaloud` .
 
-::: info Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](). :::
+{% info %} Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](). {% enddiv %}
