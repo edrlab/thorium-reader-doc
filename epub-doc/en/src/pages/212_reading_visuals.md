@@ -1,6 +1,6 @@
 ---
 title: Reading visual contents
-role:
+role: chapter
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Reading textual contents
-role:
+role: chapter
 draft: false
 ---
 

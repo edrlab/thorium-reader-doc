@@ -1,6 +1,6 @@
 ---
 title: Book Information panel
-role:
+role: chapter
 draft: false
 ---
 

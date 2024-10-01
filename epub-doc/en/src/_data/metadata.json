@@ -15,7 +15,7 @@
     }
   ],
   "properties": {
-    "dcterms:modified": "2023-10-01T00:00:00Z",
+    "dcterms:modified": "2024-10-01T00:00:00Z",
     "schema:accessibilityFeature": ["alternativeText", "readingOrder","structuralNavigation", "tableOfContents"],
     "schema:accessibilitySummary": "The publication has been evaluated for accessibility.",
     "schema:accessibilityHazard": "none",

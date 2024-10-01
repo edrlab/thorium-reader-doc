@@ -1,6 +1,6 @@
 ---
 title: Accessibility
-role:
+role: chapter
 draft: false
 ---
 

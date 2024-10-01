@@ -1,6 +1,6 @@
 ---
 title:  Search in a book
-role:
+role: chapter
 draft: false
 ---
 

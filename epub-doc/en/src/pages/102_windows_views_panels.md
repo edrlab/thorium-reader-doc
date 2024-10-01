@@ -1,10 +1,10 @@
 ---
 title: Windows, views and panels
-role:
+role: chapter
 draft: false
 ---
 
-::: section
+
 # Windows, views and panels {#windows_and_views}
 
 Thorium reader has one main window and one additional window per open
@@ -14,14 +14,14 @@ depend on the book format (textual, audio, visual). Each format will
 allow a selection of action panels that can be docked to one side of the
 view.
 
-::: section
+
 ## Main window {#main_window}
 
 The main window is where you can access and organise your collections as
 well as the settings that apply to the whole application. Closing the
 main windows clese the application and all reading windows opened.
 
-::: section
+
 ### Home View {#home_view}
 
 This view is for quick access. You find here the books you have been
@@ -29,9 +29,9 @@ reading recently and the ones you added recently. Possible actions are
 to Import a Publication, to Open a publication and to Open Publication
 menu. ![](../../resources/images/local_en/th3_main_window_home.png){.icon
 role="presentation"}
-:::
 
-::: section
+
+
 ### All publications View {#all_publications_view}
 
 This is the place where all your publications stands. With time it may
@@ -46,25 +46,25 @@ Search, to Filter by tag and navigate by pages of your library. Library
 pages are like Shelves or stacks as the All publication view is limited
 to 50 publications to keep it usable.
 
-::: section
+
 #### Grid Mode {#grid_mode}
 
 The Grid mode presents the books like cards, keyboard tabulation will
 drive you from one book to another. This mode offers the possible
 actions to Open a publication and to Open Publication menu.
-:::
 
-::: section
+
+
 #### Table Mode {#table_mode}
 
 The Table mode presents one book per line and allows to visualize a
 large number of informations usually available only in the Book
 information Panel. Keyboard tabulation will drive you thru all those
 details.
-:::
-:::
 
-::: section
+
+
+
 ### Catalogs View {#catalog_view}
 
 This is the place where you can store, access, browse online catalogs
@@ -84,9 +84,9 @@ Two catalogs protocoles are available.
 Details and how to set up and use catalogs are available from the
 [Catalogs actions section]().
 
-:::
 
-::: section
+
+
 ### Application Settings Panel {#setting_view}
 
 Application settings is divided in three tabs:
@@ -109,10 +109,10 @@ Application settings is divided in three tabs:
     future uses or share it within your devices or with who you want.
     ![](../../resources/images/local_en/th3_main_settings_keys_context.png){.icon
     role="presentation"}
-:::
-:::
 
-::: section
+
+
+
 ## Reading window {#reading_window}
 
 When a book is opened, it is displayed in a new window, meaning that you
@@ -124,5 +124,5 @@ The book
 ### Reading navigation panel {#reading_nav_panel}
 
 ### Reading settings panel {#reading_settings_panel}
-:::
-:::
+
+

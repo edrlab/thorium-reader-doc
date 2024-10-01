@@ -1,21 +1,10 @@
 const path = require('path');
 const mime = require('mime');
 const nunjucks = require('nunjucks');
-const markdownIt = require("markdown-it");
-const markdownItNamedHeadings = require("markdown-it-named-headings");
-
-const markdownOptions = {
-    html: true,
-    breaks: true,
-    linkify: true
-};
-const markdownRenderer = markdownIt(markdownOptions).use(markdownItNamedHeadings);
-
-
+const markdownIt = require('markdown-it');
+const markdownItAttrs = require('markdown-it-attrs');
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.setLibrary("md", markdownRenderer);
-  
   eleventyConfig.addPassthroughCopy("src/resources");
 
   let nunjucksEnv = new nunjucks.Environment(
@@ -31,13 +20,19 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.setLibrary("njk", nunjucksEnv);
 
-  let markdownIt = require("markdown-it")({
-    xhtmlOut: true,
-    html: true
-  })
-  .use(require('markdown-it-imsize'), {autofill: true});
 
-  eleventyConfig.setLibrary("md", markdownIt);
+  const markdownIt = require('markdown-it')
+  const markdownItAttrs = require('markdown-it-attrs')
+  
+  const markdownItOptions = {
+    xhtmlOut: true,
+    html: true,
+    // breaks: true,
+    linkify: true
+  }
+  
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+  eleventyConfig.setLibrary('md', markdownLib)
 
   return {
     passthroughFileCopy: true,

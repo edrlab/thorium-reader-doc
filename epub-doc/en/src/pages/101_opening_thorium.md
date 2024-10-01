@@ -1,10 +1,10 @@
 ---
 title: Opening Thorium Reader
-role:
+role: chapter
 draft: false
 ---
 
-::: section
+
 # Opening Thorium Reader {#getabook}
 
 Once Thorium reader is installed on your system, severals ways are
@@ -23,4 +23,4 @@ possible to open it.
     `Open with`, in the pop-up window select `Thorium`, check the box
     `Always open with`. This operation must be repeated for each file
     format you wish to read with Thorium.
-:::
+

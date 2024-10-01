@@ -1,6 +1,6 @@
 ---
 title: Tactile gestures
-role:
+role: chapter
 draft: false
 ---
 
