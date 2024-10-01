@@ -23,11 +23,9 @@ Open Publication menu
     ![](../../resources/images/local_en/th3_library_table_actions.png){.icon
     role="presentation"} It allows to:
     -   Open the book information panel (About publication,
-        ![](../../resources/images/icons3/info-icon.svg){.icon
-        role="presentation"});
+        ![](../../resources/images/icons3/info-icon.svg){.icon         role="presentation"});
     -   Mark the publication as read
-        (![](../../resources/images/icons3/doubleCheck-icon.svg){.icon
-        role="presentation"}) that will change the Progression status to
+        (![](../../resources/images/icons3/doubleCheck-icon.svg){.icon         role="presentation"}) that will change the Progression status to
         Finished;
     -   Delete the Publication
         (![](../../resources/images/icons3/bin-icon.svg){.icon
@@ -38,9 +36,10 @@ Open Publication menu
         window to let you choose where to export the publication.
 
 Import a Publication
-:   Located at the top right corner and 5th element in te tabulation
-    order, just before the main content, the [+ Import a
-    Publication]{.ui_button} button speaks by itself. Activating it will
+
+   Located at the top right corner and 5th element in te tabulation
+    order, just before the main content, the <span class="ui_button">+ Import a
+    Publication</span> button speaks by itself. Activating it will
     cause the opening of a system context window to let your select a
     file on your computer system. Navigate to the file you want to open,
     and validate. The file will appear in the Recently added section of
@@ -49,7 +48,8 @@ Import a Publication
     reset to display most recent added publication.
 
 Search publications (Filtering by keyword)
-:   The Search ebooks function acts as a filter, meaning that when you
+
+   The Search ebooks function acts as a filter, meaning that when you
     start typing a search query, the ebooks displayed in the shelve will
     be limited to the ones matching your query. To use this function,
     Activate the Search Box
@@ -63,12 +63,14 @@ Search publications (Filtering by keyword)
     Search in a book function.
 
 Filter by tag (Grid mode)
-:   Additionally to the search filter, it is possible to select Tags
+
+  Additionally to the search filter, it is possible to select Tags
     that have been added to publications. This box is a text free input
     that will filter the list of available Tags.
 
 Sort by and Filter by (Table mode)
-:   The Table View allows for sorting and detailed filtering by every
+
+   The Table View allows for sorting and detailed filtering by every
     column headings (Title, Author, Progression, remaining days for
     loans, main publication languages, Tags, Format, Last reading date,
     Publisher name, Published date, DRM protection, Duration for
@@ -77,14 +79,15 @@ Sort by and Filter by (Table mode)
     metadata.
 
 Navigate by pages of your library
-:   For performance reasons, the All publication view is limited to 50
+
+   For performance reasons, the All publication view is limited to 50
     publications. If you have more ebooks than that, they will be
     available thru different pages that can be considered like Shelves
     or stacks.
     ![](../../resources/images/local_en/th3_library_pages.png){.icon
     role="presentation"}
 
-:   ## Add tags
+## Add tags
 
     You can enrich the information of the books in your library by
     adding `Tags` to them. \`Tags\' allow you to quickly search and sort
@@ -92,4 +95,3 @@ Navigate by pages of your library
     position yourself in the field *Add a tag*, write the name of the
     tag you want to add then press the `Add` button. The tag is added in
     a blue box, you can remove it by clicking on the cross.
-:::

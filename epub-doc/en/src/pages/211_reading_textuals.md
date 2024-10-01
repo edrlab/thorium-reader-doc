@@ -15,11 +15,8 @@ In the reading interface use the `Preferences` button (
 are revealed.
 
 
-Reading settings can be saved or reset by using buttons 
-Save {.ui_button} 
-and 
-[Reset] {.ui_button} located in the menu
-[Settings]{.ui_button}, submenu [Configuration]{.ui_button} of the
+Reading settings can be saved or reset by using buttons <span class="ui_button">Save</span> and <span class="ui_button">Reset</span> located in the menu
+<span class="ui_button">Settings</span>, submenu <span class="ui_button">Configuration</span> of the
 Reading window.
 
 Major settings are available for EPUB Reflowable , Fixed Layout EPUBs and
@@ -44,6 +41,7 @@ use. To do this, the font must be present on your operating system and
 you must know its exact name as it is set for the operating system.
 
 <div class="info">
+
 #### Example 1: Setting Verdana as the reading font {#read_text_example_verdana}
 
 1.  In the reading interface go to the `Preference` menu and then

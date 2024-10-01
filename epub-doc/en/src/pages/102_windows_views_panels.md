@@ -94,7 +94,7 @@ Application settings is divided in three tabs:
 1.  The General Tab allow you to select the language of the interface
     and to Save session (meaning that the application will remember the
     windows opened at closing and reopen them when launched again). The
-    [clear login data]{.ui_button} button will delete any Catalog
+    <span class="ui_button">clear login data</span> button will delete any Catalog
     authentification previously stored (useful if you are reading on a
     public or shared computer or if you want to change the account with
     wich you are connected).

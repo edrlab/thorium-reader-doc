@@ -13,7 +13,7 @@ Pour le contenu textuel, Thorium propose une lecture visuelle et une lecture aud
 Dans l'interface de lecture, utilisez le bouton `Preferences` (![](../../resources/images/icons3/textarea-icon.svg) {.icons}): les options sont révélées.
 
 {% info %}
-Les paramètres de lecture peuvent être sauvegardés ou réinitialisés en utilisant les boutons [Enregistrer]{.ui_button} et [Réinitialiser]{.ui_button} situés dans le menu [Paramètres]{.ui_button}, sous-menu [Configuration]{.ui_button} de la fenêtre de lecture. 
+Les paramètres de lecture peuvent être sauvegardés ou réinitialisés en utilisant les boutons <span class="ui_button">Enregistrer</span> et <span class="ui_button">Réinitialiser</span> situés dans le menu <span class="ui_button">Paramètres</span>, sous-menu <span class="ui_button">Configuration</span> de la fenêtre de lecture. 
 {% enddiv %}
 
 Les paramètres principaux sont disponibles pour les formats EPUB redistribuables, EPUB à mise en page fixe et PDF, mais ne permettent pas de personnaliser l'apparence. La plupart des EPUB à mise en page fixe permettent d'ouvrir la vue Image pour zoomer sur une page. Les PDF peuvent être agrandis à l'aide du sous-menu Zoom du panneau Préférences.

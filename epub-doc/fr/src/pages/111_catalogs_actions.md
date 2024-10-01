@@ -10,7 +10,7 @@ draft: false
 
 ## Mise en place d'un catalogue OPDS
 
-Sélectionnez l'onglet [Catalogues]{.ui_button} puis le bouton [Ajouter un flux OPDS]{.ui_button}. Indiquez un Nom pour désigner ce catalogue et collez une adresse correspondant à un catalogue diffusé au format OPDS. Validez avec le bouton [Ajouter]{.ui_button}.
+Sélectionnez l'onglet <span class="ui_button">Catalogues</span> puis le bouton <span class="ui_button">Ajouter un flux OPDS</span>. Indiquez un Nom pour désigner ce catalogue et collez une adresse correspondant à un catalogue diffusé au format OPDS. Validez avec le bouton <span class="ui_button">Ajouter</span>.
 
 Exemple :
 

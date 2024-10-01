@@ -10,10 +10,10 @@ draft: false
 
 ## Setting up an OPDS catalog
 
-Select the [Catalogs]{.ui_button} tab then the button [Add an OPDS
-feed]{.ui_button}. Indicate a Name to designate this catalog and paste
+Select the <span class="ui_button">Catalogs</span> tab then the button <span class="ui_button">Add an OPDS
+feed</span>. Indicate a Name to designate this catalog and paste
 an address corresponding to a catalog distributed in OPDS format.
-Validate with the button [Add]{.ui_button}.
+Validate with the button <span class="ui_button">Add</span>.
 
 Example :
 
