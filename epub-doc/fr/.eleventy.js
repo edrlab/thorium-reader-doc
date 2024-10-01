@@ -1,8 +1,21 @@
 const path = require('path');
 const mime = require('mime');
 const nunjucks = require('nunjucks');
+const markdownIt = require("markdown-it");
+const markdownItNamedHeadings = require("markdown-it-named-headings");
+
+const markdownOptions = {
+    html: true,
+    breaks: true,
+    linkify: true
+};
+const markdownRenderer = markdownIt(markdownOptions).use(markdownItNamedHeadings);
+
+
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.setLibrary("md", markdownRenderer);
+  
   eleventyConfig.addPassthroughCopy("src/resources");
 
   let nunjucksEnv = new nunjucks.Environment(

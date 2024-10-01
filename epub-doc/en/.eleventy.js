@@ -6,7 +6,6 @@ const markdownItAttrs = require('markdown-it-attrs');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/resources");
-  eleventyConfig.addPassthroughCopy("css");
 
   let nunjucksEnv = new nunjucks.Environment(
     new nunjucks.FileSystemLoader("src/_includes")
@@ -21,14 +20,19 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.setLibrary("njk", nunjucksEnv);
 
-  let markdownIt = require("markdown-it")({
+
+  const markdownIt = require('markdown-it')
+  const markdownItAttrs = require('markdown-it-attrs')
+  
+  const markdownItOptions = {
     xhtmlOut: true,
-    html: true
-    breaks: true,
+    html: true,
+    // breaks: true,
     linkify: true
-  })
-  .use(require('markdown-it-attrs'), {autofill: true});
-  eleventyConfig.setLibrary("md", markdownIt);
+  }
+  
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+  eleventyConfig.setLibrary('md', markdownLib)
 
   return {
     passthroughFileCopy: true,

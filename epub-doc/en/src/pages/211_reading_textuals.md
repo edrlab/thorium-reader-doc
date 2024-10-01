@@ -14,14 +14,15 @@ In the reading interface use the `Preferences` button (
 ![](../../resources/images/icons3/textarea-icon.svg){.icons}): the options
 are revealed.
 
-::: info
-Reading settings can be saved or reset by using buttons
-[Save]{.ui_button} and [Reset]{.ui_button} located in the menu
+
+Reading settings can be saved or reset by using buttons 
+Save {.ui_button} 
+and 
+[Reset] {.ui_button} located in the menu
 [Settings]{.ui_button}, submenu [Configuration]{.ui_button} of the
 Reading window.
-:::
 
-Major settings are available for EPUB Reflowable, Fixed Layout EPUBs and
+Major settings are available for EPUB Reflowable , Fixed Layout EPUBs and
 PDF formats just don\'t allow personalisation of appearance. Most Fixed
 Layout EPUBs will allow to open Image view for zooming on a page. PDFs
 can be enlarged using the Zoom sub-menu in the Preferences panel.
@@ -42,7 +43,7 @@ By selecting the `...` you can enter the name of the font you want to
 use. To do this, the font must be present on your operating system and
 you must know its exact name as it is set for the operating system.
 
-::: info
+<div class="info">
 #### Example 1: Setting Verdana as the reading font {#read_text_example_verdana}
 
 1.  In the reading interface go to the `Preference` menu and then
@@ -68,7 +69,7 @@ reading font](../../resources/images/local-fr/thorium-verdana.png){.icons}
 
 ![Screenshot showing the Text settings Pannel with Luciole set up as
 reading font](../../resources/images/local-fr/thorium-luciole.png){.icons}
-:::
+</div>
 
 ### Display {#read_text_display}
 
@@ -90,13 +91,13 @@ sidebars according to the semantics indicated during the production of
 the digital book. `Split TTS` will split the content by sentence for
 more precise highlighting.
 
-::: info
+<div class="info">
 Thorium uses the voices from the computer\'s operating system, in
 combination with the language information provided by the book. If you
 experience problems please check the related FAQ entry \[I can\'t select
 the adequate voice for read aloud function
 (TTS)\](../../400_ressources/430_faq.xhtml#TTSvoices).
-:::
+</div>
 
 ### Text to Speech (TTS) {#read_text_TTS}
 
@@ -118,10 +119,10 @@ toolbar, or by using the keyboard shortcut [Ctrl]{.kbd} + [2]{.kbd}.
 -   An alternative (simplified) view of the publication is provided
     through options available in the `Settings / Readaloud` menu.
 
-::: info
+<div class="info">
 Thorium uses the voices from the computer\'s operating system, in
 combination with the language information provided by the book. If you
 experience problems please check the related FAQ entry \[I can\'t select
 the adequate voice for read aloud function
 (TTS)\](../../400_ressources/430_faq.xhtml#TTSvoices).
-:::
+</div>
