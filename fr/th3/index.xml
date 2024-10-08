@@ -504,7 +504,7 @@ format de fichier que vous souhaitez lire avec Thorium. {{&amp;lt; /alert&amp;gt
 &lt;dd>(Electronic PUBlication) est un format de fichier ouvert pour les publications électroniques. EPUB est un format sémantique natif permettant d'utiliser de nombreux langages standardisés tels que HTML, ARIA, MATHML, SVG et autres. La version 3 actuelle est connue pour offrir la meilleure expérience de lecture actuelle. Les fichiers EPUB2 obsolètes sont également lisibles dans Thorium. &lt;/dd>
 &lt;/dl>
 &lt;dl>
-&lt;dt>MARGUERITE&lt;/dt>
+&lt;dt>DAISY&lt;/dt>
 &lt;dd>Généralement produit et distribué par des bibliothèques spécialisées ou des ONG, le format DAISY offre une expérience de lecture considérablement améliorée pour les livres électroniques qui ne sont pas disponibles en EPUB3. Thorium prend en charge la lecture des formats DAISY 3 et 2.02, à la fois en texte seul, en audio seul et en texte et audio synchronisés.&lt;/dd>
 &lt;/dl>
 &lt;dl>

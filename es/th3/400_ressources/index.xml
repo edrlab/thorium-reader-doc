@@ -514,7 +514,7 @@
 &lt;dd>(Electronic PUBlication) es un formato de archivo abierto para publicaciones electrónicas. EPUB es un formato semántico nativo que permite utilizar numerosos lenguajes estandarizados como HTML, ARIA, MATHML, SVG y otros. La versión actual 3 es conocida por ofrecer la mejor experiencia de lectura actualizada. Los archivos EPUB2 obsoletos también se pueden leer en Thorium. &lt;/dd>
 &lt;/dl>
 &lt;dl>
-&lt;dt>MARGARITA&lt;/dt>
+&lt;dt>DAISY&lt;/dt>
 &lt;dd>El formato DAISY, que suele producirse y distribuirse en bibliotecas especializadas u ONG, ofrece una experiencia de lectura significativamente mejorada para los libros electrónicos que no están disponibles en EPUB3. Thorium admite la lectura de DAISY 3 y 2.02, tanto en su versión de solo texto, solo audio y texto y audio sincronizados.&lt;/dd>
 &lt;/dl>
 &lt;dl>
