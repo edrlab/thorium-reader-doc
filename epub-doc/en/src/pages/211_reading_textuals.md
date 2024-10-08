@@ -11,7 +11,7 @@ For textual contents Thorium provides visual reading and audio playback.
 ### Text adjustment settings {#read_text_adjust}
 
 In the reading interface use the `Preferences` button (
-![](../../resources/images/icons3/textarea-icon.svg){.icons}): the options
+<img src="../../resources/images/icons3/textarea-icon.svg){.icons}): the options
 are revealed.
 
 

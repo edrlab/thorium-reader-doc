@@ -6,11 +6,11 @@ draft: false
 
 ## Fonctions des touches
 
-::: infos Informations
+ infos Informations
 
 La liste de définitions suivante donne pour chaque fonction : le Nom, le Code, une définition et le raccourci clavier par défaut.
 
-Concernant les conventions des touches du clavier, la touche [Maj]{.kbd} est représentée par une flèche vide pointant vers le haut sur certains claviers ; la touche [Ctrl]{.kbd} est remplacée par la touche [Cmd]{.kbd} sur les claviers Mac. :::
+Concernant les conventions des touches du clavier, la touche [Maj]{.kbd} est représentée par une flèche vide pointant vers le haut sur certains claviers ; la touche [Ctrl]{.kbd} est remplacée par la touche [Cmd]{.kbd} sur les claviers Mac. 
 
 Créer une annotation ( `AnnotationsCreate` ). [Maj]{.kbd} + [Ctrl]{.kbd} + [Alt]{.kbd} + [A]{.kbd} : Marquez le texte sélectionné et placez le focus sur la zone de l'éditeur d'annotations.
 

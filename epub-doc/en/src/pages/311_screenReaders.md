@@ -16,12 +16,12 @@ current reading location inside the screen reader buffer, unless the
 screen reader user triggers standard web API events (such as mouse click
 anywhere in the text, or keyboard tab into focusable HTML elements).
 
-::: warning
+ warning
 Attention !
 
 Accessibility features addressed to assistive technologies are strongly
 affected by the quality of the book files.
-:::
+
 
 # Keystrokes common to NVDA and JAWS
 

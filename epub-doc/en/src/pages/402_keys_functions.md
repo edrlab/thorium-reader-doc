@@ -6,7 +6,7 @@ draft: false
 
 ## Keys functions
 
-::: info
+ info
 Information
 
 The following definition list gives for each function: the Name, the
@@ -15,7 +15,7 @@ Code, a definition and the Default keyboard shortcut.
 Regarding Keyboard keys conventions, the [Shift]{.kbd} key is
 represented by an empty arrow pointing up on some keyboards; the
 [Ctrl]{.kbd} key is replaced by [Cmd]{.kbd} key on Mac keyboards.
-:::
+
 
 Create Annotation (`AnnotationsCreate`). [Shift]{.kbd} + [Ctrl]{.kbd} + [Alt]{.kbd} + [A]{.kbd}
 :   Mark the selected texte and place focus on the annotation editor

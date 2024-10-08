@@ -8,10 +8,10 @@ draft: false
 
 Book Information is available in a dedicated panel that can be reached
 from the library shelves book action menu
-![](../../resources/images/icons3/info-icon.svg){.icon
+<img src="../../resources/images/icons3/info-icon.svg){.icon
 role="presentation"} <span class="ui_button">About publication</span> or from the Reading
 window Information Icon
-![](../../resources/images/icons3/info-icon.svg){.icon
+<img src="../../resources/images/icons3/info-icon.svg){.icon
 role="presentation"}.
 
 This Panel displays ebook information as provided by the file, the
@@ -29,8 +29,7 @@ the publisher. The information displayed is:
     Accessibility
     metadata](https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated)).
 -   Tags, including the possibility to
-    ![](../../resources/images/icons3/tag-icon.svg){.icon
-    role="presentation"} <span class="ui_button">Add</span> your own tags.
+    <img src="../../resources/images/icons3/tag-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Add</span> your own tags.
 -   Progression
 
 This panel has the particularity of not being dockable as it does not

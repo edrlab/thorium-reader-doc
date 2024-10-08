@@ -10,7 +10,7 @@ Pour le contenu textuel, Thorium propose une lecture visuelle et une lecture aud
 
 ### Paramètres de réglage du texte {#read_text_adjust}
 
-Dans l'interface de lecture, utilisez le bouton `Preferences` (![](../../resources/images/icons3/textarea-icon.svg) {.icons}): les options sont révélées.
+Dans l'interface de lecture, utilisez le bouton `Preferences` ( <img src="../../resources/images/icons3/textarea-icon.svg) {.icons}): les options sont révélées.
 
 {% info %}
 Les paramètres de lecture peuvent être sauvegardés ou réinitialisés en utilisant les boutons <span class="ui_button">Enregistrer</span> et <span class="ui_button">Réinitialiser</span> situés dans le menu <span class="ui_button">Paramètres</span>, sous-menu <span class="ui_button">Configuration</span> de la fenêtre de lecture. 

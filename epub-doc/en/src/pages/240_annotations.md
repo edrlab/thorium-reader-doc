@@ -12,7 +12,7 @@ by opening an issue or sending us an email.*
 
 The simplest way to add an annotation is to select a text and hit the
 Annotations button
-(![](../../resources/images/icons3/annotation-icon.svg){.icon
+(<img src="../../resources/images/icons3/annotation-icon.svg){.icon
 role="presentation"}) or stroke the keyboard shortcut [Shift]{.kbd} +
 [Ctrl]{.kbd} + [Alt]{.kbd} + [A]{.kbd}. This opens the Annotation pop up
 and place the cursor into the input box where you can write your
@@ -20,7 +20,7 @@ annotation (optional). You can change highlight color and type (Solid
 background, Underline, Strikethrough or Outline) then validate the
 creation of the annotation with <span class="ui_button">Save</span>.
 
-![](../../resources/images/local_en/th3_anotation_pop_up.png){.icon
+<img src="../../resources/images/local_en/th3_anotation_pop_up.png){.icon
 role="presentation"}
 
 ## Annotations panel {#annotations_panel}

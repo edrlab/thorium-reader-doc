@@ -27,8 +27,7 @@ main windows clese the application and all reading windows opened.
 This view is for quick access. You find here the books you have been
 reading recently and the ones you added recently. Possible actions are
 to Import a Publication, to Open a publication and to Open Publication
-menu. ![](../../resources/images/local_en/th3_main_window_home.png){.icon
-role="presentation"}
+menu. <img src="../../resources/images/local_en/th3_main_window_home.png" class="icon" alt="" role="presentation"/>
 
 
 
@@ -107,8 +106,7 @@ Application settings is divided in three tabs:
     localisation of the stored user setting .json file, allowing you to
     edit it outside of the application (at your own risks), save it for
     future uses or share it within your devices or with who you want.
-    ![](../../resources/images/local_en/th3_main_settings_keys_context.png){.icon
-    role="presentation"}
+   <img src="../../resources/images/local_en/th3_main_settings_keys_context.png" class="icon" alt="" role="presentation"/>
 
 
 
@@ -118,8 +116,6 @@ Application settings is divided in three tabs:
 When a book is opened, it is displayed in a new window, meaning that you
 can have multiple books opened at the same time, each in an independent
 window that you can arrange at your will.
-
-The book
 
 ### Reading navigation panel {#reading_nav_panel}
 

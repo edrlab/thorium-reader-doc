@@ -8,9 +8,9 @@ draft: false
 
 Les annotations ont été introduites pour la première fois dans Thorium 3. En tant que nouvelle fonctionnalité, elles peuvent présenter des comportements inattendus. Faites-nous part de toute difficulté à laquelle vous faites face en ouvrant un ticket ou en nous envoyant un e-mail
 
-La manière la plus simple d’ajouter une annotation est de sélectionner un texte et d’appuyer sur le bouton Annotations (![](../../resources/images/icons3/annotation-icon.svg) {.icon role="presentation"}) ou appuyez sur le raccourci clavier [Maj]{.kbd} + [Ctrl]{.kbd} + [Alt]{.kbd} + [A]{.kbd}. Cela ouvre la fenêtre contextuelle Annotation et place le curseur dans la zone de saisie où vous pouvez écrire votre annotation (facultatif). Vous pouvez modifier la couleur et le type de surbrillance (Fond uni, Souligné, Barré ou Contour) puis valider la création de l'annotation avec <span class="ui_button">Enregistrer</span>.
+La manière la plus simple d’ajouter une annotation est de sélectionner un texte et d’appuyer sur le bouton Annotations ( <img src="../../resources/images/icons3/annotation-icon.svg) {.icon role="presentation"}) ou appuyez sur le raccourci clavier [Maj]{.kbd} + [Ctrl]{.kbd} + [Alt]{.kbd} + [A]{.kbd}. Cela ouvre la fenêtre contextuelle Annotation et place le curseur dans la zone de saisie où vous pouvez écrire votre annotation (facultatif). Vous pouvez modifier la couleur et le type de surbrillance (Fond uni, Souligné, Barré ou Contour) puis valider la création de l'annotation avec <span class="ui_button">Enregistrer</span>.
 
-![](../../resources/images/local_en/th3_anotation_pop_up.png) {.icon role="présentation"}
+ <img src="../../resources/images/local_en/th3_anotation_pop_up.png) {.icon role="présentation"}
 
 ## Panneau d'annotations {#annotations_panel}
 

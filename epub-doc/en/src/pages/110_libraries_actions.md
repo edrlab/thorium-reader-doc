@@ -18,21 +18,17 @@ Open Publication menu
 :   Publication menu is available from the three dots button at the
     bottom right of the publication card on the Home and Grid Views or
     at the last column (Action) of the Table View.
-    ![](../../resources/images/local_en/th3_library_grid_actions.png){.icon
-    role="presentation"}
-    ![](../../resources/images/local_en/th3_library_table_actions.png){.icon
-    role="presentation"} It allows to:
+    <img src="../../resources/images/local_en/th3_library_grid_actions.png" class="icon" alt="" role="presentation"/>
+    <img src="../../resources/images/local_en/th3_library_table_actions.png" class="icon" alt="" role="presentation"/> It allows to:
     -   Open the book information panel (About publication,
-        ![](../../resources/images/icons3/info-icon.svg){.icon         role="presentation"});
+        <img src="../../resources/images/icons3/info-icon.svg){.icon         role="presentation"});
     -   Mark the publication as read
-        (![](../../resources/images/icons3/doubleCheck-icon.svg){.icon         role="presentation"}) that will change the Progression status to
+        (<img src="../../resources/images/icons3/doubleCheck-icon.svg){.icon         role="presentation"}) that will change the Progression status to
         Finished;
     -   Delete the Publication
-        (![](../../resources/images/icons3/bin-icon.svg){.icon
-        role="presentation"}) that will open a confirmation pop up;
+        (<img src="../../resources/images/icons3/bin-icon.svg" class="icon" alt="" role="presentation"/>) that will open a confirmation pop up;
     -   Save the publication as
-        (![](../../resources/images/icons3/SaveAs-icon.svg){.icon
-        role="presentation"}). This last action will open a system
+        (<img src="../../resources/images/icons3/SaveAs-icon.svg" class="icon" alt="" role="presentation"/>). This last action will open a system
         window to let you choose where to export the publication.
 
 Import a Publication
@@ -53,8 +49,7 @@ Search publications (Filtering by keyword)
     start typing a search query, the ebooks displayed in the shelve will
     be limited to the ones matching your query. To use this function,
     Activate the Search Box
-    (![](../../resources/images/icons3/search-icon.svg){.icon
-    role="presentation"}) by clicking in it, moving focus or pressing
+    (<img src="../../resources/images/icons3/search-icon.svg" class="icon" alt="" role="presentation"/>) by clicking in it, moving focus or pressing
     the [Ctrl + F]{.kbd} key combination, enter the text you want to
     search. `Results` will display instantly. The search is performed
     thru the books informations including user added tags. The content
@@ -84,8 +79,7 @@ Navigate by pages of your library
     publications. If you have more ebooks than that, they will be
     available thru different pages that can be considered like Shelves
     or stacks.
-    ![](../../resources/images/local_en/th3_library_pages.png){.icon
-    role="presentation"}
+    <img src="../../resources/images/local_en/th3_library_pages.png" class="icon" alt="" role="presentation"/>
 
 ## Add tags
 

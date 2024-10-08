@@ -10,9 +10,9 @@ Lors du lancement de Thorium, si un lecteur d'écran est détecté, les fonction
 
 Notez que les lecteurs d'écran utilisent un tampon séparé pour accéder au contenu HTML, ce qui entraîne une désynchronisation du défilement visuel/décalage de la page. En d'autres termes, Thorium n'est généralement pas conscient de l'emplacement de lecture actuel de l'utilisateur dans le tampon du lecteur d'écran, à moins que l'utilisateur du lecteur d'écran ne déclenche des événements API Web standard (tels qu'un clic de souris n'importe où dans le texte ou une touche de clavier sur des éléments HTML focalisables).
 
-::: avertissement Attention !
+ avertissement Attention !
 
-Les fonctionnalités d'accessibilité adressées aux technologies d'assistance sont fortement affectées par la qualité des fichiers du livre. :::
+Les fonctionnalités d'accessibilité adressées aux technologies d'assistance sont fortement affectées par la qualité des fichiers du livre. 
 
 # Touches communes à NVDA et JAWS
 
