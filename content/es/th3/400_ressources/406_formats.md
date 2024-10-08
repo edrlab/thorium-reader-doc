@@ -12,7 +12,7 @@ toc: 'false'
 </dl>
 
 <dl>
-<dt>MARGARITA</dt>
+<dt>DAISY</dt>
 <dd>El formato DAISY, que suele producirse y distribuirse en bibliotecas especializadas u ONG, ofrece una experiencia de lectura significativamente mejorada para los libros electrónicos que no están disponibles en EPUB3. Thorium admite la lectura de DAISY 3 y 2.02, tanto en su versión de solo texto, solo audio y texto y audio sincronizados.</dd>
 </dl>
 <dl>
