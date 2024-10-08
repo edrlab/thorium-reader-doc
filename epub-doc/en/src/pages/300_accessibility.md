@@ -66,7 +66,7 @@ affected by the quality of the read files.
 -   it is possible to use all the fonts installed on the computer.
 
 -   It is possible to increase the size of an image with
-    [Shift+clic]{.kbd} on the image. Repeat several times to enlarge the
+   <kbd>Shift</kbd> + `Clic` on the image. Repeat several times to enlarge the
     image to the desired size.
 
 -   The display can be selected as paginated or scrolling.

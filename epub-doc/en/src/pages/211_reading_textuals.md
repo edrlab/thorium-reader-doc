@@ -48,10 +48,10 @@ you must know its exact name as it is set for the operating system.
 2.  In the drop-down list select `...`.
 3.  Write the word *Verdana* in the empty field that appears next to the
     drop-down list.
-4.  Confirm with [Enter]{.kbd}.
+4.  Confirm with <kbd>Enter</kbd>.
 
 ![Screenshot showing the Text settings Pannel with verdana set up as
-reading font](../../resources/images/local-fr/thorium-verdana.png){.icons}
+reading font](../../resources/images/local-fr/thorium-verdana.png)
 
 #### Example 2: Setting up Luciole as the reading font {#read_text_example_luciole}
 
@@ -62,10 +62,10 @@ reading font](../../resources/images/local-fr/thorium-verdana.png){.icons}
 3.  In the drop-down list select `...`.
 4.  Write the word *Luciole* in the empty field that appears next to the
     drop-down list.
-5.  Confirm with [Enter]{.kbd}.
+5.  Confirm with <kbd>Enter</kbd>.
 
 ![Screenshot showing the Text settings Pannel with Luciole set up as
-reading font](../../resources/images/local-fr/thorium-luciole.png){.icons}
+reading font](../../resources/images/local-fr/thorium-luciole.png)
 </div>
 
 ### Display {#read_text_display}
@@ -89,23 +89,22 @@ the digital book. `Split TTS` will split the content by sentence for
 more precise highlighting.
 
 <div class="info">
-Thorium uses the voices from the computer\'s operating system, in
+Thorium uses the voices from the computer's operating system, in
 combination with the language information provided by the book. If you
 experience problems please check the related FAQ entry \[I can\'t select
-the adequate voice for read aloud function
-(TTS)\](../../400_ressources/430_faq.xhtml#TTSvoices).
+the adequate voice for read aloud function (TTS)\]([../../400_ressources/430_faq.xhtml#TTSvoices](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/#TTSvoices)).
 </div>
 
 ### Text to Speech (TTS) {#read_text_TTS}
 
 Text-to-speech is launched using the speaker button in the middle of the
-toolbar, or by using the keyboard shortcut [Ctrl]{.kbd} + [2]{.kbd}.
+toolbar, or by using the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
 -   Play and pause can be controlled with the keyboard shortcut
-    [Ctrl]{.kbd} + [2]{.kbd}.
+    <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
--   The playback position can be moved with [Ctrl]{.kbd} + [1]{.kbd} and
-    [Ctrl]{.kbd} + [3]{.kbd} for previous and next respectively.
+-   The playback position can be moved with <kbd>Ctrl</kbd> + <kbd>1</kbd> and
+    <kbd>Ctrl</kbd> + <kbd>3</kbd> for previous and next respectively.
 
 -   A speed control is available when read aloud is selected, with a
     range from x0.5 to x2.
@@ -117,7 +116,7 @@ toolbar, or by using the keyboard shortcut [Ctrl]{.kbd} + [2]{.kbd}.
     through options available in the `Settings / Readaloud` menu.
 
 <div class="info">
-Thorium uses the voices from the computer\'s operating system, in
+Thorium uses the voices from the computer's operating system, in
 combination with the language information provided by the book. If you
 experience problems please check the related FAQ entry \[I can\'t select
 the adequate voice for read aloud function

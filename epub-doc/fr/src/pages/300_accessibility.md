@@ -38,7 +38,7 @@ Les fonctionnalités d'accessibilité natives offertes par Thorium sont fortemen
 
 - il est possible d'utiliser toutes les polices installées sur l'ordinateur.
 
-- Il est possible d'augmenter la taille d'une image avec [Maj+clic]{.kbd} sur l'image. Répétez l'opération plusieurs fois pour agrandir l'image à la taille souhaitée.
+- Il est possible d'augmenter la taille d'une image avec <kbd>Maj</kbd> + `clic` sur l'image. Répétez l'opération plusieurs fois pour agrandir l'image à la taille souhaitée.
 
 - L'affichage peut être sélectionné comme paginé ou défilant.
 

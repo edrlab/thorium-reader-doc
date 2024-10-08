@@ -50,7 +50,7 @@ Search publications (Filtering by keyword)
     be limited to the ones matching your query. To use this function,
     Activate the Search Box
     (<img src="../../resources/images/icons3/search-icon.svg" class="icon" alt="" role="presentation"/>) by clicking in it, moving focus or pressing
-    the [Ctrl + F]{.kbd} key combination, enter the text you want to
+    the <kbd>Ctrl</kbd> + <kbd>F</kbd> key combination, enter the text you want to
     search. `Results` will display instantly. The search is performed
     thru the books informations including user added tags. The content
     of the book is not included in the search. To perform a search

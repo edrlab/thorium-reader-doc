@@ -15,7 +15,7 @@ possible to open it.
     view]() and will allow you to choose a book or to add
     one but also to access to [catalogs]() and organize your
     collection. To read a book just click on it or validate with
-    [Enter]{.kbd} when selected.
+    <kbd>Enter</kbd> when selected.
 -   Select the book you want to read, use the `contextual menu` (right
     click), select `open with` and then select `Thorium`.
 -   You can set the default application for certain file types through

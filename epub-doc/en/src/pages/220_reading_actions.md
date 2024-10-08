@@ -6,7 +6,7 @@ draft: false
 
 ## Search in a book {#read_search}
 
-You can use [Ctrl]{.kbd} + [F]{.kbd} keys to access the search field.
+You can use <kbd>Ctrl</kbd> + <kbd>F</kbd> keys to access the search field.
 Enter your search term. By clicking on the `Search` button, you get
 `Back` and `Next` buttons to navigate between occurences. The number of
 matches found is a link that will open a `List of results` in the right

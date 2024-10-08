@@ -28,46 +28,45 @@ affected by the quality of the book files.
 (contribution from Prashant Verma, DAISY Consortium)
 
 For reading text, navigating in tables, navigating in the browser
-window,\
-the insertion key can be replaced by the modifier key of the screen
+window, the insertion key can be replaced by the modifier key of the screen
 reader (e.g. the Caps Lock key).
 
 ## Quick keys for navigation
 
 The screen reader must be in navigation or virtual cursor mode.
 
-  Command            description
-  ------------------ ---------------------------------------------------------------
-  Next title         [H]{.kbd}
-  Next table         [T]{.kbd}
-  Next chart         [G]{.kbd}
-  Next list          [L]{.kbd}
-  Next form field    [F]{.kbd}
-  List of elements   [Insert]{.kbd} + [F7]{.kbd} (works regardless of cursor mode)
+|Action|Command|
+|---|---|
+|Next title| <kbd>H</kbd>|
+|Next table| <kbd>T</kbd>|
+|Next chart| <kbd>G</kbd>|
+|Next list|<kbd>L</kbd>|
+|Next form field|<kbd>F</kbd>|
+|List of elements| <kbd>INSERT</kbd> + <kbd>F7</kbd> (works regardless of cursor mode)
 
-*Use the above keys with the [Shift]{.kbd} key to move to the previous
+*Use the above keys with the <kbd>Shift</kbd> key to move to the previous
 item.*
 
 ## Text
 
-  Command              description
-  -------------------- -------------------------------------
-  Previous character   [←]{.kbd}
-  Next character       [→]{.kbd}
-  Previous word        [CTRL]{.kbd} + [←]{.kbd}
-  Say Next word        [CTRL]{.kbd} + [→]{.kbd}
-  Previous line        [↑]{.kbd}
-  Next line            [↓]{.kbd}
-  Previous sentence    [ALT]{.kbd} + [↑]{.kbd} (Jaws only)
-  Next sentence        [ALT]{.kbd} + [↓]{.kbd} (Jaws only)
-  Read all             [INSERT]{.kbd} + [↓]{.kbd}
-  Announce Font        [INSERT]{.kbd} + [F]{.kbd}
+|Action|Command|
+|---|---|
+|Previous character| <kbd>←</kbd>|
+|Next character| <kbd>→</kbd>|
+|Previous word|<kbd>Ctrl</kbd> + <kbd>←</kbd>|
+|Say Next word|<kbd>Ctrl</kbd> + <kbd>→</kbd>|
+|Previous line|<kbd>↑</kbd>|
+|Next line|<kbd>↓</kbd>|
+|Previous sentence|<kbd>Alt</kbd> + <kbd>↑</kbd> (Jaws only)
+|Next sentence|<kbd>Alt</kbd> + <kbd>↓</kbd> (Jaws only)
+|Read all| <kbd>INSERT</kbd> + <kbd>↓</kbd>|
+|Announce Font|<kbd>INSERT</kbd> + <kbd>F</kbd>
 
 ## Tables
 
-  Command             description
-  ------------------- ----------------------------------------
-  Cell to the right   [ALT]{.kbd} + [CTRL]{.kbd} + [→]{.kbd}
-  Cell to the left    [ALT]{.kbd} + [CTRL]{.kbd} + [←]{.kbd}
-  Cell below          [ALT]{.kbd} + [CTRL]{.kbd} + [↓]{.kbd}
-  Cell above          [ALT]{.kbd} + [CTRL]{.kbd} + [↑]{.kbd}
+|Action|Command|
+|---|---|
+|Cell to the right| <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>→</kbd>|
+|Cell to the left|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd>|
+|Cell below|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd>|
+|Cell above|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↑</kbd>
