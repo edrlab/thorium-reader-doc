@@ -10,9 +10,8 @@ For textual contents Thorium provides visual reading and audio playback.
 
 ### Text adjustment settings {#read_text_adjust}
 
-In the reading interface use the `Preferences` button (
-<img src="../../resources/images/icons3/textarea-icon.svg){.icons}): the options
-are revealed.
+In the reading interface use the `Preferences` button 
+<img src="../../resources/images/icons3/textarea-icon.svg"/>
 
 
 Reading settings can be saved or reset by using buttons <span class="ui_button">Save</span> and <span class="ui_button">Reset</span> located in the menu
@@ -27,7 +26,7 @@ can be enlarged using the Zoom sub-menu in the Preferences panel.
 ### Theme {#read_text_adjust_theme}
 
 The color of the background and foreground can be changed using one of
-the three available themes - Neutral, Sepia and Night.
+the available themes.
 
 ### Text {#read_text_adjust_font}
 

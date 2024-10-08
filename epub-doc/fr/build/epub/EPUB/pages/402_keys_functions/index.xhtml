@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css"/>
+    <title>Fonctions des touches</title>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/page.css"/>
+  </head>
+  <body>
+    <h2>Fonctions des touches</h2>
+    <p>infos Informations</p>
+    <p>La liste de définitions suivante donne pour chaque fonction : le Nom, le Code, une définition et le raccourci clavier par défaut.</p>
+    <p>Concernant les conventions des touches du clavier, la touche [Maj]{.kbd} est représentée par une flèche vide pointant vers le haut sur certains claviers ; la touche [Ctrl]{.kbd} est remplacée par la touche [Cmd]{.kbd} sur les claviers Mac.</p>
+    <p>Créer une annotation ( 
+      <code>AnnotationsCreate</code> ). [Maj]{.kbd} + [Ctrl]{.kbd} + [Alt]{.kbd} + [A]{.kbd} : Marquez le texte sélectionné et placez le focus sur la zone de l'éditeur d'annotations.
+    </p>
+    <p>Créer une annotation rapide ( 
+      <code>AnnotationsCreateQuick</code> ). [Maj]{.kbd} + [Ctrl]{.kbd} + [Alt]{.kbd} + [Q]{.kbd} : Marquer le texte sélectionné sans autre action.
+    </p>
+    <p>Basculer l'affichage des annotations dans les marges ( 
+      <code>AnnotationsToggleMargin</code> ). [Maj]{.kbd} + [Ctrl]{.kbd} + [Alt]{.kbd} + [Z]{.kbd} : Bascule entre le texte marqué en surbrillance et un marqueur de marge moins invasif indiquant simplement qu'une annotation est présente sur la ligne.
+    </p>
+    <p>Contenu principal ( 
+      <code>FocusMain</code> ). [Ctrl]{.kbd} + [F10]{.kbd} : dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier vers le point de repère de la zone « principale » (dans la vue du lecteur, c'est juste avant le cadre qui affiche le contenu de la publication)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Barre d'outils ( 
+      <code>FocusToolbar</code> ). [Ctrl]{.kbd} + [t]{.kbd} : dans les fenêtres de lecture et de bibliothèque, déplace le focus du clavier vers la barre d'outils horizontale supérieure, immédiatement avant le lien « ignorer » (qui déplace lui-même le focus vers le point de repère de la zone « principale »)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Navigation ( 
+      <code>FocusReaderNavigation</code> ). [Ctrl]{.kbd} + [n]{.kbd} : dans la fenêtre du lecteur, déplace le focus du clavier vers le panneau de navigation (table des matières, signets, etc.)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Table des matières ( 
+      <code>FocusReaderNavigationTOC</code> ). [Maj]{.kbd} + [Ctrl]{.kbd} + [n]{.kbd} : dans la fenêtre du lecteur, déplace le focus du clavier vers le panneau de navigation, mais plus spécifiquement dans la table des matières, et si possible au niveau du titre détecté / le plus proche du lieu de lecture.
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Accéder à la page ( 
+      <code>FocusReaderGotoPage</code> ). [Maj]{.kbd} + [Ctrl]{.kbd} + [p]{.kbd} : dans la fenêtre du lecteur, déplace le focus du clavier vers la section « Accéder à la page » dans le panneau de navigation
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Paramètres du lecteur ( 
+      <code>FocusReaderSettings</code> ). [Ctrl]{.kbd} + [s]{.kbd} : dans la fenêtre du lecteur, déplace le focus du clavier vers le panneau des paramètres (préférences utilisateur pour l'affichage du contenu de la publication)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Signets ( 
+      <code>ToggleBookmark</code> ). [Ctrl]{.kbd} + [b]{.kbd} : dans la fenêtre du lecteur, basculer le signet (une notification est générée pour que les lecteurs d'écran annoncent le changement)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Plein écran ( 
+      <code>ToggleReaderFullscreen</code> ). [Ctrl]{.kbd} + [F11]{.kbd} : dans la fenêtre du lecteur, basculer en plein écran
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Panneau d'informations sur le livre ( 
+      <code>OpenReaderInfo</code> ). [Ctrl]{.kbd} + [i]{.kbd} : dans la fenêtre du lecteur, boîte de dialogue modale contextuelle d'informations sur la publication (peut être utilisée dans une future version de Thorium pour une fonctionnalité similaire dans la fenêtre de la bibliothèque)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>où suis-je ( 
+      <code>OpenReaderInfoWhereAmI</code> ). [Maj]{.kbd} + [Ctrl]{.kbd} + [i]{.kbd} : dans la fenêtre du lecteur, boîte de dialogue modale contextuelle d'informations sur la publication avec focus clavier direct sur la section qui affiche la hiérarchie des titres et d'autres informations contextuelles pour l'emplacement de lecture actuel, telles que le saut de page précédent le plus proche, ainsi que l'index du document dans l'ordre de lecture (c'est la fonction « où suis-je »).
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>où suis-je (notification rapide prise en charge par les lecteurs d'écran) ( 
+      <code>SpeakReaderInfoWhereAmI</code> ). [Maj]{.kbd} + [Ctrl]{.kbd} + [k]{.kbd}) : dans la fenêtre du lecteur, il s'agit de la fonctionnalité &quot;où suis-je&quot;, comme ci-dessus, mais uniquement parlée via le lecteur d'écran TTS grâce à une région en direct ARIA avec un discours assertif qui interrompt la narration en cours.
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Fermer le livre ( 
+      <code>CloseReader</code> ). [Ctrl]{.kbd} + [w]{.kbd} : dans la fenêtre du lecteur, ferme la fenêtre et revient à la vue bibliothèque.
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Rechercher un livre ( 
+      <code>FocusSearch</code> ). [Ctrl]{.kbd} + [f]{.kbd} : dans la fenêtre de la bibliothèque, déplace le focus du clavier vers la saisie de texte de recherche de la bibliothèque locale ou du flux OPDS
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>recherche dans un livre ( 
+      <code>FocusSearch</code> ). [Ctrl]{.kbd} + [f]{.kbd} : dans la fenêtre du lecteur, déplace le focus du clavier vers la saisie de texte de recherche à l'échelle de la publication
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>résultat de recherche précédent ou suivant ( 
+      <code>SearchPrevious</code> , 
+      <code>SearchNext</code> )). [Maj]{.kbd} (facultatif) + [F3]{.kbd} : dans la fenêtre du lecteur, lorsque la saisie de texte de recherche à l'échelle de la publication est ouverte, trouve la correspondance précédente / suivante
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>résultat de recherche précédent ou suivant ( 
+      <code>SearchPreviousAlt</code> , 
+      <code>SearchNextAlt</code> ). [Shift]{.kbd} (facultatif) + [Ctrl]{.kbd} + [G]{.kbd} / : idem que ci-dessus (raccourci clavier alternatif)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Page OPDS suivante ( 
+      <code>NavigatePreviousOPDSPage</code> , 
+      <code>NavigateNextOPDSPage</code> ). [Ctrl]{.kbd} + [flèche gauche]{.kbd} ou [flèche droite]{.kbd} / : dans la fenêtre de la bibliothèque pour les flux OPDS, active les liens de pagination précédents ou suivants
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Page OPDS suivante ( 
+      <code>NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt</code> ). [Ctrl]{.kbd} + [virgule]{.kbd} ou [point]{.kbd} : idem que ci-dessus (raccourci clavier alternatif)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>[Ctrl]{.kbd} + [Maj]{.kbd} + [ALT]{.kbd} (sauf sur MacOS) + [flèche gauche]{.kbd} ou [flèche droite]{.kbd} : Chapitre précédent ou suivant ( 
+      <code>NavigatePreviousChapter</code> / 
+      <code>NavigateNextChapter</code> ) : dans la fenêtre de lecture, se déplacer vers le « chapitre » précédent ou suivant (élément de colonne vertébrale dans l'ordre de lecture de la publication). Notez que le focus du clavier est automatiquement déplacé vers le point de repère de la zone « principale », qui se trouve immédiatement avant le cadre qui affiche le contenu de la publication (tout comme lors du suivi / de l'activation d'un lien dans la table des matières).
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Chapitre précédent ou suivant ( 
+      <code>NavigatePreviousChapterAlt</code>
+      <code>NavigateNextChapterAlt</code> ). [Ctrl]{.kbd} + [page suivante]{.kbd} ou [page précédente]{.kbd} : idem que ci-dessus (raccourci clavier alternatif)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Page précédente ou suivante ( 
+      <code>NavigatePreviousPage</code> ). [flèche gauche]{.kbd} ou [flèche droite]{.kbd} / 
+      <code>NavigateNextPage</code> : dans la fenêtre du lecteur, passer à la « page » précédente ou suivante (ou à l'unité de défilement, si la pagination est désactivée)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Page précédente ou suivante ( 
+      <code>NavigatePreviousPageAlt</code> ). [Ctrl]{.kbd} + [virgule]{.kbd} ou [point]{.kbd} / 
+      <code>NavigateNextPageAlt</code> ) : raccourci clavier alternatif pour la page précédente suivante. Dans la fenêtre du lecteur, passer à la « page » précédente ou suivante (ou à l'unité de défilement, si la pagination est désactivée)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Début ou fin de la publication ( 
+      <code>NavigateToBegin</code> , 
+      <code>NavigateToEnd</code> ). [Ctrl]{.kbd} + [Home]{.kbd} ou [End]{.kbd} / : dans la fenêtre de lecture, va au début ou à la fin de la publication
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>modificateur pour l'opération inverse : Historique précédent et Historique suivant( 
+      <code>NavigatePreviousHistory</code> / 
+      <code>NavigateNextHistory</code> ) : [Ctrl]{.kbd} + [backspace]{.kbd} avec [shift]{.kbd} : dans la fenêtre du lecteur, revenir en arrière ou en avant dans l'historique de navigation : Début ou Fin de la publication
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Audio précédent ( 
+      <code>AudioPrevious</code> ). [Ctrl]{.kbd} + [1]{.kbd} : dans la fenêtre du lecteur, appelle la commande « précédent » pour l'audio (TTS ou EPUB3 Media Overlays lus à haute voix, ou « rewind » pour les livres audio)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Lire ou mettre en pause l'audio ( 
+      <code>AudioPlayPause</code> ). [Ctrl]{.kbd} + [2]{.kbd} : dans la fenêtre du lecteur, appelle les commandes de basculement « lecture » ou « pause » pour l'audio (TTS ou EPUB3 Media Overlays readaloud)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Audio suivant ( 
+      <code>AudioNext</code> ). [Ctrl]{.kbd} + [3]{.kbd} : dans la fenêtre du lecteur, appelle la commande « suivant » pour l'audio (TTS ou EPUB3 Media Overlays lus à voix haute, ou « avancer » pour les livres audio)
+    </p>
+    <pre>
+      <code>&lt;!-- --&gt;
+</code>
+    </pre>
+    <p>Arrêter l'audio ( 
+      <code>AudioStop</code> ). [Ctrl]{.kbd} + [4]{.kbd} : dans la fenêtre du lecteur, appelle la commande « stop » pour l'audio (TTS ou EPUB3 Media Overlays lus à haute voix, ou « pause » pour les livres audio)
+    </p>
+  </body>
+</html>

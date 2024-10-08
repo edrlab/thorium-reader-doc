@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css"/>
+    <title>Fenêtres, vues et panneaux</title>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/page.css"/>
+  </head>
+  <body>
+    <h1 id="windows_and_views">Fenêtres, vues et panneaux</h1>
+    <p>Le lecteur Thorium possède une fenêtre principale et une fenêtre supplémentaire par livre ouvert. La fenêtre principale est toujours ouverte et propose 4 vues (Accueil, Tous les livres, Catalogues et Paramètres généraux) tandis que les vues des fenêtres des livres dépendent du format du livre (textuel, audio, visuel). Chaque format permettra une sélection de panneaux d'action qui peuvent être ancrés sur un côté de la vue.</p>
+    <h2 id="main_window">Fenêtre principale</h2>
+    <p>La fenêtre principale vous permet d'accéder à vos collections et de les organiser, ainsi que de définir les paramètres qui s'appliquent à l'ensemble de l'application. La fermeture de la fenêtre principale ferme l'application et toutes les fenêtres de lecture ouvertes.</p>
+    <h3 id="home_view">Vue d'accueil</h3>
+    <p>Cette vue permet un accès rapide. Vous y trouverez les livres que vous avez lus récemment et ceux que vous avez ajoutés récemment. Les actions possibles sont Importer une publication, Ouvrir une publication et Ouvrir le menu Publication.  
+      <img src="../../resources/images/local_en/th3_main_window_home.png" alt=""  class="icon" role="presentation" />
+    </p>
+    <h3 id="all_publications_view">Toutes les publications Voir</h3>
+    <p>C'est l'endroit où se trouvent toutes vos publications. Avec le temps, il peut devenir rempli de centaines de livres et vous aurez donc besoin d'options pour trier et rechercher. De ce fait, cette vue est plus complexe. Les premiers boutons de cette page permettent de sélectionner entre deux modes d'affichage, Grille et Tableau qui affecteront l'affichage de la liste des livres électroniques et offriront différentes options pour trier et filtrer, elles sont détaillées deux paragraphes ci-dessous.</p>
+    <p>Les actions disponibles au niveau de la vue sont d'importer une publication, de rechercher, de filtrer par balise et de naviguer par pages de votre bibliothèque. Les pages de la bibliothèque sont comme des étagères ou des piles, car la vue Toutes les publications est limitée à 50 publications pour qu'elle reste utilisable.</p>
+    <h4 id="grid_mode">Mode grille</h4>
+    <p>Le mode Grille présente les livres sous forme de cartes, la tabulation au clavier vous permettra de passer d'un livre à l'autre. Ce mode offre les actions possibles pour Ouvrir une publication et pour Ouvrir le menu Publication.</p>
+    <h4 id="table_mode">Mode tableau</h4>
+    <p>Le mode Tableau présente un livre par ligne et permet de visualiser un grand nombre d'informations habituellement disponibles uniquement dans le panneau d'informations du livre. La tabulation au clavier vous guidera à travers tous ces détails.</p>
+    <h3 id="catalog_view">Catalogues Voir</h3>
+    <p>C'est ici que vous pouvez stocker, accéder, parcourir les catalogues en ligne et acquérir ou emprunter des livres électroniques. Au début, cet endroit semblera vide car nous ne préchargeons aucun catalogue. La section 
+      <em>d'assistance supplémentaire en ligne 
+        <a href="https://thorium.edrlab.org/th3/get_ebooks/">Où obtenir des livres électroniques ?</a>
+      </em> peut vous aider à identifier les catalogues disponibles si vous n'en avez pas déjà un en tête.
+    </p>
+    <p>Deux protocoles catalogues sont disponibles.</p>
+    <ol>
+      <li>
+        <a href="https://opds.io/">OPDS</a> , un format standard pour afficher un catalogue sur le Web. Thorium peut fournir un accès aux catalogues OPDS 1 et 2.
+      </li>
+      <li>Catalogue lisible par machine des bibliothèques publiques françaises (similaire à OPDS mais pas identique).</li>
+    </ol>
+    <p>Les détails et la manière de configurer et d'utiliser les catalogues sont disponibles dans la 
+      <a href="">section Actions des catalogues</a> .
+    </p>
+    <h3 id="setting_view">Panneau de configuration de l'application</h3>
+    <p>Les paramètres de l'application sont divisés en trois onglets :</p>
+    <ol>
+      <li>L'onglet Général permet de sélectionner la langue de l'interface et de sauvegarder la session (ce qui signifie que l'application se souviendra des fenêtres ouvertes à la fermeture et les rouvrira au prochain lancement). Le bouton 
+        <span class="ui_button">effacer les données de connexion</span> permet de supprimer toute authentification Catalogue précédemment mémorisée (utile si vous lisez sur un ordinateur public ou partagé ou si vous souhaitez changer le compte avec lequel vous êtes connecté).
+      </li>
+      <li>L'onglet Apparence vous permet de choisir le thème de l'application (sombre, clair ou automatique pour s'adapter aux préférences du système).</li>
+      <li>L'onglet Raccourcis clavier vous aide à vérifier et à manipuler les actions pilotées par le clavier dans l'application. Découvrez le menu à trois points à côté du titre du panneau avec des actions supplémentaires (Réinitialiser, Modifier et Charger). L'onglet Modifier ouvre le dossier système de l'application à l'emplacement du fichier .json de paramètres utilisateur stocké, vous permettant de le modifier en dehors de l'application (à vos propres risques), de l'enregistrer pour une utilisation ultérieure ou de le partager sur vos appareils ou avec qui vous voulez.  
+        <img src="../../resources/images/local_en/th3_main_settings_keys_context.png" alt=""  class="icon" role="presentation" />
+      </li>
+    </ol>
+    <h2 id="reading_window">Fenêtre de lecture</h2>
+    <p>Lorsqu'un livre est ouvert, il s'affiche dans une nouvelle fenêtre, ce qui signifie que vous pouvez avoir plusieurs livres ouverts en même temps, chacun dans une fenêtre indépendante que vous pouvez organiser à votre guise.</p>
+    <h3 id="reading_nav_panel">Lecture du panneau de navigation</h3>
+    <h3 id="reading_settings_panel">Panneau de paramètres de lecture</h3>
+  </body>
+</html>
