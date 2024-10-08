@@ -12,7 +12,7 @@ toc: false
 </dl>
 
 <dl>
-<dt>MARGUERITE</dt>
+<dt>DAISY</dt>
 <dd>Généralement produit et distribué par des bibliothèques spécialisées ou des ONG, le format DAISY offre une expérience de lecture considérablement améliorée pour les livres électroniques qui ne sont pas disponibles en EPUB3. Thorium prend en charge la lecture des formats DAISY 3 et 2.02, à la fois en texte seul, en audio seul et en texte et audio synchronisés.</dd>
 </dl>
 <dl>
