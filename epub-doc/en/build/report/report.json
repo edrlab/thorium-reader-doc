@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "08/10/2024, 13:48:30",
+  "dct:date": "08/10/2024, 19:44:50",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -99,17 +99,24 @@
         "location": "./pages/120_book_information_panel/index.xhtml#epubcfi(/4/8/14/2)"
       },
       {
+        "src": "EPUB/resources/images/icons3/textarea-icon.svg",
+        "alt": null,
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/textarea-icon.svg\" />",
+        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/8/4)"
+      },
+      {
         "src": "EPUB/resources/images/local-fr/thorium-verdana.png",
         "alt": "Screenshot showing the Text settings Pannel with verdana set up as reading font",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-fr/thorium-verdana.png\" alt=\"Screenshot showing the Text settings Pannel with verdana set up as reading font\" class=\"icons\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-fr/thorium-verdana.png\" alt=\"Screenshot showing the Text settings Pannel with verdana set up as reading font\" />",
         "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/24/6/2)"
       },
       {
         "src": "EPUB/resources/images/local-fr/thorium-luciole.png",
         "alt": "Screenshot showing the Text settings Pannel with Luciole set up as reading font",
         "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-fr/thorium-luciole.png\" alt=\"Screenshot showing the Text settings Pannel with Luciole set up as reading font\" class=\"icons\" />",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-fr/thorium-luciole.png\" alt=\"Screenshot showing the Text settings Pannel with Luciole set up as reading font\" />",
         "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/24/12/2)"
       },
       {
@@ -297,9 +304,45 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "pass"
+        "earl:outcome": "fail"
       },
-      "assertions": [],
+      "assertions": [
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+            "earl:pointer": {
+              "cfi": [
+                "/4/8/4"
+              ],
+              "css": [
+                "p:nth-child(4) > img"
+              ]
+            },
+            "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/textarea-icon.svg\" />"
+          },
+          "earl:assertedBy": "aXe",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "critical",
+            "dct:title": "image-alt",
+            "dct:description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/html/images.html",
+              "dct:title": "Images",
+              "dct:description": "Images must have alternate text"
+            },
+            "rulesetTags": [
+              "cat.text-alternatives",
+              "wcag2a",
+              "wcag111",
+              "section508",
+              "section508.22.a"
+            ]
+          }
+        }
+      ],
       "earl:testSubject": {
         "url": "./pages/211_reading_textuals/index.xhtml",
         "dct:title": "Reading textual contents"
@@ -461,6 +504,6 @@
     }
   ],
   "earl:result": {
-    "earl:outcome": "pass"
+    "earl:outcome": "fail"
   }
 }
