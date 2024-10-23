@@ -13,7 +13,7 @@ Si l'image est également un lien ou si le livre que vous lisez est dans un form
 
 Pour effectuer un zoom avant ou arrière, cliquez sur les boutons `+` ou `-` et appuyez sur <kbd>enter</kbd>, utilisez la molette de la souris, le défilement haut et bas ou les gestes de pincement et d'étirement sur le pavé ou l'écran tactile.
 
-Une fois l'image zoomée, vous pouvez vous déplacer verticalement et horizontalement avec <kbd>&larr;</kbd>, <kbd>&rarr;</kbd>, <kbd>&uarr;</kbd> et <kbd>&darr;</kbd>, en déplaçant la souris tout en maintenant le bouton principal enfoncé, ou faites glisser votre doigt sur le pavé ou l'écran tactile.
+Une fois l'image zoomée, vous pouvez vous déplacer verticalement et horizontalement avec <kbd>&larr;</kbd>, <kbd>&rarr;</kbd>, <kbd>&uarr;</kbd> et <kbd>&darr;</kbd>, en déplaçant la souris tout en maintenant le clic, ou faites glisser votre doigt sur le pavé ou l'écran tactile.
 
 Pour fermer la vue "zoom image" et revenir à la vue de lecture, appuyez sur la touche <kbd>ESC</kbd> ou sur le bouton `X`.
 
