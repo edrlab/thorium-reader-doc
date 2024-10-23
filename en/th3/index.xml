@@ -607,12 +607,19 @@ The Marrakech Treaty
 &lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Frequently asked questions</title><link>https://thorium.edrlab.org/en/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/430_faq/</guid><description>
 &lt;dl>
+&lt;dt id="manually_manage_files">Why can't I open an ebook without it being save in the Thorium Reader library?
+&lt;/dt>
+&lt;dd>
+&lt;p>Thorium, like several other ebook readers and reading systems stores imported publications in its own filesystem space, as this provides a guarantee that per-publication state and external metadata (e.g. bookmarks, settings, annotations, DRM status, etc.) can be reliably attached.&lt;/p>
+&lt;p>If you need to open files without using advanced reading features, and want to keep a manual maintenance of ebook files, you can consider using an alternative. A possibility is the Readium2 “test app”, a basic reader-only app (i.e. no library / bookshelf) which provides rudimentary support for ebook features (bookmarks, highlights), with a crude user interface designed for testing the SDK. You may give it a try using the automated builds from &lt;a href="
+https://github.com/readium/r2-testapp-js"> Readium2 “test app”GitHub’s releases page&lt;/a>&lt;/p>
+&lt;p>Adding a "one shot reading" feature is not on our road map. Neither is the maintenance of a public stable web reader.
+&lt;/p>
+&lt;/dd>
 &lt;dt id="PDFsupport">Why is there no read aloud nor annotations for PDFs?
 &lt;/dt>
 &lt;dd>EDRLab considers that EPUB 3 is a far better ebook format than PDF, and therefore prioritises its work on offering a great experience to EPUB users. In Thorium Reader, advanced features like TTS and annotations are consequently available for EPUB first, and we expect that other app developers will get the best from PDF files. It does not mean that advanced features will never be available on PDF in Thorium, simply that our limited budget is used for what we consider best for ebook readers.
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
 &lt;dt id="TTSvoices">I can't select the adequate voice for read aloud function (TTS)&lt;/dt>
 &lt;dd>Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book.
 &lt;ul>
@@ -620,10 +627,8 @@ The Marrakech Treaty
 &lt;li>If you are using Mac OSX the guide &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Change the voice that the Mac uses to pronounce text&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;p>Once the required voice is installed, Thorium will choose the voice corresponding to the language of the book.&lt;/p>
-&lt;p>It may happen that the book has the wrong language. In this case, Thorium allows you to change the voice to one that is present in the system via the Voice menu
-&lt;/dd>&lt;/p>
-&lt;/dl>
-&lt;dl>
+&lt;p>It may happen that the book has the wrong language. In this case, Thorium allows you to change the voice to one that is present in the system via the Voice menu&lt;/p>
+&lt;/dd>
 &lt;dt id="localStorage">How can I transfer the entire book collection from one machine to another?&lt;/dt>
 &lt;dd>
 Having a UI for exporting the whole catalog is not a priority currently.
