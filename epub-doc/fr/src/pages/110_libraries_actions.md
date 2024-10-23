@@ -18,17 +18,16 @@ Filtrer par tag (mode Grille) : En complément du filtre de recherche, il est po
 
 Trier par et Filtrer par (mode Tableau) : La vue Tableau permet de trier et de filtrer en détail par chaque en-tête de colonne (Titre, Auteur, Progression, jours restants pour les prêts, principales langues de publication, Balises, Format, Date de dernière lecture, Nom de l'éditeur, Date de publication, Protection DRM, Durée pour les livres audio, Description et Conformité à l'accessibilité). Pour que les filtres fonctionnent, les informations doivent être présentes dans les métadonnées de la publication.
 
-Naviguez par pages de votre bibliothèque : Pour des raisons de performances, la vue Toutes les publications est limitée à 50 publications. Si vous avez plus d'ebooks que cela, ils seront disponibles via différentes pages qui peuvent être considérées comme des étagères ou des piles. <img src="../../resources/images/local_en/th3_library_pages.png) {.icon role="présentation"}
+Naviguez par pages de votre bibliothèque : Pour des raisons de performances, la vue Toutes les publications est limitée à 50 publications. Si vous avez plus d'ebooks que cela, ils seront disponibles via différentes pages qui peuvent être considérées comme des étagères ou des piles. <img src="../../resources/images/local_en/th3_library_pages.png"class="icon" role="présentation"/>
 
-: ## Ajouter des balises
+## Ajouter des balises
 
-```
 You can enrich the information of the books in your library by
-adding `Tags` to them. \`Tags\' allow you to quickly search and sort
+adding `Tags` to them. `Tags` allow you to quickly search and sort
 books in list view. Putting it into practice. Open the book form,
 position yourself in the field *Add a tag*, write the name of the
-tag you want to add then press the `Add` button. The tag is added in
+tag you want to add then press the <span class="ui_button">Add</span> button. The tag is added in
 a blue box, you can remove it by clicking on the cross.
-```
+
 
 
