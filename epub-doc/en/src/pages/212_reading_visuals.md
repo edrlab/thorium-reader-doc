@@ -25,7 +25,7 @@ onscreen touch gestures.
 
 Once the image is zoomed you can move vertically and horizontally with
 <kbd>Left arrow</kbd>, <kbd>Right arrow</kbd>, <kbd>Left arrow</kbd> and <kbd>Right arrow</kbd>, 
-by moving mouse while maintaining clic, with usual
+by holding down the mouse button and moving the mouse, with usual
 trackpad gestures or with finger moves on tactile screens.
 
 To close the image zoom view and to return to the reading view, press
