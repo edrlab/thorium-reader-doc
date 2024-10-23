@@ -1,0 +1,10 @@
+body{
+  font-family: 'Trueno', Helvetica, Arial, sans-serif;
+  margin: 5rem;
+}
+
+#toc {
+  list-style-type: none;
+  line-height: 2rem;
+}
+
