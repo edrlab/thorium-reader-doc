@@ -1,6 +1,6 @@
 ---
-title: Stuck
-role:
+title: Stuck?
+role: chapter
 draft: false
 ---
 

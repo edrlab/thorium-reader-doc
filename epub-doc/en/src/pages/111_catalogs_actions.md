@@ -1,19 +1,19 @@
 ---
 title: Catalogs actions
-role:
+role: chapter
 draft: false
 ---
 
 
-::: section
+
 # Catalogs actions {#Catalogs_actions}
 
 ## Setting up an OPDS catalog
 
-Select the [Catalogs]{.ui_button} tab then the button [Add an OPDS
-feed]{.ui_button}. Indicate a Name to designate this catalog and paste
+Select the <span class="ui_button">Catalogs</span> tab then the button <span class="ui_button">Add an OPDS
+feed</span>. Indicate a Name to designate this catalog and paste
 an address corresponding to a catalog distributed in OPDS format.
-Validate with the button [Add]{.ui_button}.
+Validate with the button <span class="ui_button">Add</span>.
 
 Example :
 
@@ -34,7 +34,7 @@ or retrieve feed URL.
 
 ![image](../../resources/images/local-fr/thorium-opds-add.png)
 
-##### Example of OPDS feeds with LCP protected contents
+### Example of OPDS feeds with LCP protected contents
 
 Feeds with protected contents should allow you to login directly from
 Thorium catalog page, the button or access to login might be different
@@ -60,7 +60,7 @@ under LCP protection. You can add it to Thorium with the following
 address: [Add EDRLab OPDS public
 feed](https://edrlab.org/public/feed/opds-lcp.json)
 
-##### OPDS Feed responsibility
+### OPDS Feed responsibility
 
 OPDS feeds and the access they provide to content are under
 responsibility of the feed publisher. So are the information given by
@@ -82,4 +82,3 @@ catalogs, select this library: an authentication form is displayed.
 Enter your username/email address and password, and hit Login. You can
 now see the content of your personal bookshelf, from which you can
 download and read the ebooks and audiobooks you previously borrowed.
-:::
