@@ -16,7 +16,7 @@ Si l'image est également un lien ou si le livre que vous lisez est dans un form
 
 Pour zoomer ou dézoomer, appuyez sur les boutons `+` ou `-` et appuyez sur <kbd>Entrée</kbd>, utilisez la molette de la souris, faites défiler vers le haut et vers le bas ou pincez et étirez le trackpad ou les gestes tactiles à l'écran.
 
-Une fois l'image zoomée, vous pouvez vous déplacer verticalement et horizontalement avec <kbd>←</kbd>, <kbd>→</kbd>, <kbd>←</kbd> et <kbd>→</kbd>, en déplaçant la souris tout en maintenant le clic, avec les gestes habituels du trackpad ou avec les mouvements des doigts sur les écrans tactiles.
+Une fois l'image zoomée, vous pouvez vous déplacer verticalement et horizontalement avec <kbd>←</kbd>, <kbd>→</kbd>, <kbd>←</kbd> et <kbd>→</kbd>, en déplaçant la souris tout en maintenant le bouton principal enfoncé, avec les gestes habituels du trackpad ou avec les mouvements des doigts sur les écrans tactiles.
 
 Pour fermer la vue zoom de l'image et revenir à la vue de lecture, appuyez sur la touche <kbd>ESC</kbd> ou sur le bouton X.
 
