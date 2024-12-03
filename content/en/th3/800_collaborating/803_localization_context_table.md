@@ -8,7 +8,7 @@ toc: false
 
 | key| english| context | screenshot| 
 | --- | --- | --- | --- |
-| accessibility.bookMenu| Menu	| in the Bookshelf, each book has a three dots button to access book menu | ![alt text](/images/localisation_context/image.png)| 
+| accessibility.bookMenu| Menu	| In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items | ![alt text](/images/localisation_context/image.png)| 
 | accessibility.closeDialog| Close	| | | 
 | accessibility.importFile| Import publication	| | | 
 | accessibility.leftSlideButton| Slide to the left	| | | 
@@ -18,7 +18,7 @@ toc: false
 | accessibility.toolbar| toolbar	| | | 
 | apiapp.documentation| Thorium Documentation	| | | 
 | apiapp.howItWorks| How does it work?	| | | 
-| apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading.| How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	| | | 
+| apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	| | | 
 | apiapp.noLibraryFound| No library found ({{- name}})	| | | 
 | app.edit.copy| Copy	| | | 
 | app.edit.cut| Cut	| | | 
