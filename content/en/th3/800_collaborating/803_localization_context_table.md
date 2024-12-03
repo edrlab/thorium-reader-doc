@@ -1,12 +1,14 @@
 ---
 title: Localisation context table
 type: docs
-draft: true
+draft: false
+weight: 803
+toc: false
 ---
 
 | key| english| context | screenshot| 
 | --- | --- | --- | --- |
-| accessibility.bookMenu| Menu	| in the Bookshelf, each book has a three dots button to access book menu | ![alt text](image.png)| 
+| accessibility.bookMenu| Menu	| in the Bookshelf, each book has a three dots button to access book menu | ![alt text](/images/localisation_context/image.png)| 
 | accessibility.closeDialog| Close	| | | 
 | accessibility.importFile| Import publication	| | | 
 | accessibility.leftSlideButton| Slide to the left	| | | 
@@ -44,7 +46,7 @@ draft: true
 | catalog.column.descending| descending	| | | 
 | catalog.column.unsorted| unsorted	| | | 
 | catalog.delete| Delete	| | | 
-| catalog.deleteBook| Delete	| | | 
+| catalog.deleteBook| Delete	| Third element of the book menu| ![alt text](image-3.png)| 
 | catalog.deleteTag| Delete tag	| | | 
 | catalog.description| Description	| | | 
 | catalog.emptyTagList| No tagged publications.	| | | 
@@ -53,10 +55,10 @@ draft: true
 | catalog.entry.continueReadingDivina| Resume divina	| | | 
 | catalog.entry.continueReadingPdf| Resume PDF	| | | 
 | catalog.entry.lastAdditions| Recently added	| | | 
-| catalog.export| Save as	| | | 
+| catalog.export| Save as	| Fourth element of the book menu, will open <a href="../804_localisation_glossary/#osfilemanager">OS file manager window</a> to select a place to save (export) the title| ![alt text](image-4.png)| 
 | catalog.exportAnnotation| Save annotation as	| | |
 |  catalog.format| Format	| | | 
-| catalog.importAnnotation| Import annotation	| | |
+| catalog.importAnnotation| Import annotation	| will open OS context window to select a file to import. The file must be .annotation format.|![alt text](image-5.png) |
 |  catalog.lang| Language	| | | 
 | catalog.lastRead| Last Read	| | | 
 | catalog.moreInfo| Publication Details	| | | 
@@ -224,7 +226,7 @@ draft: true
 | publication.licenseSignatureDateInvalid| Invalid LCP license signature date.	| | | 
 | publication.licenseSignatureInvalid| Invalid LCP license signature.	| | | 
 | publication.licensed| Licensed	| | | 
-| publication.markAsRead| Mark as read	| | | 
+| publication.markAsRead| Mark as read	| | ![alt text](image-2.png)| 
 | publication.notStarted| Not Started	| | | 
 | publication.onGoing| In Progress	| | | 
 | publication.progression.title| Progression	| | | 
