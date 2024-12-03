@@ -1,6 +1,6 @@
 ---
 title: Localisation context table
- type: docs
+type: docs
 draft: true
 ---
 
