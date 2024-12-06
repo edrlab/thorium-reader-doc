@@ -36,7 +36,7 @@ toc: false
 | app.update.message| New version available, click to learn more.	| | | 
 | app.update.title| {{- appName}} software update.	| | | 
 | app.window.showLibrary| Show library / bookshelf	| | | 
-| catalog.about.title| About {{- appName}}	| | | 
+| catalog.about.title| About {{- appName}}	| Refers to the footer of the application, it is the "About Thorium" link leading to the about file|![alt text](image.png) | 
 | catalog.addBookToLib| Import	| | | 
 | catalog.addTags| Add tag	| | | 
 | catalog.addTagsButton| Add	| | | 
