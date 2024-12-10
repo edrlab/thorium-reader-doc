@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy of this web page"
+title: "Privacy Policy of Thorium Reader"
 description: ""
 draft: false
 images: [logo.png]
