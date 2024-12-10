@@ -11,13 +11,13 @@ toc: false
 | accessibility.bookMenu| Menu	| In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items | ![screenshot](/images/localisation_context/locale_Context_Table-0.png)| 
 | accessibility.closeDialog| Close	| | | 
 | accessibility.importFile| Import publication	| | ![screenshot](/images/localisation_context/locale_Context_Table-1.png)| 
-| accessibility.leftSlideButton| Slide to the left	| | | 
+| accessibility.leftSlideButton| Slide to the left	| | ![alt text](image-35.png)| 
 | accessibility.mainContent| main content	| | | 
-| accessibility.rightSlideButton| Slide to the right	| | | 
+| accessibility.rightSlideButton| Slide to the right	|Button used in several places to display  | ![alt text](image-34.png)| 
 | accessibility.skipLink| Skip to content	| | | 
 | accessibility.toolbar| toolbar	| | | 
 | apiapp.documentation| Thorium Documentation	| | ![screenshot](/images/localisation_context/locale_Context_Table-6.png)| 
-| apiapp.howItWorks| How does it work?	| A plegable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel| ![screenshot](/images/localisation_context/locale_Context_Table-8.png)| 
+| apiapp.howItWorks| How does it work?	| A pliable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel| ![screenshot](/images/localisation_context/locale_Context_Table-8.png)| 
 | apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	| | ![screenshot](/images/localisation_context/locale_Context_Table-7.png)| 
 | apiapp.noLibraryFound| No library found ({{- name}})	| | | 
 | app.edit.copy| Copy	| | | 
@@ -31,7 +31,7 @@ toc: false
 | app.quit| Quit {{- appName}}	| | | 
 | app.session.exit.askBox.button.no| No	| | | 
 | app.session.exit.askBox.button.yes| Yes	| | | 
-| app.session.exit.askBox.message| Do you want to save the session?	| | | 
+| app.session.exit.askBox.message| Do you want to save the session?	| Setting window, General tab. Message before the Save Session Check box. Saving session will cause thorium to reopen all windows that were opened when thorium was closed | | 
 | app.session.exit.askBox.title| Save session	| | | 
 | app.update.message| New version available, click to learn more.	| | | 
 | app.update.title| {{- appName}} software update.	| | | 
@@ -50,11 +50,11 @@ toc: false
 | catalog.deleteTag| Delete tag	| | | 
 | catalog.description| Description	| | | 
 | catalog.emptyTagList| No tagged publications.	| | | 
-| catalog.entry.continueReading| Resume reading	| | | 
-| catalog.entry.continueReadingAudioBooks| Resume listening	| | | 
-| catalog.entry.continueReadingDivina| Resume divina	| | | 
-| catalog.entry.continueReadingPdf| Resume PDF	| | | 
-| catalog.entry.lastAdditions| Recently added	| | | 
+| catalog.entry.continueReading| Resume reading	| Library window, Home tab, First title. Under this title, the last opened books are listed. | ![alt text](image-32.png)| 
+| catalog.entry.continueReadingAudioBooks| Resume listening	| Not used in Thorium 3| | 
+| catalog.entry.continueReadingDivina| Resume divina	| Not used in Thorium 3| | 
+| catalog.entry.continueReadingPdf| Resume PDF	| Not used in Thorium 3| | 
+| catalog.entry.lastAdditions| Recently added	|Library window, Home tab, Second title. Under this title, the last added books are listed.  | ![alt text](image-33.png)| 
 | catalog.export| Save as	| Fourth element of the book menu, will open <a href="../804_localisation_glossary/#osfilemanager">OS file manager window</a> to select a place to save (export) the title| ![screenshot](/images/localisation_context/locale_Context_Table-4.png)| 
 | catalog.exportAnnotation| Save annotation as	| | ![screenshot](/images/localisation_context/locale_Context_Table-14.png)|
 |  catalog.format| Format	| | | 
@@ -102,7 +102,7 @@ toc: false
 |  dialog.annotations.importAll| Import all notes	| | |
 |  dialog.annotations.importWithoutConflict| Import notes without conflict	| | |
 |  dialog.annotations.title| Do you want to import these notes ?	| | ![screenshot](/images/localisation_context/locale_Context_Table-24.png)|
-|  dialog.cancel| Cancel	| | | 
+|  dialog.cancel| Cancel	|Cancel button used in several contexts | ![alt text](image-31.png)| 
 | dialog.deleteAnnotations| Delete annotations?	| | ![screenshot](/images/localisation_context/locale_Context_Table-22.png)|
 |  dialog.deleteAnnotationsText| Do you want to delete {{- annotationListLength}} annotation(s)?	| | ![screenshot](/images/localisation_context/locale_Context_Table-23.png)| 
 | dialog.deleteFeed| Delete catalog?	| | | 
@@ -130,14 +130,14 @@ toc: false
 | header.searchTitle| Search	| | | 
 | header.settings| Settings	| | | 
 | header.viewMode| View mode	| | | 
-| library.lcp.hint| Hint:	| | | 
-| library.lcp.open| Open	| | | 
-| library.lcp.password| Passphrase	| | | 
-| library.lcp.sentence| This publication needs an LCP passphrase to be opened	| | | 
-| library.lcp.urlHint| Forgot your passphrase? Click here to get support.	| | | 
-| library.lcp.whatIsLcp?| What is LCP?	| | | 
-| library.lcp.whatIsLcpInfoDetails| LCP stands for 'Licensed Content Protection'.	| | | 
-| library.lcp.whatIsLcpInfoDetailsLink| To learn more, click this link to the EDRLab website.	| | | 
+| library.lcp.hint| Hint:	| |![alt text](image-29.png) | 
+| library.lcp.open| Open	| |![alt text](image-23.png) | 
+| library.lcp.password| Passphrase	| |![alt text](image-26.png) | 
+| library.lcp.sentence| This publication needs an LCP passphrase to be opened	| |![alt text](image-23.png) | 
+| library.lcp.urlHint| Forgot your passphrase? Click here to get support.	| |![alt text](image-24.png) | 
+| library.lcp.whatIsLcp?| What is LCP?	| |![alt text](image-25.png) | 
+| library.lcp.whatIsLcpInfoDetails| LCP stands for 'Licensed Content Protection'.	| |![alt text](image-27.png) | 
+| library.lcp.whatIsLcpInfoDetailsLink| To learn more, click this link to the EDRLab website.	| |![alt text](image-28.png) | 
 | message.annotations.alreadyImported| All annotations already imported, aborting the importation	| | ![screenshot](/images/localisation_context/locale_Context_Table-27.png)| 
 | message.annotations.emptyFile| No annotations available in the file	| | ![screenshot](/images/localisation_context/locale_Context_Table-29.png)|
 |  message.annotations.errorParsing| Error file format parsing:	| |![screenshot](/images/localisation_context/locale_Context_Table-28.png) |
@@ -405,26 +405,26 @@ toc: false
 |  settings.auth.wipeData| Clear login data	| | | 
 | settings.keyboard.advancedMenu| Keyboard shortcuts advanced menu	| | | 
 | settings.keyboard.cancel| Cancel	| | | 
-| settings.keyboard.disclaimer| Shortcuts were defined from QWERTY keyboard layout.	| | | 
+| settings.keyboard.disclaimer| Shortcuts were defined from QWERTY keyboard layout.	| Information available from the | ![alt text](image-18.png)| 
 | settings.keyboard.editUserJson| Edit user file...	| | | 
 | settings.keyboard.keyboardShortcuts| Keyboard shortcuts	| | | 
 | settings.keyboard.loadUserJson| Load from user file	| | | 
 | settings.keyboard.resetDefaults| Reset (load defaults)	| | | 
 | settings.keyboard.save| Save	| | | 
-| settings.language.languageChoice| Language	| | | 
+| settings.language.languageChoice| Language	| Setting window, General tab, label for the dropdown menu to choose language (each language name is in it's own language)  | ![alt text](image-21.png)| 
 | settings.library.enableAPIAPP| Activate access to Dilicom PNB API	| | |
 |  settings.library.title| Add a library account	| | |
-|  settings.session.title| Save session	| | | 
-| settings.tabs.appearance| Appearance	| | | 
-| settings.tabs.general| General	| | | 
-| settings.tabs.keyboardShortcuts| Keyboard shortcuts	| | | 
-| settings.theme.auto| Automatic	| | | 
-| settings.theme.dark| Dark	| | | 
-| settings.theme.description| Application theme matches operating system.	| | | 
-| settings.theme.light| Light	| | | 
-| settings.theme.title| Application Theme	| | | 
-| wizard.buttons.discover| Discover what's new	| | | 
-| wizard.buttons.goToBooks| Go to my publications	| | | 
+|  settings.session.title| Save session	|Setting window, General tab. Check box. Saving session will cause thorium to reopen all windows that were opened when thorium was closed | ![alt text](image-22.png)| 
+| settings.tabs.appearance| Appearance	| Setting window, Appearance tab and title| ![alt text](image-14.png)| 
+| settings.tabs.general| General	| Setting window, General tab and title | ![alt text](image-20.png)| 
+| settings.tabs.keyboardShortcuts| Keyboard shortcuts	|  Setting window, Keyboard shortcuts tab and title| ![alt text](image-17.png)| 
+| settings.theme.auto| Automatic	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme according to the operating system settings  | ![alt text](image-16.png)| 
+| settings.theme.dark| Dark	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme as Dark | ![alt text](image-14.png)| 
+| settings.theme.description| Application theme matches operating system.	| Setting window, Appearance tab, Application Theme, under the dropdown menu, this information appears when Automatic is selected from the dropdown menu.| ![alt text](image-15.png)| 
+| settings.theme.light| Light	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme Light | ![alt text](image-13.png)| 
+| settings.theme.title| Application Theme	|Setting window, Appearance tab. Label of the dropdown menu to select Light, Dark or AUtomatic theme| ![alt text](image-19.png)| 
+| wizard.buttons.discover| Discover what's new	|Button at the bottom right of the Welcome tab from the WIzard panel; will shift to second tab of the wizard panel | ![alt text](image-1.png)| 
+| wizard.buttons.goToBooks| Go to my publications	|Button at the bottom right of the Welcome tab from the WIzard panel. Will close the wizard panel. | ![alt text](image-1.png)| 
 | wizard.buttons.next| Next	| | | 
 | wizard.description.annotations| Highlight document text, choose style and color, attach personal notes. Create annotations in 'quick' mode to bypass the editor (you can enter text and customize styles later). For extra speed, use the 'instant' mode which creates annotations immediately after highlighting document text!	|Wizard welcome window fifth tab text |![alt text](image-5.png) |
 | wizard.description.catalogs| Borrow publications from your local library or discover publications via OPDS feeds. Access a variety of publications from multiple sources thanks to online catalogs.	| Wizard welcome window third Panel description (catalogs)|![alt text](image-3.png)|  
