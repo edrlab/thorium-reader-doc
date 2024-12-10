@@ -6,6 +6,10 @@ $color-purple: #6975CF;
 $color-extralight: #F4F8FD;
 
 
+.img-fluid, .td-content img {
+    max-width: none;
+    height: auto; }
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -226,6 +230,8 @@ kbd {
 .txt-dark{
    color: black ;
 }
+
+
 
 @media (min-width: 768px){
 .td-navbar-cover {
