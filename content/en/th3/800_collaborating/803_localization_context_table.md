@@ -8,17 +8,17 @@ toc: false
 
 | key| english| context | screenshot| 
 | --- | --- | --- | --- |
-| accessibility.bookMenu| Menu	| In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items | ![alt text](/images/localisation_context/image.png)| 
+| accessibility.bookMenu| Menu	| In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items | ![alt text](/images/localisation_context/locale_Context_Table-0.png)| 
 | accessibility.closeDialog| Close	| | | 
-| accessibility.importFile| Import publication	| | | 
+| accessibility.importFile| Import publication	| | ![alt text](/images/localisation_context/locale_Context_Table-1.png)| 
 | accessibility.leftSlideButton| Slide to the left	| | | 
 | accessibility.mainContent| main content	| | | 
 | accessibility.rightSlideButton| Slide to the right	| | | 
 | accessibility.skipLink| Skip to content	| | | 
 | accessibility.toolbar| toolbar	| | | 
-| apiapp.documentation| Thorium Documentation	| | | 
-| apiapp.howItWorks| How does it work?	| | | 
-| apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	| | | 
+| apiapp.documentation| Thorium Documentation	| | ![alt text](/images/localisation_context/locale_Context_Table-6.png)| 
+| apiapp.howItWorks| How does it work?	| A plegable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel| ![alt text](/images/localisation_context/locale_Context_Table-8.png)| 
+| apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	| | ![alt text](/images/localisation_context/locale_Context_Table-7.png)| 
 | apiapp.noLibraryFound| No library found ({{- name}})	| | | 
 | app.edit.copy| Copy	| | | 
 | app.edit.cut| Cut	| | | 
@@ -36,17 +36,17 @@ toc: false
 | app.update.message| New version available, click to learn more.	| | | 
 | app.update.title| {{- appName}} software update.	| | | 
 | app.window.showLibrary| Show library / bookshelf	| | | 
-| catalog.about.title| About {{- appName}}	| Refers to the footer of the application, it is the "About Thorium" link leading to the about file|![alt text](image.png) | 
+| catalog.about.title| About {{- appName}}	| Refers to the footer of the application, it is the "About Thorium" link leading to the about file|![alt text](/images/localisation_context/locale_Context_Table.png) | 
 | catalog.addBookToLib| Import	| | | 
 | catalog.addTags| Add tag	| | | 
 | catalog.addTagsButton| Add	| | | 
 | catalog.allBooks| All publications	| | | 
-| catalog.bookInfo| About publication	| First element of the book menu |![alt text](image-1.png) | 
+| catalog.bookInfo| About publication	| First element of the book menu |![alt text](/images/localisation_context/locale_Context_Table-1.png) | 
 | catalog.column.ascending| ascending	| | | 
 | catalog.column.descending| descending	| | | 
 | catalog.column.unsorted| unsorted	| | | 
 | catalog.delete| Delete	| | | 
-| catalog.deleteBook| Delete	| Third element of the book menu| ![alt text](image-3.png)| 
+| catalog.deleteBook| Delete	| Third element of the book menu| ![alt text](/images/localisation_context/locale_Context_Table-3.png)| 
 | catalog.deleteTag| Delete tag	| | | 
 | catalog.description| Description	| | | 
 | catalog.emptyTagList| No tagged publications.	| | | 
@@ -55,10 +55,10 @@ toc: false
 | catalog.entry.continueReadingDivina| Resume divina	| | | 
 | catalog.entry.continueReadingPdf| Resume PDF	| | | 
 | catalog.entry.lastAdditions| Recently added	| | | 
-| catalog.export| Save as	| Fourth element of the book menu, will open <a href="../804_localisation_glossary/#osfilemanager">OS file manager window</a> to select a place to save (export) the title| ![alt text](image-4.png)| 
-| catalog.exportAnnotation| Save annotation as	| | |
+| catalog.export| Save as	| Fourth element of the book menu, will open <a href="../804_localisation_glossary/#osfilemanager">OS file manager window</a> to select a place to save (export) the title| ![alt text](/images/localisation_context/locale_Context_Table-4.png)| 
+| catalog.exportAnnotation| Save annotation as	| | ![alt text](/images/localisation_context/locale_Context_Table-14.png)|
 |  catalog.format| Format	| | | 
-| catalog.importAnnotation| Import annotation	| will open OS context window to select a file to import. The file must be .annotation format.|![alt text](image-5.png) |
+| catalog.importAnnotation| Import annotation	| Will open OS context window to select a file to import. The file must be .annotation format. This label is used in the catalog as a button name and within an ebook reading window as a tooltip.|![alt text](/images/localisation_context/locale_Context_Table-5.png) ![alt text](/images/localisation_context/locale_Context_Table-13.png)|
 |  catalog.lang| Language	| | | 
 | catalog.lastRead| Last Read	| | | 
 | catalog.moreInfo| Publication Details	| | | 
@@ -95,16 +95,16 @@ toc: false
 | catalog.tags| Tags	| | | 
 | catalog.update| Edit	| | | 
 | dialog.annotations.descAuthor| of {{- author}}	| | |
-|  dialog.annotations.descList| {{- nb}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}	| | |
+|  dialog.annotations.descList| {{- nb}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}	| | ![alt text](/images/localisation_context/locale_Context_Table-26.png)|
 |  dialog.annotations.descNewer| {{- nb}} newer versions of these notes are already associated with the publication.	| | |
 |  dialog.annotations.descOlder| {{- nb}} older versions of these notes are already associated with the publication.	| | |
-|  dialog.annotations.descTitle| Annotation Set Title:	| | |
+|  dialog.annotations.descTitle| Annotation Set Title:	| | ![alt text](/images/localisation_context/locale_Context_Table-25.png)|
 |  dialog.annotations.importAll| Import all notes	| | |
 |  dialog.annotations.importWithoutConflict| Import notes without conflict	| | |
-|  dialog.annotations.title| Do you want to import these notes ?	| | |
+|  dialog.annotations.title| Do you want to import these notes ?	| | ![alt text](/images/localisation_context/locale_Context_Table-24.png)|
 |  dialog.cancel| Cancel	| | | 
-| dialog.deleteAnnotations| Delete annotations?	| | |
-|  dialog.deleteAnnotationsText| Do you want to delete {{- annotationListLength}} annotation(s)?	| | | 
+| dialog.deleteAnnotations| Delete annotations?	| | ![alt text](/images/localisation_context/locale_Context_Table-22.png)|
+|  dialog.deleteAnnotationsText| Do you want to delete {{- annotationListLength}} annotation(s)?	| | ![alt text](/images/localisation_context/locale_Context_Table-23.png)| 
 | dialog.deleteFeed| Delete catalog?	| | | 
 | dialog.deletePublication| Delete publication?	| | | 
 | dialog.import| Confirm import:	| | | 
@@ -138,9 +138,9 @@ toc: false
 | library.lcp.whatIsLcp?| What is LCP?	| | | 
 | library.lcp.whatIsLcpInfoDetails| LCP stands for 'Licensed Content Protection'.	| | | 
 | library.lcp.whatIsLcpInfoDetailsLink| To learn more, click this link to the EDRLab website.	| | | 
-| message.annotations.alreadyImported| All annotations already imported, aborting the importation	| | | 
-| message.annotations.emptyFile| No annotations available in the file	| | |
-|  message.annotations.errorParsing| Error file format parsing:	| | |
+| message.annotations.alreadyImported| All annotations already imported, aborting the importation	| | ![alt text](/images/localisation_context/locale_Context_Table-27.png)| 
+| message.annotations.emptyFile| No annotations available in the file	| | ![alt text](/images/localisation_context/locale_Context_Table-29.png)|
+|  message.annotations.errorParsing| Error file format parsing:	| |![alt text](/images/localisation_context/locale_Context_Table-28.png) |
 |  message.annotations.noBelongTo| Unable to import annotations set, at least one annotation does not belong to the publication	| | |
 |  message.annotations.nothing| There are no annotations ready to be imported, aborting the importation	| | |
 |  message.annotations.success| Success !	| | |
@@ -226,7 +226,7 @@ toc: false
 | publication.licenseSignatureDateInvalid| Invalid LCP license signature date.	| | | 
 | publication.licenseSignatureInvalid| Invalid LCP license signature.	| | | 
 | publication.licensed| Licensed	| | | 
-| publication.markAsRead| Mark as read	| | ![alt text](image-2.png)| 
+| publication.markAsRead| Mark as read	| | ![alt text](/images/localisation_context/locale_Context_Table-2.png)| 
 | publication.notStarted| Not Started	| | | 
 | publication.onGoing| In Progress	| | | 
 | publication.progression.title| Progression	| | | 
@@ -243,39 +243,39 @@ toc: false
 | publication.userKeyCheckInvalid| Incorrect passphrase.	| | | 
 | reader.annotations.Color| Color	| | | 
 | reader.annotations.addNote| Annotate	| | | 
-| reader.annotations.advancedMode| Instant mode (auto create after select)	| | | 
-| reader.annotations.annotationsExport.description| Name this set of annotations	| | | 
-| reader.annotations.annotationsExport.title| Title	| | | 
-| reader.annotations.annotationsOptions| Options	| | | 
-| reader.annotations.colors.bluegreen| Blue-green	| | | 
-| reader.annotations.colors.cyan| Cyan	| | |
-|  reader.annotations.colors.green| Green	| | |
-|  reader.annotations.colors.lightblue| Light Blue	| | |
-|  reader.annotations.colors.orange| Orange	| | | 
-| reader.annotations.colors.purple| Purple	| | | 
-| reader.annotations.colors.red| Red	| | | 
-| reader.annotations.colors.yellow| Yellow	| | |
-|  reader.annotations.filter.all| All	| | |
-|  reader.annotations.filter.filterByColor| Filter by Color	| | |
-|  reader.annotations.filter.filterByCreator| Filter by Creator	| | |
-|  reader.annotations.filter.filterByDrawtype| Filter by Drawtype	| | |
-|  reader.annotations.filter.filterByTag| Filter by Tag	| | |
-|  reader.annotations.filter.filterOptions| Filter Options	| | |
-|  reader.annotations.filter.none| None	| | |
-|  reader.annotations.hide| Do not display	| | | 
+| reader.annotations.advancedMode| Instant mode (auto create after select)	| | ![alt text](/images/localisation_context/locale_Context_Table-35.png)| 
+| reader.annotations.annotationsExport.description| Name this set of annotations	| | ![alt text](/images/localisation_context/locale_Context_Table-52.png)| 
+| reader.annotations.annotationsExport.title| Title	| | ![alt text](/images/localisation_context/locale_Context_Table-51.png)| 
+| reader.annotations.annotationsOptions| Options	| | ![alt text](/images/localisation_context/locale_Context_Table-15.png)| 
+| reader.annotations.colors.bluegreen| Blue-green	| |![alt text](/images/localisation_context/locale_Context_Table-47.png) | 
+| reader.annotations.colors.cyan| Cyan	| | ![alt text](/images/localisation_context/locale_Context_Table-48.png)|
+|  reader.annotations.colors.green| Green	| | ![alt text](/images/localisation_context/locale_Context_Table-46.png)|
+|  reader.annotations.colors.lightblue| Light Blue	| | ![alt text](/images/localisation_context/locale_Context_Table-49.png)|
+|  reader.annotations.colors.orange| Orange	| | ![alt text](/images/localisation_context/locale_Context_Table-44.png)| 
+| reader.annotations.colors.purple| Purple	| | ![alt text](/images/localisation_context/locale_Context_Table-50.png)| 
+| reader.annotations.colors.red| Red	| | ![alt text](/images/localisation_context/locale_Context_Table-43.png)| 
+| reader.annotations.colors.yellow| Yellow	| | ![alt text](/images/localisation_context/locale_Context_Table-45.png)|
+|  reader.annotations.filter.all| All	| | ![alt text](/images/localisation_context/locale_Context_Table-42.png)|
+|  reader.annotations.filter.filterByColor| Filter by Color	| | ![alt text](/images/localisation_context/locale_Context_Table-20.png)|
+|  reader.annotations.filter.filterByCreator| Filter by Creator	| | ![alt text](/images/localisation_context/locale_Context_Table-30.png)|
+|  reader.annotations.filter.filterByDrawtype| Filter by Drawtype	| | ![alt text](/images/localisation_context/locale_Context_Table-21.png)|
+|  reader.annotations.filter.filterByTag| Filter by Tag	| | ![alt text](/images/localisation_context/locale_Context_Table-19.png)|
+|  reader.annotations.filter.filterOptions| Filter Options	| | ![alt text](/images/localisation_context/locale_Context_Table-12.png)|
+|  reader.annotations.filter.none| None	| | ![alt text](/images/localisation_context/locale_Context_Table-39.png)|
+|  reader.annotations.hide| Do not display	| | ![alt text](/images/localisation_context/locale_Context_Table-38.png)| 
 | reader.annotations.highlight| Highlight	| | | 
-| reader.annotations.noSelectionToast| No selection	| | | 
-| reader.annotations.quickAnnotations| Quick create (skip editor)	| | | 
-| reader.annotations.saveNote| Save	| | | 
-| reader.annotations.sorting.lastcreated| Last created	| | |
-|  reader.annotations.sorting.lastmodified| Last modified	| | |
-|  reader.annotations.sorting.progression| Progression	| | |
-|  reader.annotations.sorting.sortingOptions| Sorting Options	| | |
-|  reader.annotations.toggleMarginMarks| Display in margins	| | | 
-| reader.annotations.type.outline| Outline	| | | 
-| reader.annotations.type.solid| Solid background	| | | 
-| reader.annotations.type.strikethrough| Strikethrough	| | | 
-| reader.annotations.type.underline| Underline	| | | 
+| reader.annotations.noSelectionToast| No selection	| | ![alt text](/images/localisation_context/locale_Context_Table-40.png)| 
+| reader.annotations.quickAnnotations| Quick create (skip editor)	| | ![alt text](/images/localisation_context/locale_Context_Table-36.png)| 
+| reader.annotations.saveNote| Save	| | ![alt text](/images/localisation_context/locale_Context_Table-41.png)| 
+| reader.annotations.sorting.lastcreated| Last created	| | ![alt text](/images/localisation_context/locale_Context_Table-17.png)|
+|  reader.annotations.sorting.lastmodified| Last modified	| | ![alt text](/images/localisation_context/locale_Context_Table-18.png)|
+|  reader.annotations.sorting.progression| Progression	| | ![alt text](/images/localisation_context/locale_Context_Table-16.png)|
+|  reader.annotations.sorting.sortingOptions| Sorting Options	| | ![alt text](/images/localisation_context/locale_Context_Table-10.png)|
+|  reader.annotations.toggleMarginMarks| Display in margins	| | ![alt text](/images/localisation_context/locale_Context_Table-37.png)| 
+| reader.annotations.type.outline| Outline	| | ![alt text](/images/localisation_context/locale_Context_Table-34.png)| 
+| reader.annotations.type.solid| Solid background	| | ![alt text](/images/localisation_context/locale_Context_Table-31.png)| 
+| reader.annotations.type.strikethrough| Strikethrough	| | ![alt text](/images/localisation_context/locale_Context_Table-33.png)| 
+| reader.annotations.type.underline| Underline	| | ![alt text](/images/localisation_context/locale_Context_Table-32.png)| 
 | reader.divina.mute| mute audio	| | | 
 | reader.divina.unmute| unmute audio	| | | 
 | reader.fxl.fit| Fit	| | | 
@@ -302,7 +302,7 @@ toc: false
 | reader.media-overlays.stop| Stop Readaloud	| | | 
 | reader.media-overlays.title| Readaloud	| | | 
 | reader.navigation.annotationTitle| annotation	| | | 
-| reader.navigation.backHomeTitle| back to bookshelf	| | | 
+| reader.navigation.backHomeTitle| back to bookshelf	|In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front. | ![alt text](/images/localisation_context/locale_Context_Table-9.png)| 
 | reader.navigation.bookmarkTitle| bookmark	| | | 
 | reader.navigation.currentPage| Current page: {{- current}}	| | | 
 | reader.navigation.currentPageTotal| Current page: {{- current}}/{{- total}}	| | | 
