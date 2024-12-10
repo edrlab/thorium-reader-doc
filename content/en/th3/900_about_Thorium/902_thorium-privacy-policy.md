@@ -1,9 +1,9 @@
 ---
-title: "Privacy Policy of Thorium Reader"
+title: "Privacy Policy"
 description: ""
 draft: false
 images: [logo.png]
-weight: 100
+weight: 902
 toc: false
 ---
 

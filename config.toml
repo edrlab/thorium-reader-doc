@@ -98,10 +98,10 @@ section = ["HTML", "print", "RSS"]
 
 [params]
 copyright = "EDRLab"
-thorium2 = "docs"
-privacy_policy = "documents/privacy"
-accessibility = "documents/accessibility"
-tou = "documents/thorium-terms-of-use"
+thorium2 = "https://thorium.edrlab.org/en/docs/"
+privacy_policy = "https://thorium.edrlab.org/en/documents/privacy/"
+accessibility = "https://thorium.edrlab.org/en/documents/accessibility/"
+tou = "https://thorium.edrlab.org/en/documents/thorium-terms-of-use/e"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]

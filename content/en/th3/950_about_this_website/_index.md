@@ -1,6 +1,6 @@
 ---
 Title: About this website
-weight: 900
+weight: 950
 bookCollapseSection: false
 ---
 

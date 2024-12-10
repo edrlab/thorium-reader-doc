@@ -8,17 +8,17 @@ toc: false
 
 | key| english| context | screenshot| 
 | --- | --- | --- | --- |
-| accessibility.bookMenu| Menu	| In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items | ![alt text](/images/localisation_context/locale_Context_Table-0.png)| 
+| accessibility.bookMenu| Menu	| In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items | ![screenshot](/images/localisation_context/locale_Context_Table-0.png)| 
 | accessibility.closeDialog| Close	| | | 
-| accessibility.importFile| Import publication	| | ![alt text](/images/localisation_context/locale_Context_Table-1.png)| 
-| accessibility.leftSlideButton| Slide to the left	| | | 
+| accessibility.importFile| Import publication	| | ![screenshot](/images/localisation_context/locale_Context_Table-1.png)| 
+| accessibility.leftSlideButton| Slide to the left	| | ![screenshot](/images/localisation_context/locale_Context_Table-1-35.png)| 
 | accessibility.mainContent| main content	| | | 
-| accessibility.rightSlideButton| Slide to the right	| | | 
+| accessibility.rightSlideButton| Slide to the right	|Button used in several places to display  | ![screenshot](/images/localisation_context/locale_Context_Table-1-34.png)| 
 | accessibility.skipLink| Skip to content	| | | 
 | accessibility.toolbar| toolbar	| | | 
-| apiapp.documentation| Thorium Documentation	| | ![alt text](/images/localisation_context/locale_Context_Table-6.png)| 
-| apiapp.howItWorks| How does it work?	| A plegable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel| ![alt text](/images/localisation_context/locale_Context_Table-8.png)| 
-| apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	| | ![alt text](/images/localisation_context/locale_Context_Table-7.png)| 
+| apiapp.documentation| Thorium Documentation	| | ![screenshot](/images/localisation_context/locale_Context_Table-6.png)| 
+| apiapp.howItWorks| How does it work?	| A pliable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel| ![screenshot](/images/localisation_context/locale_Context_Table-8.png)| 
+| apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	| | ![screenshot](/images/localisation_context/locale_Context_Table-7.png)| 
 | apiapp.noLibraryFound| No library found ({{- name}})	| | | 
 | app.edit.copy| Copy	| | | 
 | app.edit.cut| Cut	| | | 
@@ -31,34 +31,34 @@ toc: false
 | app.quit| Quit {{- appName}}	| | | 
 | app.session.exit.askBox.button.no| No	| | | 
 | app.session.exit.askBox.button.yes| Yes	| | | 
-| app.session.exit.askBox.message| Do you want to save the session?	| | | 
+| app.session.exit.askBox.message| Do you want to save the session?	| Setting window, General tab. Message before the Save Session Check box. Saving session will cause thorium to reopen all windows that were opened when thorium was closed | | 
 | app.session.exit.askBox.title| Save session	| | | 
 | app.update.message| New version available, click to learn more.	| | | 
 | app.update.title| {{- appName}} software update.	| | | 
 | app.window.showLibrary| Show library / bookshelf	| | | 
-| catalog.about.title| About {{- appName}}	| Refers to the footer of the application, it is the "About Thorium" link leading to the about file|![alt text](/images/localisation_context/locale_Context_Table.png) | 
+| catalog.about.title| About {{- appName}}	| Refers to the footer of the application, it is the "About Thorium" link leading to the about file|![screenshot](/images/localisation_context/locale_Context_Table.png) | 
 | catalog.addBookToLib| Import	| | | 
 | catalog.addTags| Add tag	| | | 
 | catalog.addTagsButton| Add	| | | 
 | catalog.allBooks| All publications	| | | 
-| catalog.bookInfo| About publication	| First element of the book menu |![alt text](/images/localisation_context/locale_Context_Table-1.png) | 
+| catalog.bookInfo| About publication	| First element of the book menu |![screenshot](/images/localisation_context/locale_Context_Table-1.png) | 
 | catalog.column.ascending| ascending	| | | 
 | catalog.column.descending| descending	| | | 
 | catalog.column.unsorted| unsorted	| | | 
 | catalog.delete| Delete	| | | 
-| catalog.deleteBook| Delete	| Third element of the book menu| ![alt text](/images/localisation_context/locale_Context_Table-3.png)| 
+| catalog.deleteBook| Delete	| Third element of the book menu| ![screenshot](/images/localisation_context/locale_Context_Table-3.png)| 
 | catalog.deleteTag| Delete tag	| | | 
 | catalog.description| Description	| | | 
 | catalog.emptyTagList| No tagged publications.	| | | 
-| catalog.entry.continueReading| Resume reading	| | | 
-| catalog.entry.continueReadingAudioBooks| Resume listening	| | | 
-| catalog.entry.continueReadingDivina| Resume divina	| | | 
-| catalog.entry.continueReadingPdf| Resume PDF	| | | 
-| catalog.entry.lastAdditions| Recently added	| | | 
-| catalog.export| Save as	| Fourth element of the book menu, will open <a href="../804_localisation_glossary/#osfilemanager">OS file manager window</a> to select a place to save (export) the title| ![alt text](/images/localisation_context/locale_Context_Table-4.png)| 
-| catalog.exportAnnotation| Save annotation as	| | ![alt text](/images/localisation_context/locale_Context_Table-14.png)|
+| catalog.entry.continueReading| Resume reading	| Library window, Home tab, First title. Under this title, the last opened books are listed. | ![screenshot](/images/localisation_context/locale_Context_Table-1-32.png)| 
+| catalog.entry.continueReadingAudioBooks| Resume listening	| Not used in Thorium 3| | 
+| catalog.entry.continueReadingDivina| Resume divina	| Not used in Thorium 3| | 
+| catalog.entry.continueReadingPdf| Resume PDF	| Not used in Thorium 3| | 
+| catalog.entry.lastAdditions| Recently added	|Library window, Home tab, Second title. Under this title, the last added books are listed.  | ![screenshot](/images/localisation_context/locale_Context_Table-1-33.png)| 
+| catalog.export| Save as	| Fourth element of the book menu, will open <a href="../804_localisation_glossary/#osfilemanager">OS file manager window</a> to select a place to save (export) the title| ![screenshot](/images/localisation_context/locale_Context_Table-4.png)| 
+| catalog.exportAnnotation| Save annotation as	| | ![screenshot](/images/localisation_context/locale_Context_Table-14.png)|
 |  catalog.format| Format	| | | 
-| catalog.importAnnotation| Import annotation	| Will open OS context window to select a file to import. The file must be .annotation format. This label is used in the catalog as a button name and within an ebook reading window as a tooltip.|![alt text](/images/localisation_context/locale_Context_Table-5.png) ![alt text](/images/localisation_context/locale_Context_Table-13.png)|
+| catalog.importAnnotation| Import annotation	| Will open OS context window to select a file to import. The file must be .annotation format. This label is used in the catalog as a button name and within an ebook reading window as a tooltip.|![screenshot](/images/localisation_context/locale_Context_Table-5.png) ![screenshot](/images/localisation_context/locale_Context_Table-13.png)|
 |  catalog.lang| Language	| | | 
 | catalog.lastRead| Last Read	| | | 
 | catalog.moreInfo| Publication Details	| | | 
@@ -95,16 +95,16 @@ toc: false
 | catalog.tags| Tags	| | | 
 | catalog.update| Edit	| | | 
 | dialog.annotations.descAuthor| of {{- author}}	| | |
-|  dialog.annotations.descList| {{- nb}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}	| | ![alt text](/images/localisation_context/locale_Context_Table-26.png)|
+|  dialog.annotations.descList| {{- nb}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}	| | ![screenshot](/images/localisation_context/locale_Context_Table-26.png)|
 |  dialog.annotations.descNewer| {{- nb}} newer versions of these notes are already associated with the publication.	| | |
 |  dialog.annotations.descOlder| {{- nb}} older versions of these notes are already associated with the publication.	| | |
-|  dialog.annotations.descTitle| Annotation Set Title:	| | ![alt text](/images/localisation_context/locale_Context_Table-25.png)|
+|  dialog.annotations.descTitle| Annotation Set Title:	| | ![screenshot](/images/localisation_context/locale_Context_Table-25.png)|
 |  dialog.annotations.importAll| Import all notes	| | |
 |  dialog.annotations.importWithoutConflict| Import notes without conflict	| | |
-|  dialog.annotations.title| Do you want to import these notes ?	| | ![alt text](/images/localisation_context/locale_Context_Table-24.png)|
-|  dialog.cancel| Cancel	| | | 
-| dialog.deleteAnnotations| Delete annotations?	| | ![alt text](/images/localisation_context/locale_Context_Table-22.png)|
-|  dialog.deleteAnnotationsText| Do you want to delete {{- annotationListLength}} annotation(s)?	| | ![alt text](/images/localisation_context/locale_Context_Table-23.png)| 
+|  dialog.annotations.title| Do you want to import these notes ?	| | ![screenshot](/images/localisation_context/locale_Context_Table-24.png)|
+|  dialog.cancel| Cancel	|Cancel button used in several contexts | ![screenshot](/images/localisation_context/locale_Context_Table-1-31.png)| 
+| dialog.deleteAnnotations| Delete annotations?	| | ![screenshot](/images/localisation_context/locale_Context_Table-22.png)|
+|  dialog.deleteAnnotationsText| Do you want to delete {{- annotationListLength}} annotation(s)?	| | ![screenshot](/images/localisation_context/locale_Context_Table-23.png)| 
 | dialog.deleteFeed| Delete catalog?	| | | 
 | dialog.deletePublication| Delete publication?	| | | 
 | dialog.import| Confirm import:	| | | 
@@ -130,17 +130,17 @@ toc: false
 | header.searchTitle| Search	| | | 
 | header.settings| Settings	| | | 
 | header.viewMode| View mode	| | | 
-| library.lcp.hint| Hint:	| | | 
-| library.lcp.open| Open	| | | 
-| library.lcp.password| Passphrase	| | | 
-| library.lcp.sentence| This publication needs an LCP passphrase to be opened	| | | 
-| library.lcp.urlHint| Forgot your passphrase? Click here to get support.	| | | 
-| library.lcp.whatIsLcp?| What is LCP?	| | | 
-| library.lcp.whatIsLcpInfoDetails| LCP stands for 'Licensed Content Protection'.	| | | 
-| library.lcp.whatIsLcpInfoDetailsLink| To learn more, click this link to the EDRLab website.	| | | 
-| message.annotations.alreadyImported| All annotations already imported, aborting the importation	| | ![alt text](/images/localisation_context/locale_Context_Table-27.png)| 
-| message.annotations.emptyFile| No annotations available in the file	| | ![alt text](/images/localisation_context/locale_Context_Table-29.png)|
-|  message.annotations.errorParsing| Error file format parsing:	| |![alt text](/images/localisation_context/locale_Context_Table-28.png) |
+| library.lcp.hint| Hint:	| |![screenshot](/images/localisation_context/locale_Context_Table-1-29.png) | 
+| library.lcp.open| Open	| |![screenshot](/images/localisation_context/locale_Context_Table-1-23.png) | 
+| library.lcp.password| Passphrase	| |![screenshot](/images/localisation_context/locale_Context_Table-1-26.png) | 
+| library.lcp.sentence| This publication needs an LCP passphrase to be opened	| |![screenshot](/images/localisation_context/locale_Context_Table-1-23.png) | 
+| library.lcp.urlHint| Forgot your passphrase? Click here to get support.	| |![screenshot](/images/localisation_context/locale_Context_Table-1-24.png) | 
+| library.lcp.whatIsLcp?| What is LCP?	| |![screenshot](/images/localisation_context/locale_Context_Table-1-25.png) | 
+| library.lcp.whatIsLcpInfoDetails| LCP stands for 'Licensed Content Protection'.	| |![screenshot](/images/localisation_context/locale_Context_Table-1-27.png) | 
+| library.lcp.whatIsLcpInfoDetailsLink| To learn more, click this link to the EDRLab website.	| |![screenshot](/images/localisation_context/locale_Context_Table-1-28.png) | 
+| message.annotations.alreadyImported| All annotations already imported, aborting the importation	| | ![screenshot](/images/localisation_context/locale_Context_Table-27.png)| 
+| message.annotations.emptyFile| No annotations available in the file	| | ![screenshot](/images/localisation_context/locale_Context_Table-29.png)|
+|  message.annotations.errorParsing| Error file format parsing:	| |![screenshot](/images/localisation_context/locale_Context_Table-28.png) |
 |  message.annotations.noBelongTo| Unable to import annotations set, at least one annotation does not belong to the publication	| | |
 |  message.annotations.nothing| There are no annotations ready to be imported, aborting the importation	| | |
 |  message.annotations.success| Success !	| | |
@@ -226,7 +226,7 @@ toc: false
 | publication.licenseSignatureDateInvalid| Invalid LCP license signature date.	| | | 
 | publication.licenseSignatureInvalid| Invalid LCP license signature.	| | | 
 | publication.licensed| Licensed	| | | 
-| publication.markAsRead| Mark as read	| | ![alt text](/images/localisation_context/locale_Context_Table-2.png)| 
+| publication.markAsRead| Mark as read	| | ![screenshot](/images/localisation_context/locale_Context_Table-2.png)| 
 | publication.notStarted| Not Started	| | | 
 | publication.onGoing| In Progress	| | | 
 | publication.progression.title| Progression	| | | 
@@ -243,39 +243,40 @@ toc: false
 | publication.userKeyCheckInvalid| Incorrect passphrase.	| | | 
 | reader.annotations.Color| Color	| | | 
 | reader.annotations.addNote| Annotate	| | | 
-| reader.annotations.advancedMode| Instant mode (auto create after select)	| | ![alt text](/images/localisation_context/locale_Context_Table-35.png)| 
-| reader.annotations.annotationsExport.description| Name this set of annotations	| | ![alt text](/images/localisation_context/locale_Context_Table-52.png)| 
-| reader.annotations.annotationsExport.title| Title	| | ![alt text](/images/localisation_context/locale_Context_Table-51.png)| 
-| reader.annotations.annotationsOptions| Options	| | ![alt text](/images/localisation_context/locale_Context_Table-15.png)| 
-| reader.annotations.colors.bluegreen| Blue-green	| |![alt text](/images/localisation_context/locale_Context_Table-47.png) | 
-| reader.annotations.colors.cyan| Cyan	| | ![alt text](/images/localisation_context/locale_Context_Table-48.png)|
-|  reader.annotations.colors.green| Green	| | ![alt text](/images/localisation_context/locale_Context_Table-46.png)|
-|  reader.annotations.colors.lightblue| Light Blue	| | ![alt text](/images/localisation_context/locale_Context_Table-49.png)|
-|  reader.annotations.colors.orange| Orange	| | ![alt text](/images/localisation_context/locale_Context_Table-44.png)| 
-| reader.annotations.colors.purple| Purple	| | ![alt text](/images/localisation_context/locale_Context_Table-50.png)| 
-| reader.annotations.colors.red| Red	| | ![alt text](/images/localisation_context/locale_Context_Table-43.png)| 
-| reader.annotations.colors.yellow| Yellow	| | ![alt text](/images/localisation_context/locale_Context_Table-45.png)|
-|  reader.annotations.filter.all| All	| | ![alt text](/images/localisation_context/locale_Context_Table-42.png)|
-|  reader.annotations.filter.filterByColor| Filter by Color	| | ![alt text](/images/localisation_context/locale_Context_Table-20.png)|
-|  reader.annotations.filter.filterByCreator| Filter by Creator	| | ![alt text](/images/localisation_context/locale_Context_Table-30.png)|
-|  reader.annotations.filter.filterByDrawtype| Filter by Drawtype	| | ![alt text](/images/localisation_context/locale_Context_Table-21.png)|
-|  reader.annotations.filter.filterByTag| Filter by Tag	| | ![alt text](/images/localisation_context/locale_Context_Table-19.png)|
-|  reader.annotations.filter.filterOptions| Filter Options	| | ![alt text](/images/localisation_context/locale_Context_Table-12.png)|
-|  reader.annotations.filter.none| None	| | ![alt text](/images/localisation_context/locale_Context_Table-39.png)|
-|  reader.annotations.hide| Do not display	| | ![alt text](/images/localisation_context/locale_Context_Table-38.png)| 
+| reader.annotations.advancedMode| Instant mode (auto create after select)	| | ![screenshot](/images/localisation_context/locale_Context_Table-35.png)| 
+| reader.annotations.annotationsExport.description| Name this set of annotations	| | ![screenshot](/images/localisation_context/locale_Context_Table-52.png)| 
+| reader.annotations.annotationsExport.title| Title	| | ![screenshot](/images/localisation_context/locale_Context_Table-51.png)| 
+| reader.annotations.annotationsOptions| Options	| | ![screenshot](/images/localisation_context/locale_Context_Table-15.png)| 
+| reader.annotations.colors.bluegreen| Blue-green	| |![screenshot](/images/localisation_context/locale_Context_Table-47.png) | 
+| reader.annotations.colors.cyan| Cyan	| | ![screenshot](/images/localisation_context/locale_Context_Table-48.png)|
+|  reader.annotations.colors.green| Green	| | ![screenshot](/images/localisation_context/locale_Context_Table-46.png)|
+|  reader.annotations.colors.lightblue| Light Blue	| | ![screenshot](/images/localisation_context/locale_Context_Table-49.png)|
+|  reader.annotations.colors.orange| Orange	| | ![screenshot](/images/localisation_context/locale_Context_Table-44.png)| 
+| reader.annotations.colors.purple| Purple	| | ![screenshot](/images/localisation_context/locale_Context_Table-50.png)| 
+| reader.annotations.colors.red| Red	| | ![screenshot](/images/localisation_context/locale_Context_Table-43.png)| 
+| reader.annotations.colors.yellow| Yellow	| | ![screenshot](/images/localisation_context/locale_Context_Table-45.png)|
+|reader.annotations.export|Save notes as|Export annotations context menu validation button|![screenshot](/images/localisation_context/locale_Context_Table-1.png)|
+|  reader.annotations.filter.all| All	| | ![screenshot](/images/localisation_context/locale_Context_Table-42.png)|
+|  reader.annotations.filter.filterByColor| Filter by Color	| | ![screenshot](/images/localisation_context/locale_Context_Table-20.png)|
+|  reader.annotations.filter.filterByCreator| Filter by Creator	| | ![screenshot](/images/localisation_context/locale_Context_Table-30.png)|
+|  reader.annotations.filter.filterByDrawtype| Filter by Drawtype	| | ![screenshot](/images/localisation_context/locale_Context_Table-21.png)|
+|  reader.annotations.filter.filterByTag| Filter by Tag	| | ![screenshot](/images/localisation_context/locale_Context_Table-19.png)|
+|  reader.annotations.filter.filterOptions| Filter Options	| | ![screenshot](/images/localisation_context/locale_Context_Table-12.png)|
+|  reader.annotations.filter.none| None	| | ![screenshot](/images/localisation_context/locale_Context_Table-39.png)|
+|  reader.annotations.hide| Do not display	| | ![screenshot](/images/localisation_context/locale_Context_Table-38.png)| 
 | reader.annotations.highlight| Highlight	| | | 
-| reader.annotations.noSelectionToast| No selection	| | ![alt text](/images/localisation_context/locale_Context_Table-40.png)| 
-| reader.annotations.quickAnnotations| Quick create (skip editor)	| | ![alt text](/images/localisation_context/locale_Context_Table-36.png)| 
-| reader.annotations.saveNote| Save	| | ![alt text](/images/localisation_context/locale_Context_Table-41.png)| 
-| reader.annotations.sorting.lastcreated| Last created	| | ![alt text](/images/localisation_context/locale_Context_Table-17.png)|
-|  reader.annotations.sorting.lastmodified| Last modified	| | ![alt text](/images/localisation_context/locale_Context_Table-18.png)|
-|  reader.annotations.sorting.progression| Progression	| | ![alt text](/images/localisation_context/locale_Context_Table-16.png)|
-|  reader.annotations.sorting.sortingOptions| Sorting Options	| | ![alt text](/images/localisation_context/locale_Context_Table-10.png)|
-|  reader.annotations.toggleMarginMarks| Display in margins	| | ![alt text](/images/localisation_context/locale_Context_Table-37.png)| 
-| reader.annotations.type.outline| Outline	| | ![alt text](/images/localisation_context/locale_Context_Table-34.png)| 
-| reader.annotations.type.solid| Solid background	| | ![alt text](/images/localisation_context/locale_Context_Table-31.png)| 
-| reader.annotations.type.strikethrough| Strikethrough	| | ![alt text](/images/localisation_context/locale_Context_Table-33.png)| 
-| reader.annotations.type.underline| Underline	| | ![alt text](/images/localisation_context/locale_Context_Table-32.png)| 
+| reader.annotations.noSelectionToast| No selection	| | ![screenshot](/images/localisation_context/locale_Context_Table-40.png)| 
+| reader.annotations.quickAnnotations| Quick create (skip editor)	| | ![screenshot](/images/localisation_context/locale_Context_Table-36.png)| 
+| reader.annotations.saveNote| Save	| | ![screenshot](/images/localisation_context/locale_Context_Table-41.png)| 
+| reader.annotations.sorting.lastcreated| Last created	| | ![screenshot](/images/localisation_context/locale_Context_Table-17.png)|
+|  reader.annotations.sorting.lastmodified| Last modified	| | ![screenshot](/images/localisation_context/locale_Context_Table-18.png)|
+|  reader.annotations.sorting.progression| Progression	| | ![screenshot](/images/localisation_context/locale_Context_Table-16.png)|
+|  reader.annotations.sorting.sortingOptions| Sorting Options	| | ![screenshot](/images/localisation_context/locale_Context_Table-10.png)|
+|  reader.annotations.toggleMarginMarks| Display in margins	| | ![screenshot](/images/localisation_context/locale_Context_Table-37.png)| 
+| reader.annotations.type.outline| Outline	| | ![screenshot](/images/localisation_context/locale_Context_Table-34.png)| 
+| reader.annotations.type.solid| Solid background	| | ![screenshot](/images/localisation_context/locale_Context_Table-31.png)| 
+| reader.annotations.type.strikethrough| Strikethrough	| | ![screenshot](/images/localisation_context/locale_Context_Table-33.png)| 
+| reader.annotations.type.underline| Underline	| | ![screenshot](/images/localisation_context/locale_Context_Table-32.png)| 
 | reader.divina.mute| mute audio	| | | 
 | reader.divina.unmute| unmute audio	| | | 
 | reader.fxl.fit| Fit	| | | 
@@ -302,7 +303,7 @@ toc: false
 | reader.media-overlays.stop| Stop Readaloud	| | | 
 | reader.media-overlays.title| Readaloud	| | | 
 | reader.navigation.annotationTitle| annotation	| | | 
-| reader.navigation.backHomeTitle| back to bookshelf	|In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front. | ![alt text](/images/localisation_context/locale_Context_Table-9.png)| 
+| reader.navigation.backHomeTitle| back to bookshelf	|In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front. | ![screenshot](/images/localisation_context/locale_Context_Table-9.png)| 
 | reader.navigation.bookmarkTitle| bookmark	| | | 
 | reader.navigation.currentPage| Current page: {{- current}}	| | | 
 | reader.navigation.currentPageTotal| Current page: {{- current}}/{{- total}}	| | | 
@@ -395,49 +396,48 @@ toc: false
 | reader.tts.speed| TTS playback rate	| | | 
 | reader.tts.stop| Stop TTS	| | | 
 | reader.tts.voice| TTS voice	| | | 
-| settings.annotationCreator.creator| Creator	| | |
-|  settings.annotationCreator.name| Name	| | |
-|  settings.annotationCreator.organization| Organization	| | |
-|  settings.annotationCreator.person| Person	| | |
-|  settings.annotationCreator.type| Type:	| | |
+| settings.annotationCreator.creator| Creator	|Setting window, General Tab, at the bottom, there is now a level 4 section with this title. It allows to set up a name that will be assigned to annotations. It can be changed without affecting existing annotations. It will be exported with the Annotations export feature.  | ![screenshot](/images/localisation_context/locale_Context_Table-1-12.png)|
+|  settings.annotationCreator.name| Name	| Title of the field where an annotations creator name can be added| ![screenshot](/images/localisation_context/locale_Context_Table-1-11.png)|
+|  settings.annotationCreator.organization| Organization	|radio button to specify if the creator name refers to an organisation | ![edrlab](/images/localisation_context/locale_Context_Table-1-10.png)|
+|  settings.annotationCreator.person| Person	| radio button to specify if the creator name refers to a person| ![screenshot](/images/localisation_context/locale_Context_Table-1-8.png)|
+|  settings.annotationCreator.type| Type:	| | ![screenshot](/images/localisation_context/locale_Context_Table-1-9.png)|
 |  settings.auth.title| Manage access to catalogs	| | |
 |  settings.auth.wipeData| Clear login data	| | | 
 | settings.keyboard.advancedMenu| Keyboard shortcuts advanced menu	| | | 
 | settings.keyboard.cancel| Cancel	| | | 
-| settings.keyboard.disclaimer| Shortcuts were defined from QWERTY keyboard layout.	| | | 
+| settings.keyboard.disclaimer| Shortcuts were defined from QWERTY keyboard layout.	| Information available from the | ![screenshot](/images/localisation_context/locale_Context_Table-1-18.png)| 
 | settings.keyboard.editUserJson| Edit user file...	| | | 
 | settings.keyboard.keyboardShortcuts| Keyboard shortcuts	| | | 
 | settings.keyboard.loadUserJson| Load from user file	| | | 
 | settings.keyboard.resetDefaults| Reset (load defaults)	| | | 
 | settings.keyboard.save| Save	| | | 
-| settings.language.languageChoice| Language	| | | 
+| settings.language.languageChoice| Language	| Setting window, General tab, label for the dropdown menu to choose language (each language name is in it's own language)  | ![screenshot](/images/localisation_context/locale_Context_Table-1-21.png)| 
 | settings.library.enableAPIAPP| Activate access to Dilicom PNB API	| | |
 |  settings.library.title| Add a library account	| | |
-|  settings.session.title| Save session	| | | 
-| settings.tabs.appearance| Appearance	| | | 
-| settings.tabs.general| General	| | | 
-| settings.tabs.keyboardShortcuts| Keyboard shortcuts	| | | 
-| settings.theme.auto| Automatic	| | | 
-| settings.theme.dark| Dark	| | | 
-| settings.theme.description| Application theme matches operating system.	| | | 
-| settings.theme.light| Light	| | | 
-| settings.theme.title| Application Theme	| | | 
-| wizard.buttons.discover| Discover what's new	| | | 
-| wizard.buttons.goToBooks| Go to my publications	| | | 
+|  settings.session.title| Save session	|Setting window, General tab. Check box. Saving session will cause thorium to reopen all windows that were opened when thorium was closed | ![screenshot](/images/localisation_context/locale_Context_Table-1-22.png)| 
+| settings.tabs.appearance| Appearance	| Setting window, Appearance tab and title| ![screenshot](/images/localisation_context/locale_Context_Table-1-14.png)| 
+| settings.tabs.general| General	| Setting window, General tab and title | ![screenshot](/images/localisation_context/locale_Context_Table-1-20.png)| 
+| settings.tabs.keyboardShortcuts| Keyboard shortcuts	|  Setting window, Keyboard shortcuts tab and title| ![screenshot](/images/localisation_context/locale_Context_Table-1-17.png)| 
+| settings.theme.auto| Automatic	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme according to the operating system settings  | ![screenshot](/images/localisation_context/locale_Context_Table-1-16.png)| 
+| settings.theme.dark| Dark	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme as Dark | ![screenshot](/images/localisation_context/locale_Context_Table-1-14.png)| 
+| settings.theme.description| Application theme matches operating system.	| Setting window, Appearance tab, Application Theme, under the dropdown menu, this information appears when Automatic is selected from the dropdown menu.| ![screenshot](/images/localisation_context/locale_Context_Table-1-15.png)| 
+| settings.theme.light| Light	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme Light | ![screenshot](/images/localisation_context/locale_Context_Table-1-13.png)| 
+| settings.theme.title| Application Theme	|Setting window, Appearance tab. Label of the dropdown menu to select Light, Dark or AUtomatic theme| ![screenshot](/images/localisation_context/locale_Context_Table-1-19.png)| 
+| wizard.buttons.discover| Discover what's new	|Button at the bottom right of the Welcome tab from the WIzard panel; will shift to second tab of the wizard panel | ![screenshot](/images/localisation_context/locale_Context_Table-1-1.png)| 
+| wizard.buttons.goToBooks| Go to my publications	|Button at the bottom right of the Welcome tab from the WIzard panel. Will close the wizard panel. | ![screenshot](/images/localisation_context/locale_Context_Table-1-1.png)| 
 | wizard.buttons.next| Next	| | | 
-| wizard.description.annotations| Highlight document text, choose style and color, attach personal notes. Create annotations in 'quick' mode to bypass the editor (you can enter text and customize styles later). For extra speed, use the 'instant' mode which creates annotations immediately after highlighting document text!	| | | 
-| wizard.description.catalogs| Borrow publications from your local library or discover publications via OPDS feeds. Access a variety of publications from multiple sources thanks to online catalogs.	| | | 
-| wizard.description.home| Thorium looks different! Let's discover what's new...	| | | 
-| wizard.description.readingView1| Customize your reading and listening preferences: Thorium now offers multiple color themes for both the user interface and publication documents. It is now also easier to configure 'readaloud' ebooks with synthetic speech and synchronized text/audio narration.	| | | 
+| wizard.description.annotations| Highlight document text, choose style and color, attach personal notes. Create annotations in 'quick' mode to bypass the editor (you can enter text and customize styles later). For extra speed, use the 'instant' mode which creates annotations immediately after highlighting document text!	|Wizard welcome window fifth tab text |![screenshot](/images/localisation_context/locale_Context_Table-1-5.png) |
+| wizard.description.catalogs| Borrow publications from your local library or discover publications via OPDS feeds. Access a variety of publications from multiple sources thanks to online catalogs.	| Wizard welcome window third Panel description (catalogs)|![screenshot](/images/localisation_context/locale_Context_Table-1-3.png)|  
+| wizard.description.home| Thorium looks different! Let's discover what's new...	| Wizard welcome windows first text (Home / Welcome)| ![screenshot](/images/localisation_context/locale_Context_Table-1-1.png)|  
+| wizard.description.readingView1| Customize your reading and listening preferences: Thorium now offers multiple color themes for both the user interface and publication documents. It is now also easier to configure 'readaloud' ebooks with synthetic speech and synchronized text/audio narration.	| |![screenshot](/images/localisation_context/locale_Context_Table-1-4.png)|  
 | wizard.description.readingView2| Thorium's improved user interface makes it easier to find text in publications, explore search results, go to specific pages, browse the table of contents, create bookmarks, etc. thanks to the new 'docked' panels. The fullscreen reading mode continues to offer a distraction-free environment.	| | | 
-| wizard.description.yourBooks| Welcome to your redesigned personal bookshelf! In the 'grid' view, easily filter by tags or find publications by keywords. In the advanced 'table' view, select and sort publications by specific authors, title, date, format, etc.	| | | 
-| wizard.dontShow| Don't show again	| | | 
-| wizard.tab.annotations| Annotations	| | | 
-| wizard.tab.catalogs| Catalogs	| | | 
-| wizard.tab.home| Home	| | | 
-| wizard.tab.readingView| Reading view	| | | 
-| wizard.tab.yourBooks| Your publications	| | | 
-| wizard.title.allBooks| All my publications	| | | 
-| wizard.title.newFeature| New feature: Annotations	| | | 
-| wizard.title.welcome| Welcome to Thorium 3.0	| | | 
-| 
+| wizard.description.yourBooks| Welcome to your redesigned personal bookshelf! In the 'grid' view, easily filter by tags or find publications by keywords. In the advanced 'table' view, select and sort publications by specific authors, title, date, format, etc.	|Wizard welcome window second panel text | ![screenshot](/images/localisation_context/locale_Context_Table-1-2.png) |
+| wizard.dontShow| Don't show again	|Wizard welcome window Checkbox to stop wizard opening at each Thorium start| ![screenshot](/images/localisation_context/locale_Context_Table-1-7.png)| 
+| wizard.tab.annotations| Annotations	|Wizard welcome window fifth tab | ![screenshot](/images/localisation_context/locale_Context_Table-1-5.png) | 
+| wizard.tab.catalogs| Catalogs	| Wizard welcome window third Panel title and Wizard tab label| ![screenshot](/images/localisation_context/locale_Context_Table-1-3.png)| 
+| wizard.tab.home| Home	|Wizard welcome window first tab  | ![screenshot](/images/localisation_context/locale_Context_Table-1-6.png)| 
+| wizard.tab.readingView| Reading view	| | ![screenshot](/images/localisation_context/locale_Context_Table-1-4.png)| 
+| wizard.tab.yourBooks| Your publications	|Wizard welcome window second tab | ![screenshot](/images/localisation_context/locale_Context_Table-1-2.png)| 
+| wizard.title.allBooks| All my publications|Wizard welcome window second Panel title | ![screenshot](/images/localisation_context/locale_Context_Table-1-2.png)| 
+| wizard.title.newFeature| New feature: Annotations	|Wizard welcome window fifth tab title  |![screenshot](/images/localisation_context/locale_Context_Table-1-5.png) | 
+| wizard.title.welcome| Welcome to Thorium 3.0	| Wizard welcome windows first panel| ![screenshot](/images/localisation_context/locale_Context_Table-1-1.png)| 

@@ -1,8 +1,10 @@
 ---
-title: "Thorium Reader terms of use"
+title: "Accessibility policy"
 description: ""
 draft: false
 layout: single
+weight: 903
+toc: false
 ---
 
 22 November 2022
