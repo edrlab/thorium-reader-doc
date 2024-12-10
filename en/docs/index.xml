@@ -1238,7 +1238,2635 @@ The Marrakech Treaty
 &lt;dl>
 &lt;dt id="OPDS">OPDS&lt;/dt>&lt;dd> Open Publication Distribution System
 &lt;/dd>
-&lt;/dl></description></item><item><title>Docs: Credits</title><link>https://thorium.edrlab.org/en/docs/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/900_about/902_credits/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Localisation context table</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/803_localization_context_table/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/803_localization_context_table/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>key&lt;/th>
+&lt;th>english&lt;/th>
+&lt;th>context&lt;/th>
+&lt;th>screenshot&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>accessibility.bookMenu&lt;/td>
+&lt;td>Menu&lt;/td>
+&lt;td>In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-0.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>accessibility.closeDialog&lt;/td>
+&lt;td>Close&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>accessibility.importFile&lt;/td>
+&lt;td>Import publication&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>accessibility.leftSlideButton&lt;/td>
+&lt;td>Slide to the left&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>accessibility.mainContent&lt;/td>
+&lt;td>main content&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>accessibility.rightSlideButton&lt;/td>
+&lt;td>Slide to the right&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>accessibility.skipLink&lt;/td>
+&lt;td>Skip to content&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>accessibility.toolbar&lt;/td>
+&lt;td>toolbar&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>apiapp.documentation&lt;/td>
+&lt;td>Thorium Documentation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-6.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>apiapp.howItWorks&lt;/td>
+&lt;td>How does it work?&lt;/td>
+&lt;td>A plegable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-8.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>apiapp.informations&lt;/td>
+&lt;td>In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It&amp;rsquo;s simple. Enter a French city (&amp;lsquo;Paris&amp;rsquo;) or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-7.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>apiapp.noLibraryFound&lt;/td>
+&lt;td>No library found ({{- name}})&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.edit.copy&lt;/td>
+&lt;td>Copy&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.edit.cut&lt;/td>
+&lt;td>Cut&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.edit.paste&lt;/td>
+&lt;td>Paste&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.edit.redo&lt;/td>
+&lt;td>Redo&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.edit.selectAll&lt;/td>
+&lt;td>Select all&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.edit.title&lt;/td>
+&lt;td>Edit&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.edit.undo&lt;/td>
+&lt;td>Undo&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.hide&lt;/td>
+&lt;td>Hide {{- appName}}&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.quit&lt;/td>
+&lt;td>Quit {{- appName}}&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.session.exit.askBox.button.no&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.session.exit.askBox.button.yes&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.session.exit.askBox.message&lt;/td>
+&lt;td>Do you want to save the session?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.session.exit.askBox.title&lt;/td>
+&lt;td>Save session&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.update.message&lt;/td>
+&lt;td>New version available, click to learn more.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.update.title&lt;/td>
+&lt;td>{{- appName}} software update.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>app.window.showLibrary&lt;/td>
+&lt;td>Show library / bookshelf&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.about.title&lt;/td>
+&lt;td>About {{- appName}}&lt;/td>
+&lt;td>Refers to the footer of the application, it is the &amp;ldquo;About Thorium&amp;rdquo; link leading to the about file&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.addBookToLib&lt;/td>
+&lt;td>Import&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.addTags&lt;/td>
+&lt;td>Add tag&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.addTagsButton&lt;/td>
+&lt;td>Add&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.allBooks&lt;/td>
+&lt;td>All publications&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.bookInfo&lt;/td>
+&lt;td>About publication&lt;/td>
+&lt;td>First element of the book menu&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.column.ascending&lt;/td>
+&lt;td>ascending&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.column.descending&lt;/td>
+&lt;td>descending&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.column.unsorted&lt;/td>
+&lt;td>unsorted&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.delete&lt;/td>
+&lt;td>Delete&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.deleteBook&lt;/td>
+&lt;td>Delete&lt;/td>
+&lt;td>Third element of the book menu&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-3.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.deleteTag&lt;/td>
+&lt;td>Delete tag&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.description&lt;/td>
+&lt;td>Description&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.emptyTagList&lt;/td>
+&lt;td>No tagged publications.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.entry.continueReading&lt;/td>
+&lt;td>Resume reading&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.entry.continueReadingAudioBooks&lt;/td>
+&lt;td>Resume listening&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.entry.continueReadingDivina&lt;/td>
+&lt;td>Resume divina&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.entry.continueReadingPdf&lt;/td>
+&lt;td>Resume PDF&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.entry.lastAdditions&lt;/td>
+&lt;td>Recently added&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.export&lt;/td>
+&lt;td>Save as&lt;/td>
+&lt;td>Fourth element of the book menu, will open &lt;a href="../804_localisation_glossary/#osfilemanager">OS file manager window&lt;/a> to select a place to save (export) the title&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-4.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.exportAnnotation&lt;/td>
+&lt;td>Save annotation as&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-14.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.format&lt;/td>
+&lt;td>Format&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.importAnnotation&lt;/td>
+&lt;td>Import annotation&lt;/td>
+&lt;td>Will open OS context window to select a file to import. The file must be .annotation format. This label is used in the catalog as a button name and within an ebook reading window as a tooltip.&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-5.png" alt="alt text"> &lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-13.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.lang&lt;/td>
+&lt;td>Language&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.lastRead&lt;/td>
+&lt;td>Last Read&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.moreInfo&lt;/td>
+&lt;td>Publication Details&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.myBooks&lt;/td>
+&lt;td>My publications&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.noPublicationHelpL1&lt;/td>
+&lt;td>Drop files here&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.noPublicationHelpL2&lt;/td>
+&lt;td>or use the &amp;ldquo;{{- importTitle }}&amp;rdquo; button above.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.noPublicationHelpL3&lt;/td>
+&lt;td>LCP-protected publications are supported.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.noPublicationHelpL4&lt;/td>
+&lt;td>Supported extensions:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.numberOfPages&lt;/td>
+&lt;td>Number of pages&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.auth.cancel&lt;/td>
+&lt;td>Cancel&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.auth.login&lt;/td>
+&lt;td>Login&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.auth.password&lt;/td>
+&lt;td>Password&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.auth.register&lt;/td>
+&lt;td>Register&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.auth.username&lt;/td>
+&lt;td>Username / Email Address&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.availableSince&lt;/td>
+&lt;td>Since&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.availableState.available&lt;/td>
+&lt;td>Available&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.availableState.ready&lt;/td>
+&lt;td>Ready&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.availableState.reserved&lt;/td>
+&lt;td>Reserved&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.availableState.unavailable&lt;/td>
+&lt;td>Unavailable&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.availableState.unknown&lt;/td>
+&lt;td>Unknown&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.availableUntil&lt;/td>
+&lt;td>Until&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.copyAvalaible&lt;/td>
+&lt;td>Available&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.copyTotal&lt;/td>
+&lt;td>Copies&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.holdPosition&lt;/td>
+&lt;td>Hold position&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.holdTotal&lt;/td>
+&lt;td>Held&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.numberOfItems&lt;/td>
+&lt;td>Number of items&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.priveValue&lt;/td>
+&lt;td>Price&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.opds.info.state&lt;/td>
+&lt;td>State&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.publisher&lt;/td>
+&lt;td>Publisher&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.readBook&lt;/td>
+&lt;td>Read&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.released&lt;/td>
+&lt;td>Published on&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.sort&lt;/td>
+&lt;td>Sort by&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.tag&lt;/td>
+&lt;td>Tag&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.tags&lt;/td>
+&lt;td>Tags&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>catalog.update&lt;/td>
+&lt;td>Edit&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.annotations.descAuthor&lt;/td>
+&lt;td>of {{- author}}&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.annotations.descList&lt;/td>
+&lt;td>{{- nb}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-26.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.annotations.descNewer&lt;/td>
+&lt;td>{{- nb}} newer versions of these notes are already associated with the publication.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.annotations.descOlder&lt;/td>
+&lt;td>{{- nb}} older versions of these notes are already associated with the publication.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.annotations.descTitle&lt;/td>
+&lt;td>Annotation Set Title:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-25.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.annotations.importAll&lt;/td>
+&lt;td>Import all notes&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.annotations.importWithoutConflict&lt;/td>
+&lt;td>Import notes without conflict&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.annotations.title&lt;/td>
+&lt;td>Do you want to import these notes ?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-24.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.cancel&lt;/td>
+&lt;td>Cancel&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.deleteAnnotations&lt;/td>
+&lt;td>Delete annotations?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-22.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.deleteAnnotationsText&lt;/td>
+&lt;td>Do you want to delete {{- annotationListLength}} annotation(s)?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-23.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.deleteFeed&lt;/td>
+&lt;td>Delete catalog?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.deletePublication&lt;/td>
+&lt;td>Delete publication?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.import&lt;/td>
+&lt;td>Confirm import:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.importError&lt;/td>
+&lt;td>An error occurred, verify the file extension ({{acceptedExtension}})&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.renew&lt;/td>
+&lt;td>Renew/extend loan?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.return&lt;/td>
+&lt;td>Return publication?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dialog.yes&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>error.errorBox.error&lt;/td>
+&lt;td>Error message:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>error.errorBox.message&lt;/td>
+&lt;td>Error in {{- filename}}&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>error.errorBox.title&lt;/td>
+&lt;td>Internal {{- appName}} Error&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.allBooks&lt;/td>
+&lt;td>All publications&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.catalogs&lt;/td>
+&lt;td>Catalogs&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.downloads&lt;/td>
+&lt;td>Downloads&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.fitlerTagTitle&lt;/td>
+&lt;td>Filter by tag&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.gridTitle&lt;/td>
+&lt;td>Grid&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.home&lt;/td>
+&lt;td>Bookshelf menu&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.homeTitle&lt;/td>
+&lt;td>Home&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.importTitle&lt;/td>
+&lt;td>Import publication&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.listTitle&lt;/td>
+&lt;td>Table&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.myCatalogs&lt;/td>
+&lt;td>My catalogs&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.refreshTitle&lt;/td>
+&lt;td>reload&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.searchPlaceholder&lt;/td>
+&lt;td>Search&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.searchTitle&lt;/td>
+&lt;td>Search&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.settings&lt;/td>
+&lt;td>Settings&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>header.viewMode&lt;/td>
+&lt;td>View mode&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>library.lcp.hint&lt;/td>
+&lt;td>Hint:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>library.lcp.open&lt;/td>
+&lt;td>Open&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>library.lcp.password&lt;/td>
+&lt;td>Passphrase&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>library.lcp.sentence&lt;/td>
+&lt;td>This publication needs an LCP passphrase to be opened&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>library.lcp.urlHint&lt;/td>
+&lt;td>Forgot your passphrase? Click here to get support.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>library.lcp.whatIsLcp?&lt;/td>
+&lt;td>What is LCP?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>library.lcp.whatIsLcpInfoDetails&lt;/td>
+&lt;td>LCP stands for &amp;lsquo;Licensed Content Protection&amp;rsquo;.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>library.lcp.whatIsLcpInfoDetailsLink&lt;/td>
+&lt;td>To learn more, click this link to the EDRLab website.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.annotations.alreadyImported&lt;/td>
+&lt;td>All annotations already imported, aborting the importation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-27.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.annotations.emptyFile&lt;/td>
+&lt;td>No annotations available in the file&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-29.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.annotations.errorParsing&lt;/td>
+&lt;td>Error file format parsing:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-28.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.annotations.noBelongTo&lt;/td>
+&lt;td>Unable to import annotations set, at least one annotation does not belong to the publication&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.annotations.nothing&lt;/td>
+&lt;td>There are no annotations ready to be imported, aborting the importation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.annotations.success&lt;/td>
+&lt;td>Success !&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.download.error&lt;/td>
+&lt;td>Downloading [{{- title}}] failed: [{{- err}}]&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.import.alreadyImport&lt;/td>
+&lt;td>[{{- title}}] was already imported.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.import.fail&lt;/td>
+&lt;td>Importing [{{- path}}] failed: [{{- err}}]&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.import.success&lt;/td>
+&lt;td>Importing [{{- title}}] completed.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>message.open.error&lt;/td>
+&lt;td>Loading publication failed: [{{- err}}]&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.addForm.addButton&lt;/td>
+&lt;td>Add&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.addForm.name&lt;/td>
+&lt;td>Name:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.addForm.namePlaceholder&lt;/td>
+&lt;td>Name&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.addForm.url&lt;/td>
+&lt;td>Link:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.addForm.urlPlaceholder&lt;/td>
+&lt;td>Link&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.addFormApiapp.title&lt;/td>
+&lt;td>Add library account&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.addMenu&lt;/td>
+&lt;td>Add OPDS feed&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.breadcrumbRoot&lt;/td>
+&lt;td>Catalogs&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.documentation&lt;/td>
+&lt;td>OPDS official website&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.empty&lt;/td>
+&lt;td>No publication found&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.firstPage&lt;/td>
+&lt;td>First&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.informations&lt;/td>
+&lt;td>Imagine a world where you can explore and download digital publications from public libraries and digital booksellers with just a few clicks. That&amp;rsquo;s exactly what the Open Publication Distribution System (OPDS) catalog format offers. With OPDS, you can navigate through catalogs from various ebook providers, sign up, borrow, buy a publication, or visit your personal bookshelf. You can even download an ebook or audiobook directly into Thorium Reader for instant reading.&lt;/td>
+&lt;td>So, how do you find an OPDS catalog? It&amp;rsquo;s simple. Look for a hyperlink (URL) leading to the catalog. Copy this URL into the Link field above. Keep in mind that there&amp;rsquo;s no one-stop shop for all active OPDS catalogs. You&amp;rsquo;ll need to contact your preferred library or bookseller and ask for their OPDS catalog URL. If you&amp;rsquo;re not sure where to start, Wikipedia has a few registries of OPDS catalogs in various languages that might be helpful.&lt;/td>
+&lt;td>The Name field is left at your convenience; it provides an easy way to identify the feed in Thorium Reader.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.lastPage&lt;/td>
+&lt;td>Last&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.menu.aboutBook&lt;/td>
+&lt;td>About publication&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.menu.addExtract&lt;/td>
+&lt;td>Import extract&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.menu.goBuyBook&lt;/td>
+&lt;td>Buy publication&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.menu.goLoanBook&lt;/td>
+&lt;td>Borrow publication&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.menu.goRevokeLoanBook&lt;/td>
+&lt;td>Revoke loan&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.menu.goSubBook&lt;/td>
+&lt;td>Subscribe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.network.error&lt;/td>
+&lt;td>Error accessing feed&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.network.noInternet&lt;/td>
+&lt;td>No internet&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.network.noInternetMessage&lt;/td>
+&lt;td>Try checking the network cable, modem, router or wifi&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.network.reject&lt;/td>
+&lt;td>Sorry, unexpected error!&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.network.timeout&lt;/td>
+&lt;td>Network timeout, please try again later&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.next&lt;/td>
+&lt;td>Next&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.previous&lt;/td>
+&lt;td>Previous&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.shelf&lt;/td>
+&lt;td>Shelf&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.updateForm.name&lt;/td>
+&lt;td>Name:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.updateForm.title&lt;/td>
+&lt;td>Edit OPDS feed&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.updateForm.updateButton&lt;/td>
+&lt;td>Edit&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.updateForm.url&lt;/td>
+&lt;td>Link:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>opds.whatIsOpds&lt;/td>
+&lt;td>What Is OPDS?&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessModeSufficient.textual&lt;/td>
+&lt;td>TTS &amp;amp; Screen reader friendly&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityFeature.alternativeText&lt;/td>
+&lt;td>Contains alternative text&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityFeature.displayTransformability&lt;/td>
+&lt;td>Adaptable text and layout&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityFeature.longDescription&lt;/td>
+&lt;td>Fully described graphical resources&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityFeature.printPageNumbers&lt;/td>
+&lt;td>Printed book pagination reference&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityFeature.readingOrder&lt;/td>
+&lt;td>Contains a reading order&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityFeature.synchronizedAudioText&lt;/td>
+&lt;td>Text &amp;amp; audio synchronised&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityFeature.tableOfContents&lt;/td>
+&lt;td>Contains a Table Of Contents&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.flashing&lt;/td>
+&lt;td>Flashing&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.motionSimulation&lt;/td>
+&lt;td>Motion simulation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.name&lt;/td>
+&lt;td>Hazard:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.noFlashing&lt;/td>
+&lt;td>No flashing&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.noMotionSimulation&lt;/td>
+&lt;td>No motion simulation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.noSound&lt;/td>
+&lt;td>No sound&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.none&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.sound&lt;/td>
+&lt;td>Sound&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.accessibilityHazard.unknown&lt;/td>
+&lt;td>Unknown&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.certifierReport&lt;/td>
+&lt;td>Certifier report:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.conformsTo&lt;/td>
+&lt;td>Conforms to:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.moreInformation&lt;/td>
+&lt;td>More information&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.name&lt;/td>
+&lt;td>Accessibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.accessibility.noA11y&lt;/td>
+&lt;td>No accessibility information available&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.actions&lt;/td>
+&lt;td>Actions&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.audio.tracks&lt;/td>
+&lt;td>Tracks&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.author&lt;/td>
+&lt;td>Author&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.cancelledLcp&lt;/td>
+&lt;td>This publication&amp;rsquo;s LCP license is cancelled.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.certificateRevoked&lt;/td>
+&lt;td>Revoked LCP license certificate.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.certificateSignatureInvalid&lt;/td>
+&lt;td>Invalid LCP license certificate signature.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.cover.img&lt;/td>
+&lt;td>cover image&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.day&lt;/td>
+&lt;td>day&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.days&lt;/td>
+&lt;td>days&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.duration.title&lt;/td>
+&lt;td>Duration&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.encryptedNoLicense&lt;/td>
+&lt;td>Publication is encrypted but lacks an LCP license!&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.expired&lt;/td>
+&lt;td>Loan expired&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.expiredLcp&lt;/td>
+&lt;td>This publication&amp;rsquo;s LCP license is expired.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.incorrectPassphrase&lt;/td>
+&lt;td>No stored passphrase fits the publication, or the entered passphrase is wrong.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.lcpEnd&lt;/td>
+&lt;td>End&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.lcpRightsCopy&lt;/td>
+&lt;td>Copied characters&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.lcpRightsPrint&lt;/td>
+&lt;td>Printed pages&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.lcpStart&lt;/td>
+&lt;td>Start&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.licenceLCP&lt;/td>
+&lt;td>License (LCP)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.licenseOutOfDate&lt;/td>
+&lt;td>Out of date LCP License.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.licenseSignatureDateInvalid&lt;/td>
+&lt;td>Invalid LCP license signature date.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.licenseSignatureInvalid&lt;/td>
+&lt;td>Invalid LCP license signature.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.licensed&lt;/td>
+&lt;td>Licensed&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.markAsRead&lt;/td>
+&lt;td>Mark as read&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-2.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.notStarted&lt;/td>
+&lt;td>Not Started&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.onGoing&lt;/td>
+&lt;td>In Progress&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.progression.title&lt;/td>
+&lt;td>Progression&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.read&lt;/td>
+&lt;td>Finished&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.remainingTime&lt;/td>
+&lt;td>Loan (remaining time)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.renewButton&lt;/td>
+&lt;td>Renew&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.returnButton&lt;/td>
+&lt;td>Return&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.returnedLcp&lt;/td>
+&lt;td>This LCP-protected publication is returned.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.revokedLcp&lt;/td>
+&lt;td>This publication&amp;rsquo;s LCP license is revoked.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.seeLess&lt;/td>
+&lt;td>See less&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.seeMore&lt;/td>
+&lt;td>See more&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.timeLeft&lt;/td>
+&lt;td>Remaining time&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.title&lt;/td>
+&lt;td>Title&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>publication.userKeyCheckInvalid&lt;/td>
+&lt;td>Incorrect passphrase.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.Color&lt;/td>
+&lt;td>Color&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.addNote&lt;/td>
+&lt;td>Annotate&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.advancedMode&lt;/td>
+&lt;td>Instant mode (auto create after select)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-35.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.annotationsExport.description&lt;/td>
+&lt;td>Name this set of annotations&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-52.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.annotationsExport.title&lt;/td>
+&lt;td>Title&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-51.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.annotationsOptions&lt;/td>
+&lt;td>Options&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-15.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.colors.bluegreen&lt;/td>
+&lt;td>Blue-green&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-47.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.colors.cyan&lt;/td>
+&lt;td>Cyan&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-48.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.colors.green&lt;/td>
+&lt;td>Green&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-46.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.colors.lightblue&lt;/td>
+&lt;td>Light Blue&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-49.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.colors.orange&lt;/td>
+&lt;td>Orange&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-44.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.colors.purple&lt;/td>
+&lt;td>Purple&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-50.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.colors.red&lt;/td>
+&lt;td>Red&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-43.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.colors.yellow&lt;/td>
+&lt;td>Yellow&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-45.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.filter.all&lt;/td>
+&lt;td>All&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-42.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.filter.filterByColor&lt;/td>
+&lt;td>Filter by Color&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-20.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.filter.filterByCreator&lt;/td>
+&lt;td>Filter by Creator&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-30.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.filter.filterByDrawtype&lt;/td>
+&lt;td>Filter by Drawtype&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-21.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.filter.filterByTag&lt;/td>
+&lt;td>Filter by Tag&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-19.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.filter.filterOptions&lt;/td>
+&lt;td>Filter Options&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-12.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.filter.none&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-39.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.hide&lt;/td>
+&lt;td>Do not display&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-38.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.highlight&lt;/td>
+&lt;td>Highlight&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.noSelectionToast&lt;/td>
+&lt;td>No selection&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-40.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.quickAnnotations&lt;/td>
+&lt;td>Quick create (skip editor)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-36.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.saveNote&lt;/td>
+&lt;td>Save&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-41.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.sorting.lastcreated&lt;/td>
+&lt;td>Last created&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-17.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.sorting.lastmodified&lt;/td>
+&lt;td>Last modified&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-18.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.sorting.progression&lt;/td>
+&lt;td>Progression&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-16.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.sorting.sortingOptions&lt;/td>
+&lt;td>Sorting Options&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-10.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.toggleMarginMarks&lt;/td>
+&lt;td>Display in margins&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-37.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.type.outline&lt;/td>
+&lt;td>Outline&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-34.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.type.solid&lt;/td>
+&lt;td>Solid background&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-31.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.type.strikethrough&lt;/td>
+&lt;td>Strikethrough&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-33.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.annotations.type.underline&lt;/td>
+&lt;td>Underline&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-32.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.divina.mute&lt;/td>
+&lt;td>mute audio&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.divina.unmute&lt;/td>
+&lt;td>unmute audio&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.fxl.fit&lt;/td>
+&lt;td>Fit&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.annotations&lt;/td>
+&lt;td>Annotations&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.bookmarks&lt;/td>
+&lt;td>Bookmarks&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.delete&lt;/td>
+&lt;td>Delete&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.edit&lt;/td>
+&lt;td>Edit&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.goTo&lt;/td>
+&lt;td>Go to page&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.landmarks&lt;/td>
+&lt;td>Landmarks&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.saveMark&lt;/td>
+&lt;td>Save bookmark&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.search&lt;/td>
+&lt;td>Search&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.searchResult&lt;/td>
+&lt;td>Search [{{- searchText}}]&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.marks.toc&lt;/td>
+&lt;td>Table of Contents&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.activate&lt;/td>
+&lt;td>Activate Readaloud&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.captions&lt;/td>
+&lt;td>Captions / clean view&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.captionsDescription&lt;/td>
+&lt;td>Simplified text view with minimal captions styling.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.next&lt;/td>
+&lt;td>Next Readaloud&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.pause&lt;/td>
+&lt;td>Pause Readaloud&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.play&lt;/td>
+&lt;td>Play Readaloud&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.previous&lt;/td>
+&lt;td>Previous Readaloud&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.skip&lt;/td>
+&lt;td>Skippability&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.skipDescription&lt;/td>
+&lt;td>Jump over / ignore auxiliary content such as pagebreaks, footnotes/endnotes, etc.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.speed&lt;/td>
+&lt;td>Readaloud playback rate&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.stop&lt;/td>
+&lt;td>Stop Readaloud&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.media-overlays.title&lt;/td>
+&lt;td>Readaloud&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.annotationTitle&lt;/td>
+&lt;td>annotation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.backHomeTitle&lt;/td>
+&lt;td>back to bookshelf&lt;/td>
+&lt;td>In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front.&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-9.png" alt="alt text">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.bookmarkTitle&lt;/td>
+&lt;td>bookmark&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.currentPage&lt;/td>
+&lt;td>Current page: {{- current}}&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.currentPageTotal&lt;/td>
+&lt;td>Current page: {{- current}}/{{- total}}&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.detachWindowTitle&lt;/td>
+&lt;td>show library / bookshelf window&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.fullscreenTitle&lt;/td>
+&lt;td>go fullscreen&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.goTo&lt;/td>
+&lt;td>Go to&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.goToError&lt;/td>
+&lt;td>Page break does not exist&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.goToPlaceHolder&lt;/td>
+&lt;td>Enter page number&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.goToTitle&lt;/td>
+&lt;td>Go to page&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.historyNext&lt;/td>
+&lt;td>Jump forward&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.historyPrevious&lt;/td>
+&lt;td>Jump back&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.infoTitle&lt;/td>
+&lt;td>information&lt;/td>
+&lt;td>This leads to the same panel previously c&amp;amp;alled by About, therefore, should be similarly labeled&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.magnifyingGlassButton&lt;/td>
+&lt;td>search publication&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.openTableOfContentsTitle&lt;/td>
+&lt;td>navigation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.page&lt;/td>
+&lt;td>Page&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.pdfscalemode&lt;/td>
+&lt;td>Page fit or width&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.settingsTitle&lt;/td>
+&lt;td>settings&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.picker.search.founds&lt;/td>
+&lt;td>{{- nResults}} match(es)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.picker.search.input&lt;/td>
+&lt;td>text to match&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.picker.search.next&lt;/td>
+&lt;td>Next&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.picker.search.notFound&lt;/td>
+&lt;td>no matches&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.picker.search.previous&lt;/td>
+&lt;td>Previous&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.picker.search.results&lt;/td>
+&lt;td>Results&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.picker.search.submit&lt;/td>
+&lt;td>Find&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.picker.searchTitle&lt;/td>
+&lt;td>Search:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.column.auto&lt;/td>
+&lt;td>Default&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.column.one&lt;/td>
+&lt;td>1 col&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.column.title&lt;/td>
+&lt;td>Columns&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.column.two&lt;/td>
+&lt;td>2 cols&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.customFontSelected&lt;/td>
+&lt;td>You have chosen a personal font&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.customizeReader&lt;/td>
+&lt;td>Customize text formatting&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.disabled&lt;/td>
+&lt;td>disabled&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.display&lt;/td>
+&lt;td>Display&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.disposition.title&lt;/td>
+&lt;td>Layout&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.font&lt;/td>
+&lt;td>Font&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.fontSize&lt;/td>
+&lt;td>Font size&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.infoCustomFont&lt;/td>
+&lt;td>Select custom font from operating system by typing its name&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.justification&lt;/td>
+&lt;td>Alignment&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.justify&lt;/td>
+&lt;td>Justify&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.letterSpacing&lt;/td>
+&lt;td>Letter spacing&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.lineSpacing&lt;/td>
+&lt;td>Line spacing&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.margin&lt;/td>
+&lt;td>Margin&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.noFootnotes&lt;/td>
+&lt;td>Disable footnotes&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.noRTLFlip&lt;/td>
+&lt;td>Disable Right-To-Left UI&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.noRuby&lt;/td>
+&lt;td>Hide Japanese Ruby&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.paginated&lt;/td>
+&lt;td>Paginated&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.paraSpacing&lt;/td>
+&lt;td>Paragraph spacing&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.name.100pct&lt;/td>
+&lt;td>100%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.name.150pct&lt;/td>
+&lt;td>150%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.name.200pct&lt;/td>
+&lt;td>200%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.name.300pct&lt;/td>
+&lt;td>300%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.name.500pct&lt;/td>
+&lt;td>500%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.name.50pct&lt;/td>
+&lt;td>50%&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.name.fit&lt;/td>
+&lt;td>page fit&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.name.width&lt;/td>
+&lt;td>page width&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.pdfZoom.title&lt;/td>
+&lt;td>Zoom&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.preset.apply&lt;/td>
+&lt;td>Apply the preferred reading parameters&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.preset.applyDetails&lt;/td>
+&lt;td>Apply the preferred reading settings preset to the current book.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.preset.reset&lt;/td>
+&lt;td>Reset preferred reading settings&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.preset.resetDetails&lt;/td>
+&lt;td>Reset the preferred reading parameters and apply these default paremeters to the current book.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.preset.save&lt;/td>
+&lt;td>Save the preferred reading parameters&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.preset.saveDetails&lt;/td>
+&lt;td>Save the customized text parameters, so that they might be applied to other books, once open, by clicking on the button below.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.preset.title&lt;/td>
+&lt;td>Preset&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.preview&lt;/td>
+&lt;td>Preview&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.reduceMotion&lt;/td>
+&lt;td>Reduce motion&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.scrolled&lt;/td>
+&lt;td>Scrollable&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.spacing&lt;/td>
+&lt;td>Spacing&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.text&lt;/td>
+&lt;td>Text&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.name.Contrast1&lt;/td>
+&lt;td>Contrast 1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.name.Contrast2&lt;/td>
+&lt;td>Contrast 2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.name.Contrast3&lt;/td>
+&lt;td>Contrast 3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.name.Contrast4&lt;/td>
+&lt;td>Contrast 4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.name.Neutral&lt;/td>
+&lt;td>Neutral&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.name.Night&lt;/td>
+&lt;td>Night&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.name.Paper&lt;/td>
+&lt;td>Paper&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.name.Sepia&lt;/td>
+&lt;td>Sepia&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.theme.title&lt;/td>
+&lt;td>Theme&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.settings.wordSpacing&lt;/td>
+&lt;td>Word spacing&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.svg.left&lt;/td>
+&lt;td>Left&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.svg.right&lt;/td>
+&lt;td>Right&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.toc.publicationNoToc&lt;/td>
+&lt;td>No table of contents&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.activate&lt;/td>
+&lt;td>Activate Text To Speech (TTS)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.default&lt;/td>
+&lt;td>Voice: system default&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.next&lt;/td>
+&lt;td>Next TTS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.pause&lt;/td>
+&lt;td>Pause TTS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.play&lt;/td>
+&lt;td>Play TTS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.previous&lt;/td>
+&lt;td>Previous TTS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.sentenceDetect&lt;/td>
+&lt;td>Split TTS text&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.sentenceDetectDescription&lt;/td>
+&lt;td>Break long paragraphs into sentences.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.speed&lt;/td>
+&lt;td>TTS playback rate&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.stop&lt;/td>
+&lt;td>Stop TTS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.tts.voice&lt;/td>
+&lt;td>TTS voice&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.annotationCreator.creator&lt;/td>
+&lt;td>Creator&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.annotationCreator.name&lt;/td>
+&lt;td>Name&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.annotationCreator.organization&lt;/td>
+&lt;td>Organization&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.annotationCreator.person&lt;/td>
+&lt;td>Person&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.annotationCreator.type&lt;/td>
+&lt;td>Type:&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.auth.title&lt;/td>
+&lt;td>Manage access to catalogs&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.auth.wipeData&lt;/td>
+&lt;td>Clear login data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.keyboard.advancedMenu&lt;/td>
+&lt;td>Keyboard shortcuts advanced menu&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.keyboard.cancel&lt;/td>
+&lt;td>Cancel&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.keyboard.disclaimer&lt;/td>
+&lt;td>Shortcuts were defined from QWERTY keyboard layout.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.keyboard.editUserJson&lt;/td>
+&lt;td>Edit user file&amp;hellip;&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.keyboard.keyboardShortcuts&lt;/td>
+&lt;td>Keyboard shortcuts&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.keyboard.loadUserJson&lt;/td>
+&lt;td>Load from user file&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.keyboard.resetDefaults&lt;/td>
+&lt;td>Reset (load defaults)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.keyboard.save&lt;/td>
+&lt;td>Save&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.language.languageChoice&lt;/td>
+&lt;td>Language&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.library.enableAPIAPP&lt;/td>
+&lt;td>Activate access to Dilicom PNB API&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.library.title&lt;/td>
+&lt;td>Add a library account&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.session.title&lt;/td>
+&lt;td>Save session&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.tabs.appearance&lt;/td>
+&lt;td>Appearance&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.tabs.general&lt;/td>
+&lt;td>General&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.tabs.keyboardShortcuts&lt;/td>
+&lt;td>Keyboard shortcuts&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.theme.auto&lt;/td>
+&lt;td>Automatic&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.theme.dark&lt;/td>
+&lt;td>Dark&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.theme.description&lt;/td>
+&lt;td>Application theme matches operating system.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.theme.light&lt;/td>
+&lt;td>Light&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>settings.theme.title&lt;/td>
+&lt;td>Application Theme&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.buttons.discover&lt;/td>
+&lt;td>Discover what&amp;rsquo;s new&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.buttons.goToBooks&lt;/td>
+&lt;td>Go to my publications&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.buttons.next&lt;/td>
+&lt;td>Next&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.description.annotations&lt;/td>
+&lt;td>Highlight document text, choose style and color, attach personal notes. Create annotations in &amp;lsquo;quick&amp;rsquo; mode to bypass the editor (you can enter text and customize styles later). For extra speed, use the &amp;lsquo;instant&amp;rsquo; mode which creates annotations immediately after highlighting document text!&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.description.catalogs&lt;/td>
+&lt;td>Borrow publications from your local library or discover publications via OPDS feeds. Access a variety of publications from multiple sources thanks to online catalogs.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.description.home&lt;/td>
+&lt;td>Thorium looks different! Let&amp;rsquo;s discover what&amp;rsquo;s new&amp;hellip;&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.description.readingView1&lt;/td>
+&lt;td>Customize your reading and listening preferences: Thorium now offers multiple color themes for both the user interface and publication documents. It is now also easier to configure &amp;lsquo;readaloud&amp;rsquo; ebooks with synthetic speech and synchronized text/audio narration.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.description.readingView2&lt;/td>
+&lt;td>Thorium&amp;rsquo;s improved user interface makes it easier to find text in publications, explore search results, go to specific pages, browse the table of contents, create bookmarks, etc. thanks to the new &amp;lsquo;docked&amp;rsquo; panels. The fullscreen reading mode continues to offer a distraction-free environment.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.description.yourBooks&lt;/td>
+&lt;td>Welcome to your redesigned personal bookshelf! In the &amp;lsquo;grid&amp;rsquo; view, easily filter by tags or find publications by keywords. In the advanced &amp;rsquo;table&amp;rsquo; view, select and sort publications by specific authors, title, date, format, etc.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.dontShow&lt;/td>
+&lt;td>Don&amp;rsquo;t show again&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.tab.annotations&lt;/td>
+&lt;td>Annotations&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.tab.catalogs&lt;/td>
+&lt;td>Catalogs&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.tab.home&lt;/td>
+&lt;td>Home&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.tab.readingView&lt;/td>
+&lt;td>Reading view&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.tab.yourBooks&lt;/td>
+&lt;td>Your publications&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.title.allBooks&lt;/td>
+&lt;td>All my publications&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.title.newFeature&lt;/td>
+&lt;td>New feature: Annotations&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>wizard.title.welcome&lt;/td>
+&lt;td>Welcome to Thorium 3.0&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Th3: Localisation glossary</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/804_localisation_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/804_localisation_glossary/</guid><description>
+&lt;dl>
+&lt;!--
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+-->
+&lt;dt id="os">OS&lt;/dt>
+&lt;dd>operative system (in Thorium desktop context, it will be Windows, MACOS or Linux)&lt;/dd>
+&lt;dt id="osfilemanager">OS file manager window&lt;/dt>
+&lt;dd>a OS managed windows that allow access to navigate, select or write files in the OS file system. In desktop context, those are usually:
+* File Explorer for Windows
+* Finder for MAC OSX
+* Linux systems offers a larger variety like Gnome File, Nautilus, Nemo, Thunar, Dolphin, XFE, Konqueror, Krusader, etc.
+&lt;/dd>
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+&lt;dl></description></item><item><title>Docs: Credits</title><link>https://thorium.edrlab.org/en/docs/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/900_about/902_credits/</guid><description>
 &lt;p>This documentation site is designed and maintained by EDRLab
 as part of the development of the Thorium-Reader application.&lt;/p>
 &lt;p>The main contributors of this documentation are :&lt;/p>
