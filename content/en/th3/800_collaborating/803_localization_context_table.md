@@ -11,9 +11,9 @@ toc: false
 | accessibility.bookMenu| Menu	| In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items | ![screenshot](/images/localisation_context/locale_Context_Table-0.png)| 
 | accessibility.closeDialog| Close	| | | 
 | accessibility.importFile| Import publication	| | ![screenshot](/images/localisation_context/locale_Context_Table-1.png)| 
-| accessibility.leftSlideButton| Slide to the left	| | ![alt text](image-35.png)| 
+| accessibility.leftSlideButton| Slide to the left	| | ![screenshot](/images/localisation_context/locale_Context_Table-1-35.png)| 
 | accessibility.mainContent| main content	| | | 
-| accessibility.rightSlideButton| Slide to the right	|Button used in several places to display  | ![alt text](image-34.png)| 
+| accessibility.rightSlideButton| Slide to the right	|Button used in several places to display  | ![screenshot](/images/localisation_context/locale_Context_Table-1-34.png)| 
 | accessibility.skipLink| Skip to content	| | | 
 | accessibility.toolbar| toolbar	| | | 
 | apiapp.documentation| Thorium Documentation	| | ![screenshot](/images/localisation_context/locale_Context_Table-6.png)| 
@@ -50,11 +50,11 @@ toc: false
 | catalog.deleteTag| Delete tag	| | | 
 | catalog.description| Description	| | | 
 | catalog.emptyTagList| No tagged publications.	| | | 
-| catalog.entry.continueReading| Resume reading	| Library window, Home tab, First title. Under this title, the last opened books are listed. | ![alt text](image-32.png)| 
+| catalog.entry.continueReading| Resume reading	| Library window, Home tab, First title. Under this title, the last opened books are listed. | ![screenshot](/images/localisation_context/locale_Context_Table-1-32.png)| 
 | catalog.entry.continueReadingAudioBooks| Resume listening	| Not used in Thorium 3| | 
 | catalog.entry.continueReadingDivina| Resume divina	| Not used in Thorium 3| | 
 | catalog.entry.continueReadingPdf| Resume PDF	| Not used in Thorium 3| | 
-| catalog.entry.lastAdditions| Recently added	|Library window, Home tab, Second title. Under this title, the last added books are listed.  | ![alt text](image-33.png)| 
+| catalog.entry.lastAdditions| Recently added	|Library window, Home tab, Second title. Under this title, the last added books are listed.  | ![screenshot](/images/localisation_context/locale_Context_Table-1-33.png)| 
 | catalog.export| Save as	| Fourth element of the book menu, will open <a href="../804_localisation_glossary/#osfilemanager">OS file manager window</a> to select a place to save (export) the title| ![screenshot](/images/localisation_context/locale_Context_Table-4.png)| 
 | catalog.exportAnnotation| Save annotation as	| | ![screenshot](/images/localisation_context/locale_Context_Table-14.png)|
 |  catalog.format| Format	| | | 
@@ -102,7 +102,7 @@ toc: false
 |  dialog.annotations.importAll| Import all notes	| | |
 |  dialog.annotations.importWithoutConflict| Import notes without conflict	| | |
 |  dialog.annotations.title| Do you want to import these notes ?	| | ![screenshot](/images/localisation_context/locale_Context_Table-24.png)|
-|  dialog.cancel| Cancel	|Cancel button used in several contexts | ![alt text](image-31.png)| 
+|  dialog.cancel| Cancel	|Cancel button used in several contexts | ![screenshot](/images/localisation_context/locale_Context_Table-1-31.png)| 
 | dialog.deleteAnnotations| Delete annotations?	| | ![screenshot](/images/localisation_context/locale_Context_Table-22.png)|
 |  dialog.deleteAnnotationsText| Do you want to delete {{- annotationListLength}} annotation(s)?	| | ![screenshot](/images/localisation_context/locale_Context_Table-23.png)| 
 | dialog.deleteFeed| Delete catalog?	| | | 
@@ -130,14 +130,14 @@ toc: false
 | header.searchTitle| Search	| | | 
 | header.settings| Settings	| | | 
 | header.viewMode| View mode	| | | 
-| library.lcp.hint| Hint:	| |![alt text](image-29.png) | 
-| library.lcp.open| Open	| |![alt text](image-23.png) | 
-| library.lcp.password| Passphrase	| |![alt text](image-26.png) | 
-| library.lcp.sentence| This publication needs an LCP passphrase to be opened	| |![alt text](image-23.png) | 
-| library.lcp.urlHint| Forgot your passphrase? Click here to get support.	| |![alt text](image-24.png) | 
-| library.lcp.whatIsLcp?| What is LCP?	| |![alt text](image-25.png) | 
-| library.lcp.whatIsLcpInfoDetails| LCP stands for 'Licensed Content Protection'.	| |![alt text](image-27.png) | 
-| library.lcp.whatIsLcpInfoDetailsLink| To learn more, click this link to the EDRLab website.	| |![alt text](image-28.png) | 
+| library.lcp.hint| Hint:	| |![screenshot](/images/localisation_context/locale_Context_Table-1-29.png) | 
+| library.lcp.open| Open	| |![screenshot](/images/localisation_context/locale_Context_Table-1-23.png) | 
+| library.lcp.password| Passphrase	| |![screenshot](/images/localisation_context/locale_Context_Table-1-26.png) | 
+| library.lcp.sentence| This publication needs an LCP passphrase to be opened	| |![screenshot](/images/localisation_context/locale_Context_Table-1-23.png) | 
+| library.lcp.urlHint| Forgot your passphrase? Click here to get support.	| |![screenshot](/images/localisation_context/locale_Context_Table-1-24.png) | 
+| library.lcp.whatIsLcp?| What is LCP?	| |![screenshot](/images/localisation_context/locale_Context_Table-1-25.png) | 
+| library.lcp.whatIsLcpInfoDetails| LCP stands for 'Licensed Content Protection'.	| |![screenshot](/images/localisation_context/locale_Context_Table-1-27.png) | 
+| library.lcp.whatIsLcpInfoDetailsLink| To learn more, click this link to the EDRLab website.	| |![screenshot](/images/localisation_context/locale_Context_Table-1-28.png) | 
 | message.annotations.alreadyImported| All annotations already imported, aborting the importation	| | ![screenshot](/images/localisation_context/locale_Context_Table-27.png)| 
 | message.annotations.emptyFile| No annotations available in the file	| | ![screenshot](/images/localisation_context/locale_Context_Table-29.png)|
 |  message.annotations.errorParsing| Error file format parsing:	| |![screenshot](/images/localisation_context/locale_Context_Table-28.png) |
@@ -255,7 +255,7 @@ toc: false
 | reader.annotations.colors.purple| Purple	| | ![screenshot](/images/localisation_context/locale_Context_Table-50.png)| 
 | reader.annotations.colors.red| Red	| | ![screenshot](/images/localisation_context/locale_Context_Table-43.png)| 
 | reader.annotations.colors.yellow| Yellow	| | ![screenshot](/images/localisation_context/locale_Context_Table-45.png)|
-|reader.annotations.export|Save notes as|Export annotations context menu validation button|![screenshot](image.png)|
+|reader.annotations.export|Save notes as|Export annotations context menu validation button|![screenshot](/images/localisation_context/locale_Context_Table-1.png)|
 |  reader.annotations.filter.all| All	| | ![screenshot](/images/localisation_context/locale_Context_Table-42.png)|
 |  reader.annotations.filter.filterByColor| Filter by Color	| | ![screenshot](/images/localisation_context/locale_Context_Table-20.png)|
 |  reader.annotations.filter.filterByCreator| Filter by Creator	| | ![screenshot](/images/localisation_context/locale_Context_Table-30.png)|
@@ -396,48 +396,48 @@ toc: false
 | reader.tts.speed| TTS playback rate	| | | 
 | reader.tts.stop| Stop TTS	| | | 
 | reader.tts.voice| TTS voice	| | | 
-| settings.annotationCreator.creator| Creator	|Setting window, General Tab, at the bottom, there is now a level 4 section with this title. It allows to set up a name that will be assigned to annotations. It can be changed without affecting existing annotations. It will be exported with the Annotations export feature.  | ![alt text](image-12.png)|
-|  settings.annotationCreator.name| Name	| Title of the field where an annotations creator name can be added| ![alt text](image-11.png)|
-|  settings.annotationCreator.organization| Organization	|radio button to specify if the creator name refers to an organisation | ![edrlab](image-10.png)|
-|  settings.annotationCreator.person| Person	| radio button to specify if the creator name refers to a person| ![alt text](image-8.png)|
-|  settings.annotationCreator.type| Type:	| | ![alt text](image-9.png)|
+| settings.annotationCreator.creator| Creator	|Setting window, General Tab, at the bottom, there is now a level 4 section with this title. It allows to set up a name that will be assigned to annotations. It can be changed without affecting existing annotations. It will be exported with the Annotations export feature.  | ![screenshot](/images/localisation_context/locale_Context_Table-1-12.png)|
+|  settings.annotationCreator.name| Name	| Title of the field where an annotations creator name can be added| ![screenshot](/images/localisation_context/locale_Context_Table-1-11.png)|
+|  settings.annotationCreator.organization| Organization	|radio button to specify if the creator name refers to an organisation | ![edrlab](/images/localisation_context/locale_Context_Table-1-10.png)|
+|  settings.annotationCreator.person| Person	| radio button to specify if the creator name refers to a person| ![screenshot](/images/localisation_context/locale_Context_Table-1-8.png)|
+|  settings.annotationCreator.type| Type:	| | ![screenshot](/images/localisation_context/locale_Context_Table-1-9.png)|
 |  settings.auth.title| Manage access to catalogs	| | |
 |  settings.auth.wipeData| Clear login data	| | | 
 | settings.keyboard.advancedMenu| Keyboard shortcuts advanced menu	| | | 
 | settings.keyboard.cancel| Cancel	| | | 
-| settings.keyboard.disclaimer| Shortcuts were defined from QWERTY keyboard layout.	| Information available from the | ![alt text](image-18.png)| 
+| settings.keyboard.disclaimer| Shortcuts were defined from QWERTY keyboard layout.	| Information available from the | ![screenshot](/images/localisation_context/locale_Context_Table-1-18.png)| 
 | settings.keyboard.editUserJson| Edit user file...	| | | 
 | settings.keyboard.keyboardShortcuts| Keyboard shortcuts	| | | 
 | settings.keyboard.loadUserJson| Load from user file	| | | 
 | settings.keyboard.resetDefaults| Reset (load defaults)	| | | 
 | settings.keyboard.save| Save	| | | 
-| settings.language.languageChoice| Language	| Setting window, General tab, label for the dropdown menu to choose language (each language name is in it's own language)  | ![alt text](image-21.png)| 
+| settings.language.languageChoice| Language	| Setting window, General tab, label for the dropdown menu to choose language (each language name is in it's own language)  | ![screenshot](/images/localisation_context/locale_Context_Table-1-21.png)| 
 | settings.library.enableAPIAPP| Activate access to Dilicom PNB API	| | |
 |  settings.library.title| Add a library account	| | |
-|  settings.session.title| Save session	|Setting window, General tab. Check box. Saving session will cause thorium to reopen all windows that were opened when thorium was closed | ![alt text](image-22.png)| 
-| settings.tabs.appearance| Appearance	| Setting window, Appearance tab and title| ![alt text](image-14.png)| 
-| settings.tabs.general| General	| Setting window, General tab and title | ![alt text](image-20.png)| 
-| settings.tabs.keyboardShortcuts| Keyboard shortcuts	|  Setting window, Keyboard shortcuts tab and title| ![alt text](image-17.png)| 
-| settings.theme.auto| Automatic	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme according to the operating system settings  | ![alt text](image-16.png)| 
-| settings.theme.dark| Dark	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme as Dark | ![alt text](image-14.png)| 
-| settings.theme.description| Application theme matches operating system.	| Setting window, Appearance tab, Application Theme, under the dropdown menu, this information appears when Automatic is selected from the dropdown menu.| ![alt text](image-15.png)| 
-| settings.theme.light| Light	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme Light | ![alt text](image-13.png)| 
-| settings.theme.title| Application Theme	|Setting window, Appearance tab. Label of the dropdown menu to select Light, Dark or AUtomatic theme| ![alt text](image-19.png)| 
-| wizard.buttons.discover| Discover what's new	|Button at the bottom right of the Welcome tab from the WIzard panel; will shift to second tab of the wizard panel | ![alt text](image-1.png)| 
-| wizard.buttons.goToBooks| Go to my publications	|Button at the bottom right of the Welcome tab from the WIzard panel. Will close the wizard panel. | ![alt text](image-1.png)| 
+|  settings.session.title| Save session	|Setting window, General tab. Check box. Saving session will cause thorium to reopen all windows that were opened when thorium was closed | ![screenshot](/images/localisation_context/locale_Context_Table-1-22.png)| 
+| settings.tabs.appearance| Appearance	| Setting window, Appearance tab and title| ![screenshot](/images/localisation_context/locale_Context_Table-1-14.png)| 
+| settings.tabs.general| General	| Setting window, General tab and title | ![screenshot](/images/localisation_context/locale_Context_Table-1-20.png)| 
+| settings.tabs.keyboardShortcuts| Keyboard shortcuts	|  Setting window, Keyboard shortcuts tab and title| ![screenshot](/images/localisation_context/locale_Context_Table-1-17.png)| 
+| settings.theme.auto| Automatic	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme according to the operating system settings  | ![screenshot](/images/localisation_context/locale_Context_Table-1-16.png)| 
+| settings.theme.dark| Dark	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme as Dark | ![screenshot](/images/localisation_context/locale_Context_Table-1-14.png)| 
+| settings.theme.description| Application theme matches operating system.	| Setting window, Appearance tab, Application Theme, under the dropdown menu, this information appears when Automatic is selected from the dropdown menu.| ![screenshot](/images/localisation_context/locale_Context_Table-1-15.png)| 
+| settings.theme.light| Light	|Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme Light | ![screenshot](/images/localisation_context/locale_Context_Table-1-13.png)| 
+| settings.theme.title| Application Theme	|Setting window, Appearance tab. Label of the dropdown menu to select Light, Dark or AUtomatic theme| ![screenshot](/images/localisation_context/locale_Context_Table-1-19.png)| 
+| wizard.buttons.discover| Discover what's new	|Button at the bottom right of the Welcome tab from the WIzard panel; will shift to second tab of the wizard panel | ![screenshot](/images/localisation_context/locale_Context_Table-1-1.png)| 
+| wizard.buttons.goToBooks| Go to my publications	|Button at the bottom right of the Welcome tab from the WIzard panel. Will close the wizard panel. | ![screenshot](/images/localisation_context/locale_Context_Table-1-1.png)| 
 | wizard.buttons.next| Next	| | | 
-| wizard.description.annotations| Highlight document text, choose style and color, attach personal notes. Create annotations in 'quick' mode to bypass the editor (you can enter text and customize styles later). For extra speed, use the 'instant' mode which creates annotations immediately after highlighting document text!	|Wizard welcome window fifth tab text |![alt text](image-5.png) |
-| wizard.description.catalogs| Borrow publications from your local library or discover publications via OPDS feeds. Access a variety of publications from multiple sources thanks to online catalogs.	| Wizard welcome window third Panel description (catalogs)|![alt text](image-3.png)|  
-| wizard.description.home| Thorium looks different! Let's discover what's new...	| Wizard welcome windows first text (Home / Welcome)| ![alt text](image-1.png)|  
-| wizard.description.readingView1| Customize your reading and listening preferences: Thorium now offers multiple color themes for both the user interface and publication documents. It is now also easier to configure 'readaloud' ebooks with synthetic speech and synchronized text/audio narration.	| |![alt text](image-4.png)|  
+| wizard.description.annotations| Highlight document text, choose style and color, attach personal notes. Create annotations in 'quick' mode to bypass the editor (you can enter text and customize styles later). For extra speed, use the 'instant' mode which creates annotations immediately after highlighting document text!	|Wizard welcome window fifth tab text |![screenshot](/images/localisation_context/locale_Context_Table-1-5.png) |
+| wizard.description.catalogs| Borrow publications from your local library or discover publications via OPDS feeds. Access a variety of publications from multiple sources thanks to online catalogs.	| Wizard welcome window third Panel description (catalogs)|![screenshot](/images/localisation_context/locale_Context_Table-1-3.png)|  
+| wizard.description.home| Thorium looks different! Let's discover what's new...	| Wizard welcome windows first text (Home / Welcome)| ![screenshot](/images/localisation_context/locale_Context_Table-1-1.png)|  
+| wizard.description.readingView1| Customize your reading and listening preferences: Thorium now offers multiple color themes for both the user interface and publication documents. It is now also easier to configure 'readaloud' ebooks with synthetic speech and synchronized text/audio narration.	| |![screenshot](/images/localisation_context/locale_Context_Table-1-4.png)|  
 | wizard.description.readingView2| Thorium's improved user interface makes it easier to find text in publications, explore search results, go to specific pages, browse the table of contents, create bookmarks, etc. thanks to the new 'docked' panels. The fullscreen reading mode continues to offer a distraction-free environment.	| | | 
-| wizard.description.yourBooks| Welcome to your redesigned personal bookshelf! In the 'grid' view, easily filter by tags or find publications by keywords. In the advanced 'table' view, select and sort publications by specific authors, title, date, format, etc.	|Wizard welcome window second panel text | ![alt text](image-2.png) |
-| wizard.dontShow| Don't show again	|Wizard welcome window Checkbox to stop wizard opening at each Thorium start| ![alt text](image-7.png)| 
-| wizard.tab.annotations| Annotations	|Wizard welcome window fifth tab | ![alt text](image-5.png) | 
-| wizard.tab.catalogs| Catalogs	| Wizard welcome window third Panel title and Wizard tab label| ![alt text](image-3.png)| 
-| wizard.tab.home| Home	|Wizard welcome window first tab  | ![alt text](image-6.png)| 
-| wizard.tab.readingView| Reading view	| | ![alt text](image-4.png)| 
-| wizard.tab.yourBooks| Your publications	|Wizard welcome window second tab | ![alt text](image-2.png)| 
-| wizard.title.allBooks| All my publications|Wizard welcome window second Panel title | ![alt text](image-2.png)| 
-| wizard.title.newFeature| New feature: Annotations	|Wizard welcome window fifth tab title  |![alt text](image-5.png) | 
-| wizard.title.welcome| Welcome to Thorium 3.0	| Wizard welcome windows first panel| ![alt text](image-1.png)| 
+| wizard.description.yourBooks| Welcome to your redesigned personal bookshelf! In the 'grid' view, easily filter by tags or find publications by keywords. In the advanced 'table' view, select and sort publications by specific authors, title, date, format, etc.	|Wizard welcome window second panel text | ![screenshot](/images/localisation_context/locale_Context_Table-1-2.png) |
+| wizard.dontShow| Don't show again	|Wizard welcome window Checkbox to stop wizard opening at each Thorium start| ![screenshot](/images/localisation_context/locale_Context_Table-1-7.png)| 
+| wizard.tab.annotations| Annotations	|Wizard welcome window fifth tab | ![screenshot](/images/localisation_context/locale_Context_Table-1-5.png) | 
+| wizard.tab.catalogs| Catalogs	| Wizard welcome window third Panel title and Wizard tab label| ![screenshot](/images/localisation_context/locale_Context_Table-1-3.png)| 
+| wizard.tab.home| Home	|Wizard welcome window first tab  | ![screenshot](/images/localisation_context/locale_Context_Table-1-6.png)| 
+| wizard.tab.readingView| Reading view	| | ![screenshot](/images/localisation_context/locale_Context_Table-1-4.png)| 
+| wizard.tab.yourBooks| Your publications	|Wizard welcome window second tab | ![screenshot](/images/localisation_context/locale_Context_Table-1-2.png)| 
+| wizard.title.allBooks| All my publications|Wizard welcome window second Panel title | ![screenshot](/images/localisation_context/locale_Context_Table-1-2.png)| 
+| wizard.title.newFeature| New feature: Annotations	|Wizard welcome window fifth tab title  |![screenshot](/images/localisation_context/locale_Context_Table-1-5.png) | 
+| wizard.title.welcome| Welcome to Thorium 3.0	| Wizard welcome windows first panel| ![screenshot](/images/localisation_context/locale_Context_Table-1-1.png)| 
