@@ -251,8 +251,17 @@ kbd {
     font-weight: 500;
 }
 
+@media (max-width: 991.98px) {
+    .td-navbar .td-navbar-nav-scroll, .td-navbar .td-navbar-nav-scroll .navbar-nav {
+        overflow: unset;
+    }
+}
 
 // HOME //
+
+.td-box--gradient {
+    padding-bottom: 0!important;
+}
 
 .hero {
     padding-left: 100px !important;
@@ -314,6 +323,7 @@ kbd {
 .downloadPanel {
     margin-top: 70px;
     padding-top: 0 !important;
+    padding-bottom: 0!important;
 
     &_title {
         display: flex;
