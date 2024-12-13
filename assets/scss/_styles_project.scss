@@ -6,6 +6,10 @@ $color-purple: #6975CF;
 $color-extralight: #F4F8FD;
 
 
+.img-fluid, .td-content img {
+    max-width: none;
+    height: auto; }
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -227,6 +231,8 @@ kbd {
    color: black ;
 }
 
+
+
 @media (min-width: 768px){
 .td-navbar-cover {
     background: $color-grey !important;
@@ -245,8 +251,17 @@ kbd {
     font-weight: 500;
 }
 
+@media (max-width: 991.98px) {
+    .td-navbar .td-navbar-nav-scroll, .td-navbar .td-navbar-nav-scroll .navbar-nav {
+        overflow: unset;
+    }
+}
 
 // HOME //
+
+.td-box--gradient {
+    padding-bottom: 0!important;
+}
 
 .hero {
     padding-left: 100px !important;
@@ -308,6 +323,7 @@ kbd {
 .downloadPanel {
     margin-top: 70px;
     padding-top: 0 !important;
+    padding-bottom: 0!important;
 
     &_title {
         display: flex;

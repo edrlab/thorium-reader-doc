@@ -1,6 +1,6 @@
 ---
 title: About this ebook
-role:
+role: chapter
 draft: false
 ---
 

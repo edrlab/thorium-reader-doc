@@ -1,6 +1,6 @@
 ---
 title: Contribute
-role:
+role: chapter
 draft: false
 ---
 

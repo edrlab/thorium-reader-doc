@@ -1,6 +1,6 @@
 ---
 title: Reading PDFs
-role:
+role: chapter
 draft: false
 ---
 
