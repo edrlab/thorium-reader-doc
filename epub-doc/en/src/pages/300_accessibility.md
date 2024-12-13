@@ -1,6 +1,6 @@
 ---
 title: Accessibility
-role:
+role: chapter
 draft: false
 ---
 
@@ -15,12 +15,12 @@ mouse or the keyboard, and keyboard shortcuts are configurable. The
 display can be customized to meet the needs of users, including colors,
 text size, spacing, font and layout.
 
-::: warning
+ warning
 Attention !
 
 The accessibility features are strongly dependant and affected by the
 quality of the electronic publication files.
-:::
+
 
 ## Accessibility information {#a11y_info}
 
@@ -32,30 +32,30 @@ metadata ( [accessibilitySummary]{lang="en"}).
 complies with the SNE Charter - natively accessible textual EPUBs
 ».](../../resources/images/local-fr/thorium-bookinfo-a11ysummary.png)
 
-::: warning
+ warning
 Attention !
 
 Work is underway to develop a guide for displaying accessibility
 information. We are following this work and will implement the
 recommendations soon.
-:::
 
-::: danger
+
+ danger
 Attention !
 
 Accessibility information must be filled in by the editors. Thorium
 displays this information as it was defined. In case of doubt or
 complaint, please contact the distributor or the publisher of the file.
-:::
+
 
 ## Native accessibility functions {#a11y_native}
 
-::: warning
+ warning
 Attention !
 
 The native accessibility features offered by Thorium are strongly
 affected by the quality of the read files.
-:::
+
 
 ## Visual adjustments {#a11y_visual}
 
@@ -66,7 +66,7 @@ affected by the quality of the read files.
 -   it is possible to use all the fonts installed on the computer.
 
 -   It is possible to increase the size of an image with
-    [Shift+clic]{.kbd} on the image. Repeat several times to enlarge the
+   <kbd>Shift</kbd> + `Clic` on the image. Repeat several times to enlarge the
     image to the desired size.
 
 -   The display can be selected as paginated or scrolling.
@@ -77,12 +77,12 @@ affected by the quality of the read files.
 -   Spacing can be flexibly adjusted, with control over margin, word,
     letter and line.
 
-::: danger
+ danger
 Attention !
 
 Visual adjustments are not possible with fixed layout formats such as
 some EPUBs (so-called [Fixed Layout]{lang="en"}) or PDF files.
-:::
+
 
 ## Text-to-Speech (TTS) {#a11y_tts}
 

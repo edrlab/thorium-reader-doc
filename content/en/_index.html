@@ -23,8 +23,7 @@ linkTitle = "ThoriumReader"
 
         <div class="downloadPanel_title">
           <img class="left" src="https://www.edrlab.org/wp-content/uploads/2018/10/Miniature_blue.png" alt="" role="presentation"/>
-          <h1>Download links (Thorium 3.0)</h1>
-          
+          <h1 id="downloadlinks">Download links (Thorium 3.0)</h1>
         </div>
 
         <div class="downloadPanel_content">
@@ -35,12 +34,12 @@ linkTitle = "ThoriumReader"
               Windows
             </h2>
             <span>
-              <a class="download_button" href="https://bit.ly/thoriumreader-en">Windows Store
+              <a  id="downloadlinks-windowsstore" class="download_button" href="https://bit.ly/thoriumreader-en">Windows Store
                 <img src="/images/icons/download-icon.svg" alt="access"//>
               </a>
             </span>
             <span>
-              <a class="download_button"
+              <a id="downloadlinks-windowsexe" class="download_button"
                 href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/Thorium.Setup.3.0.0.exe">
                 Direct Install
                 <img src="/images/icons/download-icon.svg" alt="download"//>
@@ -56,14 +55,14 @@ linkTitle = "ThoriumReader"
               Mac
             </h2>
             <span>
-              <a class="download_button"
+              <a id="downloadlinks-macsilicon" class="download_button"
                 href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/Thorium-3.0.0-arm64.dmg">
                 Apple Silicon
                 <img src="/images/icons/download-icon.svg" alt="download"//>
               </a>
             </span>
             <span>
-              <a class="download_button"
+              <a id="downloadlinks-macintel" class="download_button"
                 href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/Thorium-3.0.0.dmg">
                 Intel
                 <img src="/images/icons/download-icon.svg" alt="download"//>
@@ -77,14 +76,14 @@ linkTitle = "ThoriumReader"
               Linux
             </h2>
             <span>
-              <a class="download_button"
+              <a id="downloadlinks-linuxapp"class="download_button"
                 href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/Thorium-3.0.0.AppImage">
                 AppImage
                 <img src="/images/icons/download-icon.svg" alt="download"//>
               </a>
             </span>
             <span>
-              <a class="download_button"
+              <a id="downloadlinks-linuxdeb" class="download_button"
                 href="https://github.com/edrlab/thorium-reader/releases/download/v3.0.0/EDRLab.ThoriumReader_3.0.0_amd64.deb">
                 Debian
                 <img src="/images/icons/download-icon.svg" alt="download"//>
@@ -107,7 +106,7 @@ linkTitle = "ThoriumReader"
         <p>Once Thorium Reader has been downloaded, installed and launched once, click on the button below to open the
           documentation catalogue in Thorium Reader.</p>
         <button
-          onclick="location.href='opds://rawcdn.githack.com/edrlab/publications/main/feeds/thorium3_documentation.json'">
+          onclick="location.href='opds://edrlab.github.io/publications/feeds/thorium3_documentation.json'">
           <img src="/images/icons/documentation-icon.svg"  alt="" role="presentation"//>
           <h2>Documentation</h2>
           <img src="/images/icons/doc-arrow-icon.svg"  alt="" role="presentation"//>

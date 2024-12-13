@@ -1,6 +1,6 @@
 ---
 title: Ressources
-role:
+role: chapter
 draft: false
 ---
 

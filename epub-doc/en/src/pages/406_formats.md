@@ -1,6 +1,6 @@
 ---
 title: Supported publication formats
-role:
+role: chapter
 draft: false
 ---
 
