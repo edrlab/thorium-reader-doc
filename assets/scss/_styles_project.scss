@@ -2,9 +2,12 @@
 $color-dark-blue: #1A3C6C;
 $color-orange: #EE8C3D;
 $color-grey: #6B748E;
-$color-purple: #6975CF; 
+$color-purple: darken(#6975CF, 3%); 
 $color-extralight: #F4F8FD;
 
+a {
+    color: #2f6bc0;
+}
 
 .img-fluid, .td-content img {
     max-width: none;
@@ -683,6 +686,10 @@ kbd {
         position: absolute;
         bottom: 10px;
         left: 20px;
+        a {
+            text-decoration: underline;
+            color: white;
+        }
     }
 
     &_links_block {
@@ -710,12 +717,14 @@ kbd {
 
     &_nav {
         .active {
+            text-decoration: underline;
             color: white;
         }
         
         a {
-            color: $color-grey;
+            color: rgb(218, 215, 215);
             font-size: 1.2rem;
+            text-decoration: none;
         }
     }
 }
@@ -1122,6 +1131,10 @@ kbd {
             flex: unset;
             margin-bottom: 50px;
         }
+
+        a {
+            text-decoration: underline;
+        }
     }
 
     .donation_section > img {
@@ -1132,6 +1145,9 @@ kbd {
         position: relative;
         right: unset;
         margin: auto;
+        p {
+            font-size: 20px;
+        }
     }
 
     .carousel button.prev {
