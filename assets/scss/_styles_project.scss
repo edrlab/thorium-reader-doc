@@ -1,12 +1,13 @@
 
 $color-dark-blue: #1A3C6C;
-$color-orange: #EE8C3D;
+$color-orange: darken(#EE8C3D, 10%);
 $color-grey: #6B748E;
 $color-purple: darken(#6975CF, 3%); 
 $color-extralight: #F4F8FD;
 
-a {
+a:not(.navbar *):not(.td-sidebar-nav *):not(.footer *):not(.about_banner_medias *):not(.about_header *):not(.downloadPanel *) {
     color: #2f6bc0;
+    text-decoration: underline;
 }
 
 .img-fluid, .td-content img {
@@ -426,6 +427,7 @@ kbd {
 
 .row {
     margin: 0;
+    padding-bottom: 50px;
 }
 
 .banner {
@@ -843,8 +845,9 @@ kbd {
         background-color: $color-orange;
         padding: 15px 20px;
         border-radius: 20px;
-        color: white;
-        font-size: 1.5rem;
+        color: white!important;
+        font-size: 2rem;
+        text-wrap: nowrap;
         &:after {
             content: "→";
             margin-right: 10px;
@@ -924,6 +927,7 @@ kbd {
         li {
             color: $color-orange;
             margin-top: 5px;
+            // font-size: 1.5rem;
 
             &::marker {
                 color: inherit;
@@ -1280,7 +1284,7 @@ kbd {
     }
 
     .big_button_orange {
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
     }
 
     .credits {
