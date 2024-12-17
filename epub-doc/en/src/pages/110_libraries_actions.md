@@ -21,9 +21,9 @@ Open Publication menu
     <img src="../../resources/images/local_en/th3_library_grid_actions.png" class="icon" alt="" role="presentation"/>
     <img src="../../resources/images/local_en/th3_library_table_actions.png" class="icon" alt="" role="presentation"/> It allows to:
     -   Open the book information panel (About publication,
-        <img src="../../resources/images/icons3/info-icon.svg){.icon         role="presentation"});
+        <img src="../../resources/images/icons3/info-icon.svg" class="icon"  alt="" role="presentation"/>);
     -   Mark the publication as read
-        (<img src="../../resources/images/icons3/doubleCheck-icon.svg){.icon         role="presentation"}) that will change the Progression status to
+        (<img src="../../resources/images/icons3/doubleCheck-icon.svg" class="icon" alt="" role="presentation"/>) that will change the Progression status to
         Finished;
     -   Delete the Publication
         (<img src="../../resources/images/icons3/bin-icon.svg" class="icon" alt="" role="presentation"/>) that will open a confirmation pop up;
