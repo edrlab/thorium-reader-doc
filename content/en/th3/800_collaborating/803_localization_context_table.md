@@ -280,7 +280,7 @@ toc: false
 | reader.divina.mute| mute audio	| | | 
 | reader.divina.unmute| unmute audio	| | | 
 | reader.fxl.fit| Fit	| | | 
-| reader.marks.annotations| Annotations	| | | 
+| reader.marks.annotations| Annotations	||| 
 | reader.marks.bookmarks| Bookmarks	| | | 
 | reader.marks.delete| Delete	| | | 
 | reader.marks.edit| Edit	| | | 
@@ -302,7 +302,7 @@ toc: false
 | reader.media-overlays.speed| Readaloud playback rate	| | | 
 | reader.media-overlays.stop| Stop Readaloud	| | | 
 | reader.media-overlays.title| Readaloud	| | | 
-| reader.navigation.annotationTitle| annotation	| | | 
+| reader.navigation.annotationTitle| annotation	|Reading windows tool bar top right button list opening the Annotation panel| ![screenshot](/images/localisation_context/annotation_title.png)| 
 | reader.navigation.backHomeTitle| back to bookshelf	|In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front. | ![screenshot](/images/localisation_context/locale_Context_Table-9.png)| 
 | reader.navigation.bookmarkTitle| bookmark	| | | 
 | reader.navigation.currentPage| Current page: {{- current}}	| | | 
