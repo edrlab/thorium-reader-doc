@@ -1258,13 +1258,13 @@ The Marrakech Treaty
 &lt;tr>
 &lt;td>accessibility.closeDialog&lt;/td>
 &lt;td>Close&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Accessible name (&lt;code>aria-label&lt;/code>) of the close button (with a X pictogram) used in several places and contexts, to close the panels (settings, annotations, navigation, Add OPDS, etc),&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/accessibility_closeDialog.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.importFile&lt;/td>
 &lt;td>Import publication&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Available from the Home and Library views, this button opens a system file explorer window to select a file to import&lt;/td>
 &lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1276,8 +1276,8 @@ The Marrakech Treaty
 &lt;tr>
 &lt;td>accessibility.mainContent&lt;/td>
 &lt;td>main content&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Accessible name (&lt;code>aria-label&lt;/code>) of the main part of the window, not rendered visually but rendered thru screen reader&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/accessibility_mainContent.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.rightSlideButton&lt;/td>
@@ -1288,14 +1288,14 @@ The Marrakech Treaty
 &lt;tr>
 &lt;td>accessibility.skipLink&lt;/td>
 &lt;td>Skip to content&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>First keyboard tab stroke in a reading window will make appear this link to skip the navigation bar and reach directly the content of the book, so keyboard and screen reader users can access quickly to the book content&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/skiplink.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.toolbar&lt;/td>
 &lt;td>toolbar&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Accessible Name (&lt;code>title&lt;/code> and &lt;code>aria-label&lt;/code> of the main toolbar). Does not appears visually but is rendered to screen reader user&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/accessibility_toolbar.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>apiapp.documentation&lt;/td>
@@ -1306,13 +1306,13 @@ The Marrakech Treaty
 &lt;tr>
 &lt;td>apiapp.howItWorks&lt;/td>
 &lt;td>How does it work?&lt;/td>
-&lt;td>A pliable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel&lt;/td>
+&lt;td>A foldable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel&lt;/td>
 &lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-8.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>apiapp.informations&lt;/td>
 &lt;td>In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It&amp;rsquo;s simple. Enter a French city (&amp;lsquo;Paris&amp;rsquo;) or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>This context explanation appears when the apiapp.howItWorks button is unfold&lt;/td>
 &lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-7.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3021,9 +3021,9 @@ The Marrakech Treaty
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.navigation.backHomeTitle&lt;/td>
-&lt;td>back to bookshelf&lt;/td>
-&lt;td>In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front.&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-9.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front. If more than one reading window are opened, this will only close the reading window where the button was activated. Other reading windows will remain in the background.&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/backtobookshelf_closewindow.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.navigation.bookmarkTitle&lt;/td>
