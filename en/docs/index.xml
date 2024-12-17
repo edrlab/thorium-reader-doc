@@ -3016,8 +3016,8 @@ The Marrakech Treaty
 &lt;tr>
 &lt;td>reader.navigation.annotationTitle&lt;/td>
 &lt;td>annotation&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Reading windows tool bar top right button list opening the Annotation panel&lt;/td>
+&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/annotation_title.png" alt="screenshot">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.navigation.backHomeTitle&lt;/td>
