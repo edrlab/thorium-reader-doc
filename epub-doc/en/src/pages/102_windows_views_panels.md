@@ -119,12 +119,34 @@ window that you can arrange at your will.
 
 ### Reading navigation panel {#reading_nav_panel}
 
-
+Reachable from the reading window top toolbar, that panel contains a dropdown menu to access different navigation means. The availability and content of each navigation mean. For epub, those are:
+* **Table of Content** (TOC), an authored listing of ebook content, usually similar to the content heading structure but not necessary. A content creator can decide per example to limit the Table of Content to a certain depth.
+* **Landmarks**, an authored list of major interest points of the ebook, usually Forewords, Copyright notice, Main content and annexes. 
+* **Go to page**, an authored list of page breaks. The page list may refers to a print version and allow to use the ebook in a mixed reading environment, so it becomes possible to locate or make a citation. In such case, Thorium Reader actually offers no mean to identify the related print book, it has to be textually and explicitly informed in the content by the content creator.  
+* **Search**, a generated list of search match(es) to help reader navigate between search results. This panel has content only when the search function is activated. 
+* **Bookmarks**, a generated list of user bookmarks. This panel  offer the possibility to delete the bookmark or edit it's attached text and informs in percents the reading progression where it stands.
+* **Annotations**, a generated list of user annotations
 
 ### Reading settings panel {#reading_settings_panel}
 
+Reachable from the reading window top toolbar, that panel contains all possible user settings to adjust the display of the textual contents. It is important to remember that such possibilities may be restricted by how the content was created. 
 
-
+Detailed information about available reading settings per formats are available from the 
+<a href="../pages/210_reading/index.xhtml">Reading sub sections</a>:
+<ul>
+   <li>
+      <a href="../pages/211_reading_textuals/index.xhtml">Reading textual contents</a>
+    </li>
+    <li>
+      <a href="../pages/212_reading_visuals/index.xhtml">Reading visual contents</a>
+    </li>
+    <li>
+      <a href="../pages/213_reading_auditory/index.xhtml">Reading audio contents</a>
+    </li>
+    <li>
+      <a href="../pages/214_reading_pdfs/index.xhtml">Reading PDFs</a>
+    </li>
+</ul>
 
 ## Book Information panel {#book_info_panel}
 
