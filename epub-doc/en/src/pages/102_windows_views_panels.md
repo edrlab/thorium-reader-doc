@@ -97,7 +97,7 @@ Application settings is divided in three tabs:
     2. Save session (meaning that the application will remember the
     windows opened at closing and reopen them when launched again).
     4. Add a library account by activating access to Dilicom PNB API. A How does it works foldable gives more details about this functionality used to access French public libraries.
-    5. Creator allows to set up a Name to be added to annotations. This Name can be categorised as Organization or Person. It will be exported with Annotations, so users must pay attention to potential privacy issues.
+    5. Creator allows to set up a Name to be added to annotations. This Name can be categorised as Organization or Person. It will be exported with Annotations, so users must pay attention to potential privacy issues. Leaving this field blank will cause the annotations to be attributed to "Unknown1".
 
 2.  The Appearance Tab let you choose the application Theme (dark, light
     or automatic to fit the system preference).
