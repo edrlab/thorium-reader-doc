@@ -4,7 +4,7 @@ role: chapter
 draft: false
 ---
 
-## Annotations
+# Annotations
 
 *Annotations have been introduced first in Thorium 3, as a new feature,
 it may present unexpected behaviors. Let us know any difficulty you face
@@ -40,3 +40,5 @@ For options are available from this Panel:
 The combination of Instant mode and Quick create options let you use the
 serial annotator mode as any selection will create an highlight without
 prompting any pop up.
+
+## Export and Import of Annotations {#annotations_io}
