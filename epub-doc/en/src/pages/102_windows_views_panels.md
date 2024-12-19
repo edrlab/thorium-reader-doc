@@ -90,13 +90,15 @@ Details and how to set up and use catalogs are available from the
 
 Application settings is divided in three tabs:
 
-1.  The General Tab allow you to select the language of the interface
-    and to Save session (meaning that the application will remember the
-    windows opened at closing and reopen them when launched again). The
-    <span class="ui_button">clear login data</span> button will delete any Catalog
-    authentification previously stored (useful if you are reading on a
-    public or shared computer or if you want to change the account with
+1.  The General Tab allow you to:
+    1. select the language of the interface, 
+    2. Manage stored authentification access to catalogues. The <span class="ui_button">clear login data</span> button will delete any Catalog authentification previously stored (useful if you are reading on a public or shared computer or if you want to change the account with
     wich you are connected).
+    2. Save session (meaning that the application will remember the
+    windows opened at closing and reopen them when launched again).
+    4. Add a library account by activating access to Dilicom PNB API. A How does it works foldable gives more details about this functionality used to access French public libraries.
+    5. Creator allows to set up a Name to be added to annotations. This Name can be categorised as Organization or Person. It will be exported with Annotations, so users must pay attention to potential privacy issues.
+
 2.  The Appearance Tab let you choose the application Theme (dark, light
     or automatic to fit the system preference).
 3.  The Keyboard shortcuts Tab help you check and manipulate keyboard
