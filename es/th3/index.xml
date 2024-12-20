@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Soporte de torio 3</title><link>https://thorium.edrlab.org/es/th3/</link><description>Recent content in Soporte de torio 3 on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/es/th3/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: ¿Dónde conseguir libros electrónicos?</title><link>https://thorium.edrlab.org/es/th3/get_ebooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/get_ebooks/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Soporte de Thorium Reader 3</title><link>https://thorium.edrlab.org/es/th3/</link><description>Recent content in Soporte de Thorium Reader 3 on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/es/th3/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: ¿Dónde conseguir libros electrónicos?</title><link>https://thorium.edrlab.org/es/th3/get_ebooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/get_ebooks/</guid><description>
 &lt;p>En la era digital, los libros electrónicos ofrecen comodidad, accesibilidad y, a menudo, asequibilidad. Ya sea que esté buscando el último éxito de ventas, una novela clásica, un libro de texto o un artículo académico, existe una fuente de libros electrónicos para usted. Esta guía le ofrece una variedad de opciones, tanto gratuitas como pagas, para encontrar y disfrutar de los libros electrónicos. ¡Feliz lectura!&lt;/p>
 &lt;p>El panorama de lugares donde encontrar libros electrónicos es muy variado y está en constante evolución. Las fuentes locales siempre serán más pertinentes para usted; esta guía solo ofrece una lista breve de fuentes conocidas.&lt;/p>
 &lt;h2 id="bibliotecas-públicas">Bibliotecas Públicas:&lt;/h2>
@@ -587,7 +587,12 @@
 &lt;p>Para agregar una traducción, puede comenzar desde el inglés &amp;ldquo;en.json&amp;rdquo;, cambiarle el nombre y cambiar los valores después de los dos puntos (:).&lt;/p>
 &lt;p>Si se siente cómodo con Github, puede abrir una solicitud de extracción para enviar el archivo.&lt;/p>
 &lt;p>De lo contrario, puede enviarnos el archivo localizado por correo electrónico y procederemos a agregarlo. Se mantiene una lista de colaboradores en la página wiki Traducción de idiomas de localización (l10n).&lt;/p>
-&lt;p>Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)&lt;/p></description></item><item><title>Th3: Créditos</title><link>https://thorium.edrlab.org/es/th3/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about/902_credits/</guid><description>
+&lt;p>Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)&lt;/p></description></item><item><title>Th3: Condiciones de uso</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
+&lt;p>Por motivos legales, los términos de uso del software, disponibles en inglés, no están traducidos.&lt;/p>
+&lt;p>Los encontrarás en la página en inglés.
+&lt;span lang="en">
+&lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/">Terms of use&lt;/a>
+&lt;/span>&lt;/p></description></item><item><title>Th3: Créditos</title><link>https://thorium.edrlab.org/es/th3/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about/902_credits/</guid><description>
 &lt;p>Este sitio de documentación está diseñado y mantenido por EDRLab como parte del desarrollo de la aplicación Thorium-Reader.&lt;/p>
 &lt;p>Los principales contribuyentes a esta documentación son:&lt;/p>
 &lt;ul>
@@ -629,7 +634,12 @@
 &lt;li>Biblioteca electrónica canadiense, Canadá&lt;/li>
 &lt;li>MLOL / Horizons Unlimited, Italia&lt;/li>
 &lt;li>Lyrasis, Estados Unidos&lt;/li>
-&lt;/ul></description></item><item><title>Th3: Tu ayuda es valiosa</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</guid><description>
+&lt;/ul></description></item><item><title>Th3: Política de privacidad</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
+&lt;p>Por motivos legales, la política de privacidad del software, disponible en inglés, no está traducida.&lt;/p>
+&lt;p>Lo encontrarás en la página en inglés.
+&lt;span lang="en">
+&lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/902_thorium-privacy-policy/">Privacy policy&lt;/a>
+&lt;/span>&lt;/p></description></item><item><title>Th3: Tu ayuda es valiosa</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</guid><description>
 &lt;p> Tú también puedes ayudar a que Thorium Reader se convierta en la mejor aplicación de lectura convirtiéndote &lt;a href="https://www.edrlab.org/become-a-member/">en miembro de EDRLab&lt;/a> o haciendo una donación a EDRLab a través de la "alcancía" &lt;a href="https://github.com/sponsors/edrlab">de patrocinio de Github&lt;/a> , que acepta pequeñas donaciones mensuales.&lt;/p>
 &lt;p> Thorium está construido por su comunidad. Si quieres participar, ¡contacta con nosotros!&lt;/p>
 &lt;p>También puedes:&lt;/p>
@@ -659,7 +669,20 @@ weight = 1
 languageName = &amp;#39;Español&amp;#39;
 contentDir = &amp;#39;content.es&amp;#39;
 weight = 3
-&lt;/code>&lt;/pre>&lt;p>Las imágenes localizadas, como capturas de pantalla, deben agregarse a la carpeta &lt;code>statics/images/local-(two letter language)&lt;/code> .&lt;/p></description></item><item><title>Th3: Licencia</title><link>https://thorium.edrlab.org/es/th3/900_about/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about/913_licence/</guid><description>
+&lt;/code>&lt;/pre>&lt;p>Las imágenes localizadas, como capturas de pantalla, deben agregarse a la carpeta &lt;code>statics/images/local-(two letter language)&lt;/code> .&lt;/p></description></item><item><title>Th3: Accessibility : conforms to WCAG 2.1 AA</title><link>https://thorium.edrlab.org/es/th3/950_about_this_website/912_accessibility_declaration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/950_about_this_website/912_accessibility_declaration/</guid><description>
+&lt;p>This site was tested with NVDA on Firefox on Windows 10.
+No accessibility blockers were found.&lt;/p>
+&lt;p>If you encounter any difficulties you can inform us via the
+contact form or by opening an issue on our
+&lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">support tracker&lt;/a>.&lt;/p>
+&lt;p>The page is in English but you can write in your language by telling us so we can
+in your language so that we can mobilize the right people.&lt;/p>
+&lt;p>Here is the information we need:&lt;/p>
+&lt;ul>
+&lt;li>Operating system and its version&lt;/li>
+&lt;li>Thorium version (it is indicated at the bottom of the library under the title About Thorium)&lt;/li>
+&lt;li>Assistive technology used.&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Licencia</title><link>https://thorium.edrlab.org/es/th3/900_about/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about/913_licence/</guid><description>
 &lt;h2 id="licencias">Licencias&lt;/h2>
 &lt;p>Copyright 2019 European Digital Reading Lab. Todos los derechos reservados. Licencia otorgada a Readium Foundation bajo uno o más acuerdos de licencia de colaborador.&lt;/p>
 &lt;p>La aplicación Thorium-Reader es de código abierto y se publicó bajo una licencia BSD 3. Se basa en el kit de herramientas de código abierto Readium Desktop.&lt;/p>

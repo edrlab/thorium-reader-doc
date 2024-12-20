@@ -562,7 +562,10 @@ Avoir une interface utilisateur pour exporter l’intégralité du catalogue n�
 &lt;p>Pour ajouter une traduction, vous pouvez partir de l&amp;rsquo;anglais &amp;ldquo;en.json&amp;rdquo;, le renommer en et modifier les valeurs après la ponctuation deux points (:).&lt;/p>
 &lt;p>Si vous êtes à l&amp;rsquo;aise avec github, vous pouvez ouvrir une pull request pour soumettre le fichier.&lt;/p>
 &lt;p>Sinon, vous pouvez simplement nous envoyer le fichier localisé par email et nous procéderons à l&amp;rsquo;ajout. Une liste des contributeurs est maintenue sur la page wiki Traduction de la langue de localisation (l10n).&lt;/p>
-&lt;p>Sachez que nous sommes actuellement en train de retravailler l&amp;rsquo;interface utilisateur, des changements importants pourraient donc survenir d&amp;rsquo;ici le premier trimestre 2024. Nous alertons généralement les contributeurs de localisation avant toute publication afin qu&amp;rsquo;ils puissent mettre à jour le fichier de traduction. Nous mentionnons également que le site Web de documentation de Thorium peut être localisé via une méthodologie de contribution similaire. ](../900_about)&lt;/p></description></item><item><title>Th3: Crédits</title><link>https://thorium.edrlab.org/fr/th3/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about/902_credits/</guid><description>
+&lt;p>Sachez que nous sommes actuellement en train de retravailler l&amp;rsquo;interface utilisateur, des changements importants pourraient donc survenir d&amp;rsquo;ici le premier trimestre 2024. Nous alertons généralement les contributeurs de localisation avant toute publication afin qu&amp;rsquo;ils puissent mettre à jour le fichier de traduction. Nous mentionnons également que le site Web de documentation de Thorium peut être localisé via une méthodologie de contribution similaire. ](../900_about)&lt;/p></description></item><item><title>Th3: Conditions d'utilisation</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
+&lt;p>Pour des raisons légales, les conditions d&amp;rsquo;utilisation du logiciel, disponibles en anglais, ne sont pas traduites.&lt;/p>
+&lt;p>Vous les trouverez à la page en anglais
+&lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/">Terms of use&lt;/a>&lt;/p></description></item><item><title>Th3: Crédits</title><link>https://thorium.edrlab.org/fr/th3/900_about/902_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about/902_credits/</guid><description>
 &lt;p>Ce site de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.&lt;/p>
 &lt;p>Les principaux contributeurs de cette documentation sont :&lt;/p>
 &lt;ul>
@@ -604,7 +607,36 @@ Avoir une interface utilisateur pour exporter l’intégralité du catalogue n�
 &lt;li>Bibliothèque électronique canadienne, Canada&lt;/li>
 &lt;li>MLOL / Horizons Unlimited, Italie&lt;/li>
 &lt;li>Lyrasis, États-Unis&lt;/li>
-&lt;/ul></description></item><item><title>Th3: Votre aide est précieuse</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</guid><description>
+&lt;/ul></description></item><item><title>Th3: Privacy Policy</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
+&lt;p>22 November 2022&lt;/p>
+&lt;h2 id="owner-of-the-application">Owner of the application&lt;/h2>
+&lt;p>European Digital Reading Lab
+14 rue Alexandre Parodi
+75010 Paris
+France&lt;/p>
+&lt;h2 id="types-of-data-collected">Types of data collected&lt;/h2>
+&lt;p>The application does not collect Personal Data from its users.&lt;/p>
+&lt;p>The application sends two kinds of non-personal data to servers:&lt;/p>
+&lt;p>1/ Generic usage data: a notification is sent to an EDRLab telemery server each time the application is started. This information is for analytics only and not accessed by any third party. It is used to get information about the evolution of the number of installs of the application per operating system, the evolution of usage sessions and the main locales in use.&lt;/p>
+&lt;p>Parameters of such notification are:&lt;/p>
+&lt;ul>
+&lt;li>a timestamp,&lt;/li>
+&lt;li>the version of Thorium Reader,&lt;/li>
+&lt;li>the operating system of the device and its version,&lt;/li>
+&lt;li>the locale of the application at the time it is started,&lt;/li>
+&lt;li>if this is the first start of Thorium Reader after a fresh install.&lt;/li>
+&lt;/ul>
+&lt;p>The IP address of the device is not stored along with the above information.&lt;/p>
+&lt;p>It is not possible to opt-out from this notification.&lt;/p>
+&lt;p>2/ Readium LCP DRM information: a notification is sent to an LCP Server each time a protected publication is open. This is required by the LCP specification for checking if the license of use of the publication has been updated. There is not centralized LCP Server, each server is operated by the distributor of the protected publication acquired by the user.&lt;/p>
+&lt;p>Parameters of such notification are:&lt;/p>
+&lt;ul>
+&lt;li>a device identifier, automatically generated at the install of the application.&lt;/li>
+&lt;li>a device name, automatically generated at the install of the application.&lt;/li>
+&lt;/ul>
+&lt;p>The codebase of Thorium Reader is open-sourced and can therefore be fully inspected, with the exception of a small software library used as core for the Readium LCP DRM, which does not store or send any data.&lt;/p>
+&lt;h2 id="updates">Updates&lt;/h2>
+&lt;p>We may change the Privacy Policy from time to time. We will notify you by posting the revised Privacy Policy on this page and the date on which the last changes were made will be noted at the top of the page.&lt;/p></description></item><item><title>Th3: Votre aide est précieuse</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</guid><description>
 &lt;p> Vous aussi, vous pouvez aider Thorium Reader à devenir la meilleure application de lecture en &lt;a href="https://www.edrlab.org/become-a-member/">devenant membre de l'EDRLab&lt;/a> . Ou en faisant un don à l'EDRLab via le &lt;a href="https://github.com/sponsors/edrlab">parrainage Github&lt;/a> "piggy-bank", qui accepte les petits dons mensuels. &lt;/p>
 &lt;p> Thorium est construit par sa communauté. Si vous souhaitez participer, contactez-nous ! &lt;/p>
 &lt;p>Vous pouvez également : &lt;/p>
