@@ -9,16 +9,16 @@ toc: false
 | key| english| context | screenshot| 
 | --- | --- | --- | --- |
 | accessibility.bookMenu| Menu	| In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items | ![screenshot](/images/localisation_context/locale_Context_Table-0.png)| 
-| accessibility.closeDialog| Close	| | | 
-| accessibility.importFile| Import publication	| | ![screenshot](/images/localisation_context/locale_Context_Table-1.png)| 
+| accessibility.closeDialog| Close	| Accessible name  (`aria-label`) of the close button (with a X pictogram) used in several places and contexts, to close the panels (settings, annotations, navigation, Add OPDS, etc), | ![screenshot](/images/localisation_context/accessibility_closeDialog.png)| 
+| accessibility.importFile| Import publication	| Available from the Home and Library views, this button opens a system file explorer window to select a file to import| ![screenshot](/images/localisation_context/locale_Context_Table-1.png)| 
 | accessibility.leftSlideButton| Slide to the left	| | ![screenshot](/images/localisation_context/locale_Context_Table-1-35.png)| 
-| accessibility.mainContent| main content	| | | 
+| accessibility.mainContent| main content	|Accessible name (`aria-label`) of the main part of the window, not rendered visually but rendered thru screen reader| ![screenshot](/images/localisation_context/accessibility_mainContent.png)| 
 | accessibility.rightSlideButton| Slide to the right	|Button used in several places to display  | ![screenshot](/images/localisation_context/locale_Context_Table-1-34.png)| 
-| accessibility.skipLink| Skip to content	| | | 
-| accessibility.toolbar| toolbar	| | | 
+| accessibility.skipLink| Skip to content	| First keyboard tab stroke in a reading window will make appear this link to skip the navigation bar and reach directly the content of the book, so keyboard and screen reader users can access quickly to the book content|![screenshot](/images/localisation_context/skiplink.png)| 
+| accessibility.toolbar| toolbar	| Accessible Name (`title` and `aria-label` of the main toolbar). Does not appears visually but is rendered to screen reader user| ![screenshot](/images/localisation_context/accessibility_toolbar.png)| 
 | apiapp.documentation| Thorium Documentation	| | ![screenshot](/images/localisation_context/locale_Context_Table-6.png)| 
-| apiapp.howItWorks| How does it work?	| A pliable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel| ![screenshot](/images/localisation_context/locale_Context_Table-8.png)| 
-| apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	| | ![screenshot](/images/localisation_context/locale_Context_Table-7.png)| 
+| apiapp.howItWorks| How does it work?	| A foldable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel| ![screenshot](/images/localisation_context/locale_Context_Table-8.png)| 
+| apiapp.informations| In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It's simple. Enter a French city ('Paris') or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.	|This context explanation appears when the  apiapp.howItWorks button is unfold | ![screenshot](/images/localisation_context/locale_Context_Table-7.png)| 
 | apiapp.noLibraryFound| No library found ({{- name}})	| | | 
 | app.edit.copy| Copy	| | | 
 | app.edit.cut| Cut	| | | 
@@ -280,7 +280,7 @@ toc: false
 | reader.divina.mute| mute audio	| | | 
 | reader.divina.unmute| unmute audio	| | | 
 | reader.fxl.fit| Fit	| | | 
-| reader.marks.annotations| Annotations	| | | 
+| reader.marks.annotations| Annotations	||| 
 | reader.marks.bookmarks| Bookmarks	| | | 
 | reader.marks.delete| Delete	| | | 
 | reader.marks.edit| Edit	| | | 
@@ -302,8 +302,8 @@ toc: false
 | reader.media-overlays.speed| Readaloud playback rate	| | | 
 | reader.media-overlays.stop| Stop Readaloud	| | | 
 | reader.media-overlays.title| Readaloud	| | | 
-| reader.navigation.annotationTitle| annotation	| | | 
-| reader.navigation.backHomeTitle| back to bookshelf	|In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front. | ![screenshot](/images/localisation_context/locale_Context_Table-9.png)| 
+| reader.navigation.annotationTitle| annotation	|Reading windows tool bar top right button list opening the Annotation panel| ![screenshot](/images/localisation_context/annotation_title.png)| 
+| reader.navigation.backHomeTitle| 	|In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front. If more than one reading window are opened, this will only close the reading window where the button was activated. Other reading windows will remain in the background.| ![screenshot](/images/localisation_context/backtobookshelf_closewindow.png)| 
 | reader.navigation.bookmarkTitle| bookmark	| | | 
 | reader.navigation.currentPage| Current page: {{- current}}	| | | 
 | reader.navigation.currentPageTotal| Current page: {{- current}}/{{- total}}	| | | 
