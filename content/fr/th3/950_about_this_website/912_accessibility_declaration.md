@@ -1,11 +1,10 @@
 ---
-title: 'Accessibilité : conforme aux WCAG 2.1 AA'
-description: ''
-draft: true
-weight: '912'
+title: "Accessibility : conforms to WCAG 2.1 AA"
+description: ""
+draft: false
+weight: 912
 toc: false
 ---
-
 Ce site a été testé avec NVDA sur Firefox sous Windows 10. Aucun bloqueur d'accessibilité n'a été trouvé.
 
 Si vous rencontrez des difficultés, vous pouvez nous en informer via le formulaire de contact ou en ouvrant un ticket sur notre [outil de suivi d'assistance](https://github.com/edrlab/thorium-reader-doc/issues/new) .
