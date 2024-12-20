@@ -1,5 +1,5 @@
 ---
-title: "Licence et crédit pour Thorium Reader"
+title: "Licence pour Thorium Reader"
 description: ""
 draft: false
 weight: 913

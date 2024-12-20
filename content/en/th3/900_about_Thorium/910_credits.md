@@ -1,25 +1,11 @@
 ---
-title: "Credits"
+title: "Credits for Thorium Reader"
 description: ""
 draft: false
 weight: 902
 toc: false
 ---
 
-This documentation site is designed and maintained by EDRLab 
-as part of the development of the Thorium-Reader application.
-
-The main contributors of this documentation are : 
-* Gautier Chomel
-* Georges Kerscher
-* Noelia Ruiz Martínez
-* Prashant Verma
-
-This site is made with the static site generator 
-[Hugo](https://gohugo.io/) and the
-[Hugo Book Theme](https://github.com/alex-shpak/hugo-book/).
-
- <h2>Who has developed this app</h2>
 
  <p>Thorium Reader is currently developed by:</p>
 
@@ -41,7 +27,7 @@ This site is made with the static site generator
  <li>Manuel Lagrand, intern, node.js developer.</li>
  </ul>
 
- <p>The project is supervised by Laurent Le Meur, EDRLab CTO.</p>
+
 
  <h2>Who is financing this app</h2>
 
