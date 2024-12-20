@@ -2,10 +2,8 @@
 title: Forewords
 role: doc-foreword
 draft: false
+weight: 100
 ---
-
-
-# Forewords
 
 Thorium is a digital book reader, it is also a library where you can
 store your books and access to online catalogs.
