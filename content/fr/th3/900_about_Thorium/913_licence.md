@@ -1,13 +1,16 @@
 ---
-title: "Licence and credit for Thorium Reader"
+title: "Licence et crédit pour Thorium Reader"
 description: ""
 draft: false
 weight: 913
 toc: false
 ---
 
-The Thorium-reader application is open-source, released under a BSD 3 license. It is based on the open-source Readium Desktop toolkit Licensed to the [Readium Foundation](https://readium.org/) under one or more contributor license agreements.
+L'application Thorium-reader est open-source, publiée sous licence BSD 3. Il est basé sur la boîte à outils open source Readium Desktop sous licence de la [Readium Foundation](https://readium.org/) dans le cadre d'un ou plusieurs accords de licence de contributeur.
 
+Ci après le texte de la licence en anglais : 
+
+<div lang="en">
 BSD 3-Clause License
 
 Copyright (c) 2017, EDRLab
@@ -37,3 +40,4 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</div>
