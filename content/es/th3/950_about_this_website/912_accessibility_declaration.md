@@ -18,5 +18,4 @@ en su idioma para que podamos movilizar a las personas adecuadas.
 Aquí está la información que necesitamos:
 
 *Sistema operativo y su versión.
-*Versión Torio (se indica en la parte inferior de la biblioteca bajo el título Acerca del Torio)
 *Tecnología de asistencia utilizada.
