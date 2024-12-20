@@ -1,4 +1,150 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Recursos</title><link>https://thorium.edrlab.org/es/th3/400_ressources/</link><description>Recent content in Recursos on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/es/th3/400_ressources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Requisitos mínimos del sistema</title><link>https://thorium.edrlab.org/es/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/390_requirements/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Recursos</title><link>https://thorium.edrlab.org/es/th3/400_ressources/</link><description>Recent content in Recursos on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/es/th3/400_ressources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Accesibilidad</title><link>https://thorium.edrlab.org/es/th3/400_ressources/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/300_accessibility/</guid><description>
+&lt;h1 id="a11y">Accesibilidad&lt;/h1>
+&lt;p>Thorium Reader es para todos, incluidas las personas ciegas o con
+otro tipo de discapacidades visuales, cognitivas o motoras. la aplicacion
+es compatible con tecnologías accesibles como lectores de pantalla,
+incluidos JAWS, NVDA, Narrador y VoiceOver. Incluye lectura en voz alta.
+Característica con resaltado visual. Thorium Reader se puede utilizar con el
+ratón o el teclado, y los atajos de teclado son configurables. El
+La pantalla se puede personalizar para satisfacer las necesidades de los usuarios, incluidos colores,
+Tamaño del texto, espaciado, fuente y diseño.&lt;/p>
+&lt;h2 id="a11y_info">Información de accesibilidad&lt;/h2>
+&lt;p>Actualmente, Thorium muestra información de accesibilidad proporcionada por el editor en el panel de información del libro. Torio muestra esta información tal como fue definida. En caso de duda o
+queja, comuníquese con el distribuidor o editor del archivo.&lt;/p></description></item><item><title>Th3: Leer con un lector de pantalla</title><link>https://thorium.edrlab.org/es/th3/400_ressources/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/311_screenreaders/</guid><description>
+&lt;h2 id="leer-con-un-lector-de-pantalla">Leer con un lector de pantalla&lt;/h2>
+&lt;p>Al iniciar Thorium, si se detecta un lector de pantalla, el relativo
+las funciones están activadas.&lt;/p>
+&lt;p>Tenga en cuenta que los lectores de pantalla utilizan un búfer independiente para acceder al código HTML.
+contenido que provoca desplazamiento visual/desplazamiento de página fuera de
+sincronizar. En otras palabras, Thorium generalmente no conoce la información del usuario.
+ubicación de lectura actual dentro del búfer del lector de pantalla, a menos que
+el usuario del lector de pantalla activa eventos de API web estándar (como un clic del mouse)
+en cualquier parte del texto o en una pestaña del teclado en elementos HTML enfocables).&lt;/p>
+&lt;p>advertencia
+Atención !&lt;/p>
+&lt;p>Las características de accesibilidad para las tecnologías de asistencia están fuertemente
+afectado por la calidad de los archivos del libro.&lt;/p>
+&lt;h1 id="pulsaciones-de-teclas-comunes-a-nvda-y-jaws">Pulsaciones de teclas comunes a NVDA y JAWS&lt;/h1>
+&lt;p>(contribución de Prashant Verma, Consorcio DAISY)
+Para leer texto, navegar por tablas, navegar por el navegador
+ventana, la tecla Insertar puede ser reemplazada por la tecla modificadora de pantalla.
+reproductor (por ejemplo, la tecla Bloq Mayús).&lt;/p>
+&lt;h2 id="teclas-de-acceso-rápido-para-la-navegación">Teclas de acceso rápido para la navegación&lt;/h2>
+&lt;p>El lector de pantalla debe estar en modo de navegación o cursor virtual.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Acción&lt;/th>
+&lt;th>Teclas&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Siguiente título&lt;/td>
+&lt;td>&lt;kbd>H&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Siguiente mesa&lt;/td>
+&lt;td>&lt;kbd>T&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Siguiente gráfico&lt;/td>
+&lt;td>&lt;kbd>G&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Siguiente lista&lt;/td>
+&lt;td>&lt;kbd>L&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Siguiente campo de formulario&lt;/td>
+&lt;td>&lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Lista de elementos&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F7&lt;/kbd> (funciona independientemente del modo del cursor)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>Utilice las teclas de arriba con la tecla &lt;kbd>Shift&lt;/kbd> para pasar al anterior
+artículo.&lt;/em>&lt;/p>
+&lt;h2 id="texto">Texto&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Acción&lt;/th>
+&lt;th>Teclas&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Personaje anterior&lt;/td>
+&lt;td>&lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Siguiente personaje&lt;/td>
+&lt;td>&lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Palabra anterior&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Di la siguiente palabra&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Línea anterior&lt;/td>
+&lt;td>&lt;kbd> ↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Siguiente línea&lt;/td>
+&lt;td>&lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Oración anterior&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd> ↑&lt;/kbd> (solo Jaws)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Siguiente oración&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↓&lt;/kbd> (solo Jaws)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Leer todo&lt;/td>
+&lt;td>&lt;kbd>INSERTAR&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Anunciar fuente&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="pinturas">Pinturas&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Acción&lt;/th>
+&lt;th>Teclas&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Celda de la derecha&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Celda de la izquierda&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Celda inferior&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Celda arriba&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd> ↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Th3: Requisitos mínimos del sistema</title><link>https://thorium.edrlab.org/es/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/390_requirements/</guid><description>
 &lt;p>El soporte de la plataforma lo proporciona Electron, tal como se define en el &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">archivo Readme del repositorio de Github de Electron.&lt;/a>&lt;/p>
 &lt;p>Cada versión de Electron proporciona binarios para macOS, Windows y Linux.&lt;/p>
 &lt;ul>

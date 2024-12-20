@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – À propos de ce site web</title><link>https://thorium.edrlab.org/fr/th3/950_about_this_website/</link><description>Recent content in À propos de ce site web on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/fr/th3/950_about_this_website/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Accessibilité de ce site</title><link>https://thorium.edrlab.org/fr/th3/950_about_this_website/912_accessibility_declaration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/950_about_this_website/912_accessibility_declaration/</guid><description>
+&lt;p>Ce site a été testé avec NVDA sur Firefox sous Windows 11. Aucun bloqueur d&amp;rsquo;accessibilité n&amp;rsquo;a été trouvé.
+Dernier test : décembre 2024&lt;/p>
+&lt;p>Si vous rencontrez des difficultés, vous pouvez nous en informer via le formulaire de contact ou en ouvrant un ticket sur notre &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">outil de suivi d&amp;rsquo;assistance&lt;/a> ou via notre &lt;a href="https://www.edrlab.org/contact/">formulaire de contact&lt;/a>.&lt;/p>
+&lt;p>La page est en anglais mais vous pouvez écrire dans votre langue en nous le disant afin que nous puissions dans votre langue afin que nous puissions mobiliser les bonnes personnes.&lt;/p>
+&lt;p>Voici les informations dont nous avons besoin :&lt;/p>
+&lt;ul>
+&lt;li>Système d&amp;rsquo;exploitation et sa version&lt;/li>
+&lt;li>Version Thorium (elle est indiquée en bas de la bibliothèque sous le titre A propos du Thorium)&lt;/li>
+&lt;li>Technologie d&amp;rsquo;assistance utilisée.&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Licence et crédit pour ce site Web</title><link>https://thorium.edrlab.org/fr/th3/950_about_this_website/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/950_about_this_website/913_licence/</guid><description>
+&lt;h2 id="crédits">Crédits&lt;/h2>
+&lt;p>Ce site de documentation est conçu et maintenu par EDRLab
+dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.&lt;/p>
+&lt;p>Les principaux contributeurs de cette documentation sont :&lt;/p>
+&lt;ul>
+&lt;li>Gautier Chomel&lt;/li>
+&lt;li>Georges Kerscher&lt;/li>
+&lt;li>Noelia Ruiz Martínez&lt;/li>
+&lt;li>Prashant Verma&lt;/li>
+&lt;/ul>
+&lt;p>Le projet est encadré par Laurent Le Meur, CTO de l&amp;rsquo;EDRLab.&lt;/p>
+&lt;p>Ce site est réalisé avec le générateur de site statique
+&lt;a href="https://gohugo.io/">Hugo&lt;/a> et un thème dédié dérivé du
+&lt;a href="https://www.docsy.dev/">Thème Docsy&lt;/a>.&lt;/p>
+&lt;h2 id="licensing">Licensing&lt;/h2>
+&lt;p>Le contenu de ce site Web est disponible sous &lt;a href="https://creativecommons.org/licenses/by/4.0/deed.en">Licence Attribution 4.0 International CC BY 4.0&lt;/a>&lt;/p>
+&lt;p>Toute réutilisation doit inclure la déclaration suivante avec des liens :&lt;/p>
+&lt;blockquote>
+&lt;p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">&lt;a property="dct:title" rel=" cc:attributionURL" href="https://thorium.edrlab.org/">Matériel d'assistance Thorium Reader&lt;/a> par &lt;a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://edrlab.org/">EDRLab&lt;/a> est sous licence &lt;a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0&lt;img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">&lt;img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>## Vous êtes autorisé à :&lt;/p>
+&lt;ul>
+&lt;li>Partager — copier, distribuer et communiquer le matériel par tous moyens et sous tous formats pour toute utilisation, y compris commerciale.&lt;/li>
+&lt;li>Adapter — remixer, transformer et créer à partir du matériel pour toute utilisation, y compris commerciale.&lt;/li>
+&lt;/ul>
+&lt;p>L&amp;rsquo;Offrant ne peut retirer les autorisations concédées par la licence tant que vous appliquez les termes de cette licence.&lt;/p>
+&lt;h2 id="selon-les-conditions-suivantes-">Selon les conditions suivantes :&lt;/h2>
+&lt;ul>
+&lt;li>Attribution — Vous devez créditer l&amp;rsquo;Œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées à l&amp;rsquo;Oeuvre. Vous devez indiquer ces informations par tous les moyens raisonnables, sans toutefois suggérer que l&amp;rsquo;Offrant vous soutient ou soutient la façon dont vous avez utilisé son Oeuvre.&lt;/li>
+&lt;li>Pas de restrictions complémentaires — Vous n&amp;rsquo;êtes pas autorisé à appliquer des conditions légales ou des mesures techniques qui restreindraient légalement autrui à utiliser l&amp;rsquo;Oeuvre dans les conditions décrites par la licence.&lt;/li>
+&lt;/ul>
+&lt;p>## Notes:
+Vous n&amp;rsquo;êtes pas dans l&amp;rsquo;obligation de respecter la licence pour les éléments ou matériel appartenant au domaine public ou dans le cas où l&amp;rsquo;utilisation que vous souhaitez faire est couverte par une exception.&lt;/p>
+&lt;p>Aucune garantie n&amp;rsquo;est donnée. Il se peut que la licence ne vous donne pas toutes les permissions nécessaires pour votre utilisation. Par exemple, certains droits comme les droits moraux, le droit des données personnelles et le droit à l&amp;rsquo;image sont susceptibles de limiter votre utilisation.&lt;/p></description></item></channel></rss>
