@@ -18,5 +18,5 @@ Tamaño del texto, espaciado, fuente y diseño.
 
 ## Información de accesibilidad {#a11y_info}
 
-Actualmente, Thorium muestra información de accesibilidad proporcionada por el editor en el panel de información del libro. Torio muestra esta información tal como fue definida. En caso de duda o
+Actualmente, Thorium muestra información de accesibilidad proporcionada por el editor en el panel de información del libro. Thorium muestra esta información tal como fue definida. En caso de duda o
 queja, comuníquese con el distribuidor o editor del archivo.
