@@ -26,7 +26,7 @@ ratón o el teclado, y los atajos de teclado son configurables. El
 La pantalla se puede personalizar para satisfacer las necesidades de los usuarios, incluidos colores,
 Tamaño del texto, espaciado, fuente y diseño.&lt;/p>
 &lt;h2 id="a11y_info">Información de accesibilidad&lt;/h2>
-&lt;p>Actualmente, Thorium muestra información de accesibilidad proporcionada por el editor en el panel de información del libro. Torio muestra esta información tal como fue definida. En caso de duda o
+&lt;p>Actualmente, Thorium muestra información de accesibilidad proporcionada por el editor en el panel de información del libro. Thorium muestra esta información tal como fue definida. En caso de duda o
 queja, comuníquese con el distribuidor o editor del archivo.&lt;/p></description></item><item><title>Th3: Leer con un lector de pantalla</title><link>https://thorium.edrlab.org/es/th3/400_ressources/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/311_screenreaders/</guid><description>
 &lt;h2 id="leer-con-un-lector-de-pantalla">Leer con un lector de pantalla&lt;/h2>
 &lt;p>Al iniciar Thorium, si se detecta un lector de pantalla, el relativo
@@ -833,7 +833,7 @@ En la medida de lo posible, pretendemos mantener una ruta de acceso similar entr
 &lt;p>Aquí está la información que necesitamos:&lt;/p>
 &lt;ul>
 &lt;li>Sistema operativo y su versión&lt;/li>
-&lt;li>Versión de Torio (está indicada en la parte inferior de la biblioteca bajo el título &lt;code>About Thorium&lt;/code> )&lt;/li>
+&lt;li>Versión de Thorium (está indicada en la parte inferior de la biblioteca bajo el título &lt;code>About Thorium&lt;/code> )&lt;/li>
 &lt;/ul></description></item><item><title>Th3: ¡Contribuir!</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</guid><description>
 &lt;p>Thorium y su documentación se desarrollan gracias a la comunidad de usuarios. Necesitamos ayuda para traducir esta documentación.&lt;/p>
 &lt;p>Para ello, puede &lt;a href="https://www.edrlab.org/contact/">ponerse en contacto con nosotros&lt;/a> .&lt;/p>
