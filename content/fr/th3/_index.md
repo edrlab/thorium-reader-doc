@@ -43,3 +43,5 @@ Vous pouvez en apprendre davantage sur les [fonctionnalités d'accessibilité de
 
   <p>     Le LCP a déjà été adopté par de nombreuses bibliothèques publiques, universités et libraires à travers le monde (une liste des <a href="https://www.edrlab.org/readium-lcp/certified-apps-servers/">distributeurs prenant en charge le LCP est maintenue ici</a> ).   </p>
   <p>     Les éditeurs du monde entier sont encouragés à adopter le LCP comme moyen de protéger les livres numériques contre le partage excessif, tout en offrant aux utilisateurs une expérience fluide et en gardant le contenu correctement accessible. Veuillez <a href="https://www.edrlab.org/contact/">contacter EDRLab</a> si votre organisation souhaite adopter le LCP.   </p>
+
+{{<section>}}
