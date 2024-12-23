@@ -60,7 +60,7 @@ Filtering options are:
 * by Tag, if any tag as been affected to any annotation, it will appear here;
 * by Color, Red, Orange, Yellow, Green, Blue-green, Light-blue, Cyan and Violet;
 * by Drawtype, Outline, Solid background, Strikethrough	 or Underline;
-* by Creator, if any has been informed in the <a href="../pages/102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
+* by Creator, if any has been informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
 
 ## Review and manipulation of annotations {#annotations_view_and_manipulation}
 
@@ -75,7 +75,7 @@ A set of annotations can be exported or imported.
 
 The export button will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification. 
 
-Annotations are stored with the file extension .annotation and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../pages/102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
+Annotations are stored with the file extension .annotation and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
 
 The import button opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported. 
 

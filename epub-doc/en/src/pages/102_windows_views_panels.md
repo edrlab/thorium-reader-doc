@@ -134,19 +134,19 @@ Reachable from the reading window top toolbar, that panel contains a dropdown me
 Reachable from the reading window top toolbar, that panel contains all possible user settings to adjust the display of the textual contents. It is important to remember that such possibilities may be restricted by how the content was created. 
 
 Detailed information about available reading settings per formats are available from the 
-<a href="../pages/210_reading/index.xhtml">Reading sub sections</a>:
+<a href="../210_reading/index.xhtml">Reading sub sections</a>:
 <ul>
    <li>
-      <a href="../pages/211_reading_textuals/index.xhtml">Reading textual contents</a>
+      <a href="../211_reading_textuals/index.xhtml">Reading textual contents</a>
     </li>
     <li>
-      <a href="../pages/212_reading_visuals/index.xhtml">Reading visual contents</a>
+      <a href="../212_reading_visuals/index.xhtml">Reading visual contents</a>
     </li>
     <li>
-      <a href="../pages/213_reading_auditory/index.xhtml">Reading audio contents</a>
+      <a href="../213_reading_auditory/index.xhtml">Reading audio contents</a>
     </li>
     <li>
-      <a href="../pages/214_reading_pdfs/index.xhtml">Reading PDFs</a>
+      <a href="../214_reading_pdfs/index.xhtml">Reading PDFs</a>
     </li>
 </ul>
 
