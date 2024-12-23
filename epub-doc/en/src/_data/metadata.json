@@ -17,7 +17,6 @@
   "properties": {
     "dcterms:modified": "2024-12-31T00:00:00Z",
     "schema:accessibilityFeature": ["alternativeText", "readingOrder","structuralNavigation", "tableOfContents"],
-    // "schema:accessibilitySummary": "The publication has been evaluated for accessibility.",
     "schema:accessMode": ["textual","visual"],
     "schema:accessModeSufficient": "textual",
     "schema:accessibilityControl": ["fullKeyboardControl", "fullMouseControl"]
