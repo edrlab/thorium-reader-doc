@@ -83,9 +83,9 @@ Navigate by pages of your library
 
 ## Add tags
 
-    You can enrich the information of the books in your library by
-    adding `Tags` to them. \`Tags\' allow you to quickly search and sort
-    books in list view. Putting it into practice. Open the book form,
-    position yourself in the field *Add a tag*, write the name of the
-    tag you want to add then press the `Add` button. The tag is added in
-    a blue box, you can remove it by clicking on the cross.
+You can enrich the information of the books in your library by
+adding `Tags` to them. \`Tags\' allow you to quickly search and sort
+books in list view. Putting it into practice. Open the book form,
+position yourself in the field *Add a tag*, write the name of the
+tag you want to add then press the `Add` button. The tag is added in
+a blue box, you can remove it by clicking on the cross.
