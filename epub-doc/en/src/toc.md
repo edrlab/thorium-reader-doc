@@ -8,7 +8,7 @@ tocRule: title
 
 <section id="toc">
   <h1>Table of contents</h1>
-  <nav epub:type="toc">
+  <nav epub:type="toc" role="toc">
 <ol>
   <li>
 <a href="../pages/100_forewords/index.xhtml">Forewords</a>
@@ -205,10 +205,10 @@ tocRule: title
   <nav epub:type="landmarks">
 <ol>
   <li>
-<a href="../pages/100_forewords/index.xhtml" epub:type="forewords">Forewords</a>
+<a href="../pages/100_forewords/index.xhtml" epub:type="forewords"  role="doc-foreword">Forewords</a>
   </li>
     <li>
-<a href="../toc/index.xhtml" epub:type="toc">Table of contents</a>
+<a href="../toc/index.xhtml" epub:type="toc" role="toc">Table of contents</a>
   </li>
 </ol>
   </nav>
