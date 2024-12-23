@@ -7,14 +7,18 @@
 --color-blue:  #1053c8;
 }
 
-
-
 svg {
   width: 1em;
   fill: var(--color-blue);
   color: var(--color-blue);
   filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
 }
+
+#toc {
+  list-style-type: none;
+  line-height: 2rem;
+}
+
 
 /* this does not works
 @media (prefers-color-scheme: dark) {
