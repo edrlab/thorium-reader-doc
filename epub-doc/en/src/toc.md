@@ -7,209 +7,153 @@ tocRule: title
 ---
 
 <section id="toc">
-  <h1>Table of contents</h1>
-  <nav epub:type="toc" role="toc">
+<h1>Table of contents</h1>
+<nav epub:type="toc" role="toc">
 <ol>
-  <li>
+<li>
 <a href="../pages/100_forewords/index.xhtml">Forewords</a>
-  </li>
-  <li>
-<a href="../pages/101_opening_thorium/index.xhtml"
-  >Opening Thorium Reader</a
->
-  </li>
+</li>
+<li>
+<a href="../pages/101_opening_thorium/index.xhtml">Opening Thorium Reader</a>
+</li>
 
-  <li>
-<a href="../pages/102_windows_views_panels/index.xhtml"
-  >Windows, views and panels</a
->
+<li>
+<a href="../pages/102_windows_views_panels/index.xhtml">Windows, views and panels</a>
 <ol>
-  <li>
+<li>
 <a
-  href="../pages/102_windows_views_panels/index.xhtml#main_window"
-  >Main window</a
->
-  
-  <ol>
-  <li>
-<a href="../pages/102_windows_views_panels/index.xhtml#home_view"
-  >Home View</a
->
-  </li>
-  <li>
-<a
-  href="../pages/102_windows_views_panels/index.xhtml#all_publications_view"
-  >All publications View</a
->
+href="../pages/102_windows_views_panels/index.xhtml#main_window">Main window</a>
+
 <ol>
-  <li>
-<a href="../pages/102_windows_views_panels/index.xhtml#grid_mode"
-  >Grid Mode</a
->
-  </li>
-  <li>
+<li>
+<a href="../pages/102_windows_views_panels/index.xhtml#home_view">Home View</a>
+</li>
+<li>
 <a
-  href="../pages/102_windows_views_panels/index.xhtml#table_mode"
-  >Table Mode</a
->
-  </li>
+href="../pages/102_windows_views_panels/index.xhtml#all_publications_view">All publications View</a>
+<ol>
+<li>
+<a href="../pages/102_windows_views_panels/index.xhtml#grid_mode">Grid Mode</a>
+</li>
+<li>
+<a
+href="../pages/102_windows_views_panels/index.xhtml#table_mode">Table Mode</a>
+</li>
 </ol>
-  </li>
-  <li>
+</li>
+<li>
 <a
-  href="../pages/102_windows_views_panels/index.xhtml#catalog_view"
-  >Catalogs View</a
->
-  </li>
-  <li>
+href="../pages/102_windows_views_panels/index.xhtml#catalog_view">Catalogs View</a>
+</li>
+<li>
 <a
-  href="../pages/102_windows_views_panels/index.xhtml#setting_view"
-  >Application Settings Panel</a
->
-  </li>
-</ol> </li>
-  <li>
+href="../pages/102_windows_views_panels/index.xhtml#setting_view">Application Settings Panel</a>
+</li>
+</ol> 
+</li>
+<li>
 <a
-  href="../pages/102_windows_views_panels/index.xhtml#reading_window"
-  >Reading window</a
->
+href="../pages/102_windows_views_panels/index.xhtml#reading_window">Reading window</a>
 <ol>
-  <li>
+<li>
 <a
-  href="../pages/102_windows_views_panels/index.xhtml#reading_nav_panel"
-  >Reading navigation panel</a
->
-  </li>
-  <li>
+href="../pages/102_windows_views_panels/index.xhtml#reading_nav_panel">Reading navigation panel</a>
+</li>
+<li>
 <a
-  href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel"
-  >Reading settings panel</a
->
-  </li>
-    <li>
-<a href="../pages/102_windows_views_panels/index.xhtml#book_info_panel"
-  >Book Information panel</a
->
-  </li>
+href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Reading settings panel</a>
+</li>
+<li>
+<a href="../pages/102_windows_views_panels/index.xhtml#book_info_panel">Book Information panel</a>
+</li>
 </ol>
-  </li>
+</li>
 
 </ol>
-  </li>
+</li>
 
-  <li>
-<a href="../pages/110_libraries_actions/index.xhtml"
-  >Libraries actions</a
->
-  </li>
-  <li>
-<a href="../pages/111_catalogs_actions/index.xhtml"
-  >Catalogs actions</a
->
-  </li>
+<li>
+<a href="../pages/110_libraries_actions/index.xhtml">Libraries actions</a>
+</li>
+<li>
+<a href="../pages/111_catalogs_actions/index.xhtml">Catalogs actions</a>
+</li>
 
-  <li>
+<li>
 <a href="../pages/210_reading/index.xhtml">Reading</a>
 <ol>
-  <li>
-<a href="../pages/211_reading_textuals/index.xhtml"
-  >Reading textual contents</a
->
-  </li>
-  <li>
-<a href="../pages/212_reading_visuals/index.xhtml"
-  >Reading visual contents</a
->
-  </li>
-  <li>
-<a href="../pages/213_reading_auditory/index.xhtml"
-  >Reading audio contents</a
->
-  </li>
-  <li>
+<li>
+<a href="../pages/211_reading_textuals/index.xhtml">Reading textual contents</a>
+</li>
+<li>
+<a href="../pages/212_reading_visuals/index.xhtml">Reading visual contents</a>
+</li>
+<li>
+<a href="../pages/213_reading_auditory/index.xhtml">Reading audio contents</a>
+</li>
+<li>
 <a href="../pages/214_reading_pdfs/index.xhtml">Reading PDFs</a>
-  </li>
+</li>
 </ol>
-  </li>
-  <li>
-<a href="../pages/220_reading_actions/index.xhtml"
-  >Search in a book</a
->
-  </li>
-  <li>
+</li>
+<li>
+<a href="../pages/220_reading_actions/index.xhtml">Search in a book</a>
+</li>
+<li>
 <a href="../pages/240_annotations/index.xhtml">Annotations</a>
 <ol>
-  <li>
-<a href="../pages/240_annotations/index.xhtml#annotations_panel"
-  >Annotations Panel</a
->
-  </li>
-  <li>
-<a href="../pages/240_annotations/index.xhtml#annotations_options"
-  >Options for annotations</a
->
-  </li>
-  <li>
-<a href="../pages/240_annotations/index.xhtml#annotations_sort_and_filter"
-  >Sort and filter annotations</a
->
-  </li>
-  <li>
-<a href="../pages/240_annotations/index.xhtml#annotations_view_and_manipulation"
-  >Review and manipulation of annotations</a
->
-  </li>
-  <li>
-<a href="../pages/240_annotations/index.xhtml#annotations_io"
-  >Export and Import of Annotations</a
->
-  </li>
+<li>
+<a href="../pages/240_annotations/index.xhtml#annotations_panel">Annotations Panel</a>
+</li>
+<li>
+<a href="../pages/240_annotations/index.xhtml#annotations_options">Options for annotations</a>
+</li>
+<li>
+<a href="../pages/240_annotations/index.xhtml#annotations_sort_and_filter">Sort and filter annotations</a>
+</li>
+<li>
+<a href="../pages/240_annotations/index.xhtml#annotations_view_and_manipulation">Review and manipulation of annotations</a>
+</li>
+<li>
+<a href="../pages/240_annotations/index.xhtml#annotations_io">Export and Import of Annotations</a>
+</li>
 </ol>
-  </li>
-  <li>
+</li>
+<li>
 <a href="../pages/300_accessibility/index.xhtml">Accessibility</a>
-  </li>
-  <li>
-<a href="../pages/311_screenReaders/index.xhtml"
-  >Reading with a screen reader</a
->
-  </li>
-  <li>
+</li>
+<li>
+<a href="../pages/311_screenReaders/index.xhtml">Reading with a screen reader</a>
+</li>
+<li>
 <a href="../pages/400_ressources/index.xhtml">Ressources</a>
-  </li>
-  <li>
+</li>
+<li>
 <a href="../pages/402_keys_functions/index.xhtml">Keys functions</a>
-  </li>
-  <li>
+</li>
+<li>
 <a href="../pages/403_gesture/index.xhtml">Tactile gestures</a>
-  </li>
-  <li>
-<a href="../pages/406_formats/index.xhtml"
-  >Supported publication formats</a
->
-  </li>
-  <li>
+</li>
+<li>
+<a href="../pages/406_formats/index.xhtml">Supported publication formats</a>
+</li>
+<li>
 <a href="../pages/900_about/index.xhtml">About this ebook</a>
-  </li>
-  <li>
-<a href="../pages/903_support/index.xhtml">Want to help?</a>
-  </li>
-  <li>
-<a href="../pages/904_issues/index.xhtml">Stuck?</a>
-  </li>
+</li>
+
 </ol>
-  </nav>
-  </section>
-  <section id="landmarks">
-  <h1>Landmarks</h1>
-  <nav epub:type="landmarks">
+</nav>
+</section>
+<section id="landmarks">
+<h1>Landmarks</h1>
+<nav epub:type="landmarks">
 <ol>
-  <li>
-<a href="../pages/100_forewords/index.xhtml" epub:type="forewords"  role="doc-foreword">Forewords</a>
-  </li>
-    <li>
+<li>
+<a href="../pages/100_forewords/index.xhtml" epub:type="forewords"role="doc-foreword">Forewords</a>
+</li>
+<li>
 <a href="../toc/index.xhtml" epub:type="toc" role="toc">Table of contents</a>
-  </li>
+</li>
 </ol>
-  </nav>
-  </section>
+</nav>
+</section>
