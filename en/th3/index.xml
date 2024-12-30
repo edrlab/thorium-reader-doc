@@ -548,147 +548,216 @@ item.&lt;/em>&lt;/p>
 &lt;/table></description></item><item><title>Th3: Keyboard shortcuts</title><link>https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/</guid><description>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Information&lt;/p>
-&lt;p>The &lt;kbd>Shift&lt;/kbd> key is represented by an empty arrow pointing up on some keyboards: &lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd>.&lt;/p>
+&lt;p>The &lt;kbd>Shift&lt;/kbd> key is represented by an empty arrow pointing up on some keyboards: &lt;kbd>
+&lt;b>⇧&lt;/b>
+&lt;/kbd>.&lt;/p>
 &lt;p>The &lt;kbd>Ctrl&lt;/kbd> key is replaced by &lt;kbd>Cmd&lt;/kbd> key on Mac keyboards.&lt;/p>
 &lt;/div>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd>: Main content(`FocusMain`)&lt;/dt>
-&lt;dd>in reader and library windows, moves the keyboard focus to the "main" area landmark (in the reader view, this is immediately before the frame that displays publication content)
+&lt;dl id="definitionList">
+&lt;dt>Create annotation (`AnnotationsCreate`)
+&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyA&lt;/kbd>&lt;/dt>
+&lt;dd> When a text is selected, it will be marked as annotation and the annotation dialog box will open to allow additional text and select of color and stroke.
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>t&lt;/kbd>: Toolbar (`FocusToolbar`)&lt;/dt>
-&lt;dd>in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the "skip" link (which itself moves focus to the "main" area landmark)
+&lt;dt>Quick create annotation (`AnnotationsCreateQuick`)
+&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyQ&lt;/kbd>&lt;/dt>
+&lt;dd>
+When a text is selected, it will be marked as annotation without opening the annotation dialog box
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>: Navigation (`FocusReaderNavigation`)&lt;/dt>
-&lt;dd>in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.)
+&lt;dt>Toggle annotation marks in the margin or in the text (`AnnotationsToggleMargin`)
+&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyZ&lt;/kbd>&lt;/dt>
+&lt;dd>Changes the Annotations marks from the text to the margin or reverse.
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd>: Table Of Content (`FocusReaderNavigationTOC`)&lt;/dt>
-&lt;dd>in reader window, moves the keyboard focus to the navigation panel, but more specifically into the table of contents, and if possible at the detected heading / closest to the reading location.
+&lt;dt>Next audio (`AudioNext`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit3&lt;/kbd>&lt;/dt>
+&lt;dd> in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlays readaloud, or "forward" for audiobooks)
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>p&lt;/kbd>: Go to page (`FocusReaderGotoPage`)&lt;/dt>
-&lt;dd>in reader window, moves the keyboard focus to the "goto page" section in the navigation panel
+&lt;dt>Next audio Alternative (`AudioNextAlt`)
+&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Digit3&lt;/kbd>&lt;/dt>
+&lt;dd>
+in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlays readaloud, or "forward" for audiobooks)
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd>: Reader settings (`FocusReaderSettings`)&lt;/dt>
-&lt;dd>in reader window, moves the keyboard focus to the settings panel (user preferences for displaying publication content)
+&lt;dt>Play or pause audio (`AudioPlayPause`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit2&lt;/kbd>&lt;/dt>
+&lt;dd> in reader window, calls the "play" or "pause" toggle commands for audio (TTS or EPUB3 Media Overlays readaloud)
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd>: Bookmarks (`ToggleBookmark`)&lt;/dt>
-&lt;dd>in reader window, toggle bookmark (a notification is produced so that screen readers announce the change)
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd>: Fullscreen (`ToggleReaderFullscreen`)&lt;/dt>
-&lt;dd>in reader window, toggle fullscreen
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd>: Book information panel (`OpenReaderInfo`)&lt;/dt>
-&lt;dd>in reader window, publication info popup modal dialog (may be used in future Thorium version for similar feature in library window)
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd>: where am I (`OpenReaderInfoWhereAmI`)&lt;/dt>
-&lt;dd>in reader window, publication info popup modal dialog with direct keyboard focus on section that displays the headings hierarchy trail and other contextual information for the current reading location, such as nearest preceding page break, as well as document index in the reading order (this is the "where am I" feature).
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>k&lt;/kbd>: where am I (quick notification supported by Screen readers) (`SpeakReaderInfoWhereAmI`)&lt;/dt>
-&lt;dd>in reader window, this is the "where am I" feature, just as above, but only spoken via screen reader TTS thanks to an ARIA live region with assertive speech which interrupts the current narration.
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>w&lt;/kbd>: Close the book (`CloseReader`)&lt;/dt>
-&lt;dd>in reader window, closes the window and returns to the library view.
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd>: Search a book (`FocusSearch`)&lt;/dt>
-&lt;dd>in library window, moves the keyboard focus to the search text input of local bookshelf or OPDS feed
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd>: search into a book (`FocusSearch`)&lt;/dt>
-&lt;dd>in reader window, moves the keyboard focus to the publication-wide search text input
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> (optional) + &lt;kbd>F3&lt;/kbd>: previous or next search result (`SearchPrevious` / `SearchNext`)&lt;/dt>
-&lt;dd>in reader window, when the publication-wide search text input is open, finds the previous / next match
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> (optional) + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>G&lt;/kbd>: previous or next search result (`SearchPreviousAlt` / `SearchNextAlt`)&lt;/dt>
-&lt;dd>same as above (alternative keyboard shortcut)
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>&amp;larr;&lt;/kbd> or &lt;kbd>&amp;rarr;&lt;/kbd>: Next OPDS page (`NavigatePreviousOPDSPage` / `NavigateNextOPDSPage`)&lt;/dt>
-&lt;dd>in library window for OPDS feeds, activates the previous or next pagination links
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>comma&lt;/kbd> or &lt;kbd>period&lt;/kbd>: Next OPDS page (`NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt`)&lt;/dt>
-&lt;dd>same as above (alternative keyboard shortcut)
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> (except on MacOS) + &lt;kbd>&amp;larr;&lt;/kbd> or &lt;kbd>&amp;rarr;&lt;/kbd>: Previous or next chapter (`NavigatePreviousChapter` / `NavigateNextChapter`)&lt;/dt>
-&lt;dd>in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>page down&lt;/kbd> or &lt;kbd>page up&lt;/kbd>: Previous or next chapter (`NavigatePreviousChapterAlt` / `NavigateNextChapterAlt`)&lt;/dt>
-&lt;dd>same as above (alternative keyboard shortcut)
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>&amp;larr;&lt;/kbd> or &lt;kbd>&amp;rarr;&lt;/kbd>: Previous or next page (`NavigatePreviousPage` / `NavigateNextPage`)&lt;/dt>
-&lt;dd>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled)
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>comma&lt;/kbd> or &lt;kbd>period&lt;/kbd>: Previous or next page (`NavigatePreviousPageAlt` / `NavigateNextPageAlt`)&lt;/dt>
-&lt;dd>same as above (alternative keyboard shortcut)
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Home&lt;/kbd> or &lt;kbd>End&lt;/kbd>: Beginning or End of the publication (`NavigateToBegin` / `NavigateToEnd`)&lt;/dt>
-&lt;dd>in reader window, goes to the beginning or the end of the publication
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>backspace&lt;/kbd> with &lt;kbd>shift&lt;/kbd> modifier for the inverse operation: Previous History &amp; Next History(`NavigatePreviousHistory` / `NavigateNextHistory`): &lt;/dt>
-&lt;dd>in reader window, go back or forward in the navigation history: Beginning or End of the publication
-&lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd>: Previous audio (`AudioPrevious`)&lt;/dt>
+&lt;dt>Previous audio (`AudioPrevious`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit1&lt;/kbd>&lt;/dt>
 &lt;dd>in reader window, calls the "previous" command for audio (TTS or EPUB3 Media Overlays readaloud, or "rewind" for audiobooks)
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd>: Play or pause audio (`AudioPlayPause`)&lt;/dt>
-&lt;dd>in reader window, calls the "play" or "pause" toggle commands for audio (TTS or EPUB3 Media Overlays readaloud)
+&lt;dt>Alternative previous audio (`AudioPreviousAlt`)
+&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Digit1&lt;/kbd>&lt;/dt>
+&lt;dd> in reader window, calls the "previous" command for audio (TTS or EPUB3 Media Overlays readaloud, or "rewind" for audiobooks). Alternative shortcut key.
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd>: Next audio (`AudioNext`)&lt;/dt>
-&lt;dd>in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlays readaloud, or "forward" for audiobooks)
+&lt;dt>Stop audio (`AudioStop`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit4&lt;/kbd>&lt;/dt>
+&lt;dd> in reader window, calls the "stop" command for audio (TTS or EPUB3 Media Overlays readaloud, or "pause" for audiobooks)
 &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>4&lt;/kbd>: Stop audio (`AudioStop`)&lt;/dt>
-&lt;dd>in reader window, calls the "stop" command for audio (TTS or EPUB3 Media Overlays readaloud, or "pause" for audiobooks)
+&lt;dt>Close the book (`CloseReader`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyW&lt;/kbd> &lt;/dt>
+&lt;dd>in reader window, closes the window and returns to the library view.
+&lt;/dd>
+&lt;dt>Fixed Layout Zoom In (`FXLZoomIn`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit9&lt;/kbd>&lt;/dt>
+&lt;dd>Zoom in a fixed layout page
+&lt;/dd>
+&lt;dt>Fixed Layout Zoom out (`FXLZoomOut`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit8&lt;/kbd>&lt;/dt>
+&lt;dd>Zoom out a fixed layout page
+&lt;/dd>
+&lt;dt>Fixed Layout Zoom (`FXLZoomReset`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit0&lt;/kbd>&lt;/dt>
+&lt;dd>Reset to 100% zoom on a fixed layout page
+&lt;/dd>
+&lt;dt>Main content(`FocusMain`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd>
+&lt;/dt>
+&lt;dd>
+in reader and library windows, moves the keyboard focus to the "main" area landmark (in the reader view, this is immediately before the frame that displays publication content)
+&lt;/dd>
+&lt;dt>Go to page (`FocusReaderGotoPage`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyP&lt;/kbd>&lt;/dt>
+&lt;dd> in reader window, moves the keyboard focus to the "goto page" section in the navigation panel
+&lt;/dd>
+&lt;dt>Navigation (`FocusReaderNavigation`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyN&lt;/kbd>&lt;/dt>
+&lt;dd>in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.)
+&lt;/dd>
+&lt;dt>Table Of Content (`FocusReaderNavigationTOC`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyN&lt;/kbd>&lt;/dt>
+&lt;dd>in reader window, moves the keyboard focus to the navigation panel, but more specifically into the table of contents, and if possible at the detected heading / closest to the reading location.
+&lt;/dd>
+&lt;dt>Reader settings (`FocusReaderSettings`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyS&lt;/kbd> &lt;/dt>
+&lt;dd>in reader window, moves the keyboard focus to the settings panel (user preferences for displaying publication content)
+&lt;/dd>
+&lt;dt>Search (`FocusSearch`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyF&lt;/kbd>&lt;/dt>
+&lt;dd>Available from the library and the reading winfos. In library window, moves the keyboard focus to the search text input of local bookshelf or OPDS feed. In reader window, moves the keyboard focus to the publication-wide search text input.
+&lt;/dd>
+&lt;dt>Toolbar (`FocusToolbar`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyT&lt;/kbd>&lt;/dt>
+&lt;dd>in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the "skip" link (which itself moves focus to the "main" area landmark)
+&lt;/dd>
+&lt;dt>Next chapter (`NavigateNextChapter`)
+&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>&lt;/dt>
+&lt;dd>
+in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).
+&lt;/dd>
+&lt;dt>Next chapter (`NavigateNextChapterAlt`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>PageDown&lt;/kbd>&lt;/dt>
+&lt;dd>in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).
+&lt;/dd>
+&lt;dt>Next History (`NavigateNextHistory`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Backspace&lt;/kbd>&lt;/dt>
+&lt;dd>in reader window, go back or forward in the navigation history: Beginning or End of the publication
+&lt;/dd>
+&lt;dt>Next library page (`NavigateNextLibraryPage`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>&lt;/dt>
+&lt;dd>In the library view, display the next set of books
+&lt;/dd>
+&lt;dt>Next library page alternative(`NavigateNextLibraryPageAlt`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Period&lt;/kbd>&lt;/dt>
+&lt;dd>In the library view, display the next set of books (alternative keyboard shortcut)
+&lt;/dd>
+&lt;dt>Next Catalogue page (`NavigateNextOPDSPage`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>&lt;/dt>
+&lt;dd> in library window for Catalogues (OPD) feeds, activates the next pagination links
+&lt;/dd>
+&lt;dt>Next Catalogue page (`NavigateNextOPDSPageAlt`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Period&lt;/kbd>&lt;/dt>
+&lt;dd> in library window for Catalogues (OPD) feeds, activates the next pagination links (alternative keyboard shortcut)
+&lt;/dd>
+&lt;dt>Next page (`NavigateNextPage`)
+&lt;kbd>ArrowRight&lt;/kbd>&lt;/dt>
+&lt;dd>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled)
+&lt;/dd>
+&lt;dt>Next page (`NavigateNextPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Period&lt;/kbd>&lt;/dt>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled)
+&lt;dd>
+&lt;/dd>
+&lt;dt>Previous chapter (`NavigatePreviousChapter`)
+&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowLeft&lt;/kbd>&lt;/dt>
+&lt;dd>
+in reader window, move to previous "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).
+&lt;/dd>
+&lt;dt>Previous chapter (`NavigatePreviousChapterAlt`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>PageUp&lt;/kbd>&lt;/dt>
+&lt;dd>
+in reader window, move to previous "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).
+&lt;/dd>
+&lt;dt>Previous History(`NavigatePreviousHistory`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Backspace&lt;/kbd>&lt;/dt>
+&lt;dd> in reader window, go back or forward in the navigation history: Beginning or End of the publication
+&lt;/dd>
+&lt;dt>(`NavigatePreviousLibraryPage`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowLeft&lt;/kbd>&lt;/dt>
+&lt;dd>In the library view, display the previous set of books
+&lt;/dd>
+&lt;dt>(`NavigatePreviousLibraryPageAlt`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Comma&lt;/kbd>&lt;/dt>
+&lt;dd> In the library view, display the previous set of books
+(alternative keyboard shortcut)
+&lt;/dd>
+&lt;dt>Previous Catalogue page (`NavigatePreviousOPDSPage`)&lt;/dt>
+&lt;dd>
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowLeft&lt;/kbd>
+&lt;/dd>
+&lt;dt>Previous Catalogue page (`NavigatePreviousOPDSPageAlt`)&lt;/dt>in library window for Catalogues (OPD) feeds, activates the previous pagination links (alternative keyboard shortcut)
+&lt;dd>
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Comma&lt;/kbd>
+&lt;/dd>
+&lt;dt> Previous page (`NavigatePreviousPage`)
+&lt;kbd>ArrowLeft&lt;/kbd>&lt;/dt>
+&lt;dd> in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled)
+&lt;/dd>
+&lt;dt> Previous page (`NavigatePreviousPageAlt`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Comma&lt;/kbd>&lt;/dt>
+&lt;dd> in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled)
+&lt;/dd>
+&lt;dt>Go to Begining of the book (`NavigateToBegin`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Home&lt;/kbd>&lt;/dt>
+&lt;dd>in reader window, goes to the beginning of the publication
+&lt;/dd>
+&lt;dt>Go to end of the book (`NavigateToEnd`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>End&lt;/kbd>&lt;/dt>
+&lt;dd>in reader window, goes to the end of the publication
+&lt;/dd>
+&lt;dt>Book information panel (`OpenReaderInfo`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyI&lt;/kbd>&lt;/dt>
+&lt;dd>
+in reader window, publication info popup modal dialog (may be used in future Thorium version for similar feature in library window)
+&lt;/dd>
+&lt;dt>where am I (quick notification supported by Screen readers) (`SpeakReaderInfoWhereAmI`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyK&lt;/kbd>&lt;/dt>
+&lt;dd>in reader window, this is the "where am I" feature, just as above, but only spoken via screen reader TTS thanks to an ARIA live region with assertive speech which interrupts the current narration.
+&lt;/dd>
+&lt;dt>where am I (`OpenReaderInfoWhereAmI`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyI&lt;/kbd>&lt;/dt>
+in reader window, publication info popup modal dialog with direct keyboard focus on section that displays the headings hierarchy trail and other contextual information for the current reading location, such as nearest preceding page break, as well as document index in the reading order (this is the "where am I" feature).
+&lt;dd>
+&lt;/dd>
+&lt;dt>Next search result (`SearchNext`)
+&lt;kbd>F3&lt;/kbd> &lt;/dt>
+&lt;dd>in reader window, when the publication-wide search text input is open, finds the previous / next match
+&lt;/dd>
+&lt;dt>SearchNextAlt
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyG&lt;/kbd>&lt;/dt>
+&lt;dd> same as above (alternative keyboard shortcut)
+&lt;/dd>
+&lt;dt>previous search result (`SearchPrevious`)
+&lt;kbd>Shift&lt;/kbd> + &lt;kbd>F3&lt;/kbd> &lt;/dt>
+&lt;dd>in reader window, when the publication-wide search text input is open, finds the previous / next match
+&lt;/dd>
+&lt;dt>(`SearchPreviousAlt`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyG&lt;/kbd>&lt;/dt>
+&lt;dd> same as above (alternative keyboard shortcut)
+&lt;/dd>
+&lt;dt>Bookmarks (`ToggleBookmark`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyB&lt;/kbd> &lt;/dt>
+&lt;dd>in reader window, toggle bookmark (a notification is produced so that screen readers announce the change)
+&lt;/dd>
+&lt;dt> Fullscreen (`ToggleReaderFullscreen`)
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> &lt;/dt>
+&lt;dd>In reader window, toggle fullscreen. Note that this is different from the Zen mode. Keyboard shortcut is the only way to go full screen.
 &lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Supported publication formats</title><link>https://thorium.edrlab.org/en/th3/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/406_formats/</guid><description>
 &lt;dl>
@@ -753,6 +822,13 @@ The Marrakech Treaty
 &lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Frequently asked questions</title><link>https://thorium.edrlab.org/en/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/430_faq/</guid><description>
 &lt;dl>
+&lt;dt id="fullscreen">How can I enjoy Thorium in Fullscreen?
+&lt;/dt>
+&lt;dd>
+&lt;p>
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> in a reader window, will toggle this window fullscreen. Note that this is different from the Zen mode available from the top right pictogram. Keyboard shortcut is the only way to go full screen.
+&lt;/p>
+&lt;/dd>
 &lt;dt id="manually_manage_files">Why can't I open an ebook without it being save in the Thorium Reader library?
 &lt;/dt>
 &lt;dd>
