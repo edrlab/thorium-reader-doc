@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON to HTML Definition List</title>
+    <style>
+        dl {
+            margin: 0;
+            padding: 0;
+        }
+        dt, dd {
+            margin: 0;
+            padding: 0.5em;
+        }
+        kbd {
+            font-family: monospace;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 0.1em 0.3em;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Data Visualization</h1>
+    <dl id="definitionList"></dl>
+
+    <script>
+        // Function to fetch JSON data
+        function fetchJSONData() {
+            fetch('https://rawcdn.githack.com/edrlab/thorium-reader-doc/3c1ae9140d468217c1a7ef4803667ee1365f42e9/content/en/th3/400_ressources/defaults.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Render the JSON data into the definition list
+                    renderDefinitionList(data);
+                })
+                .catch(error => console.error('Error fetching JSON:', error));
+        }
+
+        // Function to render the JSON data into the definition list
+        function renderDefinitionList(data) {
+            const definitionList = document.getElementById('definitionList');
+
+            for (const key in data) {
+                const dt = document.createElement('dt');
+                dt.textContent = key;
+
+                const dd = document.createElement('dd');
+                let shortcut = '';
+
+                // Check and append each modifier key
+                if (data[key].alt) shortcut += '<kbd>Alt</kbd> + ';
+                if (data[key].control) shortcut += '<kbd>Ctrl</kbd> + ';
+                if (data[key].shift) shortcut += '<kbd>Shift</kbd> + ';
+
+                // Append the main key
+                shortcut += '<kbd>' + data[key].key + '</kbd>';
+
+                // Remove trailing ' + ' if no modifier keys are present
+                if (shortcut.endsWith(' + ')) {
+                    shortcut = shortcut.slice(0, -3);
+                }
+
+                dd.innerHTML = shortcut;
+
+                definitionList.appendChild(dt);
+                definitionList.appendChild(dd);
+            }
+        }
+
+        // Call the function to fetch and render the JSON data
+        fetchJSONData();
+    </script>
+</body>
+</html>
