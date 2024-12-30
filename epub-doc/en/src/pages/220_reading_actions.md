@@ -25,11 +25,3 @@ match](../../resources/images/local-fr/thorium-search-navpanel.png)
 
 
 
-:   
-
-:   
-
-:   
-
-:   
-

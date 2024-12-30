@@ -21,9 +21,9 @@ Open Publication menu
     <img src="../../resources/images/local_en/th3_library_grid_actions.png" class="icon" alt="" role="presentation"/>
     <img src="../../resources/images/local_en/th3_library_table_actions.png" class="icon" alt="" role="presentation"/> It allows to:
     -   Open the book information panel (About publication,
-        <img src="../../resources/images/icons3/info-icon.svg){.icon         role="presentation"});
+        <img src="../../resources/images/icons3/info-icon.svg" class="icon"  alt="" role="presentation"/>);
     -   Mark the publication as read
-        (<img src="../../resources/images/icons3/doubleCheck-icon.svg){.icon         role="presentation"}) that will change the Progression status to
+        (<img src="../../resources/images/icons3/doubleCheck-icon.svg" class="icon" alt="" role="presentation"/>) that will change the Progression status to
         Finished;
     -   Delete the Publication
         (<img src="../../resources/images/icons3/bin-icon.svg" class="icon" alt="" role="presentation"/>) that will open a confirmation pop up;
@@ -83,9 +83,9 @@ Navigate by pages of your library
 
 ## Add tags
 
-    You can enrich the information of the books in your library by
-    adding `Tags` to them. \`Tags\' allow you to quickly search and sort
-    books in list view. Putting it into practice. Open the book form,
-    position yourself in the field *Add a tag*, write the name of the
-    tag you want to add then press the `Add` button. The tag is added in
-    a blue box, you can remove it by clicking on the cross.
+You can enrich the information of the books in your library by
+adding `Tags` to them. \`Tags\' allow you to quickly search and sort
+books in list view. Putting it into practice. Open the book form,
+position yourself in the field *Add a tag*, write the name of the
+tag you want to add then press the `Add` button. The tag is added in
+a blue box, you can remove it by clicking on the cross.
