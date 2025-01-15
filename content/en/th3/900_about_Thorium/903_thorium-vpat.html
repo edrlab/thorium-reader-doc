@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Accessibility Conformance Report for Thorium Reader</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/responsive/2.3.0/css/responsive.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://smart.daisy.org/css/report.css?v=2024-05-31T12:00:00Z"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://smart.daisy.org/css/tabs.css?v=2024-05-31T12:00:00Z"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body typeof="Book" vocab="https://schema.org">
+    <header class="sticky">
+      <h1>Accessibility Conformance Report for Thorium Reader</h1>
+      <div id="add-logo"></div>
+    </header>
+
+    <main class="js-tabs">
+      <div id="report-header">
+        <h2 id="title" property="name">Thorium Reader</h2>
+        <div class="pubinfo"></div>
+        <ul class="js-tablist" data-existing-hx="h3">
+          <li class="js-tablist__item">
+            <a href="#overview" id="label_overview" class="js-tablist__link"
+              >Overview</a
+            >
+          </li>
+          <li class="js-tablist__item">
+            <a
+              href="#conformance"
+              id="label_conformance"
+              class="js-tablist__link"
+              >Conformance</a
+            >
+          </li>
+          <li class="js-tablist__item">
+            <a
+              href="#additional-info"
+              id="label_additional-info"
+              class="js-tablist__link"
+              >Additional Info</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="report-body">
+        <section id="overview" class="js-tabcontent">
+          <h3>Overview</h3>
+          <div class="summaryTable">
+            <div id="conformance-spec">
+              <div class="label">Evaluated Against:</div>
+              <div class="value" property="dcterms:conformsTo">
+                EPUB Accessibility 1.1 - WCAG 2.2 Level AA
+              </div>
+            </div>
+            <div id="conformance-result">
+              <div class="label">Conformance:</div>
+              <div class="value pass">Pass</div>
+            </div>
+            <div id="accessibilityHazards">
+              <div class="label">Accessibility Hazards:</div>
+              <div class="value">none</div>
+            </div>
+          </div>
+        </section>
+        <section id="conformance" class="js-tabcontent">
+          <h3>Conformance Results</h3>
+          <table class="responsive" id="epub_results">
+            <thead>
+              <tr>
+                <th data-priority="1">Success Criteria</th>
+                <th>Level</th>
+                <th data-priority="2">Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1.1.1 Non-text Content</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: all visual information is also available as text</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.2.1 Audio-only and Video-only (Prerecorded)</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: Thorium Reader can restitue publications with pre recorded audio or video.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.2.2 Captions (Prerecorded)</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: Thorium Reader can restitue publications with pre recorded captions.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  1.2.3 Audio Description or Media Alternative (Prerecorded)
+                </th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: Thorium Reader can restitue publications with pre recorded Audio Description or Media Alternative.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.2.4 Captions (Live)</th>
+                <td class="lvl">AA</td>
+                <td class="na">
+                  <p class="label">Non applicable</p>
+                  <p class="additional">Additional Info: Live captions may be available depending on the video service provided by the ebook creator.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.2.5 Audio Description (Prerecorded)</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: Thorium Reader can restitue publications with pre recorded Audio descriptions.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.2.6 Sign Language (Prerecorded)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: Thorium Reader can restitue publications with pre recorded Sign language videos. An experimental feature allows the reading of authored synchronisation between text and video.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.2.7 Extended Audio Description (Prerecorded)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: Thorium Reader can restitue publications with pre recorded extended audio descriptions.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.2.8 Media Alternative (Prerecorded)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: Thorium Reader can restitue publications with pre recorded media alternative.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.2.9 Audio-only (Live)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: Thorium Reader can restitue publications with live audio only, depending of the streaming application chosen and implemented by the ebook creator.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.3.1 Info and Relationships</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p>Additional Info: Thorium Reader makes use of HTML markup with additional ARIA roles when necessary. It also fully restitues all XHTML and ARIA markup as authored in publications.</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.3.2 Meaningful Sequence</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info: </p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.3.3 Sensory Characteristics</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.3.4 Orientation</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.3.5 Identify Input Purpose</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.3.6 Identify Purpose</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.1 Use of Color</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.2 Audio Control</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.3 Contrast (Minimum)</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.4 Resize text</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.5 Images of Text</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.6 Contrast (Enhanced)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.7 Low or No Background Audio</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.8 Visual Presentation</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.9 Images of Text (No Exception)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.10 Reflow</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.11 Non-text Contrast</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.12 Text Spacing</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>1.4.13 Content on Hover or Focus</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.1.1 Keyboard</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.1.2 No Keyboard Trap</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.1.3 Keyboard (No Exception)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.1.4 Character Key Shortcuts</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.2.1 Timing Adjustable</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.2.2 Pause, Stop, Hide</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.2.3 No Timing</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.2.4 Interruptions</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.2.5 Re-authenticating</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.2.6 Timeouts</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.3.1 Three Flashes or Below Threshold</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.3.2 Three Flashes</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.3.3 Animation from Interactions</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.1 Bypass Blocks</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.2 Page Titled</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.3 Focus Order</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.4 Link Purpose (In Context)</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.5 Multiple Ways</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.6 Headings and Labels</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.7 Focus Visible</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.8 Location</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.9 Link Purpose (Link Only)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.10 Section Headings</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.11 Focus Not Obscured (Minimum)</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.12 Focus Not Obscured (Enhanced)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.4.13 Focus Appearance</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.5.1 Pointer Gestures</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.5.2 Pointer Cancellation</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.5.3 Label in Name</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.5.4 Motion Actuation</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.5.5 Target Size (Enhanced)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.5.6 Concurrent Input Mechanisms</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.5.7 Dragging Movements</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>2.5.8 Target Size (Minimum)</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.1.1 Language of Page</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.1.2 Language of Parts</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.1.3 Unusual Words</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.1.4 Abbreviations</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.1.5 Reading Level</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.1.6 Pronunciation</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.2.1 On Focus</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.2.2 On Input</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.2.3 Consistent Navigation</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.2.4 Consistent Identification</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.2.5 Change on Request</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.2.6 Consistent Help</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.1 Error Identification</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.2 Labels or Instructions</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.3 Error Suggestion</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.4 Error Prevention (Legal, Financial, Data)</th>
+                <td class="lvl">AA</td>
+                <td class="na">
+                  <p class="label">Not Applicable</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.5 Help</th>
+                <td class="lvl">AAA</td>
+                <td class="na">
+                  <p class="label">Not Applicable</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.6 Error Prevention (All)</th>
+                <td class="lvl">AAA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.7 Redundant Entry</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.8 Accessible Authentication</th>
+                <td class="lvl">AA</td>
+                <td class="na">
+                  <p class="label">Not Applicable</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>3.3.9 Accessible Authentication (No Exception)</th>
+                <td class="lvl">AAA</td>
+                <td class="na">
+                  <p class="label">Not Applicable</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>4.1.1 Parsing</th>
+                <td class="lvl">A</td>
+                <td class="obsolete"><p class="label">Obsolete</p></td>
+              </tr>
+              <tr>
+                <th>4.1.2 Name, Role, Value</th>
+                <td class="lvl">A</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>4.1.3 Status Messages</th>
+                <td class="lvl">AA</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Page Source</th>
+                <td class="lvl">EPUB</td>
+                <td class="fail">
+                  <p class="label">Fail</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Page List</th>
+                <td class="lvl">EPUB</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Page Breaks</th>
+                <td class="lvl">EPUB</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Reading Order</th>
+                <td class="lvl">EPUB</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Skippability</th>
+                <td class="lvl">EPUB</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Escapability</th>
+                <td class="lvl">EPUB</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Navigation Document</th>
+                <td class="lvl">EPUB</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Discovery Metadata</th>
+                <td class="lvl">EPUB</td>
+                <td class="pass">
+                  <p class="label">Pass</p>
+                  <p class="additional">Additional Info:</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="additional-info" class="info js-tabcontent">
+          <h3>Resume</h3>
+          <div id="result">
+            <div class="label">Statistics:</div>
+            <div class="value">60 Pass, 1 Fail, 1 Obsolete, 2 N/A</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p id="timestamp">
+        Generated
+        <span id="date-created">January 15, 2025 ‒ 08:49:15</span> using
+        <a href="https://smart.daisy.org">Ace SMART</a>
+      </p>
+      <p>
+        <a href="https://daisy.org"
+          ><img src="https://smart.daisy.org/images/daisy_logo.gif" alt="DAISY"
+        /></a>
+      </p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/responsive/2.3.0/js/dataTables.responsive.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://smart.daisy.org/js/config/messages.js?v=2024-05-31T12:00:00Z"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://smart.daisy.org/js/init-datatables.js?v=2024-05-31T12:00:00Z>"
+    ></script>
+    <script>
+      var dt = new DT();
+
+      $(document).ready(function () {
+        dt.initialize({
+          paging: false,
+          info: false,
+          searchable: false,
+        });
+      });
+    </script>
+    <script src="https://smart.daisy.org/js/a11ytabs.js?v=2024-05-31T12:00:00Z"></script>
+  </body>
+</html>
