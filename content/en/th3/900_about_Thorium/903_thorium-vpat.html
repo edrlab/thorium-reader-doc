@@ -41,20 +41,25 @@
               >Overview</a
             >
           </li>
-          <li class="js-tablist__item">
-            <a
-              href="#conformance"
-              id="label_conformance"
-              class="js-tablist__link"
-              >Conformance</a
+		  <li class="js-tablist__item">
+            <a href="#uaagconformance" id="label_overview" class="js-tablist__link"
+              >UAAG conformance</a
             >
           </li>
           <li class="js-tablist__item">
             <a
-              href="#additional-info"
-              id="label_additional-info"
+              href="#wcagconformance"
+              id="label_conformance"
               class="js-tablist__link"
-              >Additional Info</a
+              >WCAG Conformance</a
+            >
+          </li>
+		  <li class="js-tablist__item">
+            <a
+              href="#epubconformance"
+              id="label_conformance"
+              class="js-tablist__link"
+              >EPUB Conformance</a
             >
           </li>
         </ul>
@@ -65,8 +70,12 @@
           <div class="summaryTable">
             <div id="conformance-spec">
               <div class="label">Evaluated Against:</div>
-              <div class="value" property="dcterms:conformsTo">
-                EPUB Accessibility 1.1 - WCAG 2.2 Level AA
+              <div class="" property="dcterms:conformsTo">
+				<ul>
+					<li>UAAG 2.0 Level AA</li>
+					<li>WCAG 2.2 Level AA</li>
+					<li>EPUB Accessibility 1.1</li>
+				</ul>
               </div>
             </div>
             <div id="conformance-result">
@@ -77,10 +86,249 @@
               <div class="label">Accessibility Hazards:</div>
               <div class="value">none</div>
             </div>
-          </div>
+			<div id="result">
+				<div class="label">Statistics:</div>
+				<ul>
+					<li>UAAG: 26 Pass, 0 Fail, 0 Obsolete, 0 N/A</li>
+					<li>WCAG: 60 Pass, 1 Fail, 1 Obsolete, 2 N/A</li>
+					<li>EPUB Accessibility: 6 Pass, 0 Fail, 0 Obsolete, 0 N/A</li>
+				</ul>
+			  </div>
+		</div>
         </section>
-        <section id="conformance" class="js-tabcontent">
-          <h3>Conformance Results</h3>
+		<section id="uaagconformance" class="js-tabcontent">
+			<h3>UAAG Conformance Results</h3>
+			<table class="responsive" id="epub_results">
+			  <thead>
+				<tr>
+				  <th data-priority="1">Success Criteria</th>
+				  <th>Level</th>
+				  <th data-priority="2">Result</th>
+				</tr>
+			  </thead>
+			  <tbody>
+		<th> 1.1: Alternative content</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th></th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.2: Missing content
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.3: Highlighting
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.4: Text configuration
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.5: Volume configuration
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.6: Synthesized speech configuration
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.7: User style sheet configuration
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.8: Orientation in viewports
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.9: Alternative views
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 1.10: Element Information
+		
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.1: Keyboard access
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.2: Sequential navigation
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.3: Direct navigation and activation
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.4: Text Search
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.5: Structural navigation
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.6: Preference settings
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.7: Graphical controls
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.8: Time-independent interaction
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.9: Flashing
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.10: Time-based media
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 2.11: Other Input Devices
+		
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 3.1: Mistakes
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 3.2: Documentation
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 3.3: Predictable
+		
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 4.1: Assistive technology
+		PRINCIPLE 5: Specifications and conventions
+		</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		<th> 5.1: Follow specifications</th>
+		<td class="lvl">A</td>
+		<td class="pass">
+		  <p class="label">Pass</p>
+		  <p class="additional">Additional Info: </p>
+		</td>
+		</tr>
+		</tbody>
+	 </table>
+	</section>
+        <section id="wcagconformance" class="js-tabcontent">
+          <h3>WCAG Conformance Results</h3>
           <table class="responsive" id="epub_results">
             <thead>
               <tr>
@@ -785,80 +1033,88 @@
                   <p class="additional">Additional Info:</p>
                 </td>
               </tr>
-              <tr>
-                <th>Page Source</th>
-                <td class="lvl">EPUB</td>
-                <td class="fail">
-                  <p class="label">Fail</p>
-                  <p class="additional">Additional Info:</p>
-                </td>
-              </tr>
-              <tr>
-                <th>Page List</th>
-                <td class="lvl">EPUB</td>
-                <td class="pass">
-                  <p class="label">Pass</p>
-                  <p class="additional">Additional Info:</p>
-                </td>
-              </tr>
-              <tr>
-                <th>Page Breaks</th>
-                <td class="lvl">EPUB</td>
-                <td class="pass">
-                  <p class="label">Pass</p>
-                  <p class="additional">Additional Info:</p>
-                </td>
-              </tr>
-              <tr>
-                <th>Reading Order</th>
-                <td class="lvl">EPUB</td>
-                <td class="pass">
-                  <p class="label">Pass</p>
-                  <p class="additional">Additional Info:</p>
-                </td>
-              </tr>
-              <tr>
-                <th>Skippability</th>
-                <td class="lvl">EPUB</td>
-                <td class="pass">
-                  <p class="label">Pass</p>
-                  <p class="additional">Additional Info:</p>
-                </td>
-              </tr>
-              <tr>
-                <th>Escapability</th>
-                <td class="lvl">EPUB</td>
-                <td class="pass">
-                  <p class="label">Pass</p>
-                  <p class="additional">Additional Info:</p>
-                </td>
-              </tr>
-              <tr>
-                <th>Navigation Document</th>
-                <td class="lvl">EPUB</td>
-                <td class="pass">
-                  <p class="label">Pass</p>
-                  <p class="additional">Additional Info:</p>
-                </td>
-              </tr>
-              <tr>
-                <th>Discovery Metadata</th>
-                <td class="lvl">EPUB</td>
-                <td class="pass">
-                  <p class="label">Pass</p>
-                  <p class="additional">Additional Info:</p>
-                </td>
-              </tr>
             </tbody>
           </table>
         </section>
-        <section id="additional-info" class="info js-tabcontent">
-          <h3>Resume</h3>
-          <div id="result">
-            <div class="label">Statistics:</div>
-            <div class="value">60 Pass, 1 Fail, 1 Obsolete, 2 N/A</div>
-          </div>
-        </section>
+		<section id="epubconformance" class="js-tabcontent">
+			<h3>EPUB Conformance Results</h3>
+			<table class="responsive" id="epub_results">
+			  <thead>
+				<tr>
+				  <th data-priority="1">Success Criteria</th>
+				  <th>Level</th>
+				  <th data-priority="2">Result</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th>Page Source</th>
+				  <td class="lvl">EPUB</td>
+				  <td class="fail">
+					<p class="label">Fail</p>
+					<p class="additional">Additional Info:</p>
+				  </td>
+				</tr>
+				<tr>
+				  <th>Page List</th>
+				  <td class="lvl">EPUB</td>
+				  <td class="pass">
+					<p class="label">Pass</p>
+					<p class="additional">Additional Info:</p>
+				  </td>
+				</tr>
+				<tr>
+				  <th>Page Breaks</th>
+				  <td class="lvl">EPUB</td>
+				  <td class="pass">
+					<p class="label">Pass</p>
+					<p class="additional">Additional Info:</p>
+				  </td>
+				</tr>
+				<tr>
+				  <th>Reading Order</th>
+				  <td class="lvl">EPUB</td>
+				  <td class="pass">
+					<p class="label">Pass</p>
+					<p class="additional">Additional Info:</p>
+				  </td>
+				</tr>
+				<tr>
+				  <th>Skippability</th>
+				  <td class="lvl">EPUB</td>
+				  <td class="pass">
+					<p class="label">Pass</p>
+					<p class="additional">Additional Info:</p>
+				  </td>
+				</tr>
+				<tr>
+				  <th>Escapability</th>
+				  <td class="lvl">EPUB</td>
+				  <td class="pass">
+					<p class="label">Pass</p>
+					<p class="additional">Additional Info:</p>
+				  </td>
+				</tr>
+				<tr>
+				  <th>Navigation Document</th>
+				  <td class="lvl">EPUB</td>
+				  <td class="pass">
+					<p class="label">Pass</p>
+					<p class="additional">Additional Info:</p>
+				  </td>
+				</tr>
+				<tr>
+				  <th>Discovery Metadata</th>
+				  <td class="lvl">EPUB</td>
+				  <td class="pass">
+					<p class="label">Pass</p>
+					<p class="additional">Additional Info:</p>
+				  </td>
+				</tr>
+			  </tbody>
+			</table>
+		  </section>
+		
       </div>
     </main>
 
