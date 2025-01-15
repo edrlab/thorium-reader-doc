@@ -11,6 +11,9 @@ a:not(.navbar *):not(.td-sidebar-nav *):not(.footer *):not(.about_banner_medias 
     text-decoration: underline;
 }
 
+.center{
+    text-align: center;
+}
 .img-fluid, .td-content img {
     max-width: none;
     height: auto; }
