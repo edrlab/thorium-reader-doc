@@ -104,10 +104,10 @@ section = ["HTML", "print", "RSS"]
 
 [params]
 copyright = "EDRLab"
-# thorium2 = "../../docs/"
-# privacy_policy = "../../th3/900_about_thorium/902_thorium-privacy-policy/"
-# accessibility = "../../th3/900_about_thorium/903_thorium-accessibility-policy/"
-# tou = "{{ .Site.Params.Baseurl }}/{{ .Language.Lang }}/th3/900_about_thorium/901_thorium-terms-of-use/"
+# thorium2 = "/docs/"
+# privacy_policy = "/th3/900_about_thorium/902_thorium-privacy-policy/"
+# accessibility = "/th3/900_about_thorium/903_thorium-accessibility-policy/"
+# tou = "/th3/900_about_thorium/901_thorium-terms-of-use/"
 sitemap = "sitemap"
 
 # First one is picked as the Twitter card image if not set on page.

@@ -33,7 +33,7 @@
             <!-- <input type="checkbox" name="accordion-1" id="cb2"> -->
             <label for="cb2" class="tab__label">
               {{ with .Site.Params.thorium2 }}
-                <a href="{{ . }}">
+                <a href="{{ .Site.Params.Baseurl }}/{{ .Language.Lang }}/{{ . }}">
                   <img src="/images/icons/footer-th2-icon.svg" alt="" role="presentation"/>
                   {{ T "footer_thorium2" }}
                   <div class="tab__content"></div>
@@ -45,7 +45,7 @@
             <!-- <input type="checkbox" name="accordion-1" id="cb3"> -->
             <label for="cb3" class="tab__label">
               {{ with .Site.Params.privacy_policy }}
-                <a href="{{ . }}">
+                <a href="{{ .Site.Params.Baseurl }}/{{ .Language.Lang }}/{{ . }}">
                   <img src="/images/icons/footer-privacy-icon.svg" alt="" role="presentation"/>
                   {{ T "footer_privacy_policy" }}
                   <div class="tab__content"></div>
@@ -57,7 +57,7 @@
             <!-- <input type="checkbox" name="accordion-1" id="cb4"> -->
             <label for="cb4" class="tab__label">
               {{ with .Site.Params.accessibility }}
-                <a href="{{ . }}">
+                <a href="{{ .Site.Params.Baseurl }}/{{ .Language.Lang }}/{{ . }}">">
                   <img src="/images/icons/footer-access-icon.svg" alt="" role="presentation"/>
                   {{ T "footer_accessibility" }}
                   <div class="tab__content"></div>
@@ -69,7 +69,7 @@
             <!-- <input type="checkbox" name="accordion-1" id="cb5"> -->
             <label for="cb5" class="tab__label">
               {{ with .Site.Params.tou }}
-                <a  href="{{ . }}">
+                <a href="{{ .Site.Params.Baseurl }}/{{ .Language.Lang }}/{{ . }}">
                   <img src="/images/icons/footer-tou-icon.svg" alt="" role="presentation"/>
                   {{ T "footer_tou" }}
                   <div class="tab__content"></div>
