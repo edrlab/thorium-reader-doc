@@ -687,9 +687,10 @@ kbd {
     background-color: $color-dark-blue;
     position: relative;
     min-height: fit-content;
+    text-align: center;
 
     small {
-        position: absolute;
+        // position: absolute;
         bottom: 10px;
         left: 20px;
         a {
@@ -1265,15 +1266,16 @@ kbd {
     }
 
     footer {
-        .navbar-nav, .left {
-            display: none;
-        }
+        text-align: center;
+        // .navbar-nav, .left {
+        //     display: none;
+        // }
 
-        .row {
-            div {
-                flex: 0;
-            }
-        }
+        // .row {
+        //     div {
+        //         flex: 0;
+        //     }
+        // }
     }
 
     .about_title {
