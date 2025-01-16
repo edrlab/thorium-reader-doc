@@ -1,5 +1,5 @@
 {{ $links := .Site.Params.links }}
-<footer class="py-5 row d-print-none footer">
+<footer class="py-5 d-print-none footer center">
   {{/*  <div class="container-fluid mx-sm-5">
     <div class="row">
       <div class="">
@@ -119,8 +119,16 @@
     </div>
   </div>  */}}
   <small class="text-white center">© 2024 <a href="https://edrlab.org">EDRLab </a> | <a
-      href="https://github.com/edrlab/thorium-reader-doc?tab=CC-BY-4.0-1-ov-file#readme">CC by license</a> </small>
-</footer>
+      href="https://github.com/edrlab/thorium-reader-doc?tab=CC-BY-4.0-1-ov-file#readme">license CC by 4.0</a> | 
+      {{/*  <a href="{{ .RelPermalink }}">{{ .Language.Lang }}: {{ .LinkTitle }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
+        */}}
+      <a
+      href="{{ .Site.Params.Baseurl }}/{{ .Language.Lang }}/sitemap/"> {{ T "sitemap" }}</a> {{ with .Site.Params.sitemap }}
+      {{/*  <a href="{{ . }}">     
+        {{ T "sitemap" }}
+      </a>  */}}
+    {{ end}}</small>
+{{/*  </footer>
 {{ define "footer-links-block" }}
 <ul class="list-inline mb-0">
   {{ range . }}
@@ -131,6 +139,6 @@
   </li> -->
   {{ end }}
 </ul>
-{{ end }}
+{{ end }}  */}}
 
 
