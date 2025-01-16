@@ -21,6 +21,9 @@ other = "dans"
 other = "toutes les"
 
 # Footer text
+[sitemap]
+other = "Carte du site"
+
 [footer_all_rights_reserved]
 other = "Tous droits résérvés"
 
