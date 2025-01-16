@@ -23,6 +23,9 @@ other = "en"
 other = "todos"
 
 # Footer text
+[sitemap]
+other = "Mapa del sitio"
+
 [footer_all_rights_reserved]
 other = "Derechos reservados"
 

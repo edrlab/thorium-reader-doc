@@ -21,6 +21,9 @@ other = "in"
 other = "all"
 
 # Footer text
+[sitemap]
+other = "Site Map"
+
 [footer_all_rights_reserved]
 other = "All Rights Reserved"
 
