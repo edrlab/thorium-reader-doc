@@ -44,4 +44,4 @@ New functionalities are tested with screen readers.
 
 ## Accessibility testing
 
-    * Community testing thru [epubtest.org](https://epubtest.org/)
+Thorium EPUB accessible reading features are community testing thru [epubtest.org](https://epubtest.org/)
