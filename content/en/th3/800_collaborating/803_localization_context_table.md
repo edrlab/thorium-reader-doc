@@ -309,6 +309,8 @@ toc: false
 | reader.navigation.currentPageTotal| Current page: {{- current}}/{{- total}}	| | | 
 | reader.navigation.detachWindowTitle| show library / bookshelf window	| | | 
 | reader.navigation.fullscreenTitle| go fullscreen	| | | 
+| reader.navigation.ZenModeTitle| Zen mode	| | | 
+| reader.navigation.ZenModeExit| Exit Zen mode	| | | 
 | reader.navigation.goTo| Go to	| | | 
 | reader.navigation.goToError| Page break does not exist	| | | 
 | reader.navigation.goToPlaceHolder| Enter page number	| | | 
