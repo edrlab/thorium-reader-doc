@@ -3056,6 +3056,18 @@ The Marrakech Treaty
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
+&lt;td>reader.navigation.ZenModeTitle&lt;/td>
+&lt;td>Zen mode&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>reader.navigation.ZenModeExit&lt;/td>
+&lt;td>Exit Zen mode&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
 &lt;td>reader.navigation.goTo&lt;/td>
 &lt;td>Go to&lt;/td>
 &lt;td>&lt;/td>
