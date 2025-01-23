@@ -131,8 +131,7 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;p>As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.&lt;/p>
 &lt;p>New functionalities are tested with screen readers.&lt;/p>
 &lt;h2 id="accessibility-testing">Accessibility testing&lt;/h2>
-&lt;pre>&lt;code>* Community testing thru [epubtest.org](https://epubtest.org/)
-&lt;/code>&lt;/pre></description></item><item><title>Th3: Licence for Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/913_licence/</guid><description>
+&lt;p>Thorium EPUB accessible reading features are community testing thru &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item><item><title>Th3: Licence for Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/913_licence/</guid><description>
 &lt;p>The Thorium-reader application is open-source, released under a BSD 3 license. It is based on the open-source Readium Desktop toolkit Licensed to the &lt;a href="https://readium.org/">Readium Foundation&lt;/a> under one or more contributor license agreements.&lt;/p>
 &lt;p>BSD 3-Clause License&lt;/p>
 &lt;p>Copyright (c) 2017, EDRLab
