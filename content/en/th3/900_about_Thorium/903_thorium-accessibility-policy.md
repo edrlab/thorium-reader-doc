@@ -7,6 +7,7 @@ weight: 903
 toc: false
 ---
 
+
 EDRLab is a non profit developpement laboratory and places accessibility as a core requirement of it's actions. That include the developpement of Thorium Reader. 
 
 However, the core aspect of innovation and experimentation of our work may affect accessibility at some points. 
@@ -29,6 +30,9 @@ When an accessibility feature is introduced, we make that information public thr
 * a short mention on the website landing page
 * listed for reference in this website [ressources section, accessibility page](../../400_ressources/300_accessibility)
 * all accessibility related explanations are available in the documentation, not in a separate chapter or place.
+
+We are maintaining a [VPAT (voluntary product accessibility template) for Thorium Reader](https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html). 
+
 
 ## Support for assistive technology
 
