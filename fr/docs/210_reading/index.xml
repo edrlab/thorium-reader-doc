@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Lire</title><link>https://thorium.edrlab.org/fr/docs/210_reading/</link><description>Recent content in Lire on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/fr/docs/210_reading/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Se déplacer dans un livre</title><link>https://thorium.edrlab.org/fr/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/211_moving/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Lire</title><link>https://thorium.edrlab.org/fr/docs/210_reading/</link><description>Recent content in Lire on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://thorium.edrlab.org/fr/docs/210_reading/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Se déplacer dans un livre</title><link>https://thorium.edrlab.org/fr/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/210_reading/211_moving/</guid><description>
 &lt;p>Les options de navigation peuvent être très différentes d&amp;rsquo;un livre à l&amp;rsquo;autre. Thorium permet :&lt;/p>
 &lt;ul>
 &lt;li>d&amp;rsquo;avancer et de reculer dans la lecture&lt;/li>
@@ -243,7 +243,7 @@ le système d&amp;rsquo;exploitation.&lt;/p>
 &lt;li>Écrivez le mot &lt;em>Luciole&lt;/em> dans le champ vide apparu à côté de la liste déroulante.&lt;/li>
 &lt;li>Validez avec &lt;kbd>Entrée&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;p>&amp;lt;img class=&amp;ldquo;icons&amp;rdquo; src=&amp;quot;/images/local-fr/thorium-luciole.png&amp;quot; alt=&amp;quot;&amp;quot;//&amp;gt;
+&lt;p>&amp;lt;img class=&amp;ldquo;icons&amp;rdquo; src=&amp;quot;/images/local-fr/thorium-luciole.png&amp;quot; alt=&amp;quot;&amp;quot;//&amp;gt;&lt;/p>
 &lt;/div>
 &lt;h2 id="affichage">Affichage&lt;/h2>
 &lt;p>Vous pouvez choisir entre une mise en page avec défilement ou pagination,

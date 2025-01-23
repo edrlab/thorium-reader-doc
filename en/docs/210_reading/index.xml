@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Read a book</title><link>https://thorium.edrlab.org/en/docs/210_reading/</link><description>Recent content in Read a book on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/en/docs/210_reading/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Moving around in a book</title><link>https://thorium.edrlab.org/en/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/210_reading/211_moving/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Read a book</title><link>https://thorium.edrlab.org/en/docs/210_reading/</link><description>Recent content in Read a book on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/docs/210_reading/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Moving around in a book</title><link>https://thorium.edrlab.org/en/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/210_reading/211_moving/</guid><description>
 &lt;p>The navigation options can be very different from one book to another.
 Thorium allows the following.
 The navigation options can be very different from one book to another. Thorium allows:&lt;/p>
@@ -250,7 +250,7 @@ the operating system.&lt;/p>
 &lt;li>Write the word &lt;em>Luciole&lt;/em> in the empty field that appears next to the drop-down list.&lt;/li>
 &lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;p>&amp;lt;img class=&amp;ldquo;icons&amp;rdquo; src=&amp;quot;/images/local-fr/thorium-luciole.png&amp;quot; alt=&amp;ldquo;Screenshot showing the Text settings Pannel with Luciole set up as reading font&amp;rdquo;//&amp;gt;
+&lt;p>&amp;lt;img class=&amp;ldquo;icons&amp;rdquo; src=&amp;quot;/images/local-fr/thorium-luciole.png&amp;quot; alt=&amp;ldquo;Screenshot showing the Text settings Pannel with Luciole set up as reading font&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;/div>
 &lt;h2 id="display">Display&lt;/h2>
 &lt;p>You can choose between a page layout with scrolling or pagination,

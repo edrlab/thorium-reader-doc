@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Legacy Thorium 2 documentation</title><link>https://thorium.edrlab.org/en/docs/</link><description>Recent content in Legacy Thorium 2 documentation on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/en/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Start reading</title><link>https://thorium.edrlab.org/en/docs/100_quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/100_quickstart/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Legacy Thorium 2 documentation</title><link>https://thorium.edrlab.org/en/docs/</link><description>Recent content in Legacy Thorium 2 documentation on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Start reading</title><link>https://thorium.edrlab.org/en/docs/100_quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/100_quickstart/</guid><description>
 &lt;p>Thorium is a digital book reader, it is also a library
 where you can store your books and access to online catalogs.
 Thorium does not require any account or online access to be launched and used.&lt;/p>
@@ -24,9 +24,9 @@ file format you wish to read with Thorium.&lt;/p>
 &lt;/div>
 &lt;p>Thorium can also be launched from the application menu
 or from any shortcut created.
-This will open the &lt;a href="https://thorium.edrlab.org/docs/220_organizing/221_libraries/">library&lt;/a>
+This will open the &lt;a href="https://thorium.edrlab.org/en/docs/220_organizing/221_libraries/">library&lt;/a>
 and will allow you to choose a book or to add one but also to access
-to &lt;a href="https://thorium.edrlab.org/docs/220_organizing/222_catalogs/">catalogs&lt;/a> and organize your collection.
+to &lt;a href="https://thorium.edrlab.org/en/docs/220_organizing/222_catalogs/">catalogs&lt;/a> and organize your collection.
 To read a book just click on it or validate with &lt;kbd>Enter&lt;/kbd>
 when selected.&lt;/p></description></item><item><title>Docs: Moving around in a book</title><link>https://thorium.edrlab.org/en/docs/210_reading/211_moving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/210_reading/211_moving/</guid><description>
 &lt;p>The navigation options can be very different from one book to another.
@@ -280,7 +280,7 @@ the operating system.&lt;/p>
 &lt;li>Write the word &lt;em>Luciole&lt;/em> in the empty field that appears next to the drop-down list.&lt;/li>
 &lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;p>&amp;lt;img class=&amp;ldquo;icons&amp;rdquo; src=&amp;quot;/images/local-fr/thorium-luciole.png&amp;quot; alt=&amp;ldquo;Screenshot showing the Text settings Pannel with Luciole set up as reading font&amp;rdquo;//&amp;gt;
+&lt;p>&amp;lt;img class=&amp;ldquo;icons&amp;rdquo; src=&amp;quot;/images/local-fr/thorium-luciole.png&amp;quot; alt=&amp;ldquo;Screenshot showing the Text settings Pannel with Luciole set up as reading font&amp;rdquo;//&amp;gt;&lt;/p>
 &lt;/div>
 &lt;h2 id="display">Display&lt;/h2>
 &lt;p>You can choose between a page layout with scrolling or pagination,
@@ -415,7 +415,7 @@ to see the magic happen.&lt;/p>
 &lt;h2 id="example-of-opds-feeds-with-lcp-protected-contents">Example of OPDS feeds with LCP protected contents&lt;/h2>
 &lt;p>Feeds with protected contents should allow you to login directly from Thorium catalog page, the button or access to login might be different depending on the feed provider.&lt;/p>
 &lt;p>Archive.org OPDS feed allows to browse and borrow books under LCP license. An Archive org account is needed, authentication page will open once you select a book. You can add it to Thorium with the following address: &lt;a href="opds://archive.org/services/opds">Open Archive.org OPDS feed&lt;a>&lt;/p>
-&lt;p>You can use &lt;a href="https://catalog.feedbooks.com/catalog/index.json">feedbooks OPDS&lt;/a> to browse &lt;a href="https://www.feedbooks.com/#">Feedbook catalog&lt;/a>. Once you have selected a book you&amp;rsquo;ll be redirected to the webpage where you can buy the book.&lt;/p>
+&lt;p>You can use &lt;a href="https://catalog.feedbooks.com/catalog/index.json">feedbooks OPDS&lt;/a> to browse &lt;a href="https://www.feedbooks.com/">Feedbook catalog&lt;/a>. Once you have selected a book you&amp;rsquo;ll be redirected to the webpage where you can buy the book.&lt;/p>
 &lt;p>Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the &lt;em>Shelf&lt;/em> button on the upper right corner. Anybook bought with your Feedbooks account will be available for download directly from the Thorium OPDS feed catalog interface.&lt;/p>
 &lt;p>For testing purposes EDRLab provides a feed with three free publications under LCP protection. You can add it to Thorium with the following address: &lt;a href="opds://edrlab.org/public/feed/opds-lcp.json">Add EDRLab OPDS public feed&lt;/a>&lt;/p>
 &lt;h2 id="opds-feed-responsibility">OPDS Feed responsibility&lt;/h2>
@@ -530,7 +530,7 @@ EPUBs (so-called &lt;span lang="en">Fixed Layout&lt;/span>)
 or PDF files.&lt;/p>
 &lt;/div>
 &lt;h2 id="text-to-speech-tts">Text-to-Speech (TTS)&lt;/h2>
-&lt;p>See dedicated section about &lt;a href="https://thorium.edrlab.org/docs/210_reading/230_TTS/">Text to Speech (TTS)&lt;/a>.&lt;/p></description></item><item><title>Docs: Reading with a screen reader</title><link>https://thorium.edrlab.org/en/docs/300_accessibility/310_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/300_accessibility/310_screenreaders/</guid><description>
+&lt;p>See dedicated section about &lt;a href="https://thorium.edrlab.org/en/docs/210_reading/230_tts/">Text to Speech (TTS)&lt;/a>.&lt;/p></description></item><item><title>Docs: Reading with a screen reader</title><link>https://thorium.edrlab.org/en/docs/300_accessibility/310_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/300_accessibility/310_screenreaders/</guid><description>
 &lt;p>When launching Thorium, if a screen reader is detected, the relative functions are activated.&lt;/p>
 &lt;p>Note that screen readers use a separate buffer to access the HTML content which results in the visual scroll / page offset to be out of sync. In other words, Thorium is generally not aware of the user&amp;rsquo;s current reading location inside the screen reader buffer, unless the screen reader user triggers standard web API events (such as mouse click anywhere in the text, or keyboard tab into focusable HTML elements).&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
@@ -1253,67 +1253,67 @@ The Marrakech Treaty
 &lt;td>accessibility.bookMenu&lt;/td>
 &lt;td>Menu&lt;/td>
 &lt;td>In the Bookshelfs, each book has a three dots button to access book menu, activating it will display a list of menu items&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-0.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-0.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.closeDialog&lt;/td>
 &lt;td>Close&lt;/td>
 &lt;td>Accessible name (&lt;code>aria-label&lt;/code>) of the close button (with a X pictogram) used in several places and contexts, to close the panels (settings, annotations, navigation, Add OPDS, etc),&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/accessibility_closeDialog.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/accessibility_closeDialog.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.importFile&lt;/td>
 &lt;td>Import publication&lt;/td>
 &lt;td>Available from the Home and Library views, this button opens a system file explorer window to select a file to import&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.leftSlideButton&lt;/td>
 &lt;td>Slide to the left&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-35.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-35.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.mainContent&lt;/td>
 &lt;td>main content&lt;/td>
 &lt;td>Accessible name (&lt;code>aria-label&lt;/code>) of the main part of the window, not rendered visually but rendered thru screen reader&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/accessibility_mainContent.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/accessibility_mainContent.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.rightSlideButton&lt;/td>
 &lt;td>Slide to the right&lt;/td>
 &lt;td>Button used in several places to display&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-34.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-34.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.skipLink&lt;/td>
 &lt;td>Skip to content&lt;/td>
 &lt;td>First keyboard tab stroke in a reading window will make appear this link to skip the navigation bar and reach directly the content of the book, so keyboard and screen reader users can access quickly to the book content&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/skiplink.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/skiplink.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>accessibility.toolbar&lt;/td>
 &lt;td>toolbar&lt;/td>
 &lt;td>Accessible Name (&lt;code>title&lt;/code> and &lt;code>aria-label&lt;/code> of the main toolbar). Does not appears visually but is rendered to screen reader user&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/accessibility_toolbar.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/accessibility_toolbar.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>apiapp.documentation&lt;/td>
 &lt;td>Thorium Documentation&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-6.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-6.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>apiapp.howItWorks&lt;/td>
 &lt;td>How does it work?&lt;/td>
 &lt;td>A foldable information button to add information about Add a library Account / Activate access to Dilicom PNB API in the General Settings panel&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-8.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-8.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>apiapp.informations&lt;/td>
 &lt;td>In France, many public libraries provide a machine-readable catalog (similar to OPDS but not identical), letting patrons download digital publications from their personal bookshelf. Integrating this technology in Thorium Reader allows you to download an ebook or audiobook directly into Thorium Reader for instant reading. How do you connect your French public library account to Thorium Reader? It&amp;rsquo;s simple. Enter a French city (&amp;lsquo;Paris&amp;rsquo;) or part of the library name in the Search field and hit the Search button. A list of public libraries corresponding to your search will appear. Select a library and hit Add. In the updated list of catalogs, select this library: an authentication form is displayed. Enter your username/email address and password, and hit Login. You can now see the content of your personal bookshelf, from which you can download and read the ebooks and audiobooks you previously borrowed.&lt;/td>
 &lt;td>This context explanation appears when the apiapp.howItWorks button is unfold&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-7.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-7.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>apiapp.noLibraryFound&lt;/td>
@@ -1421,7 +1421,7 @@ The Marrakech Treaty
 &lt;td>catalog.about.title&lt;/td>
 &lt;td>About {{- appName}}&lt;/td>
 &lt;td>Refers to the footer of the application, it is the &amp;ldquo;About Thorium&amp;rdquo; link leading to the about file&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>catalog.addBookToLib&lt;/td>
@@ -1451,7 +1451,7 @@ The Marrakech Treaty
 &lt;td>catalog.bookInfo&lt;/td>
 &lt;td>About publication&lt;/td>
 &lt;td>First element of the book menu&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>catalog.column.ascending&lt;/td>
@@ -1481,7 +1481,7 @@ The Marrakech Treaty
 &lt;td>catalog.deleteBook&lt;/td>
 &lt;td>Delete&lt;/td>
 &lt;td>Third element of the book menu&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-3.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-3.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>catalog.deleteTag&lt;/td>
@@ -1505,7 +1505,7 @@ The Marrakech Treaty
 &lt;td>catalog.entry.continueReading&lt;/td>
 &lt;td>Resume reading&lt;/td>
 &lt;td>Library window, Home tab, First title. Under this title, the last opened books are listed.&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-32.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-32.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>catalog.entry.continueReadingAudioBooks&lt;/td>
@@ -1529,19 +1529,19 @@ The Marrakech Treaty
 &lt;td>catalog.entry.lastAdditions&lt;/td>
 &lt;td>Recently added&lt;/td>
 &lt;td>Library window, Home tab, Second title. Under this title, the last added books are listed.&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-33.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-33.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>catalog.export&lt;/td>
 &lt;td>Save as&lt;/td>
 &lt;td>Fourth element of the book menu, will open &lt;a href="../804_localisation_glossary/#osfilemanager">OS file manager window&lt;/a> to select a place to save (export) the title&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-4.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-4.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>catalog.exportAnnotation&lt;/td>
 &lt;td>Save annotation as&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-14.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-14.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>catalog.format&lt;/td>
@@ -1553,7 +1553,7 @@ The Marrakech Treaty
 &lt;td>catalog.importAnnotation&lt;/td>
 &lt;td>Import annotation&lt;/td>
 &lt;td>Will open OS context window to select a file to import. The file must be .annotation format. This label is used in the catalog as a button name and within an ebook reading window as a tooltip.&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-5.png" alt="screenshot"> &lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-13.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-5.png"> &lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-13.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>catalog.lang&lt;/td>
@@ -1775,7 +1775,7 @@ The Marrakech Treaty
 &lt;td>dialog.annotations.descList&lt;/td>
 &lt;td>{{- nb}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-26.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-26.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>dialog.annotations.descNewer&lt;/td>
@@ -1793,7 +1793,7 @@ The Marrakech Treaty
 &lt;td>dialog.annotations.descTitle&lt;/td>
 &lt;td>Annotation Set Title:&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-25.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-25.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>dialog.annotations.importAll&lt;/td>
@@ -1811,25 +1811,25 @@ The Marrakech Treaty
 &lt;td>dialog.annotations.title&lt;/td>
 &lt;td>Do you want to import these notes ?&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-24.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-24.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>dialog.cancel&lt;/td>
 &lt;td>Cancel&lt;/td>
 &lt;td>Cancel button used in several contexts&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-31.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-31.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>dialog.deleteAnnotations&lt;/td>
 &lt;td>Delete annotations?&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-22.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-22.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>dialog.deleteAnnotationsText&lt;/td>
 &lt;td>Do you want to delete {{- annotationListLength}} annotation(s)?&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-23.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-23.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>dialog.deleteFeed&lt;/td>
@@ -1985,67 +1985,67 @@ The Marrakech Treaty
 &lt;td>library.lcp.hint&lt;/td>
 &lt;td>Hint:&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-29.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-29.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>library.lcp.open&lt;/td>
 &lt;td>Open&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-23.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-23.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>library.lcp.password&lt;/td>
 &lt;td>Passphrase&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-26.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-26.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>library.lcp.sentence&lt;/td>
 &lt;td>This publication needs an LCP passphrase to be opened&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-23.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-23.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>library.lcp.urlHint&lt;/td>
 &lt;td>Forgot your passphrase? Click here to get support.&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-24.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-24.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>library.lcp.whatIsLcp?&lt;/td>
 &lt;td>What is LCP?&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-25.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-25.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>library.lcp.whatIsLcpInfoDetails&lt;/td>
 &lt;td>LCP stands for &amp;lsquo;Licensed Content Protection&amp;rsquo;.&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-27.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-27.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>library.lcp.whatIsLcpInfoDetailsLink&lt;/td>
 &lt;td>To learn more, click this link to the EDRLab website.&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-28.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-28.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>message.annotations.alreadyImported&lt;/td>
 &lt;td>All annotations already imported, aborting the importation&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-27.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-27.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>message.annotations.emptyFile&lt;/td>
 &lt;td>No annotations available in the file&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-29.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-29.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>message.annotations.errorParsing&lt;/td>
 &lt;td>Error file format parsing:&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-28.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-28.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>message.annotations.noBelongTo&lt;/td>
@@ -2561,7 +2561,7 @@ The Marrakech Treaty
 &lt;td>publication.markAsRead&lt;/td>
 &lt;td>Mark as read&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-2.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-2.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>publication.notStarted&lt;/td>
@@ -2663,127 +2663,127 @@ The Marrakech Treaty
 &lt;td>reader.annotations.advancedMode&lt;/td>
 &lt;td>Instant mode (auto create after select)&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-35.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-35.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.annotationsExport.description&lt;/td>
 &lt;td>Name this set of annotations&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-52.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-52.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.annotationsExport.title&lt;/td>
 &lt;td>Title&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-51.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-51.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.annotationsOptions&lt;/td>
 &lt;td>Options&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-15.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-15.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.colors.bluegreen&lt;/td>
 &lt;td>Blue-green&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-47.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-47.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.colors.cyan&lt;/td>
 &lt;td>Cyan&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-48.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-48.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.colors.green&lt;/td>
 &lt;td>Green&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-46.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-46.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.colors.lightblue&lt;/td>
 &lt;td>Light Blue&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-49.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-49.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.colors.orange&lt;/td>
 &lt;td>Orange&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-44.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-44.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.colors.purple&lt;/td>
 &lt;td>Purple&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-50.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-50.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.colors.red&lt;/td>
 &lt;td>Red&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-43.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-43.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.colors.yellow&lt;/td>
 &lt;td>Yellow&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-45.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-45.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.export&lt;/td>
 &lt;td>Save notes as&lt;/td>
 &lt;td>Export annotations context menu validation button&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.filter.all&lt;/td>
 &lt;td>All&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-42.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-42.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.filter.filterByColor&lt;/td>
 &lt;td>Filter by Color&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-20.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-20.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.filter.filterByCreator&lt;/td>
 &lt;td>Filter by Creator&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-30.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-30.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.filter.filterByDrawtype&lt;/td>
 &lt;td>Filter by Drawtype&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-21.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-21.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.filter.filterByTag&lt;/td>
 &lt;td>Filter by Tag&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-19.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-19.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.filter.filterOptions&lt;/td>
 &lt;td>Filter Options&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-12.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-12.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.filter.none&lt;/td>
 &lt;td>None&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-39.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-39.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.hide&lt;/td>
 &lt;td>Do not display&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-38.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-38.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.highlight&lt;/td>
@@ -2795,73 +2795,73 @@ The Marrakech Treaty
 &lt;td>reader.annotations.noSelectionToast&lt;/td>
 &lt;td>No selection&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-40.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-40.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.quickAnnotations&lt;/td>
 &lt;td>Quick create (skip editor)&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-36.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-36.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.saveNote&lt;/td>
 &lt;td>Save&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-41.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-41.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.sorting.lastcreated&lt;/td>
 &lt;td>Last created&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-17.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-17.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.sorting.lastmodified&lt;/td>
 &lt;td>Last modified&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-18.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-18.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.sorting.progression&lt;/td>
 &lt;td>Progression&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-16.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-16.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.sorting.sortingOptions&lt;/td>
 &lt;td>Sorting Options&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-10.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-10.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.toggleMarginMarks&lt;/td>
 &lt;td>Display in margins&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-37.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-37.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.type.outline&lt;/td>
 &lt;td>Outline&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-34.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-34.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.type.solid&lt;/td>
 &lt;td>Solid background&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-31.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-31.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.type.strikethrough&lt;/td>
 &lt;td>Strikethrough&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-33.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-33.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.annotations.type.underline&lt;/td>
 &lt;td>Underline&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-32.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-32.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.divina.mute&lt;/td>
@@ -3017,13 +3017,13 @@ The Marrakech Treaty
 &lt;td>reader.navigation.annotationTitle&lt;/td>
 &lt;td>annotation&lt;/td>
 &lt;td>Reading windows tool bar top right button list opening the Annotation panel&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/annotation_title.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/annotation_title.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.navigation.backHomeTitle&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>In the reading window of each book, this button stands at the top left corner. Hitting it will close the reading window and bring the library window front. If more than one reading window are opened, this will only close the reading window where the button was activated. Other reading windows will remain in the background.&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/backtobookshelf_closewindow.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/backtobookshelf_closewindow.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>reader.navigation.bookmarkTitle&lt;/td>
@@ -3581,31 +3581,31 @@ The Marrakech Treaty
 &lt;td>settings.annotationCreator.creator&lt;/td>
 &lt;td>Creator&lt;/td>
 &lt;td>Setting window, General Tab, at the bottom, there is now a level 4 section with this title. It allows to set up a name that will be assigned to annotations. It can be changed without affecting existing annotations. It will be exported with the Annotations export feature.&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-12.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-12.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.annotationCreator.name&lt;/td>
 &lt;td>Name&lt;/td>
 &lt;td>Title of the field where an annotations creator name can be added&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-11.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-11.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.annotationCreator.organization&lt;/td>
 &lt;td>Organization&lt;/td>
 &lt;td>radio button to specify if the creator name refers to an organisation&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-10.png" alt="edrlab">&lt;/td>
+&lt;td>&lt;img alt="edrlab" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-10.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.annotationCreator.person&lt;/td>
 &lt;td>Person&lt;/td>
 &lt;td>radio button to specify if the creator name refers to a person&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-8.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-8.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.annotationCreator.type&lt;/td>
 &lt;td>Type:&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-9.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-9.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.auth.title&lt;/td>
@@ -3635,7 +3635,7 @@ The Marrakech Treaty
 &lt;td>settings.keyboard.disclaimer&lt;/td>
 &lt;td>Shortcuts were defined from QWERTY keyboard layout.&lt;/td>
 &lt;td>Information available from the&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-18.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-18.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.keyboard.editUserJson&lt;/td>
@@ -3671,7 +3671,7 @@ The Marrakech Treaty
 &lt;td>settings.language.languageChoice&lt;/td>
 &lt;td>Language&lt;/td>
 &lt;td>Setting window, General tab, label for the dropdown menu to choose language (each language name is in it&amp;rsquo;s own language)&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-21.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-21.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.library.enableAPIAPP&lt;/td>
@@ -3689,67 +3689,67 @@ The Marrakech Treaty
 &lt;td>settings.session.title&lt;/td>
 &lt;td>Save session&lt;/td>
 &lt;td>Setting window, General tab. Check box. Saving session will cause thorium to reopen all windows that were opened when thorium was closed&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-22.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-22.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.tabs.appearance&lt;/td>
 &lt;td>Appearance&lt;/td>
 &lt;td>Setting window, Appearance tab and title&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-14.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-14.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.tabs.general&lt;/td>
 &lt;td>General&lt;/td>
 &lt;td>Setting window, General tab and title&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-20.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-20.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.tabs.keyboardShortcuts&lt;/td>
 &lt;td>Keyboard shortcuts&lt;/td>
 &lt;td>Setting window, Keyboard shortcuts tab and title&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-17.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-17.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.theme.auto&lt;/td>
 &lt;td>Automatic&lt;/td>
 &lt;td>Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme according to the operating system settings&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-16.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-16.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.theme.dark&lt;/td>
 &lt;td>Dark&lt;/td>
 &lt;td>Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme as Dark&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-14.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-14.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.theme.description&lt;/td>
 &lt;td>Application theme matches operating system.&lt;/td>
 &lt;td>Setting window, Appearance tab, Application Theme, under the dropdown menu, this information appears when Automatic is selected from the dropdown menu.&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-15.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-15.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.theme.light&lt;/td>
 &lt;td>Light&lt;/td>
 &lt;td>Setting window, Appearance tab, Application Theme dropdown menu entry. Will setup application theme Light&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-13.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-13.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>settings.theme.title&lt;/td>
 &lt;td>Application Theme&lt;/td>
 &lt;td>Setting window, Appearance tab. Label of the dropdown menu to select Light, Dark or AUtomatic theme&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-19.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-19.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.buttons.discover&lt;/td>
 &lt;td>Discover what&amp;rsquo;s new&lt;/td>
 &lt;td>Button at the bottom right of the Welcome tab from the WIzard panel; will shift to second tab of the wizard panel&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-1.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-1.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.buttons.goToBooks&lt;/td>
 &lt;td>Go to my publications&lt;/td>
 &lt;td>Button at the bottom right of the Welcome tab from the WIzard panel. Will close the wizard panel.&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-1.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-1.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.buttons.next&lt;/td>
@@ -3761,25 +3761,25 @@ The Marrakech Treaty
 &lt;td>wizard.description.annotations&lt;/td>
 &lt;td>Highlight document text, choose style and color, attach personal notes. Create annotations in &amp;lsquo;quick&amp;rsquo; mode to bypass the editor (you can enter text and customize styles later). For extra speed, use the &amp;lsquo;instant&amp;rsquo; mode which creates annotations immediately after highlighting document text!&lt;/td>
 &lt;td>Wizard welcome window fifth tab text&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-5.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-5.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.description.catalogs&lt;/td>
 &lt;td>Borrow publications from your local library or discover publications via OPDS feeds. Access a variety of publications from multiple sources thanks to online catalogs.&lt;/td>
 &lt;td>Wizard welcome window third Panel description (catalogs)&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-3.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-3.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.description.home&lt;/td>
 &lt;td>Thorium looks different! Let&amp;rsquo;s discover what&amp;rsquo;s new&amp;hellip;&lt;/td>
 &lt;td>Wizard welcome windows first text (Home / Welcome)&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-1.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-1.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.description.readingView1&lt;/td>
 &lt;td>Customize your reading and listening preferences: Thorium now offers multiple color themes for both the user interface and publication documents. It is now also easier to configure &amp;lsquo;readaloud&amp;rsquo; ebooks with synthetic speech and synchronized text/audio narration.&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-4.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-4.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.description.readingView2&lt;/td>
@@ -3791,61 +3791,61 @@ The Marrakech Treaty
 &lt;td>wizard.description.yourBooks&lt;/td>
 &lt;td>Welcome to your redesigned personal bookshelf! In the &amp;lsquo;grid&amp;rsquo; view, easily filter by tags or find publications by keywords. In the advanced &amp;rsquo;table&amp;rsquo; view, select and sort publications by specific authors, title, date, format, etc.&lt;/td>
 &lt;td>Wizard welcome window second panel text&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-2.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-2.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.dontShow&lt;/td>
 &lt;td>Don&amp;rsquo;t show again&lt;/td>
 &lt;td>Wizard welcome window Checkbox to stop wizard opening at each Thorium start&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-7.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-7.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.tab.annotations&lt;/td>
 &lt;td>Annotations&lt;/td>
 &lt;td>Wizard welcome window fifth tab&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-5.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-5.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.tab.catalogs&lt;/td>
 &lt;td>Catalogs&lt;/td>
 &lt;td>Wizard welcome window third Panel title and Wizard tab label&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-3.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-3.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.tab.home&lt;/td>
 &lt;td>Home&lt;/td>
 &lt;td>Wizard welcome window first tab&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-6.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-6.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.tab.readingView&lt;/td>
 &lt;td>Reading view&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-4.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-4.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.tab.yourBooks&lt;/td>
 &lt;td>Your publications&lt;/td>
 &lt;td>Wizard welcome window second tab&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-2.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-2.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.title.allBooks&lt;/td>
 &lt;td>All my publications&lt;/td>
 &lt;td>Wizard welcome window second Panel title&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-2.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-2.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.title.newFeature&lt;/td>
 &lt;td>New feature: Annotations&lt;/td>
 &lt;td>Wizard welcome window fifth tab title&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-5.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-5.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>wizard.title.welcome&lt;/td>
 &lt;td>Welcome to Thorium 3.0&lt;/td>
 &lt;td>Wizard welcome windows first panel&lt;/td>
-&lt;td>&lt;img src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-1.png" alt="screenshot">&lt;/td>
+&lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/locale_Context_Table-1-1.png">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Th3: Localisation glossary</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/804_localisation_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/804_localisation_glossary/</guid><description>

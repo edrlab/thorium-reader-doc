@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Thorium 3 support</title><link>https://thorium.edrlab.org/en/th3/</link><description>Recent content in Thorium 3 support on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://thorium.edrlab.org/en/th3/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Quick reading</title><link>https://thorium.edrlab.org/en/th3/100_quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/100_quickstart/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Thorium 3 support</title><link>https://thorium.edrlab.org/en/th3/</link><description>Recent content in Thorium 3 support on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Quick reading</title><link>https://thorium.edrlab.org/en/th3/100_quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/100_quickstart/</guid><description>
 &lt;p>Thorium is a digital book reader, it is also a library
 where you can store your books and access to online catalogs.
 Thorium does not require any account or online access to be launched and used.&lt;/p>
@@ -24,9 +24,9 @@ file format you wish to read with Thorium.&lt;/p>
 &lt;/div>
 &lt;p>Thorium can also be launched from the application menu
 or from any shortcut created.
-This will open the &lt;a href="https://thorium.edrlab.org/docs/220_organizing/221_libraries/">library&lt;/a>
+This will open the &lt;a href="https://thorium.edrlab.org/en/docs/220_organizing/221_libraries/">library&lt;/a>
 and will allow you to choose a book or to add one but also to access
-to &lt;a href="https://thorium.edrlab.org/docs/220_organizing/222_catalogs/">catalogs&lt;/a> and organize your collection.
+to &lt;a href="https://thorium.edrlab.org/en/docs/220_organizing/222_catalogs/">catalogs&lt;/a> and organize your collection.
 To read a book just click on it or validate with &lt;kbd>Enter&lt;/kbd>
 when selected.&lt;/p></description></item><item><title>Th3: Where to get ebooks?</title><link>https://thorium.edrlab.org/en/th3/get_ebooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/get_ebooks/</guid><description>
 &lt;p>In the digital age, e-books offer convenience, accessibility, and often, affordability.
@@ -996,6 +996,7 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;li>listed for reference in this website &lt;a href="../../400_ressources/300_accessibility">ressources section, accessibility page&lt;/a>&lt;/li>
 &lt;li>all accessibility related explanations are available in the documentation, not in a separate chapter or place.&lt;/li>
 &lt;/ul>
+&lt;p>We are maintaining a &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">VPAT (voluntary product accessibility template) for Thorium Reader&lt;/a>.&lt;/p>
 &lt;h2 id="support-for-assistive-technology">Support for assistive technology&lt;/h2>
 &lt;p>A specific attention is given to non visual access thru screen readers.&lt;/p>
 &lt;p>As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.&lt;/p>
