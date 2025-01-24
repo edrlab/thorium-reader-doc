@@ -1,5 +1,5 @@
 ---
-title: Traductorio
+title: TraducThorium 
 description: ''
 draft: 'false'
 weight: '802'

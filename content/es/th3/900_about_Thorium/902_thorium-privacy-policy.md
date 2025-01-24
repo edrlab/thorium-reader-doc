@@ -12,7 +12,7 @@ toc: 'false'
 
 ## Propietario de la aplicación
 
-Laboratorio Europeo de Lectura Digital 14 rue Alexandre Parodi 75010 París Francia
+LaboraThorium  Europeo de Lectura Digital 14 rue Alexandre Parodi 75010 París Francia
 
 ## Tipos de datos recopilados
 
