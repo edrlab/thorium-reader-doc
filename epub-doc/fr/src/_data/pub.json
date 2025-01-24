@@ -1,14 +1,14 @@
 {
   "cover": {
     "page": "cover/index.xhtml",
-    "src": "resources/images/cover.png",
-    "alt": "Cartoon bear with construction tools"
+    "src": "resources/images/cover.png"
   },
   "toc": {
     "page": "toc/index.xhtml"
   },
   "readingOrder": [
-    "_index",
+    "toc",
+    "000_title",
     "100_forewords",
     "101_opening_thorium",
     "102_windows_views_panels",
@@ -31,19 +31,6 @@
     "900_about",
     "903_support",
     "904_issues",
-    "905_contribute.md",
-    "401_functions",
-    "402_Keyboard-shortcuts",
-    "403_gesture",
-    "406_formats",
-    "420_glossary",
-    "430_faq",
-    "900_about",
-    "902_credits",
-    "903_support",
-    "904_issues",
-    "905_contribute",
-    "912_accessibility_declaration",
-    "913_licence"
+    "905_contribute.md"
   ]
 }
