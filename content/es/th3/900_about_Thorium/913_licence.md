@@ -1,44 +1,23 @@
 ---
-title: "Licencia para Thorium Reader"
-description: ""
-draft: false
-weight: 913
-toc: false
+title: Licencia para Thorium Reader
+description: ''
+draft: 'false'
+weight: '913'
+toc: 'false'
 ---
 
-La aplicación Thorium-reader es de código abierto y se publica bajo una licencia BSD 3. Se basa en el kit de herramientas Readium Desktop de código abierto con licencia de la [Readium Foundation](https://readium.org/) según uno o más acuerdos de licencia de colaborador.
+La aplicación Thorium-reader es de código abierto y se publica bajo una licencia BSD 3. Se basa en el kit de herramientas de código abierto Readium Desktop, cuya licencia está bajo la licencia de la [Readium Foundation](https://readium.org/) bajo uno o más acuerdos de licencia de contribuyente.
 
-A continuación se muestra el texto de la licencia en inglés:
+Licencia BSD de 3 cláusulas
 
-<div lang="en">
-BSD 3-Clause License
+Copyright (c) 2017, EDRLab Todos los derechos reservados.
 
-Copyright (c) 2017, EDRLab
-All rights reserved.
+Se permite la redistribución y el uso en forma fuente y binaria, con o sin modificaciones, siempre que se cumplan las siguientes condiciones:
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+- Las redistribuciones del código fuente deben conservar el aviso de copyright anterior, esta lista de condiciones y la siguiente exención de responsabilidad.
 
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
+- Las redistribuciones en forma binaria deben reproducir el aviso de copyright anterior, esta lista de condiciones y la siguiente exención de responsabilidad en la documentación y/o otros materiales proporcionados con la distribución.
 
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
+- Ni el nombre del titular de los derechos de autor ni los nombres de sus colaboradores pueden usarse para respaldar o promocionar productos derivados de este software sin permiso previo por escrito específico.
 
-* Neither the name of the copyright holder nor the names of its
-  contributors may be used to endorse or promote products derived from
-  this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-</div>
+ESTE SOFTWARE ES PROPORCIONADO POR LOS TITULARES DE LOS DERECHOS DE AUTOR Y COLABORADORES "TAL CUAL" Y SE RECHAZAN TODAS LAS GARANTÍAS EXPRESAS O IMPLÍCITAS, INCLUYENDO, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD E IDONEIDAD PARA UN PROPÓSITO PARTICULAR. EN NINGÚN CASO EL TITULAR DE LOS DERECHOS DE AUTOR O LOS COLABORADORES SERÁN RESPONSABLES DE NINGÚN DAÑO DIRECTO, INDIRECTO, INCIDENTAL, ESPECIAL, EJEMPLAR O CONSECUENTE (INCLUIDOS, ENTRE OTROS, LA OBTENCIÓN DE BIENES O SERVICIOS SUSTITUTOS; PÉRDIDA DE USO, DATOS O BENEFICIOS; O INTERRUPCIÓN DEL NEGOCIO) CAUSADO COMO SEA Y BAJO CUALQUIER TEORÍA DE RESPONSABILIDAD, YA SEA POR CONTRATO, RESPONSABILIDAD ESTRICTA O AGRAVIO (INCLUIDA LA NEGLIGENCIA O DE OTRO MODO) QUE SURJA DE CUALQUIER FORMA DEL USO DE ESTE SOFTWARE, INCLUSO SI SE HA ADVERTIDO DE LA POSIBILIDAD DE TAL DAÑO.
