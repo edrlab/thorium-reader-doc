@@ -6,7 +6,7 @@ weight: '402'
 toc: 'false'
 ---
 
-{{&lt; alert info &gt;}} Information
+{{&lt; alert info &gt;}} Información
 
 La tecla <kbd>Shift</kbd> está representada por una flecha vacía que apunta hacia arriba en algunos teclados: <kbd><b>⇧</b></kbd> .
 
@@ -43,25 +43,64 @@ La tecla <kbd>Ctrl</kbd> se reemplaza por la tecla <kbd>Cmd</kbd> en los teclado
 </dt>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled) <dd> </dd>
 </dl>
 
- <dt>Previous chapter (`NavigatePreviousChapter`) <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ArrowLeft</kbd>
-</dt> <dd> in reader window, move to previous "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents). </dd> <dt>Previous chapter (`NavigatePreviousChapterAlt`) <kbd>Ctrl</kbd> + <kbd>PageUp</kbd>
-</dt> <dd> in reader window, move to previous "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents). </dd> <dt>Previous History(`NavigatePreviousHistory`)  <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>
-</dt> <dd> in reader window, go back or forward in the navigation history: Beginning or End of the publication  </dd> <dt>(`NavigatePreviousLibraryPage`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ArrowLeft</kbd>
-</dt> <dd>In the library view, display the previous set of books </dd> <dt>(`NavigatePreviousLibraryPageAlt`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Comma</kbd>
-</dt> <dd> In the library view, display the previous set of books (alternative keyboard shortcut) </dd> <dt>Previous Catalogue page (`NavigatePreviousOPDSPage`)</dt> <dd> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ArrowLeft</kbd> </dd> <dt>Previous Catalogue page (`NavigatePreviousOPDSPageAlt`)</dt>in library window for Catalogues (OPD) feeds, activates the previous pagination links (alternative keyboard shortcut) <dd> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Comma</kbd> </dd> <dt> Previous page (`NavigatePreviousPage`) <kbd>ArrowLeft</kbd>
-</dt> <dd> in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled) </dd> <dt> Previous page (`NavigatePreviousPageAlt`) <kbd>Ctrl</kbd> + <kbd>Comma</kbd>
-</dt> <dd> in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled) </dd> <dt>Go to Begining of the book (`NavigateToBegin`) <kbd>Ctrl</kbd> + <kbd>Home</kbd>
-</dt> <dd>in reader window, goes to the beginning of the publication </dd> <dt>Go to end of the book (`NavigateToEnd`) <kbd>Ctrl</kbd> + <kbd>End</kbd>
-</dt> <dd>in reader window, goes to the end of the publication </dd> <dt>Book information panel (`OpenReaderInfo`)  <kbd>Ctrl</kbd> + <kbd>KeyI</kbd>
-</dt> <dd> in reader window, publication info popup modal dialog (may be used in future Thorium version for similar feature in library window) </dd> <dt>where am I (quick notification supported by Screen readers) (`SpeakReaderInfoWhereAmI`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>KeyK</kbd>
-</dt>  <dd>in reader window, this is the "where am I" feature, just as above, but only spoken via screen reader TTS thanks to an ARIA live region with assertive speech which interrupts the current narration. </dd> <dt>where am I (`OpenReaderInfoWhereAmI`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>KeyI</kbd>
-</dt> in reader window, publication info popup modal dialog with direct keyboard focus on section that displays the headings hierarchy trail and other contextual information for the current reading location, such as nearest preceding page break, as well as document index in the reading order (this is the "where am I" feature). <dd> </dd> <dt>Next search result (`SearchNext`) <kbd>F3</kbd> </dt> <dd>in reader window, when the publication-wide search text input is open, finds the previous / next match </dd> <dt>SearchNextAlt <kbd>Ctrl</kbd> + <kbd>KeyG</kbd>
-</dt> <dd> same as above (alternative keyboard shortcut) </dd> <dt>previous search result (`SearchPrevious`) <kbd>Shift</kbd> + <kbd>F3</kbd> </dt> <dd>in reader window, when the publication-wide search text input is open, finds the previous / next match </dd> <dt>(`SearchPreviousAlt`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>KeyG</kbd>
-</dt> <dd> same as above (alternative keyboard shortcut) </dd>
+ <dt>Capítulo anterior (`NavigatePreviousChapter`) <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Flecha izquierda</kbd>
+</dt>
+<dd> En la ventana del lector, desplazarse al "capítulo" anterior (elemento del lomo en el orden de lectura de la publicación). Observe que el foco del teclado se desplaza automáticamente al punto de referencia del área "principal", que se encuentra inmediatamente antes del marco que muestra el contenido de la publicación (al igual que cuando se sigue o se activa un enlace en la tabla de contenidos).</dd>
+<dt> Capítulo anterior (`NavigatePreviousChapterAlt`) <kbd>Ctrl</kbd> + <kbd>Re Pág</kbd>
+</dt>
+<dd> En la ventana del lector, desplazarse al "capítulo" anterior (elemento del lomo en el orden de lectura de la publicación). Observe que el foco del teclado se desplaza automáticamente al punto de referencia del área "principal", que se encuentra inmediatamente antes del marco que muestra el contenido de la publicación (al igual que cuando se sigue o se activa un enlace en la tabla de contenidos).</dd>
+<dt> Historial anterior (`NavigatePreviousHistory`) <kbd>Ctrl</kbd> + <kbd>Retroceso</kbd>
+</dt>
+<dd> En la ventana del lector, retroceder o avanzar en el historial de navegación: Inicio o Fin de la publicación</dd>
+<dt> (`NavegarPáginaAnteriorDeLaBiblioteca`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>FlechaIzquierda</kbd>
+</dt>
+<dd> En la vista de biblioteca, muestra el conjunto anterior de libros</dd>
+<dt> (`NavigatePreviousLibraryPageAlt`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Coma</kbd>
+</dt>
+<dd> En la vista de la biblioteca, mostrar el conjunto anterior de libros (atajo de teclado alternativo)</dd>
+<dt> Página anterior del catálogo (`NavigatePreviousOPDSPage`)</dt>
+<dd> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Flecha izquierda</kbd>
+</dd>
+<dt> Página anterior del catálogo (`NavigatePreviousOPDSPageAlt`)</dt> En la ventana de la biblioteca para feeds de Catálogos (OPD), activa los enlaces de paginación anteriores (atajo de teclado alternativo)<dd> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Coma</kbd>
+</dd>
+<dt> Página anterior (`NavigatePreviousPage`) <kbd>Flecha izquierda</kbd>
+</dt>
+<dd> En la ventana del lector, pasar a la "página" anterior o siguiente (o desplazarse por la unidad, si la paginación está deshabilitada)</dd>
+<dt> Página anterior (`NavigatePreviousPageAlt`) <kbd>Ctrl</kbd> + <kbd>Coma</kbd>
+</dt>
+<dd> En la ventana del lector, pasar a la "página" anterior o siguiente (o desplazarse por la unidad, si la paginación está deshabilitada)</dd>
+<dt> Ir al principio del libro (`NavigateToBegin`) <kbd>Ctrl</kbd> + <kbd>Inicio</kbd>
+</dt>
+<dd> En la ventana del lector, va al principio de la publicación.</dd>
+<dt> Ir al final del libro (`NavigateToEnd`) <kbd>Ctrl</kbd> + <kbd>Fin</kbd>
+</dt>
+<dd> En la ventana del lector, va al final de la publicación.</dd>
+<dt> Panel de información del libro (`OpenReaderInfo`) <kbd>Ctrl</kbd> + <kbd>Tecla I</kbd>
+</dt>
+<dd> En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación (puede usarse en futuras versiones de Thorium para una función similar en la ventana de la biblioteca)</dd>
+<dt> ¿Dónde estoy? (notificación rápida compatible con lectores de pantalla) (`SpeakReaderInfoWhereAmI`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tecla K</kbd>
+</dt>
+<dd> En la ventana del lector, esta es la función "dónde estoy", igual que la anterior, pero solo se pronuncia a través del TTS del lector de pantalla gracias a una región en vivo ARIA con discurso asertivo que interrumpe la narración actual.</dd>
+<dt> ¿Dónde estoy? (`OpenReaderInfoWhereAmI`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tecla I</kbd>
+</dt> En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación, con foco directo del teclado en la sección que muestra la jerarquía de encabezados y otra información contextual para la ubicación de lectura actual, como el salto de página anterior más cercano, así como el índice del documento en el orden de lectura (esta es la función "dónde estoy").<dd></dd>
+<dt> Siguiente resultado de búsqueda (`SearchNext`) <kbd>F3</kbd>
+</dt>
+<dd> En la ventana del lector, cuando la entrada de texto de búsqueda de toda la publicación está abierta, busca la coincidencia anterior/siguiente</dd>
+<dt> BuscarSiguienteAlt <kbd>Ctrl</kbd> + <kbd>TeclaG</kbd>
+</dt>
+<dd> Lo mismo que arriba (atajo de teclado alternativo)</dd>
+<dt> resultado de búsqueda anterior (`SearchPrevious`) <kbd>Shift</kbd> + <kbd>F3</kbd>
+</dt>
+<dd> En la ventana del lector, cuando la entrada de texto de búsqueda de toda la publicación está abierta, busca la coincidencia anterior/siguiente</dd>
+<dt> (`BuscarAnteriorAlt`) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tecla G</kbd>
+</dt>
+<dd> Lo mismo que arriba (atajo de teclado alternativo)</dd>
 
-<dt>Bookmarks (`ToggleBookmark`)  <kbd>Ctrl</kbd> + <kbd>KeyB</kbd> </dt>
-<dd>in reader window, toggle bookmark (a notification is produced so that screen readers announce the change) </dd>
-<dt> Fullscreen (`ToggleReaderFullscreen`) <kbd>Ctrl</kbd> + <kbd>F11</kbd> </dt>
-<dd>In reader window, toggle fullscreen. Note that this is different from the Zen mode. Keyboard shortcut is the only way to go full screen. </dd>
+<dt>Marcadores (`ToggleBookmark`) <kbd>Ctrl</kbd> + <kbd>TeclaB</kbd>
+</dt>
+<dd>En la ventana del lector, alternar marcador (se genera una notificación para que los lectores de pantalla anuncien el cambio)</dd>
+<dt> Pantalla completa (`ToggleReaderFullscreen`) <kbd>Ctrl</kbd> + <kbd>F11</kbd>
+</dt>
+<dd>En la ventana del lector, activa o desactiva el modo de pantalla completa. Ten en cuenta que esto es diferente del modo Zen. El atajo de teclado es la única forma de activar el modo de pantalla completa.</dd>
 
 
