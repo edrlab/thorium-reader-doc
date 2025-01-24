@@ -4,20 +4,28 @@
 &lt;p>Para agregar una traducción, puede comenzar desde el inglés &amp;ldquo;en.json&amp;rdquo;, cambiarle el nombre y cambiar los valores después de los dos puntos (:).&lt;/p>
 &lt;p>Si se siente cómodo con Github, puede abrir una solicitud de extracción para enviar el archivo.&lt;/p>
 &lt;p>De lo contrario, puede enviarnos el archivo localizado por correo electrónico y procederemos a agregarlo. Se mantiene una lista de colaboradores en la página wiki Traducción de idiomas de localización (l10n).&lt;/p>
-&lt;p>Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)&lt;/p></description></item><item><title>Th3: Tu ayuda es valiosa</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</guid><description>
+&lt;p>Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)&lt;/p></description></item><item><title>Th3: Glosario de localización</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/804_localisation_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/804_localisation_glossary/</guid><description>
+&lt;dl>
+&lt;!--
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+-->&lt;dt id="os">OS&lt;/dt>
+&lt;dd>Sistema operativo (en el contexto del escritorio Thorium, será Windows, MACOS o Linux)&lt;/dd>
+&lt;dt id="osfilemanager">OS file manager window&lt;/dt>
+&lt;dd>Una ventana administrada por el sistema operativo que permite navegar, seleccionar o escribir archivos en el sistema de archivos del sistema operativo. En el contexto del escritorio, estos suelen ser: * Explorador de archivos para Windows * Finder para MAC OSX * Los sistemas Linux ofrecen una mayor variedad, como Gnome File, Nautilus, Nemo, Thunar, Dolphin, XFE, Konqueror, Krusader, etc.&lt;/dd>
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+&lt;/dl>
+&lt;dl>&lt;/dl></description></item><item><title>Th3: Tu ayuda es valiosa</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</guid><description>
 &lt;p> Tú también puedes ayudar a que Thorium Reader se convierta en la mejor aplicación de lectura convirtiéndote &lt;a href="https://www.edrlab.org/become-a-member/">en miembro de EDRLab&lt;/a> o haciendo una donación a EDRLab a través de la "alcancía" &lt;a href="https://github.com/sponsors/edrlab">de patrocinio de Github&lt;/a> , que acepta pequeñas donaciones mensuales.&lt;/p>
 &lt;p> Thorium está construido por su comunidad. Si quieres participar, ¡contacta con nosotros!&lt;/p>
 &lt;p>También puedes:&lt;/p>
 &lt;ul>
 &lt;li>Informe un error o sugiera un cambio abriendo un problema en nuestra [herramienta de seguimiento de soporte](https://github.com/edrlab/thorium-reader-doc/issues/new).&lt;/li>
 &lt;/ul>
-&lt;li>Participar en la traducción de recursos.&lt;/li></description></item><item><title>Th3: ¿Atascado?</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/904_issues/</guid><description>
-&lt;p>Si no encuentra la respuesta a su problema en este sitio, puede informarnos su problema a través de nuestra &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">herramienta de seguimiento de soporte&lt;/a> o &lt;a href="https://www.edrlab.org/contact/">formulario de contacto&lt;/a> .&lt;/p>
-&lt;p>Aquí está la información que necesitamos:&lt;/p>
-&lt;ul>
-&lt;li>Sistema operativo y su versión&lt;/li>
-&lt;li>Versión de Thorium (está indicada en la parte inferior de la biblioteca bajo el título &lt;code>About Thorium&lt;/code> )&lt;/li>
-&lt;/ul></description></item><item><title>Th3: ¡Contribuir!</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</guid><description>
+&lt;li>Participar en la traducción de recursos.&lt;/li></description></item><item><title>Th3: Contribuya a esta documentación</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</guid><description>
 &lt;p>Thorium y su documentación se desarrollan gracias a la comunidad de usuarios. Necesitamos ayuda para traducir esta documentación.&lt;/p>
 &lt;p>Para ello, puede &lt;a href="https://www.edrlab.org/contact/">ponerse en contacto con nosotros&lt;/a> .&lt;/p>
 &lt;p>Si se siente lo suficientemente cómodo con GitHub y el formato Markdown, puede proponer una nueva traducción a través de una solicitud de extracción.&lt;/p>

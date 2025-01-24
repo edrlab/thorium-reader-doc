@@ -1,1 +1,15 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – ¿Información sobre Thorium 2?</title><link>https://thorium.edrlab.org/es/docs/</link><description>Recent content in ¿Información sobre Thorium 2? on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/docs/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – ¿Información sobre Thorium 2?</title><link>https://thorium.edrlab.org/es/docs/</link><description>Recent content in ¿Información sobre Thorium 2? on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Glosario de localización</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/804_localisation_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/804_localisation_glossary/</guid><description>
+&lt;dl>
+&lt;!--
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+-->&lt;dt id="os">OS&lt;/dt>
+&lt;dd>Sistema operativo (en el contexto del escritorio Thorium, será Windows, MACOS o Linux)&lt;/dd>
+&lt;dt id="osfilemanager">OS file manager window&lt;/dt>
+&lt;dd>Una ventana administrada por el sistema operativo que permite navegar, seleccionar o escribir archivos en el sistema de archivos del sistema operativo. En el contexto del escritorio, estos suelen ser: * Explorador de archivos para Windows * Finder para MAC OSX * Los sistemas Linux ofrecen una mayor variedad, como Gnome File, Nautilus, Nemo, Thunar, Dolphin, XFE, Konqueror, Krusader, etc.&lt;/dd>
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+&lt;dt>&lt;/dt>
+&lt;dd>&lt;/dd>
+&lt;/dl>
+&lt;dl>&lt;/dl></description></item></channel></rss>

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Soporte de Thorium Reader 3</title><link>https://thorium.edrlab.org/es/th3/</link><description>Recent content in Soporte de Thorium Reader 3 on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/th3/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: ¿Dónde conseguir libros electrónicos?</title><link>https://thorium.edrlab.org/es/th3/get_ebooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/get_ebooks/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Soporte de torio 3</title><link>https://thorium.edrlab.org/es/th3/</link><description>Recent content in Soporte de torio 3 on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/th3/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: ¿Dónde conseguir libros electrónicos?</title><link>https://thorium.edrlab.org/es/th3/get_ebooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/get_ebooks/</guid><description>
 &lt;p>En la era digital, los libros electrónicos ofrecen comodidad, accesibilidad y, a menudo, asequibilidad. Ya sea que esté buscando el último éxito de ventas, una novela clásica, un libro de texto o un artículo académico, existe una fuente de libros electrónicos para usted. Esta guía le ofrece una variedad de opciones, tanto gratuitas como pagas, para encontrar y disfrutar de los libros electrónicos. ¡Feliz lectura!&lt;/p>
 &lt;p>El panorama de lugares donde encontrar libros electrónicos es muy variado y está en constante evolución. Las fuentes locales siempre serán más pertinentes para usted; esta guía solo ofrece una lista breve de fuentes conocidas.&lt;/p>
 &lt;h2 id="bibliotecas-públicas">Bibliotecas Públicas:&lt;/h2>
@@ -15,37 +15,57 @@
 &lt;h2 id="libros-electrónicos-académicos-y-profesionales">Libros electrónicos académicos y profesionales:&lt;/h2>
 &lt;p>Google Scholar: Google Scholar ofrece una forma sencilla de realizar búsquedas amplias de literatura académica. Desde un solo lugar, puede buscar en muchas disciplinas y fuentes.&lt;/p>
 &lt;p>JSTOR: JSTOR es una biblioteca digital fundada en 1995. Originalmente contenía números anteriores digitalizados de revistas académicas, pero ahora también incluye libros y fuentes primarias. Está disponible para muchas universidades e instituciones de toda Europa.&lt;/p>
-&lt;p>Directorio de libros de acceso abierto (DOAB): DOAB ofrece acceso abierto a libros revisados por pares de varias editoriales. Tiene su sede en los Países Bajos.&lt;/p></description></item><item><title>Th3: Accesibilidad</title><link>https://thorium.edrlab.org/es/th3/400_ressources/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/300_accessibility/</guid><description>
-&lt;h1 id="a11y">Accesibilidad&lt;/h1>
-&lt;p>Thorium Reader es para todos, incluidas las personas ciegas o con
-otro tipo de discapacidades visuales, cognitivas o motoras. la aplicacion
-es compatible con tecnologías accesibles como lectores de pantalla,
-incluidos JAWS, NVDA, Narrador y VoiceOver. Incluye lectura en voz alta.
-Característica con resaltado visual. Thorium Reader se puede utilizar con el
-ratón o el teclado, y los atajos de teclado son configurables. El
-La pantalla se puede personalizar para satisfacer las necesidades de los usuarios, incluidos colores,
-Tamaño del texto, espaciado, fuente y diseño.&lt;/p>
-&lt;h2 id="a11y_info">Información de accesibilidad&lt;/h2>
-&lt;p>Actualmente, Thorium muestra información de accesibilidad proporcionada por el editor en el panel de información del libro. Thorium muestra esta información tal como fue definida. En caso de duda o
-queja, comuníquese con el distribuidor o editor del archivo.&lt;/p></description></item><item><title>Th3: Leer con un lector de pantalla</title><link>https://thorium.edrlab.org/es/th3/400_ressources/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/311_screenreaders/</guid><description>
+&lt;p>Directorio de libros de acceso abierto (DOAB): DOAB ofrece acceso abierto a libros revisados por pares de varias editoriales. Tiene su sede en los Países Bajos.&lt;/p></description></item><item><title>Th3: Lectura rápida</title><link>https://thorium.edrlab.org/es/th3/100_quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/100_quickstart/</guid><description>
+&lt;p>Thorium es un lector de libros digitales, también es una biblioteca donde puedes almacenar tus libros y acceder a catálogos en línea. Thorium no requiere ninguna cuenta o acceso en línea para iniciarse y usarse.&lt;/p>
+&lt;p>{{&amp;lt; alert Warning &amp;gt;}} Paso a paso para Windows.&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://www.edrlab.org/software/thorium-reader/github/win10">Instalar Thorium&lt;/a> . El enlace abrirá un cuadro de diálogo de descarga. Guarda el archivo .exe y ejecútalo desde el administrador de archivos. Sigue el proceso de instalación.&lt;/li>
+&lt;li>&lt;a href="https://www.gutenberg.org/ebooks/2701.epub.noimages?">Descargar un libro digital&lt;/a> . El enlace abrirá un cuadro de diálogo de descarga o descargará automáticamente el libro en formato .epub. Puede elegir abrirlo con Thorium o guardarlo en su administrador de archivos y elegir Abrir con Thorium en el menú contextual.&lt;/li>
+&lt;li>Empezar a leer.&lt;/li>
+&lt;/ol>
+&lt;p>{{&amp;lt; /alerta&amp;gt;}}&lt;/p>
+&lt;p>Selecciona el libro que deseas leer, utiliza el &lt;code>contextual menu&lt;/code> (clic derecho), selecciona &lt;code>open with&lt;/code> y luego selecciona &lt;code>Thorium&lt;/code> .&lt;/p>
+&lt;p>{{&amp;lt; alert info &amp;gt;}}&lt;/p>
+&lt;p>Información.&lt;/p>
+&lt;p>Puede configurar la aplicación predeterminada para ciertos tipos de archivos a través de la configuración de Windows.&lt;/p>
+&lt;p>Seleccione un archivo, abra el menú contextual, seleccione &lt;code>Open with&lt;/code> , en la ventana emergente seleccione &lt;code>Thorium&lt;/code> , marque la casilla &lt;code>Always open with&lt;/code> .&lt;/p>
+&lt;p>Esta operación debe repetirse para cada
+formato de archivo que desea leer con Thorium. {{&amp;lt; /alert&amp;gt;}}&lt;/p>
+&lt;p>Thorium también se puede iniciar desde el menú de la aplicación o desde cualquier acceso directo creado. Esto abrirá la &lt;a href="https://thorium.edrlab.org/docs/220_organizing/221_libraries/">biblioteca&lt;/a> y le permitirá elegir un libro o agregar uno, pero también acceder a &lt;a href="https://thorium.edrlab.org/docs/220_organizing/222_catalogs/">catálogos&lt;/a> y organizar su colección. Para leer un libro, simplemente haga clic en él o valide con &lt;kbd>Enter&lt;/kbd> cuando esté seleccionado.&lt;/p></description></item><item><title>Th3: Política de privacidad de Thorium Reader</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
+&lt;p>22 de noviembre de 2022&lt;/p>
+&lt;h2 id="propietario-de-la-aplicación">Propietario de la aplicación&lt;/h2>
+&lt;p>Laboratorio Europeo de Lectura Digital 14 rue Alexandre Parodi 75010 París Francia&lt;/p>
+&lt;h2 id="tipos-de-datos-recopilados">Tipos de datos recopilados&lt;/h2>
+&lt;p>La aplicación no recopila datos personales de sus usuarios.&lt;/p>
+&lt;p>La aplicación envía dos tipos de datos no personales a los servidores:&lt;/p>
+&lt;p>1/ Datos de uso genéricos: cada vez que se inicia la aplicación se envía una notificación a un servidor de telemetría de EDRLab. Esta información es solo para fines analíticos y no es accesible para terceros. Se utiliza para obtener información sobre la evolución del número de instalaciones de la aplicación por sistema operativo, la evolución de las sesiones de uso y las principales configuraciones regionales en uso.&lt;/p>
+&lt;p>Los parámetros de dicha notificación son:&lt;/p>
+&lt;ul>
+&lt;li>una marca de tiempo,&lt;/li>
+&lt;li>la versión de Thorium Reader,&lt;/li>
+&lt;li>el sistema operativo del dispositivo y su versión,&lt;/li>
+&lt;li>la configuración regional de la aplicación en el momento en que se inicia,&lt;/li>
+&lt;li>Si este es el primer inicio de Thorium Reader después de una nueva instalación.&lt;/li>
+&lt;/ul>
+&lt;p>La dirección IP del dispositivo no se almacena junto con la información anterior.&lt;/p>
+&lt;p>No es posible optar por no recibir esta notificación.&lt;/p>
+&lt;p>2/ Información sobre DRM de Readium LCP: cada vez que se abre una publicación protegida se envía una notificación a un servidor LCP. Esto es un requisito de la especificación LCP para comprobar si se ha actualizado la licencia de uso de la publicación. No existe un servidor LCP centralizado, cada servidor es operado por el distribuidor de la publicación protegida adquirida por el usuario.&lt;/p>
+&lt;p>Los parámetros de dicha notificación son:&lt;/p>
+&lt;ul>
+&lt;li>un identificador de dispositivo, generado automáticamente al instalar la aplicación.&lt;/li>
+&lt;li>un nombre de dispositivo, generado automáticamente al instalar la aplicación.&lt;/li>
+&lt;/ul>
+&lt;p>El código base de Thorium Reader es de código abierto y, por lo tanto, se puede inspeccionar por completo, con la excepción de una pequeña biblioteca de software utilizada como núcleo para Readium LCP DRM, que no almacena ni envía ningún dato.&lt;/p>
+&lt;h2 id="actualizaciones">Actualizaciones&lt;/h2>
+&lt;p>Es posible que modifiquemos la Política de privacidad de vez en cuando. Le notificaremos mediante la publicación de la Política de privacidad revisada en esta página y la fecha en la que se realizaron los últimos cambios se indicará en la parte superior de la página.&lt;/p></description></item><item><title>Th3: Leer con un lector de pantalla</title><link>https://thorium.edrlab.org/es/th3/400_ressources/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/311_screenreaders/</guid><description>
 &lt;h2 id="leer-con-un-lector-de-pantalla">Leer con un lector de pantalla&lt;/h2>
-&lt;p>Al iniciar Thorium, si se detecta un lector de pantalla, el relativo
-las funciones están activadas.&lt;/p>
-&lt;p>Tenga en cuenta que los lectores de pantalla utilizan un búfer independiente para acceder al código HTML.
-contenido que provoca desplazamiento visual/desplazamiento de página fuera de
-sincronizar. En otras palabras, Thorium generalmente no conoce la información del usuario.
-ubicación de lectura actual dentro del búfer del lector de pantalla, a menos que
-el usuario del lector de pantalla activa eventos de API web estándar (como un clic del mouse)
-en cualquier parte del texto o en una pestaña del teclado en elementos HTML enfocables).&lt;/p>
-&lt;p>advertencia
-Atención !&lt;/p>
-&lt;p>Las características de accesibilidad para las tecnologías de asistencia están fuertemente
-afectado por la calidad de los archivos del libro.&lt;/p>
+&lt;p>Al iniciar Thorium, si se detecta un lector de pantalla, el relativo las funciones están activadas.&lt;/p>
+&lt;p>Tenga en cuenta que los lectores de pantalla utilizan un búfer independiente para acceder al contenido HTML, lo que hace que el desplazamiento visual o el desplazamiento de la página no estén sincronizados. En otras palabras, Thorium generalmente no conoce la ubicación de lectura actual del usuario dentro del búfer del lector de pantalla, a menos que el usuario del lector de pantalla active eventos estándar de la API web (como hacer clic con el mouse en cualquier parte del texto o presionar la tecla Tab en elementos HTML enfocables).&lt;/p>
+&lt;p>advertencia Atención !&lt;/p>
+&lt;p>Las características de accesibilidad dirigidas a las tecnologías de asistencia se ven fuertemente afectadas por la calidad de los archivos del libro.&lt;/p>
 &lt;h1 id="pulsaciones-de-teclas-comunes-a-nvda-y-jaws">Pulsaciones de teclas comunes a NVDA y JAWS&lt;/h1>
-&lt;p>(contribución de Prashant Verma, Consorcio DAISY)
-Para leer texto, navegar por tablas, navegar por el navegador
-ventana, la tecla Insertar puede ser reemplazada por la tecla modificadora de pantalla.
-reproductor (por ejemplo, la tecla Bloq Mayús).&lt;/p>
+&lt;p>(Contribución de Prashant Verma, Consorcio DAISY)&lt;/p>
+&lt;p>Para leer texto, navegar en tablas, navegar en la ventana del navegador, la tecla de inserción puede ser reemplazada por la tecla modificadora del lector de pantalla (por ejemplo, la tecla Bloq Mayús).&lt;/p>
 &lt;h2 id="teclas-de-acceso-rápido-para-la-navegación">Teclas de acceso rápido para la navegación&lt;/h2>
 &lt;p>El lector de pantalla debe estar en modo de navegación o cursor virtual.&lt;/p>
 &lt;table>
@@ -82,8 +102,7 @@ reproductor (por ejemplo, la tecla Bloq Mayús).&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>Utilice las teclas de arriba con la tecla &lt;kbd>Shift&lt;/kbd> para pasar al anterior
-artículo.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Utilice las teclas anteriores con la tecla &lt;kbd>Shift&lt;/kbd> para pasar al elemento anterior.&lt;/em>&lt;/p>
 &lt;h2 id="texto">Texto&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -135,7 +154,7 @@ artículo.&lt;/em>&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="pinturas">Pinturas&lt;/h2>
+&lt;h2 id="tablas">Tablas&lt;/h2>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -516,119 +535,93 @@ artículo.&lt;/em>&lt;/p>
 &lt;p>{{&amp;lt; alert info &amp;gt;}} Información&lt;/p>
 &lt;p>La tecla &lt;kbd>Shift&lt;/kbd> está representada por una flecha vacía que apunta hacia arriba en algunos teclados: &lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd> .&lt;/p>
 &lt;p>La tecla &lt;kbd>Ctrl&lt;/kbd> se reemplaza por la tecla &lt;kbd>Cmd&lt;/kbd> en los teclados Mac.&lt;/p>
-&lt;p>{{&amp;lt; /alerta&amp;gt;}}&lt;/p>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd> : Contenido principal (`FocusMain`)&lt;/dt>
-&lt;dd>En las ventanas del lector y de la biblioteca, mueve el foco del teclado al punto de referencia del área "principal" (en la vista del lector, esto está inmediatamente antes del marco que muestra el contenido de la publicación) &lt;/dd>
+&lt;p>{{&amp;lt; /alert&amp;gt;}}&lt;/p>
+&lt;dl id="definitionList"> &lt;dt>Create annotation (`AnnotationsCreate`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyA&lt;/kbd>
+&lt;/dt> &lt;dd> When a text is selected, it will be marked as annotation and the annotation dialog box will open to allow additional text and select of color and stroke. &lt;/dd> &lt;dt>Quick create annotation (`AnnotationsCreateQuick`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyQ&lt;/kbd>
+&lt;/dt> &lt;dd> When a text is selected, it will be marked as annotation without opening the annotation dialog box &lt;/dd> &lt;dt>Toggle annotation marks in the margin or in the text (`AnnotationsToggleMargin`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyZ&lt;/kbd>
+&lt;/dt> &lt;dd>Changes the Annotations marks from the text to the margin or reverse. &lt;/dd> &lt;dt>Next audio (`AudioNext`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit3&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlays readaloud, or "forward" for audiobooks) &lt;/dd> &lt;dt>Next audio Alternative (`AudioNextAlt`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Digit3&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlays readaloud, or "forward" for audiobooks) &lt;/dd> &lt;dt>Play or pause audio (`AudioPlayPause`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit2&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "play" or "pause" toggle commands for audio (TTS or EPUB3 Media Overlays readaloud) &lt;/dd> &lt;dt>Previous audio (`AudioPrevious`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit1&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, calls the "previous" command for audio (TTS or EPUB3 Media Overlays readaloud, or "rewind" for audiobooks) &lt;/dd> &lt;dt>Alternative previous audio (`AudioPreviousAlt`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Digit1&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "previous" command for audio (TTS or EPUB3 Media Overlays readaloud, or "rewind" for audiobooks). Alternative shortcut key. &lt;/dd> &lt;dt>Stop audio (`AudioStop`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit4&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "stop" command for audio (TTS or EPUB3 Media Overlays readaloud, or "pause" for audiobooks) &lt;/dd> &lt;dt>Close the book (`CloseReader`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyW&lt;/kbd> &lt;/dt> &lt;dd>in reader window, closes the window and returns to the library view. &lt;/dd> &lt;dt>Fixed Layout Zoom In (`FXLZoomIn`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit9&lt;/kbd>
+&lt;/dt> &lt;dd>Zoom in a fixed layout page &lt;/dd> &lt;dt>Fixed Layout Zoom out (`FXLZoomOut`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit8&lt;/kbd>
+&lt;/dt> &lt;dd>Zoom out a fixed layout page &lt;/dd> &lt;dt>Fixed Layout Zoom (`FXLZoomReset`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit0&lt;/kbd>
+&lt;/dt> &lt;dd>Reset to 100% zoom on a fixed layout page &lt;/dd> &lt;dt>Main content(`FocusMain`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd> &lt;/dt> &lt;dd> in reader and library windows, moves the keyboard focus to the "main" area landmark (in the reader view, this is immediately before the frame that displays publication content) &lt;/dd> &lt;dt>Go to page (`FocusReaderGotoPage`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyP&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, moves the keyboard focus to the "goto page" section in the navigation panel &lt;/dd> &lt;dt>Navigation (`FocusReaderNavigation`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyN&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.) &lt;/dd> &lt;dt>Table Of Content (`FocusReaderNavigationTOC`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyN&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, moves the keyboard focus to the navigation panel, but more specifically into the table of contents, and if possible at the detected heading / closest to the reading location. &lt;/dd> &lt;dt>Reader settings (`FocusReaderSettings`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyS&lt;/kbd> &lt;/dt> &lt;dd>in reader window, moves the keyboard focus to the settings panel (user preferences for displaying publication content) &lt;/dd> &lt;dt>Search (`FocusSearch`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyF&lt;/kbd>
+&lt;/dt> &lt;dd>Available from the library and the reading winfos. In library window, moves the keyboard focus to the search text input of local bookshelf or OPDS feed. In reader window, moves the keyboard focus to the publication-wide search text input. &lt;/dd> &lt;dt>Toolbar (`FocusToolbar`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyT&lt;/kbd>
+&lt;/dt> &lt;dd>in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the "skip" link (which itself moves focus to the "main" area landmark) &lt;/dd> &lt;dt>Next chapter (`NavigateNextChapter`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents). &lt;/dd> &lt;dt>Next chapter (`NavigateNextChapterAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>PageDown&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents). &lt;/dd> &lt;dt>Next History (`NavigateNextHistory`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Backspace&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, go back or forward in the navigation history: Beginning or End of the publication &lt;/dd> &lt;dt>Next library page (`NavigateNextLibraryPage`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>
+&lt;/dt> &lt;dd>In the library view, display the next set of books &lt;/dd> &lt;dt>Next library page alternative(`NavigateNextLibraryPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Period&lt;/kbd>
+&lt;/dt> &lt;dd>In the library view, display the next set of books (alternative keyboard shortcut) &lt;/dd> &lt;dt>Next Catalogue page (`NavigateNextOPDSPage`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>
+&lt;/dt> &lt;dd> in library window for Catalogues (OPD) feeds, activates the next pagination links &lt;/dd> &lt;dt>Next Catalogue page (`NavigateNextOPDSPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Period&lt;/kbd>
+&lt;/dt> &lt;dd> in library window for Catalogues (OPD) feeds, activates the next pagination links (alternative keyboard shortcut) &lt;/dd> &lt;dt>Next page (`NavigateNextPage`) &lt;kbd>ArrowRight&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled) &lt;/dd> &lt;dt>Next page (`NavigateNextPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Period&lt;/kbd>
+&lt;/dt>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled) &lt;dd> &lt;/dd>
 &lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>t&lt;/kbd> : Barra de herramientas (`FocusToolbar`)&lt;/dt>
-&lt;dd>En las ventanas del lector y de la biblioteca, mueve el foco del teclado a la barra de herramientas horizontal superior, inmediatamente antes del enlace "omitir" (que a su vez mueve el foco al punto de referencia del área "principal") &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> : Navegación (`FocusReaderNavigation`)&lt;/dt>
-&lt;dd>En la ventana del lector, mueve el foco del teclado al panel de navegación (tabla de contenido, marcadores, etc.) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> : Tabla de contenido (`FocusReaderNavigationTOC`)&lt;/dt>
-&lt;dd>En la ventana del lector, mueve el foco del teclado al panel de navegación, pero más específicamente a la tabla de contenido y, si es posible, al encabezado detectado/más cercano a la ubicación de lectura. &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>p&lt;/kbd> : Ir a la página (`FocusReaderGotoPage`)&lt;/dt>
-&lt;dd>En la ventana del lector, mueve el foco del teclado a la sección "Ir a página" en el panel de navegación &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd> : Configuración del lector (`FocusReaderSettings`)&lt;/dt>
-&lt;dd>En la ventana del lector, mueve el foco del teclado al panel de configuración (preferencias del usuario para mostrar el contenido de la publicación) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd> : Marcadores (`ToggleBookmark`)&lt;/dt>
-&lt;dd>En la ventana del lector, alternar marcador (se produce una notificación para que los lectores de pantalla anuncien el cambio) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> : Pantalla completa (`ToggleReaderFullscreen`)&lt;/dt>
-&lt;dd>En la ventana del lector, alternar pantalla completa &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd> : Panel de información del libro (`OpenReaderInfo`)&lt;/dt>
-&lt;dd>En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación (puede usarse en futuras versiones de Thorium para una función similar en la ventana de la biblioteca) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd> : dónde estoy (`OpenReaderInfoWhereAmI`)&lt;/dt>
-&lt;dd>En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación, con foco directo del teclado en la sección que muestra la jerarquía de encabezados y otra información contextual para la ubicación de lectura actual, como el salto de página anterior más cercano, así como el índice del documento en el orden de lectura (esta es la función "dónde estoy"). &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>k&lt;/kbd> : dónde estoy (notificación rápida compatible con lectores de pantalla) (`SpeakReaderInfoWhereAmI`)&lt;/dt>
-&lt;dd>En la ventana del lector, esta es la función "dónde estoy", igual que la anterior, pero solo se pronuncia a través del TTS del lector de pantalla gracias a una región en vivo ARIA con discurso asertivo que interrumpe la narración actual. &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>w&lt;/kbd> : Cerrar el libro (`CloseReader`)&lt;/dt>
-&lt;dd>En la ventana del lector, cierra la ventana y regresa a la vista de la biblioteca. &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd> : Buscar un libro (`FocusSearch`)&lt;/dt>
-&lt;dd>En la ventana de la biblioteca, mueve el foco del teclado a la entrada de texto de búsqueda de la estantería local o la fuente OPDS &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd> : buscar en un libro (`FocusSearch`)&lt;/dt>
-&lt;dd>En la ventana del lector, mueve el foco del teclado a la entrada de texto de búsqueda de toda la publicación. &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> (opcional) + &lt;kbd>F3&lt;/kbd> : resultado de búsqueda anterior o siguiente (`SearchPrevious` / `SearchNext`)&lt;/dt>
-&lt;dd>En la ventana del lector, cuando la entrada de texto de búsqueda de toda la publicación está abierta, busca la coincidencia anterior/siguiente &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> (opcional) + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>G&lt;/kbd> : resultado de búsqueda anterior o siguiente (`SearchPreviousAlt` / `SearchNextAlt`)&lt;/dt>
-&lt;dd>Lo mismo que arriba (atajo de teclado alternativo) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd> o &lt;kbd>→&lt;/kbd> : Siguiente página OPDS (`NavigatePreviousOPDSPage` / `NavigateNextOPDSPage`)&lt;/dt>
-&lt;dd>En la ventana de la biblioteca de feeds OPDS, activa los enlaces de paginación anterior o siguiente &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>coma&lt;/kbd> o &lt;kbd>punto&lt;/kbd> : Siguiente página OPDS (`NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt`)&lt;/dt>
-&lt;dd>Lo mismo que arriba (atajo de teclado alternativo) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> (excepto en MacOS) + &lt;kbd>←&lt;/kbd> o &lt;kbd>→&lt;/kbd> : Capítulo anterior o siguiente (`NavigatePreviousChapter` / `NavigateNextChapter`)&lt;/dt>
-&lt;dd>En la ventana del lector, desplazarse al "capítulo" anterior o siguiente (elemento del lomo en el orden de lectura de la publicación). Tenga en cuenta que el foco del teclado se mueve automáticamente al punto de referencia del área "principal", que se encuentra inmediatamente antes del marco que muestra el contenido de la publicación (al igual que cuando se sigue o se activa un enlace en la tabla de contenidos). &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>página abajo&lt;/kbd> o &lt;kbd>página arriba&lt;/kbd> : Capítulo anterior o siguiente (`NavigatePreviousChapterAlt` / `NavigateNextChapterAlt`)&lt;/dt>
-&lt;dd>Lo mismo que arriba (atajo de teclado alternativo) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>←&lt;/kbd> o &lt;kbd>→&lt;/kbd> : Página anterior o siguiente (`NavigatePreviousPage` / `NavigateNextPage`)&lt;/dt>
-&lt;dd>En la ventana del lector, pasar a la "página" anterior o siguiente (o desplazarse por la unidad, si la paginación está deshabilitada) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>coma&lt;/kbd> o &lt;kbd>punto&lt;/kbd> : Página anterior o siguiente (`NavigatePreviousPageAlt` / `NavigateNextPageAlt`)&lt;/dt>
-&lt;dd>Lo mismo que arriba (atajo de teclado alternativo) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Inicio&lt;/kbd> o &lt;kbd>Fin&lt;/kbd> : Inicio o Fin de la publicación (`NavigateToBegin` / `NavigateToEnd`)&lt;/dt>
-&lt;dd>En la ventana del lector, va al principio o al final de la publicación. &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>retroceso&lt;/kbd> con modificador &lt;kbd>shift&lt;/kbd> para la operación inversa: Historial anterior e Historial siguiente (`NavigatePreviousHistory` / `NavigateNextHistory`): &lt;/dt>
-&lt;dd>En la ventana del lector, retroceder o avanzar en el historial de navegación: Inicio o Fin de la publicación &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd> : Audio anterior (`AudioPrevious`)&lt;/dt>
-&lt;dd>En la ventana del lector, llama al comando "anterior" para audio (superposiciones de medios TTS o EPUB3 para leer en voz alta, o "rebobinar" para audiolibros) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd> : Reproducir o pausar audio (`AudioPlayPause`)&lt;/dt>
-&lt;dd>En la ventana del lector, invoca los comandos de alternancia "reproducir" o "pausar" para audio (superposiciones de medios TTS o EPUB3 de lectura en voz alta) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd> : Siguiente audio (`AudioNext`)&lt;/dt>
-&lt;dd>En la ventana del lector, llama al comando "siguiente" para audio (TTS o EPUB3 Media Overlays leídos en voz alta, o "adelante" para audiolibros) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>4&lt;/kbd> : Detener audio (`AudioStop`)&lt;/dt>
-&lt;dd>En la ventana del lector, llama al comando "detener" para audio (TTS o EPUB3 Media Overlays leídos en voz alta, o "pausa" para audiolibros) &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Gestos táctiles</title><link>https://thorium.edrlab.org/es/th3/400_ressources/403_gesture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/403_gesture/</guid><description>
+&lt;dt>Capítulo anterior (`NavigatePreviousChapter`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Flecha izquierda&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, desplazarse al "capítulo" anterior (elemento del lomo en el orden de lectura de la publicación). Observe que el foco del teclado se desplaza automáticamente al punto de referencia del área "principal", que se encuentra inmediatamente antes del marco que muestra el contenido de la publicación (al igual que cuando se sigue o se activa un enlace en la tabla de contenidos).&lt;/dd>
+&lt;dt> Capítulo anterior (`NavigatePreviousChapterAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Re Pág&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, desplazarse al "capítulo" anterior (elemento del lomo en el orden de lectura de la publicación). Observe que el foco del teclado se desplaza automáticamente al punto de referencia del área "principal", que se encuentra inmediatamente antes del marco que muestra el contenido de la publicación (al igual que cuando se sigue o se activa un enlace en la tabla de contenidos).&lt;/dd>
+&lt;dt> Historial anterior (`NavigatePreviousHistory`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Retroceso&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, retroceder o avanzar en el historial de navegación: Inicio o Fin de la publicación&lt;/dd>
+&lt;dt> (`NavegarPáginaAnteriorDeLaBiblioteca`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>FlechaIzquierda&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la vista de biblioteca, muestra el conjunto anterior de libros&lt;/dd>
+&lt;dt> (`NavigatePreviousLibraryPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Coma&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la vista de la biblioteca, mostrar el conjunto anterior de libros (atajo de teclado alternativo)&lt;/dd>
+&lt;dt> Página anterior del catálogo (`NavigatePreviousOPDSPage`)&lt;/dt>
+&lt;dd> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Flecha izquierda&lt;/kbd>
+&lt;/dd>
+&lt;dt> Página anterior del catálogo (`NavigatePreviousOPDSPageAlt`)&lt;/dt> En la ventana de la biblioteca para feeds de Catálogos (OPD), activa los enlaces de paginación anteriores (atajo de teclado alternativo)&lt;dd> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Coma&lt;/kbd>
+&lt;/dd>
+&lt;dt> Página anterior (`NavigatePreviousPage`) &lt;kbd>Flecha izquierda&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, pasar a la "página" anterior o siguiente (o desplazarse por la unidad, si la paginación está deshabilitada)&lt;/dd>
+&lt;dt> Página anterior (`NavigatePreviousPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Coma&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, pasar a la "página" anterior o siguiente (o desplazarse por la unidad, si la paginación está deshabilitada)&lt;/dd>
+&lt;dt> Ir al principio del libro (`NavigateToBegin`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Inicio&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, va al principio de la publicación.&lt;/dd>
+&lt;dt> Ir al final del libro (`NavigateToEnd`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Fin&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, va al final de la publicación.&lt;/dd>
+&lt;dt> Panel de información del libro (`OpenReaderInfo`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Tecla I&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación (puede usarse en futuras versiones de Thorium para una función similar en la ventana de la biblioteca)&lt;/dd>
+&lt;dt> ¿Dónde estoy? (notificación rápida compatible con lectores de pantalla) (`SpeakReaderInfoWhereAmI`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Tecla K&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, esta es la función "dónde estoy", igual que la anterior, pero solo se pronuncia a través del TTS del lector de pantalla gracias a una región en vivo ARIA con discurso asertivo que interrumpe la narración actual.&lt;/dd>
+&lt;dt> ¿Dónde estoy? (`OpenReaderInfoWhereAmI`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Tecla I&lt;/kbd>
+&lt;/dt> En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación, con foco directo del teclado en la sección que muestra la jerarquía de encabezados y otra información contextual para la ubicación de lectura actual, como el salto de página anterior más cercano, así como el índice del documento en el orden de lectura (esta es la función "dónde estoy").&lt;dd>&lt;/dd>
+&lt;dt> Siguiente resultado de búsqueda (`SearchNext`) &lt;kbd>F3&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, cuando la entrada de texto de búsqueda de toda la publicación está abierta, busca la coincidencia anterior/siguiente&lt;/dd>
+&lt;dt> BuscarSiguienteAlt &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>TeclaG&lt;/kbd>
+&lt;/dt>
+&lt;dd> Lo mismo que arriba (atajo de teclado alternativo)&lt;/dd>
+&lt;dt> resultado de búsqueda anterior (`SearchPrevious`) &lt;kbd>Shift&lt;/kbd> + &lt;kbd>F3&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, cuando la entrada de texto de búsqueda de toda la publicación está abierta, busca la coincidencia anterior/siguiente&lt;/dd>
+&lt;dt> (`BuscarAnteriorAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Tecla G&lt;/kbd>
+&lt;/dt>
+&lt;dd> Lo mismo que arriba (atajo de teclado alternativo)&lt;/dd>
+&lt;dt>Marcadores (`ToggleBookmark`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>TeclaB&lt;/kbd>
+&lt;/dt>
+&lt;dd>En la ventana del lector, alternar marcador (se genera una notificación para que los lectores de pantalla anuncien el cambio)&lt;/dd>
+&lt;dt> Pantalla completa (`ToggleReaderFullscreen`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd>
+&lt;/dt>
+&lt;dd>En la ventana del lector, activa o desactiva el modo de pantalla completa. Ten en cuenta que esto es diferente del modo Zen. El atajo de teclado es la única forma de activar el modo de pantalla completa.&lt;/dd></description></item><item><title>Th3: Gestos táctiles</title><link>https://thorium.edrlab.org/es/th3/400_ressources/403_gesture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/403_gesture/</guid><description>
 &lt;p>Thorium Reader tiene un control limitado de gestos táctiles en pantalla. Se implementan principalmente para controlar el zoom de imágenes y pasar páginas. Es posible que también funcionen algunos gestos nativos del sistema operativo.&lt;/p>
 &lt;p>La siguiente tabla repertoria los gestos de trabajo conocidos hasta el momento.&lt;/p>
 &lt;table>
@@ -677,7 +670,7 @@ artículo.&lt;/em>&lt;/p>
 &lt;dd>(Electronic PUBlication) es un formato de archivo abierto para publicaciones electrónicas. EPUB es un formato semántico nativo que permite utilizar numerosos lenguajes estandarizados como HTML, ARIA, MATHML, SVG y otros. La versión actual 3 es conocida por ofrecer la mejor experiencia de lectura actualizada. Los archivos EPUB2 obsoletos también se pueden leer en Thorium. &lt;/dd>
 &lt;/dl>
 &lt;dl>
-&lt;dt>DAISY&lt;/dt>
+&lt;dt>MARGARITA&lt;/dt>
 &lt;dd>El formato DAISY, que suele producirse y distribuirse en bibliotecas especializadas u ONG, ofrece una experiencia de lectura significativamente mejorada para los libros electrónicos que no están disponibles en EPUB3. Thorium admite la lectura de DAISY 3 y 2.02, tanto en su versión de solo texto, solo audio y texto y audio sincronizados.&lt;/dd>
 &lt;/dl>
 &lt;dl>
@@ -705,23 +698,25 @@ artículo.&lt;/em>&lt;/p>
 &lt;dd> Sistema de distribución de publicaciones abiertas &lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Preguntas frecuentes</title><link>https://thorium.edrlab.org/es/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/430_faq/</guid><description>
 &lt;dl>
+&lt;dt id="fullscreen">¿Cómo puedo disfrutar de Thorium en pantalla completa?&lt;/dt>
+&lt;dd>&lt;p> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> en una ventana del lector activará esta ventana en modo de pantalla completa. Tenga en cuenta que esto es diferente del modo Zen disponible en el pictograma superior derecho. El atajo de teclado es la única forma de pasar al modo de pantalla completa.&lt;/p>&lt;/dd>
+&lt;/dl>
+&lt;dt id="manually_manage_files">¿Por qué no puedo abrir un libro electrónico sin que esté guardado en la biblioteca de Thorium Reader?&lt;/dt>
+&lt;dd>&lt;p>Thorium, al igual que muchos otros lectores de libros electrónicos y sistemas de lectura, almacena las publicaciones importadas en su propio espacio de sistema de archivos, ya que esto proporciona una garantía de que el estado de cada publicación y los metadatos externos (por ejemplo, marcadores, configuraciones, anotaciones, estado de DRM, etc.) se pueden adjuntar de manera confiable.&lt;/p>&lt;/dd>
+&lt;p>If you need to open files without using advanced reading features, and want to keep a manual maintenance of ebook files, you can consider using an alternative. A possibility is the Readium2 “test app”, a basic reader-only app (i.e. no library / bookshelf) which provides rudimentary support for ebook features (bookmarks, highlights), with a crude user interface designed for testing the SDK. You may give it a try using the automated builds from &lt;a href="https://github.com/readium/r2-testapp-js"> Readium2 “test app”GitHub’s releases page&lt;/a>&lt;/p>
+&lt;p>Agregar una función de "lectura en un solo paso" no está en nuestra hoja de ruta, como tampoco lo está el mantenimiento de un lector web público y estable.&lt;/p>
 &lt;dt id="PDFsupport">¿Por qué no hay lectura en voz alta ni anotaciones para los archivos PDF? &lt;/dt>
 &lt;dd>EDRLab considera que EPUB 3 es un formato de libro electrónico mucho mejor que PDF y, por lo tanto, prioriza su trabajo para ofrecer una gran experiencia a los usuarios de EPUB. En Thorium Reader, las funciones avanzadas como TTS y anotaciones están disponibles primero para EPUB y esperamos que otros desarrolladores de aplicaciones obtengan lo mejor de los archivos PDF. Esto no significa que las funciones avanzadas nunca estarán disponibles en PDF en Thorium, simplemente que nuestro presupuesto limitado se utiliza para lo que consideramos mejor para los lectores de libros electrónicos. &lt;/dd>
-&lt;/dl>
-&lt;dl>
 &lt;dt id="TTSvoices">No puedo seleccionar la voz adecuada para la función de lectura en voz alta (TTS)&lt;/dt>
 &lt;dd>Thorium utiliza las voces del sistema operativo de la computadora, en combinación con la información del idioma proporcionada por el libro. &lt;/dd>
-&lt;/dl>
 &lt;ul>
 &lt;li>Si está utilizando Windows, puede seguir &lt;a href="https://support.microsoft.com/en-us/windows/download-language-pack-for-speech-24d06ef3-ca09-ddcc-70a0-63606fd16394">la guía de Microsoft Descargar el paquete de idioma para voz&lt;/a> .&lt;/li>
 &lt;li>Si está utilizando Mac OSX, la guía &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Cambiar la voz que usa Mac para pronunciar texto&lt;/a> .&lt;/li>
 &lt;/ul>
 &lt;p>Una vez instalada la voz requerida, Thorium elegirá la voz correspondiente al idioma del libro.&lt;/p>
 &lt;p>Puede suceder que el libro tenga el idioma incorrecto. En este caso, Thorium le permite cambiar la voz a una que esté presente en el sistema a través del menú Voz&lt;/p>
-&lt;dl>
 &lt;dt id="localStorage">¿Cómo puedo transferir toda la colección de libros de una máquina a otra?&lt;/dt>
 &lt;dd> Tener una interfaz de usuario para exportar todo el catálogo no es una prioridad actualmente. &lt;/dd>
-&lt;/dl>
 &lt;p>Las publicaciones se almacenan en un directorio conocido.&lt;/p>
 &lt;ul>
 &lt;li>en Windows 10: C:\Users\minombre\AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
@@ -733,108 +728,71 @@ artículo.&lt;/em>&lt;/p>
 &lt;p>Para agregar una traducción, puede comenzar desde el inglés &amp;ldquo;en.json&amp;rdquo;, cambiarle el nombre y cambiar los valores después de los dos puntos (:).&lt;/p>
 &lt;p>Si se siente cómodo con Github, puede abrir una solicitud de extracción para enviar el archivo.&lt;/p>
 &lt;p>De lo contrario, puede enviarnos el archivo localizado por correo electrónico y procederemos a agregarlo. Se mantiene una lista de colaboradores en la página wiki Traducción de idiomas de localización (l10n).&lt;/p>
-&lt;p>Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)&lt;/p></description></item><item><title>Th3: Condiciones de uso</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
-&lt;p>Por motivos legales, los términos de uso del software, disponibles en inglés, no están traducidos.&lt;/p>
-&lt;p>Los encontrarás en la página en inglés.
-&lt;span lang="en">
-&lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/">Terms of use&lt;/a>
-&lt;/span>&lt;/p></description></item><item><title>Th3: Créditos para Thorium Reader</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/910_credits/</guid><description>
-&lt;p>Este sitio de documentación está diseñado y mantenido por EDRLab
-como parte del desarrollo de la aplicación Thorium-Reader.&lt;/p>
-&lt;p>Los principales contribuyentes de esta documentación son:
-*Gautier Chomel
-*Georges Kerscher
-*Noelia Ruiz Martínez
-*Prashant Verma&lt;/p>
-&lt;p>Este sitio está hecho con el generador de sitios estáticos.
-&lt;a href="https://gohugo.io/">Hugo&lt;/a> y el
-[Tema del libro de Hugo] (&lt;a href="https://github.com/alex-shpak/hugo-book/)">https://github.com/alex-shpak/hugo-book/)&lt;/a>.&lt;/p>
-&lt;h2>Quién ha desarrollado esta aplicación&lt;/h2>
-&lt;p>Thorium Reader está desarrollado actualmente por:&lt;/p>
-&lt;ul clase="nobullet">
+&lt;p>Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)&lt;/p></description></item><item><title>Th3: Créditos para Thorium Reader</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/910_credits/</guid><description>
+&lt;p>Thorium Reader está siendo desarrollado actualmente por:&lt;/p>
+&lt;ul class="nobullet">
 &lt;li>Daniel Weck, desarrollador principal.&lt;/li>
 &lt;li>Pierre Leroux, desarrollador.&lt;/li>
 &lt;li>Arthur Le Meur, desarrollador&lt;/li>
 &lt;/ul>
-&lt;p>La UX y UI de Thorium 3 fueron diseñadas por &lt;a href="https://www.myleneboyrie.fr/">Mylène Boyrie&lt;/a>&lt;/p>
-&lt;p>Varios otros desarrolladores han ayudado a hacer de Thorium lo que es hoy:&lt;/p>
-&lt;ul clase="nobullet">
-&lt;li>Simon Le Roux, diseñador de interfaz de usuario.&lt;/li>
-&lt;li>Cyrille Lebeaupin, director ejecutivo de noop.fr, desarrollador senior.&lt;/li>
+&lt;p>La UX y la UI de Thorium 3 fueron diseñadas por &lt;a href="https://www.myleneboyrie.fr/">Mylène Boyrie&lt;/a>&lt;/p>
+&lt;p>Varios otros desarrolladores han contribuido a que Thorium sea lo que es hoy:&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Simon Le Roux, diseñador de UI.&lt;/li>
+&lt;li>Cyrille Lebeaupin, director general de noop.fr, desarrollador senior.&lt;/li>
 &lt;li>Jiminy Panoz, creador de Readium CSS.&lt;/li>
 &lt;li>Léo Stéfani, node.js, desarrollador de React.&lt;/li>
 &lt;li>Manuel Lagrand, pasante, desarrollador de node.js.&lt;/li>
 &lt;/ul>
-&lt;p>El proyecto está supervisado por Laurent Le Meur, CTO de EDRLab.&lt;/p>
-&lt;h2>Quién financia esta aplicación&lt;/h2>
-&lt;p>
-EDRLab es una organización sin fines de lucro. Nuestro presupuesto se origina esencialmente
-de nuestros miembros. EDRLab comenzó en Francia, pero ahora cuenta con 60 miembros
-de Europa, Norteamérica, Sudamérica y Asia.
-&lt;/p>
+&lt;h2>¿Quién financia esta aplicación?&lt;/h2>
+&lt;p> EDRLab es una organización sin fines de lucro. Nuestro presupuesto proviene fundamentalmente de nuestros miembros. EDRLab comenzó en Francia, pero ahora cuenta con 60 miembros de Europa, América del Norte, América del Sur y Asia. &lt;/p>
 &lt;p>Este proyecto no habría visto la luz sin:&lt;/p>
-&lt;p>
-1-La implicación financiera de nuestros miembros fundadores: Editis, Hachette
-Livre, Magrigall, Participaciones en los medios, Círculo de la Biblioteca, Syndicat
-edición nacional. Entienden que financiar estándares abiertos y
-El código abierto es la mejor manera de dinamizar un mercado abierto e innovador para
-la industria editorial.
-&lt;/p>
-&lt;p>2-Subvenciones financieras de los siguientes organismos públicos franceses:&lt;/p>
+&lt;p> 1- La implicación financiera de nuestros miembros fundadores: Editis, Hachette Livre, Magrigall, Media-Participations, Cercle de la Librarie, Syndicat national de l'Edition. Ellos entienden que la financiación de los estándares abiertos y del código abierto es la mejor manera de dinamizar un mercado abierto e innovador para la industria editorial. &lt;/p>
+&lt;p>2- Subvenciones financieras de los siguientes organismos públicos franceses:&lt;/p>
 &lt;ul>
 &lt;li>CNL (Centro Nacional del Libro)&lt;/li>
 &lt;li>Ministerio de la Cultura&lt;/li>
 &lt;/ul>
-&lt;p>
-3-Subvenciones adicionales de miembros de EDRLab interesados ​​en la incorporación de
-características específicas:
-&lt;/p>
+&lt;p> 3- Subvenciones adicionales de miembros de EDRLab interesados en la incorporación de características específicas: &lt;/p>
 &lt;ul>
-&lt;li>Editorial Fênix, Brasil&lt;/li>
+&lt;li>Editorial Fénix, Brasil&lt;/li>
 &lt;li>Biblioteca electrónica canadiense, Canadá&lt;/li>
-&lt;li>MLOL /Horizons Unlimited, Italia&lt;/li>
-&lt;li>Lyrasis, EE.UU.&lt;/li>
-&lt;/ul></description></item><item><title>Th3: Política de privacidad</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
-&lt;p>Por motivos legales, la política de privacidad del software, disponible en inglés, no está traducida.&lt;/p>
-&lt;p>Lo encontrarás en la página en inglés.
-&lt;span lang="en">
-&lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/902_thorium-privacy-policy/">Privacy policy&lt;/a>
-&lt;/span>&lt;/p></description></item><item><title>Th3: Política de accesibilidad</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/903_thorium-accessibility-policy/</guid><description>
+&lt;li>MLOL / Horizons Unlimited, Italia&lt;/li>
+&lt;li>Lyrasis, Estados Unidos&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Política de accesibilidad</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/903_thorium-accessibility-policy/</guid><description>
 &lt;p>EDRLab es un laboratorio de desarrollo sin fines de lucro y sitúa la accesibilidad como requisito central de sus actuaciones. Eso incluye el desarrollo de Thorium Reader.&lt;/p>
-&lt;p>Sin embargo, el aspecto central de innovación y experimentación de nuestro trabajo puede afectar la accesibilidad en algunos puntos.
-Las limitaciones de financiación también pueden afectar nuestra acción y voluntad de brindar la mejor experiencia de lectura a todos los lectores.
-Estas son las razones principales por las que, en este momento, no podemos permitirnos un ciclo completo de pruebas de accesibilidad en cada versión.&lt;/p>
+&lt;p>Sin embargo, el aspecto central de innovación y experimentación de nuestro trabajo puede afectar la accesibilidad en algunos puntos. Las limitaciones de financiación también pueden afectar nuestra acción y voluntad de brindar la mejor experiencia de lectura a todos los lectores. Estas son las razones principales por las que, en este momento, no podemos permitirnos un ciclo completo de pruebas de accesibilidad en cada versión.&lt;/p>
 &lt;p>Cualquier bloqueador identificado se informa públicamente y se puede buscar a través de una etiqueta dedicada [Accesibilidad en nuestro rastreador de problemas] (&lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility&lt;/a>) que son tratados como prioritarios por el equipo de desarrollo.&lt;/p>
-&lt;p>## comprender todas y cada una de las necesidades de los usuarios
-Captamos comentarios sobre las experiencias de los clientes desde una perspectiva de accesibilidad a través de diferentes canales:
-*Desarrollo [Accesibilidad de etiquetas dedicada al seguimiento de problemas] (&lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility&lt;/a>)
-*Correo electrónico &lt;a href="https://www.edrlab.org/contact/">formulario de contacto&lt;/a>
-*Comentarios individuales recopilados por nuestras [organizaciones miembro dedicadas a servir a personas con discapacidades] (&lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">https://members.edrlab.org/categories/serving-persons-with-print-disabilities/&lt;/a>)&lt;/p>
-&lt;p>## Se informan las características de accesibilidad de Thorium Reader&lt;/p>
-&lt;p>Cuando se introduce una función de accesibilidad, hacemos pública esa información a través de
-*el registro de cambios de versión
-*una breve mención en la página de inicio del sitio web
-*listado como referencia en este sitio web [sección de recursos, página de accesibilidad] (../../400_ressources/300_accessibility)
-*todas las explicaciones relacionadas con la accesibilidad están disponibles en la documentación, no en un capítulo o lugar separado.&lt;/p>
+&lt;h2 id="comprender-las-necesidades-de-todos-y-cada-uno-de-los-usuarios">comprender las necesidades de todos y cada uno de los usuarios&lt;/h2>
+&lt;p>Capturamos comentarios sobre las experiencias de los clientes desde una perspectiva de accesibilidad a través de diferentes canales: * &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Seguimiento de problemas de desarrollo Etiqueta dedicada Accesibilidad&lt;/a> * &lt;a href="https://www.edrlab.org/contact/">Formulario de contacto&lt;/a> por correo electrónico * Comentarios individuales recopilados por nuestras &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">organizaciones miembros dedicadas a ayudar a personas con discapacidades&lt;/a>&lt;/p>
+&lt;h2 id="se-informa-sobre-las-funciones-de-accesibilidad-de-thorium-reader">Se informa sobre las funciones de accesibilidad de Thorium Reader&lt;/h2>
+&lt;p>Cuando se introduce una función de accesibilidad, hacemos pública esa información a través de&lt;/p>
+&lt;ul>
+&lt;li>el registro de cambios de versión&lt;/li>
+&lt;li>Una breve mención en la página de inicio del sitio web.&lt;/li>
+&lt;li>listado para referencia en &lt;a href="../../400_ressources/300_accessibility">la sección de recursos de este sitio web, página de accesibilidad&lt;/a>&lt;/li>
+&lt;li>Todas las explicaciones relacionadas con la accesibilidad están disponibles en la documentación, no en un capítulo o lugar separado.&lt;/li>
+&lt;/ul>
+&lt;p>Estamos manteniendo una &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">VPAT (plantilla de accesibilidad voluntaria del producto) para Thorium Reader&lt;/a> .&lt;/p>
 &lt;h2 id="soporte-para-tecnología-de-asistencia">Soporte para tecnología de asistencia&lt;/h2>
-&lt;p>Se presta especial atención al acceso no visual a través de lectores de pantalla.
-En la medida de lo posible, pretendemos mantener una ruta de acceso similar entre el acceso visual y el no visual. Siempre que es necesario, utilizamos tecnologías dedicadas como ARIA-Role.&lt;/p>
-&lt;p>Se prueban nuevas funcionalidades con lectores de pantalla.&lt;/p>
+&lt;p>Se presta especial atención al acceso no visual a través de lectores de pantalla.&lt;/p>
+&lt;p>En la medida de lo posible, intentamos mantener una ruta de acceso similar entre el acceso visual y el no visual. Siempre que es necesario, utilizamos tecnologías especializadas como ARIA-Role.&lt;/p>
+&lt;p>Las nuevas funcionalidades se prueban con lectores de pantalla.&lt;/p>
 &lt;h2 id="pruebas-de-accesibilidad">Pruebas de accesibilidad&lt;/h2>
-&lt;pre>&lt;code>*Pruebas comunitarias a través de [epubtest.org](https://epubtest.org/)&lt;/code>&lt;/pre></description></item><item><title>Th3: Tu ayuda es valiosa</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</guid><description>
+&lt;p>Las funciones de lectura accesible de Thorium EPUB están siendo probadas por la comunidad a través de &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item><item><title>Th3: Tu ayuda es valiosa</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/903_support/</guid><description>
 &lt;p> Tú también puedes ayudar a que Thorium Reader se convierta en la mejor aplicación de lectura convirtiéndote &lt;a href="https://www.edrlab.org/become-a-member/">en miembro de EDRLab&lt;/a> o haciendo una donación a EDRLab a través de la "alcancía" &lt;a href="https://github.com/sponsors/edrlab">de patrocinio de Github&lt;/a> , que acepta pequeñas donaciones mensuales.&lt;/p>
 &lt;p> Thorium está construido por su comunidad. Si quieres participar, ¡contacta con nosotros!&lt;/p>
 &lt;p>También puedes:&lt;/p>
 &lt;ul>
 &lt;li>Informe un error o sugiera un cambio abriendo un problema en nuestra [herramienta de seguimiento de soporte](https://github.com/edrlab/thorium-reader-doc/issues/new).&lt;/li>
 &lt;/ul>
-&lt;li>Participar en la traducción de recursos.&lt;/li></description></item><item><title>Th3: ¿Atascado?</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/904_issues/</guid><description>
+&lt;li>Participar en la traducción de recursos.&lt;/li></description></item><item><title>Th3: ¿Atascado?</title><link>https://thorium.edrlab.org/es/th3/400_ressources/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/904_issues/</guid><description>
 &lt;p>Si no encuentra la respuesta a su problema en este sitio, puede informarnos su problema a través de nuestra &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">herramienta de seguimiento de soporte&lt;/a> o &lt;a href="https://www.edrlab.org/contact/">formulario de contacto&lt;/a> .&lt;/p>
 &lt;p>Aquí está la información que necesitamos:&lt;/p>
 &lt;ul>
 &lt;li>Sistema operativo y su versión&lt;/li>
-&lt;li>Versión de Thorium (está indicada en la parte inferior de la biblioteca bajo el título &lt;code>About Thorium&lt;/code> )&lt;/li>
-&lt;/ul></description></item><item><title>Th3: ¡Contribuir!</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</guid><description>
+&lt;li>Versión de Torio (está indicada en la parte inferior de la biblioteca bajo el título &lt;code>About Thorium&lt;/code> )&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Contribuya a esta documentación</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/905_contribute/</guid><description>
 &lt;p>Thorium y su documentación se desarrollan gracias a la comunidad de usuarios. Necesitamos ayuda para traducir esta documentación.&lt;/p>
 &lt;p>Para ello, puede &lt;a href="https://www.edrlab.org/contact/">ponerse en contacto con nosotros&lt;/a> .&lt;/p>
 &lt;p>Si se siente lo suficientemente cómodo con GitHub y el formato Markdown, puede proponer una nueva traducción a través de una solicitud de extracción.&lt;/p>
@@ -851,56 +809,35 @@ weight = 1
 languageName = &amp;#39;Español&amp;#39;
 contentDir = &amp;#39;content.es&amp;#39;
 weight = 3
-&lt;/code>&lt;/pre>&lt;p>Las imágenes localizadas, como capturas de pantalla, deben agregarse a la carpeta &lt;code>statics/images/local-(two letter language)&lt;/code> .&lt;/p></description></item><item><title>Th3: Accesibilidad de este sitio</title><link>https://thorium.edrlab.org/es/th3/950_about_this_website/912_accessibility_declaration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/950_about_this_website/912_accessibility_declaration/</guid><description>
-&lt;p>Este sitio fue probado con NVDA en Firefox en Windows 10.
-No se encontraron bloqueadores de accesibilidad.
-Última prueba: diciembre de 2024&lt;/p>
-&lt;p>Si encuentra alguna dificultad, puede informarnos a través del
-formulario de contacto o abriendo un problema en nuestro
-&lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">rastreador de soporte&lt;/a> o a través de nuestro &lt;a href="https://www.edrlab.org/contact/">formulario de contacto&lt;/a>.&lt;/p>
-&lt;p>La página está en inglés pero puedes escribir en tu idioma indicándonoslo para que podamos
-en su idioma para que podamos movilizar a las personas adecuadas.
-Aquí está la información que necesitamos:&lt;/p>
-&lt;p>*Sistema operativo y su versión.
-*Tecnología de asistencia utilizada.&lt;/p></description></item><item><title>Th3: Licencia para Thorium Reader</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/913_licence/</guid><description>
-&lt;p>La aplicación Thorium-reader es de código abierto y se publica bajo una licencia BSD 3. Se basa en el kit de herramientas Readium Desktop de código abierto con licencia de la &lt;a href="https://readium.org/">Readium Foundation&lt;/a> según uno o más acuerdos de licencia de colaborador.&lt;/p>
-&lt;p>A continuación se muestra el texto de la licencia en inglés:&lt;/p>
-&lt;div lang="en">
-BSD 3-Clause License
-&lt;p>Copyright (c) 2017, EDRLab
-All rights reserved.&lt;/p>
-&lt;p>Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:&lt;/p>
+&lt;/code>&lt;/pre>&lt;p>Las imágenes localizadas, como capturas de pantalla, deben agregarse a la carpeta &lt;code>statics/images/local-(two letter language)&lt;/code> .&lt;/p></description></item><item><title>Th3: Accesibilidad de este sitio web</title><link>https://thorium.edrlab.org/es/th3/950_about_this_website/912_accessibility_declaration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/950_about_this_website/912_accessibility_declaration/</guid><description>
+&lt;p>Este sitio fue probado con NVDA en Firefox en Windows 10. No se encontraron bloqueadores de accesibilidad.&lt;/p>
+&lt;p>Última prueba: diciembre de 2024&lt;/p>
+&lt;p>Si encuentra alguna dificultad, puede informarnos a través del formulario de contacto o abriendo un problema en nuestro &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">rastreador de soporte&lt;/a> o a través de nuestro &lt;a href="https://www.edrlab.org/contact/">formulario de contacto&lt;/a> .&lt;/p>
+&lt;p>La página está en inglés pero puedes escribir en tu idioma indicándonoslo para que podamos hacerlo en tu idioma y así poder movilizar a las personas adecuadas.&lt;/p>
+&lt;p>Aquí está la información que necesitamos:&lt;/p>
+&lt;ul>
+&lt;li>Sistema operativo y su versión&lt;/li>
+&lt;li>Versión de Torio (está indicada en la parte inferior de la biblioteca bajo el título Acerca del Torio)&lt;/li>
+&lt;li>Tecnología de asistencia utilizada.&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Licencia para Thorium Reader</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/913_licence/</guid><description>
+&lt;p>La aplicación Thorium-reader es de código abierto y se publica bajo una licencia BSD 3. Se basa en el kit de herramientas de código abierto Readium Desktop, cuya licencia está bajo la licencia de la &lt;a href="https://readium.org/">Readium Foundation&lt;/a> bajo uno o más acuerdos de licencia de contribuyente.&lt;/p>
+&lt;p>Licencia BSD de 3 cláusulas&lt;/p>
+&lt;p>Copyright (c) 2017, EDRLab Todos los derechos reservados.&lt;/p>
+&lt;p>Se permite la redistribución y el uso en forma fuente y binaria, con o sin modificaciones, siempre que se cumplan las siguientes condiciones:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Redistributions of source code must retain the above copyright notice, this
-list of conditions and the following disclaimer.&lt;/p>
+&lt;p>Las redistribuciones del código fuente deben conservar el aviso de copyright anterior, esta lista de condiciones y la siguiente exención de responsabilidad.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Redistributions in binary form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation
-and/or other materials provided with the distribution.&lt;/p>
+&lt;p>Las redistribuciones en forma binaria deben reproducir el aviso de copyright anterior, esta lista de condiciones y la siguiente exención de responsabilidad en la documentación y/o otros materiales proporcionados con la distribución.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Neither the name of the copyright holder nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.&lt;/p>
+&lt;p>Ni el nombre del titular de los derechos de autor ni los nombres de sus colaboradores pueden usarse para respaldar o promocionar productos derivados de este software sin permiso previo por escrito específico.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &amp;ldquo;AS IS&amp;rdquo;
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p>
-&lt;/div></description></item><item><title>Th3: Licencia y crédito para este sitio web.</title><link>https://thorium.edrlab.org/es/th3/950_about_this_website/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/950_about_this_website/913_licence/</guid><description>
+&lt;p>ESTE SOFTWARE ES PROPORCIONADO POR LOS TITULARES DE LOS DERECHOS DE AUTOR Y COLABORADORES &amp;ldquo;TAL CUAL&amp;rdquo; Y SE RECHAZAN TODAS LAS GARANTÍAS EXPRESAS O IMPLÍCITAS, INCLUYENDO, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD E IDONEIDAD PARA UN PROPÓSITO PARTICULAR. EN NINGÚN CASO EL TITULAR DE LOS DERECHOS DE AUTOR O LOS COLABORADORES SERÁN RESPONSABLES DE NINGÚN DAÑO DIRECTO, INDIRECTO, INCIDENTAL, ESPECIAL, EJEMPLAR O CONSECUENTE (INCLUIDOS, ENTRE OTROS, LA OBTENCIÓN DE BIENES O SERVICIOS SUSTITUTOS; PÉRDIDA DE USO, DATOS O BENEFICIOS; O INTERRUPCIÓN DEL NEGOCIO) CAUSADO COMO SEA Y BAJO CUALQUIER TEORÍA DE RESPONSABILIDAD, YA SEA POR CONTRATO, RESPONSABILIDAD ESTRICTA O AGRAVIO (INCLUIDA LA NEGLIGENCIA O DE OTRO MODO) QUE SURJA DE CUALQUIER FORMA DEL USO DE ESTE SOFTWARE, INCLUSO SI SE HA ADVERTIDO DE LA POSIBILIDAD DE TAL DAÑO.&lt;/p></description></item><item><title>Th3: Licencia y crédito para este sitio web.</title><link>https://thorium.edrlab.org/es/th3/950_about_this_website/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/950_about_this_website/913_licence/</guid><description>
 &lt;h2 id="créditos">Créditos&lt;/h2>
-&lt;p>Este sitio de documentación está diseñado y mantenido por EDRLab
-como parte del desarrollo de la aplicación Thorium-Reader.&lt;/p>
+&lt;p>Este sitio de documentación está diseñado y mantenido por EDRLab como parte del desarrollo de la aplicación Thorium-Reader.&lt;/p>
 &lt;p>Los principales contribuyentes de esta documentación son:&lt;/p>
 &lt;ul>
 &lt;li>Gautier Chomel&lt;/li>
@@ -909,26 +846,57 @@ como parte del desarrollo de la aplicación Thorium-Reader.&lt;/p>
 &lt;li>Prashant Verma&lt;/li>
 &lt;/ul>
 &lt;p>El proyecto está supervisado por Laurent Le Meur, CTO de EDRLab.&lt;/p>
-&lt;p>Este sitio está hecho con el generador de sitios estáticos.
-&lt;a href="https://gohugo.io/">Hugo&lt;/a> y un tema dedicado derivado del
-&lt;a href="https://www.docsy.dev/">Tema Docsy&lt;/a>.&lt;/p>
+&lt;p>Este sitio está hecho con el generador de sitios estáticos. &lt;a href="https://gohugo.io/">Hugo&lt;/a> y un tema dedicado derivado del &lt;a href="https://www.docsy.dev/">Tema Docsy&lt;/a>.&lt;/p>
 &lt;h2 id="licensing">Licensing&lt;/h2>
 &lt;p>El contenido de este sitio web está disponible bajo &lt;a href="https://creativecommons.org/licenses/by/4.0/deed.es">licencia Attribution 4.0 International CC BY 4.0&lt;/a>&lt;/p>
 &lt;p>Cualquier reutilización debe incluir la siguiente declaración con enlaces:&lt;/p>
 &lt;blockquote>
-&lt;p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">&lt;a property="dct:title" rel=" cc:attributionURL" href="https://thorium.edrlab.org/">Material de apoyo de Thorium Reader&lt;/a> por &lt;a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://edrlab.org/">EDRLab&lt;/a> tiene licencia &lt;a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target=" _blank" rel="licencia noopener noreferrer" style="display:inline-block;">CC BY 4.0&lt;img estilo="altura:22px!importante;margin-izquierda:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">&lt;img style="altura:22px!important;margin-left:3px;vertical -align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">&lt;/a>&lt;/p>
+&lt;p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">&lt;a property="dct:title" rel=" cc:attributionURL" href="https://thorium.edrlab.org/">Material de apoyo de Thorium Reader&lt;/a> por &lt;a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://edrlab.org/">EDRLab&lt;/a> tiene licencia &lt;a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target=" _blank" rel="licencia noopener noreferrer" style="display:inline-block;">CC BY 4.0&lt;/a>&lt;img estilo="altura:22px!importante;margin-izquierda:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">&lt;img style="altura:22px!important;margin-left:3px;vertical -align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">&lt;/p>
 &lt;/blockquote>
-&lt;p>### Usted es libre de:&lt;/p>
+&lt;h3 id="bajo-los-siguientes-términos">Bajo los siguientes términos:&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Compartir&lt;/strong> — copiar y redistribuir el material en cualquier medio o formato para cualquier propósito, incluso comercialmente.&lt;/li>
 &lt;li>&lt;strong>Adaptar&lt;/strong> — remezclar, transformar y construir a partir del material para cualquier propósito, incluso comercialmente.&lt;/li>
 &lt;/ul>
-&lt;p>La licenciante no puede revocar estas libertades en tanto usted siga los términos de la licencia&lt;/p>
-&lt;h3 id="bajo-los-siguientes-términos">Bajo los siguientes términos:&lt;/h3>
+&lt;p>El licenciante no puede revocar estas libertades siempre que usted cumpla con los términos de la licencia.&lt;/p>
+&lt;h3 id="en-los-siguientes-términos">En los siguientes términos:&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Atribución&lt;/strong> — Usted debe dar crédito de manera adecuada , brindar un enlace a la licencia, e indicar si se han realizado cambios . Puede hacerlo en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante.&lt;/li>
 &lt;li>&lt;strong>No hay restricciones adicionales&lt;/strong> — No puede aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otras a hacer cualquier uso permitido por la licencia.&lt;/li>
 &lt;/ul>
-&lt;p>### Avisos:
-No tiene que cumplir con la licencia para elementos del materiale en el dominio público o cuando su uso esté permitido por una excepción o limitación aplicable.&lt;/p>
-&lt;p>No se dan garantías. La licencia podría no darle todos los permisos que necesita para el uso que tenga previsto. Por ejemplo, otros derechos como publicidad, privacidad, o derechos morales pueden limitar la forma en que utilice el material.&lt;/p></description></item></channel></rss>
+&lt;p>La licenciante no puede revocar estas libertades en tanto usted siga los términos de la licencia&lt;/p>
+&lt;p>No se ofrecen garantías. Es posible que la licencia no le otorgue todos los permisos necesarios para el uso previsto. Por ejemplo, otros derechos, como los de publicidad, privacidad o derechos morales, pueden limitar el modo en que utiliza el material.&lt;/p></description></item><item><title>Th3: Condiciones de uso de Thorium Reader</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
+&lt;p>22 de noviembre de 2022&lt;/p>
+&lt;p>Lea atentamente los siguientes términos y condiciones y los documentos incorporados por referencia en ellos (colectivamente, los “Términos de uso”) antes de comenzar a utilizar la aplicación Thorium Reader (la “Aplicación”).&lt;/p>
+&lt;p>Al utilizar la Aplicación, usted acepta estar sujeto a estos Términos de uso y nuestra Política de privacidad, que se incorporan aquí como referencia. Si no acepta estos Términos de uso o la Política de privacidad, no debe acceder ni utilizar nuestra Aplicación.&lt;/p>
+&lt;h2 id="acceso-a-la-aplicación">Acceso a la Aplicación&lt;/h2>
+&lt;p>Nos reservamos el derecho de retirar o modificar la Aplicación y cualquier servicio que proporcionemos en ella. No seremos responsables si, por cualquier motivo, la totalidad o parte de la Aplicación resulta inaccesible en cualquier momento o durante cualquier período.&lt;/p>
+&lt;h2 id="acuerdo-continuo">Acuerdo continuo&lt;/h2>
+&lt;p>Es posible que modifiquemos los Términos de uso de vez en cuando. Le notificaremos mediante la publicación de los Términos de uso revisados en esta página y la fecha en la que se realizaron los últimos cambios se indicará en la parte superior de la página. Debe revisar estos Términos de uso periódicamente, ya que estará sujeto a cualquier revisión. En la medida máxima permitida por las leyes, normas, reglamentos y requisitos aplicables (colectivamente, &amp;ldquo;Leyes aplicables&amp;rdquo;), usted comprende y acepta que su acceso o uso continuo de la Aplicación después de la publicación de los cambios en los Términos de uso constituye su aceptación de dichos cambios.&lt;/p>
+&lt;h2 id="titularidad-y-uso-de-la-aplicación">Titularidad y uso de la aplicación&lt;/h2>
+&lt;p>EDRLab es el propietario de la Aplicación, incluidos todos los derechos de autor, marcas comerciales, nombres comerciales, logotipos, patentes, secretos comerciales y otros derechos de propiedad intelectual relacionados con la misma. EDRLab puede otorgar licencias a terceros para el uso o funcionamiento de la Aplicación.&lt;/p>
+&lt;p>En cualquier caso, el usuario no tiene ni adquirirá ningún derecho sobre la Aplicación, salvo el derecho a utilizarla de conformidad con las Condiciones de Uso. Nada de lo contenido en la Aplicación o en el Contenido podrá interpretarse como que le confiere a usted ningún derecho, título, interés u otra licencia sobre el software integrado en la Aplicación o el Contenido o que pueda descargarse en la Aplicación, incluidos, en particular, los derechos de propiedad intelectual sobre el software que compone la Aplicación y sus componentes, salvo el derecho a utilizarlo de conformidad con las Condiciones de Uso. Además, no podrá alquilar, vender, modificar, descompilar, desensamblar, realizar ingeniería inversa ni transferir la Aplicación en su totalidad o en parte. No podrá utilizar ningún dispositivo, software o rutina para interferir o intentar interferir en el correcto funcionamiento de la Aplicación en su totalidad o en parte.&lt;/p>
+&lt;p>Usted podrá utilizar la Aplicación únicamente con fines lícitos y de conformidad con estos Términos de Uso. Sin limitar el alcance de lo anterior, usted acepta no utilizar la Aplicación de ninguna manera que viole alguna ley o normativa local o internacional, no suplantar o intentar suplantar la identidad de otra persona ni adoptar cualquier otra conducta que restrinja o dificulte el uso o disfrute de la Aplicación por parte de cualquier persona.&lt;/p>
+&lt;p>En caso de que haya autorizado a un menor de edad a utilizar la Aplicación y su Contenido, usted reconoce que es responsable de: i) su comportamiento en línea; ii) controlar su acceso y uso de la Aplicación y su Contenido; y iii) las consecuencias de cualquier mal uso de la Aplicación y su Contenido por su parte. Usted reconoce que la Aplicación puede importar Contenido que sea inapropiado para un menor de edad. Le recomendamos que ejerza una supervisión razonable sobre el uso de la Aplicación y su Contenido por parte de los menores a su cargo.&lt;/p>
+&lt;h2 id="propiedad-intelectual-del-contenido">Propiedad intelectual del contenido&lt;/h2>
+&lt;p>Los contenidos importados a la Aplicación pueden estar protegidos por derechos de autor u otros derechos de propiedad intelectual. Usted es responsable de garantizar que su uso de los Contenidos, así como de todos los elementos que los componen, no viole ningún derecho de propiedad intelectual ni ningún otro derecho.&lt;/p>
+&lt;h2 id="confidencialidad">Confidencialidad&lt;/h2>
+&lt;p>Al utilizar la Aplicación, usted acepta los términos de la política de privacidad relativa a la Aplicación. Esta política se incorpora a estos términos de uso por referencia y explica las prácticas de privacidad de EDRLab.&lt;/p>
+&lt;p>Enlaces a otros sitios o recursos Puede integrar en la Aplicación enlaces a servicios o recursos de terceros no operados por EDRLab, incluidas las fuentes de datos de la Biblioteca. EDRLab no tiene control sobre dichos sitios o recursos de terceros y no es responsable de su disponibilidad, seguridad, Contenido o recursos. La inclusión de dichos enlaces no implica un respaldo o una recomendación por parte de EDRLab del servicio o recurso de terceros en cuestión. EDRLab no es responsable, directa o indirectamente, de ningún daño o pérdida causados o supuestamente causados por o en conexión con su uso o confianza en cualquier Contenido, información, productos, bienes o servicios disponibles en o a través de cualquier servicio de terceros.&lt;/p>
+&lt;h2 id="limitación-de-la-garantía">Limitación de la garantía&lt;/h2>
+&lt;p>EN LA MEDIDA EN QUE LO PERMITA LA LEY, LA APLICACIÓN Y EL CONTENIDO SE PROPORCIONAN “TAL CUAL”, “SEGÚN DISPONIBILIDAD” Y SIN CONDICIONES, REPRESENTACIONES, GARANTÍAS DE NINGÚN TIPO, EXPRESAS O IMPLÍCITAS, QUE SURJAN POR ESTATUTO O DE OTRO MODO, INCLUYENDO, PERO NO LIMITÁNDOSE A, GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR, FUNCIONAMIENTO ININTERRUMPIDO, AUSENCIA DE ERRORES, ACCESIBILIDAD, PRECISIÓN, OPORTUNIDAD, CONFIABILIDAD, PUNTUALIDAD, LEGALIDAD, PRIVACIDAD, INTEGRIDAD, SEGURIDAD, CALIDAD, TÍTULO, NO INFRACCIÓN O IDONEIDAD PARA UN PROPÓSITO PARTICULAR, Y NINGUNA GARANTÍA QUE SURJA DEL CURSO DE NEGOCIO O USO DEL COMERCIO. USTED ASUME EL COSTO TOTAL DE TODO SERVICIO, REPARACIÓN O CORRECCIÓN NECESARIA DE SU EQUIPO DE COMPUTACIÓN O DISPOSITIVO MÓVIL Y SOFTWARE QUE PUEDA SER REQUERIDO COMO RESULTADO DE VIRUS, ERRORES U OTROS PROBLEMAS DE CUALQUIER TIPO QUE PUEDA EXPERIMENTAR COMO RESULTADO DE SU USO DE LA APLICACIÓN.&lt;/p>
+&lt;p>Sin limitar lo anterior, EDRLab no hace ninguna declaración en cuanto a la disponibilidad de los Libros, el cumplimiento por parte de las bibliotecas de las condiciones de préstamo y el cumplimiento por parte de las bibliotecas de las condiciones de licencia de los Libros de los editores, y no puede incurrir en ninguna responsabilidad a este respecto.&lt;/p>
+&lt;h2 id="limitación-de-responsabilidad">Limitación de responsabilidad&lt;/h2>
+&lt;p>EN LA MEDIDA EN QUE LO PERMITA LA LEY, BRAND, SUS EMPRESAS MATRICES, SUBSIDIARIAS Y AFILIADAS Y CADA UNO DE SUS RESPECTIVOS FUNCIONARIOS, DIRECTORES, EMPLEADOS, AGENTES, REPRESENTANTES, LICENCIANTES, LICENCIATARIOS Y CESIONARIOS (COLECTIVAMENTE, LAS “PARTES DE EDRLAB”) NO SERÁN RESPONSABLES DE NINGÚN DAÑO O LESIÓN, INCLUYENDO, SIN LIMITACIÓN, DAÑOS CONSECUENTES, ESPECIALES, INCIDENTALES, CONSECUENTES, PUNITIVOS O DE OTRO TIPO QUE SURJAN DEL USO O LA INCAPACIDAD DE USAR LA APLICACIÓN O EL CONTENIDO, YA SEA POR CONTRATO O AGRAVIO O BAJO CUALQUIER OTRA TEORÍA DE DERECHO QUE SURJA DE O EN CONEXIÓN CON EL USO O LA OPERACIÓN DEL CONTENIDO, LA APLICACIÓN O LA INFORMACIÓN. ACCEDIDOS DESDE O RELACIONADOS CON LA APLICACIÓN. LAS PARTES NO ASUMEN NINGUNA RESPONSABILIDAD, INCLUSO SI ELLAS O UNO DE SUS REPRESENTANTES AUTORIZADOS HAN SIDO ADVERTIDOS DE LA POSIBILIDAD DE DICHOS DAÑOS. DICHOS DAÑOS PUEDEN INCLUIR, SIN LIMITACIÓN, DAÑOS O LESIONES RESULTANTES DE CUALQUIER ERROR, OMISIÓN, INTERRUPCIÓN, DEFECTO, FALLA DE RENDIMIENTO, DEMORA EN LA OPERACIÓN O TRANSMISIÓN, FALLA DE LÍNEA O DE CUALQUIER VIRUS INFORMÁTICO, GUSANOS, TROYANOS U OTROS COMPONENTES DAÑINOS.&lt;/p>
+&lt;p>Algunas leyes aplicables pueden no permitir la exclusión de ciertas garantías o la limitación o exclusión de responsabilidad por daños incidentales o consecuentes. Por lo tanto, algunas de las limitaciones o exclusiones anteriores pueden no aplicarse en su caso. En todos los casos de exclusión, el daño directo e indirecto se limita al precio pagado para obtener el derecho a utilizar la Aplicación.&lt;/p>
+&lt;p>Usted reconoce que las Partes de EDRLab no tienen obligación de monitorear ningún Contenido accesible a través de la Aplicación. Sin embargo, usted reconoce que las Partes de EDRLab tienen el derecho de monitorear el uso de la Aplicación, a su exclusivo criterio, y de divulgar cualquier información necesaria para cumplir con cualquier ley, regulación o solicitud gubernamental, con el fin de poder operar la Aplicación adecuadamente o para protegerse a sí mismas o a sus usuarios de conformidad con la “Política de Privacidad”.&lt;/p>
+&lt;h2 id="compensación">Compensación&lt;/h2>
+&lt;p>Por la presente, usted acepta indemnizar y eximir de responsabilidad a las Partes de EDRLab de y contra todos y cada uno de los reclamos, acciones o procedimientos de cualquier naturaleza y todos los daños, juicios, pérdidas, responsabilidades, costos y gastos, incluidos los honorarios y gastos razonables de abogados (incluidos aquellos incurridos para hacer cumplir esta disposición), que surjan de su uso de la Aplicación, el Contenido, cualquier incumplimiento real o presunto por su parte de estos Términos de uso, o cualquier violación por su parte de cualquier ley aplicable o los derechos de cualquier otra persona o entidad.&lt;/p>
+&lt;h2 id="divisibilidad">Divisibilidad&lt;/h2>
+&lt;p>Si alguna disposición de estas Condiciones de uso se considera ilegal, nula o inaplicable por cualquier motivo, dicha disposición se considerará separable de estas Condiciones de uso y no afectará la validez y aplicabilidad de las disposiciones restantes. Las Condiciones de uso se interpretarán en la mayor medida posible de modo que tengan el efecto más cercano posible a la disposición inválida, dentro de los límites de la legalidad.&lt;/p>
+&lt;h2 id="ausencia-de-renuncia">Ausencia de renuncia&lt;/h2>
+&lt;p>El hecho de que EDRLab no requiera la ejecución de ninguna parte de estos términos de uso no constituye una renuncia a sus derechos aquí establecidos por acciones pasadas o futuras por parte de cualquier persona.&lt;/p>
+&lt;h2 id="leyes-aplicables-y-jurisdicción">Leyes aplicables y jurisdicción&lt;/h2>
+&lt;p>Estos Términos de uso y cualquier disputa que surja de o esté relacionada con estos Términos de uso se regirán por las leyes vigentes en Francia, sin referencia a sus normas sobre conflicto de leyes. Cualquier acción, demanda o procedimiento que surja de estos Términos de uso (ya sea por incumplimiento de contrato, conducta ilícita o de otro tipo) se presentará exclusivamente en Francia, según sea el caso, con sede en París, y usted acepta someterse a la jurisdicción de dichos tribunales para cualquier acción, demanda o procedimiento que surja de estos Términos de uso.&lt;/p>
+&lt;h2 id="contáctenos">Contáctenos&lt;/h2>
+&lt;p>Todas las preguntas, comentarios o solicitudes con respecto a estos términos de uso deben enviarse a EDRLab a: &lt;a href="mailto:contact@edrlab.org">contact@edrlab.org&lt;/a> .&lt;/p></description></item></channel></rss>
