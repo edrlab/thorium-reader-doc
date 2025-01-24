@@ -1,5 +1,5 @@
 ---
-title: Soporte de Thorium Reader 3
+title: Soporte de torio 3
 linkTitle: Apoyo
 weight: '10'
 menu:
@@ -43,5 +43,3 @@ Puede obtener más información sobre las [funciones de accesibilidad de Thorium
 
   <p>     LCP ya ha sido adoptado por muchas bibliotecas públicas, universidades y librerías de todo el mundo ( <a href="https://www.edrlab.org/readium-lcp/certified-apps-servers/">aquí se mantiene una lista de distribuidores que admiten LCP</a> ).   </p>
   <p>     Se anima a las editoriales de todo el mundo a adoptar LCP como medio para proteger los libros digitales de la sobreutilización, a la vez que se ofrece a los usuarios una experiencia sin inconvenientes y se mantiene el acceso adecuado al contenido. Póngase <a href="https://www.edrlab.org/contact/">en contacto con EDRLab</a> si su organización está interesada en adoptar LCP.   </p>
-
-{{<section>}}
