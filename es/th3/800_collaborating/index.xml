@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – ¿Quieres colaborar?</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/</link><description>Recent content in ¿Quieres colaborar? on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/th3/800_collaborating/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Traductorio</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – ¿Quieres colaborar?</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/</link><description>Recent content in ¿Quieres colaborar? on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/th3/800_collaborating/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: TraducThorium</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/</guid><description>
 &lt;p>La localización de la interfaz de usuario de Thorium Reader se proporciona y mantiene gracias a voluntarios y organizaciones colaboradoras.&lt;/p>
 &lt;p>Todas las configuraciones regionales se almacenan en la carpeta de recursos locales de fuentes.&lt;/p>
 &lt;p>Para agregar una traducción, puede comenzar desde el inglés &amp;ldquo;en.json&amp;rdquo;, cambiarle el nombre y cambiar los valores después de los dos puntos (:).&lt;/p>
@@ -10,9 +10,9 @@
 &lt;dt>&lt;/dt>
 &lt;dd>&lt;/dd>
 -->&lt;dt id="os">OS&lt;/dt>
-&lt;dd>Sistema operativo (en el contexto del escritorio Thorium, será Windows, MACOS o Linux)&lt;/dd>
+&lt;dd>Sistema operativo (en el contexto del escriThorium Thorium, será Windows, MACOS o Linux)&lt;/dd>
 &lt;dt id="osfilemanager">OS file manager window&lt;/dt>
-&lt;dd>Una ventana administrada por el sistema operativo que permite navegar, seleccionar o escribir archivos en el sistema de archivos del sistema operativo. En el contexto del escritorio, estos suelen ser: * Explorador de archivos para Windows * Finder para MAC OSX * Los sistemas Linux ofrecen una mayor variedad, como Gnome File, Nautilus, Nemo, Thunar, Dolphin, XFE, Konqueror, Krusader, etc.&lt;/dd>
+&lt;dd>Una ventana administrada por el sistema operativo que permite navegar, seleccionar o escribir archivos en el sistema de archivos del sistema operativo. En el contexto del escriThorium , estos suelen ser: * Explorador de archivos para Windows * Finder para MAC OSX * Los sistemas Linux ofrecen una mayor variedad, como Gnome File, Nautilus, Nemo, Thunar, Dolphin, XFE, Konqueror, Krusader, etc.&lt;/dd>
 &lt;dt>&lt;/dt>
 &lt;dd>&lt;/dd>
 &lt;dt>&lt;/dt>
@@ -29,7 +29,7 @@
 &lt;p>Thorium y su documentación se desarrollan gracias a la comunidad de usuarios. Necesitamos ayuda para traducir esta documentación.&lt;/p>
 &lt;p>Para ello, puede &lt;a href="https://www.edrlab.org/contact/">ponerse en contacto con nosotros&lt;/a> .&lt;/p>
 &lt;p>Si se siente lo suficientemente cómodo con GitHub y el formato Markdown, puede proponer una nueva traducción a través de una solicitud de extracción.&lt;/p>
-&lt;p>Para ello: clona el repositorio y crea una rama con el nombre del idioma que quieras añadir, haz una copia de la carpeta &lt;code>content.en&lt;/code> y renómbrala con dos letras correspondientes al idioma que quieras añadir (por ejemplo &lt;code>content.es&lt;/code> contendrá la traducción al español). Los nombres de los archivos no deben cambiarse ya que aseguran la correspondencia entre idiomas.&lt;/p>
+&lt;p>Para ello: clona el reposiThorium y crea una rama con el nombre del idioma que quieras añadir, haz una copia de la carpeta &lt;code>content.en&lt;/code> y renómbrala con dos letras correspondientes al idioma que quieras añadir (por ejemplo &lt;code>content.es&lt;/code> contendrá la traducción al español). Los nombres de los archivos no deben cambiarse ya que aseguran la correspondencia entre idiomas.&lt;/p>
 &lt;p>La carpeta &lt;code>i18n&lt;/code> contiene las traducciones de los elementos fijos del encabezado y pie de página. Ya hay varios idiomas presentes, si el tuyo no está presente, copia y pega el archivo .yaml y renómbralo con las dos primeras letras del idioma que quieras agregar.&lt;/p>
 &lt;p>Finalmente para activar el menú del idioma que agregues, edita el archivo &lt;code>config.toml&lt;/code> y agrega el idioma con el siguiente código:&lt;/p>
 &lt;pre tabindex="0">&lt;code>[languages.en]
