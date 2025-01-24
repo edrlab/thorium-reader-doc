@@ -12,7 +12,7 @@ Para ello, puede <a href="https://www.edrlab.org/contact/">ponerse en contacto c
 
 Si se siente lo suficientemente cómodo con GitHub y el formato Markdown, puede proponer una nueva traducción a través de una solicitud de extracción.
 
-Para ello: clona el repositorio y crea una rama con el nombre del idioma que quieras añadir, haz una copia de la carpeta `content.en` y renómbrala con dos letras correspondientes al idioma que quieras añadir (por ejemplo `content.es` contendrá la traducción al español). Los nombres de los archivos no deben cambiarse ya que aseguran la correspondencia entre idiomas.
+Para ello: clona el reposiThorium  y crea una rama con el nombre del idioma que quieras añadir, haz una copia de la carpeta `content.en` y renómbrala con dos letras correspondientes al idioma que quieras añadir (por ejemplo `content.es` contendrá la traducción al español). Los nombres de los archivos no deben cambiarse ya que aseguran la correspondencia entre idiomas.
 
 La carpeta `i18n` contiene las traducciones de los elementos fijos del encabezado y pie de página. Ya hay varios idiomas presentes, si el tuyo no está presente, copia y pega el archivo .yaml y renómbralo con las dos primeras letras del idioma que quieras agregar.
 

@@ -17,5 +17,5 @@ La página está en inglés pero puedes escribir en tu idioma indicándonoslo pa
 Aquí está la información que necesitamos:
 
 - Sistema operativo y su versión
-- Versión de Torio (está indicada en la parte inferior de la biblioteca bajo el título Acerca del Torio)
+- Versión de Thorium  (está indicada en la parte inferior de la biblioteca bajo el título Acerca del Thorium )
 - Tecnología de asistencia utilizada.

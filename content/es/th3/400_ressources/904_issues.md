@@ -11,4 +11,4 @@ Si no encuentra la respuesta a su problema en este sitio, puede informarnos su p
 Aquí está la información que necesitamos:
 
 - Sistema operativo y su versión
-- Versión de Torio (está indicada en la parte inferior de la biblioteca bajo el título `About Thorium` )
+- Versión de Thorium  (está indicada en la parte inferior de la biblioteca bajo el título `About Thorium` )

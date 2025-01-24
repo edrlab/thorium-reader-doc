@@ -1,5 +1,5 @@
 ---
-title: Soporte de torio 3
+title: Soporte de Thorium  3
 linkTitle: Apoyo
 weight: '10'
 menu:

@@ -1,0 +1,24 @@
+{
+  "dc": {
+    "title": "Guía del usuario del lector de Thorium  (inglés, 3.1)",
+    "creator": "EDRLab",
+    "publisher": "EDRLab",
+    "description": "Esta es la documentación oficial del Thorium  3.1. Ofrece orientación para ayudarlo a conocer y hacer un mejor uso del lector de Thorium . Las referencias de soporte rápido no se incluyen aquí y están disponibles en línea desde las páginas web de soporte de Thorium .",
+    "identifier": "com.github.edrlab.thorium-reader-doc-epub.3.0.1",
+    "language": "en",
+    "rights": "Creative Commons Attribution-compartir (CC BY-SA) Licencia."
+  },
+  "links": [
+    {
+      "rel": "cc:license",
+      "href": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ],
+  "properties": {
+    "dcterms:modified": "2024-12-31T00:00:00Z",
+    "schema:accessibilityFeature": ["alternativeText", "readingOrder","structuralNavigation", "tableOfContents"],
+    "schema:accessMode": ["textual","visual"],
+    "schema:accessModeSufficient": "textual",
+    "schema:accessibilityControl": ["fullKeyboardControl", "fullMouseControl"]
+  }
+}

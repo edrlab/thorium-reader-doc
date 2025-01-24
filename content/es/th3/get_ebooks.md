@@ -40,4 +40,4 @@ Google Scholar: Google Scholar ofrece una forma sencilla de realizar búsquedas 
 
 JSTOR: JSTOR es una biblioteca digital fundada en 1995. Originalmente contenía números anteriores digitalizados de revistas académicas, pero ahora también incluye libros y fuentes primarias. Está disponible para muchas universidades e instituciones de toda Europa.
 
-Directorio de libros de acceso abierto (DOAB): DOAB ofrece acceso abierto a libros revisados por pares de varias editoriales. Tiene su sede en los Países Bajos.
+directorio  de libros de acceso abierto (DOAB): DOAB ofrece acceso abierto a libros revisados por pares de varias editoriales. Tiene su sede en los Países Bajos.
