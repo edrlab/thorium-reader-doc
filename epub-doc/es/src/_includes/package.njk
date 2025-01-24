@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="uid" prefix="cc: http://creativecommons.org/ns#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    {% for name, value in metadata.dc -%}
+    {% if name == "identifier" %}
+      <dc:{{name}} id="uid">{{value}}</dc:{{name}}>
+    {% else %}
+      <dc:{{name}}>{{value}}</dc:{{name}}>
+    {% endif %}
+    {%- endfor %}
+
+    {% for rel, href in links -%}
+    <link rel="{{rel}}" href="{{href}}"/>
+    {%- endfor %}
+
+    {% for property, value in metadata.properties -%}
+      {# metadata could be an array of values #}
+      {% if value | isArray %}
+        {% for v in value %}
+        <meta property="{{property}}">{{v}}</meta>
+        {% endfor %}  
+      {% else %}
+      <meta property="{{property}}">{{value}}</meta>
+      {% endif %}
+    {%- endfor %}
+  </metadata>
+  <manifest>
+    {% for resource in resources -%}
+    <item id="rsc{{loop.index}}"
+      href="{{resource}}"
+      media-type="{{resource | mediaType}}"
+    {% if resource == pub.cover.src %}
+      properties="cover-image"
+    {% endif %}
+    />
+    {%- endfor %}
+
+    <item id="cover" href="{{pub.cover.page}}" media-type="application/xhtml+xml"/>
+    <item id="toc" properties="nav" href="{{pub.toc.page}}" media-type="application/xhtml+xml"/>
+
+    {% for page in collections.pages -%}
+    <item id="page{{loop.index}}" href=".{{page.url}}index.xhtml" media-type="application/xhtml+xml"
+    {% if  page.data.scripted -%}properties="scripted"{%- endif -%} />
+    {%- endfor %}
+  </manifest>
+  <spine>
+    <itemref idref="cover"/>
+    {% if pub.readingOrder -%}
+      {% for item in pub.readingOrder -%}
+        {% for page in collections.pages -%}
+          {% if page.fileSlug == item -%}
+            <itemref idref="page{{loop.index}}"/>
+          {%- endif %}
+        {%- endfor %}
+      {%- endfor %}
+    {% else %}
+      {% for page in collections.pages -%}
+      <itemref idref="page{{loop.index}}"/>
+      {%- endfor %}
+    {%- endif %}
+     <itemref idref="toc"/>
+  </spine>
+</package>
