@@ -1,36 +1,34 @@
 ---
-title: Reading visual contents
+title: Lectura de contenidos visuales
 role: chapter
 draft: false
 ---
+# Lectura de contenidos visuales
 
-# Reading visual contents
+## Hacer zoom en las imágenes {#read_images_zoom}
 
-## Zooming on images {#read_images_zoom}
+Thorium tiene una función de zoom de imagen (solo epub).
 
-Thorium has an image zoom feature (epub only).
+Para ampliar una imagen, puede seleccionarla (un contorno de enfoque magenta
+aparecerá alrededor) y activar el zoom haciendo clic con el ratón o
+golpeándolo con el dedo. El acceso al zoom de la imagen mediante el teclado es
+Actualmente no es posible.
 
-To zoom on an image you can select the image (a magenta focus outline
-will appear around it) and activate zoom by clicking with the mouse or
-tapping it with the finger. Access to image zoom via keyboard is
-currently not possible.
+Si la imagen también es un enlace o si el libro que lees está en un lugar fijo
+formato de diseño, deberá presionar la tecla <kbd>Shift</kbd> para poder
+ingrese a la función de zoom de imagen.
 
-If the image is also a link or if the book your read is in a fixed
-layout format, you will need to hit the <kbd>Shift</kbd> key in order to
-enter the image zoom feature.
+Para acercar o alejar, vaya a los botones `+` o `-` y presione <kbd>Entrar</kbd>,
+use la rueda del mouse, desplácese hacia arriba y hacia abajo o pellizque y estire el trackpad o
+gestos táctiles en pantalla.
 
-To zoom in or out, tab to the `+` or `-` buttons and hit <kbd>Enter</kbd>,
-use mouse wheel, scroll up and down or pinch and stretch trackpad or
-onscreen touch gestures.
+Una vez que la imagen está ampliada, puede moverse vertical y horizontalmente con
+<kbd>Flecha izquierda</kbd>, <kbd>Flecha derecha</kbd>, <kbd>Flecha izquierda</kbd> y <kbd>Flecha derecha</kbd>, 
+manteniendo presionado el botón del mouse y moviéndolo, como es habitual
+gestos del trackpad o movimientos de los dedos en pantallas táctiles.
+Para cerrar la vista de zoom de la imagen y volver a la vista de lectura, presione
+Tecla <kbd>ESC</kbd> o el botón X.
 
-Once the image is zoomed you can move vertically and horizontally with
-<kbd>Left arrow</kbd>, <kbd>Right arrow</kbd>, <kbd>Left arrow</kbd> and <kbd>Right arrow</kbd>, 
-by holding down the mouse button and moving the mouse, with usual
-trackpad gestures or with finger moves on tactile screens.
-
-To close the image zoom view and to return to the reading view, press
-<kbd>ESC</kbd> key, or the X button.
-
-Some restrictions due to ebook design may apply, for example when images
-are inserted as style (CSS), it is not possible to open the image view
-for zooming.
+Es posible que se apliquen algunas restricciones debido al diseño del libro electrónico, por ejemplo, cuando las imágenes
+se insertan como estilo (CSS), no es posible abrir la vista de imágenes
+para hacer zoom.

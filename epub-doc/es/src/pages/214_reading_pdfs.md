@@ -1,9 +1,8 @@
 ---
-title: Reading PDFs
+title: Lectura de PDFS
 role: chapter
 draft: false
 ---
+# Leer archivos PDF
 
-# Reading PDFs
-
-PDF support is basic and provides few options.
+La compatibilidad con PDF es básica y ofrece pocas opciones.

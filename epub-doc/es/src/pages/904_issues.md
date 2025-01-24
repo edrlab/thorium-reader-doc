@@ -1,19 +1,17 @@
 ---
-title: Stuck?
+title: Atascado?
 role: chapter
 draft: false
 ---
+## ¿Atascado?
 
+Si no encuentra la respuesta a su problema en este sitio, puede decir
+nosotros su problema a través de nuestro [seguimiento de soporte
+herramienta] (https://github.com/edrlab../issues/new) o [contacto
+Forma] (https://www.edrlab.org/contact/).
 
-## Stuck?
+Aquí está la información que necesitamos:
 
-If you do not find the answer to your problem on this site, you can tell
-us your problem via our [support tracking
-tool](https://github.com/edrlab../issues/new) or [contact
-form](https://www.edrlab.org/contact/).
-
-Here is the information we need:
-
--   Operating system and it version
--   Thorium version (it is indicated at the bottom of the library under
-    the title `About Thorium`)
+-Sistema operativo y versión de TI
+-Versión de torio (se indica en la parte inferior de la biblioteca debajo
+    El título `Acerca de torio ')

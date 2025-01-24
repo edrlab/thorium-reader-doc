@@ -1,43 +1,41 @@
 ---
-title: Forewords
+title: Prólogos
 role: doc-foreword
 draft: false
 weight: 100
 ---
+Torio es un lector de libros digitales, también es una biblioteca donde puedes
+Almacene sus libros y acceso a catálogos en línea.
 
-Thorium is a digital book reader, it is also a library where you can
-store your books and access to online catalogs.
-
-Thorium allows to read ebooks in different [formats](../406_formats/index.xhtml),
-each of them having strengths and limitations. This documentation is
-provided as an EPUB, the format with the larger number of
-functionalities.
+Torio permite leer libros electrónicos en diferentes [formatos] (../406_formats/index.xhtml),
+cada uno de ellos tiene fortalezas y limitaciones. Esta documentación es
+proporcionado como EPUB, el formato con el mayor número de
+funcionalidades.
 
 ------------------------------------------------------------------------
 
-This software is free, open-source and as such, its development is only
-possible because it is funded by different organizations. Among these,
-members of EDRLab, private or public grants and small recurring
-donations from happy users (individuals or companies). If you rely on
-this application, consider [support!](../903_support/index.xhtml)
+Este software es gratuito, de código abierto y, como tal, su desarrollo es solo
+posible porque está financiado por diferentes organizaciones. Entre estos,
+miembros de edrlab, subvenciones privadas o públicas y pequeñas recurrentes
+donaciones de usuarios felices (individuos o empresas). Si confías en
+Esta aplicación, considere [soporte!] (../903_support/index.xhtml)
 
 
-## This is the documentation for Thorium 3, and it is a work in progress! {#th3}
+## Esta es la documentación para el torio 3, ¡y es un trabajo en progreso! {#th3}
 
-Thorium 3 introduces numerous changes and, we hope, a friction less
-reading experience. This documentation is a work in progress trying to
-support new users discovering the software as well as providing the
-missing links for the experimented readers.
+Torio 3 introduce numerosos cambios y, esperamos, una fricción menos
+Experiencia de lectura. Esta documentación es un trabajo en progreso tratando de
+admitir nuevos usuarios que descubren el software y proporcionar el
+Los enlaces faltantes para los lectores experimentados.
 
-## Additional material available online {#th3add}
+## Material adicional disponible en línea {#Th3add}
 
-To complete this documentation, the [thorium
-website](https://thorium.edrlab.org) proposes a frequently asked
-questions section as well as a list of ressources including place to
-find ebooks online.
+Para completar esta documentación, el [torio
+Sitio web] (https://thorium.edrlab.org) propone un
+Sección de preguntas, así como una lista de resonaciones, incluido el lugar para
+Encuentra libros electrónicos en línea.
 
-[Github Thorium Issue
-tracker](https://github.com/edrlab/thorium-reader/issues) can also be
-browsed to find answers to specific use cases and give us feedback about
-any difficulty or bug affecting your reading experience.
-
+[Problema de torio de Github
+Tracker] (https://github.com/edrlab/thorium-reader/issues) también puede ser
+navegado para encontrar respuestas a casos de uso específicos y darnos comentarios sobre
+Cualquier dificultad o error que afecte su experiencia de lectura.

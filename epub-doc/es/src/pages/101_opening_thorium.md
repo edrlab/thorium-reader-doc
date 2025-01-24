@@ -1,26 +1,23 @@
 ---
-title: Opening Thorium Reader
+title: Apertura del lector de torio
 role: chapter
 draft: false
 ---
+# Apertura del lector de torio {#getabook}
 
+Una vez que el lector Thorium esté instalado en su sistema, existen varias formas de
+posible abrirlo.
 
-# Opening Thorium Reader {#getabook}
-
-Once Thorium reader is installed on your system, severals ways are
-possible to open it.
-
--   Thorium can be launched from the application menu or from any
-    shortcut created. This action will open the [library home
-    view]() and will allow you to choose a book or to add
-    one but also to access to [catalogs]() and organize your
-    collection. To read a book just click on it or validate with
-    <kbd>Enter</kbd> when selected.
--   Select the book you want to read, use the `contextual menu` (right
-    click), select `open with` and then select `Thorium`.
--   You can set the default application for certain file types through
-    the Windows settings. Select a file, open the context menu, select
-    `Open with`, in the pop-up window select `Thorium`, check the box
-    `Always open with`. This operation must be repeated for each file
-    format you wish to read with Thorium.
-
+-Thorium se puede iniciar desde el menú de la aplicación o desde cualquier
+    acceso directo creado. Esta acción abrirá la [página de inicio de la biblioteca
+    view]() y le permitirá elegir un libro o agregar
+    one sino también para acceder a [catálogos]() y organizar tus
+    recopilación. Para leer un libro simplemente haga clic en él o valide con
+    <kbd>Entrar</kbd> cuando esté seleccionado.
+-Selecciona el libro que deseas leer, usa el `menú contextual` (derecha
+    haga clic), seleccione "abrir con" y luego seleccione "Torio".
+-Puede configurar la aplicación predeterminada para ciertos tipos de archivos a través de
+    la configuración de Windows. Seleccione un archivo, abra el menú contextual, seleccione
+    `Abrir con`, en la ventana emergente seleccione `Torio`, marque la casilla
+    `Siempre abrir con`. Esta operación debe repetirse para cada archivo.
+    formato que desea leer con Thorium.

@@ -1,5 +1,5 @@
 ---
-title: Keys functions
+title: Funciones de las teclas
 role: chapter
 draft: false
 ---

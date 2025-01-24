@@ -1,5 +1,5 @@
 ---
-title: Reading with a screen reader
+title:Leer con un lector de pantalla
 role: chapter
 draft: false
 ---

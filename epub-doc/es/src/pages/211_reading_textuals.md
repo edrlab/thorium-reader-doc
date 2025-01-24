@@ -1,5 +1,5 @@
 ---
-title: Reading textual contents
+title: Lectura de contenidos textuales
 role: chapter
 draft: false
 ---

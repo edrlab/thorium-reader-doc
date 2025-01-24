@@ -1,22 +1,20 @@
 ---
-title: Reading
+title: Lectura
 role: chapter
 draft: false
----
+---# Lectura
 
-# Reading
+El torio proporciona funciones de lectura textuales, visuales y auditivas. En
+para asegurarse de que pueda encontrar su camino alrededor de la publicación,
+Torio también ofrece muchas opciones de navegación, así como la posibilidad.
+Para agregar marcadores o buscar dentro de la publicación.
 
-Thorium provides textual, visual and auditory reading functions. In
-order to ensure that you can find your way around the the publication,
-Thorium also offers many navigation options as well as the possibility
-to add bookmarks or to search within the publication.
+Las funcionalidades de lectura son muy diferentes de un formato a otro.
 
-Reading functionalities are very different from one format to another.
-
--   Reading Textual first publications like reflowable EPUB and textual
-    or full Daisy will allow for the greatest number of functionalities.
--   Visual first publications like Fixed Layout EPUBS and Divina will
-    not allow personalization of texts.
--   Audio publications have a significative different reading interface
-    as no text is displayed.
--   PDF support is basic and provides few options.
+-Lectura de las primeras publicaciones textuales como Reglowable Epub y Textual
+    o Daisy completo permitirá la mayor cantidad de funcionalidades.
+-Primeras publicaciones visuales como Epubs de diseño fijo y Divina
+    no permitir la personalización de textos.
+-Las publicaciones de audio tienen una interfaz de lectura significativa diferente
+    Como no se muestra ningún texto.
+-El soporte PDF es básico y proporciona pocas opciones.

@@ -1,22 +1,21 @@
 ---
-title: Reading audio contents
+title: Leer contenidos de audio
 role: chapter
 draft: false
 ---
+# Lectura de contenidos de audio
 
-# Reading audio contents
+Thorium proporciona lectura visual y reproducción de audio. Para asegurar
+que puedes orientarte en la publicación, Thorium también
+ofrece muchas opciones de navegación, así como la posibilidad de agregar
+favoritos o para buscar dentro de la publicación.
 
-Thorium provides visual reading and audio playback. In order to ensure
-that you can find your way around the the publication, Thorium also
-offers many navigation options as well as the possibility to add
-bookmarks or to search within the publication.
+Las funcionalidades de lectura son muy diferentes de un formato a otro.
 
-Reading functionalities are very different from one format to another.
-
--   Reading Textual first publications like reflowable EPUB and textual
-    or full Daisy will allow for the greatest number of functionalities.
--   Visual first publications like Fixed Layout EPUBS and Divina will
-    not allow personalization of texts.
--   Audio publications have a significative different reading interface
-    as no text is displayed.
--   PDF support is basic and provides few options.
+-Lectura de primeras publicaciones textuales como EPUB ajustable y textuales.
+    o Daisy completo permitirá el mayor número de funcionalidades.
+-Primeras publicaciones visuales como Epubs de diseño fijo y Divina
+    no permitir la personalización de textos.
+-Las publicaciones de audio tienen una interfaz de lectura significativa diferente
+    Como no se muestra ningún texto.
+-El soporte PDF es básico y proporciona pocas opciones.

@@ -1,7 +1,6 @@
 ---
-title: Ressources
+title: Recursos
 role: chapter
 draft: false
 ---
-
-# Ressources
+# Recursos

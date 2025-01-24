@@ -1,5 +1,5 @@
 ---
-title: Accessibility
+title: Accesibilidad
 role: chapter
 draft: false
 ---

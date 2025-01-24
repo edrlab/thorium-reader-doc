@@ -1,5 +1,5 @@
 ---
-title: Windows, views and panels
+title: Ventanas, vistas y paneles.
 role: chapter
 draft: false
 ---

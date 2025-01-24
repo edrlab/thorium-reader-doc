@@ -1,27 +1,24 @@
 ---
-title:  Search in a book
+title:  buscar en un libro
 role: chapter
 draft: false
 ---
 
-## Search in a book {#read_search}
+## Buscar en un libro {#read_search}
 
-You can use <kbd>Ctrl</kbd> + <kbd>F</kbd> keys to access the search field.
-Enter your search term. By clicking on the `Search` button, you get
-`Back` and `Next` buttons to navigate between occurences. The number of
-matches found is a link that will open a `List of results` in the right
-panel. Each match displayed is a link you can Activate to go to the
-place of the book where the expression you are looking for was found.
+Puede utilizar las teclas <kbd>Ctrl</kbd> + <kbd>F</kbd> para acceder al campo de búsqueda.
+Ingrese su término de búsqueda. Al hacer clic en el botón "Buscar", obtendrá
+Botones `Atrás` y `Siguiente` para navegar entre ocurrencias. el número de
+coincidencias encontradas es un enlace que abrirá una "Lista de resultados" a la derecha
+panel. Cada partido mostrado es un enlace que puedes activar para ir al
+lugar del libro donde se encontró la expresión que buscas.
 
- warning
-Remember that performing a search and navigating thru the results will
-make you loose the reading point you where at. Just place a Bookmark to
-make sure you find your way back.
-
-
-![Screenshot, the search bar is present above the text, the
-corresponding text highlighted in green and the Search panel indicates a
-match](../../resources/images/local-fr/thorium-search-navpanel.png)
+ advertencia
+Recuerde que realizar una búsqueda y navegar a través de los resultados
+Hazte perder el punto de lectura en el lugar donde. Solo coloca un marcador para
+Asegúrate de encontrar tu camino de regreso.
 
 
-
+! [Captura de pantalla, la barra de búsqueda está presente sobre el texto, el
+texto correspondiente resaltado en verde y el panel de búsqueda indica un
+Match] (../../Resources/Images/Local-FR/Torio-Search-Navpanel.png)

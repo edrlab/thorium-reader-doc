@@ -1,5 +1,5 @@
 ---
-title: Supported publication formats
+title: Formatos de publicación compatibles
 role: chapter
 draft: false
 ---

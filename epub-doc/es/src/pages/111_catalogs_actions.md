@@ -1,5 +1,5 @@
 ---
-title: Catalogs actions
+title: Acciones de catálogos
 role: chapter
 draft: false
 ---

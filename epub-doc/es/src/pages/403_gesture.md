@@ -1,22 +1,21 @@
 ---
-title: Tactile gestures
+title: Gestos táctiles
 role: chapter
 draft: false
 ---
+## Gestos táctiles
 
-## Tactile gestures
+Thorium Reader tiene un control de gestos táctiles limitado en pantalla. Ellos son
+Implementado principalmente para control de zoom de imagen y cambio de páginas. algunos nativos
+Los gestos del sistema operativo también pueden funcionar.
 
-Thorium Reader has limited onscreen touch gesture control. They are
-mainly implemented for Image zoom control and turning pages. Some native
-operating system gestures may also work.
+La siguiente tabla enumera los gestos de trabajo conocidos hasta el momento.
 
-The following table repertories the known working gestures so far.
-
-  Gestures                                                              Context                        Action
-  --------------------------------------------------------------------- ------------------------------ ------------------------------------------
-  Tap                                                                   All views                      Activate button
-  Tap then select and move cursors                                      On text                        Select text
-  Place one finger on the screen and slide horizontally or vertically   Reading in scrollable layout   Scroll
-  Place one finger on the screen and slide horizontally                 Reading in paginated layout    Turn page
-  Place fingers on the screen and pinch in or stretch out               Image zoom view                Zoom in or out
-  Press and hold                                                        All views                      Show more commands (like right-clicking)
+  Gestos Contexto Acción
+---------------------------------------------------------------------------------------------------------------------------------------
+  Toque Todas las vistas Botón Activar
+  Toque, luego seleccione y mueva los cursores En el texto Seleccionar texto
+  Coloque un dedo en la pantalla y deslícelo horizontal o verticalmente Lectura en diseño desplazable Desplazarse
+Coloque un dedo en la pantalla y deslícelo horizontalmente Lectura en diseño paginado Pasar página
+  Coloque los dedos en la pantalla y pellizque o estire Vista de zoom de imagen Acercar o alejar
+  Mantenga presionado Todas las vistas Mostrar más comandos (como hacer clic derecho)
