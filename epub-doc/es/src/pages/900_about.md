@@ -32,13 +32,13 @@ Entonces podemos en su idioma para que podamos movilizar a las personas adecuada
 Aquí está la información que necesitamos:
 
 -Sistema operativo y su versión
--Versión de torio (se indica en la parte inferior de la biblioteca debajo
-    el título sobre torio)
+-Versión de Thorium  (se indica en la parte inferior de la biblioteca debajo
+    el título sobre Thorium )
 -Tecnología de asistencia utilizada.
 
 
 ## Licencias
-Copyright 2019 Laboratorio Europeo de Lectura Digital. Reservados todos los derechos.
+Copyright 2019 LaboraThorium  Europeo de Lectura Digital. Reservados todos los derechos.
 Licenciado para la Fundación Readium bajo una o más licencias de colaborador
 acuerdos.
 
@@ -53,12 +53,12 @@ El código es público \] (https://github.com/edrlab/thorium-reader-doc).
 
 ## ¿Quién ha desarrollado esta aplicación?
 
-El lector de torio está actualmente desarrollado por:
+El lector de Thorium  está actualmente desarrollado por:
 
 -Daniel Weck, desarrollador principal.
 -Pierre Leroux, desarrollador node.js.
 
-Varios otros desarrolladores han ayudado a hacer el torio lo que es hoy:
+Varios otros desarrolladores han ayudado a hacer el Thorium  lo que es hoy:
 
 -Simon Le Roux, diseñador de UI.
 -Cyrille Lebeaupin, CEO de Noop.fr, desarrollador senior.

@@ -5,7 +5,7 @@ draft: false
 ---
 ## ¡Contribuir!
 
-Torio y su documentación se desarrollan gracias al usuario
+Thorium  y su documentación se desarrollan gracias al usuario
 comunidad. Necesitamos ayuda para traducir esta documentación.
 
 Para hacerlo, puede [contactarnos] (https://www.edrlab.org/contact/).
@@ -13,7 +13,7 @@ Para hacerlo, puede [contactarnos] (https://www.edrlab.org/contact/).
 Si te sientes lo suficientemente cómodo con GitHub y el formato de Markdown
 puede proponer una nueva traducción a través de una solicitud de extracción.
 
-Para hacer esto: clonar el repositorio y crear una rama con el nombre de
+Para hacer esto: clonar el reposiThorium  y crear una rama con el nombre de
 el idioma que desea agregar, haga una copia de la carpeta `content.en` y
 cámbiele el nombre con dos letras correspondientes al idioma que desea agregar
 (por ejemplo `content.es` contendrá la traducción al español). El

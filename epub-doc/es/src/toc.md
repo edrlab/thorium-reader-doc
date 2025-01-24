@@ -13,7 +13,7 @@ tocRule: title
 <a href="../páginas/100_forewords/index.xhtml"> Principios </a>
 </li>
 <li>
-<a href="../páginas/101_opening_thorium/index.xhtml"> Abrir lector de torio </a>
+<a href="../páginas/101_opening_thorium/index.xhtml"> Abrir lector de Thorium  </a>
 </li>
 
 <li>

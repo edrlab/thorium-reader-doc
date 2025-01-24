@@ -4,9 +4,9 @@ role: chapter
 draft: false
 ---# Lectura
 
-El torio proporciona funciones de lectura textuales, visuales y auditivas. En
+El Thorium  proporciona funciones de lectura textuales, visuales y auditivas. En
 para asegurarse de que pueda encontrar su camino alrededor de la publicación,
-Torio también ofrece muchas opciones de navegación, así como la posibilidad.
+Thorium  también ofrece muchas opciones de navegación, así como la posibilidad.
 Para agregar marcadores o buscar dentro de la publicación.
 
 Las funcionalidades de lectura son muy diferentes de un formato a otro.

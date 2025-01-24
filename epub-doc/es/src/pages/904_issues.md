@@ -13,5 +13,5 @@ Forma] (https://www.edrlab.org/contact/).
 Aquí está la información que necesitamos:
 
 -Sistema operativo y versión de TI
--Versión de torio (se indica en la parte inferior de la biblioteca debajo
-    El título `Acerca de torio ')
+-Versión de Thorium  (se indica en la parte inferior de la biblioteca debajo
+    El título `Acerca de Thorium  ')
