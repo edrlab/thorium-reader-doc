@@ -1,5 +1,5 @@
 ---
-title: "¡Contribuir!"
+title: Contribuya a esta documentación
 description: ''
 draft: 'false'
 weight: '905'
