@@ -1,10 +1,10 @@
 {
   "dc": {
-    "title": "Documentation de Thorium Reader en français",
+    "title": "Guide d'utilisation du lecteur de thorium (français, 3.1)",
     "creator": "EDRLab",
     "publisher": "EDRLab",
-    "description": "Apprenez à mieux connaître Thorium Reader",
-    "identifier": "com.github.edrlab.thorium-reader-doc-epub.0.0.2",
+    "description": "Il s'agit de la documentation officielle de Thorium 3.1. Elle propose des conseils pour vous aider à mieux connaître et utiliser Thorium Reader. Les références d'assistance rapide ne sont pas incluses ici et sont disponibles en ligne sur les pages Web d'assistance de Thorium.",
+    "identifier": "com.github.edrlab.thorium-reader-doc-epub.3.1.0",
     "language": "fr",
     "rights": "Licence Creative Commons Attribution-Share Alike (CC BY-SA)."
   },
@@ -15,15 +15,13 @@
     }
   ],
   "properties": {
-    "dcterms:modified": "2023-10-01T00:00:00Z",
+    "dcterms:modified": "2024-12-31T00:00:00Z",
     "schema:accessibilityFeature": [
       "alternativeText",
       "readingOrder",
       "structuralNavigation",
       "tableOfContents"
     ],
-    "schema:accessibilitySummary": "La publication a été évaluée en termes d’accessibilité.",
-    "schema:accessibilityHazard": "none",
     "schema:accessMode": [
       "textual",
       "visual"
