@@ -11,7 +11,7 @@ This is a template for new files including some shortcodes that can be used.
 <!--
 Shift+click to zoom in.
 
-<img src="/images/local-fr/..." alt=""//>
+<img src="/images/local-fr/..." alt=""/>
 
 Shortcodes
 * {{< alert info >}}{{< /alert>}}

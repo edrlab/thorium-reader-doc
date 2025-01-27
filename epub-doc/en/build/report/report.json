@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "23/12/2024, 18:40:20",
+  "dct:date": "27/01/2025, 08:50:40",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -15,9 +15,9 @@
     }
   },
   "outlines": {
-    "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n          <li>\n            Forewords\n          </li>\n          <li>\n            Opening Thorium Reader\n          \n          <li>\n            Windows, views and panels\n            <ol>\n              <li>\n                Main window\n                <ol>\n                  <li>\n                    Home View\n                  \n                  <li>\n                    All publications View\n                    <ol>\n                      <li>\n                        Grid Mode\n                      \n                      <li>\n                        Table Mode\n                      \n                    \n                  \n                  <li>\n                    Catalogs View\n                  \n                  <li>\n                    Application Settings Panel\n                  \n                \n              \n              <li>\n                Reading window\n                <ol>\n                  <li>\n                    Reading navigation panel\n                  \n                  <li>\n                    Reading settings panel\n                  \n                  <li>\n                    Book Information panel\n                  \n                \n              \n            \n          \n          <li>\n            Libraries actions\n          \n          <li>\n            Catalogs actions\n          \n          <li>\n            Reading\n            <ol>\n              <li>\n                Reading textual contents\n              \n              <li>\n                Reading visual contents\n              \n              <li>\n                Reading audio contents\n              \n              <li>\n                Reading PDFs\n              </li>\n            \n          \n          <li>\n            Search in a book\n          \n          <li>\n            Annotations\n            <ol>\n              <li>\n                Annotations Panel\n              \n              <li>\n                Options for annotations\n              \n              <li>\n                Sort and filter annotations\n              \n              <li>\n                Review and manipulation of annotations\n              \n              <li>\n                Export and Import of Annotations\n              \n            \n          \n          <li>\n            Accessibility\n          </li>\n          <li>\n            Reading with a screen reader\n          \n          <li>\n            Ressources\n          </li>\n          <li>\n            Keys functions\n          </li>\n          <li>\n            Tactile gestures\n          </li>\n          <li>\n            Supported publication formats\n          \n          <li>\n            About this ebook\n          </li>\n          <li>\n            Want to help?\n          </li>\n          <li>\n            Stuck?\n          </li>\n        \n      \n    \n    <section id=\"landmarks\">\n      <h1>Landmarks</h1>\n      <nav xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"landmarks\">\n        <ol>\n          <li>\n            Forewords\n          </li>\n          <li>\n            Table of contents\n          </li>\n        </ol>\n      </nav>\n    </section>\n  \n</li></li></li></li></li></li></li></ol></li></li></li></li></li></ol></li></li></li></li></li></li></ol></li></li></li></li></li></ol></li></li></ol></li></ol></li></li></ol>",
-    "headings": "<ul><li><span class=\"toc-h1\">Thorium reader user's guide (English, 3.1)</span><ul><li><span class=\"toc-h2\">This is the documentation for Thorium 3, and it is a work in progress!</span><li><span class=\"toc-h2\">Additional material available online</span></li></ul></li><li><span class=\"toc-h1\">Opening Thorium Reader</span><li><span class=\"toc-h1\">Windows, views and panels</span><ul><li><span class=\"toc-h2\">Main window</span><ul><li><span class=\"toc-h3\">Home View</span><li><span class=\"toc-h3\">All publications View</span><ul><li><span class=\"toc-h4\">Grid Mode</span><li><span class=\"toc-h4\">Table Mode</span></li></ul></li><li><span class=\"toc-h3\">Catalogs View</span><li><span class=\"toc-h3\">Application Settings Panel</span></li></ul></li><li><span class=\"toc-h2\">Reading window</span><ul><li><span class=\"toc-h3\">Reading navigation panel</span><li><span class=\"toc-h3\">Reading settings panel</span></li></ul></li><li><span class=\"toc-h2\">Book Information panel</span></li></ul></li><li><span class=\"toc-h1\">Libraries actions</span><ul><li><span class=\"toc-h2\">Add tags</span></li></ul></li><li><span class=\"toc-h1\">Catalogs actions</span><ul><li><span class=\"toc-h2\">Setting up an OPDS catalog</span><ul><li><span class=\"toc-h3\">Example of OPDS feeds with LCP protected contents</span><li><span class=\"toc-h3\">OPDS Feed responsibility</span></li></ul></li><li><span class=\"toc-h2\">Setting up a french public library account</span></li></ul></li><li><span class=\"toc-h1\">Reading</span><ul><li><span class=\"toc-h2\">Reading textual contents</span><ul><li><span class=\"toc-h3\">Text adjustment settings</span><li><span class=\"toc-h3\">Theme</span><li><span class=\"toc-h3\">Text</span><ul><li><span class=\"toc-h4\">Example 1: Setting Verdana as the reading font</span><li><span class=\"toc-h4\">Example 2: Setting up Luciole as the reading font</span></li></ul></li><li><span class=\"toc-h3\">Display</span><li><span class=\"toc-h3\">Spacing</span><li><span class=\"toc-h3\">Readaloud</span><li><span class=\"toc-h3\">Text to Speech (TTS)</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Reading visual contents</span><ul><li><span class=\"toc-h2\">Zooming on images</span></li></ul></li><li><span class=\"toc-h1\">Reading audio contents</span><li><span class=\"toc-h1\">Reading PDFs</span><ul><li><span class=\"toc-h2\">Search in a book</span></li></ul></li><li><span class=\"toc-h1\">Annotations</span><ul><li><span class=\"toc-h2\">Annotations panel</span><li><span class=\"toc-h2\">Options for annotations</span><li><span class=\"toc-h2\">Sort and filter annotations</span><li><span class=\"toc-h2\">Export and Import of Annotations</span></li></ul></li><li><span class=\"toc-h1\">Accessibility</span><ul><li><span class=\"toc-h2\">Accessibility information</span><li><span class=\"toc-h2\">Native accessibility functions</span><li><span class=\"toc-h2\">Visual adjustments</span><li><span class=\"toc-h2\">Text-to-Speech (TTS)</span><li><span class=\"toc-h2\">Reading with a screen reader</span></li></ul></li><li><span class=\"toc-h1\">Keystrokes common to NVDA and JAWS</span><ul><li><span class=\"toc-h2\">Quick keys for navigation</span><li><span class=\"toc-h2\">Text</span><li><span class=\"toc-h2\">Tables</span></li></ul></li><li><span class=\"toc-h1\">Ressources</span><ul><li><span class=\"toc-h2\">Keys functions</span><li><span class=\"toc-h2\">Tactile gestures</span><li><span class=\"toc-h2\">Supported publication formats</span></li></ul></li><li><span class=\"toc-h1\">About this ebook</span><ul><li><span class=\"toc-h2\">Credits</span><li><span class=\"toc-h2\">Accessibility</span><li><span class=\"toc-h2\">Licensing</span><li><span class=\"toc-h2\">Who has developed this app</span><li><span class=\"toc-h2\">Who is financing this app</span><li><span class=\"toc-h2\">Your help is precious</span><li><span class=\"toc-h2\">Stuck?</span></li></ul></li><li><span class=\"toc-h1\">Table of contents</span><li><span class=\"toc-h1\">Landmarks</span></li></ul>",
-    "html": "<ol><li><ol><li>Thorium reader user's guide (English, 3.1)</li></ol></li><li><ol><li><i>Untitled BODY</i></li></ol></li><li><ol><li>This is the documentation for Thorium 3, and it is a work in progress!</li><li>Additional material available online</li></ol></li><li><ol><li>Opening Thorium Reader</li></ol></li><li><ol><li>Windows, views and panels<ol><li>Main window<ol><li>Home View</li><li>All publications View<ol><li>Grid Mode</li><li>Table Mode</li></ol></li><li>Catalogs View</li><li>Application Settings Panel</li></ol></li><li>Reading window<ol><li>Reading navigation panel</li><li>Reading settings panel</li></ol></li><li>Book Information panel</li></ol></li></ol></li><li><ol><li>Libraries actions<ol><li>Add tags</li></ol></li></ol></li><li><ol><li>Catalogs actions<ol><li>Setting up an OPDS catalog<ol><li>Example of OPDS feeds with LCP protected contents</li><li>OPDS Feed responsibility</li></ol></li><li>Setting up a french public library account</li></ol></li></ol></li><li><ol><li>Reading</li></ol></li><li><ol><li>Reading textual contents<ol><li>Text adjustment settings</li><li>Theme</li><li>Text<ol><li>Example 1: Setting Verdana as the reading font</li><li>Example 2: Setting up Luciole as the reading font</li></ol></li><li>Display</li><li>Spacing</li><li>Readaloud</li><li>Text to Speech (TTS)</li></ol></li></ol></li><li><ol><li>Reading visual contents<ol><li>Zooming on images</li></ol></li></ol></li><li><ol><li>Reading audio contents</li></ol></li><li><ol><li>Reading PDFs</li></ol></li><li><ol><li>Search in a book</li></ol></li><li><ol><li>Annotations<ol><li>Annotations panel</li><li>Options for annotations</li><li>Sort and filter annotations</li><li>Export and Import of Annotations</li></ol></li></ol></li><li><ol><li>Accessibility<ol><li>Accessibility information</li><li>Native accessibility functions</li><li>Visual adjustments</li><li>Text-to-Speech (TTS)</li></ol></li></ol></li><li><ol><li>Reading with a screen reader</li><li>Keystrokes common to NVDA and JAWS<ol><li>Quick keys for navigation</li><li>Text</li><li>Tables</li></ol></li></ol></li><li><ol><li>Ressources</li></ol></li><li><ol><li>Keys functions</li></ol></li><li><ol><li>Tactile gestures</li></ol></li><li><ol><li>Supported publication formats</li></ol></li><li><ol><li>About this ebook<ol><li>Credits</li><li>Accessibility</li><li>Licensing</li><li>Who has developed this app</li><li>Who is financing this app</li></ol></li></ol></li><li><ol><li>Your help is precious</li></ol></li><li><ol><li>Stuck?</li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table of contents<ol><li><i>Untitled NAV</i></li></ol></li><li>Landmarks<ol><li><i>Untitled NAV</i></li></ol></li></ol></li></ol></li></ol>"
+    "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n          <li>\n            Forewords\n          </li>\n          <li>\n            Opening Thorium Reader\n          </li>\n          <li>\n            Windows, views and panels\n            <ol>\n              <li>\n                Main window\n                <ol>\n                  <li>\n                    Home View\n                  </li>\n                  <li>\n                    All publications View\n                    <ol>\n                      <li>\n                        Grid Mode\n                      </li>\n                      <li>\n                        Table Mode\n                      </li>\n                    </ol>\n                  </li>\n                  <li>\n                    Catalogs View\n                  </li>\n                  <li>\n                    Application Settings Panel\n                  </li>\n                </ol>\n              </li>\n              <li>\n                Reading window\n                <ol>\n                  <li>\n                    Reading navigation panel\n                  </li>\n                  <li>\n                    Reading settings panel\n                  </li>\n                  <li>\n                    Book Information panel\n                  </li>\n                </ol>\n              </li>\n            </ol>\n          </li>\n          <li>\n            Libraries actions\n          </li>\n          <li>\n            Catalogs actions\n          </li>\n          <li>\n            Reading\n            <ol>\n              <li>\n                Reading textual contents\n              </li>\n              <li>\n                Reading visual contents\n              </li>\n              <li>\n                Reading audio contents\n              </li>\n              <li>\n                Reading PDFs\n              </li>\n            </ol>\n          </li>\n          <li>\n            Search in a book\n          </li>\n          <li>\n            Annotations\n            <ol>\n              <li>\n                Annotations Panel\n              </li>\n              <li>\n                Options for annotations\n              </li>\n              <li>\n                Sort and filter annotations\n              </li>\n              <li>\n                Review and manipulation of annotations\n              </li>\n              <li>\n                Export and Import of Annotations\n              </li>\n            </ol>\n          </li>\n          <li>\n            Accessibility\n          </li>\n          <li>\n            Reading with a screen reader\n          </li>\n          <li>\n            Ressources\n          </li>\n          <li>\n            Keys functions\n          </li>\n          <li>\n            Tactile gestures\n          </li>\n          <li>\n            Supported publication formats\n          </li>\n          <li>\n            About this ebook\n          </li>\n        </ol>",
+    "headings": "<ul><li><span class=\"toc-h1\">Thorium reader user's guide (English, 3.1)</span><ul><li><span class=\"toc-h2\">This is the documentation for Thorium 3, and it is a work in progress!</span><li><span class=\"toc-h2\">Additional material available online</span></li></ul></li><li><span class=\"toc-h1\">Opening Thorium Reader</span><li><span class=\"toc-h1\">Windows, views and panels</span><ul><li><span class=\"toc-h2\">Main window</span><ul><li><span class=\"toc-h3\">Home View</span><li><span class=\"toc-h3\">All publications View</span><ul><li><span class=\"toc-h4\">Grid Mode</span><li><span class=\"toc-h4\">Table Mode</span></li></ul></li><li><span class=\"toc-h3\">Catalogs View</span><li><span class=\"toc-h3\">Application Settings Panel</span></li></ul></li><li><span class=\"toc-h2\">Reading window</span><ul><li><span class=\"toc-h3\">Reading navigation panel</span><li><span class=\"toc-h3\">Reading settings panel</span></li></ul></li><li><span class=\"toc-h2\">Book Information panel</span></li></ul></li><li><span class=\"toc-h1\">Libraries actions</span><ul><li><span class=\"toc-h2\">Add tags</span></li></ul></li><li><span class=\"toc-h1\">Catalogs actions</span><ul><li><span class=\"toc-h2\">Setting up an OPDS catalog</span><ul><li><span class=\"toc-h3\">Example of OPDS feeds with LCP protected contents</span><li><span class=\"toc-h3\">OPDS Feed responsibility</span></li></ul></li><li><span class=\"toc-h2\">Setting up a french public library account</span></li></ul></li><li><span class=\"toc-h1\">Reading</span><ul><li><span class=\"toc-h2\">Reading textual contents</span><ul><li><span class=\"toc-h3\">Text adjustment settings</span><li><span class=\"toc-h3\">Theme</span><li><span class=\"toc-h3\">Text</span><ul><li><span class=\"toc-h4\">Example 1: Setting Verdana as the reading font</span><li><span class=\"toc-h4\">Example 2: Setting up Luciole as the reading font</span></li></ul></li><li><span class=\"toc-h3\">Display</span><li><span class=\"toc-h3\">Spacing</span><li><span class=\"toc-h3\">Readaloud</span><li><span class=\"toc-h3\">Text to Speech (TTS)</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Reading visual contents</span><ul><li><span class=\"toc-h2\">Zooming on images</span></li></ul></li><li><span class=\"toc-h1\">Reading audio contents</span><li><span class=\"toc-h1\">Reading PDFs</span><ul><li><span class=\"toc-h2\">Search in a book</span></li></ul></li><li><span class=\"toc-h1\">Annotations</span><ul><li><span class=\"toc-h2\">Annotations panel</span><li><span class=\"toc-h2\">Options for annotations</span><li><span class=\"toc-h2\">Sort and filter annotations</span><li><span class=\"toc-h2\">Export and Import of Annotations</span></li></ul></li><li><span class=\"toc-h1\">Accessibility</span><ul><li><span class=\"toc-h2\">Accessibility information</span><li><span class=\"toc-h2\">Native accessibility functions</span><li><span class=\"toc-h2\">Visual adjustments</span><li><span class=\"toc-h2\">Text-to-Speech (TTS)</span><li><span class=\"toc-h2\">Reading with a screen reader</span></li></ul></li><li><span class=\"toc-h1\">Keystrokes common to NVDA and JAWS</span><ul><li><span class=\"toc-h2\">Quick keys for navigation</span><li><span class=\"toc-h2\">Text</span><li><span class=\"toc-h2\">Tables</span></li></ul></li><li><span class=\"toc-h1\">Ressources</span><ul><li><span class=\"toc-h2\">Keys functions</span><li><span class=\"toc-h2\">Tactile gestures</span><li><span class=\"toc-h2\">Supported publication formats</span></li></ul></li><li><span class=\"toc-h1\">About this ebook</span><ul><li><span class=\"toc-h2\">Credits</span><li><span class=\"toc-h2\">Accessibility</span><li><span class=\"toc-h2\">Licensing</span><li><span class=\"toc-h2\">Who has developed this app</span><li><span class=\"toc-h2\">Who is financing this app</span></li></ul></li><li><span class=\"toc-h1\">Table of contents</span><li><span class=\"toc-h1\">Landmarks</span></li></ul>",
+    "html": "<ol><li><ol><li>Thorium reader user's guide (English, 3.1)</li></ol></li><li><ol><li><i>Untitled BODY</i></li></ol></li><li><ol><li>This is the documentation for Thorium 3, and it is a work in progress!</li><li>Additional material available online</li></ol></li><li><ol><li>Opening Thorium Reader</li></ol></li><li><ol><li>Windows, views and panels<ol><li>Main window<ol><li>Home View</li><li>All publications View<ol><li>Grid Mode</li><li>Table Mode</li></ol></li><li>Catalogs View</li><li>Application Settings Panel</li></ol></li><li>Reading window<ol><li>Reading navigation panel</li><li>Reading settings panel</li></ol></li><li>Book Information panel</li></ol></li></ol></li><li><ol><li>Libraries actions<ol><li>Add tags</li></ol></li></ol></li><li><ol><li>Catalogs actions<ol><li>Setting up an OPDS catalog<ol><li>Example of OPDS feeds with LCP protected contents</li><li>OPDS Feed responsibility</li></ol></li><li>Setting up a french public library account</li></ol></li></ol></li><li><ol><li>Reading</li></ol></li><li><ol><li>Reading textual contents<ol><li>Text adjustment settings</li><li>Theme</li><li>Text<ol><li>Example 1: Setting Verdana as the reading font</li><li>Example 2: Setting up Luciole as the reading font</li></ol></li><li>Display</li><li>Spacing</li><li>Readaloud</li><li>Text to Speech (TTS)</li></ol></li></ol></li><li><ol><li>Reading visual contents<ol><li>Zooming on images</li></ol></li></ol></li><li><ol><li>Reading audio contents</li></ol></li><li><ol><li>Reading PDFs</li></ol></li><li><ol><li>Search in a book</li></ol></li><li><ol><li>Annotations<ol><li>Annotations panel</li><li>Options for annotations</li><li>Sort and filter annotations</li><li>Export and Import of Annotations</li></ol></li></ol></li><li><ol><li>Accessibility<ol><li>Accessibility information</li><li>Native accessibility functions</li><li>Visual adjustments</li><li>Text-to-Speech (TTS)</li></ol></li></ol></li><li><ol><li>Reading with a screen reader</li><li>Keystrokes common to NVDA and JAWS<ol><li>Quick keys for navigation</li><li>Text</li><li>Tables</li></ol></li></ol></li><li><ol><li>Ressources</li></ol></li><li><ol><li>Keys functions</li></ol></li><li><ol><li>Tactile gestures</li></ol></li><li><ol><li>Supported publication formats</li></ol></li><li><ol><li>About this ebook<ol><li>Credits</li><li>Accessibility</li><li>Licensing</li><li>Who has developed this app</li><li>Who is financing this app</li></ol></li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li>Table of contents<ol><li><i>Untitled NAV</i></li></ol></li><li>Landmarks<ol><li><i>Untitled NAV</i></li></ol></li></ol></li></ol></li></ol>"
   },
   "data": {
     "images": [
@@ -114,9 +114,9 @@
       },
       {
         "src": "EPUB/resources/images/icons3/textarea-icon.svg",
-        "alt": null,
-        "role": null,
-        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/textarea-icon.svg\" />",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/textarea-icon.svg\" role=\"presentation\" alt=\"\" />",
         "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/8/4)"
       },
       {
@@ -342,45 +342,9 @@
     {
       "@type": "earl:assertion",
       "earl:result": {
-        "earl:outcome": "fail"
+        "earl:outcome": "pass"
       },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
-            "earl:pointer": {
-              "cfi": [
-                "/4/8/4"
-              ],
-              "css": [
-                "p:nth-child(4) > img"
-              ]
-            },
-            "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/textarea-icon.svg\" />"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "critical",
-            "dct:title": "image-alt",
-            "dct:description": "Ensures <img> elements have alternate text or a role of none or presentation",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/html/images.html",
-              "dct:title": "Images",
-              "dct:description": "Images must have alternate text"
-            },
-            "rulesetTags": [
-              "cat.text-alternatives",
-              "wcag2a",
-              "wcag111",
-              "section508",
-              "section508.22.a"
-            ]
-          }
-        }
-      ],
+      "assertions": [],
       "earl:testSubject": {
         "url": "./pages/211_reading_textuals/index.xhtml",
         "dct:title": "Reading textual contents"
@@ -524,60 +488,6 @@
         "earl:outcome": "pass"
       },
       "assertions": [],
-      "earl:testSubject": {
-        "url": "./pages/903_support/index.xhtml",
-        "dct:title": "Want to help?"
-      }
-    },
-    {
-      "@type": "earl:assertion",
-      "earl:result": {
-        "earl:outcome": "pass"
-      },
-      "assertions": [],
-      "earl:testSubject": {
-        "url": "./pages/904_issues/index.xhtml",
-        "dct:title": "Stuck?"
-      }
-    },
-    {
-      "@type": "earl:assertion",
-      "earl:result": {
-        "earl:outcome": "fail"
-      },
-      "assertions": [
-        {
-          "@type": "earl:assertion",
-          "earl:result": {
-            "earl:outcome": "fail",
-            "dct:description": "Element has no ARIA role matching its epub:type",
-            "earl:pointer": {
-              "cfi": [
-                "/4/2[toc]/4"
-              ],
-              "css": [
-                "#toc > nav"
-              ]
-            },
-            "html": "<nav xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"toc\">"
-          },
-          "earl:assertedBy": "aXe",
-          "earl:mode": "automatic",
-          "earl:test": {
-            "earl:impact": "minor",
-            "dct:title": "epub-type-has-matching-role",
-            "dct:description": "Ensure the element has an ARIA role matching its epub:type",
-            "help": {
-              "url": "http://kb.daisy.org/publishing/docs/html/roles.html",
-              "dct:title": "ARIA role",
-              "dct:description": "ARIA role should be used in addition to epub:type"
-            },
-            "rulesetTags": [
-              "best-practice"
-            ]
-          }
-        }
-      ],
       "earl:testSubject": {
         "url": "toc/index.xhtml",
         "dct:title": "Table of contents"
