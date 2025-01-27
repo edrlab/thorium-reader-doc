@@ -14,11 +14,11 @@ Sélectionnez l'onglet [Catalogues]{.ui_button} puis le bouton [Ajouter un flux 
 
 Exemple :
 
-L'activation du lien suivant téléchargera un fichier OPDS qui peut être ouvert avec Thorium : [Télécharger le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/) {target="_blank"}
+L'activation du lien suivant téléchargera un fichier OPDS qui peut être ouvert avec Thorium : [Télécharger le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/)
 
 Il est également possible d'utiliser le menu contextuel (généralement un clic droit), de copier ce lien et de le coller dans Thorium. Ajoutez un panneau OPDS pour voir la magie se produire.
 
-Les flux OPDS peuvent également être fournis sous forme de liens directs qui doivent s'ouvrir directement dans Thorium. [Ouvrir le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/) {target="_blank"}
+Les flux OPDS peuvent également être fournis sous forme de liens directs qui doivent s'ouvrir directement dans Thorium. [Ouvrir le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/)
 
 Depuis Thorium 2.2, les flux OPDS peuvent être modifiés afin que vous puissiez changer le nom ou récupérer l'URL du flux.
 
@@ -44,4 +44,4 @@ Les flux OPDS et l'accès au contenu qu'ils permettent sont sous la responsabili
 
 En France, de nombreuses bibliothèques publiques proposent un catalogue lisible par machine (similaire à OPDS mais pas identique), permettant aux usagers de télécharger des publications numériques depuis leur bibliothèque personnelle. L'intégration de cette technologie dans Thorium Reader vous permet de télécharger un livre électronique ou un livre audio directement dans Thorium Reader pour une lecture instantanée.
 
-Pour vous connecter à votre compte de bibliothèque publique française, saisissez une ville française ('Montpellier') ou une partie du nom de la bibliothèque dans le champ Rechercher et cliquez sur le bouton Rechercher. Une liste des bibliothèques publiques correspondant à votre recherche apparaît. Sélectionnez une bibliothèque et cliquez sur Ajouter. Dans la liste des catalogues mise à jour, sélectionnez cette bibliothèque : un formulaire d'authentification s'affiche. Saisissez votre nom d'utilisateur/adresse e-mail et votre mot de passe, puis cliquez sur Connexion. Vous pouvez désormais voir le contenu de votre bibliothèque personnelle, à partir de laquelle vous pouvez télécharger et lire les livres électroniques et les livres audio que vous avez empruntés précédemment. :::
+Pour vous connecter à votre compte de bibliothèque publique française, saisissez une ville française ('Montpellier') ou une partie du nom de la bibliothèque dans le champ Rechercher et cliquez sur le bouton Rechercher. Une liste des bibliothèques publiques correspondant à votre recherche apparaît. Sélectionnez une bibliothèque et cliquez sur Ajouter. Dans la liste des catalogues mise à jour, sélectionnez cette bibliothèque : un formulaire d'authentification s'affiche. Saisissez votre nom d'utilisateur/adresse e-mail et votre mot de passe, puis cliquez sur Connexion. Vous pouvez désormais voir le contenu de votre bibliothèque personnelle, à partir de laquelle vous pouvez télécharger et lire les livres électroniques et les livres audio que vous avez empruntés précédemment. 

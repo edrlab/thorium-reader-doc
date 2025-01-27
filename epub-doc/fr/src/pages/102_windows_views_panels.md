@@ -14,7 +14,7 @@ La fenêtre principale vous permet d'accéder à vos collections et de les organ
 
 ### Vue "Accueil" {#home_view}
 
-Cette vue permet un accès rapide. Vous y trouverez les livres que vous avez lus ou ajoutés récemment. Les actions possibles sont Importer une publication, Ouvrir une publication et Ouvrir le menu Publication.  <img src="../../resources/images/local_en/th3_main_window_home.png" class="icon" role="presentation" alt="">
+Cette vue permet un accès rapide. Vous y trouverez les livres que vous avez lus ou ajoutés récemment. Les actions possibles sont Importer une publication, Ouvrir une publication et Ouvrir le menu Publication.  <img src="../../resources/images/local_en/th3_main_window_home.png" class="icon" role="presentation" alt=""/>
 
 ### Vue "Toutes les publications" {#all_publications_view}
 
@@ -58,7 +58,7 @@ Les paramètres de l'application sont divisés en trois onglets :
 
 3. L'onglet Raccourcis clavier vous aide à vérifier et à manipuler les actions pilotées par le clavier dans l'application. Découvrez le menu à trois points à côté du titre du panneau avec des actions supplémentaires (Réinitialiser, Modifier et Charger). L'onglet Modifier ouvre le dossier système de l'application à l'emplacement du fichier .json de paramètres utilisateur stocké, vous permettant de le modifier en dehors de l'application (à vos propres risques), de l'enregistrer pour une utilisation ultérieure ou de le partager sur vos appareils ou avec qui vous voulez.
 
-   <img src="../../resources/images/local_en/th3_main_settings_keys_context.png" class="icon" role="presentation" alt="">
+   <img src="../../resources/images/local_en/th3_main_settings_keys_context.png" class="icon" role="presentation" alt=""/>
 
 ## Fenêtre de lecture {#reading_window}
 
@@ -104,7 +104,7 @@ Ce panneau affiche les informations du livre électronique telles qu'elles sont 
 - Description ou CV
 - Détails de la publication, y compris la langue de publication
 - Informations sur l'accessibilité affichées conformément aux directives internationales (pour plus d'informations, voir [le Guide d'affichage du W3C pour les métadonnées d'accessibilité](https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated) ).
-- Balises, y compris la possibilité de <img src="../../resources/images/icons3/tag-icon.svg" class="icon" role="presentation" alt="">
+- Balises, y compris la possibilité de <img src="../../resources/images/icons3/tag-icon.svg" class="icon" role="presentation" alt=""/>
     <span class="ui_button">Ajoutez</span> vos propres balises.
 - Progression
 

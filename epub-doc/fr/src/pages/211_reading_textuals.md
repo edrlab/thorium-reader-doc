@@ -10,7 +10,7 @@ Pour le contenu textuel, Thorium propose une lecture visuelle et une lecture aud
 
 ### Affichage du texte {#read_text_adjust}
 
-Dans l'interface de lecture, utilisez le bouton `Preferences` <img src="../../resources/images/icons3/textarea-icon.svg" role="presentation" alt="">
+Dans l'interface de lecture, utilisez le bouton `Preferences` <img src="../../resources/images/icons3/textarea-icon.svg" role="presentation" alt=""/>
 
 Les paramètres de lecture peuvent être sauvegardés ou réinitialisés en utilisant les boutons <span class="ui_button">Enregistrer</span> et <span class="ui_button">Réinitialiser</span> situés dans le menu <span class="ui_button">Paramètres</span> , sous-menu <span class="ui_button">Configuration</span> de la fenêtre de lecture.
 
@@ -34,7 +34,7 @@ En sélectionnant `...` vous pouvez saisir le nom de la police que vous souhaite
 <li data-md-type="list_item" data-md-list-type="ordered">Écrivez le mot <em data-md-type="emphasis">Verdana</em> dans le champ vide qui apparaît à côté de la liste déroulante.</li>
 <li data-md-type="list_item" data-md-list-type="ordered">Confirmez avec <kbd data-md-type="raw_html">Entrée</kbd> .</li>
 </ol>
-<p data-md-type="paragraph"><img src="https://github.com/edrlab/thorium-reader-doc/blob/main/epub-doc/fr/resources/images/local-fr/thorium-verdana.png?raw=true" alt="Screenshot showing the Text settings Pannel with verdana set up as&lt;br&gt;reading font" data-md-type="image" class=""></p>
+<p data-md-type="paragraph"><img src="../../resources/images/local-fr/thorium-verdana.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" data-md-type="image" class=""/></p>
 <h4 data-md-type="header" data-md-header-level="4">Exemple 2 : Configuration de Luciole comme police de lecture {#read_text_example_luciole}</h4>
 <ol data-md-type="list" data-md-list-type="ordered" data-md-list-tight="true">
 <li data-md-type="list_item" data-md-list-type="ordered"><a href="https://www.luciole-vision.com/#download" data-md-type="link">Téléchargez et installez la police Luciole</a></li>
@@ -43,7 +43,7 @@ En sélectionnant `...` vous pouvez saisir le nom de la police que vous souhaite
 <li data-md-type="list_item" data-md-list-type="ordered">Écrivez le mot <em data-md-type="emphasis">Luciole</em> dans le champ vide qui apparaît à côté de la liste déroulante.</li>
 <li data-md-type="list_item" data-md-list-type="ordered">Confirmez avec <kbd data-md-type="raw_html">Entrée</kbd> .</li>
 </ol>
-<p data-md-type="paragraph"><img src="https://github.com/edrlab/thorium-reader-doc/blob/main/epub-doc/fr/resources/images/local-fr/thorium-luciole.png?raw=true" alt="Screenshot showing the Text settings Pannel with verdana set up as&lt;br&gt;reading font" data-md-type="image" class=""></p>
+<p data-md-type="paragraph"><img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" data-md-type="image" class=""/></p>
 <div data-md-type="block_html"></div>
 
 ### Afficher {#read_text_display}

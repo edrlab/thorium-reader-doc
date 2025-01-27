@@ -61,7 +61,7 @@ Vous pouvez utiliser les fonctions de navigation par niveaux de titre
 
 
 
-<img src="/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."//>
+<img src="/images/local-fr/thorium-TDM-light.png" alt="Capture d'écran, table des matières : Titres Niveau 1 Couverture, Titre, Copyright, Dédicae, Exergue, Introduction, La Marque des quatre ; titre niveau 2 La déduction élevée à la hauteur d'une science."/>
 
 
 
@@ -93,7 +93,7 @@ La [liste complète du vocabulaire sémantique EPUB en anglais](https://www.w3.o
 
 
 
-<img src="/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."//>
+<img src="/images/local-fr/thorium-reperes.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 
 
 
@@ -122,7 +122,7 @@ en modifiant la valeur à l'aide de la boîte `Aller à la page`.
 
 
 
-<img src="/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."//>
+<img src="/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 
 
 
