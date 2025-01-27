@@ -11,7 +11,7 @@ EDRLab es un laboraThorium  de desarrollo sin fines de lucro y sitúa la accesib
 
 Sin embargo, el aspecto central de innovación y experimentación de nuestro trabajo puede afectar la accesibilidad en algunos puntos. Las limitaciones de financiación también pueden afectar nuestra acción y voluntad de brindar la mejor experiencia de lectura a todos los lectores. Estas son las razones principales por las que, en este momento, no podemos permitirnos un ciclo completo de pruebas de accesibilidad en cada versión.
 
-Cualquier bloqueador identificado se informa públicamente y se puede buscar a través de una etiqueta dedicada [Accesibilidad en nuestro rastreador de problemas] (https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility) que son tratados como prioritarios por el equipo de desarrollo.
+Cualquier bloqueador identificado se informa públicamente y se puede buscar a través de una etiqueta dedicada [Accesibilidad en nuestro rastreador de problemas](https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility) que son tratados como prioritarios por el equipo de desarrollo.
 
 ## comprender las necesidades de todos y cada uno de los usuarios
 

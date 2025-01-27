@@ -14,7 +14,7 @@ l'interface et sera lue par un lecteur d'écran.
 {{< details "L'emplacement de la page est approximatif lorsqu'un lecteur d'écran est utilisé">}}
 En raison des limites inhérentes à la technologie actuelle des lecteurs d'écran, Thorium doit estimer l'emplacement de la lecture. Par conséquent, le numéro de page annoncé par Thorium ne reflète pas l'endroit où le lecteur d'écran lit réellement, l'erreur peut être de quelques phrases. 
 
-Ce [problème d'emplacement de la page du lecteur d'écran] (https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338) est connu et nous discutons d'un moyen de le résoudre [numéros de page et sauts de page accessibles] (https://github.com/edrlab/thorium-reader/discussions/1799).
+Ce [problème d'emplacement de la page du lecteur d'écran](https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338) est connu et nous discutons d'un moyen de le résoudre [numéros de page et sauts de page accessibles](https://github.com/edrlab/thorium-reader/discussions/1799).
 
 Cependant, NVDA annoncera le saut de page comme un séparateur s'il a un attribut title (exemple : ` <span epub:type="pagebreak" role="doc-pagebreak" id="page_2" class="page" title="2"/>` fera que NVDA annoncera "Deux, séparateur").
 

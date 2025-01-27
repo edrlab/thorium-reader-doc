@@ -2,7 +2,9 @@
 title: Acciones de bibliotecas
 role: chapter
 draft: false
----# Acciones de bibliotecas {#Libraries_actions}
+---
+
+# Acciones de bibliotecas {#Libraries_actions}
 
 Abrir una publicación
 : Cada cobertura de publicación es un enlace que, cuando se activa, abrirá un
