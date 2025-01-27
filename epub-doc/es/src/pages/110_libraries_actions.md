@@ -18,23 +18,23 @@ Menú de publicación abierta
 : El menú de publicación está disponible desde el botón de tres puntos en la
     parte inferior derecha de la tarjeta de publicación en las vistas Inicio y Cuadrícula o
     en la última columna (Acción) de la Vista de tabla.
-    <img src="../../resources/images/local_en/th3_library_grid_actions.png" class="icon" alt="" role="presentación"/>
-    <img src="../../resources/images/local_en/th3_library_table_actions.png" class="icon" alt="" role="presentación"/> Permite:
+    <img src="../../resources/images/local-es/th3_library_grid_actions.png" class="icon" alt="" role="presentation"/>
+    <img src="../../resources/images/local-es/th3_library_table_actions.png" class="icon" alt="" role="presentation"/> Permite:
     -Abra el panel de información del libro (Acerca de la publicación,
-<img src = "../../recursos/imágenes/icons3/info-icon.svg" class = "icon" alt = "" role = "presentación"/>);
+<img src="../../resources/images/icons3/info-icon.svg" class="icon" alt="" role="presentation"/>);
     -Marque la publicación como leída
-        (<img src = "../../recursos/imágenes/icons3/doubleCheck-icon.svg" class = "icon" alt = "" rol = "presentación"/>) que cambiará el estado de progresión a
+        (<img src="../../resources/images/icons3/doubleCheck-icon.svg" class="icon" alt="" role="presentation"/>) que cambiará el estado de progresión a
         Finalizado;
     -Eliminar la publicación
-        (<img src = "../../recursos/imágenes/icons3/bin-icon.svg" class = "icon" alt = "" rol = "presentación"/>) que abrirá una aparición de confirmación;
+        (<img src="../../resources/images/icons3/bin-icon.svg" class="icon" alt="" role="presentation"/>) que abrirá una aparición de confirmación;
 -Guardar la publicación como
-        (<img src = "../../recursos/imágenes/icons3/saveas-icon.svg" class = "icon" alt = "" rol = "Presentation"/>). Esta última acción abrirá un sistema
+        (<img src="../../resources/images/icons3/SaveAs-icon.svg" class="icon" alt="" role="presentation"/>). Esta última acción abrirá un sistema
         Ventana para permitirle elegir dónde exportar la publicación.
 
 Importar una publicación
 
    Ubicado en la esquina superior derecha y el 5to elemento en la tabulación TE
-    orden, justo antes del contenido principal, el <span class = "ui_button">+ importe a
+    orden, justo antes del contenido principal, el <span class="ui_button">+ importe a
     El botón de publicación </span> habla solo. Activarlo lo hará
 hacer que la apertura de una ventana de contexto del sistema le permita seleccionar un
     Archivo en su sistema informático. Navegue al archivo que desea abrir,
@@ -48,8 +48,8 @@ La función de libros electrónicos de búsqueda actúa como un filtro, lo que s
     Comience a escribir una consulta de búsqueda, los libros electrónicos que se muestran en el estante
     estar limitado a los que coinciden con su consulta. Para usar esta función,
     Activar el cuadro de búsqueda
-    (<img src = "../../recursos/imágenes/icons3/search-icon.svg" class = "icon" alt = "" rol = "presentación"/>) haciendo clic en él, mudando el enfoque o presionando
-    la combinación de teclas <Kbd> Ctrl </kbd> + <kbd> f </kbd>, ingrese el texto que desee
+    (<img src="../../resources/images/icons3/search-icon.svg" class="icon" alt="" role="presentation"/>) haciendo clic en él, mudando el enfoque o presionando
+    la combinación de teclas <kbd> Ctrl </kbd> + <kbd> f </kbd>, ingrese el texto que desee
 buscar. Los "Resultados" se mostrarán instantáneamente. La búsqueda se realiza
     a través de la información de los libros, incluidas las etiquetas agregadas por el usuario. el contenido
     del libro no está incluido en la búsqueda. Para realizar una búsqueda
@@ -78,12 +78,12 @@ Navegue por páginas de su biblioteca
     publicaciones. Si tienes más libros electrónicos que eso, serán
     Disponible a través de diferentes páginas que se pueden considerar como estantes
     o pilas.
-    <img src = "../../recursos/imágenes/local_en/th3_library_pages.png" class = "icon" alt = "" rol = "presentación"/>
+    <img src="../../resources/images/local-es/th3_library_pages.png" class="icon" alt="" role="presentation"/>
 
 ## Agregar etiquetas
 
 Puede enriquecer la información de los libros en su biblioteca por
-agregándoles "Etiquetas". Las \`Etiquetas\' le permiten buscar y ordenar rápidamente
+agregándoles "Etiquetas". Las Etiquetas le permiten buscar y ordenar rápidamente
 libros en vista de lista. Poniéndolo en práctica. Abra el formulario del libro,
 ubícate en el campo *Agregar una etiqueta*, escribe el nombre del
 etiqueta que desea agregar y luego presione el botón "Agregar". La etiqueta se agrega en

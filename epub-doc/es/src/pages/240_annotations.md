@@ -19,7 +19,7 @@ annotation (optional). You can change highlight color and type (Solid
 background, Underline, Strikethrough or Outline) then validate the
 creation of the annotation with <span class="ui_button">Save</span>.
 
-<img src="../../resources/images/local_en/th3_anotation_pop_up.png" class="icon" role="presentation"/>
+<img src="../../resources/images/local-es/th3_anotation_pop_up.png" class="icon" role="presentation"/>
 
 Annotations in the content can not be reached by keyboard tabulation. To navigate between them, keyboard users need to open the Annotation Panel.
 

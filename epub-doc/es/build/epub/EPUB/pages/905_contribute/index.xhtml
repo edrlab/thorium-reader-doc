@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
+    <title>Contribuir</title>
+  </head>
+  <body>
+    <h2>¡Contribuir!</h2>
+    <p>Thorium  y su documentación se desarrollan gracias al usuario
+comunidad. Necesitamos ayuda para traducir esta documentación.</p>
+    <p>Para hacerlo, puede [contactarnos] (
+      <a href="https://www.edrlab.org/contact/">https://www.edrlab.org/contact/</a>).
+    </p>
+    <p>Si te sientes lo suficientemente cómodo con GitHub y el formato de Markdown
+puede proponer una nueva traducción a través de una solicitud de extracción.</p>
+    <p>Para hacer esto: clonar el reposiThorium  y crear una rama con el nombre de
+el idioma que desea agregar, haga una copia de la carpeta 
+      <code>content.en</code> y
+cámbiele el nombre con dos letras correspondientes al idioma que desea agregar
+(por ejemplo 
+      <code>content.es</code> contendrá la traducción al español). El
+Los nombres de los archivos no deben cambiarse ya que aseguran la correspondencia.
+entre idiomas.
+    </p>
+    <p>La carpeta 
+      <code>i18n</code> contiene las traducciones de los elementos fijos de
+el encabezado y pie de página. Varios idiomas ya están presentes, si su
+el idioma no está presente, copie, pegue el archivo .yaml y cámbiele el nombre con
+las dos primeras letras de las letras del idioma que desea agregar.
+    </p>
+    <p>Finalmente para activar el menú del idioma que agregas, edita el archivo.
+
+      <code>config.toml</code> y agrega el idioma con el siguiente código:
+    </p>
+    <pre>
+      <code>      [idiomas.es]
+  nombre de idioma = 'inglés'
+  contentDir = 'content.en'
+  peso = 1
+</code>
+    </pre>
+    <p>Debes reemplazar
+
+      <code>.en' con las dos primeras letras del idioma que estás agregando y completa el nombre del idioma como </code>languageName
+
+      <code>valor. El </code>peso` indica el orden de aparición en el idioma.
+menú.
+    </p>
+    <p>Ejemplo para español:</p>
+    <pre>
+      <code>      [idiomas.es]
+  nombreIdioma = 'Español'
+  contentDir = 'contenido.es'
+  peso = 3
+</code>
+    </pre>
+    <p>Las imágenes localizadas, como capturas de pantalla, deben agregarse a la carpeta.
+
+      <code>estática/imágenes/local-(lenguaje de dos letras)</code>.
+    </p>
+  </body>
+</html>

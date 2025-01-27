@@ -30,7 +30,7 @@ metadata ( [accessibilitySummary]{lang="en"}).
 
 ![Screenshot, the book The Mark of Four indicates: This publication
 complies with the SNE Charter - natively accessible textual EPUBs
-».](../../resources/images/local-fr/thorium-bookinfo-a11ysummary.png)
+».](../../resources/images/local-es/thorium-bookinfo-a11ysummary.png)
 
  warning
 Attention !

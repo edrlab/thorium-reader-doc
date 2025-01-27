@@ -51,7 +51,7 @@ you must know its exact name as it is set for the operating system.
 4.  Confirm with <kbd>Enter</kbd>.
 
 ![Screenshot showing the Text settings Pannel with verdana set up as
-reading font](../../resources/images/local-fr/thorium-verdana.png)
+reading font](../../resources/images/local-es/thorium-verdana.png)
 
 #### Example 2: Setting up Luciole as the reading font {#read_text_example_luciole}
 
@@ -65,7 +65,7 @@ reading font](../../resources/images/local-fr/thorium-verdana.png)
 5.  Confirm with <kbd>Enter</kbd>.
 
 ![Screenshot showing the Text settings Pannel with Luciole set up as
-reading font](../../resources/images/local-fr/thorium-luciole.png)
+reading font](../../resources/images/local-es/thorium-luciole.png)
 </div>
 
 ### Display {#read_text_display}
