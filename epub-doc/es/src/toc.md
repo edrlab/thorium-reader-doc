@@ -5,7 +5,7 @@ EPUBRoot: ".."
 auto: false
 tocRule: title
 ---
-<Sección ID="TOC">
+<Section id="TOC">
 <h1> Tabla de contenido </h1>
 <Nav epub:type="TOC" role="TOC">
 <ol>

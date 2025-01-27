@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@namespace h "http://www.w3.org/1999/xhtml/";
+@namespace epub "http://www.idpf.org/2007/ops";
+@namespace svg "http://www.w3.org/2000/svg";
+
+:root{
+--color-blue:  #1053c8;
+}
+
+svg {
+  width: 1em;
+  fill: var(--color-blue);
+  color: var(--color-blue);
+  filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
+}
+
+#toc {
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+
+/* this does not works
+@media (prefers-color-scheme: dark) {
+  .icons{
+    color: antiquewhite;
+    width: 10em;
+  }
+} */
+
+
+
+/* 
+$color-palette: (
+  light: (
+    --color-primary: #4d4d4d,
+    --color-secondary: #fff,
+    --color-blue: #1053C8,
+    --color-light-blue: #ECF2FD,
+    --color-extralight-grey: #f5f5f5,
+    --color-light-grey: #f1f1f1,
+    --color-medium-grey: #e5e5e5,
+    --color-accent: #00BCD4,
+    --color-accent-contrast: #fff,
+    --reader-fontColor: #000,
+    --scrollbar-thumb: #98989d,
+    --color-disabled: #61646B,
+    --color-error: #fedbd8,
+    --color-success: #ECFEF7,
+  ),
+  dark: (
+    --color-primary: #e7eaf8,
+    --color-secondary: #121212,
+    --color-blue: #99A9E3,
+    --color-light-blue: #2D2D2D,
+    --color-extralight-grey: #27272a,
+    --color-light-grey: #48484b,
+    --color-medium-grey: #7c7d86,
+    --color-accent: #00BCD4,
+    --color-accent-contrast: #fff,
+    --reader-fontColor: #000,
+    --scrollbar-thumb: #98989d,
+    --color-disabled: #a7a9b3,
+    --color-error: #4f1d1d,
+    --color-success: #121d19, */
+
+  /*
+    --color-primary: #fff,
+    --color-secondary: #4d4d4d,
+    --color-tertiary: #67a3e0,
+    --color-disabled: #b7b7b7,
+    --color-light-grey: #f1f1f1,
+    --color-medium-grey: #e5e5e5,
+    --color-accent: rgb(0, 188, 212),
+    --color-accent-contrast: #fff,
+    --reader-fontColor: #fff,
+    --color-blue: rgba(16, 83, 200, 1),
+    --color-light-blue: rgba(236, 242, 253, 1),
+    --color-bg-tab: rgba(16, 18, 22, 0.6),
+    --setting-btn-primary: #fff,
+    --setting-btn-secondary: var(--color-secondary),
+        */
+  /* ),
+);
+
+@function color($color, $value) {
+  @return map-get(map-get($color-palette, $color), $value);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+
+    @each $key, $value in map-get($color-palette, light) {
+      #{$key}: color(light, #{$key});
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    @each $key, $value in map-get($color-palette, dark) {
+      #{$key}: color(dark, #{$key});
+    }
+  }
+} */
