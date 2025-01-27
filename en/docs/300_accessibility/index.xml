@@ -3,7 +3,7 @@
 &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_ressources/420_glossary#bookInformation">Book information panel&lt;/a>
 under the heading &lt;code>Description&lt;/code> the content of the accessibility summary metadata
 (&lt;span lang="en">accessibilitySummary&lt;/span>).&lt;/p>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-bookinfo-a11ysummary.png&amp;quot; alt=&amp;ldquo;Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs ».&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs »."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;p>Work is underway to develop a guide for displaying accessibility information.

@@ -76,7 +76,7 @@ You can use the title level navigation functions
 to explore and move through the table of contents.
 &lt;/div>
 &lt;/details>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-TDM-light.png&amp;quot; alt=&amp;ldquo;Screenshot, table of contents: Titles Level 1 Cover, Title, Copyright, Dedicae, Exergue, Introduction, The Mark of Four; Title Level 2 Deduction elevated to a science.&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-TDM-light.png" alt="Screenshot, table of contents: Titles Level 1 Cover, Title, Copyright, Dedicae, Exergue, Introduction, The Mark of Four; Title Level 2 Deduction elevated to a science."/>
 &lt;h2 id="landmarks">Landmarks&lt;/h2>
 &lt;p>Good-quality digital books have markers that allow you to
 identify and quickly reach the main parts of a book.&lt;/p>
@@ -96,7 +96,7 @@ semantic vocabulary. The main ones are:&lt;/p>
 &lt;p>The &lt;a href="https://www.w3.org/TR/epub-ssv/">complete list of semantic vocabulary EPUB in English&lt;/a>
 is available on the W3C website.&lt;/p>
 &lt;/div>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-reperes.png&amp;quot; alt=&amp;ldquo;Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to.&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-reperes.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;p>PDF bookmarks used to compensate for the lack of a table of contents
@@ -112,7 +112,7 @@ When you access it, this option shows the current page.&lt;/p>
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>P&lt;/kbd>,
 then enter the page number in the edit box by typing it or
 changing the value using the &lt;code>Go to page&lt;/code> box.&lt;/p>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-gotopage.png&amp;quot; alt=&amp;ldquo;Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to.&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-gotopage.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_ressources/420_glossary#AdaptedBooks">
@@ -132,11 +132,11 @@ of the interface and will be read by a screen reader.&lt;/p>
 &lt;p>However NVDA will announce the page break as a separator if it has a title attribute (exemple: &lt;code> &amp;lt;span epub:type=&amp;quot;pagebreak&amp;quot; role=&amp;quot;doc-pagebreak&amp;quot; id=&amp;quot;page_2&amp;quot; class=&amp;quot;page&amp;quot; title=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code> will cause NVDA to anounce &amp;ldquo;Two, separator&amp;rdquo;).&lt;/p>
 &lt;/div>
 &lt;/details>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-whereami-ctrlK.png&amp;quot; alt=&amp;ldquo;Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident.&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-ctrlK.png" alt="Screenshot, notification area, current page 103 - progress = 14/25 (barrel incident) [32%] H1 VII / H2 Barrel incident."/>
 &lt;p>The keyboard shortcut &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> will open the table of content Navigation menu centered and focused to the detected heading closest to the reading location.&lt;/p>
 &lt;p>When you look at the &lt;code>Navigation&lt;/code> menu, Thorium shows the current chapter
 in the &lt;code>table of contents&lt;/code> and the current page in the &lt;code>Go to page&lt;/code> menu.&lt;/p>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-whereami-tdmfocus.png&amp;quot; alt=&amp;ldquo;Screenshot, reading a book with title VII Barrel Incident. The navigation pane is open, the table of contents shows the title Barrel Incident in a square which indicates that this is the chapter being read.&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-whereami-tdmfocus.png" alt="Screenshot, reading a book with title VII Barrel Incident. The navigation pane is open, the table of contents shows the title Barrel Incident in a square which indicates that this is the chapter being read."/>
 &lt;h1 id="access-more-informations">Access more informations&lt;/h1>
 &lt;p>Use the &lt;em>Information&lt;/em> function (&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>I&lt;/kbd>)
 to open a panel that displays the title structure and page number.&lt;/p>
@@ -150,7 +150,7 @@ to open a panel that displays the title structure and page number.&lt;/p>
 &lt;/ul>
 &lt;p>Press the &lt;kbd>Escape&lt;/kbd> key to close the &lt;code>Information&lt;/code> panel
 and return to the text.&lt;/p>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-progression.png&amp;quot; alt=&amp;ldquo;Screenshot, progress: 14/25 (barrel incident) [1%] h1: VII&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-progression.png" alt="Screenshot, progress: 14/25 (barrel incident) [1%] h1: VII"/>
 &lt;details >&lt;summary>Use &lt;strong>Where am I&lt;/strong> with NVDA&lt;/summary>
 &lt;div class="markdown-inner">
 &lt;p>Press the &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>F7&lt;/kbd> keys, and then the
@@ -188,7 +188,7 @@ Remember that performing a search and navigating thru the results
 will make you loose the reading point you where at.
 Just place a Bookmark to make sure you find your way back.
 &lt;/div>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-search-navpanel.png&amp;quot; alt=&amp;ldquo;Screenshot, the search bar is present above the text, the corresponding text highlighted in green and the Search panel indicates a match&amp;rdquo;//&amp;gt;&lt;/p></description></item><item><title>Docs: Mark a page or a passage</title><link>https://thorium.edrlab.org/en/docs/210_reading/214_bookmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/210_reading/214_bookmarks/</guid><description>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-search-navpanel.png" alt="Screenshot, the search bar is present above the text, the corresponding text highlighted in green and the Search panel indicates a match"/></description></item><item><title>Docs: Mark a page or a passage</title><link>https://thorium.edrlab.org/en/docs/210_reading/214_bookmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/210_reading/214_bookmarks/</guid><description>
 &lt;h2 id="add-a-bookmark">Add a bookmark&lt;/h2>
 &lt;p>The &lt;code>bookmark&lt;/code> button allows you to add a custom bookmark.
 A &lt;code>bookmark&lt;/code> can be a fixed point or a text selection.
@@ -280,7 +280,7 @@ the operating system.&lt;/p>
 &lt;li>Write the word &lt;em>Luciole&lt;/em> in the empty field that appears next to the drop-down list.&lt;/li>
 &lt;li>Confirm with &lt;kbd>Enter&lt;/kbd>.&lt;/li>
 &lt;/ol>
-&lt;p>&amp;lt;img class=&amp;ldquo;icons&amp;rdquo; src=&amp;quot;/images/local-fr/thorium-luciole.png&amp;quot; alt=&amp;ldquo;Screenshot showing the Text settings Pannel with Luciole set up as reading font&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img class="icons" src="https://thorium.edrlab.org/images/local-fr/thorium-luciole.png" alt="Screenshot showing the Text settings Pannel with Luciole set up as reading font"/>
 &lt;/div>
 &lt;h2 id="display">Display&lt;/h2>
 &lt;p>You can choose between a page layout with scrolling or pagination,
@@ -307,13 +307,13 @@ so it is not automatically activated when you open Thorium.
 To activate it when reading a book, go to the
 menu &lt;code>Reading settings&lt;/code>, at the bottom of the &lt;code>Display&lt;/code> tab you will find
 a checkbox &lt;code>MathJax&lt;/code>.&lt;/p>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-mathjax.png&amp;quot; alt=&amp;ldquo;Screenshot of a complex mathematical formula correctly displayed with the MathJax option checked.&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-mathjax.png" alt="Screenshot of a complex mathematical formula correctly displayed with the MathJax option checked."/>
 &lt;p>Once MathJax is activated, you can use the &lt;code>contextual menu&lt;/code> (right click)
 on a mathematical formula inserted in MathML format and use the many
 options proposed such as reading aloud (speech), viewing the semantic marking
 or copy the formula with its semantic attributes to use it in a
 compatible editor.&lt;/p>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-mathjax-menu.png&amp;quot; alt=&amp;ldquo;Screenshot of the MathJax context menu showing the Accessibility sub-menu with the Activate option checked.&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-mathjax-menu.png" alt="Screenshot of the MathJax context menu showing the Accessibility sub-menu with the Activate option checked."/>
 &lt;details >&lt;summary>Read &lt;strong>mathematics&lt;/strong> with NVDA&lt;/summary>
 &lt;div class="markdown-inner">
 &lt;p>You can read mathematical expressions tagged with MathML using
@@ -430,7 +430,7 @@ the name of the tag you want to add then press the &lt;code>Add&lt;/code> button
 The tag is added in a blue box, you can remove it by clicking on
 the cross.&lt;/p>
 &lt;/div>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-tags.png&amp;quot; alt=&amp;ldquo;Screenshot, the search bar is present above the text, the corresponding text is highlighted in green and the Search panel shows 1 match&amp;rdquo;//&amp;gt;&lt;/p></description></item><item><title>Docs: Search</title><link>https://thorium.edrlab.org/en/docs/220_organizing/223_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/220_organizing/223_search/</guid><description>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-tags.png" alt="Screenshot, the search bar is present above the text, the corresponding text is highlighted in green and the Search panel shows 1 match"/></description></item><item><title>Docs: Search</title><link>https://thorium.edrlab.org/en/docs/220_organizing/223_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/220_organizing/223_search/</guid><description>
 &lt;p>Press the &lt;kbd>Ctrl + F&lt;/kbd> key combination, enter the text you want to search,
 press the &lt;code>Results&lt;/code> button, then press the
 &lt;kbd>Enter&lt;/kbd> on the link to the desired result.&lt;/p>
@@ -484,7 +484,7 @@ Thorium 2.3 TTS reads page numbers by default which might result in a too verbos
 &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_ressources/420_glossary#bookInformation">Book information panel&lt;/a>
 under the heading &lt;code>Description&lt;/code> the content of the accessibility summary metadata
 (&lt;span lang="en">accessibilitySummary&lt;/span>).&lt;/p>
-&lt;p>&amp;lt;img src=&amp;quot;/images/local-fr/thorium-bookinfo-a11ysummary.png&amp;quot; alt=&amp;ldquo;Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs ».&amp;rdquo;//&amp;gt;&lt;/p>
+&lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs »."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
 &lt;p>Work is underway to develop a guide for displaying accessibility information.
