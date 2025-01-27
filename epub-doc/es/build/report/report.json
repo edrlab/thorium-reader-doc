@@ -1,0 +1,504 @@
+{
+  "@type": "earl:report",
+  "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
+  "dct:title": "Ace Report",
+  "dct:description": "Report on automated accessibility checks for EPUB",
+  "dct:date": "27/01/2025, 10:21:40",
+  "earl:assertedBy": {
+    "@type": "earl:software",
+    "doap:name": "DAISY Ace",
+    "doap:description": "DAISY Accessibility Checker for EPUB",
+    "doap:homepage": "http://daisy.github.io/ace",
+    "doap:created": "2017-07-01",
+    "doap:release": {
+      "doap:revision": "1.1.1"
+    }
+  },
+  "outlines": {
+    "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n          <li>\n             Principios \n          </li>\n          <li>\n             Abrir lector de Thorium  \n          </li>\n          <li>\n             Windows, vistas y paneles \n            <ol>\n              <li>\n                 ventana principal \n                <ol>\n                  <li>\n                    Vista de inicio\n                  </li>\n                  <li>\n                    Ver todas las publicaciones\n                    <ol>\n                      <li>\n                        Modo de cuadrícula\n                      </li>\n                      <li>\n                        Modo tabla\n                      </li>\n                    </ol>\n                  </li>\n                  <li>\n                    Vista de catálogos\n                  </li>\n                  <li>\n                    Panel de configuración de la aplicación\n                  </li>\n                </ol>\n              </li>\n              <li>\n                Ventana de lectura\n                <ol>\n                  <li>\n                    Panel de navegación de lectura\n                  </li>\n                  <li>\n                    Panel de configuración de lectura\n                  </li>\n                  <li>\n                     Panel de información de libros \n                  </li>\n                </ol>\n              </li>\n            </ol>\n          </li>\n          <li>\n             Acciones de bibliotecas \n          </li>\n          <li>\n             Acciones de catálogos \n          </li>\n          <li>\n             Lectura \n            <ol>\n              <li>\n                 Lectura de contenido textual \n              </li>\n              <li>\n                Lectura de contenidos visuales\n              </li>\n              <li>\n                Lectura de contenidos de audio\n              </li>\n              <li>\n                Leer archivos PDF\n              </li>\n            </ol>\n          </li>\n          <li>\n            Buscar en un libro\n          </li>\n          <li>\n            Anotaciones\n            <ol>\n              <li>\n                 Panel de anotaciones \n              </li>\n              <li>\n                 Opciones para anotaciones \n              </li>\n              <li>\n                 anotaciones de clasificación y filtro \n              </li>\n              <li>\n                 Revisión y manipulación de anotaciones \n              </li>\n              <li>\n                 Exportación e importación de anotaciones \n              </li>\n            </ol>\n          </li>\n          <li>\n             Accesibilidad \n          </li>\n          <li>\n             Lectura con un lector de pantalla \n          </li>\n          <li>\n             Ressources \n          </li>\n          <li>\n             Funciones de claves \n          </li>\n          <li>\n             Gestos táctiles \n          </li>\n          <li>\n             Formatos de publicación compatibles \n          </li>\n          <li>\n             Acerca de este libro electrónico \n          </li>\n        </ol>",
+    "headings": "<ul><li><span class=\"toc-h1\">Guía del usuario del lector de Thorium  (inglés, 3.1)</span><ul><li><span class=\"toc-h2\">Esta es la documentación para el Thorium  3, ¡y es un trabajo en progreso!</span><li><span class=\"toc-h2\">Material adicional disponible en línea</span></li></ul></li><li><span class=\"toc-h1\">Apertura del lector de Thorium </span><li><span class=\"toc-h1\">Windows, views and panels</span><ul><li><span class=\"toc-h2\">Main window</span><ul><li><span class=\"toc-h3\">Home View</span><li><span class=\"toc-h3\">All publications View</span><ul><li><span class=\"toc-h4\">Grid Mode</span><li><span class=\"toc-h4\">Table Mode</span></li></ul></li><li><span class=\"toc-h3\">Catalogs View</span><li><span class=\"toc-h3\">Application Settings Panel</span></li></ul></li><li><span class=\"toc-h2\">Reading window</span><ul><li><span class=\"toc-h3\">Reading navigation panel</span><li><span class=\"toc-h3\">Reading settings panel</span></li></ul></li><li><span class=\"toc-h2\">Book Information panel</span></li></ul></li><li><span class=\"toc-h1\">Acciones de bibliotecas</span><ul><li><span class=\"toc-h2\">Agregar etiquetas</span></li></ul></li><li><span class=\"toc-h1\">Catalogs actions</span><ul><li><span class=\"toc-h2\">Setting up an OPDS catalog</span><ul><li><span class=\"toc-h3\">Example of OPDS feeds with LCP protected contents</span><li><span class=\"toc-h3\">OPDS Feed responsibility</span></li></ul></li><li><span class=\"toc-h2\">Setting up a french public library account</span></li></ul></li><li><span class=\"toc-h1\">Lectura</span><ul><li><span class=\"toc-h2\">Reading textual contents</span><ul><li><span class=\"toc-h3\">Text adjustment settings</span><li><span class=\"toc-h3\">Theme</span><li><span class=\"toc-h3\">Text</span><ul><li><span class=\"toc-h4\">Example 1: Setting Verdana as the reading font</span><li><span class=\"toc-h4\">Example 2: Setting up Luciole as the reading font</span></li></ul></li><li><span class=\"toc-h3\">Display</span><li><span class=\"toc-h3\">Spacing</span><li><span class=\"toc-h3\">Readaloud</span><li><span class=\"toc-h3\">Text to Speech (TTS)</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Lectura de contenidos visuales</span><ul><li><span class=\"toc-h2\">Hacer zoom en las imágenes</span></li></ul></li><li><span class=\"toc-h1\">Lectura de contenidos de audio</span><li><span class=\"toc-h1\">Leer archivos PDF</span><ul><li><span class=\"toc-h2\">Buscar en un libro</span></li></ul></li><li><span class=\"toc-h1\">Annotations</span><ul><li><span class=\"toc-h2\">Annotations panel</span><li><span class=\"toc-h2\">Options for annotations</span><li><span class=\"toc-h2\">Sort and filter annotations</span><li><span class=\"toc-h2\">Export and Import of Annotations</span></li></ul></li><li><span class=\"toc-h1\">Accessibility</span><ul><li><span class=\"toc-h2\">Accessibility information</span><li><span class=\"toc-h2\">Native accessibility functions</span><li><span class=\"toc-h2\">Visual adjustments</span><li><span class=\"toc-h2\">Text-to-Speech (TTS)</span><li><span class=\"toc-h2\">Reading with a screen reader</span></li></ul></li><li><span class=\"toc-h1\">Keystrokes common to NVDA and JAWS</span><ul><li><span class=\"toc-h2\">Quick keys for navigation</span><li><span class=\"toc-h2\">Text</span><li><span class=\"toc-h2\">Tables</span></li></ul></li><li><span class=\"toc-h1\">Recursos</span><ul><li><span class=\"toc-h2\">Keys functions</span><li><span class=\"toc-h2\">Gestos táctiles</span><li><span class=\"toc-h2\">Gestos Contexto Acción</span><li><span class=\"toc-h2\">Supported publication formats</span></li></ul></li><li><span class=\"toc-h1\">Acerca de este libro electrónico</span><ul><li><span class=\"toc-h2\">Créditos</span><li><span class=\"toc-h2\">-Gautier Chomel\n-Georges Kerscher\n-Noelia Ruiz Martínez\n-Prashant Verma</span><li><span class=\"toc-h2\">Accesibilidad</span><li><span class=\"toc-h2\">Licencias</span><li><span class=\"toc-h2\">¿Quién ha desarrollado esta aplicación?</span><li><span class=\"toc-h2\">¿Quién financia esta aplicación?</span><li><span class=\"toc-h2\">Your help is precious</span><li><span class=\"toc-h2\">¿Atascado?</span></li></ul></li><li><span class=\"toc-h1\"> Tabla de contenido </span><li><span class=\"toc-h1\">Punto de referencia</span></li></ul>",
+    "html": "<ol><li><ol><li>Guía del usuario del lector de Thorium  (inglés, 3.1)</li></ol></li><li><ol><li>Esta es la documentación para el Thorium  3, ¡y es un trabajo en progreso!</li><li>Material adicional disponible en línea</li></ol></li><li><ol><li>Apertura del lector de Thorium </li></ol></li><li><ol><li>Windows, views and panels<ol><li>Main window<ol><li>Home View</li><li>All publications View<ol><li>Grid Mode</li><li>Table Mode</li></ol></li><li>Catalogs View</li><li>Application Settings Panel</li></ol></li><li>Reading window<ol><li>Reading navigation panel</li><li>Reading settings panel</li></ol></li><li>Book Information panel</li></ol></li></ol></li><li><ol><li>Acciones de bibliotecas<ol><li>Agregar etiquetas</li></ol></li></ol></li><li><ol><li>Catalogs actions<ol><li>Setting up an OPDS catalog<ol><li>Example of OPDS feeds with LCP protected contents</li><li>OPDS Feed responsibility</li></ol></li><li>Setting up a french public library account</li></ol></li></ol></li><li><ol><li>Lectura</li></ol></li><li><ol><li>Reading textual contents<ol><li>Text adjustment settings</li><li>Theme</li><li>Text<ol><li>Example 1: Setting Verdana as the reading font</li><li>Example 2: Setting up Luciole as the reading font</li></ol></li><li>Display</li><li>Spacing</li><li>Readaloud</li><li>Text to Speech (TTS)</li></ol></li></ol></li><li><ol><li>Lectura de contenidos visuales<ol><li>Hacer zoom en las imágenes</li></ol></li></ol></li><li><ol><li>Lectura de contenidos de audio</li></ol></li><li><ol><li>Leer archivos PDF</li></ol></li><li><ol><li>Buscar en un libro</li></ol></li><li><ol><li>Annotations<ol><li>Annotations panel</li><li>Options for annotations</li><li>Sort and filter annotations</li><li>Export and Import of Annotations</li></ol></li></ol></li><li><ol><li>Accessibility<ol><li>Accessibility information</li><li>Native accessibility functions</li><li>Visual adjustments</li><li>Text-to-Speech (TTS)</li></ol></li></ol></li><li><ol><li>Reading with a screen reader</li><li>Keystrokes common to NVDA and JAWS<ol><li>Quick keys for navigation</li><li>Text</li><li>Tables</li></ol></li></ol></li><li><ol><li>Recursos</li></ol></li><li><ol><li>Keys functions</li></ol></li><li><ol><li>Gestos táctiles</li><li>Gestos Contexto Acción</li></ol></li><li><ol><li>Supported publication formats</li></ol></li><li><ol><li>Acerca de este libro electrónico<ol><li>Créditos</li><li>-Gautier Chomel\n-Georges Kerscher\n-Noelia Ruiz Martínez\n-Prashant Verma</li><li>Accesibilidad</li><li>Licencias</li><li>¿Quién ha desarrollado esta aplicación?</li><li>¿Quién financia esta aplicación?</li></ol></li></ol></li><li><ol><li>Your help is precious</li></ol></li><li><ol><li>¿Atascado?</li></ol></li><li><ol><li><i>Untitled BODY</i><ol><li> Tabla de contenido <ol><li><i>Untitled NAV</i></li></ol></li><li>Punto de referencia<ol><li><i>Untitled NAV</i></li></ol></li></ol></li></ol></li></ol>"
+  },
+  "data": {
+    "images": [
+      {
+        "src": "EPUB/resources/images/cover.png",
+        "alt": "",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../resources/images/cover.png\" alt=\"\" />",
+        "location": "cover/index.xhtml#epubcfi(/4/4/2)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/th3_main_window_home.png",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/th3_main_window_home.png\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/12/2)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/th3_main_settings_keys_context.png",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/th3_main_settings_keys_context.png\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/42/6/2/2)"
+      },
+      {
+        "src": "EPUB/resources/images/icons3/tag-icon.svg",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/tag-icon.svg\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/68/14/2)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/th3_library_grid_actions.png",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/th3_library_grid_actions.png\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/6/2)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/th3_library_table_actions.png",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/th3_library_table_actions.png\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/6/4)"
+      },
+      {
+        "src": "EPUB/resources/images/icons3/info-icon.svg",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/info-icon.svg\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/6/6)"
+      },
+      {
+        "src": "EPUB/resources/images/icons3/doubleCheck-icon.svg",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/doubleCheck-icon.svg\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/6/8)"
+      },
+      {
+        "src": "EPUB/resources/images/icons3/bin-icon.svg",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/bin-icon.svg\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/6/10)"
+      },
+      {
+        "src": "EPUB/resources/images/icons3/SaveAs-icon.svg",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/SaveAs-icon.svg\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/6/12)"
+      },
+      {
+        "src": "EPUB/resources/images/icons3/search-icon.svg",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/search-icon.svg\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/12/2)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/th3_library_pages.png",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/th3_library_pages.png\" class=\"icon\" alt=\"\" role=\"presentation\" />",
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/24/2)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/thorium-opds-add.png",
+        "alt": "image",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/thorium-opds-add.png\" alt=\"image\" />",
+        "location": "./pages/111_catalogs_actions/index.xhtml#epubcfi(/4/18/2)"
+      },
+      {
+        "src": "EPUB/resources/images/icons3/textarea-icon.svg",
+        "alt": "",
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/textarea-icon.svg\" role=\"presentation\" alt=\"\" />",
+        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/8/4)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/thorium-verdana.png",
+        "alt": "Screenshot showing the Text settings Pannel with verdana set up as reading font",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/thorium-verdana.png\" alt=\"Screenshot showing the Text settings Pannel with verdana set up as reading font\" />",
+        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/24/6/2)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/thorium-luciole.png",
+        "alt": "Screenshot showing the Text settings Pannel with Luciole set up as reading font",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/thorium-luciole.png\" alt=\"Screenshot showing the Text settings Pannel with Luciole set up as reading font\" />",
+        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/24/12/2)"
+      },
+      {
+        "src": "EPUB/resources/images/icons3/annotation-icon.svg",
+        "alt": null,
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/annotation-icon.svg\" class=\"icon\" role=\"presentation\" />",
+        "location": "./pages/240_annotations/index.xhtml#epubcfi(/4/6/2)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/th3_anotation_pop_up.png",
+        "alt": null,
+        "role": "presentation",
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/th3_anotation_pop_up.png\" class=\"icon\" role=\"presentation\" />",
+        "location": "./pages/240_annotations/index.xhtml#epubcfi(/4/8)"
+      },
+      {
+        "src": "EPUB/resources/images/local-es/thorium-bookinfo-a11ysummary.png",
+        "alt": "Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs ».",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-es/thorium-bookinfo-a11ysummary.png\" alt=\"Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs ».\" />",
+        "location": "./pages/300_accessibility/index.xhtml#epubcfi(/4/14/2)"
+      }
+    ]
+  },
+  "properties": {
+    "hasManifestFallbacks": false,
+    "hasBindings": false,
+    "hasSVGContentDocuments": false,
+    "hasFormElements": false,
+    "hasMathML": false,
+    "hasPageBreaks": false
+  },
+  "earl:testSubject": {
+    "url": "../epub",
+    "metadata": {
+      "dc:title": "Guía del usuario del lector de Thorium  (inglés, 3.1)",
+      "dc:creator": "EDRLab",
+      "dc:publisher": "EDRLab",
+      "dc:description": "Esta es la documentación oficial del Thorium  3.1. Ofrece orientación para ayudarlo a conocer y hacer un mejor uso del lector de Thorium . Las referencias de soporte rápido no se incluyen aquí y están disponibles en línea desde las páginas web de soporte de Thorium .",
+      "dc:identifier": "com.github.edrlab.thorium-reader-doc-epub.3.0.1",
+      "dc:language": "en",
+      "dc:rights": "Creative Commons Attribution-compartir (CC BY-SA) Licencia.",
+      "dcterms:modified": "2024-12-31T00:00:00Z",
+      "schema:accessibilityFeature": [
+        "alternativeText",
+        "readingOrder",
+        "structuralNavigation",
+        "tableOfContents"
+      ],
+      "schema:accessMode": [
+        "textual",
+        "visual"
+      ],
+      "schema:accessModeSufficient": "textual",
+      "schema:accessibilityControl": [
+        "fullKeyboardControl",
+        "fullMouseControl"
+      ]
+    },
+    "links": {}
+  },
+  "a11y-metadata": {
+    "missing": [
+      "schema:accessibilityHazard",
+      "schema:accessibilitySummary",
+      "schema:accessibilityAPI",
+      "a11y:certifiedBy",
+      "dcterms:conformsTo"
+    ],
+    "empty": [],
+    "present": [
+      "schema:accessMode",
+      "schema:accessibilityFeature",
+      "schema:accessModeSufficient",
+      "schema:accessibilityControl"
+    ]
+  },
+  "assertions": [
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "fail"
+      },
+      "assertions": [
+        {
+          "@type": "earl:assertion",
+          "earl:result": {
+            "earl:outcome": "fail",
+            "dct:description": "Publications must declare the 'schema:accessibilitySummary' metadata"
+          },
+          "earl:assertedBy": "Ace",
+          "earl:mode": "automatic",
+          "earl:test": {
+            "earl:impact": "serious",
+            "dct:title": "metadata-accessibilitysummary",
+            "dct:description": "Ensures a 'schema:accessibilitySummary' metadata is present",
+            "help": {
+              "url": "http://kb.daisy.org/publishing/docs/metadata/schema-org.html",
+              "dct:title": "Schema.org Accessibility Metadata",
+              "dct:description": "Add a 'schema:accessibilitySummary' metadata property to the Package Document"
+            },
+            "rulesetTags": [
+              "EPUB"
+            ]
+          }
+        }
+      ],
+      "earl:testSubject": {
+        "url": "EPUB/package.opf",
+        "dct:title": "Guía del usuario del lector de Thorium  (inglés, 3.1)"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "cover/index.xhtml",
+        "dct:title": "Guía del usuario del lector de Thorium  (inglés, 3.1)"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/100_forewords/index.xhtml",
+        "dct:title": "Prólogos"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/101_opening_thorium/index.xhtml",
+        "dct:title": "Apertura del lector de Thorium"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/102_windows_views_panels/index.xhtml",
+        "dct:title": "Ventanas, vistas y paneles."
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/110_libraries_actions/index.xhtml",
+        "dct:title": "Acciones de bibliotecas"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/111_catalogs_actions/index.xhtml",
+        "dct:title": "Acciones de catálogos"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/210_reading/index.xhtml",
+        "dct:title": "Lectura"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/211_reading_textuals/index.xhtml",
+        "dct:title": "Lectura de contenidos textuales"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/212_reading_visuals/index.xhtml",
+        "dct:title": "Lectura de contenidos visuales"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/213_reading_auditory/index.xhtml",
+        "dct:title": "Leer contenidos de audio"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/214_reading_pdfs/index.xhtml",
+        "dct:title": "Lectura de PDFS"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/220_reading_actions/index.xhtml",
+        "dct:title": "buscar en un libro"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/240_annotations/index.xhtml",
+        "dct:title": "Anotaciones"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/300_accessibility/index.xhtml",
+        "dct:title": "Accesibilidad"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/311_screenreaders/index.xhtml",
+        "dct:title": "Leer con un lector de pantalla"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/400_ressources/index.xhtml",
+        "dct:title": "Recursos"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/402_keys_functions/index.xhtml",
+        "dct:title": "Funciones de las teclas"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/403_gesture/index.xhtml",
+        "dct:title": "Gestos táctiles"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/406_formats/index.xhtml",
+        "dct:title": "Formatos de publicación compatibles"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/900_about/index.xhtml",
+        "dct:title": "Acerca de este libro electrónico"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/903_support/index.xhtml",
+        "dct:title": "¿Quieres ayudar?"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "./pages/904_issues/index.xhtml",
+        "dct:title": "Atascado?"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "toc/index.xhtml",
+        "dct:title": "Tabla de contenido"
+      }
+    }
+  ],
+  "earl:result": {
+    "earl:outcome": "fail"
+  }
+}

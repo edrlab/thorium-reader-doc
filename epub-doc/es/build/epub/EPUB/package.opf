@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package 
+  xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="uid" prefix="cc: http://creativecommons.org/ns#">
+  <metadata 
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Guía del usuario del lector de Thorium  (inglés, 3.1)</dc:title>
+    <dc:creator>EDRLab</dc:creator>
+    <dc:publisher>EDRLab</dc:publisher>
+    <dc:description>Esta es la documentación oficial del Thorium  3.1. Ofrece orientación para ayudarlo a conocer y hacer un mejor uso del lector de Thorium . Las referencias de soporte rápido no se incluyen aquí y están disponibles en línea desde las páginas web de soporte de Thorium .</dc:description>
+    <dc:identifier id="uid">com.github.edrlab.thorium-reader-doc-epub.3.0.1</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:rights>Creative Commons Attribution-compartir (CC BY-SA) Licencia.</dc:rights>
+    <meta property="dcterms:modified">2024-12-31T00:00:00Z</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityControl">fullKeyboardControl</meta>
+    <meta property="schema:accessibilityControl">fullMouseControl</meta>
+  </metadata>
+  <manifest>
+    <item id="rsc1"
+      href="resources/css/blitz-lite.min.css"
+      media-type="text/css"
+    
+    />
+    <item id="rsc2"
+      href="resources/css/edrlabpublications.css"
+      media-type="text/css"
+    
+    />
+    <item id="rsc3"
+      href="resources/css/thdoc.css"
+      media-type="text/css"
+    
+    />
+    <item id="rsc4"
+      href="resources/images/asterism.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc5"
+      href="resources/images/cover.png"
+      media-type="image/png"
+    
+      properties="cover-image"
+    
+    />
+    <item id="rsc6"
+      href="resources/images/icons3/2cols-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc7"
+      href="resources/images/icons3/BookmarkRemove-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc8"
+      href="resources/images/icons3/Minus-Bold.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc9"
+      href="resources/images/icons3/Plus-bold.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc10"
+      href="resources/images/icons3/SaveAs-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc11"
+      href="resources/images/icons3/TextOutline-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc12"
+      href="resources/images/icons3/TextStrikethrough-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc13"
+      href="resources/images/icons3/add-alone.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc14"
+      href="resources/images/icons3/addTag-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc15"
+      href="resources/images/icons3/align-auto-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc16"
+      href="resources/images/icons3/align-justify-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc17"
+      href="resources/images/icons3/align-right-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc18"
+      href="resources/images/icons3/alignleft-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc19"
+      href="resources/images/icons3/annotation-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc20"
+      href="resources/images/icons3/annotations-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc21"
+      href="resources/images/icons3/arrow-right.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc22"
+      href="resources/images/icons3/arrowFirst-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc23"
+      href="resources/images/icons3/arrowLast-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc24"
+      href="resources/images/icons3/aspect_ratio-black-18dp.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc25"
+      href="resources/images/icons3/audio-next-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc26"
+      href="resources/images/icons3/audio-pause-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc27"
+      href="resources/images/icons3/audio-play-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc28"
+      href="resources/images/icons3/audio-previous-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc29"
+      href="resources/images/icons3/audio-stop-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc30"
+      href="resources/images/icons3/available-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc31"
+      href="resources/images/icons3/avatar.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc32"
+      href="resources/images/icons3/backward-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc33"
+      href="resources/images/icons3/baseline-add-24px.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc34"
+      href="resources/images/icons3/baseline-arrow_forward_ios-24px.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc35"
+      href="resources/images/icons3/baseline-arrow_left_ios-24px.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc36"
+      href="resources/images/icons3/baseline-close-24px.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc37"
+      href="resources/images/icons3/baseline-mute-24px.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc38"
+      href="resources/images/icons3/baseline-search-24px-grey.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc39"
+      href="resources/images/icons3/bin-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc40"
+      href="resources/images/icons3/bookOpen-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc41"
+      href="resources/images/icons3/bookmarkMultiple-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc42"
+      href="resources/images/icons3/bookmarkSingle-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc43"
+      href="resources/images/icons3/borrow-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc44"
+      href="resources/images/icons3/breadcrumbsNav-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc45"
+      href="resources/images/icons3/calendar-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc46"
+      href="resources/images/icons3/calendar2-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc47"
+      href="resources/images/icons3/calendarExpired-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc48"
+      href="resources/images/icons3/cart-fill.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc49"
+      href="resources/images/icons3/cart-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc50"
+      href="resources/images/icons3/catalogs-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc51"
+      href="resources/images/icons3/chevron-down.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc52"
+      href="resources/images/icons3/chevron-right.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc53"
+      href="resources/images/icons3/chevron-up.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc54"
+      href="resources/images/icons3/clock-reverse-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc55"
+      href="resources/images/icons3/close-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc56"
+      href="resources/images/icons3/cog-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc57"
+      href="resources/images/icons3/comment-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc58"
+      href="resources/images/icons3/defaultPage-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc59"
+      href="resources/images/icons3/deleteFilter-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc60"
+      href="resources/images/icons3/dockleft-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc61"
+      href="resources/images/icons3/dockmodal-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc62"
+      href="resources/images/icons3/dockright-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc63"
+      href="resources/images/icons3/documents-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc64"
+      href="resources/images/icons3/done.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc65"
+      href="resources/images/icons3/doubleCheck-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc66"
+      href="resources/images/icons3/double_arrow_down_black_24dp.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc67"
+      href="resources/images/icons3/double_arrow_left_black_24dp.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc68"
+      href="resources/images/icons3/double_arrow_right_black_24dp.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc69"
+      href="resources/images/icons3/double_arrow_up_black_24dp.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc70"
+      href="resources/images/icons3/download.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc71"
+      href="resources/images/icons3/duplicate-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc72"
+      href="resources/images/icons3/emptylibrary-background-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc73"
+      href="resources/images/icons3/emptylibrary-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc74"
+      href="resources/images/icons3/filter-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc75"
+      href="resources/images/icons3/floppydisk-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc76"
+      href="resources/images/icons3/followLink-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc77"
+      href="resources/images/icons3/forbidden-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc78"
+      href="resources/images/icons3/forward-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc79"
+      href="resources/images/icons3/fullscreen-corners-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc80"
+      href="resources/images/icons3/fullscreen-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc81"
+      href="resources/images/icons3/fullscreenExit-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc82"
+      href="resources/images/icons3/gear-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc83"
+      href="resources/images/icons3/globe-icon-bold.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc84"
+      href="resources/images/icons3/globe-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc85"
+      href="resources/images/icons3/grid-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc86"
+      href="resources/images/icons3/headphone-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc87"
+      href="resources/images/icons3/highlight-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc88"
+      href="resources/images/icons3/home-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc89"
+      href="resources/images/icons3/import.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc90"
+      href="resources/images/icons3/info-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc91"
+      href="resources/images/icons3/key-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc92"
+      href="resources/images/icons3/keyreturn-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc93"
+      href="resources/images/icons3/landmark-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc94"
+      href="resources/images/icons3/language.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc95"
+      href="resources/images/icons3/layout-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc96"
+      href="resources/images/icons3/library-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc97"
+      href="resources/images/icons3/lightbulb-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc98"
+      href="resources/images/icons3/link-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc99"
+      href="resources/images/icons3/list-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc100"
+      href="resources/images/icons3/loader.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc101"
+      href="resources/images/icons3/logo_edrlab.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc102"
+      href="resources/images/icons3/loop.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc103"
+      href="resources/images/icons3/magnifying_glass.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc104"
+      href="resources/images/icons3/menu.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc105"
+      href="resources/images/icons3/ongoingBook-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc106"
+      href="resources/images/icons3/open_book.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc107"
+      href="resources/images/icons3/outline-exit_to_app-24px.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc108"
+      href="resources/images/icons3/outline-flip_to_front-24px.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc109"
+      href="resources/images/icons3/outline-info-24px.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc110"
+      href="resources/images/icons3/page-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc111"
+      href="resources/images/icons3/paintbrush-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc112"
+      href="resources/images/icons3/palette-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc113"
+      href="resources/images/icons3/password-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc114"
+      href="resources/images/icons3/pen-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc115"
+      href="resources/images/icons3/person-fill.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc116"
+      href="resources/images/icons3/readBook-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc117"
+      href="resources/images/icons3/refresh-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc118"
+      href="resources/images/icons3/scroll-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc119"
+      href="resources/images/icons3/search-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc120"
+      href="resources/images/icons3/shelf-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc121"
+      href="resources/images/icons3/singlecheck-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc122"
+      href="resources/images/icons3/speaker-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc123"
+      href="resources/images/icons3/stop-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc124"
+      href="resources/images/icons3/swatches-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc125"
+      href="resources/images/icons3/table-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc126"
+      href="resources/images/icons3/tag-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc127"
+      href="resources/images/icons3/target-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc128"
+      href="resources/images/icons3/textarea-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc129"
+      href="resources/images/icons3/toc-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc130"
+      href="resources/images/icons3/trash-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc131"
+      href="resources/images/icons3/underline-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc132"
+      href="resources/images/icons3/unsvg.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc133"
+      href="resources/images/icons3/validated-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc134"
+      href="resources/images/icons3/volume-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc135"
+      href="resources/images/local-es/th3_anotation_pop_up.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc136"
+      href="resources/images/local-es/th3_library_grid_actions.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc137"
+      href="resources/images/local-es/th3_library_pages.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc138"
+      href="resources/images/local-es/th3_library_table_actions.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc139"
+      href="resources/images/local-es/th3_main_settings_keys_context.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc140"
+      href="resources/images/local-es/th3_main_window_home.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc141"
+      href="resources/images/local-es/thorium-NVDA-liste-boutons-bibli.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc142"
+      href="resources/images/local-es/thorium-TDM-light.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc143"
+      href="resources/images/local-es/thorium-TDM-night.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc144"
+      href="resources/images/local-es/thorium-bookinfo-a11ysummary.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc145"
+      href="resources/images/local-es/thorium-fullscreen.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc146"
+      href="resources/images/local-es/thorium-gotopage.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc147"
+      href="resources/images/local-es/thorium-luciole.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc148"
+      href="resources/images/local-es/thorium-marquePages.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc149"
+      href="resources/images/local-es/thorium-mathjax-menu.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc150"
+      href="resources/images/local-es/thorium-mathjax.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc151"
+      href="resources/images/local-es/thorium-opds-add.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc152"
+      href="resources/images/local-es/thorium-opds-gallica-1.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc153"
+      href="resources/images/local-es/thorium-progression.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc154"
+      href="resources/images/local-es/thorium-reperes.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc155"
+      href="resources/images/local-es/thorium-search-navpanel.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc156"
+      href="resources/images/local-es/thorium-signet.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc157"
+      href="resources/images/local-es/thorium-tags.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc158"
+      href="resources/images/local-es/thorium-verdana.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc159"
+      href="resources/images/local-es/thorium-whereami-ctrlK.png"
+      media-type="image/png"
+    
+    />
+    <item id="rsc160"
+      href="resources/images/local-es/thorium-whereami-tdmfocus.png"
+      media-type="image/png"
+    
+    />
+    <item id="cover" href="cover/index.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" properties="nav" href="toc/index.xhtml" media-type="application/xhtml+xml"/>
+    <item id="page1" href="./pages/000_title/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page2" href="./pages/100_forewords/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page3" href="./pages/101_opening_thorium/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page4" href="./pages/102_windows_views_panels/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page5" href="./pages/110_libraries_actions/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page6" href="./pages/111_catalogs_actions/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page7" href="./pages/210_reading/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page8" href="./pages/211_reading_textuals/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page9" href="./pages/212_reading_visuals/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page10" href="./pages/213_reading_auditory/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page11" href="./pages/214_reading_pdfs/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page12" href="./pages/220_reading_actions/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page13" href="./pages/240_annotations/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page14" href="./pages/300_accessibility/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page15" href="./pages/311_screenreaders/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page16" href="./pages/400_ressources/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page17" href="./pages/402_keys_functions/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page18" href="./pages/403_gesture/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page19" href="./pages/406_formats/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page20" href="./pages/900_about/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page21" href="./pages/903_support/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page22" href="./pages/904_issues/index.xhtml" media-type="application/xhtml+xml"
+    />
+    <item id="page23" href="./pages/905_contribute/index.xhtml" media-type="application/xhtml+xml"
+    />
+  </manifest>
+  <spine>
+    <itemref idref="cover"/>
+    <itemref idref="page2"/>
+    <itemref idref="page3"/>
+    <itemref idref="page4"/>
+    <itemref idref="page5"/>
+    <itemref idref="page6"/>
+    <itemref idref="page7"/>
+    <itemref idref="page8"/>
+    <itemref idref="page9"/>
+    <itemref idref="page10"/>
+    <itemref idref="page11"/>
+    <itemref idref="page12"/>
+    <itemref idref="page13"/>
+    <itemref idref="page14"/>
+    <itemref idref="page15"/>
+    <itemref idref="page16"/>
+    <itemref idref="page17"/>
+    <itemref idref="page18"/>
+    <itemref idref="page19"/>
+    <itemref idref="page20"/>
+    <itemref idref="page21"/>
+    <itemref idref="page22"/>
+    <itemref idref="toc"/>
+  </spine>
+</package>

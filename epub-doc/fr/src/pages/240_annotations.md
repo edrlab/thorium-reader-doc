@@ -8,9 +8,9 @@ draft: 'false'
 
 *Les annotations ont été introduites pour la première fois dans Thorium 3. En tant que nouvelle fonctionnalité, elles peuvent présenter des comportements inattendus. Faites-nous part de toute difficulté à laquelle vous faites face en [ouvrant un ticket](https://github.com/edrlab/thorium-reader/issues/new) ou [en nous envoyant un e-mail](https://www.edrlab.org/contact/) .*
 
-La manière la plus simple d’ajouter une annotation est de sélectionner un texte et d’appuyer sur le bouton Annotations ( <img src="../../resources/images/icons3/annotation-icon.svg" class="icon" role="presentation"> ) ou appuyez sur le raccourci clavier <kbd>Maj</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> . Cela ouvre la fenêtre contextuelle Annotation et place le curseur dans la zone de saisie où vous pouvez écrire votre annotation (facultatif). Vous pouvez modifier la couleur et le type de surbrillance (Fond uni, Souligné, Barré ou Contour) puis valider la création de l'annotation avec <span class="ui_button">Enregistrer</span> .
+La manière la plus simple d’ajouter une annotation est de sélectionner un texte et d’appuyer sur le bouton Annotations ( <img src="../../resources/images/icons3/annotation-icon.svg" class="icon" role="presentation"/> ) ou appuyez sur le raccourci clavier <kbd>Maj</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd> . Cela ouvre la fenêtre contextuelle Annotation et place le curseur dans la zone de saisie où vous pouvez écrire votre annotation (facultatif). Vous pouvez modifier la couleur et le type de surbrillance (Fond uni, Souligné, Barré ou Contour) puis valider la création de l'annotation avec <span class="ui_button">Enregistrer</span>.
 
-<img src="../../resources/images/local_en/th3_anotation_pop_up.png" class="icon" role="presentation">
+<img src="../../resources/images/local_en/th3_anotation_pop_up.png" class="icon" role="presentation"/>
 
 Les annotations du contenu ne sont pas accessibles par tabulation au clavier. Pour naviguer entre elles, les utilisateurs du clavier doivent ouvrir le panneau d'annotation.
 

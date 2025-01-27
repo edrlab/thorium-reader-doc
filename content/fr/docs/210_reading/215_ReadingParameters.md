@@ -55,7 +55,7 @@ le système d'exploitation.
 
 
 
-<img class="icons" src="/images/local-fr/thorium-luciole.png" alt=""//>
+<img class="icons" src="/images/local-fr/thorium-luciole.png" alt=""/>
 
 
 

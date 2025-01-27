@@ -10,4 +10,4 @@ Vous pouvez utiliser les touches <kbd>Ctrl</kbd> + <kbd>F</kbd> pour accéder au
 
 Attention : n'oubliez pas qu'en effectuant une recherche et en parcourant les résultats, vous perdrez le point de lecture où vous étiez. Placez simplement un signet pour vous assurer de retrouver votre chemin.
 
-<img src="../../resources/images/local-fr/thorium-search-navpanel.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte, le&lt;span translate="> texte correspondant surligné en vert et le panneau de recherche indique un<br>correspondance"
+<img src="../../resources/images/local-fr/thorium-search-navpanel.png" alt="Capture d'écran, la barre de recherche est présente au dessus du texte"/> texte correspondant surligné en vert et le panneau de recherche indique un<br/>correspondance"

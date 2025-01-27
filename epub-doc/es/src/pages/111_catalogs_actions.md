@@ -32,7 +32,7 @@ titles](https://www.gutenberg.org/ebooks/search.opds/){target="_blank"}
 Since Thorium 2.2, OPDS feeds can be edited so you can change the name
 or retrieve feed URL.
 
-![image](../../resources/images/local-fr/thorium-opds-add.png)
+![image](../../resources/images/local-es/thorium-opds-add.png)
 
 ### Example of OPDS feeds with LCP protected contents
 

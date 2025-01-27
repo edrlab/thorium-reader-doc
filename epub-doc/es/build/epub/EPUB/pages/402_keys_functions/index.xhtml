@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
+    <title>Funciones de las teclas</title>
+  </head>
+  <body>
+    <h2>Keys functions</h2>
+    <p>The following definition list gives for each function: the Name, the
+Code, a definition and the Default keyboard shortcut.</p>
+    <p>Each key combination can be changed in Thorium Setting Panel.</p>
+    <p>Regarding Keyboard keys conventions, the 
+      <kbd>Shift</kbd> key is
+represented by an empty arrow pointing up on some keyboards; the
+
+      <kbd>Ctrl</kbd> key is replaced by 
+      <kbd>Cmd</kbd> key on Mac keyboards.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Key</th>
+          <th>definition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Create Annotation (
+            <code>AnnotationsCreate</code>).
+          </td>
+          <td>
+            <kbd>Shift</kbd> + 
+            <kbd>Ctrl</kbd> + 
+            <kbd>Alt</kbd> + 
+            <kbd>A</kbd>
+          </td>
+          <td>:   Mark the selected texte and place focus on the annotation editor box.</td>
+        </tr>
+        <tr>
+          <td>Create Quick Annotation (
+            <code>AnnotationsCreateQuick</code>).
+          </td>
+          <td>
+            <kbd>Shift</kbd> + 
+            <kbd>Ctrl</kbd> + 
+            <kbd>Alt</kbd> + 
+            <kbd>Q</kbd>
+          </td>
+          <td>:   Mark the selected texte without further action.</td>
+        </tr>
+        <tr>
+          <td>Toggle Display of Annotations in margins(
+            <code>AnnotationsToggleMargin</code>).
+          </td>
+          <td>
+            <kbd>Shift</kbd> + 
+            <kbd>Ctrl</kbd> + 
+            <kbd>Alt</kbd> + 
+            <kbd>Z</kbd>
+          </td>
+          <td>:   Toggles between marked text highlighted and a less invasive margin marker just indicating that an annotation is present on the line.</td>
+        </tr>
+        <tr>
+          <td>Main content (
+            <code>FocusMain</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>F10</kbd>
+          </td>
+          <td>:   in reader and library windows, moves the keyboard focus to the  &quot;main &quot; area landmark (in the reader view, this is immediately before the frame that displays publication content)</td>
+        </tr>
+        <tr>
+          <td>Toolbar (
+            <code>FocusToolbar</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>T</kbd>
+          </td>
+          <td>:   in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the  &quot;skip &quot; link (which itself moves focus to the  &quot;main &quot; area landmark)</td>
+        </tr>
+        <tr>
+          <td>Navigation (
+            <code>FocusReaderNavigation</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>n</kbd>
+          </td>
+          <td>:in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.)</td>
+        </tr>
+        <tr>
+          <td>Table Of Content (
+            <code>FocusReaderNavigationTOC</code>).
+          </td>
+          <td>
+            <kbd>Shift</kbd> + 
+            <kbd>Ctrl</kbd> + 
+            <kbd>n</kbd>
+          </td>
+          <td>:in reader window, moves the keyboard focus to the navigation panel, but more specifically into the table of contents, and if possible at the detected heading / closest to the reading location.</td>
+        </tr>
+        <tr>
+          <td>Go to page (
+            <code>FocusReaderGotoPage</code>).
+          </td>
+          <td>
+            <kbd>Shift</kbd> + 
+            <kbd>Ctrl</kbd> + 
+            <kbd>p</kbd>
+          </td>
+          <td>:in reader window, moves the keyboard focus to the  &quot;goto page &quot; section in the navigation panel</td>
+        </tr>
+        <tr>
+          <td>Reader settings (
+            <code>FocusReaderSettings</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>s</kbd>
+          </td>
+          <td>:in reader window, moves the keyboard focus to the settings panel (user preferences for displaying publication content)</td>
+        </tr>
+        <tr>
+          <td>Bookmarks (
+            <code>ToggleBookmark</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>B</kbd>
+          </td>
+          <td>:   in reader window, toggle bookmark (a notification is produced so that screen readers announce the change)</td>
+        </tr>
+        <tr>
+          <td>Fullscreen (
+            <code>ToggleReaderFullscreen</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>F11</kbd>
+          </td>
+          <td>:   in reader window, toggle fullscreen</td>
+        </tr>
+        <tr>
+          <td>Book information panel (
+            <code>OpenReaderInfo</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>i</kbd>
+          </td>
+          <td>:   in reader window, publication info popup modal dialog (may be used in future Thorium version for similar feature in library window)</td>
+        </tr>
+        <tr>
+          <td>where am I (
+            <code>OpenReaderInfoWhereAmI</code>).
+          </td>
+          <td>
+            <kbd>Shift</kbd> + 
+            <kbd>Ctrl</kbd> + 
+            <kbd>i</kbd>
+          </td>
+          <td>:   in reader window, publication info popup modal dialog with direct keyboard focus on section that displays the headings hierarchy trail and other contextual information for the current reading location, such as nearest preceding page break, as well as document index in the reading order (this is the  &quot;where am I &quot; feature).</td>
+        </tr>
+        <tr>
+          <td>where am I (quick notification supported by Screen readers) (
+            <code>SpeakReaderInfoWhereAmI</code>).
+          </td>
+          <td>
+            <kbd>Shift</kbd> + 
+            <kbd>Ctrl</kbd> + 
+            <kbd>k</kbd>)
+          </td>
+          <td>:in reader window, this is the  &quot;where am I &quot; feature, just as above, but only spoken via screen reader TTS thanks to an ARIA live region with assertive speech which interrupts the current narration.</td>
+        </tr>
+        <tr>
+          <td>Close the book (
+            <code>CloseReader</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>w</kbd>
+          </td>
+          <td>:   in reader window, closes the window and returns to the library view.</td>
+        </tr>
+        <tr>
+          <td>Search a book (
+            <code>FocusSearch</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>F</kbd>
+          </td>
+          <td>:   in library window, moves the keyboard focus to the search text input of local bookshelf or OPDS feed</td>
+        </tr>
+        <tr>
+          <td>search into a book (
+            <code>FocusSearch</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>F</kbd>
+          </td>
+          <td>:   in reader window, moves the keyboard focus to the publication-wide search text input</td>
+        </tr>
+        <tr>
+          <td>previous or next search result (
+            <code>SearchPrevious</code>, 
+            <code>SearchNext</code>)).
+          </td>
+          <td>
+            <kbd>Shift</kbd> (optional) + 
+            <kbd>F3</kbd>
+          </td>
+          <td>:in reader window, when the publication-wide search text input is open, finds the previous / next match</td>
+        </tr>
+        <tr>
+          <td>previous or next search result (
+            <code>SearchPreviousAlt</code>, 
+            <code>SearchNextAlt</code>).
+          </td>
+          <td>
+            <kbd>Shift</kbd> (optional) + 
+            <kbd>Ctrl</kbd> + 
+            <kbd>G</kbd> /
+          </td>
+          <td>:same as above (alternative keyboard shortcut)</td>
+        </tr>
+        <tr>
+          <td>Next OPDS page (
+            <code>NavigatePreviousOPDSPage</code>, 
+            <code>NavigateNextOPDSPage</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>Left arrow</kbd> or 
+            <kbd>Right arrow</kbd> /
+          </td>
+          <td>:in library window for OPDS feeds, activates the previous or next pagination links</td>
+        </tr>
+        <tr>
+          <td>Next OPDS page (
+            <code>NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>comma</kbd> or 
+            <kbd>period</kbd>
+          </td>
+          <td>:same as above (alternative keyboard shortcut)</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>Shift</kbd> + 
+            <kbd>Alt</kbd> (except on MacOS) + 
+            <kbd>Left arrow</kbd> or 
+            <kbd>Right arrow</kbd>
+          </td>
+          <td>: Previous or next chapter (
+            <code>NavigatePreviousChapter</code> / 
+            <code>NavigateNextChapter</code>)
+          </td>
+          <td>:in reader window, move to previous or next  &quot;chapter &quot; (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the  &quot;main &quot; area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents).</td>
+        </tr>
+        <tr>
+          <td>Previous or next page (
+            <code>NavigatePreviousPage</code>).
+          </td>
+          <td>
+            <kbd>Left arrow</kbd> or 
+            <kbd>Right arrow</kbd> / 
+            <code>NavigateNextPage</code>
+          </td>
+          <td>:in reader window, move to previous or next  &quot;page &quot; (or scroll unit, if pagination is disabled)</td>
+        </tr>
+        <tr>
+          <td>Previous or next page (
+            <code>NavigatePreviousPageAlt</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>comma</kbd> or 
+            <kbd>period</kbd> / 
+            <code>NavigateNextPageAlt</code>)
+          </td>
+          <td>:Alternative keyboard shortcut for previous next page. In reader window, move to previous or next  &quot;page &quot; (or scroll unit, if pagination is disabled)</td>
+        </tr>
+        <tr>
+          <td>Beginning or End of the publication (
+            <code>NavigateToBegin</code>, 
+            <code>NavigateToEnd</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>Home</kbd> or 
+            <kbd>End</kbd> /
+          </td>
+          <td>:in reader window, goes to the beginning or the end of the publication</td>
+        </tr>
+        <tr>
+          <td>modifier for the inverse operation: Previous History and Next History(
+            <code>NavigatePreviousHistory</code> / 
+            <code>NavigateNextHistory</code>)
+          </td>
+          <td>: 
+            <kbd>Ctrl</kbd> + 
+            <kbd>backspace</kbd> with 
+            <kbd>Shift</kbd>
+          </td>
+          <td>:   in reader window, go back or forward in the navigation history: Beginning or End of the publication</td>
+        </tr>
+        <tr>
+          <td>Previous audio (
+            <code>AudioPrevious</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>1</kbd>
+          </td>
+          <td>:   in reader window, calls the  &quot;previous &quot; command for audio (TTS or EPUB3 Media Overlays readaloud, or  &quot;rewind &quot; for audiobooks)</td>
+        </tr>
+        <tr>
+          <td>Play or pause audio (
+            <code>AudioPlayPause</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>2</kbd>
+          </td>
+          <td>:   in reader window, calls the  &quot;play &quot; or  &quot;pause &quot; toggle commands for audio (TTS or EPUB3 Media Overlays readaloud)</td>
+        </tr>
+        <tr>
+          <td>Next audio (
+            <code>AudioNext</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>3</kbd>
+          </td>
+          <td>:   in reader window, calls the  &quot;next &quot; command for audio (TTS or EPUB3 Media Overlays readaloud, or  &quot;forward &quot; for audiobooks)</td>
+        </tr>
+        <tr>
+          <td>Stop audio (
+            <code>AudioStop</code>).
+          </td>
+          <td>
+            <kbd>Ctrl</kbd> + 
+            <kbd>4</kbd>
+          </td>
+          <td>:in reader window, calls the  &quot;stop &quot; command for audio (TTS or EPUB3 Media Overlays readaloud, or  &quot;pause &quot; for audiobooks)</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

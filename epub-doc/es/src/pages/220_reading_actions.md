@@ -21,4 +21,4 @@ Asegúrate de encontrar tu camino de regreso.
 
 ! [Captura de pantalla, la barra de búsqueda está presente sobre el texto, el
 texto correspondiente resaltado en verde y el panel de búsqueda indica un
-Match] (../../Resources/Images/Local-FR/Thorium -Search-Navpanel.png)
+Match] (../../Resources/Images/local-es/Thorium -Search-Navpanel.png)

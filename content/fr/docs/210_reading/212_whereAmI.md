@@ -14,21 +14,21 @@ l'interface et sera lue par un lecteur d'écran.
 {{< details "L'emplacement de la page est approximatif lorsqu'un lecteur d'écran est utilisé">}}
 En raison des limites inhérentes à la technologie actuelle des lecteurs d'écran, Thorium doit estimer l'emplacement de la lecture. Par conséquent, le numéro de page annoncé par Thorium ne reflète pas l'endroit où le lecteur d'écran lit réellement, l'erreur peut être de quelques phrases. 
 
-Ce [problème d'emplacement de la page du lecteur d'écran] (https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338) est connu et nous discutons d'un moyen de le résoudre [numéros de page et sauts de page accessibles] (https://github.com/edrlab/thorium-reader/discussions/1799).
+Ce [problème d'emplacement de la page du lecteur d'écran](https://github.com/edrlab/thorium-reader/issues/1662#issuecomment-1161534338) est connu et nous discutons d'un moyen de le résoudre [numéros de page et sauts de page accessibles](https://github.com/edrlab/thorium-reader/discussions/1799).
 
 Cependant, NVDA annoncera le saut de page comme un séparateur s'il a un attribut title (exemple : ` <span epub:type="pagebreak" role="doc-pagebreak" id="page_2" class="page" title="2"/>` fera que NVDA annoncera "Deux, séparateur").
 
 {{< /details >}}
 
 
-<img src="/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."//>
+<img src="/images/local-fr/thorium-whereami-ctrlK.png"  alt="Capture d'écran, zone de notification, page courante 103 - progression = 14/25 (incident du baril) [32%] H1 VII / H2 Incident du baril."/>
 
 
 
 Lorsque vous consultez le menu `Navigation`, Thorium indique le chapitre en cours 
 dans la `table des matières` ainsi que la page en cours dans le menu `Aller à la page`.
 
-<img src="/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."//>
+<img src="/images/local-fr/thorium-whereami-tdmfocus.png" alt="Capture d'écran, lecture d'un livre au titre VII Incident du Baril. Le volet de navigation est ouvert, la table des matières affiche le titre Incident du Baril dans un carré qui indique que c'est le chapitre en cours de lecture."/>
 
 # Informations de lecture
 
@@ -50,7 +50,7 @@ et revenir au texte.
 
 
 
-<img src="/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"//>
+<img src="/images/local-fr/thorium-progression.png" alt="Capture d'écran, progression : 14/25 (incident du baril) [1%] h1: VII"/>
 
 
 

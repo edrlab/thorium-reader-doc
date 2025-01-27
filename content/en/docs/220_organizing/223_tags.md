@@ -18,4 +18,4 @@ The tag is added in a blue box, you can remove it by clicking on
 the cross. 
 {{< /alert>}}
 
-<img src="/images/local-fr/thorium-tags.png" alt="Screenshot, the search bar is present above the text, the corresponding text is highlighted in green and the Search panel shows 1 match"//>
+<img src="/images/local-fr/thorium-tags.png" alt="Screenshot, the search bar is present above the text, the corresponding text is highlighted in green and the Search panel shows 1 match"/>
