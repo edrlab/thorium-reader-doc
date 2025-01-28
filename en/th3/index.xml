@@ -48,153 +48,7 @@ Whether you&amp;rsquo;re looking for the latest bestseller, a classic novel, a t
 &lt;h2 id="academic-and-professional-e-books">Academic and Professional E-Books:&lt;/h2>
 &lt;p>Google Scholar: Google Scholar provides a simple way to broadly search for scholarly literature. From one place, you can search across many disciplines and sources.&lt;/p>
 &lt;p>JSTOR: JSTOR is a digital library founded in 1995. Originally containing digitized back issues of academic journals, it now also includes books and primary sources. It is available to many universities and institutions across Europe.&lt;/p>
-&lt;p>Directory of Open Access Books (DOAB): DOAB provides open access to peer-reviewed books from various publishers. It is based in the Netherlands.&lt;/p></description></item><item><title>Th3: Accessibility</title><link>https://thorium.edrlab.org/en/th3/400_ressources/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/300_accessibility/</guid><description>
-&lt;h1 id="a11y">Accessibility&lt;/h1>
-&lt;p>Thorium Reader is for everyone, including people who are blind or have
-other types of visual, cognitive or motor disabilities. The application
-is compatible with accessible technologies like screen readers,
-including JAWS, NVDA, Narrator and VoiceOver. It includes a read-aloud
-feature with visual highlighting. Thorium Reader can be used with the
-mouse or the keyboard, and keyboard shortcuts are configurable. The
-display can be customized to meet the needs of users, including colors,
-text size, spacing, font and layout.&lt;/p>
-&lt;h2 id="a11y_info">Accessibility information&lt;/h2>
-&lt;p>Currently Thorium displays in the Book information panel, the accessibility information provided by the publisher. Thorium displays this information as it was defined. In case of doubt or
-complaint, please contact the distributor or the publisher of the file.&lt;/p></description></item><item><title>Th3: Reading with a screen reader</title><link>https://thorium.edrlab.org/en/th3/400_ressources/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/311_screenreaders/</guid><description>
-&lt;h2 id="reading-with-a-screen-reader">Reading with a screen reader&lt;/h2>
-&lt;p>When launching Thorium, if a screen reader is detected, the relative
-functions are activated.&lt;/p>
-&lt;p>Note that screen readers use a separate buffer to access the HTML
-content which results in the visual scroll / page offset to be out of
-sync. In other words, Thorium is generally not aware of the user's
-current reading location inside the screen reader buffer, unless the
-screen reader user triggers standard web API events (such as mouse click
-anywhere in the text, or keyboard tab into focusable HTML elements).&lt;/p>
-&lt;p>warning
-Attention !&lt;/p>
-&lt;p>Accessibility features addressed to assistive technologies are strongly
-affected by the quality of the book files.&lt;/p>
-&lt;h1 id="keystrokes-common-to-nvda-and-jaws">Keystrokes common to NVDA and JAWS&lt;/h1>
-&lt;p>(contribution from Prashant Verma, DAISY Consortium)&lt;/p>
-&lt;p>For reading text, navigating in tables, navigating in the browser
-window, the insertion key can be replaced by the modifier key of the screen
-reader (e.g. the Caps Lock key).&lt;/p>
-&lt;h2 id="quick-keys-for-navigation">Quick keys for navigation&lt;/h2>
-&lt;p>The screen reader must be in navigation or virtual cursor mode.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Action&lt;/th>
-&lt;th>Command&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Next title&lt;/td>
-&lt;td>&lt;kbd>H&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Next table&lt;/td>
-&lt;td>&lt;kbd>T&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Next chart&lt;/td>
-&lt;td>&lt;kbd>G&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Next list&lt;/td>
-&lt;td>&lt;kbd>L&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Next form field&lt;/td>
-&lt;td>&lt;kbd>F&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>List of elements&lt;/td>
-&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F7&lt;/kbd> (works regardless of cursor mode)&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>Use the above keys with the &lt;kbd>Shift&lt;/kbd> key to move to the previous
-item.&lt;/em>&lt;/p>
-&lt;h2 id="text">Text&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Action&lt;/th>
-&lt;th>Command&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Previous character&lt;/td>
-&lt;td>&lt;kbd>←&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Next character&lt;/td>
-&lt;td>&lt;kbd>→&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Previous word&lt;/td>
-&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Say Next word&lt;/td>
-&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Previous line&lt;/td>
-&lt;td>&lt;kbd>↑&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Next line&lt;/td>
-&lt;td>&lt;kbd>↓&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Previous sentence&lt;/td>
-&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↑&lt;/kbd> (Jaws only)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Next sentence&lt;/td>
-&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↓&lt;/kbd> (Jaws only)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Read all&lt;/td>
-&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Announce Font&lt;/td>
-&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="tables">Tables&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Action&lt;/th>
-&lt;th>Command&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Cell to the right&lt;/td>
-&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Cell to the left&lt;/td>
-&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Cell below&lt;/td>
-&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Cell above&lt;/td>
-&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/en/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/390_requirements/</guid><description>
+&lt;p>Directory of Open Access Books (DOAB): DOAB provides open access to peer-reviewed books from various publishers. It is based in the Netherlands.&lt;/p></description></item><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/en/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/390_requirements/</guid><description>
 &lt;p>Platform support is provided by Electron as defined in &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">Electron github repo Readme&lt;/a>&lt;/p>
 &lt;p>Each Electron release provides binaries for macOS, Windows, and Linux.&lt;/p>
 &lt;ul>
@@ -861,7 +715,151 @@ Having a UI for exporting the whole catalog is not a priority currently.
 &lt;/ul>
 &lt;p>In case of a migration from one computer to another or similar usecases, you can copy all ebook files in this repository and open them in the new installation of Thorium.&lt;/p>
 &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Translating</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Accessibility</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/300_accessibility/</guid><description>
+&lt;h1 id="a11y">Accessibility&lt;/h1>
+&lt;p>Thorium Reader is for everyone, including people who are blind or have
+other types of visual, cognitive or motor disabilities. The application
+is compatible with accessible technologies like screen readers,
+including JAWS, NVDA, Narrator and VoiceOver. It includes a read-aloud
+feature with visual highlighting. Thorium Reader can be used with the
+mouse or the keyboard, and keyboard shortcuts are configurable. The
+display can be customized to meet the needs of users, including colors,
+text size, spacing, font and layout.&lt;/p>
+&lt;h2 id="a11y_info">Accessibility information&lt;/h2>
+&lt;p>Currently Thorium displays in the Book information panel, the accessibility information provided by the publisher. Thorium displays this information as it was defined. In case of doubt or
+complaint, please contact the distributor or the publisher of the file.&lt;/p></description></item><item><title>Th3: Reading with a screen reader</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/311_screenreaders/</guid><description>
+&lt;h2 id="reading-with-a-screen-reader">Reading with a screen reader&lt;/h2>
+&lt;p>When launching Thorium, if a screen reader is detected, the relative
+functions are activated.&lt;/p>
+&lt;p>Note that screen readers use a separate buffer to access the HTML
+content which results in the visual scroll / page offset to be out of
+sync. In other words, Thorium is generally not aware of the user's
+current reading location inside the screen reader buffer, unless the
+screen reader user triggers standard web API events (such as mouse click
+anywhere in the text, or keyboard tab into focusable HTML elements).&lt;/p>
+&lt;p>Accessibility features addressed to assistive technologies are strongly
+affected by the quality of the book files.&lt;/p>
+&lt;h1 id="keystrokes-common-to-nvda-and-jaws">Keystrokes common to NVDA and JAWS&lt;/h1>
+&lt;p>(contribution from Prashant Verma, DAISY Consortium)&lt;/p>
+&lt;p>For reading text, navigating in tables, navigating in the browser
+window, the insertion key can be replaced by the modifier key of the screen
+reader (e.g. the Caps Lock key).&lt;/p>
+&lt;h2 id="quick-keys-for-navigation">Quick keys for navigation&lt;/h2>
+&lt;p>The screen reader must be in navigation or virtual cursor mode.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Command&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Next title&lt;/td>
+&lt;td>&lt;kbd>H&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next table&lt;/td>
+&lt;td>&lt;kbd>T&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next chart&lt;/td>
+&lt;td>&lt;kbd>G&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next list&lt;/td>
+&lt;td>&lt;kbd>L&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next form field&lt;/td>
+&lt;td>&lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>List of elements&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F7&lt;/kbd> (works regardless of cursor mode)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>Use the above keys with the &lt;kbd>Shift&lt;/kbd> key to move to the previous
+item.&lt;/em>&lt;/p>
+&lt;h2 id="text">Text&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Command&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Previous character&lt;/td>
+&lt;td>&lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next character&lt;/td>
+&lt;td>&lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Previous word&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Say Next word&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Previous line&lt;/td>
+&lt;td>&lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next line&lt;/td>
+&lt;td>&lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Previous sentence&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↑&lt;/kbd> (Jaws only)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next sentence&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↓&lt;/kbd> (Jaws only)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Read all&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Announce Font&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="tables">Tables&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Command&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cell to the right&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cell to the left&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cell below&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cell above&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Th3: Translating</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</guid><description>
 &lt;p>Thorium Reader user Interface localisation are provided and maintained thanks to volunteers and contributing organisations.&lt;/p>
 &lt;p>All locales are stored in the sources resources locales folder.&lt;/p>
 &lt;p>To add a translation, you can start from the English &amp;ldquo;en.json&amp;rdquo;, rename it as
@@ -983,12 +981,12 @@ France&lt;/p>
 Funding limitations may also affect our action and will to provide the best reading experience for all readers.
 These are the main reasons why we cannot, at this moment, afford a full accessibility testing cycle at each release.&lt;/p>
 &lt;p>Any identified blockers are publicly informed and searchable via a dedicated Label &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibility on our Issue tracker&lt;/a> that are treated as priority by the development team.&lt;/p>
-&lt;h2 id="understanding-all-and-each-users-needs">understanding all and each users’ needs&lt;/h2>
+&lt;p>## understanding all and each users’ needs&lt;/p>
 &lt;p>We capture feedback about customers’ experiences from an accessibility perspective thru different channels:
 * Developpement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dedicated Label Accessibility&lt;/a>
 * Email &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>
 * Indivdual feedback collected by our &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">members organisations dedicated to serving people with disabilities&lt;/a>&lt;/p>
-&lt;p>## Thorium Reader accessibility features are informed&lt;/p>
+&lt;h2 id="thorium-reader-accessibility-features-are-informed">Thorium Reader accessibility features are informed&lt;/h2>
 &lt;p>When an accessibility feature is introduced, we make that information public thru&lt;/p>
 &lt;ul>
 &lt;li>the version change log&lt;/li>
