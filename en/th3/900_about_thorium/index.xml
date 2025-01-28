@@ -112,7 +112,7 @@ France&lt;/p>
 Funding limitations may also affect our action and will to provide the best reading experience for all readers.
 These are the main reasons why we cannot, at this moment, afford a full accessibility testing cycle at each release.&lt;/p>
 &lt;p>Any identified blockers are publicly informed and searchable via a dedicated Label &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibility on our Issue tracker&lt;/a> that are treated as priority by the development team.&lt;/p>
-&lt;p>## understanding all and each users’ needs&lt;/p>
+&lt;h2 id="understanding-all-and-each-users-needs">understanding all and each users’ needs&lt;/h2>
 &lt;p>We capture feedback about customers’ experiences from an accessibility perspective thru different channels:
 * Developpement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dedicated Label Accessibility&lt;/a>
 * Email &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>
