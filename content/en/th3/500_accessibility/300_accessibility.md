@@ -2,7 +2,7 @@
 title: Accessibility
 role: chapter
 draft: false
-weight: '300'
+weight: '501'
 ---
 
 # Accessibility {#a11y}

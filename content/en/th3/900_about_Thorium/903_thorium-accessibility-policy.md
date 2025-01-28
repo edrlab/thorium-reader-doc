@@ -16,7 +16,7 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 Any identified blockers are publicly informed and searchable via a dedicated Label [Accessibility on our Issue tracker](https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility) that are treated as priority by the development team. 
 
 
-## understanding all and each users’ needs
+## understanding all and each users’ needs
 
 We capture feedback about customers’ experiences from an accessibility perspective thru different channels: 
     * Developpement [Issue tracker dedicated Label Accessibility](https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility)
@@ -24,7 +24,7 @@ We capture feedback about customers’ experiences from an accessibility perspec
     * Indivdual feedback collected by our [members organisations dedicated to serving people with disabilities](https://members.edrlab.org/categories/serving-persons-with-print-disabilities/) 
 
 
-## Thorium Reader accessibility features are informed
+## Thorium Reader accessibility features are informed
 
 When an accessibility feature is introduced, we make that information public thru
 * the version change log
