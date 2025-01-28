@@ -7,7 +7,6 @@ weight: 903
 toc: false
 ---
 
-
 EDRLab is a non profit developpement laboratory and places accessibility as a core requirement of it's actions. That include the developpement of Thorium Reader. 
 
 However, the core aspect of innovation and experimentation of our work may affect accessibility at some points. 
@@ -16,12 +15,14 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 
 Any identified blockers are publicly informed and searchable via a dedicated Label [Accessibility on our Issue tracker](https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility) that are treated as priority by the development team. 
 
-## understanding all and each users’ needs
+
+## understanding all and each users’ needs
 
 We capture feedback about customers’ experiences from an accessibility perspective thru different channels: 
     * Developpement [Issue tracker dedicated Label Accessibility](https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility)
     * Email [contact form](https://www.edrlab.org/contact/) 
     * Indivdual feedback collected by our [members organisations dedicated to serving people with disabilities](https://members.edrlab.org/categories/serving-persons-with-print-disabilities/) 
+
 
 ## Thorium Reader accessibility features are informed
 
