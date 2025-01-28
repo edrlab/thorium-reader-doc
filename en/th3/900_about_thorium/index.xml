@@ -112,7 +112,7 @@ France&lt;/p>
 Funding limitations may also affect our action and will to provide the best reading experience for all readers.
 These are the main reasons why we cannot, at this moment, afford a full accessibility testing cycle at each release.&lt;/p>
 &lt;p>Any identified blockers are publicly informed and searchable via a dedicated Label &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibility on our Issue tracker&lt;/a> that are treated as priority by the development team.&lt;/p>
-&lt;p>## understanding all and each users’ needs&lt;/p>
+&lt;h2 id="understanding-all-and-each-users-needs">understanding all and each users’ needs&lt;/h2>
 &lt;p>We capture feedback about customers’ experiences from an accessibility perspective thru different channels:
 * Developpement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dedicated Label Accessibility&lt;/a>
 * Email &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>
@@ -122,7 +122,7 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;ul>
 &lt;li>the version change log&lt;/li>
 &lt;li>a short mention on the website landing page&lt;/li>
-&lt;li>listed for reference in this website &lt;a href="../../400_ressources/300_accessibility">ressources section, accessibility page&lt;/a>&lt;/li>
+&lt;li>listed for reference in this website &lt;a href="../../500_accessibility">ressources section, accessibility page&lt;/a>&lt;/li>
 &lt;li>all accessibility related explanations are available in the documentation, not in a separate chapter or place.&lt;/li>
 &lt;/ul>
 &lt;p>We are maintaining a &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">VPAT (voluntary product accessibility template) for Thorium Reader&lt;/a>.&lt;/p>
