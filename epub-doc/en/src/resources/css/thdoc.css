@@ -1,3 +1,8 @@
+
+.title{
+  text-align: center;
+}
+
 h1 {
   font-family: serif;
   border-bottom: 2px solid  var(--color-blue);
