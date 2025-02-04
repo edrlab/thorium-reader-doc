@@ -134,9 +134,6 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
     </ol>
 </li>
 <li>
-<a href="../pages/400_ressources/index.xhtml">Ressources</a>
-</li>
-<li>
 <a href="../pages/402_keys_functions/index.xhtml">Keys functions</a>
 </li>
 <li>

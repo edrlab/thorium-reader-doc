@@ -135,9 +135,6 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Pann
     </ol>
 </li>
 <li>
-<a href="../pages/400_ressources/index.xhtml">Ressources</a>
-</li>
-<li>
 <a href="../pages/402_keys_functions/index.xhtml">Fonctions des touches</a>
 </li>
 <li>
