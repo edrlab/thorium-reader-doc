@@ -64,5 +64,5 @@ Este sitio está hecho con el generador de sitios estáticos [Hugo](https://gohu
 {{<section>}}Section renders pages in section as definition list, using title and description.
 Example
 ```tpl
-{{</* section */>}}
+{{<section>}}
 ```-->

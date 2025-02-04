@@ -81,5 +81,5 @@ This site is made with the static site generator
 {{<section>}}Section renders pages in section as definition list, using title and description.
 Example
 ```tpl
-{{</* section */>}}
+{{<section>}}
 ```-->
