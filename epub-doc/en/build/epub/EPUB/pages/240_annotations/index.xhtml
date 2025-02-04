@@ -12,73 +12,76 @@
     <title>Annotations</title>
   </head>
   <body>
-    <h1>Annotations</h1>
-    <p>
-      <em>Annotations have been introduced first in Thorium 3, as a new feature,
+    <section class="colbreak"  role="doc-chapter" >
+      <hr class="asterism" aria-hidden="true"></hr>
+      <h1>Annotations</h1>
+      <p>
+        <em>Annotations have been introduced first in Thorium 3, as a new feature,
 it may present unexpected behaviors. Let us know any difficulty you face
 by 
-        <a href="https://github.com/edrlab/thorium-reader/issues/new">opening an issue</a> or 
-        <a href="https://www.edrlab.org/contact/">sending us an email</a>.
-      </em>
-    </p>
-    <p>The simplest way to add an annotation is to select a text and hit the
+          <a href="https://github.com/edrlab/thorium-reader/issues/new">opening an issue</a> or 
+          <a href="https://www.edrlab.org/contact/">sending us an email</a>.
+        </em>
+      </p>
+      <p>The simplest way to add an annotation is to select a text and hit the
 Annotations button
 (
-      <img src="../../resources/images/icons3/annotation-icon.svg" class="icon" role="presentation"/>) or stroke the keyboard shortcut 
-      <kbd>Shift</kbd> +
+        <img src="../../resources/images/icons3/annotation-icon.svg" class="icon" role="presentation"/>) or stroke the keyboard shortcut 
+        <kbd>Shift</kbd> +
 
-      <kbd>Ctrl</kbd> + 
-      <kbd>Alt</kbd> + 
-      <kbd>A</kbd>. This opens the Annotation pop up
+        <kbd>Ctrl</kbd> + 
+        <kbd>Alt</kbd> + 
+        <kbd>A</kbd>. This opens the Annotation pop up
 and place the cursor into the input box where you can write your
 annotation (optional). You can change highlight color and type (Solid
 background, Underline, Strikethrough or Outline) then validate the
 creation of the annotation with 
-      <span class="ui_button">Save</span>.
-    </p>
-    <img src="../../resources/images/local_en/th3_anotation_pop_up.png" class="icon" role="presentation"/>
-    <p>Annotations in the content can not be reached by keyboard tabulation. To navigate between them, keyboard users need to open the Annotation Panel.</p>
-    <h2 id="annotations_panel">Annotations panel</h2>
-    <p>The navigation panel has a section dedicated to Annotations.
+        <span class="ui_button">Save</span>.
+      </p>
+      <img src="../../resources/images/local_en/th3_anotation_pop_up.png" class="icon" role="presentation"/>
+      <p>Annotations in the content can not be reached by keyboard tabulation. To navigate between them, keyboard users need to open the Annotation Panel.</p>
+      <h2 id="annotations_panel">Annotations panel</h2>
+      <p>The navigation panel has a section dedicated to Annotations.
 It allows you to adjust your annotation display and behaviour to your practice and also review, manipulate, delete, sort, filter and navigate thru your annotations.</p>
-    <h2 id="annotations_options">Options for annotations</h2>
-    <p>Annotation options are available from the annotation panel toolbar.</p>
-    <p>Four options are available:</p>
-    <ul>
-      <li>Instant mode will open the Annotation pop up at each selection.</li>
-      <li>Quick create Highlights the select text and create an empty annotation.</li>
-      <li>Display in margins switches the text highlight for a more discret margin indication that an annotation is present at this line.</li>
-      <li>Do not display just hides any annotation mark (but does not deactivate the possibility to add annotations).</li>
-    </ul>
-    <p>The combination of Instant mode and Quick create options let you use the
+      <h2 id="annotations_options">Options for annotations</h2>
+      <p>Annotation options are available from the annotation panel toolbar.</p>
+      <p>Four options are available:</p>
+      <ul>
+        <li>Instant mode will open the Annotation pop up at each selection.</li>
+        <li>Quick create Highlights the select text and create an empty annotation.</li>
+        <li>Display in margins switches the text highlight for a more discret margin indication that an annotation is present at this line.</li>
+        <li>Do not display just hides any annotation mark (but does not deactivate the possibility to add annotations).</li>
+      </ul>
+      <p>The combination of Instant mode and Quick create options let you use the
 serial annotator mode as any selection will create an highlight without
 prompting any pop up.</p>
-    <h2 id="annotations_sort_and_filter">Sort and filter annotations</h2>
-    <p>Sorting options and Filter options have each their dedicated button. Both modify the list of annotations viewed in the panel.</p>
-    <p>Sorting can be done by Progression (from beginning to end of the book), Last created and Last modified. It only affect the presentation order.</p>
-    <p>Filtering will modify the list of displayed annotations, without removing them. If you are searching for an annotation that does not appear, it can be because a filter is active. A  number in a bubble will appear next to the Filters options icon for quick visualisation of if and how many filters are actives. It's a plain text number that will be announced by screen readers.</p>
-    <p>Active tag filters are visually shown by a blue background and announced as active by screen readers.</p>
-    <p>All filters allow multiple selection and they act like checkbox, one clic activate the filter, one more clic deactivates it.</p>
-    <p>Filtering options are:</p>
-    <ul>
-      <li>by Tag, if any tag as been affected to any annotation, it will appear here;</li>
-      <li>by Color, Red, Orange, Yellow, Green, Blue-green, Light-blue, Cyan and Violet;</li>
-      <li>by Drawtype, Outline, Solid background, Strikethrough	 or Underline;</li>
-      <li>by Creator, if any has been informed in the 
-        <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
-      </li>
-    </ul>
-    <p id="annotations_view_and_manipulation">## Review and manipulation of annotations</p>
-    <p>Annotations are shown as cards in the panel, one after the other. Each Card contains the text of the annotation, the creation date, the position in the book expressed in progression percentage and  an Edit and a Delete buttons. The text of the annotation acts as a button that will move the focus to the annotation itself, so leaving the context of the annotation panel, some tabulations will have to be done to get back to the annotation panel.</p>
-    <p>A coloured border on the left visually indicates the Colour settled up for the annotation. This information is not passed to assistive technologies.</p>
-    <h2 id="annotations_io">Export and Import of Annotations</h2>
-    <p>A set of annotations can be exported or imported.</p>
-    <p>The export button will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification.</p>
-    <p>Annotations are stored with the file extension .annotation and makes use of a JSON-LD format defined by the W3C recommandation 
-      <a href="https://www.w3.org/TR/annotation-model/">Web Annotation Data Model</a>. It contains ebook identifier and the Creator information informed in the 
-      <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
-    </p>
-    <p>The import button opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported.</p>
-    <p>Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original .annotation file which is never linked.</p>
+      <h2 id="annotations_sort_and_filter">Sort and filter annotations</h2>
+      <p>Sorting options and Filter options have each their dedicated button. Both modify the list of annotations viewed in the panel.</p>
+      <p>Sorting can be done by Progression (from beginning to end of the book), Last created and Last modified. It only affect the presentation order.</p>
+      <p>Filtering will modify the list of displayed annotations, without removing them. If you are searching for an annotation that does not appear, it can be because a filter is active. A  number in a bubble will appear next to the Filters options icon for quick visualisation of if and how many filters are actives. It's a plain text number that will be announced by screen readers.</p>
+      <p>Active tag filters are visually shown by a blue background and announced as active by screen readers.</p>
+      <p>All filters allow multiple selection and they act like checkbox, one clic activate the filter, one more clic deactivates it.</p>
+      <p>Filtering options are:</p>
+      <ul>
+        <li>by Tag, if any tag as been affected to any annotation, it will appear here;</li>
+        <li>by Color, Red, Orange, Yellow, Green, Blue-green, Light-blue, Cyan and Violet;</li>
+        <li>by Drawtype, Outline, Solid background, Strikethrough	 or Underline;</li>
+        <li>by Creator, if any has been informed in the 
+          <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
+        </li>
+      </ul>
+      <p id="annotations_view_and_manipulation">## Review and manipulation of annotations</p>
+      <p>Annotations are shown as cards in the panel, one after the other. Each Card contains the text of the annotation, the creation date, the position in the book expressed in progression percentage and  an Edit and a Delete buttons. The text of the annotation acts as a button that will move the focus to the annotation itself, so leaving the context of the annotation panel, some tabulations will have to be done to get back to the annotation panel.</p>
+      <p>A coloured border on the left visually indicates the Colour settled up for the annotation. This information is not passed to assistive technologies.</p>
+      <h2 id="annotations_io">Export and Import of Annotations</h2>
+      <p>A set of annotations can be exported or imported.</p>
+      <p>The export button will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification.</p>
+      <p>Annotations are stored with the file extension .annotation and makes use of a JSON-LD format defined by the W3C recommandation 
+        <a href="https://www.w3.org/TR/annotation-model/">Web Annotation Data Model</a>. It contains ebook identifier and the Creator information informed in the 
+        <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
+      </p>
+      <p>The import button opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported.</p>
+      <p>Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original .annotation file which is never linked.</p>
+    </section>
   </body>
 </html>

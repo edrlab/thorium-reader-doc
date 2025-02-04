@@ -3,14 +3,14 @@
   xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="uid" prefix="cc: http://creativecommons.org/ns#">
   <metadata 
     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:title>Guía del usuario del lector de Thorium  (inglés, 3.1)</dc:title>
-    <dc:creator>EDRLab</dc:creator>
-    <dc:publisher>EDRLab</dc:publisher>
-    <dc:description>Esta es la documentación oficial del Thorium  3.1. Ofrece orientación para ayudarlo a conocer y hacer un mejor uso del lector de Thorium . Las referencias de soporte rápido no se incluyen aquí y están disponibles en línea desde las páginas web de soporte de Thorium .</dc:description>
-    <dc:identifier id="uid">com.github.edrlab.thorium-reader-doc-epub.3.0.1</dc:identifier>
+    <dc:title>Guía del usuario del lector Thorium Reader (español, 3.1)</dc:title>
+    <dc:creator>The European Digital Reading Lab</dc:creator>
+    <dc:publisher>The European Digital Reading Lab</dc:publisher>
+    <dc:description>Esta es la documentación oficial del Thorium  3.1. Ofrece orientación para ayudarlo a conocer y hacer un mejor uso del lector de Thorium . Las referencias de soporte rápido no se incluyen aquí y están disponibles en línea desde las páginas web de soporte de Thorium.</dc:description>
+    <dc:identifier id="uid">com.github.edrlab.thorium-reader-doc-epub-es.3.1.0</dc:identifier>
     <dc:language>en</dc:language>
     <dc:rights>Creative Commons Attribution-compartir (CC BY-SA) Licencia.</dc:rights>
-    <meta property="dcterms:modified">2024-12-31T00:00:00Z</meta>
+    <meta property="dcterms:modified">2025-01-30T00:00:00Z</meta>
     <meta property="schema:accessibilityFeature">alternativeText</meta>
     <meta property="schema:accessibilityFeature">readingOrder</meta>
     <meta property="schema:accessibilityFeature">structuralNavigation</meta>
@@ -826,76 +826,70 @@
     />
     <item id="cover" href="cover/index.xhtml" media-type="application/xhtml+xml"/>
     <item id="toc" properties="nav" href="toc/index.xhtml" media-type="application/xhtml+xml"/>
-    <item id="page1" href="./pages/000_title/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page1" href="./pages/101_opening_thorium/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page2" href="./pages/100_forewords/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page2" href="./pages/110_libraries_actions/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page3" href="./pages/101_opening_thorium/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page3" href="./pages/212_reading_visuals/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page4" href="./pages/102_windows_views_panels/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page4" href="./pages/213_reading_auditory/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page5" href="./pages/110_libraries_actions/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page5" href="./pages/214_reading_pdfs/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page6" href="./pages/111_catalogs_actions/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page6" href="./pages/220_reading_actions/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page7" href="./pages/210_reading/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page7" href="./pages/240_annotations/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page8" href="./pages/211_reading_textuals/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page8" href="./pages/402_keys_functions/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page9" href="./pages/212_reading_visuals/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page9" href="./pages/403_gesture/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page10" href="./pages/213_reading_auditory/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page10" href="./pages/406_formats/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page11" href="./pages/214_reading_pdfs/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page11" href="./pages/903_support/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page12" href="./pages/220_reading_actions/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page12" href="./pages/904_issues/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page13" href="./pages/240_annotations/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page13" href="./pages/905_contribute/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page14" href="./pages/300_accessibility/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page14" href="./pages/000_title/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page15" href="./pages/311_screenreaders/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page15" href="./pages/100_forewords/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page16" href="./pages/400_ressources/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page16" href="./pages/102_windows_views_panels/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page17" href="./pages/402_keys_functions/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page17" href="./pages/111_catalogs_actions/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page18" href="./pages/403_gesture/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page18" href="./pages/210_reading/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page19" href="./pages/406_formats/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page19" href="./pages/211_reading_textuals/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page20" href="./pages/900_about/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page20" href="./pages/300_accessibility/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page21" href="./pages/903_support/index.xhtml" media-type="application/xhtml+xml"
-    />
-    <item id="page22" href="./pages/904_issues/index.xhtml" media-type="application/xhtml+xml"
-    />
-    <item id="page23" href="./pages/905_contribute/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page21" href="./pages/900_about/index.xhtml" media-type="application/xhtml+xml"
     />
   </manifest>
   <spine>
     <itemref idref="cover"/>
+    <itemref idref="page15"/>
+    <itemref idref="page1"/>
+    <itemref idref="page16"/>
     <itemref idref="page2"/>
+    <itemref idref="page17"/>
+    <itemref idref="page18"/>
+    <itemref idref="page19"/>
     <itemref idref="page3"/>
     <itemref idref="page4"/>
     <itemref idref="page5"/>
     <itemref idref="page6"/>
     <itemref idref="page7"/>
+    <itemref idref="page20"/>
     <itemref idref="page8"/>
     <itemref idref="page9"/>
     <itemref idref="page10"/>
+    <itemref idref="page21"/>
     <itemref idref="page11"/>
     <itemref idref="page12"/>
-    <itemref idref="page13"/>
-    <itemref idref="page14"/>
-    <itemref idref="page15"/>
-    <itemref idref="page16"/>
-    <itemref idref="page17"/>
-    <itemref idref="page18"/>
-    <itemref idref="page19"/>
-    <itemref idref="page20"/>
-    <itemref idref="page21"/>
-    <itemref idref="page22"/>
     <itemref idref="toc"/>
   </spine>
 </package>
