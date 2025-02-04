@@ -20,6 +20,15 @@ svg {
 }
 
 
+.title{
+  text-align: center;
+}
+
+.colbreak{
+  break-before: column;
+}
+
+
 /* this does not works
 @media (prefers-color-scheme: dark) {
   .icons{
