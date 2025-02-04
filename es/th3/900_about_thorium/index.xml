@@ -64,27 +64,7 @@
 &lt;/ul>
 &lt;p>El código base de Thorium Reader es de código abierto y, por lo tanto, se puede inspeccionar por completo, con la excepción de una pequeña biblioteca de software utilizada como núcleo para Readium LCP DRM, que no almacena ni envía ningún dato.&lt;/p>
 &lt;h2 id="actualizaciones">Actualizaciones&lt;/h2>
-&lt;p>Es posible que modifiquemos la Política de privacidad de vez en cuando. Le notificaremos mediante la publicación de la Política de privacidad revisada en esta página y la fecha en la que se realizaron los últimos cambios se indicará en la parte superior de la página.&lt;/p></description></item><item><title>Th3: Política de accesibilidad</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/903_thorium-accessibility-policy/</guid><description>
-&lt;p>EDRLab es un laboraThorium de desarrollo sin fines de lucro y sitúa la accesibilidad como requisito central de sus actuaciones. Eso incluye el desarrollo de Thorium Reader.&lt;/p>
-&lt;p>Sin embargo, el aspecto central de innovación y experimentación de nuestro trabajo puede afectar la accesibilidad en algunos puntos. Las limitaciones de financiación también pueden afectar nuestra acción y voluntad de brindar la mejor experiencia de lectura a todos los lectores. Estas son las razones principales por las que, en este momento, no podemos permitirnos un ciclo completo de pruebas de accesibilidad en cada versión.&lt;/p>
-&lt;p>Cualquier bloqueador identificado se informa públicamente y se puede buscar a través de una etiqueta dedicada &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accesibilidad en nuestro rastreador de problemas&lt;/a> que son tratados como prioritarios por el equipo de desarrollo.&lt;/p>
-&lt;h2 id="comprender-las-necesidades-de-todos-y-cada-uno-de-los-usuarios">comprender las necesidades de todos y cada uno de los usuarios&lt;/h2>
-&lt;p>Capturamos comentarios sobre las experiencias de los clientes desde una perspectiva de accesibilidad a través de diferentes canales: * &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Seguimiento de problemas de desarrollo Etiqueta dedicada Accesibilidad&lt;/a> * &lt;a href="https://www.edrlab.org/contact/">Formulario de contacto&lt;/a> por correo electrónico * Comentarios individuales recopilados por nuestras &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">organizaciones miembros dedicadas a ayudar a personas con discapacidades&lt;/a>&lt;/p>
-&lt;h2 id="se-informa-sobre-las-funciones-de-accesibilidad-de-thorium-reader">Se informa sobre las funciones de accesibilidad de Thorium Reader&lt;/h2>
-&lt;p>Cuando se introduce una función de accesibilidad, hacemos pública esa información a través de&lt;/p>
-&lt;ul>
-&lt;li>el registro de cambios de versión&lt;/li>
-&lt;li>Una breve mención en la página de inicio del sitio web.&lt;/li>
-&lt;li>listado para referencia en &lt;a href="../../400_ressources/300_accessibility">la sección de recursos de este sitio web, página de accesibilidad&lt;/a>&lt;/li>
-&lt;li>Todas las explicaciones relacionadas con la accesibilidad están disponibles en la documentación, no en un capítulo o lugar separado.&lt;/li>
-&lt;/ul>
-&lt;p>Estamos manteniendo una &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">VPAT (plantilla de accesibilidad voluntaria del producto) para Thorium Reader&lt;/a> .&lt;/p>
-&lt;h2 id="soporte-para-tecnología-de-asistencia">Soporte para tecnología de asistencia&lt;/h2>
-&lt;p>Se presta especial atención al acceso no visual a través de lectores de pantalla.&lt;/p>
-&lt;p>En la medida de lo posible, intentamos mantener una ruta de acceso similar entre el acceso visual y el no visual. Siempre que es necesario, utilizamos tecnologías especializadas como ARIA-Role.&lt;/p>
-&lt;p>Las nuevas funcionalidades se prueban con lectores de pantalla.&lt;/p>
-&lt;h2 id="pruebas-de-accesibilidad">Pruebas de accesibilidad&lt;/h2>
-&lt;p>Las funciones de lectura accesible de Thorium EPUB están siendo probadas por la comunidad a través de &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item><item><title>Th3: Créditos para Thorium Reader</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/910_credits/</guid><description>
+&lt;p>Es posible que modifiquemos la Política de privacidad de vez en cuando. Le notificaremos mediante la publicación de la Política de privacidad revisada en esta página y la fecha en la que se realizaron los últimos cambios se indicará en la parte superior de la página.&lt;/p></description></item><item><title>Th3: Créditos para Thorium Reader</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/910_credits/</guid><description>
 &lt;p>Thorium Reader está siendo desarrollado actualmente por:&lt;/p>
 &lt;ul class="nobullet">
 &lt;li>Daniel Weck, desarrollador principal.&lt;/li>

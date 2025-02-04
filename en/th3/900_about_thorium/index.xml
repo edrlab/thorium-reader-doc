@@ -70,32 +70,7 @@ France&lt;/p>
 &lt;/ul>
 &lt;p>The codebase of Thorium Reader is open-sourced and can therefore be fully inspected, with the exception of a small software library used as core for the Readium LCP DRM, which does not store or send any data.&lt;/p>
 &lt;h2 id="updates">Updates&lt;/h2>
-&lt;p>We may change the Privacy Policy from time to time. We will notify you by posting the revised Privacy Policy on this page and the date on which the last changes were made will be noted at the top of the page.&lt;/p></description></item><item><title>Th3: Accessibility policy</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/903_thorium-accessibility-policy/</guid><description>
-&lt;p>EDRLab is a non profit developpement laboratory and places accessibility as a core requirement of it&amp;rsquo;s actions. That include the developpement of Thorium Reader.&lt;/p>
-&lt;p>However, the core aspect of innovation and experimentation of our work may affect accessibility at some points.
-Funding limitations may also affect our action and will to provide the best reading experience for all readers.
-These are the main reasons why we cannot, at this moment, afford a full accessibility testing cycle at each release.&lt;/p>
-&lt;p>Any identified blockers are publicly informed and searchable via a dedicated Label &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibility on our Issue tracker&lt;/a> that are treated as priority by the development team.&lt;/p>
-&lt;h2 id="understanding-all-and-each-users-needs">understanding all and each users’ needs&lt;/h2>
-&lt;p>We capture feedback about customers’ experiences from an accessibility perspective thru different channels:
-* Developpement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dedicated Label Accessibility&lt;/a>
-* Email &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>
-* Indivdual feedback collected by our &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">members organisations dedicated to serving people with disabilities&lt;/a>&lt;/p>
-&lt;h2 id="thorium-reader-accessibility-features-are-informed">Thorium Reader accessibility features are informed&lt;/h2>
-&lt;p>When an accessibility feature is introduced, we make that information public thru&lt;/p>
-&lt;ul>
-&lt;li>the version change log&lt;/li>
-&lt;li>a short mention on the website landing page&lt;/li>
-&lt;li>listed for reference in this website &lt;a href="../../500_accessibility">ressources section, accessibility page&lt;/a>&lt;/li>
-&lt;li>all accessibility related explanations are available in the documentation, not in a separate chapter or place.&lt;/li>
-&lt;/ul>
-&lt;p>We are maintaining a &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">VPAT (voluntary product accessibility template) for Thorium Reader&lt;/a>.&lt;/p>
-&lt;h2 id="support-for-assistive-technology">Support for assistive technology&lt;/h2>
-&lt;p>A specific attention is given to non visual access thru screen readers.&lt;/p>
-&lt;p>As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.&lt;/p>
-&lt;p>New functionalities are tested with screen readers.&lt;/p>
-&lt;h2 id="accessibility-testing">Accessibility testing&lt;/h2>
-&lt;p>Thorium EPUB accessible reading features are community testing thru &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item><item><title>Th3: Credits for Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/910_credits/</guid><description>
+&lt;p>We may change the Privacy Policy from time to time. We will notify you by posting the revised Privacy Policy on this page and the date on which the last changes were made will be noted at the top of the page.&lt;/p></description></item><item><title>Th3: Credits for Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/910_credits/</guid><description>
 &lt;p>Thorium Reader is currently developed by:&lt;/p>
 &lt;ul class="nobullet">
 &lt;li>Daniel Weck, lead developer.&lt;/li>

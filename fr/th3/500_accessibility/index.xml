@@ -135,4 +135,26 @@ article.&lt;/em>&lt;/p>
 &lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/table></description></item><item><title>Th3: Politique d'accessibilité</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
+&lt;p>EDRLab est un laboratoire de développement à but non lucratif et place l&amp;rsquo;accessibilité au cœur de ses actions. Cela inclut le développement de Thorium Reader.&lt;/p>
+&lt;p>Cependant, l’aspect central de l’innovation et de l’expérimentation de notre travail peut affecter l’accessibilité à certains moments.
+Les limitations de financement peuvent également affecter notre action et notre volonté d&amp;rsquo;offrir la meilleure expérience de lecture à tous les lecteurs.
+Ce sont les principales raisons pour lesquelles nous ne pouvons pas, à l’heure actuelle, nous permettre un cycle complet de tests d’accessibilité à chaque version.&lt;/p>
+&lt;p>Tous les bloqueurs identifiés sont informés publiquement et consultables via une étiquette dédiée &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibilité sur notre outil de suivi des problèmes&lt;/a> qui sont traités en priorité par l’équipe de développement.&lt;/p>
+&lt;p>## comprendre tous les besoins de chaque utilisateur
+Nous recueillons les commentaires sur les expériences des clients du point de vue de l&amp;rsquo;accessibilité via différents canaux :
+*Développement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dédié Label Accessibility&lt;/a>
+*E-mail &lt;a href="https://www.edrlab.org/contact/">formulaire de contact&lt;/a>
+*Commentaires individuels recueillis par nos &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">organisations membres dédiées au service des personnes handicapées&lt;/a>&lt;/p>
+&lt;p>## Les fonctionnalités d&amp;rsquo;accessibilité du Thorium Reader sont informées&lt;/p>
+&lt;p>Lorsqu&amp;rsquo;une fonctionnalité d&amp;rsquo;accessibilité est introduite, nous rendons cette information publique via
+*le journal des changements de version
+*une courte mention sur la landing page du site
+*répertorié pour référence sur ce site Web &lt;a href="../../400_ressources/300_accessibility">section ressources, page accessibilité&lt;/a>
+*toutes les explications liées à l&amp;rsquo;accessibilité sont disponibles dans la documentation, et non dans un chapitre ou un endroit séparé.&lt;/p>
+&lt;h2 id="prise-en-charge-des-technologies-dassistance">Prise en charge des technologies d&amp;rsquo;assistance&lt;/h2>
+&lt;p>Une attention particulière est portée aux accès non visuels via les lecteurs d&amp;rsquo;écran.
+Dans la mesure du possible, nous avons l&amp;rsquo;intention de maintenir un chemin d&amp;rsquo;accès similaire entre l&amp;rsquo;accès visuel et non visuel. Chaque fois que cela est nécessaire, nous utilisons des technologies dédiées comme ARIA-Role.&lt;/p>
+&lt;p>Les nouvelles fonctionnalités sont testées avec des lecteurs d&amp;rsquo;écran.&lt;/p>
+&lt;h2 id="tests-daccessibilité">Tests d&amp;rsquo;accessibilité&lt;/h2>
+&lt;pre>&lt;code>*Tests communautaires via [epubtest.org](https://epubtest.org/)&lt;/code>&lt;/pre></description></item></channel></rss>
