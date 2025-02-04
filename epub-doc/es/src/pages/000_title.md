@@ -16,24 +16,16 @@ Publicado en febrero de 2025 por
 
 ---
 
-<p class="title">
+<div class="title">
 París, Francia
-</p>
 
-<p class="title">
 15 Rue de la Bûcherie, 75005 
-</p>
-
-<p class="title">
 
 [contact@edrlab.org](mailto:contact@edrlab.org)
 
-</p>
-<p class="title">
-
 [edrlab.org](https://www.edrlab.org/)
 
-</p>
+</div>
 
 
 ---

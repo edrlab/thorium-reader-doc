@@ -48,7 +48,7 @@ Debe conocer su nombre exacto, ya que está configurado para el sistema operativ
 2. En la lista desplegable, seleccione `...`.
 3. Escribe la palabra *verdana *en el campo vacío que aparece al lado del
     lista desplegable.
-4. Confirme con <KBD> Enter </kbd>.
+4. Confirme con <kbd> Enter </kbd>.
 
 
 #### EXample 2: Configuración de Luciole como la fuente de lectura {#read_text_example_luciole}
@@ -60,7 +60,7 @@ Debe conocer su nombre exacto, ya que está configurado para el sistema operativ
 3. En la lista desplegable Seleccione `...`.
 4. Escribe la palabra *luciole *en el campo vacío que aparece al lado del
     lista desplegable.
-5. Confirme con <KBD> Enter </kbd>.
+5. Confirme con <kbd> Enter </kbd>.
 
 </div>
 

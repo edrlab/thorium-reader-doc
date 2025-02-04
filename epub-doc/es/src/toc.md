@@ -129,7 +129,7 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Pane
         <a href="../pages/300_accessibility/index.xhtml#a11y_native">Funciones de accesibilidad nativa</a>
         </li>
         <li>
-        <a href="../pages/300_accessibility/index.xhtml#screenreaders">Leer con un lector de pantalla</a>
+        <a href="../pages/300_accessibility/index.xhtml#screenreader">Leer con un lector de pantalla</a>
         </li>
     </ol>
 </li>

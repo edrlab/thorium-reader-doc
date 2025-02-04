@@ -34,7 +34,7 @@ Tenga en cuenta que los reproductores de pantalla usan memoria de búfer separad
 
 *(Contribución de Prashant Verma, consorcio Daisy)*
 
-Para leer texto, navegue en las tablas, navegue en la ventana del navegador, la tecla de inserción se puede reemplazar mediante la tecla de cambio de pantalla (por ejemplo, la tecla<kbd>Verr. Maj</kbd>).
+Para leer texto, navegue en las tablas, navegue en la ventana del navegador, la tecla de inserción se puede reemplazar mediante la tecla de cambio de pantalla.
 
 El reproductor de pantalla debe estar en modo de navegación o cursor virtual.
 
