@@ -4,69 +4,64 @@ role: chapter
 draft: false
 ---
 
-## Reading with a screen reader
+## Leer con un lector de pantalla
 
-When launching Thorium, if a screen reader is detected, the relative
-functions are activated.
+Al lanzar Thorium, si se detecta un lector de pantalla, el pariente las funciones se activan.
 
-Note that screen readers use a separate buffer to access the HTML
-content which results in the visual scroll / page offset to be out of
-sync. In other words, Thorium is generally not aware of the user\'s
-current reading location inside the screen reader buffer, unless the
-screen reader user triggers standard web API events (such as mouse click
-anywhere in the text, or keyboard tab into focusable HTML elements).
+Tenga en cuenta que los lectores de pantalla usan un búfer separado para acceder al HTML
+Contenido que da como resultado el desplazamiento de Visual Scroll /Page para estar fuera de
+sincronización. En otras palabras, el Thorium generalmente no es consciente del usuario
+Ubicación de lectura actual dentro del búfer del lector de pantalla, a menos que el
+El usuario del lector de pantalla desencadena eventos de API web estándar (como el clic del mouse
+En cualquier lugar del texto, o la pestaña de teclado en elementos HTML enfocables).
+Las características de accesibilidad dirigidas a las tecnologías de asistencia son fuertemente
+afectado por la calidad de los archivos de libros.
 
- warning
-Attention !
+La [Comunidad hispanohablante de NVDA](https://nvdaes.github.io/) tiene varios recursos dedicados al uso de Thorium Reader.
 
-Accessibility features addressed to assistive technologies are strongly
-affected by the quality of the book files.
+# Keysrokes comunes a NVDA y Jaws
 
+(Contribución de Prashant Verma, consorcio Daisy)
 
-# Keystrokes common to NVDA and JAWS
+Para leer texto, navegar en tablas, navegar en el navegador
+Ventana, la tecla de inserción puede ser reemplazada por la tecla Modificador de la pantalla
+Lector (por ejemplo, la tecla de bloqueo de CAPS).
 
-(contribution from Prashant Verma, DAISY Consortium)
+## claves rápidas para la navegación
 
-For reading text, navigating in tables, navigating in the browser
-window, the insertion key can be replaced by the modifier key of the screen
-reader (e.g. the Caps Lock key).
+El lector de pantalla debe estar en modo de navegación o cursor virtual.
+| Acción | Comando |
+| ---| ---|
+| Siguiente título | <Kbd> h </kbd> |
+| Siguiente mesa | <Kbd> t </kbd> |
+| Siguiente cuadro | <Kbd> g </kbd> |
+| Siguiente lista | <Kbd> L </kbd> |
+| Siguiente campo de formulario | <Kbd> F </kbd> |
+| Lista de elementos | <KBD> insertar </kbd> + <kbd> f7 </kbd> (funciona independientemente del modo cursor)
 
-## Quick keys for navigation
+*Use las claves anteriores con la tecla <Kbd> Shift </KBD> para moverse a la anterior
+artículo.*
 
-The screen reader must be in navigation or virtual cursor mode.
+## Texto
 
-|Action|Command|
-|---|---|
-|Next title| <kbd>H</kbd>|
-|Next table| <kbd>T</kbd>|
-|Next chart| <kbd>G</kbd>|
-|Next list|<kbd>L</kbd>|
-|Next form field|<kbd>F</kbd>|
-|List of elements| <kbd>INSERT</kbd> + <kbd>F7</kbd> (works regardless of cursor mode)
+| Acción | Comando |
+| ---| ---|
+| Personaje anterior | <Kbd> ← </kbd> |
+| Siguiente personaje | <Kbd> → </kbd> |
+| Palabra anterior | <Kbd> Ctrl </kbd> + <kbd> ← </kbd> |
+| Diga la siguiente palabra | <Kbd> Ctrl </kbd> + <kbd> → </kbd> |
+| Línea anterior | <Kbd> ↑ </kbd> |
+| Siguiente línea | <Kbd> ↓ </kbd> |
+| Oración anterior | <Kbd> Alt </kbd> + <kbd> ↑ </kbd> (solo mandíbulas)
+| Siguiente oración | <Kbd> Alt </kbd> + <kbd> ↓ </kbd> (solo mandíbulas)
+| Leer todo | <Kbd> insert </kbd> + <kbd> ↓ </kbd> |
+| Anunciar fuentes | <KBD> insertar </kbd> + <kbd> f </kbd>
 
-*Use the above keys with the <kbd>Shift</kbd> key to move to the previous
-item.*
+## mesas
 
-## Text
-
-|Action|Command|
-|---|---|
-|Previous character| <kbd>←</kbd>|
-|Next character| <kbd>→</kbd>|
-|Previous word|<kbd>Ctrl</kbd> + <kbd>←</kbd>|
-|Say Next word|<kbd>Ctrl</kbd> + <kbd>→</kbd>|
-|Previous line|<kbd>↑</kbd>|
-|Next line|<kbd>↓</kbd>|
-|Previous sentence|<kbd>Alt</kbd> + <kbd>↑</kbd> (Jaws only)
-|Next sentence|<kbd>Alt</kbd> + <kbd>↓</kbd> (Jaws only)
-|Read all| <kbd>INSERT</kbd> + <kbd>↓</kbd>|
-|Announce Font|<kbd>INSERT</kbd> + <kbd>F</kbd>
-
-## Tables
-
-|Action|Command|
-|---|---|
-|Cell to the right| <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>→</kbd>|
-|Cell to the left|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd>|
-|Cell below|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd>|
-|Cell above|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↑</kbd>
+| Acción | Comando |
+| ---| ---|
+| Celda a la derecha | <Kbd> Alt </kbd> + <kbd> ctrl </kbd> + <kbd> → </kbd> |
+| Celda a la izquierda | <Kbd> alt </kbd> + <kbd> ctrl </kbd> + <kbd> ← </kbd> |
+| Celda a continuación | <kbd> alt </kbd> + <kbd> ctrl </kbd> + <kbd> ↓ </kbd> |
+| Celda arriba | <Kbd> Alt </kbd> + <kbd> ctrl </kbd> + <kbd> ↑ </kbd>

@@ -4,86 +4,57 @@ role: chapter
 draft: false
 ---
 
-# Accessibility {#a11y}
+# Accesibilidad {#a11y}
 
-Thorium Reader is for everyone, including people who are blind or have
-other types of visual, cognitive or motor disabilities. The application
-is compatible with accessible technologies like screen readers,
-including JAWS, NVDA, Narrator and VoiceOver. It includes a read-aloud
-feature with visual highlighting. Thorium Reader can be used with the
-mouse or the keyboard, and keyboard shortcuts are configurable. The
-display can be customized to meet the needs of users, including colors,
-text size, spacing, font and layout.
+Thorium Reader es para todos, incluidas las personas ciegas o tienen
+Otros tipos de discapacidades visuales, cognitivas o motoras. La aplicación
+es compatible con tecnologías accesibles como lectores de pantalla,
+incluyendo Jaws, NVDA, narrador y voz en off. Incluye una lectura en voz alta
+Característica con resaltado visual. El lector de Thorium se puede usar con el
+El mouse o el teclado, y los atajos de teclado son configurables. El
+La pantalla se puede personalizar para satisfacer las necesidades de los usuarios, incluidos los colores,
+Tamaño de texto, espaciado, fuente y diseño.
 
- warning
-Attention !
-
-The accessibility features are strongly dependant and affected by the
-quality of the electronic publication files.
+Las características de accesibilidad dependen fuertemente y afectan por el
+Calidad de los archivos de publicación electrónica.
 
 
-## Accessibility information {#a11y_info}
+## Información de accesibilidad {#a11y_info}
 
-Currently Thorium displays in the [Book information panel]()
-under the heading `Description` the content of the accessibility summary
-metadata ( [accessibilitySummary]{lang="en"}).
+Actualmente se muestra Thorium en el Panel de información del libro 
+Bajo el encabezado 'Descripción` el contenido del resumen de accesibilidad
+metadata.
 
-![Screenshot, the book The Mark of Four indicates: This publication
-complies with the SNE Charter - natively accessible textual EPUBs
-».](../../resources/images/local-es/thorium-bookinfo-a11ysummary.png)
+El trabajo está en marcha para desarrollar una guía para mostrar accesibilidad
+información. Estamos siguiendo este trabajo e implementaremos el
+Recomendaciones pronto.
 
- warning
-Attention !
+Los editores deben completar la información de accesibilidad. Thorium
+Muestra esta información tal como se definió. En caso de duda o
+Queja, comuníquese con el distribuidor o al editor del archivo.
 
-Work is underway to develop a guide for displaying accessibility
-information. We are following this work and will implement the
-recommendations soon.
+## Funciones de accesibilidad nativa {#a11y_native}
 
+Las características de accesibilidad nativa ofrecidas por Thorium son fuertemente
+afectado por la calidad de los archivos de lectura.
 
- danger
-Attention !
+## Ajustes visuales {#a11y_visual}
 
-Accessibility information must be filled in by the editors. Thorium
-displays this information as it was defined. In case of doubt or
-complaint, please contact the distributor or the publisher of the file.
+-La aplicación le permite cambiar el color temas, cambiar la fuente de visualización, y el tamaño del texto.
 
+-Es posible usar todas las fuentes instaladas en la computadora.
 
-## Native accessibility functions {#a11y_native}
+-Es posible aumentar el tamaño de una imagen con
+<KBD> SHIFT </KBD> + `CLIC` en la imagen. Repite varias veces para ampliar el     Imagen al tamaño deseado.
 
- warning
-Attention !
+- La pantalla se puede seleccionar como paginada o desplazada.
+- El texto puede justificarse o alinearse a la izquierda, y el número de columnas revisado.
+- El espacio se puede ajustar de manera flexible, con control sobre el margen, la palabra,     Carta y línea.
 
-The native accessibility features offered by Thorium are strongly
-affected by the quality of the read files.
-
-
-## Visual adjustments {#a11y_visual}
-
--   The application allows you to [change the color
-    themes]() and [change the display font, text
-    size]().
-
--   it is possible to use all the fonts installed on the computer.
-
--   It is possible to increase the size of an image with
-   <kbd>Shift</kbd> + `Clic` on the image. Repeat several times to enlarge the
-    image to the desired size.
-
--   The display can be selected as paginated or scrolling.
-
--   Text can be justified or left-aligned, and the number of columns
-    controlled.
-
--   Spacing can be flexibly adjusted, with control over margin, word,
-    letter and line.
-
- danger
-Attention !
-
-Visual adjustments are not possible with fixed layout formats such as
-some EPUBs (so-called [Fixed Layout]{lang="en"}) or PDF files.
+Los ajustes visuales no son posibles con formatos de diseño fijos como
+Algunos epubs (llamado [diseño fijo] {lang = "en"}) o archivos PDF.
 
 
-## Text-to-Speech (TTS) {#a11y_tts}
+## Text-to-speech (TTS) {#A11Y_TTS}
 
-See dedicated section about [Text to Speech (TTS)]().
+Consulte la sección dedicada sobre Texto a discurso (TTS).

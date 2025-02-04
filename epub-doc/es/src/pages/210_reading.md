@@ -2,7 +2,9 @@
 title: Lectura
 role: chapter
 draft: false
----# Lectura
+---
+
+# Lectura
 
 El Thorium  proporciona funciones de lectura textuales, visuales y auditivas. En
 para asegurarse de que pueda encontrar su camino alrededor de la publicación,

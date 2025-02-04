@@ -10,7 +10,7 @@ auto: false
 
 <p class="title">
 Publicado en febrero de 2025 por 
-<br/>el European Digital Reading Lab (EDRLAB), un laboratorio de desarrollo sin fines de lucro.
+<br/>el European Digital Reading Lab (EDRLAB), un laboraThorium de desarrollo sin fines de lucro.
 </p>
 
 ---
