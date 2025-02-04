@@ -121,7 +121,6 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Pann
 </li>
 <li>
 <a href="../pages/300_accessibility/index.xhtml">Accessibilité</a>
-</li>
     <ol>
         <li>
         <a href="../pages/300_accessibility/index.xhtml#a11y_info">Informations sur l'accessibilité</a>
@@ -130,7 +129,7 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Pann
         <a href="../pages/300_accessibility/index.xhtml#a11y_native">Fonctions d'accessibilité native</a>
         </li>
         <li>
-        <a href="../pages/300_accessibility/index.xhtml#screenreaders">Lire avec un lecteur d'écran</a>
+        <a href="../pages/300_accessibility/index.xhtml#screenreader">Lire avec un lecteur d'écran</a>
         </li>
     </ol>
 </li>
