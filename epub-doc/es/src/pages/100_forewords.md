@@ -18,7 +18,7 @@ Este software es gratuito, de código abierto y, como tal, su desarrollo es solo
 posible porque está financiado por diferentes organizaciones. Entre estos,
 miembros de edrlab, subvenciones privadas o públicas y pequeñas recurrentes
 donaciones de usuarios felices (individuos o empresas). Si confías en
-Esta aplicación, considere [soporte!] (../903_support/index.xhtml)
+Esta aplicación, considere [apoyo con financiación y patrocinio](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/)
 
 
 ## Esta es la documentación para el Thorium  3, ¡y es un trabajo en progreso! {#th3}

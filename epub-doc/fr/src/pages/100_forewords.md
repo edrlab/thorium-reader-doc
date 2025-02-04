@@ -11,7 +11,7 @@ Thorium permet de lire des livres électroniques dans différents [formats](../4
 
 ---
 
-Ce logiciel est gratuit, open-source et à ce titre, son développement n'est possible que parce qu'il est financé par différents organismes. Parmi ceux-ci, des membres d'EDRLab, des subventions privées ou publiques et des petits dons récurrents d'utilisateurs satisfaits (particuliers ou entreprises). Si vous comptez sur cette application, pensez à [la soutenir !](../903_support/index.xhtml)
+Ce logiciel est gratuit, open-source et à ce titre, son développement n'est possible que parce qu'il est financé par différents organismes. Parmi ceux-ci, des membres d'EDRLab, des subventions privées ou publiques et des petits dons récurrents d'utilisateurs satisfaits (particuliers ou entreprises). Si vous comptez sur cette application, pensez à [participer au financement et parrainage](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/)
 
 ## Ceci est la documentation de Thorium 3, et c'est un travail en cours ! {#th3}
 
