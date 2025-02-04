@@ -1,6 +1,7 @@
 ---
 title: Avant-propos
 role: doc-foreword
+epubtype: foreword
 draft: 'false'
 weight: '100'
 ---

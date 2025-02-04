@@ -1,6 +1,7 @@
 ---
 title: Prólogos
 role: doc-foreword
+epubtype: foreword
 draft: false
 weight: 100
 ---

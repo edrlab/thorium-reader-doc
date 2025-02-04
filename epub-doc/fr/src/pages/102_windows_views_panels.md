@@ -1,6 +1,7 @@
 ---
 title: Fenêtres, vues et panneaux
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: 'false'
 ---
 

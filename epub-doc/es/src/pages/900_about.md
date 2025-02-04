@@ -1,6 +1,7 @@
 ---
 title: Acerca de este libro electrónico
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 # Acerca de este libro electrónico

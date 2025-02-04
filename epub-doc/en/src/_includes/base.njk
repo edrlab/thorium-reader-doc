@@ -11,6 +11,7 @@
   </head>
   <body>
     <section class="colbreak" {% if role %} role="{{ role }}" {% else %}{% endif %}>
+      <hr class="asterism" aria-hidden="true"></hr>
       {% block content %}{% endblock %}
     </section>
   </body>

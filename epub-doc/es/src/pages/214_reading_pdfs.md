@@ -1,6 +1,7 @@
 ---
 title: Lectura de PDFS
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 # Leer archivos PDF

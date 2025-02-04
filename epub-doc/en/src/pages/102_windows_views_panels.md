@@ -1,6 +1,7 @@
 ---
 title: Windows, views and panels
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 

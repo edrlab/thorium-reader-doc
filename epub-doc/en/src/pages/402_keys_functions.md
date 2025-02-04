@@ -1,6 +1,7 @@
 ---
 title: Keys functions
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 

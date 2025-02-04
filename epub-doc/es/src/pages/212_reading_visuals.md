@@ -1,6 +1,7 @@
 ---
 title: Lectura de contenidos visuales
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 # Lectura de contenidos visuales

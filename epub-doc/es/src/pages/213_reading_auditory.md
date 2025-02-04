@@ -1,6 +1,7 @@
 ---
 title: Leer contenidos de audio
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 # Lectura de contenidos de audio

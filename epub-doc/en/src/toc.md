@@ -129,7 +129,7 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
         <a href="../pages/300_accessibility/index.xhtml#a11y_native">Native accessibility functions</a>
         </li>
         <li>
-        <a href="../pages/300_accessibility/index.xhtml#screenreaders">Reading with a screen reader</a>
+        <a href="../pages/300_accessibility/index.xhtml#screenreader">Reading with a screen reader</a>
         </li>
     </ol>
 </li>

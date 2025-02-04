@@ -1,6 +1,7 @@
 ---
 title: Lire des contenus textuels
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: 'false'
 ---
 

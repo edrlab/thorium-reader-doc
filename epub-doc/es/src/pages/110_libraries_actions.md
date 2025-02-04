@@ -1,6 +1,7 @@
 ---
 title: Acciones de bibliotecas
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 

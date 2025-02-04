@@ -1,6 +1,7 @@
 ---
 title:  Search in a book
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 

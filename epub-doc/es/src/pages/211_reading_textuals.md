@@ -1,6 +1,7 @@
 ---
 title: Lectura de contenidos textuales
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 

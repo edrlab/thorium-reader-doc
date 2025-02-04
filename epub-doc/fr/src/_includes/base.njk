@@ -4,10 +4,15 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/edrlabpublications.css"/>
+    <link rel="stylesheet" type="text/css" href="{{EPUBRoot}}/resources/css/thdoc.css"/>
     {% block head %}{% endblock %}
   </head>
   <body>
-    {% block content %}{% endblock %}
+    <section class="colbreak" {% if role %} role="{{ role }}" {% else %}{% endif %}>
+      <hr class="asterism" aria-hidden="true"></hr>
+      {% block content %}{% endblock %}
+    </section>
   </body>
 </html>

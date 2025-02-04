@@ -1,6 +1,7 @@
 ---
 title: Título
-role: doc-copyright
+role: doc-credit
+epubtype: credit
 draft: false
 weight: 100
 auto: false
