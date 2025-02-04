@@ -3,7 +3,7 @@ title: "Terms of use"
 description: ""
 draft: false
 layout: single
-weight: 901
+weight: 902
 toc: false
 ---
 

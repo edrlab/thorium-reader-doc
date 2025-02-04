@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: ""
 draft: false
 images: [logo.png]
-weight: 902
+weight: 903
 toc: false
 ---
 

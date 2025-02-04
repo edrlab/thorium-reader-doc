@@ -3,7 +3,7 @@ title: "Politique d'accessibilité"
 description: ""
 draft: false
 layout: single
-weight: 903
+weight: 904
 toc: false
 ---
 EDRLab est un laboratoire de développement à but non lucratif et place l'accessibilité au cœur de ses actions. Cela inclut le développement de Thorium Reader. 

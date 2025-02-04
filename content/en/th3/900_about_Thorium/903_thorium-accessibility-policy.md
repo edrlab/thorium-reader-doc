@@ -3,7 +3,7 @@ title: "Accessibility policy"
 description: ""
 draft: false
 layout: single
-weight: 903
+weight: 904
 toc: false
 ---
 
