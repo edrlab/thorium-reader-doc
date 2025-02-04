@@ -1,46 +1,62 @@
 ---
 title: Accessibilité
-role: 
+role: chapter
 draft: false
 ---
 
 # Accessibilité {#a11y}
 
-Thorium Reader s'adresse à tous, y compris aux personnes aveugles ou atteintes d'autres types de handicaps visuels, cognitifs ou moteurs. L'application est compatible avec les technologies accessibles comme les lecteurs d'écran, notamment JAWS, NVDA, Narrator et VoiceOver. Elle comprend une fonction de lecture à voix haute avec surlignage visuel. Thorium Reader peut être utilisé avec la souris ou le clavier, et les raccourcis clavier sont configurables. L'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment les couleurs, la taille du texte, l'espacement, la police et la mise en page.
+L'application est compatible avec les technologies d'assistance comme les lecteurs d'écran, notamment JAWS, NVDA, Narrator et VoiceOver. Elle comprend une fonction de lecture à voix haute avec surlignage visuel. Thorium Reader peut être utilisé avec la souris ou le clavier, et les raccourcis clavier sont configurables. L'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment les couleurs, la taille du texte, l'espacement, la police et la mise en page.
 
 Les fonctionnalités d'accessibilité dépendent fortement de la qualité des fichiers de publication électronique et sont affectées par celle-ci. 
 
+La page de [support en ligne accessibilité](https://thorium.edrlab.org/fr/th3/500_accessibility/) contient les informations complètes liées à l'accessibilité de l'application et les fonctionnalités qui y sont liées.
+
+Ce chapitre reprend les informations principales pour les avoir à disposition hors ligne. 
+
 ## Informations sur l'accessibilité {#a11y_info}
 
-Actuellement, Thorium affiche dans le [panneau Informations sur le livre]() sous le titre `Description` le contenu des métadonnées du résumé d'accessibilité ( [accessibilitySummary]{lang="fr"}).
-
-<img src="../../resources/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre The Mark of Four indique : Cette publication&lt;span translate=" /> conforme à la charte SNE - EPUB textuels nativement accessibles<br/>». " 
-
-Des travaux sont en cours pour élaborer un guide d'affichage des informations sur l'accessibilité. Nous suivons ces travaux et mettrons en œuvre les recommandations prochainement. 
-
-Les informations d'accessibilité doivent être renseignées par les éditeurs. Thorium affiche ces informations telles qu'elles ont été définies. En cas de doute ou de réclamation, veuillez contacter le distributeur ou l'éditeur du fichier. 
+Actuellement, Thorium affiche dans le [panneau Informations sur le livre](../102_windows_views_panels/index.xhtml#book_info_panel) sous le titre `Description` le contenu des métadonnées d'accessibilité fournies par les créateurs du fichier.
 
 ## Fonctions d'accessibilité natives {#a11y_native}
 
+Les fonctions d'accessibilité natives sont décrites dans chacune des section de cette documentation qui correspondent à leur contexte d'utilisation. Cela inclut notamment:
 
-Les fonctionnalités d'accessibilité natives offertes par Thorium sont fortement affectées par la qualité des fichiers lus. 
+* [Les ajustements visuels de l'affichage du texte](../102_windows_views_panels/index.xhtml#reading_settings_panel)
+* [La lecture audio générée en voix de synthèse](../211_reading_textuals/index.xhtml#read_text_readaloud)
 
-## Ajustements visuels {#a11y_visual}
+## Lire avec un lecteur d'écran {#screenreader}
 
-- L'application vous permet de [changer les thèmes de couleurs]() et [de modifier la police d'affichage, la taille du texte]() .
+Lors du lancement de Thorium, si un lecteur d'écran est détecté, les fonctions relatives sont activées.
 
-- il est possible d'utiliser toutes les polices installées sur l'ordinateur.
+Notez que les lecteurs d'écran utilisent une mémoire tampon séparée pour accéder au contenu HTML, ce qui entraîne une désynchronisation du défilement visuel et un décalage de la page affichée avec la page lue par le lecteur d'écran. En d'autres termes, Thorium n'est généralement pas conscient de l'emplacement de lecture actuel de l'utilisateur du lecteur d'écran, à moins que l'utilisateur du lecteur d'écran ne déclenche des événements (tels qu'un clic de souris n'importe où dans le texte ou une touche de clavier sur des éléments HTML focalisables).
 
-- Il est possible d'augmenter la taille d'une image avec <kbd>Maj</kbd> + `clic` sur l'image. Répétez l'opération plusieurs fois pour agrandir l'image à la taille souhaitée.
+### Touches rapides pour la navigation (communes à NVDA et JAWS)
 
-- L'affichage peut être sélectionné comme paginé ou défilant.
+*(contribution de Prashant Verma, DAISY Consortium)*
 
-- Le texte peut être justifié ou aligné à gauche, et le nombre de colonnes contrôlé.
+Pour lire du texte, naviguer dans les tableaux, naviguer dans la fenêtre du navigateur, la touche d'insertion peut être remplacée par la touche de modification du lecteur d'écran (par exemple la touche <kbd>Verr. Maj</kbd>).
 
-- L'espacement peut être ajusté de manière flexible, avec contrôle sur la marge, le mot, la lettre et la ligne.
+Le lecteur d'écran doit être en mode navigation ou curseur virtuel.
 
-Les ajustements visuels ne sont pas possibles avec des formats de mise en page fixes tels que certains fichiers EPUB (appelés [Fixed Layout]{lang="fr"}) ou PDF. 
-
-## Synthèse vocale (TTS) {#a11y_tts}
-
-Voir la section dédiée à [la synthèse vocale (TTS)]() .
+|Action |Commande|
+|---|---|
+|Titre suivant| <kbd>H</kbd> |
+|Table suivante| <kbd>T</kbd>|
+|Graphique suivant| <kbd>G</kbd>|
+|Liste suivante|<kbd>L</kbd>|
+|Champ de formulaire suivant|<kbd>F</kbd>|
+|Liste des éléments| <kbd>INSERT</kbd> + <kbd>F7</kbd> (fonctionne quel que soit le mode curseur)|
+|Caractère précédent| <kbd>←</kbd> |
+|Caractère suivant| <kbd>→</kbd> |
+|Mot précédent |<kbd>CTRL</kbd> + <kbd>←</kbd> |
+|Dire le mot suivant|<kbd>CTRL</kbd> + <kbd>→</kbd> |
+|Ligne précédente |<kbd>↑</kbd> |
+|Ligne suivante |<kbd>↓</kbd> |
+|Phrase précédente |<kbd>ALT</kbd> + <kbd>↑</kbd> (Jaws uniquement) |
+|Phrase suivante |<kbd>ALT</kbd> + <kbd>↓</kbd> (Jaws uniquement) |
+|Lire tout |<kbd>INSERT</kbd> + <kbd>↓</kbd> |
+|Cellule à droite |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd> |
+|Cellule à gauche |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd>|
+| Cellule en dessous|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↓</kbd>|
+| Cellule au dessus|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↑</kbd>|

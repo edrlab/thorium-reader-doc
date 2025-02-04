@@ -121,9 +121,17 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
 </li>
 <li>
 <a href="../pages/300_accessibility/index.xhtml">Accessibility</a>
-</li>
-<li>
-<a href="../pages/311_screenReaders/index.xhtml">Reading with a screen reader</a>
+    <ol>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#a11y_info">Accessibility information</a>
+        </li>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#a11y_native">Native accessibility functions</a>
+        </li>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#screenreaders">Reading with a screen reader</a>
+        </li>
+    </ol>
 </li>
 <li>
 <a href="../pages/400_ressources/index.xhtml">Ressources</a>

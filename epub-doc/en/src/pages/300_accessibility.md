@@ -4,75 +4,54 @@ role: chapter
 draft: false
 ---
 
-# Accessibility {#a11y}
+# Accessibility {#A11Y}
+The application is compatible with assistance technologies such as screen players, including Jaws, NVDA, Narrator and Voiceover. It includes a reading function aloud with visual highlighting. Thorium Reader can be used with mouse or keyboard, and keyboard shortcuts are configurable. The display can be personalized to meet the needs of users, including colors, text size, spacing, font and layout.
+Accessibility features strongly depend on the quality of electronic publication files and are affected by it. 
 
-Thorium Reader is for everyone, including people who are blind or have
-other types of visual, cognitive or motor disabilities. The application
-is compatible with accessible technologies like screen readers,
-including JAWS, NVDA, Narrator and VoiceOver. It includes a read-aloud
-feature with visual highlighting. Thorium Reader can be used with the
-mouse or the keyboard, and keyboard shortcuts are configurable. The
-display can be customized to meet the needs of users, including colors,
-text size, spacing, font and layout.
+The [Accessibility online support page](https://thorium.edrlab.org/en/th3/500_accessibility/) contains complete information related to the accessibility of the application and the features related to it.
 
- warning
-Attention !
-
-The accessibility features are strongly dependant and affected by the
-quality of the electronic publication files.
-
+This chapter takes up the main information to have it offline.
 
 ## Accessibility information {#a11y_info}
 
-Currently Thorium displays in the [Book information panel]()
-under the heading `Description` the content of the accessibility summary
-metadata ( [accessibilitySummary]{lang="en"}).
-
-![Screenshot, the book The Mark of Four indicates: This publication
-complies with the SNE Charter - natively accessible textual EPUBs
-».](../../resources/images/local-fr/thorium-bookinfo-a11ysummary.png)
-
-Work is underway to develop a guide for displaying accessibility
-information. We are following this work and will implement the
-recommendations soon.
-
-Accessibility information must be filled in by the editors. Thorium
-displays this information as it was defined. In case of doubt or
-complaint, please contact the distributor or the publisher of the file.
+Currently, Thorium displays in the [Book Information Panel](../102_windows_views_panels/index.xhtml#book_info_panel) under the title `Description` Description 'The content of the accessibility metadata provided by the creators of the file.
 
 ## Native accessibility functions {#a11y_native}
 
-The native accessibility features offered by Thorium are strongly
-affected by the quality of the read files.
+The native accessibility functions are described in each section of this documentation which correspond to their context of use. This includes in particular:
 
+* [Visual adjustments in the display of the text](../102_windows_views_panels/index.xhtml#reading_settings_panel)
+* [Audio reading generated in summary voice](../211_reading_textuals/index.xhtml#read_text_readaloud)
 
-### Visual adjustments {#a11y_visual}
+## Reading with a screen player {#screenreader}
 
--   The application allows you to [change the color
-    themes]() and [change the display font, text
-    size]().
+When launching Thorium, if a screen player is detected, the relative functions are activated.
+Note that screen players use separate buffer memory to access HTML content, which causes the visual scroll desynchronization and a page offset displayed with the page read by the screen player. In other words, Thorium is generally not aware of the current reading location of the screen player user, unless the screen user triggers events (such as a Mouse click anywhere in the text or a keyboard key on focused HTML elements).
 
--   it is possible to use all the fonts installed on the computer.
+### Quick keys for navigation (common to NVDA and Jaws)
 
--   It is possible to increase the size of an image with
-   <kbd>Shift</kbd> + `Clic` on the image. Repeat several times to enlarge the
-    image to the desired size.
+*(Contribution of Prashant Verma, Daisy Consortium)*
 
--   The display can be selected as paginated or scrolling.
+To read text, navigate in the tables, navigate in the browser window, the insertion key can be replaced by the screen modification key. The screen player must be in navigation or virtual cursor mode.
 
--   Text can be justified or left-aligned, and the number of columns
-    controlled.
-
--   Spacing can be flexibly adjusted, with control over margin, word,
-    letter and line.
-
- danger
-Attention !
-
-Visual adjustments are not possible with fixed layout formats such as
-some EPUBs (so-called [Fixed Layout]{lang="en"}) or PDF files.
-
-
-### Text-to-Speech (TTS) {#a11y_tts}
-
-See dedicated section about [Text to Speech (TTS)]().
+|Action |Key|
+|---|---|
+|Following title| <kbd>H</kbd> |
+|Next table| <kbd>T</kbd>|
+|Following graphic| <kbd>G</kbd>|
+|Next list|<kbd>L</kbd>|
+|Following form field|<kbd>F</kbd>|
+|Element list| <kbd>INSERT</kbd> + <kbd>F7</kbd> |
+|Preceding| <kbd>←</kbd> |
+|Following character| <kbd>→</kbd> |
+|Previous word |<kbd>CTRL</kbd> + <kbd>←</kbd> |
+|Next word|<kbd>CTRL</kbd> + <kbd>→</kbd> |
+|Previous line |<kbd>↑</kbd> |
+|Next line |<kbd>↓</kbd> |
+|Previous sentence |<kbd>ALT</kbd> + <kbd>↑</kbd> (Jaws uniquement) |
+|Next sentence|<kbd>ALT</kbd> + <kbd>↓</kbd> (Jaws uniquement) |
+|Read everything|<kbd>INSERT</kbd> + <kbd>↓</kbd> |
+|Cell on the right|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd> |
+|Cell on the left |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd>|
+|Cell below|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↓</kbd>|
+|Cell above|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↑</kbd>|

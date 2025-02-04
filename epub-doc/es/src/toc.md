@@ -121,9 +121,17 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Pane
 </li>
 <li>
 <a href="../pages/300_accessibility/index.xhtml"> Accesibilidad </a>
-</li>
-<li>
-<a href="../pages/311_screenreaders/index.xhtml"> Lectura con un lector de pantalla </a>
+    <ol>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#a11y_info">Información de accesibilidad</a>
+        </li>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#a11y_native">Funciones de accesibilidad nativa</a>
+        </li>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#screenreaders">Leer con un lector de pantalla</a>
+        </li>
+    </ol>
 </li>
 <li>
 <a href="../pages/400_ressources/index.xhtml"> Ressources </a>
