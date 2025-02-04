@@ -33,18 +33,10 @@ format de fichier que vous souhaitez lire avec Thorium.&lt;/p>
 &lt;h2 id="livres-électroniques-académiques-et-professionnels-">Livres électroniques académiques et professionnels :&lt;/h2>
 &lt;p>Google Scholar : Google Scholar propose un moyen simple de rechercher des ouvrages scientifiques de manière générale. À partir d&amp;rsquo;un seul endroit, vous pouvez effectuer des recherches dans de nombreuses disciplines et sources.&lt;/p>
 &lt;p>JSTOR : JSTOR est une bibliothèque numérique fondée en 1995. Contenant à l&amp;rsquo;origine des numéros numérisés de revues universitaires, elle comprend désormais également des livres et des sources primaires. Elle est accessible à de nombreuses universités et institutions à travers l&amp;rsquo;Europe.&lt;/p>
-&lt;p>Directory of Open Access Books (DOAB) : DOAB propose un accès libre à des livres évalués par des pairs provenant de divers éditeurs. Il est basé aux Pays-Bas.&lt;/p></description></item><item><title>Th3: Accessibilité</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/300_accessibility/</guid><description>
-&lt;h1 id="a11y">Accessibilité&lt;/h1>
-&lt;p>Thorium Reader s&amp;rsquo;adresse à tout le monde, y compris aux personnes aveugles ou ayant
-d&amp;rsquo;autres types de handicaps visuels, cognitifs ou moteurs. La demande
-est compatible avec les technologies accessibles comme les lecteurs d&amp;rsquo;écran,
-y compris JAWS, NVDA, Narrateur et VoiceOver. Il comprend une lecture à haute voix
-fonctionnalité avec mise en évidence visuelle. Thorium Reader peut être utilisé avec le
-la souris ou le clavier, et les raccourcis clavier sont configurables. Le
-l&amp;rsquo;affichage peut être personnalisé pour répondre aux besoins des utilisateurs, y compris les couleurs, taille du texte, espacement, police et mise en page.&lt;/p>
+&lt;p>Directory of Open Access Books (DOAB) : DOAB propose un accès libre à des livres évalués par des pairs provenant de divers éditeurs. Il est basé aux Pays-Bas.&lt;/p></description></item><item><title>Th3: Informations sur l'accessibilité des livres</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/500_accessibility/300_accessibility/</guid><description>
 &lt;h2 id="a11y_info">Informations sur l&amp;rsquo;accessibilité&lt;/h2>
 &lt;p>Actuellement, Thorium affiche dans le panneau d&amp;rsquo;informations sur le livre les informations d&amp;rsquo;accessibilité fournies par l&amp;rsquo;éditeur. Thorium affiche ces informations telles qu&amp;rsquo;elles ont été définies. En cas de doute ou
-réclamation, merci de contacter le distributeur ou l&amp;rsquo;éditeur du fichier.&lt;/p></description></item><item><title>Th3: Lire avec un lecteur d'écran</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/311_screenreaders/</guid><description>
+réclamation, merci de contacter le distributeur ou l&amp;rsquo;éditeur du fichier.&lt;/p></description></item><item><title>Th3: Lire avec un lecteur d'écran</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/500_accessibility/311_screenreaders/</guid><description>
 &lt;h2 id="lire-avec-un-lecteur-décran">Lire avec un lecteur d&amp;rsquo;écran&lt;/h2>
 &lt;p>Au lancement de Thorium, si un lecteur d&amp;rsquo;écran est détecté, le relatif
 les fonctions sont activées.&lt;/p>
@@ -709,10 +701,97 @@ Avoir une interface utilisateur pour exporter l’intégralité du catalogue n�
 &lt;p>Pour ajouter une traduction, vous pouvez partir de l&amp;rsquo;anglais &amp;ldquo;en.json&amp;rdquo;, le renommer en et modifier les valeurs après la ponctuation deux points (:).&lt;/p>
 &lt;p>Si vous êtes à l&amp;rsquo;aise avec github, vous pouvez ouvrir une pull request pour soumettre le fichier.&lt;/p>
 &lt;p>Sinon, vous pouvez simplement nous envoyer le fichier localisé par email et nous procéderons à l&amp;rsquo;ajout. Une liste des contributeurs est maintenue sur la page wiki Traduction de la langue de localisation (l10n).&lt;/p>
-&lt;p>Sachez que nous sommes actuellement en train de retravailler l&amp;rsquo;interface utilisateur, des changements importants pourraient donc survenir d&amp;rsquo;ici le premier trimestre 2024. Nous alertons généralement les contributeurs de localisation avant toute publication afin qu&amp;rsquo;ils puissent mettre à jour le fichier de traduction. Nous mentionnons également que le site Web de documentation de Thorium peut être localisé via une méthodologie de contribution similaire. ](../900_about)&lt;/p></description></item><item><title>Th3: Conditions d'utilisation</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
+&lt;p>Sachez que nous sommes actuellement en train de retravailler l&amp;rsquo;interface utilisateur, des changements importants pourraient donc survenir d&amp;rsquo;ici le premier trimestre 2024. Nous alertons généralement les contributeurs de localisation avant toute publication afin qu&amp;rsquo;ils puissent mettre à jour le fichier de traduction. Nous mentionnons également que le site Web de documentation de Thorium peut être localisé via une méthodologie de contribution similaire. ](../900_about)&lt;/p></description></item><item><title>Th3: Financement et parrainage</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
+&lt;p>EDRLAB est une organisation à but non lucratif travaillant sur le développement de logiciels open-source, en particulier sur le projet Readium et sur Thorium Reader.&lt;/p>
+&lt;p>Parce que tous les logiciels que nous créons sont gratuits et open-source, et parce que le développement d&amp;rsquo;applications de lecture est vraiment complexe, votre parrainage est nécessaire.&lt;/p>
+&lt;p>Les moyens les plus simples de participer au financement et au parrainage sont:
+*&lt;a href="https://github.com/sponsors/edrlab">Faites un petit don récurrent via le sponsor GitHub&lt;/a>
+*&lt;a href="https://members.edrlab.org/join/">Enrôlez votre organisation en tant que membre d&amp;rsquo;Edrlab&lt;/a>&lt;/p>
+&lt;p>Nous sommes également heureux d&amp;rsquo;envisager un financement basé sur le projet, car ainsi, [contactez-nous] (&lt;a href="https://www.edrlab.org/contact/)">https://www.edrlab.org/contact/)&lt;/a>!&lt;/p></description></item><item><title>Th3: Conditions d'utilisation</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
 &lt;p>Pour des raisons légales, les conditions d&amp;rsquo;utilisation du logiciel, disponibles en anglais, ne sont pas traduites.&lt;/p>
 &lt;p>Vous les trouverez à la page en anglais
-&lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/">Terms of use&lt;/a>&lt;/p></description></item><item><title>Th3: Credits pour Thorium Reader</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/910_credits/</guid><description>
+&lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/">Terms of use&lt;/a>&lt;/p></description></item><item><title>Th3: Privacy Policy</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
+&lt;p>22 November 2022&lt;/p>
+&lt;h2 id="owner-of-the-application">Owner of the application&lt;/h2>
+&lt;p>European Digital Reading Lab
+14 rue Alexandre Parodi
+75010 Paris
+France&lt;/p>
+&lt;h2 id="types-of-data-collected">Types of data collected&lt;/h2>
+&lt;p>The application does not collect Personal Data from its users.&lt;/p>
+&lt;p>The application sends two kinds of non-personal data to servers:&lt;/p>
+&lt;p>1/ Generic usage data: a notification is sent to an EDRLab telemery server each time the application is started. This information is for analytics only and not accessed by any third party. It is used to get information about the evolution of the number of installs of the application per operating system, the evolution of usage sessions and the main locales in use.&lt;/p>
+&lt;p>Parameters of such notification are:&lt;/p>
+&lt;ul>
+&lt;li>a timestamp,&lt;/li>
+&lt;li>the version of Thorium Reader,&lt;/li>
+&lt;li>the operating system of the device and its version,&lt;/li>
+&lt;li>the locale of the application at the time it is started,&lt;/li>
+&lt;li>if this is the first start of Thorium Reader after a fresh install.&lt;/li>
+&lt;/ul>
+&lt;p>The IP address of the device is not stored along with the above information.&lt;/p>
+&lt;p>It is not possible to opt-out from this notification.&lt;/p>
+&lt;p>2/ Readium LCP DRM information: a notification is sent to an LCP Server each time a protected publication is open. This is required by the LCP specification for checking if the license of use of the publication has been updated. There is not centralized LCP Server, each server is operated by the distributor of the protected publication acquired by the user.&lt;/p>
+&lt;p>Parameters of such notification are:&lt;/p>
+&lt;ul>
+&lt;li>a device identifier, automatically generated at the install of the application.&lt;/li>
+&lt;li>a device name, automatically generated at the install of the application.&lt;/li>
+&lt;/ul>
+&lt;p>The codebase of Thorium Reader is open-sourced and can therefore be fully inspected, with the exception of a small software library used as core for the Readium LCP DRM, which does not store or send any data.&lt;/p>
+&lt;h2 id="updates">Updates&lt;/h2>
+&lt;p>We may change the Privacy Policy from time to time. We will notify you by posting the revised Privacy Policy on this page and the date on which the last changes were made will be noted at the top of the page.&lt;/p></description></item><item><title>Th3: Votre aide est précieuse</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</guid><description>
+&lt;p> Vous aussi, vous pouvez aider Thorium Reader à devenir la meilleure application de lecture en &lt;a href="https://www.edrlab.org/become-a-member/">devenant membre de l'EDRLab&lt;/a> . Ou en faisant un don à l'EDRLab via le &lt;a href="https://github.com/sponsors/edrlab">parrainage Github&lt;/a> "piggy-bank", qui accepte les petits dons mensuels. &lt;/p>
+&lt;p> Thorium est construit par sa communauté. Si vous souhaitez participer, contactez-nous ! &lt;/p>
+&lt;p>Vous pouvez également : &lt;/p>
+&lt;ul>
+&lt;li>Signalez une erreur ou suggérez une modification en ouvrant un problème dans notre [outil de suivi du support](https://github.com/edrlab/thorium-reader-doc/issues/new). &lt;/li>
+&lt;/ul>
+&lt;li>Participer à la traduction des ressources.&lt;/li></description></item><item><title>Th3: Bloqué?</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/904_issues/</guid><description>
+&lt;p>Si vous ne trouvez pas la réponse à votre problème sur ce site, vous pouvez nous faire part de votre problème via notre &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">outil de suivi du support&lt;/a> ou &lt;a href="https://www.edrlab.org/contact/">notre formulaire de contact&lt;/a> .&lt;/p>
+&lt;p>Voici les informations dont nous avons besoin :&lt;/p>
+&lt;ul>
+&lt;li>Système d&amp;rsquo;exploitation et sa version&lt;/li>
+&lt;li>Version Thorium (elle est indiquée en bas de la bibliothèque sous le titre &lt;code>About Thorium&lt;/code> )&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Politique d'accessibilité</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/903_thorium-accessibility-policy/</guid><description>
+&lt;p>EDRLab est un laboratoire de développement à but non lucratif et place l&amp;rsquo;accessibilité au cœur de ses actions. Cela inclut le développement de Thorium Reader.&lt;/p>
+&lt;p>Cependant, l’aspect central de l’innovation et de l’expérimentation de notre travail peut affecter l’accessibilité à certains moments.
+Les limitations de financement peuvent également affecter notre action et notre volonté d&amp;rsquo;offrir la meilleure expérience de lecture à tous les lecteurs.
+Ce sont les principales raisons pour lesquelles nous ne pouvons pas, à l’heure actuelle, nous permettre un cycle complet de tests d’accessibilité à chaque version.&lt;/p>
+&lt;p>Tous les bloqueurs identifiés sont informés publiquement et consultables via une étiquette dédiée &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibilité sur notre outil de suivi des problèmes&lt;/a> qui sont traités en priorité par l’équipe de développement.&lt;/p>
+&lt;p>## comprendre tous les besoins de chaque utilisateur
+Nous recueillons les commentaires sur les expériences des clients du point de vue de l&amp;rsquo;accessibilité via différents canaux :
+*Développement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dédié Label Accessibility&lt;/a>
+*E-mail &lt;a href="https://www.edrlab.org/contact/">formulaire de contact&lt;/a>
+*Commentaires individuels recueillis par nos &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">organisations membres dédiées au service des personnes handicapées&lt;/a>&lt;/p>
+&lt;p>## Les fonctionnalités d&amp;rsquo;accessibilité du Thorium Reader sont informées&lt;/p>
+&lt;p>Lorsqu&amp;rsquo;une fonctionnalité d&amp;rsquo;accessibilité est introduite, nous rendons cette information publique via
+*le journal des changements de version
+*une courte mention sur la landing page du site
+*répertorié pour référence sur ce site Web &lt;a href="../../400_ressources/300_accessibility">section ressources, page accessibilité&lt;/a>
+*toutes les explications liées à l&amp;rsquo;accessibilité sont disponibles dans la documentation, et non dans un chapitre ou un endroit séparé.&lt;/p>
+&lt;h2 id="prise-en-charge-des-technologies-dassistance">Prise en charge des technologies d&amp;rsquo;assistance&lt;/h2>
+&lt;p>Une attention particulière est portée aux accès non visuels via les lecteurs d&amp;rsquo;écran.
+Dans la mesure du possible, nous avons l&amp;rsquo;intention de maintenir un chemin d&amp;rsquo;accès similaire entre l&amp;rsquo;accès visuel et non visuel. Chaque fois que cela est nécessaire, nous utilisons des technologies dédiées comme ARIA-Role.&lt;/p>
+&lt;p>Les nouvelles fonctionnalités sont testées avec des lecteurs d&amp;rsquo;écran.&lt;/p>
+&lt;h2 id="tests-daccessibilité">Tests d&amp;rsquo;accessibilité&lt;/h2>
+&lt;pre>&lt;code>*Tests communautaires via [epubtest.org](https://epubtest.org/)&lt;/code>&lt;/pre></description></item><item><title>Th3: Contribuer!</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/905_contribute/</guid><description>
+&lt;p>Thorium et sa documentation sont développés grâce à la communauté des utilisateurs. Nous avons besoin d&amp;rsquo;aide pour traduire cette documentation.&lt;/p>
+&lt;p>Pour ce faire, vous pouvez &lt;a href="https://www.edrlab.org/contact/">nous contacter&lt;/a> .&lt;/p>
+&lt;p>Si vous êtes suffisamment à l&amp;rsquo;aise avec GitHub et le format Markdown, vous pouvez proposer une nouvelle traduction via une Pull Request.&lt;/p>
+&lt;p>Pour cela : clonez le dépôt et créez une branche avec le nom de la langue que vous souhaitez ajouter, faites une copie du dossier &lt;code>content.en&lt;/code> et renommez-le avec deux lettres correspondant à la langue que vous souhaitez ajouter (par exemple &lt;code>content.es&lt;/code> contiendra la traduction en espagnol). Les noms des fichiers ne doivent pas être modifiés car ils assurent la correspondance entre les langues.&lt;/p>
+&lt;p>Le dossier &lt;code>i18n&lt;/code> contient les traductions des éléments fixes de l&amp;rsquo;en-tête et du pied de page. Plusieurs langues sont déjà présentes, si votre langue n&amp;rsquo;est pas présente, copiez-collez le fichier .yaml et renommez-le avec les deux premières lettres des lettres de la langue que vous souhaitez ajouter.&lt;/p>
+&lt;p>Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier &lt;code>config.toml&lt;/code> et ajoutez la langue avec le code suivant :&lt;/p>
+&lt;pre tabindex="0">&lt;code>[languages.en]
+languageName = &amp;#39;English&amp;#39;
+contentDir = &amp;#39;content.en&amp;#39;
+weight = 1
+&lt;/code>&lt;/pre>&lt;p>Vous devez remplacer &lt;code>.en' with the first two letters of the language you are adding and fill in the name of the language as the&lt;/code> &lt;code>value. The&lt;/code> weight` indique l&amp;rsquo;ordre d&amp;rsquo;apparition dans le menu des langues.&lt;/p>
+&lt;p>Exemple pour l&amp;rsquo;espagnol :&lt;/p>
+&lt;pre tabindex="0">&lt;code>[languages.es]
+languageName = &amp;#39;Español&amp;#39;
+contentDir = &amp;#39;content.es&amp;#39;
+weight = 3
+&lt;/code>&lt;/pre>&lt;p>Les images localisées telles que les captures d&amp;rsquo;écran doivent être ajoutées au dossier &lt;code>statics/images/local-(two letter language)&lt;/code> .&lt;/p></description></item><item><title>Th3: Credits pour Thorium Reader</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/910_credits/</guid><description>
 &lt;p>Thorium Reader is currently developed by:&lt;/p>
 &lt;ul class="nobullet">
 &lt;li>Daniel Weck, développeur principal.&lt;/li>
@@ -756,88 +835,42 @@ fonctionnalités spécifiques:
 &lt;li>Canadian Electronic library, Canada&lt;/li>
 &lt;li>MLOL / Horizons Unlimited, Italy&lt;/li>
 &lt;li>Lyrasis, USA&lt;/li>
-&lt;/ul></description></item><item><title>Th3: Privacy Policy</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
-&lt;p>22 November 2022&lt;/p>
-&lt;h2 id="owner-of-the-application">Owner of the application&lt;/h2>
-&lt;p>European Digital Reading Lab
-14 rue Alexandre Parodi
-75010 Paris
-France&lt;/p>
-&lt;h2 id="types-of-data-collected">Types of data collected&lt;/h2>
-&lt;p>The application does not collect Personal Data from its users.&lt;/p>
-&lt;p>The application sends two kinds of non-personal data to servers:&lt;/p>
-&lt;p>1/ Generic usage data: a notification is sent to an EDRLab telemery server each time the application is started. This information is for analytics only and not accessed by any third party. It is used to get information about the evolution of the number of installs of the application per operating system, the evolution of usage sessions and the main locales in use.&lt;/p>
-&lt;p>Parameters of such notification are:&lt;/p>
+&lt;/ul></description></item><item><title>Th3: Licence pour Thorium Reader</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/913_licence/</guid><description>
+&lt;p>L&amp;rsquo;application Thorium-reader est open-source, publiée sous licence BSD 3. Il est basé sur la boîte à outils open source Readium Desktop sous licence de la &lt;a href="https://readium.org/">Readium Foundation&lt;/a> dans le cadre d&amp;rsquo;un ou plusieurs accords de licence de contributeur.&lt;/p>
+&lt;p>Ci après le texte de la licence en anglais :&lt;/p>
+&lt;div lang="en">
+BSD 3-Clause License
+&lt;p>Copyright (c) 2017, EDRLab
+All rights reserved.&lt;/p>
+&lt;p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:&lt;/p>
 &lt;ul>
-&lt;li>a timestamp,&lt;/li>
-&lt;li>the version of Thorium Reader,&lt;/li>
-&lt;li>the operating system of the device and its version,&lt;/li>
-&lt;li>the locale of the application at the time it is started,&lt;/li>
-&lt;li>if this is the first start of Thorium Reader after a fresh install.&lt;/li>
+&lt;li>
+&lt;p>Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Neither the name of the copyright holder nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.&lt;/p>
+&lt;/li>
 &lt;/ul>
-&lt;p>The IP address of the device is not stored along with the above information.&lt;/p>
-&lt;p>It is not possible to opt-out from this notification.&lt;/p>
-&lt;p>2/ Readium LCP DRM information: a notification is sent to an LCP Server each time a protected publication is open. This is required by the LCP specification for checking if the license of use of the publication has been updated. There is not centralized LCP Server, each server is operated by the distributor of the protected publication acquired by the user.&lt;/p>
-&lt;p>Parameters of such notification are:&lt;/p>
-&lt;ul>
-&lt;li>a device identifier, automatically generated at the install of the application.&lt;/li>
-&lt;li>a device name, automatically generated at the install of the application.&lt;/li>
-&lt;/ul>
-&lt;p>The codebase of Thorium Reader is open-sourced and can therefore be fully inspected, with the exception of a small software library used as core for the Readium LCP DRM, which does not store or send any data.&lt;/p>
-&lt;h2 id="updates">Updates&lt;/h2>
-&lt;p>We may change the Privacy Policy from time to time. We will notify you by posting the revised Privacy Policy on this page and the date on which the last changes were made will be noted at the top of the page.&lt;/p></description></item><item><title>Th3: Politique d'accessibilité</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/903_thorium-accessibility-policy/</guid><description>
-&lt;p>EDRLab est un laboratoire de développement à but non lucratif et place l&amp;rsquo;accessibilité au cœur de ses actions. Cela inclut le développement de Thorium Reader.&lt;/p>
-&lt;p>Cependant, l’aspect central de l’innovation et de l’expérimentation de notre travail peut affecter l’accessibilité à certains moments.
-Les limitations de financement peuvent également affecter notre action et notre volonté d&amp;rsquo;offrir la meilleure expérience de lecture à tous les lecteurs.
-Ce sont les principales raisons pour lesquelles nous ne pouvons pas, à l’heure actuelle, nous permettre un cycle complet de tests d’accessibilité à chaque version.&lt;/p>
-&lt;p>Tous les bloqueurs identifiés sont informés publiquement et consultables via une étiquette dédiée &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibilité sur notre outil de suivi des problèmes&lt;/a> qui sont traités en priorité par l’équipe de développement.&lt;/p>
-&lt;p>## comprendre tous les besoins de chaque utilisateur
-Nous recueillons les commentaires sur les expériences des clients du point de vue de l&amp;rsquo;accessibilité via différents canaux :
-*Développement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dédié Label Accessibility&lt;/a>
-*E-mail &lt;a href="https://www.edrlab.org/contact/">formulaire de contact&lt;/a>
-*Commentaires individuels recueillis par nos &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">organisations membres dédiées au service des personnes handicapées&lt;/a>&lt;/p>
-&lt;p>## Les fonctionnalités d&amp;rsquo;accessibilité du Thorium Reader sont informées&lt;/p>
-&lt;p>Lorsqu&amp;rsquo;une fonctionnalité d&amp;rsquo;accessibilité est introduite, nous rendons cette information publique via
-*le journal des changements de version
-*une courte mention sur la landing page du site
-*répertorié pour référence sur ce site Web &lt;a href="../../400_ressources/300_accessibility">section ressources, page accessibilité&lt;/a>
-*toutes les explications liées à l&amp;rsquo;accessibilité sont disponibles dans la documentation, et non dans un chapitre ou un endroit séparé.&lt;/p>
-&lt;h2 id="prise-en-charge-des-technologies-dassistance">Prise en charge des technologies d&amp;rsquo;assistance&lt;/h2>
-&lt;p>Une attention particulière est portée aux accès non visuels via les lecteurs d&amp;rsquo;écran.
-Dans la mesure du possible, nous avons l&amp;rsquo;intention de maintenir un chemin d&amp;rsquo;accès similaire entre l&amp;rsquo;accès visuel et non visuel. Chaque fois que cela est nécessaire, nous utilisons des technologies dédiées comme ARIA-Role.&lt;/p>
-&lt;p>Les nouvelles fonctionnalités sont testées avec des lecteurs d&amp;rsquo;écran.&lt;/p>
-&lt;h2 id="tests-daccessibilité">Tests d&amp;rsquo;accessibilité&lt;/h2>
-&lt;pre>&lt;code>*Tests communautaires via [epubtest.org](https://epubtest.org/)&lt;/code>&lt;/pre></description></item><item><title>Th3: Votre aide est précieuse</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</guid><description>
-&lt;p> Vous aussi, vous pouvez aider Thorium Reader à devenir la meilleure application de lecture en &lt;a href="https://www.edrlab.org/become-a-member/">devenant membre de l'EDRLab&lt;/a> . Ou en faisant un don à l'EDRLab via le &lt;a href="https://github.com/sponsors/edrlab">parrainage Github&lt;/a> "piggy-bank", qui accepte les petits dons mensuels. &lt;/p>
-&lt;p> Thorium est construit par sa communauté. Si vous souhaitez participer, contactez-nous ! &lt;/p>
-&lt;p>Vous pouvez également : &lt;/p>
-&lt;ul>
-&lt;li>Signalez une erreur ou suggérez une modification en ouvrant un problème dans notre [outil de suivi du support](https://github.com/edrlab/thorium-reader-doc/issues/new). &lt;/li>
-&lt;/ul>
-&lt;li>Participer à la traduction des ressources.&lt;/li></description></item><item><title>Th3: Bloqué?</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/904_issues/</guid><description>
-&lt;p>Si vous ne trouvez pas la réponse à votre problème sur ce site, vous pouvez nous faire part de votre problème via notre &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">outil de suivi du support&lt;/a> ou &lt;a href="https://www.edrlab.org/contact/">notre formulaire de contact&lt;/a> .&lt;/p>
-&lt;p>Voici les informations dont nous avons besoin :&lt;/p>
-&lt;ul>
-&lt;li>Système d&amp;rsquo;exploitation et sa version&lt;/li>
-&lt;li>Version Thorium (elle est indiquée en bas de la bibliothèque sous le titre &lt;code>About Thorium&lt;/code> )&lt;/li>
-&lt;/ul></description></item><item><title>Th3: Contribuer!</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/905_contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/905_contribute/</guid><description>
-&lt;p>Thorium et sa documentation sont développés grâce à la communauté des utilisateurs. Nous avons besoin d&amp;rsquo;aide pour traduire cette documentation.&lt;/p>
-&lt;p>Pour ce faire, vous pouvez &lt;a href="https://www.edrlab.org/contact/">nous contacter&lt;/a> .&lt;/p>
-&lt;p>Si vous êtes suffisamment à l&amp;rsquo;aise avec GitHub et le format Markdown, vous pouvez proposer une nouvelle traduction via une Pull Request.&lt;/p>
-&lt;p>Pour cela : clonez le dépôt et créez une branche avec le nom de la langue que vous souhaitez ajouter, faites une copie du dossier &lt;code>content.en&lt;/code> et renommez-le avec deux lettres correspondant à la langue que vous souhaitez ajouter (par exemple &lt;code>content.es&lt;/code> contiendra la traduction en espagnol). Les noms des fichiers ne doivent pas être modifiés car ils assurent la correspondance entre les langues.&lt;/p>
-&lt;p>Le dossier &lt;code>i18n&lt;/code> contient les traductions des éléments fixes de l&amp;rsquo;en-tête et du pied de page. Plusieurs langues sont déjà présentes, si votre langue n&amp;rsquo;est pas présente, copiez-collez le fichier .yaml et renommez-le avec les deux premières lettres des lettres de la langue que vous souhaitez ajouter.&lt;/p>
-&lt;p>Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier &lt;code>config.toml&lt;/code> et ajoutez la langue avec le code suivant :&lt;/p>
-&lt;pre tabindex="0">&lt;code>[languages.en]
-languageName = &amp;#39;English&amp;#39;
-contentDir = &amp;#39;content.en&amp;#39;
-weight = 1
-&lt;/code>&lt;/pre>&lt;p>Vous devez remplacer &lt;code>.en' with the first two letters of the language you are adding and fill in the name of the language as the&lt;/code> &lt;code>value. The&lt;/code> weight` indique l&amp;rsquo;ordre d&amp;rsquo;apparition dans le menu des langues.&lt;/p>
-&lt;p>Exemple pour l&amp;rsquo;espagnol :&lt;/p>
-&lt;pre tabindex="0">&lt;code>[languages.es]
-languageName = &amp;#39;Español&amp;#39;
-contentDir = &amp;#39;content.es&amp;#39;
-weight = 3
-&lt;/code>&lt;/pre>&lt;p>Les images localisées telles que les captures d&amp;rsquo;écran doivent être ajoutées au dossier &lt;code>statics/images/local-(two letter language)&lt;/code> .&lt;/p></description></item><item><title>Th3: Accessibilité de ce site</title><link>https://thorium.edrlab.org/fr/th3/950_about_this_website/912_accessibility_declaration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/950_about_this_website/912_accessibility_declaration/</guid><description>
+&lt;p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &amp;ldquo;AS IS&amp;rdquo;
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p>
+&lt;/div></description></item><item><title>Th3: Accessibilité de ce site</title><link>https://thorium.edrlab.org/fr/th3/950_about_this_website/912_accessibility_declaration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/950_about_this_website/912_accessibility_declaration/</guid><description>
 &lt;p>Ce site a été testé avec NVDA sur Firefox sous Windows 11. Aucun bloqueur d&amp;rsquo;accessibilité n&amp;rsquo;a été trouvé.
 Dernier test : décembre 2024&lt;/p>
 &lt;p>Si vous rencontrez des difficultés, vous pouvez nous en informer via le formulaire de contact ou en ouvrant un ticket sur notre &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">outil de suivi d&amp;rsquo;assistance&lt;/a> ou via notre &lt;a href="https://www.edrlab.org/contact/">formulaire de contact&lt;/a>.&lt;/p>
@@ -881,39 +914,4 @@ dans le cadre du développement de l&amp;rsquo;application Thorium-Reader.&lt;/p
 &lt;/ul>
 &lt;p>## Notes:
 Vous n&amp;rsquo;êtes pas dans l&amp;rsquo;obligation de respecter la licence pour les éléments ou matériel appartenant au domaine public ou dans le cas où l&amp;rsquo;utilisation que vous souhaitez faire est couverte par une exception.&lt;/p>
-&lt;p>Aucune garantie n&amp;rsquo;est donnée. Il se peut que la licence ne vous donne pas toutes les permissions nécessaires pour votre utilisation. Par exemple, certains droits comme les droits moraux, le droit des données personnelles et le droit à l&amp;rsquo;image sont susceptibles de limiter votre utilisation.&lt;/p></description></item><item><title>Th3: Licence pour Thorium Reader</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/913_licence/</guid><description>
-&lt;p>L&amp;rsquo;application Thorium-reader est open-source, publiée sous licence BSD 3. Il est basé sur la boîte à outils open source Readium Desktop sous licence de la &lt;a href="https://readium.org/">Readium Foundation&lt;/a> dans le cadre d&amp;rsquo;un ou plusieurs accords de licence de contributeur.&lt;/p>
-&lt;p>Ci après le texte de la licence en anglais :&lt;/p>
-&lt;div lang="en">
-BSD 3-Clause License
-&lt;p>Copyright (c) 2017, EDRLab
-All rights reserved.&lt;/p>
-&lt;p>Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Redistributions of source code must retain the above copyright notice, this
-list of conditions and the following disclaimer.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Redistributions in binary form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation
-and/or other materials provided with the distribution.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Neither the name of the copyright holder nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &amp;ldquo;AS IS&amp;rdquo;
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p>
-&lt;/div></description></item></channel></rss>
+&lt;p>Aucune garantie n&amp;rsquo;est donnée. Il se peut que la licence ne vous donne pas toutes les permissions nécessaires pour votre utilisation. Par exemple, certains droits comme les droits moraux, le droit des données personnelles et le droit à l&amp;rsquo;image sont susceptibles de limiter votre utilisation.&lt;/p></description></item></channel></rss>

@@ -1,4 +1,12 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – About Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/</link><description>Recent content in About Thorium Reader on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/900_about_thorium/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Terms of use</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – About Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/</link><description>Recent content in About Thorium Reader on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/900_about_thorium/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Funding &amp; Sponsorship</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
+&lt;p>EDRLab is a non-profit organization working on the development of open-source software, in particular on the Readium project and on Thorium Reader, a free and highly accessible reading application for desktop computers.&lt;/p>
+&lt;p>Because all software we create is free and open-source, and because developing reading apps is really complex, your sponsorship is needed.&lt;/p>
+&lt;p>Easiest ways to participate in funding and sponsorship are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/sponsors/edrlab">Make a small recurring donation via Github Sponsor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://members.edrlab.org/join/">Enlist your organisation as an EDRLab member&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We are also glad to consider project based funding, for so, &lt;a href="https://www.edrlab.org/contact/">contact us&lt;/a>!&lt;/p></description></item><item><title>Th3: Terms of use</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
 &lt;p>22 November 2022&lt;/p>
 &lt;p>Please read carefully the following terms and conditions and the documents incorporated by reference therein (collectively, the “Terms of Use”) before you begin using the Thorium Reader application (the “Application”).&lt;/p>
 &lt;p>By using the Application, you agree to be bound by these Terms of Use and our Privacy Policy, which are incorporated herein by reference. If you do not agree to these Terms of Use or the Privacy Policy, you should not access or use our Application.&lt;/p>
@@ -33,51 +41,7 @@ You may integrate in the Application links to third-party services or resources 
 &lt;h2 id="applicable-laws-and-jurisdiction">Applicable Laws and Jurisdiction&lt;/h2>
 &lt;p>These Terms of Use and any dispute arising out of or relating to these Terms of Use shall be governed by the laws in force in France, without reference to its conflict of law rules. Any action, suit or proceeding arising out of these Terms of Use (whether for breach of contract, wrongful conduct or otherwise) shall be brought exclusively in France, as the case may be, located in Paris, and you agree to submit to the jurisdiction of such courts for any action, suit or proceeding arising out of these Terms of Use.&lt;/p>
 &lt;h2 id="contact-us">Contact Us&lt;/h2>
-&lt;p>All questions, comments or requests regarding these terms of use should be sent to EDRLab at: &lt;a href="mailto:contact@edrlab.org">contact@edrlab.org&lt;/a>.&lt;/p></description></item><item><title>Th3: Credits for Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/910_credits/</guid><description>
-&lt;p>Thorium Reader is currently developed by:&lt;/p>
-&lt;ul class="nobullet">
-&lt;li>Daniel Weck, lead developer.&lt;/li>
-&lt;li>Pierre Leroux, developer.&lt;/li>
-&lt;li>Arthur Le Meur, developer&lt;/li>
-&lt;/ul>
-&lt;p>The UX and UI of Thorium 3 was designed by &lt;a href="https://www.myleneboyrie.fr/">Mylène Boyrie&lt;/a>&lt;/p>
-&lt;p>Several other developers have helped making Thorium what it is today:&lt;/p>
-&lt;ul class="nobullet">
-&lt;li>Simon Le Roux, UI designer.&lt;/li>
-&lt;li>Cyrille Lebeaupin, CEO of noop.fr, senior developer.&lt;/li>
-&lt;li>Jiminy Panoz, creator of Readium CSS.&lt;/li>
-&lt;li>Léo Stéfani, node.js, React developer.&lt;/li>
-&lt;li>Manuel Lagrand, intern, node.js developer.&lt;/li>
-&lt;/ul>
-&lt;h2>Who is financing this app&lt;/h2>
-&lt;p>
-EDRLab is a non-profit organization. Our budget essentially originates
-from our members. EDRLab started in France, but is now counting 60 members
-from Europe, North America, South America and Asia.
-&lt;/p>
-&lt;p>This project would have not seen the light without:&lt;/p>
-&lt;p>
-1- The financial implication of our founding members: Editis, Hachette
-Livre, Magrigall, Media-Participations, Cercle de la Librarie, Syndicat
-national de l'Edition. They understand that financing open-standards and
-open-source is the best way to energize an open and innovative market for
-the publishing industry.
-&lt;/p>
-&lt;p>2- Financial grants from the following French public organizations:&lt;/p>
-&lt;ul>
-&lt;li>CNL (Centre National du livre)&lt;/li>
-&lt;li>Ministère de la Culture&lt;/li>
-&lt;/ul>
-&lt;p>
-3- Additional grants from EDRLab members interested by the addition of
-specific features:
-&lt;/p>
-&lt;ul>
-&lt;li>Fênix Editorial, Brazil&lt;/li>
-&lt;li>Canadian Electronic library, Canada&lt;/li>
-&lt;li>MLOL / Horizons Unlimited, Italy&lt;/li>
-&lt;li>Lyrasis, USA&lt;/li>
-&lt;/ul></description></item><item><title>Th3: Privacy Policy</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
+&lt;p>All questions, comments or requests regarding these terms of use should be sent to EDRLab at: &lt;a href="mailto:contact@edrlab.org">contact@edrlab.org&lt;/a>.&lt;/p></description></item><item><title>Th3: Privacy Policy</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
 &lt;p>22 November 2022&lt;/p>
 &lt;h2 id="owner-of-the-application">Owner of the application&lt;/h2>
 &lt;p>European Digital Reading Lab
@@ -131,7 +95,51 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;p>As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.&lt;/p>
 &lt;p>New functionalities are tested with screen readers.&lt;/p>
 &lt;h2 id="accessibility-testing">Accessibility testing&lt;/h2>
-&lt;p>Thorium EPUB accessible reading features are community testing thru &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item><item><title>Th3: Licence for Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/913_licence/</guid><description>
+&lt;p>Thorium EPUB accessible reading features are community testing thru &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item><item><title>Th3: Credits for Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/910_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/910_credits/</guid><description>
+&lt;p>Thorium Reader is currently developed by:&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Daniel Weck, lead developer.&lt;/li>
+&lt;li>Pierre Leroux, developer.&lt;/li>
+&lt;li>Arthur Le Meur, developer&lt;/li>
+&lt;/ul>
+&lt;p>The UX and UI of Thorium 3 was designed by &lt;a href="https://www.myleneboyrie.fr/">Mylène Boyrie&lt;/a>&lt;/p>
+&lt;p>Several other developers have helped making Thorium what it is today:&lt;/p>
+&lt;ul class="nobullet">
+&lt;li>Simon Le Roux, UI designer.&lt;/li>
+&lt;li>Cyrille Lebeaupin, CEO of noop.fr, senior developer.&lt;/li>
+&lt;li>Jiminy Panoz, creator of Readium CSS.&lt;/li>
+&lt;li>Léo Stéfani, node.js, React developer.&lt;/li>
+&lt;li>Manuel Lagrand, intern, node.js developer.&lt;/li>
+&lt;/ul>
+&lt;h2>Who is financing this app&lt;/h2>
+&lt;p>
+EDRLab is a non-profit organization. Our budget essentially originates
+from our members. EDRLab started in France, but is now counting 60 members
+from Europe, North America, South America and Asia.
+&lt;/p>
+&lt;p>This project would have not seen the light without:&lt;/p>
+&lt;p>
+1- The financial implication of our founding members: Editis, Hachette
+Livre, Magrigall, Media-Participations, Cercle de la Librarie, Syndicat
+national de l'Edition. They understand that financing open-standards and
+open-source is the best way to energize an open and innovative market for
+the publishing industry.
+&lt;/p>
+&lt;p>2- Financial grants from the following French public organizations:&lt;/p>
+&lt;ul>
+&lt;li>CNL (Centre National du livre)&lt;/li>
+&lt;li>Ministère de la Culture&lt;/li>
+&lt;/ul>
+&lt;p>
+3- Additional grants from EDRLab members interested by the addition of
+specific features:
+&lt;/p>
+&lt;ul>
+&lt;li>Fênix Editorial, Brazil&lt;/li>
+&lt;li>Canadian Electronic library, Canada&lt;/li>
+&lt;li>MLOL / Horizons Unlimited, Italy&lt;/li>
+&lt;li>Lyrasis, USA&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Licence for Thorium Reader</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/913_licence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/913_licence/</guid><description>
 &lt;p>The Thorium-reader application is open-source, released under a BSD 3 license. It is based on the open-source Readium Desktop toolkit Licensed to the &lt;a href="https://readium.org/">Readium Foundation&lt;/a> under one or more contributor license agreements.&lt;/p>
 &lt;p>BSD 3-Clause License&lt;/p>
 &lt;p>Copyright (c) 2017, EDRLab

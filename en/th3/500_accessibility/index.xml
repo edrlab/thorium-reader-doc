@@ -1,13 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibility</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/</link><description>Recent content in Accessibility on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/500_accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Accessibility</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/300_accessibility/</guid><description>
-&lt;h1 id="a11y">Accessibility&lt;/h1>
-&lt;p>Thorium Reader is for everyone, including people who are blind or have
-other types of visual, cognitive or motor disabilities. The application
-is compatible with accessible technologies like screen readers,
-including JAWS, NVDA, Narrator and VoiceOver. It includes a read-aloud
-feature with visual highlighting. Thorium Reader can be used with the
-mouse or the keyboard, and keyboard shortcuts are configurable. The
-display can be customized to meet the needs of users, including colors,
-text size, spacing, font and layout.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibility</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/</link><description>Recent content in Accessibility on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/500_accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Accessibility information</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/300_accessibility/</guid><description>
 &lt;h2 id="a11y_info">Accessibility information&lt;/h2>
 &lt;p>Currently Thorium displays in the Book information panel, the accessibility information provided by the publisher. Thorium displays this information as it was defined. In case of doubt or
 complaint, please contact the distributor or the publisher of the file.&lt;/p></description></item><item><title>Th3: Reading with a screen reader</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/311_screenreaders/</guid><description>

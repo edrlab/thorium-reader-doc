@@ -1,0 +1,138 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibility</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/</link><description>Recent content in Accessibility on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://thorium.edrlab.org/fr/th3/500_accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Informations sur l'accessibilité des livres</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/500_accessibility/300_accessibility/</guid><description>
+&lt;h2 id="a11y_info">Informations sur l&amp;rsquo;accessibilité&lt;/h2>
+&lt;p>Actuellement, Thorium affiche dans le panneau d&amp;rsquo;informations sur le livre les informations d&amp;rsquo;accessibilité fournies par l&amp;rsquo;éditeur. Thorium affiche ces informations telles qu&amp;rsquo;elles ont été définies. En cas de doute ou
+réclamation, merci de contacter le distributeur ou l&amp;rsquo;éditeur du fichier.&lt;/p></description></item><item><title>Th3: Lire avec un lecteur d'écran</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/500_accessibility/311_screenreaders/</guid><description>
+&lt;h2 id="lire-avec-un-lecteur-décran">Lire avec un lecteur d&amp;rsquo;écran&lt;/h2>
+&lt;p>Au lancement de Thorium, si un lecteur d&amp;rsquo;écran est détecté, le relatif
+les fonctions sont activées.&lt;/p>
+&lt;p>Notez que les lecteurs d&amp;rsquo;écran utilisent un tampon séparé pour accéder au code HTML.
+contenu qui entraîne le défilement visuel /le décalage de page hors de
+synchroniser. En d&amp;rsquo;autres termes, Thorium n&amp;rsquo;a généralement pas connaissance des informations de l&amp;rsquo;utilisateur.
+emplacement de lecture actuel à l&amp;rsquo;intérieur du tampon du lecteur d&amp;rsquo;écran, à moins que le
+l&amp;rsquo;utilisateur du lecteur d&amp;rsquo;écran déclenche des événements API Web standard (tels qu&amp;rsquo;un clic de souris)
+n&amp;rsquo;importe où dans le texte, ou une tabulation clavier dans des éléments HTML focalisables).&lt;/p>
+&lt;p>avertissement
+Attention !&lt;/p>
+&lt;p>Les fonctionnalités d&amp;rsquo;accessibilité destinées aux technologies d&amp;rsquo;assistance sont fortement
+affecté par la qualité des fichiers du livre.&lt;/p>
+&lt;h1 id="frappes-de-touches-communes-à-nvda-et-jaws">Frappes de touches communes à NVDA et JAWS&lt;/h1>
+&lt;p>(contribution de Prashant Verma, Consortium DAISY)&lt;/p>
+&lt;p>Pour lire du texte, naviguer dans les tableaux, naviguer dans le navigateur
+fenêtre, la touche d&amp;rsquo;insertion peut être remplacée par la touche de modification de l&amp;rsquo;écran
+lecteur (par exemple la touche Caps Lock).&lt;/p>
+&lt;h2 id="touches-rapides-pour-la-navigation">Touches rapides pour la navigation&lt;/h2>
+&lt;p>Le lecteur d&amp;rsquo;écran doit être en mode navigation ou curseur virtuel.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Commande&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Titre suivant&lt;/td>
+&lt;td>&lt;kbd>H&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tableau suivant&lt;/td>
+&lt;td>&lt;kbd>T&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Graphique suivant&lt;/td>
+&lt;td>&lt;kbd>G&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Liste suivante&lt;/td>
+&lt;td>&lt;kbd>L&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Champ de formulaire suivant&lt;/td>
+&lt;td>&lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Liste des éléments&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F7&lt;/kbd> (fonctionne quel que soit le mode du curseur)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>Utilisez les touches ci-dessus avec la touche &lt;kbd>Shift&lt;/kbd> pour passer au précédent
+article.&lt;/em>&lt;/p>
+&lt;h2 id="texte">Texte&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Commande&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Caractère précédent&lt;/td>
+&lt;td>&lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Caractère suivant&lt;/td>
+&lt;td>&lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mot précédent&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Dites le mot suivant&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ligne précédente&lt;/td>
+&lt;td>&lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ligne suivante&lt;/td>
+&lt;td>&lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phrase précédente&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↑&lt;/kbd> (Jaws uniquement)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phrase suivante&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↓&lt;/kbd> (Jaws uniquement)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Lire tout&lt;/td>
+&lt;td>&lt;kbd>INSÉRER&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Annoncer la police&lt;/td>
+&lt;td>&lt;kbd>INSÉRER&lt;/kbd> + &lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>## Tableaux&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Commande&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cellule à droite&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule à gauche&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule ci-dessous&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule ci-dessus&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
