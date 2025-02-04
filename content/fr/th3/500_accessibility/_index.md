@@ -1,8 +1,7 @@
 ---
-title: Accessibilité
-role: chapter
-draft: false
-weight: '300'
+Title: Accessibility
+weight: 500
+bookCollapseSection: false
 ---
 # Accessibilité {#a11y}
 
@@ -14,7 +13,4 @@ fonctionnalité avec mise en évidence visuelle. Thorium Reader peut être utili
 la souris ou le clavier, et les raccourcis clavier sont configurables. Le
 l'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, y compris les couleurs, taille du texte, espacement, police et mise en page.
 
-## Informations sur l'accessibilité {#a11y_info}
-
-Actuellement, Thorium affiche dans le panneau d'informations sur le livre les informations d'accessibilité fournies par l'éditeur. Thorium affiche ces informations telles qu'elles ont été définies. En cas de doute ou
-réclamation, merci de contacter le distributeur ou l'éditeur du fichier.
+{{<section>}}
