@@ -8,7 +8,7 @@ auto: false
 
 
 
-<p class="title">
+<p class="title colbreak">
 Publié en février 2025 par <br/> European Digital Reading Lab (EDRLAB), un laboratoire de développement à but non lucratif.
 </p>
 
