@@ -1,6 +1,6 @@
 ---
 title: Title page
-role: doc-title
+role: doc-copyright
 draft: false
 weight: 100
 auto: false
@@ -23,10 +23,14 @@ Paris, France
 </p>
 
 <p class="title">
+
 [contact@edrlab.org](mailto:contact@edrlab.org)
+
 </p>
 <p class="title">
+
 [edrlab.org](https://www.edrlab.org/)
+
 </p>
 
 
