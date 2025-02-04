@@ -4,7 +4,6 @@ weight: 500
 bookCollapseSection: false
 ---
 
-# Accesibilidad {#a11y}
 
 El lector Thorium es para todos, incluidas las personas ciegas o tienen
 Otros tipos de discapacidades visuales, cognitivas o motoras. La aplicación
@@ -16,8 +15,3 @@ La pantalla se puede personalizar para satisfacer las necesidades de los usuario
 Tamaño de texto, espaciado, fuente y diseño.
 
 {{<section>}}
-<!--Section renders pages in section as definition list, using title and description.
-Example
-```tpl
-{{<section>}}
-```-->

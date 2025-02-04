@@ -3,7 +3,7 @@ Title: Accessibility
 weight: 500
 bookCollapseSection: false
 ---
-# Accessibilité {#a11y}
+
 
 Thorium Reader s'adresse à tout le monde, y compris aux personnes aveugles ou ayant
 d'autres types de handicaps visuels, cognitifs ou moteurs. La demande
