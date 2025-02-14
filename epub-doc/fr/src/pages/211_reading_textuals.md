@@ -27,25 +27,24 @@ La taille de la police peut être augmentée ou diminuée à l'aide du curseur. 
 
 En sélectionnant `...` vous pouvez saisir le nom de la police que vous souhaitez utiliser. Pour ce faire, la police doit être présente sur votre système d'exploitation et vous devez connaître son nom exact tel qu'il est défini pour le système d'exploitation.
 
-<div class="info"></div>
-<h4 data-md-type="header" data-md-header-level="4">Exemple 1 : Définition de Verdana comme police de lecture {#read_text_example_verdana}</h4>
-<ol data-md-type="list" data-md-list-type="ordered" data-md-list-tight="true">
-<li data-md-type="list_item" data-md-list-type="ordered">Dans l'interface de lecture, allez dans le menu <code data-md-type="codespan">Preference</code> puis <code data-md-type="codespan">Text</code> .</li>
-<li data-md-type="list_item" data-md-list-type="ordered">Dans la liste déroulante, sélectionnez <code data-md-type="codespan">...</code> .</li>
-<li data-md-type="list_item" data-md-list-type="ordered">Écrivez le mot <em data-md-type="emphasis">Verdana</em> dans le champ vide qui apparaît à côté de la liste déroulante.</li>
-<li data-md-type="list_item" data-md-list-type="ordered">Confirmez avec <kbd data-md-type="raw_html">Entrée</kbd> .</li>
+<h4 >Exemple 1 : Définition de Verdana comme police de lecture {#read_text_example_verdana}</h4>
+<ol>
+<li>Dans l'interface de lecture, allez dans le menu <code>Preference</code> puis <code>Text</code> .</li>
+<li>Dans la liste déroulante, sélectionnez <code>...</code> .</li>
+<li>Écrivez le mot <em>Verdana</em> dans le champ vide qui apparaît à côté de la liste déroulante.</li>
+<li>Confirmez avec <kbd>Entrée</kbd> .</li>
 </ol>
-<p data-md-type="paragraph"><img src="../../resources/images/local-fr/thorium-verdana.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" data-md-type="image" class=""/></p>
-<h4 data-md-type="header" data-md-header-level="4">Exemple 2 : Configuration de Luciole comme police de lecture {#read_text_example_luciole}</h4>
-<ol data-md-type="list" data-md-list-type="ordered" data-md-list-tight="true">
-<li data-md-type="list_item" data-md-list-type="ordered"><a href="https://www.luciole-vision.com/#download" data-md-type="link">Téléchargez et installez la police Luciole</a></li>
-<li data-md-type="list_item" data-md-list-type="ordered">Dans l'interface de lecture, allez dans le menu <code data-md-type="codespan">Preference</code> puis <code data-md-type="codespan">Text</code> .</li>
-<li data-md-type="list_item" data-md-list-type="ordered">Dans la liste déroulante, sélectionnez <code data-md-type="codespan">...</code> .</li>
-<li data-md-type="list_item" data-md-list-type="ordered">Écrivez le mot <em data-md-type="emphasis">Luciole</em> dans le champ vide qui apparaît à côté de la liste déroulante.</li>
-<li data-md-type="list_item" data-md-list-type="ordered">Confirmez avec <kbd data-md-type="raw_html">Entrée</kbd> .</li>
+<p ><img src="../../resources/images/local-fr/thorium-verdana.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" class=""/></p>
+<h4 >Exemple 2 : Configuration de Luciole comme police de lecture {#read_text_example_luciole}</h4>
+<ol>
+<li><a href="https://www.luciole-vision.com/#download">Téléchargez et installez la police Luciole</a></li>
+<li>Dans l'interface de lecture, allez dans le menu <code>Preference</code> puis <code>Text</code> .</li>
+<li>Dans la liste déroulante, sélectionnez <code>...</code> .</li>
+<li>Écrivez le mot <em>Luciole</em> dans le champ vide qui apparaît à côté de la liste déroulante.</li>
+<li>Confirmez avec <kbd>Entrée</kbd> .</li>
 </ol>
-<p data-md-type="paragraph"><img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" data-md-type="image" class=""/></p>
-<div data-md-type="block_html"></div>
+<p ><img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" class=""/></p>
+
 
 ### Afficher {#read_text_display}
 
@@ -61,7 +60,7 @@ Fournit des options pour une `clean view` et épurée et la possibilité d'ignor
 
 <div class="info"> Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ associée \[Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)\]([../../400_ressources/430_faq.xhtml#TTSvoices](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/#TTSvoices)).</div>
 
-### Synthèse vocale (TTS) {#read_text_TTS}
+## Synthèse vocale (TTS) {#read_text_TTS}
 
 La synthèse vocale est lancée à l'aide du bouton du haut-parleur au milieu de la barre d'outils, ou en utilisant le raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
