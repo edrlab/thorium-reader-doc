@@ -135,9 +135,17 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
 </li>
 <li>
 <a href="../pages/400_ressources/index.xhtml">Ressources</a>
-</li>
-<li>
-<a href="../pages/402_keys_functions/index.xhtml">Keys functions</a>
+<ol>
+    <li>
+    <a href="../pages/400_ressources/index.xhtml#keyboard"> Keyboard functions</a>
+    </li>
+        <li>
+    <a href="../pages/400_ressources/index.xhtml#keyboard">Keys functions</a>
+    </li>
+        <li>
+    <a href="../pages/400_ressources/index.xhtml#supportlinks">links to online support pages</a>
+    </li>
+    </ol>
 </li>
 <li>
 <a href="../pages/403_gesture/index.xhtml">Tactile gestures</a>
