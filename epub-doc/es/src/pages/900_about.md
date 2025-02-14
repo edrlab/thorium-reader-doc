@@ -25,7 +25,7 @@ Se encontraron bloqueadores de accesibilidad.
 
 Si encuentra alguna dificultad puede informarnos a través del formulario de contacto.
 o al abrir un problema en nuestro [Soporte
-Tracker] (https://github.com/edrlab/thorium-reader-doc/issues/new).
+Tracker](https://github.com/edrlab/thorium-reader-doc/issues/new).
 
 La página está en inglés pero puedes escribir en tu idioma diciéndonos
 Entonces podemos en su idioma para que podamos movilizar a las personas adecuadas.

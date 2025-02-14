@@ -8,8 +8,8 @@ draft: false
 
 Si no encuentra la respuesta a su problema en este sitio, puede decir
 nosotros su problema a través de nuestro [seguimiento de soporte
-herramienta] (https://github.com/edrlab../issues/new) o [contacto
-Forma] (https://www.edrlab.org/contact/).
+herramienta](https://github.com/edrlab../issues/new) o [contacto
+Forma](https://www.edrlab.org/contact/).
 
 Aquí está la información que necesitamos:
 

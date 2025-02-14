@@ -9,7 +9,7 @@ draft: false
 Thorium  y su documentación se desarrollan gracias al usuario
 comunidad. Necesitamos ayuda para traducir esta documentación.
 
-Para hacerlo, puede [contactarnos] (https://www.edrlab.org/contact/).
+Para hacerlo, puede [contactarnos](https://www.edrlab.org/contact/).
 
 Si te sientes lo suficientemente cómodo con GitHub y el formato de Markdown
 puede proponer una nueva traducción a través de una solicitud de extracción.

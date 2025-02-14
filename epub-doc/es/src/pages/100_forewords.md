@@ -8,7 +8,7 @@ weight: 100
 Thorium  es un lector de libros digitales, también es una biblioteca donde puedes
 Almacene sus libros y acceso a catálogos en línea.
 
-Thorium  permite leer libros electrónicos en diferentes [formatos] (../406_formats/index.xhtml),
+Thorium  permite leer libros electrónicos en diferentes [formatos](../406_formats/index.xhtml),
 cada uno de ellos tiene fortalezas y limitaciones. Esta documentación es
 proporcionado como EPUB, el formato con el mayor número de
 funcionalidades.
@@ -31,12 +31,11 @@ Los enlaces faltantes para los lectores experimentados.
 
 ## Material adicional disponible en línea {#Th3add}
 
-Para completar esta documentación, el [Thorium 
-Sitio web] (https://thorium.edrlab.org) propone un
+Para completar esta documentación, la [pagina web Thorium](https://thorium.edrlab.org) propone un
 Sección de preguntas, así como una lista de resonaciones, incluido el lugar para
 Encuentra libros electrónicos en línea.
 
 [Problema de Thorium  de Github
-Tracker] (https://github.com/edrlab/thorium-reader/issues) también puede ser
+Tracker](https://github.com/edrlab/thorium-reader/issues) también puede ser
 navegado para encontrar respuestas a casos de uso específicos y darnos comentarios sobre
 Cualquier dificultad o error que afecte su experiencia de lectura.
