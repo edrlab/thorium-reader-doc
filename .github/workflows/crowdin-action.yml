@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ main ]
+    branches: [ localisation ]
 # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
 # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions
 permissions:
