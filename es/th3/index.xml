@@ -693,8 +693,9 @@ formato de archivo que desea leer con Thorium. {{&amp;lt; /alert&amp;gt;}}&lt;/p
 &lt;dd> Tener una interfaz de usuario para exportar todo el catálogo no es una prioridad actualmente. &lt;/dd>
 &lt;p>Las publicaciones se almacenan en un directorio conocido.&lt;/p>
 &lt;ul>
-&lt;li>en Windows 10: C:\Users\minombre\AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
-&lt;li>en MacOS: /Usuarios/minombre/Biblioteca/Soporte de aplicaciones/EDRLab.ThoriumReader/&lt;/li>
+&lt;li>Windows10 : C:\Users\ &lt;em>user name&lt;/em> \AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
+&lt;li>MacOS : /Users/ &lt;em>user name&lt;/em> /Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
+&lt;li>Debian: /home/ &lt;em>user name&lt;/em> /.config/EDRLab.ThoriumReader/publications-dev/&lt;/li>
 &lt;/ul>
 &lt;p>En caso de una migración de una computadora a otra o casos de uso similares, puede copiar todos los archivos de libros electrónicos en este reposiThorium y abrirlos en la nueva instalación de Thorium.&lt;/p></description></item><item><title>Th3: Información sobre accesibilidad de los libros</title><link>https://thorium.edrlab.org/es/th3/500-accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/500-accessibility/300_accessibility/</guid><description>
 &lt;h2 id="a11y_info">Información de accesibilidad&lt;/h2>

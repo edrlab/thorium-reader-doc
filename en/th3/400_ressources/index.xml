@@ -660,8 +660,9 @@ https://github.com/readium/r2-testapp-js"> Readium2 “test app”GitHub’s rel
 Having a UI for exporting the whole catalog is not a priority currently.
 &lt;p>The publications are stored in a well-known directory.&lt;/p>
 &lt;ul>
-&lt;li>on Windows10: C:\Users\myname\AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
-&lt;li>on MacOS: /Users/myname/Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
+&lt;li>on Windows10: C:\Users\ &lt;em>user name&lt;/em> \AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
+&lt;li>on MacOS: /Users/ &lt;em>user name&lt;/em> /Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
+&lt;li>on Debian: /home/ &lt;em>user name&lt;/em> /.config/EDRLab.ThoriumReader/publications-dev/&lt;/li>
 &lt;/ul>
 &lt;p>In case of a migration from one computer to another or similar usecases, you can copy all ebook files in this repository and open them in the new installation of Thorium.&lt;/p>
 &lt;/dd>

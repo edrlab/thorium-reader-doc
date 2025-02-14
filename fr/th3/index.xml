@@ -690,8 +690,9 @@ article.&lt;/em>&lt;/p>
 Avoir une interface utilisateur pour exporter l’intégralité du catalogue n’est pas une priorité actuellement.
 &lt;p>Les publications sont stockées dans un répertoire bien connu.&lt;/p>
 &lt;ul>
-&lt;li>sous Windows10 : C:\Users\myname\AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
-&lt;li>sur MacOS : /Users/myname/Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
+&lt;li>Windows10 : C:\Users\ &lt;em>user name&lt;/em> \AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
+&lt;li>MacOS : /Users/ &lt;em>user name&lt;/em> /Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
+&lt;li>Debian: /home/ &lt;em>user name&lt;/em> /.config/EDRLab.ThoriumReader/publications-dev/&lt;/li>
 &lt;/ul>
 &lt;p>En cas de migration d&amp;rsquo;un ordinateur vers un autre ou de cas d&amp;rsquo;utilisation similaires, vous pouvez copier tous les fichiers ebook de ce référentiel et les ouvrir dans la nouvelle installation de Thorium.&lt;/p>
 &lt;/dd>
