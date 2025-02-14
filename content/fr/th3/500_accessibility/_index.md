@@ -1,5 +1,5 @@
 ---
-Title: Accessibility
+Title: Accessibilité
 weight: 500
 bookCollapseSection: false
 ---
