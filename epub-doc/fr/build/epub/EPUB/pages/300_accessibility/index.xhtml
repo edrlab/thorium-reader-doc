@@ -6,63 +6,185 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Accessibilité</title>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/page.css"/>
   </head>
   <body>
-    <h1 id="a11y">Accessibilité</h1>
-    <p>Thorium Reader s'adresse à tous, y compris aux personnes aveugles ou atteintes d'autres types de handicaps visuels, cognitifs ou moteurs. L'application est compatible avec les technologies accessibles comme les lecteurs d'écran, notamment JAWS, NVDA, Narrator et VoiceOver. Elle comprend une fonction de lecture à voix haute avec surlignage visuel. Thorium Reader peut être utilisé avec la souris ou le clavier, et les raccourcis clavier sont configurables. L'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment les couleurs, la taille du texte, l'espacement, la police et la mise en page.</p>
-    <p>avertissement Attention !</p>
-    <p>Les fonctionnalités d'accessibilité dépendent fortement de la qualité des fichiers de publication électronique et sont affectées par celle-ci.</p>
-    <h2 id="a11y_info">Informations sur l'accessibilité</h2>
-    <p>Actuellement, Thorium affiche dans le 
-      <a href="">panneau Informations sur le livre</a> sous le titre 
-      <code>Description</code> le contenu des métadonnées du résumé d'accessibilité ( [accessibilitySummary]{lang=&quot;fr&quot;}).
-    </p>
-    <p>
-      <img src="../../resources/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre The Mark of Four indique : Cette publication&lt;span translate=" /> conforme à la charte SNE - EPUB textuels nativement accessibles
-      <br/>». &quot;
-    </p>
-    <p>avertissement Attention !</p>
-    <p>Des travaux sont en cours pour élaborer un guide d'affichage des informations sur l'accessibilité. Nous suivons ces travaux et mettrons en œuvre les recommandations prochainement.</p>
-    <p>danger Attention !</p>
-    <p>Les informations d'accessibilité doivent être renseignées par les éditeurs. Thorium affiche ces informations telles qu'elles ont été définies. En cas de doute ou de réclamation, veuillez contacter le distributeur ou l'éditeur du fichier.</p>
-    <h2 id="a11y_native">Fonctions d'accessibilité natives</h2>
-    <p>avertissement Attention !</p>
-    <p>Les fonctionnalités d'accessibilité natives offertes par Thorium sont fortement affectées par la qualité des fichiers lus.</p>
-    <h2 id="a11y_visual">Ajustements visuels</h2>
-    <ul>
-      <li>
-        <p>L'application vous permet de 
-          <a href="">changer les thèmes de couleurs</a> et 
-          <a href="">de modifier la police d'affichage, la taille du texte</a> .
-        </p>
-      </li>
-      <li>
-        <p>il est possible d'utiliser toutes les polices installées sur l'ordinateur.</p>
-      </li>
-      <li>
-        <p>Il est possible d'augmenter la taille d'une image avec 
-          <kbd>Maj</kbd> + 
-          <code>clic</code> sur l'image. Répétez l'opération plusieurs fois pour agrandir l'image à la taille souhaitée.
-        </p>
-      </li>
-      <li>
-        <p>L'affichage peut être sélectionné comme paginé ou défilant.</p>
-      </li>
-      <li>
-        <p>Le texte peut être justifié ou aligné à gauche, et le nombre de colonnes contrôlé.</p>
-      </li>
-      <li>
-        <p>L'espacement peut être ajusté de manière flexible, avec contrôle sur la marge, le mot, la lettre et la ligne.</p>
-      </li>
-    </ul>
-    <p>danger Attention !</p>
-    <p>Les ajustements visuels ne sont pas possibles avec des formats de mise en page fixes tels que certains fichiers EPUB (appelés [Fixed Layout]{lang=&quot;fr&quot;}) ou PDF.</p>
-    <h2 id="a11y_tts">Synthèse vocale (TTS)</h2>
-    <p>Voir la section dédiée à 
-      <a href="">la synthèse vocale (TTS)</a> .
-    </p>
+    <section class="colbreak"  role="doc-chapter" >
+      <hr class="asterism" aria-hidden="true"></hr>
+      <h1 id="a11y">Accessibilité</h1>
+      <p>L'application est compatible avec les technologies d'assistance comme les lecteurs d'écran, notamment JAWS, NVDA, Narrator et VoiceOver. Elle comprend une fonction de lecture à voix haute avec surlignage visuel. Thorium Reader peut être utilisé avec la souris ou le clavier, et les raccourcis clavier sont configurables. L'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment les couleurs, la taille du texte, l'espacement, la police et la mise en page.</p>
+      <p>Les fonctionnalités d'accessibilité dépendent fortement de la qualité des fichiers de publication électronique et sont affectées par celle-ci.</p>
+      <p>La page de 
+        <a href="https://thorium.edrlab.org/fr/th3/500_accessibility/">support en ligne accessibilité</a> contient les informations complètes liées à l'accessibilité de l'application et les fonctionnalités qui y sont liées.
+      </p>
+      <p>Ce chapitre reprend les informations principales pour les avoir à disposition hors ligne.</p>
+      <h2 id="a11y_info">Informations sur l'accessibilité</h2>
+      <p>Actuellement, Thorium affiche dans le 
+        <a href="../102_windows_views_panels/index.xhtml#book_info_panel">panneau Informations sur le livre</a> sous le titre 
+        <code>Description</code> le contenu des métadonnées d'accessibilité fournies par les créateurs du fichier.
+      </p>
+      <h2 id="a11y_native">Fonctions d'accessibilité natives</h2>
+      <p>Les fonctions d'accessibilité natives sont décrites dans chacune des section de cette documentation qui correspondent à leur contexte d'utilisation. Cela inclut notamment:</p>
+      <ul>
+        <li>
+          <a href="../102_windows_views_panels/index.xhtml#reading_settings_panel">Les ajustements visuels de l'affichage du texte</a>
+        </li>
+        <li>
+          <a href="../211_reading_textuals/index.xhtml#read_text_readaloud">La lecture audio générée en voix de synthèse</a>
+        </li>
+      </ul>
+      <h2 id="screenreader">Lire avec un lecteur d'écran</h2>
+      <p>Lors du lancement de Thorium, si un lecteur d'écran est détecté, les fonctions relatives sont activées.</p>
+      <p>Notez que les lecteurs d'écran utilisent une mémoire tampon séparée pour accéder au contenu HTML, ce qui entraîne une désynchronisation du défilement visuel et un décalage de la page affichée avec la page lue par le lecteur d'écran. En d'autres termes, Thorium n'est généralement pas conscient de l'emplacement de lecture actuel de l'utilisateur du lecteur d'écran, à moins que l'utilisateur du lecteur d'écran ne déclenche des événements (tels qu'un clic de souris n'importe où dans le texte ou une touche de clavier sur des éléments HTML focalisables).</p>
+      <h3>Touches rapides pour la navigation (communes à NVDA et JAWS)</h3>
+      <p>
+        <em>(contribution de Prashant Verma, DAISY Consortium)</em>
+      </p>
+      <p>Pour lire du texte, naviguer dans les tableaux, naviguer dans la fenêtre du navigateur, la touche d'insertion peut être remplacée par la touche de modification du lecteur d'écran (par exemple la touche 
+        <kbd>Verr. Maj</kbd>).
+      </p>
+      <p>Le lecteur d'écran doit être en mode navigation ou curseur virtuel.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Commande</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Titre suivant</td>
+            <td>
+              <kbd>H</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Table suivante</td>
+            <td>
+              <kbd>T</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Graphique suivant</td>
+            <td>
+              <kbd>G</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Liste suivante</td>
+            <td>
+              <kbd>L</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Champ de formulaire suivant</td>
+            <td>
+              <kbd>F</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Liste des éléments</td>
+            <td>
+              <kbd>INSERT</kbd> + 
+              <kbd>F7</kbd> (fonctionne quel que soit le mode curseur)
+            </td>
+          </tr>
+          <tr>
+            <td>Caractère précédent</td>
+            <td>
+              <kbd>←</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Caractère suivant</td>
+            <td>
+              <kbd>→</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Mot précédent</td>
+            <td>
+              <kbd>CTRL</kbd> + 
+              <kbd>←</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Dire le mot suivant</td>
+            <td>
+              <kbd>CTRL</kbd> + 
+              <kbd>→</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Ligne précédente</td>
+            <td>
+              <kbd>↑</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Ligne suivante</td>
+            <td>
+              <kbd>↓</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Phrase précédente</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>↑</kbd> (Jaws uniquement)
+            </td>
+          </tr>
+          <tr>
+            <td>Phrase suivante</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>↓</kbd> (Jaws uniquement)
+            </td>
+          </tr>
+          <tr>
+            <td>Lire tout</td>
+            <td>
+              <kbd>INSERT</kbd> + 
+              <kbd>↓</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Cellule à droite</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>CTRL</kbd> + 
+              <kbd>→</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Cellule à gauche</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>CTRL</kbd> + 
+              <kbd>←</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Cellule en dessous</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>CTRL</kbd> + 
+              <kbd>↓</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Cellule au dessus</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>CTRL</kbd> + 
+              <kbd>↑</kbd>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </body>
 </html>

@@ -1,0 +1,35 @@
+h1 {
+  font-family: serif;
+  border-bottom: 2px solid  var(--color-blue);
+}
+
+.info {color: blueviolet;}
+.alert {color: rgb(255, 123, 0)}
+.danger {color: rgb(190, 0, 19)}
+
+.icons {
+  width: 1em;
+  vertical-align: middle;
+  border-style: none;
+  margin-right: 0.2em;
+}
+
+.icons[data-theme='dark'] {
+  border-color: aliceblue;
+  border-width: 10px;
+  color: aliceblue;
+  }
+
+.ui_button {
+  fill: var(--color-primary);
+  color: var(--color-blue);
+  width: fit-content;
+  padding: 0 5px;
+  height: 35px;
+  border: 1px solid var(--color-blue);
+  border-radius: 5px;
+  background-color: var(--color-light-blue);
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

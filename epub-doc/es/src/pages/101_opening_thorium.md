@@ -1,6 +1,7 @@
 ---
 title: Apertura del lector de Thorium 
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 # Apertura del lector de Thorium  {#getabook}

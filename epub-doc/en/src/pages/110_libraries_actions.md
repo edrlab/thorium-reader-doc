@@ -1,6 +1,7 @@
 ---
 title: Libraries actions
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 

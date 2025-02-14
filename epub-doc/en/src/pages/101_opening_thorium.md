@@ -1,6 +1,7 @@
 ---
 title: Opening Thorium Reader
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 

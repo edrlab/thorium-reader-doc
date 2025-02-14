@@ -7,13 +7,43 @@
 --color-blue:  #1053c8;
 }
 
-
-
 svg {
   width: 1em;
   fill: var(--color-blue);
   color: var(--color-blue);
   filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
+}
+
+#toc {
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+
+.title {
+  text-align: center;
+}
+
+.asterism {
+  break-after: column;
+}
+
+hr.asterism {
+  width: auto;
+  padding-top: 50%;
+  border: none;
+  margin: 1.5em 0;
+  height: 1.5em;
+  text-indent: 0;
+  text-align: center;
+  background: transparent url("../images/asterism.svg") no-repeat center;
+  /* Change url if you put asterism in a folder */
+  background-size: 2.5em 1.25em;
+  /* RMSDK doesn't support -> won't scale but SVG viewport is OK for a wide range of font-sizes */
+  overflow: hidden;
+  /* Fixes legacy RMSDK bug when contents before hr are invisible */
+  opacity: 0.7;
+  /* Better border color match in night mode (less disruptive) */
 }
 
 /* this does not works

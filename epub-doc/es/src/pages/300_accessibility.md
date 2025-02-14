@@ -1,89 +1,61 @@
 ---
 title: Accesibilidad
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 
-# Accessibility {#a11y}
+# Accesibilidad {#a11y}
 
-Thorium Reader is for everyone, including people who are blind or have
-other types of visual, cognitive or motor disabilities. The application
-is compatible with accessible technologies like screen readers,
-including JAWS, NVDA, Narrator and VoiceOver. It includes a read-aloud
-feature with visual highlighting. Thorium Reader can be used with the
-mouse or the keyboard, and keyboard shortcuts are configurable. The
-display can be customized to meet the needs of users, including colors,
-text size, spacing, font and layout.
+La aplicación es compatible con tecnologías de asistencia como reproductores de pantalla, incluidos Jaws, NVDA, Narrador y ValiceOver. Incluye una función de lectura en voz alta con resaltado visual. El lector de torio se puede usar con mouse o teclado, y los atajos de teclado son configurables. La pantalla se puede personalizar para satisfacer las necesidades de los usuarios, incluidos los colores, el tamaño del texto, el espacio, la fuente y el diseño.
+Las características de accesibilidad dependen en gran medida de la calidad de los archivos de publicación electrónica y se ven afectadas por ello. 
 
- warning
-Attention !
+La página de [soporte en línea de accesibilidad](https://thorium.edrlab.org/es/th3/500_accessibility/) contiene información completa relacionada con la accesibilidad de la aplicación y las características relacionadas con ella.
 
-The accessibility features are strongly dependant and affected by the
-quality of the electronic publication files.
+Este capítulo toma la información principal para tenerla fuera de línea.
 
+## Información de accesibilidad {#a11y_info}
 
-## Accessibility information {#a11y_info}
+Actualmente, se muestra torio en el [panel de información del libro](../102_windows_views_panels/index.xhtml#book_info_panel) bajo el título 'Descripción' Descripción 'el contenido de los metadatos de accesibilidad proporcionados por los creadores del archivo.
 
-Currently Thorium displays in the [Book information panel]()
-under the heading `Description` the content of the accessibility summary
-metadata ( [accessibilitySummary]{lang="en"}).
+## Funciones de accesibilidad nativa {#a11y_native}
 
-![Screenshot, the book The Mark of Four indicates: This publication
-complies with the SNE Charter - natively accessible textual EPUBs
-».](../../resources/images/local-es/thorium-bookinfo-a11ysummary.png)
+Las funciones de accesibilidad nativa se describen en cada sección de esta documentación que corresponde a su contexto de uso. Esto incluye en particular:
 
- warning
-Attention !
+* [Ajustes visuales en la visualización del texto](../102_windows_views_panels/index.xhtml#reading_settings_panel)
+* [Lectura de audio generada en voz syntetica](../211_reading_textuals/index.xhtml#read_text_readaloud)
+  
+## Leer con un lector de pantalla {#screenreader}
 
-Work is underway to develop a guide for displaying accessibility
-information. We are following this work and will implement the
-recommendations soon.
+Al lanzar torio, si se detecta un reproductor de pantalla, las funciones relativas se activan.
+Tenga en cuenta que los reproductores de pantalla usan memoria de búfer separada para acceder al contenido HTML, lo que provoca la desincronización de desplazamiento visual y una compensación de página que se muestra con la página leída por el reproductor de pantalla. En otras palabras, el torio generalmente no es consciente de la ubicación de lectura actual del usuario del reproductor de pantalla, a menos que el usuario de la pantalla desencadene eventos (como un clic del mouse en cualquier lugar del texto o una tecla de teclado en elementos HTML enfocados).
 
+### Teclas rápidas para la navegación (municipios en NVDA y Jaws)
 
- danger
-Attention !
+*(Contribución de Prashant Verma, consorcio Daisy)*
 
-Accessibility information must be filled in by the editors. Thorium
-displays this information as it was defined. In case of doubt or
-complaint, please contact the distributor or the publisher of the file.
+Para leer texto, navegue en las tablas, navegue en la ventana del navegador, la tecla de inserción se puede reemplazar mediante la tecla de cambio de pantalla.
 
+El reproductor de pantalla debe estar en modo de navegación o cursor virtual.
 
-## Native accessibility functions {#a11y_native}
-
- warning
-Attention !
-
-The native accessibility features offered by Thorium are strongly
-affected by the quality of the read files.
-
-
-## Visual adjustments {#a11y_visual}
-
--   The application allows you to [change the color
-    themes]() and [change the display font, text
-    size]().
-
--   it is possible to use all the fonts installed on the computer.
-
--   It is possible to increase the size of an image with
-   <kbd>Shift</kbd> + `Clic` on the image. Repeat several times to enlarge the
-    image to the desired size.
-
--   The display can be selected as paginated or scrolling.
-
--   Text can be justified or left-aligned, and the number of columns
-    controlled.
-
--   Spacing can be flexibly adjusted, with control over margin, word,
-    letter and line.
-
- danger
-Attention !
-
-Visual adjustments are not possible with fixed layout formats such as
-some EPUBs (so-called [Fixed Layout]{lang="en"}) or PDF files.
-
-
-## Text-to-Speech (TTS) {#a11y_tts}
-
-See dedicated section about [Text to Speech (TTS)]().
+|Acción |Teclas|
+|---|---|
+|Siguiente título| <kbd>H</kbd> |
+|Siguiente mesa| <kbd>T</kbd>|
+|Siguiente gráfico| <kbd>G</kbd>|
+|Siguiente lista|<kbd>L</kbd>|
+|Siguiente campo de formulario|<kbd>F</kbd>|
+|Lista de elementos| <kbd>INSERT</kbd> + <kbd>F7</kbd>|
+|Letra anterior| <kbd>←</kbd> |
+|Siguiente letra| <kbd>→</kbd> |
+|Palabra anterior |<kbd>CTRL</kbd> + <kbd>←</kbd> |
+|Siguiente palabra|<kbd>CTRL</kbd> + <kbd>→</kbd> |
+|Línea anterior |<kbd>↑</kbd> |
+|Siguiente línea |<kbd>↓</kbd> |
+|Oración anterior |<kbd>ALT</kbd> + <kbd>↑</kbd> (Jaws uniquement) |
+|Siguiente oración |<kbd>ALT</kbd> + <kbd>↓</kbd> (Jaws uniquement) |
+|Leer todo |<kbd>INSERT</kbd> + <kbd>↓</kbd> |
+|Celda a la derecha |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd> |
+|Celda a la izquierda |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd>|
+| Célula a continuación|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↓</kbd>|
+| Celda arriba|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↑</kbd>|

@@ -1,6 +1,7 @@
 ---
 title: Forewords
 role: doc-foreword
+epubtype: foreword
 draft: false
 weight: 100
 ---
@@ -19,7 +20,7 @@ This software is free, open-source and as such, its development is only
 possible because it is funded by different organizations. Among these,
 members of EDRLab, private or public grants and small recurring
 donations from happy users (individuals or companies). If you rely on
-this application, consider [support!](https://thorium.edrlab.org/en/th3/800_collaborating/903_support/)
+this application, consider [support thru funding and sponsorhip](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/)
 
 
 ## This is the documentation for Thorium 3, and it is a work in progress! {#th3}

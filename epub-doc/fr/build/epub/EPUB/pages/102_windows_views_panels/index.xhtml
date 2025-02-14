@@ -6,129 +6,133 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Fenêtres, vues et panneaux</title>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/page.css"/>
   </head>
   <body>
-    <h1 id="windows_and_views">Fenêtres, vues et panneaux</h1>
-    <p>Le lecteur Thorium présente une fenêtre principale et une fenêtre supplémentaire par livre ouvert. La fenêtre principale est toujours ouverte et propose 4 vues (Accueil, Tous les livres, Catalogues et Paramètres généraux) tandis que les vues des fenêtres des livres dépendent du format du livre (textuel, audio, visuel). Chaque format permet d'afficher des panneaux d'action (navigation, personalisation, etc.) qui peuvent être ancrés sur un côté de la vue.</p>
-    <h2 id="main_window">Fenêtre principale</h2>
-    <p>La fenêtre principale vous permet d'accéder à vos collections et de les organiser, ainsi que de définir les paramètres qui s'appliquent à l'ensemble de l'application. La fermeture de la fenêtre principale ferme l'application et toutes les fenêtres de lecture ouvertes.</p>
-    <h3 id="home_view">Vue &quot;Accueil&quot;</h3>
-    <p>Cette vue permet un accès rapide. Vous y trouverez les livres que vous avez lus ou ajoutés récemment. Les actions possibles sont Importer une publication, Ouvrir une publication et Ouvrir le menu Publication.  
-      <img src="../../resources/images/local_en/th3_main_window_home.png" class="icon" role="presentation" alt=""/>
-    </p>
-    <h3 id="all_publications_view">Vue &quot;Toutes les publications&quot;</h3>
-    <p>C'est l'endroit où se trouvent toutes vos publications. Avec le temps, il peut devenir rempli de centaines de livres et vous aurez donc besoin d'options pour trier et rechercher. De ce fait, cette vue est plus complexe. Les premiers boutons de cette page permettent de sélectionner entre deux modes d'affichage, Grille et Tableau qui affecteront l'affichage de la liste des livres électroniques et offriront différentes options pour trier et filtrer, elles sont détaillées deux paragraphes ci-dessous.</p>
-    <p>Les actions disponibles au niveau de la vue sont d'importer une publication, de rechercher, de filtrer par balise et de naviguer par pages de votre bibliothèque. Les pages de la bibliothèque sont comme des étagères ou des piles, car la vue Toutes les publications est limitée à 50 publications pour qu'elle reste utilisable.</p>
-    <h4 id="grid_mode">Mode grille</h4>
-    <p>Le mode Grille présente les livres sous forme de cartes, la tabulation au clavier vous permettra de passer d'un livre à l'autre. Ce mode offre les actions possibles pour Ouvrir une publication et pour Ouvrir le menu contextuel de la Publication.</p>
-    <h4 id="table_mode">Mode tableau</h4>
-    <p>Le mode Tableau présente un livre par ligne et permet de visualiser un grand nombre d'informations habituellement disponibles uniquement dans le panneau d'informations du livre. La tabulation au clavier vous guidera à travers tous ces détails.</p>
-    <h3 id="catalog_view">Vue &quot;Catalogues&quot;</h3>
-    <p>C'est ici que vous pouvez stocker, accéder, parcourir les catalogues en ligne et acquérir ou emprunter des livres électroniques. Au début, cet endroit semblera vide car nous ne préchargeons aucun catalogue. La section 
-      <em>d'assistance supplémentaire en ligne 
-        <a href="https://thorium.edrlab.org/th3/get_ebooks/">Où obtenir des livres électroniques ?</a>
-      </em> peut vous aider à identifier les catalogues disponibles si vous n'en avez pas déjà un en tête.
-    </p>
-    <p>Deux protocoles catalogues sont disponibles.</p>
-    <ol>
-      <li>
-        <a href="https://opds.io/">OPDS</a> , un format standard pour afficher un catalogue sur le Web.
-      </li>
-      <li>API App, un protocole commun aux bibliothèques publiques françaises. Ce protocole doir préalablement être activé dans le panneau de configuration de thorium Reader.</li>
-    </ol>
-    <p>Les détails et la manière de configurer et d'utiliser les catalogues sont disponibles dans la 
-      <a href="">section Actions des catalogues</a> .
-    </p>
-    <h3 id="setting_view">Panneau de configuration de l'application</h3>
-    <p>Les paramètres de l'application sont divisés en trois onglets :</p>
-    <ol>
-      <li>
-        <p>L'onglet Général vous permet de :</p>
-        <ol>
-          <li>Sélectionner la langue de l'interface.</li>
-          <li>Gérer les authentifications d'accès aux catalogues enregistrées. Le bouton
+    <section class="colbreak"  role="doc-chapter" >
+      <hr class="asterism" aria-hidden="true"></hr>
+      <h1 id="windows_and_views">Fenêtres, vues et panneaux</h1>
+      <p>Le lecteur Thorium présente une fenêtre principale et une fenêtre supplémentaire par livre ouvert. La fenêtre principale est toujours ouverte et propose 4 vues (Accueil, Tous les livres, Catalogues et Paramètres généraux) tandis que les vues des fenêtres des livres dépendent du format du livre (textuel, audio, visuel). Chaque format permet d'afficher des panneaux d'action (navigation, personalisation, etc.) qui peuvent être ancrés sur un côté de la vue.</p>
+      <h2 id="main_window">Fenêtre principale</h2>
+      <p>La fenêtre principale vous permet d'accéder à vos collections et de les organiser, ainsi que de définir les paramètres qui s'appliquent à l'ensemble de l'application. La fermeture de la fenêtre principale ferme l'application et toutes les fenêtres de lecture ouvertes.</p>
+      <h3 id="home_view">Vue &quot;Accueil&quot;</h3>
+      <p>Cette vue permet un accès rapide. Vous y trouverez les livres que vous avez lus ou ajoutés récemment. Les actions possibles sont Importer une publication, Ouvrir une publication et Ouvrir le menu Publication.  
+        <img src="../../resources/images/local_en/th3_main_window_home.png" class="icon" role="presentation" alt=""/>
+      </p>
+      <h3 id="all_publications_view">Vue &quot;Toutes les publications&quot;</h3>
+      <p>C'est l'endroit où se trouvent toutes vos publications. Avec le temps, il peut devenir rempli de centaines de livres et vous aurez donc besoin d'options pour trier et rechercher. De ce fait, cette vue est plus complexe. Les premiers boutons de cette page permettent de sélectionner entre deux modes d'affichage, Grille et Tableau qui affecteront l'affichage de la liste des livres électroniques et offriront différentes options pour trier et filtrer, elles sont détaillées deux paragraphes ci-dessous.</p>
+      <p>Les actions disponibles au niveau de la vue sont d'importer une publication, de rechercher, de filtrer par balise et de naviguer par pages de votre bibliothèque. Les pages de la bibliothèque sont comme des étagères ou des piles, car la vue Toutes les publications est limitée à 50 publications pour qu'elle reste utilisable.</p>
+      <h4 id="grid_mode">Mode grille</h4>
+      <p>Le mode Grille présente les livres sous forme de cartes, la tabulation au clavier vous permettra de passer d'un livre à l'autre. Ce mode offre les actions possibles pour Ouvrir une publication et pour Ouvrir le menu contextuel de la Publication.</p>
+      <h4 id="table_mode">Mode tableau</h4>
+      <p>Le mode Tableau présente un livre par ligne et permet de visualiser un grand nombre d'informations habituellement disponibles uniquement dans le panneau d'informations du livre. La tabulation au clavier vous guidera à travers tous ces détails.</p>
+      <h3 id="catalog_view">Vue &quot;Catalogues&quot;</h3>
+      <p>C'est ici que vous pouvez stocker, accéder, parcourir les catalogues en ligne et acquérir ou emprunter des livres électroniques. Au début, cet endroit semblera vide car nous ne préchargeons aucun catalogue. La section 
+        <em>d'assistance supplémentaire en ligne 
+          <a href="https://thorium.edrlab.org/th3/get_ebooks/">Où obtenir des livres électroniques ?</a>
+        </em> peut vous aider à identifier les catalogues disponibles si vous n'en avez pas déjà un en tête.
+      </p>
+      <p>Deux protocoles catalogues sont disponibles.</p>
+      <ol>
+        <li>
+          <a href="https://opds.io/">OPDS</a> , un format standard pour afficher un catalogue sur le Web.
+        </li>
+        <li>API App, un protocole commun aux bibliothèques publiques françaises. Ce protocole doir préalablement être activé dans le panneau de configuration de thorium Reader.</li>
+      </ol>
+      <p>Les détails et la manière de configurer et d'utiliser les catalogues sont disponibles dans la 
+        <a href="">section Actions des catalogues</a> .
+      </p>
+      <h3 id="setting_view">Panneau de configuration de l'application</h3>
+      <p>Les paramètres de l'application sont divisés en trois onglets :</p>
+      <ol>
+        <li>
+          <p>L'onglet Général vous permet de :</p>
+          <ol>
+            <li>Sélectionner la langue de l'interface.</li>
+            <li>Gérer les authentifications d'accès aux catalogues enregistrées. Le bouton
 
-            <span class="ui_button">effacer les données de connexion</span> supprimera toute authentification de catalogue précédemment enregistrée (utile si vous lisez sur un ordinateur public ou partagé ou si vous souhaitez changer le compte avec lequel vous êtes connecté).
-          </li>
-          <li>Enregistrer la session (ce qui signifie que l'application se souviendra des fenêtres ouvertes à la fermeture et les rouvrira lors du prochain lancement).</li>
-          <li>Ajoutez un compte de bibliothèque en activant l'accès à l'API Dilicom PNB. Un mode d'emploi pliable donne plus de détails sur cette fonctionnalité permettant d'accéder aux bibliothèques publiques françaises.</li>
-          <li>Le créateur permet de définir un nom à ajouter aux annotations. Ce nom peut être catégorisé comme Organisation ou Personne. Il sera exporté avec les annotations, les utilisateurs doivent donc faire attention aux problèmes potentiels de confidentialité. Si vous laissez ce champ vide, les annotations seront attribuées à « Unknown1 ».</li>
-        </ol>
-      </li>
-      <li>
-        <p>L'onglet Apparence vous permet de choisir le thème de l'application (sombre, clair ou automatique pour s'adapter aux préférences du système).</p>
-      </li>
-      <li>
-        <p>L'onglet Raccourcis clavier vous aide à vérifier et à manipuler les actions pilotées par le clavier dans l'application. Découvrez le menu à trois points à côté du titre du panneau avec des actions supplémentaires (Réinitialiser, Modifier et Charger). L'onglet Modifier ouvre le dossier système de l'application à l'emplacement du fichier .json de paramètres utilisateur stocké, vous permettant de le modifier en dehors de l'application (à vos propres risques), de l'enregistrer pour une utilisation ultérieure ou de le partager sur vos appareils ou avec qui vous voulez.</p>
-        <img src="../../resources/images/local_en/th3_main_settings_keys_context.png" class="icon" role="presentation" alt=""/>
-      </li>
-    </ol>
-    <h2 id="reading_window">Fenêtre de lecture</h2>
-    <p>Lorsqu'un livre est ouvert, il s'affiche dans une nouvelle fenêtre, ce qui signifie que vous pouvez avoir plusieurs livres ouverts en même temps, chacun dans une fenêtre indépendante que vous pouvez organiser à votre guise.</p>
-    <h3 id="reading_nav_panel">Panneau de navigation</h3>
-    <p>Accessible depuis la barre d'outils supérieure de la fenêtre de lecture, ce panneau contient un menu déroulant permettant d'accéder à différents moyens de navigation. La disponibilité et le contenu de chaque moyen de navigation. Pour l'epub, il s'agit de :</p>
-    <ul>
-      <li>
-        <strong>Table des matières</strong> (TOC), une liste rédigée par un auteur du contenu d'un livre électronique, généralement similaire à la structure des titres de contenu, mais pas nécessairement. Un créateur de contenu peut décider, par exemple, de limiter la table des matières à une certaine profondeur.
-      </li>
-      <li>
-        <strong>Repères</strong> , une liste rédigée des principaux points d'intérêt du livre électronique, généralement les avant-propos, l'avis de droit d'auteur, le contenu principal et les annexes.
-      </li>
-      <li>
-        <strong>Aller à la page</strong> , une liste de sauts de page rédigée par l'auteur. La liste de pages peut faire référence à une version imprimée et permettre d'utiliser l'ebook dans un environnement de lecture mixte, il devient alors possible de localiser ou de faire une citation. Dans ce cas, Thorium Reader n'offre en réalité aucun moyen d'identifier le livre imprimé concerné, il doit être informé textuellement et explicitement dans le contenu par le créateur du contenu.
-      </li>
-      <li>
-        <strong>Recherche</strong> , une liste générée de correspondances de recherche pour aider le lecteur à naviguer entre les résultats de recherche. Ce panneau n'a de contenu que lorsque la fonction de recherche est activée.
-      </li>
-      <li>
-        <strong>Signets</strong> , une liste générée des signets de l'utilisateur. Ce panneau offre la possibilité de supprimer le signet ou d'éditer le texte qui lui est attaché et informe en pourcentage de la progression de la lecture où il se trouve.
-      </li>
-      <li>
-        <strong>Annotations</strong> , une liste générée d'annotations utilisateur
-      </li>
-    </ul>
-    <h3 id="reading_settings_panel">Panneau de paramètres de lecture</h3>
-    <p>Accessible depuis la barre d'outils supérieure de la fenêtre de lecture, ce panneau contient tous les paramètres utilisateur possibles pour ajuster l'affichage du contenu textuel. Il est important de se rappeler que ces possibilités peuvent être limitées par la manière dont le contenu a été créé.</p>
-    <p>Des informations détaillées sur les paramètres de lecture disponibles par format sont disponibles dans les 
-      <a href="../210_reading/index.xhtml">sous-sections Lecture</a> :
-    </p>
-    <ul>
-      <li>
-        <a href="../211_reading_textuals/index.xhtml">Lire des contenus textuels</a>
-      </li>
-      <li>
-        <a href="../212_reading_visuals/index.xhtml">Lecture de contenus visuels</a>
-      </li>
-      <li>
-        <a href="../213_reading_auditory/index.xhtml">Reading audio contents</a>
-      </li>
-      <li>
-        <a href="../214_reading_pdfs/index.xhtml">Lire des PDF</a>
-      </li>
-    </ul>
-    <h2 id="book_info_panel">Panneau d'information sur le livre</h2>
-    <p>Les informations sur le livre sont disponibles dans un panneau dédié accessible depuis le menu d'action du livre des étagères de la bibliothèque &lt;img src=&quot;../../resources/images/icons3/info-icon.svg){.icon role=&quot;presentation&quot;} 
-      <span class="ui_button">À propos de la publication</span> ou depuis l'icône Informations de la fenêtre de lecture &lt;img src=&quot;../../resources/images/icons3/info-icon.svg){.icon role=&quot;presentation&quot;}.
-    </p>
-    <p>Ce panneau affiche les informations du livre électronique telles qu'elles sont fournies par le fichier. La fiabilité de ces informations dépend du créateur du fichier, généralement l'éditeur. Les informations affichées sont les suivantes :</p>
-    <ul>
-      <li>Couverture de la publication avec son alternative textuelle si présente</li>
-      <li>Titre de la publication</li>
-      <li>Auteur de la publication</li>
-      <li>Description ou CV</li>
-      <li>Détails de la publication, y compris la langue de publication</li>
-      <li>Informations sur l'accessibilité affichées conformément aux directives internationales (pour plus d'informations, voir 
-        <a href="https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated">le Guide d'affichage du W3C pour les métadonnées d'accessibilité</a> ).
-      </li>
-      <li>Balises, y compris la possibilité de 
-        <img src="../../resources/images/icons3/tag-icon.svg" class="icon" role="presentation" alt=""/>
-        <span class="ui_button">Ajoutez</span> vos propres balises.
-      </li>
-      <li>Progression</li>
-    </ul>
-    <p>Ce panneau a la particularité de ne pas être ancrable car il ne propose pas d'action nécessitant d'avoir accès au contenu principal du livre.</p>
+              <span class="ui_button">effacer les données de connexion</span> supprimera toute authentification de catalogue précédemment enregistrée (utile si vous lisez sur un ordinateur public ou partagé ou si vous souhaitez changer le compte avec lequel vous êtes connecté).
+            </li>
+            <li>Enregistrer la session (ce qui signifie que l'application se souviendra des fenêtres ouvertes à la fermeture et les rouvrira lors du prochain lancement).</li>
+            <li>Ajoutez un compte de bibliothèque en activant l'accès à l'API Dilicom PNB. Un mode d'emploi pliable donne plus de détails sur cette fonctionnalité permettant d'accéder aux bibliothèques publiques françaises.</li>
+            <li>Le créateur permet de définir un nom à ajouter aux annotations. Ce nom peut être catégorisé comme Organisation ou Personne. Il sera exporté avec les annotations, les utilisateurs doivent donc faire attention aux problèmes potentiels de confidentialité. Si vous laissez ce champ vide, les annotations seront attribuées à « Unknown1 ».</li>
+          </ol>
+        </li>
+        <li>
+          <p>L'onglet Apparence vous permet de choisir le thème de l'application (sombre, clair ou automatique pour s'adapter aux préférences du système).</p>
+        </li>
+        <li>
+          <p>L'onglet Raccourcis clavier vous aide à vérifier et à manipuler les actions pilotées par le clavier dans l'application. Découvrez le menu à trois points à côté du titre du panneau avec des actions supplémentaires (Réinitialiser, Modifier et Charger). L'onglet Modifier ouvre le dossier système de l'application à l'emplacement du fichier .json de paramètres utilisateur stocké, vous permettant de le modifier en dehors de l'application (à vos propres risques), de l'enregistrer pour une utilisation ultérieure ou de le partager sur vos appareils ou avec qui vous voulez.</p>
+          <img src="../../resources/images/local_en/th3_main_settings_keys_context.png" class="icon" role="presentation" alt=""/>
+        </li>
+      </ol>
+      <h2 id="reading_window">Fenêtre de lecture</h2>
+      <p>Lorsqu'un livre est ouvert, il s'affiche dans une nouvelle fenêtre, ce qui signifie que vous pouvez avoir plusieurs livres ouverts en même temps, chacun dans une fenêtre indépendante que vous pouvez organiser à votre guise.</p>
+      <h3 id="reading_nav_panel">Panneau de navigation</h3>
+      <p>Accessible depuis la barre d'outils supérieure de la fenêtre de lecture, ce panneau contient un menu déroulant permettant d'accéder à différents moyens de navigation. La disponibilité et le contenu de chaque moyen de navigation. Pour l'epub, il s'agit de :</p>
+      <ul>
+        <li>
+          <strong>Table des matières</strong> (TOC), une liste rédigée par un auteur du contenu d'un livre électronique, généralement similaire à la structure des titres de contenu, mais pas nécessairement. Un créateur de contenu peut décider, par exemple, de limiter la table des matières à une certaine profondeur.
+        </li>
+        <li>
+          <strong>Repères</strong> , une liste rédigée des principaux points d'intérêt du livre électronique, généralement les avant-propos, l'avis de droit d'auteur, le contenu principal et les annexes.
+        </li>
+        <li>
+          <strong>Aller à la page</strong> , une liste de sauts de page rédigée par l'auteur. La liste de pages peut faire référence à une version imprimée et permettre d'utiliser l'ebook dans un environnement de lecture mixte, il devient alors possible de localiser ou de faire une citation. Dans ce cas, Thorium Reader n'offre en réalité aucun moyen d'identifier le livre imprimé concerné, il doit être informé textuellement et explicitement dans le contenu par le créateur du contenu.
+        </li>
+        <li>
+          <strong>Recherche</strong> , une liste générée de correspondances de recherche pour aider le lecteur à naviguer entre les résultats de recherche. Ce panneau n'a de contenu que lorsque la fonction de recherche est activée.
+        </li>
+        <li>
+          <strong>Signets</strong> , une liste générée des signets de l'utilisateur. Ce panneau offre la possibilité de supprimer le signet ou d'éditer le texte qui lui est attaché et informe en pourcentage de la progression de la lecture où il se trouve.
+        </li>
+        <li>
+          <strong>Annotations</strong> , une liste générée d'annotations utilisateur
+        </li>
+      </ul>
+      <h3 id="reading_settings_panel">Panneau de paramètres de lecture</h3>
+      <p>Accessible depuis la barre d'outils supérieure de la fenêtre de lecture, ce panneau contient tous les paramètres utilisateur possibles pour ajuster l'affichage du contenu textuel. Il est important de se rappeler que ces possibilités peuvent être limitées par la manière dont le contenu a été créé.</p>
+      <p>Des informations détaillées sur les paramètres de lecture disponibles par format sont disponibles dans les 
+        <a href="../210_reading/index.xhtml">sous-sections Lecture</a> :
+      </p>
+      <ul>
+        <li>
+          <a href="../211_reading_textuals/index.xhtml">Lire des contenus textuels</a>
+        </li>
+        <li>
+          <a href="../212_reading_visuals/index.xhtml">Lecture de contenus visuels</a>
+        </li>
+        <li>
+          <a href="../213_reading_auditory/index.xhtml">Reading audio contents</a>
+        </li>
+        <li>
+          <a href="../214_reading_pdfs/index.xhtml">Lire des PDF</a>
+        </li>
+      </ul>
+      <h2 id="book_info_panel">Panneau d'information sur le livre</h2>
+      <p>Les informations sur le livre sont disponibles dans un panneau dédié accessible depuis le menu d'action du livre des étagères de la bibliothèque &lt;img src=&quot;../../resources/images/icons3/info-icon.svg){.icon role=&quot;presentation&quot;} 
+        <span class="ui_button">À propos de la publication</span> ou depuis l'icône Informations de la fenêtre de lecture &lt;img src=&quot;../../resources/images/icons3/info-icon.svg){.icon role=&quot;presentation&quot;}.
+      </p>
+      <p>Ce panneau affiche les informations du livre électronique telles qu'elles sont fournies par le fichier. La fiabilité de ces informations dépend du créateur du fichier, généralement l'éditeur. Les informations affichées sont les suivantes :</p>
+      <ul>
+        <li>Couverture de la publication avec son alternative textuelle si présente</li>
+        <li>Titre de la publication</li>
+        <li>Auteur de la publication</li>
+        <li>Description ou CV</li>
+        <li>Détails de la publication, y compris la langue de publication</li>
+        <li>Informations sur l'accessibilité affichées conformément aux directives internationales (pour plus d'informations, voir 
+          <a href="https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated">le Guide d'affichage du W3C pour les métadonnées d'accessibilité</a> ).
+        </li>
+        <li>Balises, y compris la possibilité de 
+          <img src="../../resources/images/icons3/tag-icon.svg" class="icon" role="presentation" alt=""/>
+          <span class="ui_button">Ajoutez</span> vos propres balises.
+        </li>
+        <li>Progression</li>
+      </ul>
+      <p>Ce panneau a la particularité de ne pas être ancrable car il ne propose pas d'action nécessitant d'avoir accès au contenu principal du livre.</p>
+    </section>
   </body>
 </html>

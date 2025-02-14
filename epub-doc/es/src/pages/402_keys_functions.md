@@ -1,6 +1,7 @@
 ---
 title: Funciones de las teclas
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 

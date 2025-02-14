@@ -1,66 +1,62 @@
 ---
 title: Ventanas, vistas y paneles.
-role: chapter
+role: doc-chapter
+epubtype: chapter
 draft: false
 ---
 
 
-# Windows, views and panels {#windows_and_views}
+# Ventanas, vistas y paneles. {#windows_and_views}
 
-Thorium reader has one main window and one additional window per open
-book. The main window is always open and offers 4 views (Home, All
-books, Catalogs and General settings) while book windows views will
-depend on the book format (textual, audio, visual). Each format will
-allow a selection of action panels that can be docked to one side of the
-view.
+El lector Thorium tiene una ventana principal y una ventana adicional por abierto
+libro. La ventana principal siempre está abierta y ofrece 4 vistas (en casa, todo
+libros, catálogos y configuraciones generales) mientras que las vistas de Windows de libros
+Depende del formato del libro (textual, audio, visual). Cada formato
+Permitir una selección de paneles de acción que se puedan acoplar a un lado del
+vista.
 
 
-## Main window {#main_window}
+## Ventana principal {#main_window}
 
-The main window is where you can access and organise your collections as
-well as the settings that apply to the whole application. Closing the
-main windows clese the application and all reading windows opened.
+La ventana principal es donde puede acceder y organizar sus colecciones como
+así como la configuración que se aplican a toda la aplicación. Cerrando el
+Windows principal Clese la aplicación y todas las ventanas de lectura se abrieron.
 
 
 ### Home View {#home_view}
 
-This view is for quick access. You find here the books you have been
-reading recently and the ones you added recently. Possible actions are
-to Import a Publication, to Open a publication and to Open Publication
-menu. <img src="../../resources/images/local-es/th3_main_window_home.png" class="icon" alt="" role="presentation"/>
+Esta vista es para acceso rápido. Encuentras aquí los libros que has estado
+Lectura recientemente y las que agregó recientemente. Las posibles acciones son
+para importar una publicación, abrir una publicación y abrir una publicación
+menú. <img src="../../resources/images/local-es/th3_main_window_home.png" class="icon" alt="" role="presentation"/>
 
 
 
-### All publications View {#all_publications_view}
+### Todas las publicaciones {#all_publications_view}
+Este es el lugar donde están todas sus publicaciones. Con el tiempo puede
+llena de cientos de libros para que necesite opciones para clasificar y buscar.
+Debido a eso, este punto de vista es más complejo. Primeros botones en esta página
+permite seleccionar entre dos modos de vista, cuadrícula y tabla que afectará
+la visualización de la lista de libros electrónicos y ofrece diferentes opciones para clasificar y
+Filtro, se detallan dos párrafos a continuación.
 
-This is the place where all your publications stands. With time it may
-become full of hundreds of books so you need options to sort and search.
-Because of that, this view is more complex. First buttons on this page
-allows to select between two view modes, Grid and Table that will affect
-the display of the ebooks list and offer different options to sort and
-filter, they are detailed two paragraphes below.
+Las acciones disponibles en el nivel de vista son importar una publicación, para
+Buscar, para filtrar por etiqueta y navegar por páginas de su biblioteca. Biblioteca
+Las páginas son como estantes o pilas, ya que toda la vista de publicación es limitada
+a 50 publicaciones para mantenerlo utilizable.
 
-The available actions on the View level are to Import a Publication, to
-Search, to Filter by tag and navigate by pages of your library. Library
-pages are like Shelves or stacks as the All publication view is limited
-to 50 publications to keep it usable.
+#### Modo de cuadrícula {#grid_mode}
 
+El modo de cuadrícula presenta los libros como tarjetas, la tabulación del teclado
+conducirlo de un libro a otro. Este modo ofrece lo posible
+Acciones para abrir una publicación y para abrir el menú de publicación.
 
-#### Grid Mode {#grid_mode}
+#### Modo de tabla {#table_mode}
 
-The Grid mode presents the books like cards, keyboard tabulation will
-drive you from one book to another. This mode offers the possible
-actions to Open a publication and to Open Publication menu.
-
-
-
-#### Table Mode {#table_mode}
-
-The Table mode presents one book per line and allows to visualize a
-large number of informations usually available only in the Book
-information Panel. Keyboard tabulation will drive you thru all those
-details.
-
+El modo de tabla presenta un libro por línea y permite visualizar un
+Gran cantidad de información generalmente disponible solo en el libro
+panel de información. La tabulación del teclado lo conducirá a través de todos esos
+detalles.
 
 
 

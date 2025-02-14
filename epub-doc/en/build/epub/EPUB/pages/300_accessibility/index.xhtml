@@ -12,86 +12,176 @@
     <title>Accessibility</title>
   </head>
   <body>
-    <h1 id="a11y">Accessibility</h1>
-    <p>Thorium Reader is for everyone, including people who are blind or have
-other types of visual, cognitive or motor disabilities. The application
-is compatible with accessible technologies like screen readers,
-including JAWS, NVDA, Narrator and VoiceOver. It includes a read-aloud
-feature with visual highlighting. Thorium Reader can be used with the
-mouse or the keyboard, and keyboard shortcuts are configurable. The
-display can be customized to meet the needs of users, including colors,
-text size, spacing, font and layout.</p>
-    <p>warning
-Attention !</p>
-    <p>The accessibility features are strongly dependant and affected by the
-quality of the electronic publication files.</p>
-    <h2 id="a11y_info">Accessibility information</h2>
-    <p>Currently Thorium displays in the 
-      <a href="">Book information panel</a>
-under the heading 
-      <code>Description</code> the content of the accessibility summary
-metadata ( [accessibilitySummary]{lang=&quot;en&quot;}).
-    </p>
-    <p>
-      <img src="../../resources/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Screenshot, the book The Mark of Four indicates: This publication
-complies with the SNE Charter - natively accessible textual EPUBs
-»." />
-    </p>
-    <p>warning
-Attention !</p>
-    <p>Work is underway to develop a guide for displaying accessibility
-information. We are following this work and will implement the
-recommendations soon.</p>
-    <p>danger
-Attention !</p>
-    <p>Accessibility information must be filled in by the editors. Thorium
-displays this information as it was defined. In case of doubt or
-complaint, please contact the distributor or the publisher of the file.</p>
-    <h2 id="a11y_native">Native accessibility functions</h2>
-    <p>warning
-Attention !</p>
-    <p>The native accessibility features offered by Thorium are strongly
-affected by the quality of the read files.</p>
-    <h2 id="a11y_visual">Visual adjustments</h2>
-    <ul>
-      <li>
-        <p>The application allows you to 
-          <a href="">change the color
-themes</a> and 
-          <a href="">change the display font, text
-size</a>.
-        </p>
-      </li>
-      <li>
-        <p>it is possible to use all the fonts installed on the computer.</p>
-      </li>
-      <li>
-        <p>It is possible to increase the size of an image with
-
-          <kbd>Shift</kbd> + 
-          <code>Clic</code> on the image. Repeat several times to enlarge the
-image to the desired size.
-        </p>
-      </li>
-      <li>
-        <p>The display can be selected as paginated or scrolling.</p>
-      </li>
-      <li>
-        <p>Text can be justified or left-aligned, and the number of columns
-controlled.</p>
-      </li>
-      <li>
-        <p>Spacing can be flexibly adjusted, with control over margin, word,
-letter and line.</p>
-      </li>
-    </ul>
-    <p>danger
-Attention !</p>
-    <p>Visual adjustments are not possible with fixed layout formats such as
-some EPUBs (so-called [Fixed Layout]{lang=&quot;en&quot;}) or PDF files.</p>
-    <h2 id="a11y_tts">Text-to-Speech (TTS)</h2>
-    <p>See dedicated section about 
-      <a href="">Text to Speech (TTS)</a>.
-    </p>
+    <section class="colbreak"  role="doc-chapter" >
+      <hr class="asterism" aria-hidden="true"></hr>
+      <h1 id="A11Y">Accessibility</h1>
+      <p>The application is compatible with assistance technologies such as screen players, including Jaws, NVDA, Narrator and Voiceover. It includes a reading function aloud with visual highlighting. Thorium Reader can be used with mouse or keyboard, and keyboard shortcuts are configurable. The display can be personalized to meet the needs of users, including colors, text size, spacing, font and layout.
+Accessibility features strongly depend on the quality of electronic publication files and are affected by it.</p>
+      <p>The 
+        <a href="https://thorium.edrlab.org/en/th3/500_accessibility/">Accessibility online support page</a> contains complete information related to the accessibility of the application and the features related to it.
+      </p>
+      <p>This chapter takes up the main information to have it offline.</p>
+      <h2 id="a11y_info">Accessibility information</h2>
+      <p>Currently, Thorium displays in the 
+        <a href="../102_windows_views_panels/index.xhtml#book_info_panel">Book Information Panel</a> under the title 
+        <code>Description</code> Description 'The content of the accessibility metadata provided by the creators of the file.
+      </p>
+      <h2 id="a11y_native">Native accessibility functions</h2>
+      <p>The native accessibility functions are described in each section of this documentation which correspond to their context of use. This includes in particular:</p>
+      <ul>
+        <li>
+          <a href="../102_windows_views_panels/index.xhtml#reading_settings_panel">Visual adjustments in the display of the text</a>
+        </li>
+        <li>
+          <a href="../211_reading_textuals/index.xhtml#read_text_readaloud">Audio reading generated in summary voice</a>
+        </li>
+      </ul>
+      <h2 id="screenreader">Reading with a screen player</h2>
+      <p>When launching Thorium, if a screen player is detected, the relative functions are activated.
+Note that screen players use separate buffer memory to access HTML content, which causes the visual scroll desynchronization and a page offset displayed with the page read by the screen player. In other words, Thorium is generally not aware of the current reading location of the screen player user, unless the screen user triggers events (such as a Mouse click anywhere in the text or a keyboard key on focused HTML elements).</p>
+      <h3>Quick keys for navigation (common to NVDA and Jaws)</h3>
+      <p>
+        <em>(Contribution of Prashant Verma, Daisy Consortium)</em>
+      </p>
+      <p>To read text, navigate in the tables, navigate in the browser window, the insertion key can be replaced by the screen modification key. The screen player must be in navigation or virtual cursor mode.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Key</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Following title</td>
+            <td>
+              <kbd>H</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Next table</td>
+            <td>
+              <kbd>T</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Following graphic</td>
+            <td>
+              <kbd>G</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Next list</td>
+            <td>
+              <kbd>L</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Following form field</td>
+            <td>
+              <kbd>F</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Element list</td>
+            <td>
+              <kbd>INSERT</kbd> + 
+              <kbd>F7</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Preceding</td>
+            <td>
+              <kbd>←</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Following character</td>
+            <td>
+              <kbd>→</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Previous word</td>
+            <td>
+              <kbd>CTRL</kbd> + 
+              <kbd>←</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Next word</td>
+            <td>
+              <kbd>CTRL</kbd> + 
+              <kbd>→</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Previous line</td>
+            <td>
+              <kbd>↑</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Next line</td>
+            <td>
+              <kbd>↓</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Previous sentence</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>↑</kbd> (Jaws uniquement)
+            </td>
+          </tr>
+          <tr>
+            <td>Next sentence</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>↓</kbd> (Jaws uniquement)
+            </td>
+          </tr>
+          <tr>
+            <td>Read everything</td>
+            <td>
+              <kbd>INSERT</kbd> + 
+              <kbd>↓</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Cell on the right</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>CTRL</kbd> + 
+              <kbd>→</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Cell on the left</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>CTRL</kbd> + 
+              <kbd>←</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Cell below</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>CTRL</kbd> + 
+              <kbd>↓</kbd>
+            </td>
+          </tr>
+          <tr>
+            <td>Cell above</td>
+            <td>
+              <kbd>ALT</kbd> + 
+              <kbd>CTRL</kbd> + 
+              <kbd>↑</kbd>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </body>
 </html>

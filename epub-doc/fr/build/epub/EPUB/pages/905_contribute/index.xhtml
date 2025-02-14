@@ -6,48 +6,52 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Contribuer</title>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/page.css"/>
   </head>
   <body>
-    <h2>Contribuer!</h2>
-    <p>Thorium et sa documentation sont développés grâce à la communauté des utilisateurs. Nous avons besoin d'aide pour traduire cette documentation.</p>
-    <p>Pour ce faire, vous pouvez 
-      <a href="https://www.edrlab.org/contact/">nous contacter</a> .
-    </p>
-    <p>Si vous êtes suffisamment à l'aise avec GitHub et le format Markdown, vous pouvez proposer une nouvelle traduction via une Pull Request.</p>
-    <p>Pour cela : clonez le dépôt et créez une branche avec le nom de la langue que vous souhaitez ajouter, faites une copie du dossier 
-      <code>content.en</code> et renommez-le avec deux lettres correspondant à la langue que vous souhaitez ajouter (par exemple 
-      <code>content.es</code> contiendra la traduction en espagnol). Les noms des fichiers ne doivent pas être modifiés car ils assurent la correspondance entre les langues.
-    </p>
-    <p>Le dossier 
-      <code>i18n</code> contient les traductions des éléments fixes de l'en-tête et du pied de page. Plusieurs langues sont déjà présentes, si votre langue n'est pas présente, copiez-collez le fichier .yaml et renommez-le avec les deux premières lettres des lettres de la langue que vous souhaitez ajouter.
-    </p>
-    <p>Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier 
-      <code>config.toml</code> et ajoutez la langue avec le code suivant :
-    </p>
-    <pre>
-      <code>      [languages.en]
+    <section class="colbreak" >
+      <hr class="asterism" aria-hidden="true"></hr>
+      <h2>Contribuer!</h2>
+      <p>Thorium et sa documentation sont développés grâce à la communauté des utilisateurs. Nous avons besoin d'aide pour traduire cette documentation.</p>
+      <p>Pour ce faire, vous pouvez 
+        <a href="https://www.edrlab.org/contact/">nous contacter</a> .
+      </p>
+      <p>Si vous êtes suffisamment à l'aise avec GitHub et le format Markdown, vous pouvez proposer une nouvelle traduction via une Pull Request.</p>
+      <p>Pour cela : clonez le dépôt et créez une branche avec le nom de la langue que vous souhaitez ajouter, faites une copie du dossier 
+        <code>content.en</code> et renommez-le avec deux lettres correspondant à la langue que vous souhaitez ajouter (par exemple 
+        <code>content.es</code> contiendra la traduction en espagnol). Les noms des fichiers ne doivent pas être modifiés car ils assurent la correspondance entre les langues.
+      </p>
+      <p>Le dossier 
+        <code>i18n</code> contient les traductions des éléments fixes de l'en-tête et du pied de page. Plusieurs langues sont déjà présentes, si votre langue n'est pas présente, copiez-collez le fichier .yaml et renommez-le avec les deux premières lettres des lettres de la langue que vous souhaitez ajouter.
+      </p>
+      <p>Enfin pour activer le menu de la langue que vous ajoutez, éditez le fichier 
+        <code>config.toml</code> et ajoutez la langue avec le code suivant :
+      </p>
+      <pre>
+        <code>      [languages.en]
   languageName = 'English'
   contentDir = 'content.en'
   weight = 1
 </code>
-    </pre>
-    <p>Vous devez remplacer 
-      <code>.en' with the first two letters of the language you are adding and fill in the name of the language as the</code>
-      <code>value. The</code> weight` indique l'ordre d'apparition dans le menu des langues.
-    </p>
-    <p>Exemple pour l'espagnol :</p>
-    <pre>
-      <code>      [languages.es]
+      </pre>
+      <p>Vous devez remplacer 
+        <code>.en' with the first two letters of the language you are adding and fill in the name of the language as the</code>
+        <code>value. The</code> weight` indique l'ordre d'apparition dans le menu des langues.
+      </p>
+      <p>Exemple pour l'espagnol :</p>
+      <pre>
+        <code>      [languages.es]
   languageName = 'Español'
   contentDir = 'content.es'
   weight = 3
 </code>
-    </pre>
-    <p>Les images localisées telles que les captures d'écran doivent être ajoutées au dossier 
-      <code>statics/images/local-(two letter language)</code> .
-    </p>
+      </pre>
+      <p>Les images localisées telles que les captures d'écran doivent être ajoutées au dossier 
+        <code>statics/images/local-(two letter language)</code> .
+      </p>
+    </section>
   </body>
 </html>

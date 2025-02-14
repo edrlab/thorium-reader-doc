@@ -47,7 +47,7 @@ href="../pages/102_windows_views_panels/index.xhtml#catalog_view">Voir les catal
 </li>
 <li>
 <a
-href="../pages/102_windows_views_panels/index.xhtml#setting_view">Volet des paramètres d'applicationl</a>
+href="../pages/102_windows_views_panels/index.xhtml#setting_view">Volet des paramètres d'application</a>
 </li>
 </ol> 
 </li>
@@ -121,9 +121,17 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Pann
 </li>
 <li>
 <a href="../pages/300_accessibility/index.xhtml">Accessibilité</a>
-</li>
-<li>
-<a href="../pages/311_screenReaders/index.xhtml">Lire avec un lecteur d'écran</a>
+    <ol>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#a11y_info">Informations sur l'accessibilité</a>
+        </li>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#a11y_native">Fonctions d'accessibilité native</a>
+        </li>
+        <li>
+        <a href="../pages/300_accessibility/index.xhtml#screenreader">Lire avec un lecteur d'écran</a>
+        </li>
+    </ol>
 </li>
 <li>
 <a href="../pages/400_ressources/index.xhtml">Ressources</a>
