@@ -134,16 +134,18 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Pane
     </ol>
 </li>
 <li>
-<a href="../pages/400_ressources/index.xhtml"> Ressources </a>
+<a href="../pages/400_ressources/index.xhtml"> Recursos </a>
+<ol>
+<li>
+<a href="../pages/400_ressources/index.xhtml#keyboard"> Funciones de claves </a>
 </li>
 <li>
-<a href="../pages/402_keys_functions/index.xhtml"> Funciones de claves </a>
-</li>
-<li>
-<a href="../pages/403_gesture/index.xhtml"> Gestos táctiles </a>
+<a href="../pages/400_ressources/index.xhtml#tactile"> Gestos táctiles </a>
 </li>
 <li>
 <a href="../pages/406_formats/index.xhtml"> Formatos de publicación compatibles </a>
+</li>
+</ol>
 </li>
 <li>
 <a href="../pages/900_about/index.xhtml"> Acerca de este libro electrónico </a>
