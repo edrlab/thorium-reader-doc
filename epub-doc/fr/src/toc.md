@@ -135,15 +135,17 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Pann
 </li>
 <li>
 <a href="../pages/400_ressources/index.xhtml">Ressources</a>
+<ol>
+<li>
+<a href="../pages/400_ressources/index.xhtml#keyboard">Fonctions des touches</a>
 </li>
 <li>
-<a href="../pages/402_keys_functions/index.xhtml">Fonctions des touches</a>
-</li>
-<li>
-<a href="../pages/403_gesture/index.xhtml">Gestes tactiles</a>
+<a href="../pages/400_ressources/index.xhtml#tactile">Gestes tactiles</a>
 </li>
 <li>
 <a href="../pages/406_formats/index.xhtml">Formats de publication pris en charge</a>
+</li>
+</ol>
 </li>
 <li>
 <a href="../pages/900_about/index.xhtml">À propos de cet ebook</a>

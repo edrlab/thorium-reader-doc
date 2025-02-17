@@ -140,15 +140,12 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
     <a href="../pages/400_ressources/index.xhtml#keyboard"> Keyboard functions</a>
     </li>
         <li>
-    <a href="../pages/400_ressources/index.xhtml#keyboard">Keys functions</a>
+    <a href="../pages/400_ressources/index.xhtml#tactile">Tactile gestures</a>
     </li>
         <li>
-    <a href="../pages/400_ressources/index.xhtml#supportlinks">links to online support pages</a>
+    <a href="../pages/400_ressources/index.xhtml#support">links to online support pages</a>
     </li>
     </ol>
-</li>
-<li>
-<a href="../pages/403_gesture/index.xhtml">Tactile gestures</a>
 </li>
 <li>
 <a href="../pages/406_formats/index.xhtml">Supported publication formats</a>

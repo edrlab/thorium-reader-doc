@@ -54,7 +54,7 @@ Debe conocer su nombre exacto, ya que está configurado para el sistema operativ
 #### EXample 2: Configuración de Luciole como la fuente de lectura {#read_text_example_luciole}
 
 1. [Descargue e instale el Luciole
-    Font] (https://www.luciole-vision.com/#download)
+    Font](https://www.luciole-vision.com/#download)
 2. En la interfaz de lectura, vaya al menú `preferencia 'y luego
     `Text`.
 3. En la lista desplegable Seleccione `...`.
