@@ -69,3 +69,16 @@ item.*
 |Cell to the left|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd>|
 |Cell below|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd>|
 |Cell above|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↑</kbd>|
+
+
+## Annotating 
+
+Because screen readers use a separate buffer to access the HTML
+content, Thorium is generally not aware of the user\'s
+current screen reader reading location. 
+
+That affects annotating experience for screen readers users. Workaround is to select and copy the text portion to annotate. 
+
+The issue is known and tracked there:[Can I highlight or annotate selected content using a screen reader? Issue #2463](https://github.com/edrlab/thorium-reader/discussions/2463).
+
+More testing and informations will be provided as soon as we can. 
