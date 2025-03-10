@@ -851,7 +851,14 @@ item.&lt;/em>&lt;/p>
 &lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Th3: Translating</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</guid><description>
+&lt;/table>
+&lt;h2 id="annotating">Annotating&lt;/h2>
+&lt;p>Because screen readers use a separate buffer to access the HTML
+content, Thorium is generally not aware of the user's
+current screen reader reading location.&lt;/p>
+&lt;p>That affects annotating experience for screen readers users. Workaround is to select and copy the text portion to annotate.&lt;/p>
+&lt;p>The issue is known and tracked there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2463">Can I highlight or annotate selected content using a screen reader? Issue #2463&lt;/a>.&lt;/p>
+&lt;p>More testing and informations will be provided as soon as we can.&lt;/p></description></item><item><title>Th3: Translating</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</guid><description>
 &lt;p>Thorium Reader user Interface localisation are provided and maintained thanks to volunteers and contributing organisations.&lt;/p>
 &lt;p>All locales are stored in the sources resources locales folder.&lt;/p>
 &lt;p>To add a translation, you can start from the English &amp;ldquo;en.json&amp;rdquo;, rename it as

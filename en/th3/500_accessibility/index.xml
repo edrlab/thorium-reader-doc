@@ -133,7 +133,14 @@ item.&lt;/em>&lt;/p>
 &lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Th3: Accessibility policy</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
+&lt;/table>
+&lt;h2 id="annotating">Annotating&lt;/h2>
+&lt;p>Because screen readers use a separate buffer to access the HTML
+content, Thorium is generally not aware of the user's
+current screen reader reading location.&lt;/p>
+&lt;p>That affects annotating experience for screen readers users. Workaround is to select and copy the text portion to annotate.&lt;/p>
+&lt;p>The issue is known and tracked there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2463">Can I highlight or annotate selected content using a screen reader? Issue #2463&lt;/a>.&lt;/p>
+&lt;p>More testing and informations will be provided as soon as we can.&lt;/p></description></item><item><title>Th3: Accessibility policy</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
 &lt;p>EDRLab is a non profit developpement laboratory and places accessibility as a core requirement of it&amp;rsquo;s actions. That include the developpement of Thorium Reader.&lt;/p>
 &lt;p>However, the core aspect of innovation and experimentation of our work may affect accessibility at some points.
 Funding limitations may also affect our action and will to provide the best reading experience for all readers.
