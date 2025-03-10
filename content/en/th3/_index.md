@@ -20,7 +20,7 @@ menu:
 <p><b>
  Thorium 3 documentation is available as EPUB, different translations are available thru the Thorium documentation catalog. You can <a class="" href="opds://edrlab.github.io/publications/feeds/thorium31_documentation.json">Add Documentation catalog to Thorium (OPDS link) </a> or <a class="" href="https://thorium.edrlab.org/en/onlinedoc">browse English documentation inline within the Readium web reader</a>.</b></p>
 
-</p>
+<p>We'll be glad to ear from you thru our [online survey feedback](https://ec.europa.eu/eusurvey/runner/2df185ee-057c-42d1-6a02-f405097f052d) to get to know better who's using Thorium Reader.</p>
 
 <h2>Welcome to the Thorium Reader documentation</h2>
 <ul>
