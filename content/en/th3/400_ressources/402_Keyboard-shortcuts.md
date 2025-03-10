@@ -77,7 +77,13 @@ in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlay
 <kbd>Ctrl</kbd> + <kbd>F10</kbd> 
 </dt>
 <dd>
-in reader and library windows, moves the keyboard focus to the "main" area landmark (in the reader view, this is immediately before the frame that displays publication content)
+In reader and library windows, moves the keyboard focus to the "main" area landmark. in the reader view, the keyboard focus moves one step further into the frame that displays publication content (screen readers automatically read the currently-focussed HTML element inside the displayed document)
+</dd>
+<dt>Main content deep (`FocusMainDeep`)
+<kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>F10</kbd> 
+</dt>
+<dd>
+Just like "Main content" / FocusMainDeep in the reader view (see above), but the keyboard focus is forced deeper into the frame that displays publication content (this can help in cases where screen readers do not automatically read the currently-focussed HTML element inside the displayed document)
 </dd>
 <dt>Go to page (`FocusReaderGotoPage`)
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>KeyP</kbd></dt>
