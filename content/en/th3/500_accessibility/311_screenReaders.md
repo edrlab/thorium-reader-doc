@@ -20,8 +20,6 @@ anywhere in the text, or keyboard tab into focusable HTML elements).
 Accessibility features addressed to assistive technologies are strongly
 affected by the quality of the book files.
 
-
-
 # Keystrokes common to NVDA and JAWS
 
 (contribution from Prashant Verma, DAISY Consortium)
@@ -71,14 +69,20 @@ item.*
 |Cell above|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↑</kbd>|
 
 
-## Annotating 
+## Annotating & bookmarking
 
-Because screen readers use a separate buffer to access the HTML
-content, Thorium is generally not aware of the user\'s
-current screen reader reading location. 
+Based on the feedback we have received so far, it looks like it is very difficult for screen reader users to select an actual range of characters. Such assistive technology allows users to select text inside the screen reader's virtual buffer, so the application isn't aware that the user is reading at a particular location and is selecting text there.
 
-That affects annotating experience for screen readers users. Workaround is to select and copy the text portion to annotate. 
+Consequently, screen reader users prefer to use the bookmarking feature which anchors a simple, optionally-labelled bookmark to a coarse reading location (there is an icon button in the top toolbar, but the <key>CTRL</key> + <key>B</key> keyboard shortcut can be used too). 
+Thorium actually does pick-up the mouse cursor click on a single text character, as this helps focus a bookmark on a more precise HTML location. 
 
-The issue is known and tracked there:[Can I highlight or annotate selected content using a screen reader? Issue #2463](https://github.com/edrlab/thorium-reader/discussions/2463).
+In Thorium, currently the bookmark label editor supports multiple lines of text input, which makes it possible to annotate coarse document locations. This can therefore be perceived as a replacement for the actual annotator, but there is no import/export of bookmarks data.
 
-More testing and informations will be provided as soon as we can. 
+More feedback is welcome thru our discussion tracker there:[Message to Thorium screen reader users... #2867](https://github.com/edrlab/thorium-reader/discussions/2867).
+
+
+## External ressources for screen reader use in Thorium
+
+* [The DAISY Consortium Thorium Reader Getting Started Guide](https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/)
+* [The DAISY Consortium Thorium Archives Page](https://daisy.org/news-events/tag/thorium/)
+
