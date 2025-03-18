@@ -20,7 +20,7 @@ anywhere in the text, or keyboard tab into focusable HTML elements).
 Accessibility features addressed to assistive technologies are strongly
 affected by the quality of the book files.
 
-# Keystrokes common to NVDA and JAWS
+## Keystrokes common to NVDA and JAWS
 
 (contribution from Prashant Verma, DAISY Consortium)
 
@@ -28,7 +28,7 @@ For reading text, navigating in tables, navigating in the browser
 window, the insertion key can be replaced by the modifier key of the screen
 reader (e.g. the Caps Lock key).
 
-## Quick keys for navigation
+### Quick keys for navigation
 
 The screen reader must be in navigation or virtual cursor mode.
 
@@ -44,7 +44,7 @@ The screen reader must be in navigation or virtual cursor mode.
 *Use the above keys with the <kbd>Shift</kbd> key to move to the previous
 item.*
 
-## Text
+### Text
 
 |Action|Command|
 |---|---|
@@ -59,7 +59,7 @@ item.*
 |Read all| <kbd>INSERT</kbd> + <kbd>↓</kbd>|
 |Announce Font|<kbd>INSERT</kbd> + <kbd>F</kbd>|
 
-## Tables
+### Tables
 
 |Action|Command|
 |---|---|
