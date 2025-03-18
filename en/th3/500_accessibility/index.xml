@@ -134,13 +134,17 @@ item.&lt;/em>&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="annotating">Annotating&lt;/h2>
-&lt;p>Because screen readers use a separate buffer to access the HTML
-content, Thorium is generally not aware of the user's
-current screen reader reading location.&lt;/p>
-&lt;p>That affects annotating experience for screen readers users. Workaround is to select and copy the text portion to annotate.&lt;/p>
-&lt;p>The issue is known and tracked there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2463">Can I highlight or annotate selected content using a screen reader? Issue #2463&lt;/a>.&lt;/p>
-&lt;p>More testing and informations will be provided as soon as we can.&lt;/p></description></item><item><title>Th3: Accessibility policy</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
+&lt;h2 id="annotating--bookmarking">Annotating &amp;amp; bookmarking&lt;/h2>
+&lt;p>Based on the feedback we have received so far, it looks like it is very difficult for screen reader users to select an actual range of characters. Such assistive technology allows users to select text inside the screen reader&amp;rsquo;s virtual buffer, so the application isn&amp;rsquo;t aware that the user is reading at a particular location and is selecting text there.&lt;/p>
+&lt;p>Consequently, screen reader users prefer to use the bookmarking feature which anchors a simple, optionally-labelled bookmark to a coarse reading location (there is an icon button in the top toolbar, but the &lt;key>CTRL&lt;/key> + &lt;key>B&lt;/key> keyboard shortcut can be used too).
+Thorium actually does pick-up the mouse cursor click on a single text character, as this helps focus a bookmark on a more precise HTML location.&lt;/p>
+&lt;p>In Thorium, currently the bookmark label editor supports multiple lines of text input, which makes it possible to annotate coarse document locations. This can therefore be perceived as a replacement for the actual annotator, but there is no import/export of bookmarks data.&lt;/p>
+&lt;p>More feedback is welcome thru our discussion tracker there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
+&lt;h2 id="external-ressources-for-screen-reader-use-in-thorium">External ressources for screen reader use in Thorium&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Accessibility policy</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
 &lt;p>EDRLab is a non profit developpement laboratory and places accessibility as a core requirement of it&amp;rsquo;s actions. That include the developpement of Thorium Reader.&lt;/p>
 &lt;p>However, the core aspect of innovation and experimentation of our work may affect accessibility at some points.
 Funding limitations may also affect our action and will to provide the best reading experience for all readers.
