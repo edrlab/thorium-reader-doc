@@ -394,12 +394,12 @@ screen reader user triggers standard web API events (such as mouse click
 anywhere in the text, or keyboard tab into focusable HTML elements).&lt;/p>
 &lt;p>Accessibility features addressed to assistive technologies are strongly
 affected by the quality of the book files.&lt;/p>
-&lt;h1 id="keystrokes-common-to-nvda-and-jaws">Keystrokes common to NVDA and JAWS&lt;/h1>
+&lt;h2 id="keystrokes-common-to-nvda-and-jaws">Keystrokes common to NVDA and JAWS&lt;/h2>
 &lt;p>(contribution from Prashant Verma, DAISY Consortium)&lt;/p>
 &lt;p>For reading text, navigating in tables, navigating in the browser
 window, the insertion key can be replaced by the modifier key of the screen
 reader (e.g. the Caps Lock key).&lt;/p>
-&lt;h2 id="quick-keys-for-navigation">Quick keys for navigation&lt;/h2>
+&lt;h3 id="quick-keys-for-navigation">Quick keys for navigation&lt;/h3>
 &lt;p>The screen reader must be in navigation or virtual cursor mode.&lt;/p>
 &lt;table>
 &lt;thead>
@@ -437,7 +437,7 @@ reader (e.g. the Caps Lock key).&lt;/p>
 &lt;/table>
 &lt;p>&lt;em>Use the above keys with the &lt;kbd>Shift&lt;/kbd> key to move to the previous
 item.&lt;/em>&lt;/p>
-&lt;h2 id="text">Text&lt;/h2>
+&lt;h3 id="text">Text&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -488,7 +488,7 @@ item.&lt;/em>&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="tables">Tables&lt;/h2>
+&lt;h3 id="tables">Tables&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
