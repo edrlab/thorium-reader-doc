@@ -82,3 +82,10 @@ That affects annotating experience for screen readers users. Workaround is to se
 The issue is known and tracked there:[Can I highlight or annotate selected content using a screen reader? Issue #2463](https://github.com/edrlab/thorium-reader/discussions/2463).
 
 More testing and informations will be provided as soon as we can. 
+
+
+## External ressources for screen reader use in Thorium
+
+* [The DAISY Consortium Thorium Reader Getting Started Guide](https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/)
+* [The DAISY Consortium Thorium Archives Page](https://daisy.org/news-events/tag/thorium/)
+
