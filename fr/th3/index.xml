@@ -360,12 +360,40 @@ Avoir une interface utilisateur pour exporter l’intégralité du catalogue n�
 &lt;p>En cas de migration d&amp;rsquo;un ordinateur vers un autre ou de cas d&amp;rsquo;utilisation similaires, vous pouvez copier tous les fichiers ebook de ce référentiel et les ouvrir dans la nouvelle installation de Thorium.&lt;/p>
 &lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Traduction</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/802_localizing/</guid><description>
-&lt;p>La localisation de l&amp;rsquo;interface utilisateur du lecteur Thorium est assurée et maintenue grâce à des bénévoles et des organisations contributrices.&lt;/p>
-&lt;p>Tous les paramètres régionaux sont stockés dans le dossier ressources locales sources.&lt;/p>
-&lt;p>Pour ajouter une traduction, vous pouvez partir de l&amp;rsquo;anglais &amp;ldquo;en.json&amp;rdquo;, le renommer en et modifier les valeurs après la ponctuation deux points (:).&lt;/p>
-&lt;p>Si vous êtes à l&amp;rsquo;aise avec github, vous pouvez ouvrir une pull request pour soumettre le fichier.&lt;/p>
-&lt;p>Sinon, vous pouvez simplement nous envoyer le fichier localisé par email et nous procéderons à l&amp;rsquo;ajout. Une liste des contributeurs est maintenue sur la page wiki Traduction de la langue de localisation (l10n).&lt;/p>
-&lt;p>Sachez que nous sommes actuellement en train de retravailler l&amp;rsquo;interface utilisateur, des changements importants pourraient donc survenir d&amp;rsquo;ici le premier trimestre 2024. Nous alertons généralement les contributeurs de localisation avant toute publication afin qu&amp;rsquo;ils puissent mettre à jour le fichier de traduction. Nous mentionnons également que le site Web de documentation de Thorium peut être localisé via une méthodologie de contribution similaire. ](../900_about)&lt;/p></description></item><item><title>Th3: Financement et parrainage</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
+&lt;p>La localisation de l&amp;rsquo;interface utilisateur du Thorium Reader est assurée et maintenue grâce à des bénévoles et à des organisations contributrices.&lt;/p>
+&lt;p>Depuis février 2025, nous utilisons &lt;a href="https://hosted.weblate.org/projects/thorium-reader/">Weblate project Thorium&lt;/a> comme principal outil de localisation. Pour obtenir de l&amp;rsquo;aide, vous pouvez vous référer à la &lt;a href="https://docs.weblate.org/en/latest/index.html">Documentation Weblate&lt;/a>.&lt;/p>
+&lt;p>Alternativement, les traductions peuvent être faites directement via Github Pull request. Cela peut être plus facile si vous êtes familier avec des éditeurs de traduction locaux comme &lt;a href="https://poedit.net/">poedit&lt;/a> qui permettent un environnement de traduction moins bruyant et sont documentés pour être utilisés avec des lecteurs d&amp;rsquo;écran.
+Toutes les locales sont stockées dans le dossier &lt;a href="https://github.com/edrlab/thorium-reader/tree/develop/src/resources/locales">sources resources locales&lt;/a>.&lt;/p>
+&lt;p>Pour toute question relative à la localisation, signalez @gautierchomel dans les commentaires.&lt;/p>
+&lt;h2 id="contributeurs-">Contributeurs :&lt;/h2>
+&lt;p>Nous maintenons une liste de contributeurs pour créditer correctement leur travail, et aussi pour nous aider à savoir qui mentionner dans les appels à traduction. La liste n&amp;rsquo;est pas exhaustive, et nous supprimerons les mentions sur demande.&lt;/p>
+&lt;ul>
+&lt;li>(en) English, par EDRLab&lt;/li>
+&lt;li>(fr) Français (French), par EDRLab&lt;/li>
+&lt;li>(fi) Suomi (Finish), par @terhol-celia, @MiiaKirsi, @KirsiYl&lt;/li>
+&lt;li>(de) Deutsch (German), par @tofi86&lt;/li>
+&lt;li>(es) Español (Spanish), par @nvdaes&lt;/li>
+&lt;li>(nl) Nederlands (Dutch), par @tedvandertog&lt;/li>
+&lt;li>(ja) 日本語 (Japanese), par @peaceroad, @t-kudou, @GMaruichi, @mayuhamada&lt;/li>
+&lt;li>(ka) ქართული (Georgian), @georgegach&lt;/li>
+&lt;li>(lt) Lietuvių (Lithuanian), par @naglis&lt;/li>
+&lt;li>(pt-BR) Português Brasileiro (Portuguese - Brazil), par @https://github.com/milliet&lt;/li>
+&lt;li>(pt-PT) Português (Portuguese - Portugal), par @horus68&lt;/li>
+&lt;li>(zh-CN) 中文 - 中國/国 (Chinese simp.), par @maitreya2019 and @cary-rowen&lt;/li>
+&lt;li>(zh-TW) 中文 - 台湾/灣 (Chinese trad.), par @ThanatosDi&lt;/li>
+&lt;li>(it) Italiano (Italian) by @jacoporinaldi and @gregoriopellegrino&lt;/li>
+&lt;li>(ru) Русский (Russian), par @Modeo147&lt;/li>
+&lt;li>(ko) 한국어 (Korean) by email contribution&lt;/li>
+&lt;li>(sv) Svenska (Swedish), par @martinpub and @jonaslil&lt;/li>
+&lt;li>(ca) Catalan, par Libranda&lt;/li>
+&lt;li>(gl) Galician, par Libranda&lt;/li>
+&lt;li>(eu) Euskadi (Basque), par Libranda and @sukiletxe&lt;/li>
+&lt;li>(el) ελληνικός (Greek), par @izorba&lt;/li>
+&lt;li>(bg) български (Bulgarian), par @openm1nd&lt;/li>
+&lt;li>(hr) Hrvatski (Croatian), par @Celeruk&lt;/li>
+&lt;li>(da) Dansk (Danish), par @ddfreiling and @MyGulstad&lt;/li>
+&lt;li>(sl) Slovenščina (Slovene), par @xFizox on behalf of Beletrina&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Financement et parrainage</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
 &lt;p>EDRLAB est une organisation à but non lucratif travaillant sur le développement de logiciels open-source, en particulier sur le projet Readium et sur Thorium Reader.&lt;/p>
 &lt;p>Parce que tous les logiciels que nous créons sont gratuits et open-source, et parce que le développement d&amp;rsquo;applications de lecture est vraiment complexe, votre parrainage est nécessaire.&lt;/p>
 &lt;p>Les moyens les plus simples de participer au financement et au parrainage sont:

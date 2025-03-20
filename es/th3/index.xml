@@ -365,11 +365,39 @@ formato de archivo que desea leer con Thorium. {{&amp;lt; /alert&amp;gt;}}&lt;/p
 &lt;p>Actualmente se muestra torio en el panel de información del libro, la información de accesibilidad proporcionada por el editor. El torio muestra esta información tal como se definió. En caso de duda o
 Queja, comuníquese con el distribuidor o al editor del archivo.&lt;/p></description></item><item><title>Th3: TraducThorium</title><link>https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/</guid><description>
 &lt;p>La localización de la interfaz de usuario de Thorium Reader se proporciona y mantiene gracias a voluntarios y organizaciones colaboradoras.&lt;/p>
-&lt;p>Todas las configuraciones regionales se almacenan en la carpeta de recursos locales de fuentes.&lt;/p>
-&lt;p>Para agregar una traducción, puede comenzar desde el inglés &amp;ldquo;en.json&amp;rdquo;, cambiarle el nombre y cambiar los valores después de los dos puntos (:).&lt;/p>
-&lt;p>Si se siente cómodo con Github, puede abrir una solicitud de extracción para enviar el archivo.&lt;/p>
-&lt;p>De lo contrario, puede enviarnos el archivo localizado por correo electrónico y procederemos a agregarlo. Se mantiene una lista de colaboradores en la página wiki Traducción de idiomas de localización (l10n).&lt;/p>
-&lt;p>Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)&lt;/p></description></item><item><title>Th3: Financiación y patrocinio</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
+&lt;p>Desde febrero de 2025 utilizamos &lt;a href="https://hosted.weblate.org/projects/thorium-reader/">Weblate project Thorium&lt;/a> como herramienta principal para la localización. Para obtener ayuda, puede consultar la &lt;a href="https://docs.weblate.org/en/latest/index.html">Documentación de Weblate&lt;/a>.&lt;/p>
+&lt;p>Alternativamente, las traducciones se pueden hacer directamente a través de Github Pull request. Esto puede ser más fácil si está familiarizado con editores de traducción locales como &lt;a href="https://poedit.net/">poedit&lt;/a> que permiten un entorno de traducción menos ruidoso y están documentados para ser utilizados con lectores de pantalla.
+Todas las localizaciones se almacenan en la carpeta &lt;a href="https://github.com/edrlab/thorium-reader/tree/develop/src/resources/locales">sources resources locales&lt;/a>.&lt;/p>
+&lt;p>Para cuestiones relacionadas con la localización, marque @gautierchomel en los comentarios.&lt;/p>
+&lt;h2 id="colaboradores">Colaboradores:&lt;/h2>
+&lt;p>Mantenemos una lista de colaboradores para acreditar adecuadamente su trabajo, y también para ayudarnos a saber a quién mencionar en las peticiones de traducción. La lista no es exhaustiva y eliminaremos las menciones a petición.&lt;/p>
+&lt;ul>
+&lt;li>(en) English, por EDRLab&lt;/li>
+&lt;li>(fr) Français (French), por EDRLab&lt;/li>
+&lt;li>(fi) Suomi (Finish), por @terhol-celia, @MiiaKirsi, @KirsiYl&lt;/li>
+&lt;li>(de) Deutsch (German), por @tofi86&lt;/li>
+&lt;li>(es) Español (Spanish), por @nvdaes&lt;/li>
+&lt;li>(nl) Nederlands (Dutch), por @tedvandertog&lt;/li>
+&lt;li>(ja) 日本語 (Japanese), por @peaceroad, @t-kudou, @GMaruichi, @mayuhamada&lt;/li>
+&lt;li>(ka) ქართული (Georgian), @georgegach&lt;/li>
+&lt;li>(lt) Lietuvių (Lithuanian), por @naglis&lt;/li>
+&lt;li>(pt-BR) Português Brasileiro (Portuguese - Brazil), por @https://github.com/milliet&lt;/li>
+&lt;li>(pt-PT) Português (Portuguese - Portugal), por @horus68&lt;/li>
+&lt;li>(zh-CN) 中文 - 中國/国 (Chinese simp.), por @maitreya2019 and @cary-rowen&lt;/li>
+&lt;li>(zh-TW) 中文 - 台湾/灣 (Chinese trad.), por @ThanatosDi&lt;/li>
+&lt;li>(it) Italiano (Italian) by @jacoporinaldi and @gregoriopellegrino&lt;/li>
+&lt;li>(ru) Русский (Russian), por @Modeo147&lt;/li>
+&lt;li>(ko) 한국어 (Korean) by email contribution&lt;/li>
+&lt;li>(sv) Svenska (Swedish), por @martinpub and @jonaslil&lt;/li>
+&lt;li>(ca) Catalan, por Libranda&lt;/li>
+&lt;li>(gl) Galician, por Libranda&lt;/li>
+&lt;li>(eu) Euskadi (Basque), por Libranda and @sukiletxe&lt;/li>
+&lt;li>(el) ελληνικός (Greek), por @izorba&lt;/li>
+&lt;li>(bg) български (Bulgarian), por @openm1nd&lt;/li>
+&lt;li>(hr) Hrvatski (Croatian), por @Celeruk&lt;/li>
+&lt;li>(da) Dansk (Danish), por @ddfreiling and @MyGulstad&lt;/li>
+&lt;li>(sl) Slovenščina (Slovene), por @xFizox on behalf of Beletrina&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Financiación y patrocinio</title><link>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
 &lt;p>EDRLAB es una organización sin fines de lucro que trabaja en el desarrollo del software de código abierto, en particular en el proyecto Readium y en el lector Thorium.&lt;/p>
 &lt;p>Debido a que todo el software que creamos es gratuito y de código abierto, y debido a que desarrollar aplicaciones de lectura es realmente compleja, su patrocinio es necesario.&lt;/p>
 &lt;p>Las formas más fáciles de participar en la financiación y el patrocinio son:

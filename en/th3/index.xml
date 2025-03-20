@@ -527,13 +527,39 @@ Thorium actually does pick-up the mouse cursor click on a single text character,
 &lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Th3: Translating</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</guid><description>
 &lt;p>Thorium Reader user Interface localisation are provided and maintained thanks to volunteers and contributing organisations.&lt;/p>
-&lt;p>All locales are stored in the sources resources locales folder.&lt;/p>
-&lt;p>To add a translation, you can start from the English &amp;ldquo;en.json&amp;rdquo;, rename it as
-and change the values after the colon punctuation (:).&lt;/p>
-&lt;p>If you are comfortable with github you can open a pull request to submit the file.&lt;/p>
-&lt;p>Otherwise you can just send us the localised file by email and we&amp;rsquo;ll proceed to the addition. A list of contributors is maintained on the wiki page Localization (l10n) language translation.&lt;/p>
-&lt;p>Be aware that we are currently reworking the user interface, so important changes may happen by the first quarter of 2024. We usually alert localisation contributors before any release so they can update the translation file.
-Also, mentioning that the thorium documentation website can be localised thru similar contribution methodology. ](../900_about)&lt;/p></description></item><item><title>Th3: Funding &amp; Sponsorship</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
+&lt;p>Since february 2025 we use &lt;a href="https://hosted.weblate.org/projects/thorium-reader/">Weblate project Thorium&lt;/a> as the main tool for localisation. For help, you can refer to the &lt;a href="https://docs.weblate.org/en/latest/index.html">Weblate Documentation&lt;/a>.&lt;/p>
+&lt;p>Alternatively, translations can be done directly thru Github Pull request. This may be easier if you are familiar with local translation editors like &lt;a href="https://poedit.net/">poedit&lt;/a> that allows a less noisy translating environment and are documented to be used with screen readers.
+All locales are stored in the &lt;a href="https://github.com/edrlab/thorium-reader/tree/develop/src/resources/locales">sources resources locales folder&lt;/a>.&lt;/p>
+&lt;p>For issues related to localisation, flag @gautierchomel in the comments.&lt;/p>
+&lt;h2 id="contributors">Contributors:&lt;/h2>
+&lt;p>We maintain a list of contributors to properly credit theyre work, and also to help us who to mention in calls for translation. The list is non exhaustive, and we&amp;rsquo;ll delete mentions on requests.&lt;/p>
+&lt;ul>
+&lt;li>(en) English, by EDRLab&lt;/li>
+&lt;li>(fr) Français (French), by EDRLab&lt;/li>
+&lt;li>(fi) Suomi (Finish), by @terhol-celia, @MiiaKirsi, @KirsiYl&lt;/li>
+&lt;li>(de) Deutsch (German), by @tofi86&lt;/li>
+&lt;li>(es) Español (Spanish), by @nvdaes&lt;/li>
+&lt;li>(nl) Nederlands (Dutch), by @tedvandertog&lt;/li>
+&lt;li>(ja) 日本語 (Japanese), by @peaceroad, @t-kudou, @GMaruichi, @mayuhamada&lt;/li>
+&lt;li>(ka) ქართული (Georgian), @georgegach&lt;/li>
+&lt;li>(lt) Lietuvių (Lithuanian), by @naglis&lt;/li>
+&lt;li>(pt-BR) Português Brasileiro (Portuguese - Brazil), by @https://github.com/milliet&lt;/li>
+&lt;li>(pt-PT) Português (Portuguese - Portugal), by @horus68&lt;/li>
+&lt;li>(zh-CN) 中文 - 中國/国 (Chinese simp.), by @maitreya2019 and @cary-rowen&lt;/li>
+&lt;li>(zh-TW) 中文 - 台湾/灣 (Chinese trad.), by @ThanatosDi&lt;/li>
+&lt;li>(it) Italiano (Italian) by @jacoporinaldi and @gregoriopellegrino&lt;/li>
+&lt;li>(ru) Русский (Russian), by @Modeo147&lt;/li>
+&lt;li>(ko) 한국어 (Korean) by email contribution&lt;/li>
+&lt;li>(sv) Svenska (Swedish), by @martinpub and @jonaslil&lt;/li>
+&lt;li>(ca) Catalan, by Libranda&lt;/li>
+&lt;li>(gl) Galician, by Libranda&lt;/li>
+&lt;li>(eu) Euskadi (Basque), by Libranda and @sukiletxe&lt;/li>
+&lt;li>(el) ελληνικός (Greek), by @izorba&lt;/li>
+&lt;li>(bg) български (Bulgarian), by @openm1nd&lt;/li>
+&lt;li>(hr) Hrvatski (Croatian), by @Celeruk&lt;/li>
+&lt;li>(da) Dansk (Danish), by @ddfreiling and @MyGulstad&lt;/li>
+&lt;li>(sl) Slovenščina (Slovene), by @xFizox on behalf of Beletrina&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Funding &amp; Sponsorship</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
 &lt;p>EDRLab is a non-profit organization working on the development of open-source software, in particular on the Readium project and on Thorium Reader, a free and highly accessible reading application for desktop computers.&lt;/p>
 &lt;p>Because all software we create is free and open-source, and because developing reading apps is really complex, your sponsorship is needed.&lt;/p>
 &lt;p>Easiest ways to participate in funding and sponsorship are:&lt;/p>
