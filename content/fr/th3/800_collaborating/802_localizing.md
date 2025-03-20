@@ -35,7 +35,7 @@ Nous maintenons une liste de contributeurs pour créditer correctement leur trav
 * (ru) Русский (Russian), par @Modeo147
 * (ko) 한국어 (Korean) by email contribution
 * (sv) Svenska (Swedish), par @martinpub et @jonaslil
-* (ca) Catalan, par Libranda
+* (ca) Catalan, par Libranda et @Adecabo9
 * (gl) Galician, par Libranda
 * (eu) Euskadi (Basque), par Libranda et @sukiletxe
 * (el) ελληνικός (Greek), par @izorba

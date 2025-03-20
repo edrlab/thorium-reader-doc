@@ -35,7 +35,7 @@ Mantenemos una lista de colaboradores para acreditar adecuadamente su trabajo, y
 * (ru) Русский (Russian), por @Modeo147
 * (ko) 한국어 (Korean) by email contribution
 * (sv) Svenska (Swedish), por @martinpub y @jonaslil
-* (ca) Catalan, por Libranda
+* (ca) Catalan, por Libranda y @Adecabo9
 * (gl) Galician, por Libranda
 * (eu) Euskadi (Basque), por Libranda y @sukiletxe
 * (el) ελληνικός (Greek), por @izorba
