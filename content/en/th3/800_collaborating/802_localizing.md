@@ -34,7 +34,7 @@ We maintain a list of contributors to properly credit theyre work, and also to h
 * (ru) Русский (Russian), by @Modeo147
 * (ko) 한국어 (Korean) by email contribution
 * (sv) Svenska (Swedish), by @martinpub and @jonaslil
-* (ca) Catalan, by Libranda
+* (ca) Catalan, by Libranda and @Adecabo9
 * (gl) Galician, by Libranda
 * (eu) Euskadi (Basque), by Libranda and @sukiletxe
 * (el) ελληνικός (Greek), by @izorba
@@ -42,3 +42,5 @@ We maintain a list of contributors to properly credit theyre work, and also to h
 * (hr) Hrvatski (Croatian), by @Celeruk
 * (da) Dansk (Danish), by @ddfreiling and @MyGulstad
 * (sl) Slovenščina (Slovene), by @xFizox on behalf of Beletrina
+* (tr) Turkish (Türkçe), initiated by catdotjs, maintained by @oguzugur28
+* (ar) Arabic (عربي), by @salah1974

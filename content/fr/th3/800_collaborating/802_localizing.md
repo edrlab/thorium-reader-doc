@@ -29,17 +29,19 @@ Nous maintenons une liste de contributeurs pour créditer correctement leur trav
 * (lt) Lietuvių (Lithuanian), par @naglis
 * (pt-BR) Português Brasileiro (Portuguese - Brazil), par @https://github.com/milliet
 * (pt-PT) Português (Portuguese - Portugal), par @horus68
-* (zh-CN) 中文 - 中國/国 (Chinese simp.), par @maitreya2019 and @cary-rowen 
+* (zh-CN) 中文 - 中國/国 (Chinese simp.), par @maitreya2019 et @cary-rowen 
 * (zh-TW) 中文 - 台湾/灣 (Chinese trad.), par @ThanatosDi
-* (it) Italiano (Italian) by @jacoporinaldi and @gregoriopellegrino
+* (it) Italiano (Italian) by @jacoporinaldi et @gregoriopellegrino
 * (ru) Русский (Russian), par @Modeo147
 * (ko) 한국어 (Korean) by email contribution
-* (sv) Svenska (Swedish), par @martinpub and @jonaslil
-* (ca) Catalan, par Libranda
+* (sv) Svenska (Swedish), par @martinpub et @jonaslil
+* (ca) Catalan, par Libranda et @Adecabo9
 * (gl) Galician, par Libranda
-* (eu) Euskadi (Basque), par Libranda and @sukiletxe
+* (eu) Euskadi (Basque), par Libranda et @sukiletxe
 * (el) ελληνικός (Greek), par @izorba
 * (bg) български (Bulgarian), par @openm1nd
 * (hr) Hrvatski (Croatian), par @Celeruk
-* (da) Dansk (Danish), par @ddfreiling and @MyGulstad
-* (sl) Slovenščina (Slovene), par @xFizox on behalf of Beletrina
+* (da) Dansk (Danish), par @ddfreiling et @MyGulstad
+* (sl) Slovenščina (Slovene), par @xFizox au nom de Beletrina
+* (tr) Turkish (Türkçe), initié par catdotjs, maintenu par @oguzugur28
+* (ar) Arabic (عربي), par @salah1974
