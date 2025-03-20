@@ -29,17 +29,19 @@ Mantenemos una lista de colaboradores para acreditar adecuadamente su trabajo, y
 * (lt) Lietuvių (Lithuanian), por @naglis
 * (pt-BR) Português Brasileiro (Portuguese - Brazil), por @https://github.com/milliet
 * (pt-PT) Português (Portuguese - Portugal), por @horus68
-* (zh-CN) 中文 - 中國/国 (Chinese simp.), por @maitreya2019 and @cary-rowen 
+* (zh-CN) 中文 - 中國/国 (Chinese simp.), por @maitreya2019 y @cary-rowen 
 * (zh-TW) 中文 - 台湾/灣 (Chinese trad.), por @ThanatosDi
-* (it) Italiano (Italian) by @jacoporinaldi and @gregoriopellegrino
+* (it) Italiano (Italian) by @jacoporinaldi y @gregoriopellegrino
 * (ru) Русский (Russian), por @Modeo147
 * (ko) 한국어 (Korean) by email contribution
-* (sv) Svenska (Swedish), por @martinpub and @jonaslil
+* (sv) Svenska (Swedish), por @martinpub y @jonaslil
 * (ca) Catalan, por Libranda
 * (gl) Galician, por Libranda
-* (eu) Euskadi (Basque), por Libranda and @sukiletxe
+* (eu) Euskadi (Basque), por Libranda y @sukiletxe
 * (el) ελληνικός (Greek), por @izorba
 * (bg) български (Bulgarian), por @openm1nd
 * (hr) Hrvatski (Croatian), por @Celeruk
-* (da) Dansk (Danish), por @ddfreiling and @MyGulstad
+* (da) Dansk (Danish), por @ddfreiling y @MyGulstad
 * (sl) Slovenščina (Slovene), por @xFizox on behalf of Beletrina
+* (tr) Turkish (Türkçe), iniciado por catdotjs, mantenido por @oguzugur28
+* (ar) Arabic (عربي), por @salah1974

@@ -42,3 +42,5 @@ We maintain a list of contributors to properly credit theyre work, and also to h
 * (hr) Hrvatski (Croatian), by @Celeruk
 * (da) Dansk (Danish), by @ddfreiling and @MyGulstad
 * (sl) Slovenščina (Slovene), by @xFizox on behalf of Beletrina
+* (tr) Turkish (Türkçe), initiated by catdotjs, maintained by @oguzugur28
+* (ar) Arabic (عربي), by @salah1974
