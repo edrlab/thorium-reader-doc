@@ -8,12 +8,38 @@ toc: 'false'
 
 La localización de la interfaz de usuario de Thorium Reader se proporciona y mantiene gracias a voluntarios y organizaciones colaboradoras.
 
-Todas las configuraciones regionales se almacenan en la carpeta de recursos locales de fuentes.
+Desde febrero de 2025 utilizamos [Weblate project Thorium](https://hosted.weblate.org/projects/thorium-reader/) como herramienta principal para la localización. Para obtener ayuda, puede consultar la [Documentación de Weblate](https://docs.weblate.org/en/latest/index.html). 
 
-Para agregar una traducción, puede comenzar desde el inglés "en.json", cambiarle el nombre y cambiar los valores después de los dos puntos (:).
+Alternativamente, las traducciones se pueden hacer directamente a través de Github Pull request. Esto puede ser más fácil si está familiarizado con editores de traducción locales como [poedit](https://poedit.net/) que permiten un entorno de traducción menos ruidoso y están documentados para ser utilizados con lectores de pantalla.
+Todas las localizaciones se almacenan en la carpeta [sources resources locales](https://github.com/edrlab/thorium-reader/tree/develop/src/resources/locales). 
+    
+Para cuestiones relacionadas con la localización, marque @gautierchomel en los comentarios.
 
-Si se siente cómodo con Github, puede abrir una solicitud de extracción para enviar el archivo.
+## Colaboradores:
+Mantenemos una lista de colaboradores para acreditar adecuadamente su trabajo, y también para ayudarnos a saber a quién mencionar en las peticiones de traducción. La lista no es exhaustiva y eliminaremos las menciones a petición.
 
-De lo contrario, puede enviarnos el archivo localizado por correo electrónico y procederemos a agregarlo. Se mantiene una lista de colaboradores en la página wiki Traducción de idiomas de localización (l10n).
-
-Tenga en cuenta que actualmente estamos rediseñando la interfaz de usuario, por lo que es posible que se produzcan cambios importantes durante el primer trimestre de 2024. Por lo general, avisamos a los colaboradores de localización antes de cualquier lanzamiento para que puedan actualizar el archivo de traducción. Además, mencionamos que el sitio web de documentación de thorium se puede localizar mediante una metodología de contribución similar. ](../900_about)
+* (en) English - In house
+* (fr) Français (French) - In house
+* (fi) Suomi (Finish), por @terhol-celia, @MiiaKirsi, @KirsiYl
+* (de) Deutsch (German), por @tofi86
+* (es) Español (Spanish), por @nvdaes
+* (nl) Nederlands (Dutch), por @tedvandertog
+* (ja) 日本語 (Japanese), por @peaceroad, @t-kudou, @GMaruichi, @mayuhamada
+* (ka) ქართული (Georgian), @georgegach
+* (lt) Lietuvių (Lithuanian), por @naglis
+* (pt-BR) Português Brasileiro (Portuguese - Brazil), por @https://github.com/milliet
+* (pt-PT) Português (Portuguese - Portugal), por @horus68
+* (zh-CN) 中文 - 中國/国 (Chinese simp.), por @maitreya2019 and @cary-rowen 
+* (zh-TW) 中文 - 台湾/灣 (Chinese trad.), por @ThanatosDi
+* (it) Italiano (Italian) by @jacoporinaldi and @gregoriopellegrino
+* (ru) Русский (Russian), por @Modeo147
+* (ko) 한국어 (Korean) by email contribution
+* (sv) Svenska (Swedish), por @martinpub and @jonaslil
+* (ca) Catalan, por Libranda
+* (gl) Galician, por Libranda
+* (eu) Euskadi (Basque), por Libranda and @sukiletxe
+* (el) ελληνικός (Greek), por @izorba
+* (bg) български (Bulgarian), por @openm1nd
+* (hr) Hrvatski (Croatian), por @Celeruk
+* (da) Dansk (Danish), por @ddfreiling and @MyGulstad
+* (sl) Slovenščina (Slovene), por @xFizox on behalf of Beletrina
