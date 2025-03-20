@@ -551,7 +551,7 @@ All locales are stored in the &lt;a href="https://github.com/edrlab/thorium-read
 &lt;li>(ru) Русский (Russian), by @Modeo147&lt;/li>
 &lt;li>(ko) 한국어 (Korean) by email contribution&lt;/li>
 &lt;li>(sv) Svenska (Swedish), by @martinpub and @jonaslil&lt;/li>
-&lt;li>(ca) Catalan, by Libranda&lt;/li>
+&lt;li>(ca) Catalan, by Libranda and @Adecabo9&lt;/li>
 &lt;li>(gl) Galician, by Libranda&lt;/li>
 &lt;li>(eu) Euskadi (Basque), by Libranda and @sukiletxe&lt;/li>
 &lt;li>(el) ελληνικός (Greek), by @izorba&lt;/li>
@@ -559,6 +559,8 @@ All locales are stored in the &lt;a href="https://github.com/edrlab/thorium-read
 &lt;li>(hr) Hrvatski (Croatian), by @Celeruk&lt;/li>
 &lt;li>(da) Dansk (Danish), by @ddfreiling and @MyGulstad&lt;/li>
 &lt;li>(sl) Slovenščina (Slovene), by @xFizox on behalf of Beletrina&lt;/li>
+&lt;li>(tr) Turkish (Türkçe), initiated by catdotjs, maintained by @oguzugur28&lt;/li>
+&lt;li>(ar) Arabic (عربي), by @salah1974&lt;/li>
 &lt;/ul></description></item><item><title>Th3: Funding &amp; Sponsorship</title><link>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
 &lt;p>EDRLab is a non-profit organization working on the development of open-source software, in particular on the Readium project and on Thorium Reader, a free and highly accessible reading application for desktop computers.&lt;/p>
 &lt;p>Because all software we create is free and open-source, and because developing reading apps is really complex, your sponsorship is needed.&lt;/p>
