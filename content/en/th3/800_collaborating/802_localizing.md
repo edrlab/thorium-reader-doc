@@ -17,8 +17,8 @@ For issues related to localisation, flag @gautierchomel in the comments.
 ## Contributors:
 We maintain a list of contributors to properly credit theyre work, and also to help us who to mention in calls for translation. The list is non exhaustive, and we'll delete mentions on requests. 
 
-* (en) English - In house
-* (fr) Français (French) - In house
+* (en) English, by EDRLab
+* (fr) Français (French), by EDRLab
 * (fi) Suomi (Finish), by @terhol-celia, @MiiaKirsi, @KirsiYl
 * (de) Deutsch (German), by @tofi86
 * (es) Español (Spanish), by @nvdaes

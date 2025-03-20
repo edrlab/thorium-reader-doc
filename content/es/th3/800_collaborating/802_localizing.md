@@ -18,8 +18,8 @@ Para cuestiones relacionadas con la localización, marque @gautierchomel en los 
 ## Colaboradores:
 Mantenemos una lista de colaboradores para acreditar adecuadamente su trabajo, y también para ayudarnos a saber a quién mencionar en las peticiones de traducción. La lista no es exhaustiva y eliminaremos las menciones a petición.
 
-* (en) English - In house
-* (fr) Français (French) - In house
+* (en) English, por EDRLab
+* (fr) Français (French), por EDRLab
 * (fi) Suomi (Finish), por @terhol-celia, @MiiaKirsi, @KirsiYl
 * (de) Deutsch (German), por @tofi86
 * (es) Español (Spanish), por @nvdaes
