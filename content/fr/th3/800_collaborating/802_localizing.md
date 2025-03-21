@@ -45,3 +45,10 @@ Nous maintenons une liste de contributeurs pour créditer correctement leur trav
 * (sl) Slovenščina (Slovene), par @xFizox au nom de Beletrina
 * (tr) Turkish (Türkçe), initié par catdotjs, maintenu par @oguzugur28
 * (ar) Arabic (عربي), par @salah1974
+
+
+The following bar chart shows the translation status that is available from weblate. 
+
+<a href="https://hosted.weblate.org/engage/thorium-reader/">
+<img src="https://hosted.weblate.org/widget/thorium-reader/thorium-reader-translation/horizontal-auto.svg" alt="Translation status" />
+</a>
