@@ -395,7 +395,11 @@ Toutes les locales sont stockées dans le dossier &lt;a href="https://github.com
 &lt;li>(sl) Slovenščina (Slovene), par @xFizox au nom de Beletrina&lt;/li>
 &lt;li>(tr) Turkish (Türkçe), initié par catdotjs, maintenu par @oguzugur28&lt;/li>
 &lt;li>(ar) Arabic (عربي), par @salah1974&lt;/li>
-&lt;/ul></description></item><item><title>Th3: Financement et parrainage</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
+&lt;/ul>
+&lt;p>The following bar chart shows the translation status that is available from weblate.&lt;/p>
+&lt;a href="https://hosted.weblate.org/engage/thorium-reader/">
+&lt;img src="https://hosted.weblate.org/widget/thorium-reader/thorium-reader-translation/horizontal-auto.svg" alt="Translation status" />
+&lt;/a></description></item><item><title>Th3: Financement et parrainage</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-sponsorship/</guid><description>
 &lt;p>EDRLAB est une organisation à but non lucratif travaillant sur le développement de logiciels open-source, en particulier sur le projet Readium et sur Thorium Reader.&lt;/p>
 &lt;p>Parce que tous les logiciels que nous créons sont gratuits et open-source, et parce que le développement d&amp;rsquo;applications de lecture est vraiment complexe, votre parrainage est nécessaire.&lt;/p>
 &lt;p>Les moyens les plus simples de participer au financement et au parrainage sont:
