@@ -8,7 +8,7 @@ draft: false
 
 Ce guide de l'utilisateur se limite à fournir des détails sur les fonctionnalités et les actions. Par ailleurs, vous trouverez des ressources dédiées dans l'application elle-même ou sur la page web d'assistance. Cette section de ressources vous aide à trouver l'endroit qui répond aux besoins les plus courants et propose une liste de liens vers chaque page de support en ligne.
 
-## Keyboard functions {#keyboard}
+## Fonctions du clavier {#keyboard}
 
 Chaque combinaison de touches peut être modifiée dans le [Panneau de configuration](../102_windows_views_panels/index.xhtml#setting_view). Découvrez les trois points
 à côté du titre du panneau avec des actions supplémentaires (réinitialiser, éditer et charger).
@@ -19,7 +19,7 @@ l'imprimer pour le coller le long de votre écran ou le sauvegarder pour des uti
 
 La configuration par défaut est disponible en ligne sur la page de support <a href="https://thorium.edrlab.org/fr/th3/400_ressources/402_keyboard-shortcuts/"><span>Raccourcis clavier</span></a>
 
-## Tactile gestures {#tactile}
+## Gestes tactiles {#tactile}
 
 Le Thorium Reader dispose d'un contrôle gestuel tactile limité à l'écran. Ils sont
 principalement mis en œuvre pour le contrôle du zoom de l'image et pour tourner les pages. Certains gestes du système d'exploitation
@@ -37,7 +37,7 @@ Le tableau suivant répertorie les gestes connus qui fonctionnent à ce jour.
 | Appuyer et maintenir |Toutes les vues |Afficher plus de commandes (comme un clic droit)|
 
 
-## links to online support pages {#support}
+## Liens vers les pages d'assistance en ligne {#support}
 
 * <a href="https://thorium.edrlab.org/fr/th3/100_quickstart/"><span>Lire</span></a>
 * <a href="https://thorium.edrlab.org/fr/th3/get_ebooks/"><span>Où se procurer des livres électroniques ?</span></a>

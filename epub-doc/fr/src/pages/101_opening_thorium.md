@@ -4,7 +4,6 @@ role: ''
 draft: 'false'
 ---
 
-::: section
 
 # Ouverture du lecteur Thorium {#getabook}
 

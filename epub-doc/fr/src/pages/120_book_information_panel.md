@@ -6,7 +6,7 @@ draft: false
 
 # Panneau d'information sur le livre {#book_info_panel}
 
-Les informations sur les livres sont disponibles dans un panneau dédié accessible depuis le menu d'action des livres des étagères de la bibliothèque  <img src="../../resources/images/icons3/info-icon.svg)" class="icon"  alt=""role="presentation"/><span class="ui_button">À propos de la publication</span> ou depuis la fenêtre de lecture Icône d'informations <img src="../../resources/images/icons3/info-icon.svg" class="icon" alt="" role="presentation"/>.
+Les informations sur les livres sont disponibles dans un panneau dédié accessible depuis le menu d'action des livres des étagères de la bibliothèque  <img src="../../resources/images/icons3/info-icon.svg" class="icon" alt=""role="presentation"/><span class="ui_button">À propos de la publication</span> ou depuis la fenêtre de lecture Icône d'informations <img src="../../resources/images/icons3/info-icon.svg" class="icon" alt="" role="presentation"/>.
 
 Ce panneau affiche les informations du livre électronique telles qu'elles sont fournies par le fichier. La fiabilité de ces informations dépend du créateur du fichier, généralement l'éditeur. Les informations affichées sont les suivantes :
 

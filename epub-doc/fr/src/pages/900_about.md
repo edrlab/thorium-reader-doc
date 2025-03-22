@@ -16,7 +16,6 @@ Les principaux contributeurs de cette documentation sont :
 - Georges Kerscher
 - Noelia Ruiz Martínez
 - Prashant Verma
--
 
 ## Accessibilité
 

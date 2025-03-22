@@ -58,13 +58,11 @@ Les marges, l'espacement des mots, l'espacement des lettres, l'espacement des pa
 
 Fournit des options pour une `clean view` et épurée et la possibilité d'ignorer le contenu secondaire ( `skippability` ) qui peut inclure des notes de bas de page ou des barres latérales selon la sémantique indiquée lors de la production du livre numérique. `Split TTS` divisera le contenu par phrase pour une mise en évidence plus précise.
 
-<div class="info"> Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ associée \[Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)\]([../../400_ressources/430_faq.xhtml#TTSvoices](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/#TTSvoices)).</div>
-
 ## Synthèse vocale (TTS) {#read_text_TTS}
 
 La synthèse vocale est lancée à l'aide du bouton du haut-parleur au milieu de la barre d'outils, ou en utilisant le raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-- La lecture et la pause peuvent être contrôlées avec le raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd> .
+- La lecture et la pause peuvent être contrôlées avec le raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
 - La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour respectivement précédent et suivant.
 
@@ -74,4 +72,8 @@ La synthèse vocale est lancée à l'aide du bouton du haut-parleur au milieu de
 
 - Une vue alternative (simplifiée) de la publication est fournie via des options disponibles dans le menu `Settings / Readaloud`.
 
-<div class="info"> Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante \[Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)\](../../400_ressources/430_faq.xhtml#TTSvoices).</div>
+<div class="info"> 
+Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante 
+
+[Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](https://thorium.edrlab.org/fr/th3/400_ressources/430_faq/#TTSvoices).
+</div>

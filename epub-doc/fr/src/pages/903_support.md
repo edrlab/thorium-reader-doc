@@ -13,4 +13,4 @@ Thorium est construit par sa communauté. Si vous souhaitez participer, contacte
 Vous pouvez également :
 
 - Signalez une erreur ou suggérez une modification en ouvrant un problème dans notre [outil de suivi du support](https://github.com/edrlab../issues/new).
-- Participer à la traduction des ressources.
+- [Participer à la traduction des ressources](https://thorium.edrlab.org/fr/th3/800_collaborating/802_localizing/).
