@@ -1,5 +1,5 @@
 ---
-title: TraducThorium 
+title: Traducir Thorium 
 description: ''
 draft: 'false'
 weight: '802'
