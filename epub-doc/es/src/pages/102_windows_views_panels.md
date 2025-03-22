@@ -77,9 +77,7 @@ Hay dos protocolos de catálogos disponibles.
     pero no idéntico).
 
 Los detalles y la forma de configurar y utilizar los catálogos están disponibles en la
-sección [Acciones catálogos]().
-
-
+sección [Acciones catálogos](../111_catalogs_actions/index.xhtml).
 
 
 ### Panel de configuración de la aplicación {#setting_view}
@@ -88,16 +86,15 @@ La configuración de la aplicación está dividida en tres pestañas:
 
 1.  La pestaña General le permite:
     1. Seleccionar el idioma de la interfaz,
-    2. 3. Gestionar la autentificación almacenada de acceso a los catálogos. El botón <span class="ui_button">borrar datos de acceso</span> borrará cualquier autentificación de Catálogo previamente almacenada (útil si está leyendo en un ordenador público o compartido o si desea cambiar la cuenta con
+    2. Gestionar la autentificación almacenada de acceso a los catálogos. El botón <span class="ui_button">borrar datos de acceso</span> borrará cualquier autentificación de Catálogo previamente almacenada (útil si está leyendo en un ordenador público o compartido o si desea cambiar la cuenta con
     la que está conectado).
-    2. Guardar sesión (significa que la aplicación recordará las
+    3. Guardar sesión (significa que la aplicación recordará las
     ventanas abiertas al cerrar y las reabrirá al volver a lanzarla).
     4. Añadir una cuenta de biblioteca activando el acceso a la API PNB de Dilicom. Un desplegable Cómo funciona ofrece más detalles sobre esta funcionalidad utilizada para acceder a las bibliotecas públicas francesas.
-    5. 5. El creador permite establecer un nombre para añadirlo a las anotaciones. Este Nombre puede clasificarse como Organización o Persona. Se exportará con las anotaciones, por lo que los usuarios deben prestar atención a posibles problemas de privacidad. Si se deja este campo en blanco, las anotaciones se atribuirán a "Desconocido1".
-
+    5. El creador permite establecer un nombre para añadirlo a las anotaciones. Este Nombre puede clasificarse como Organización o Persona. Se exportará con las anotaciones, por lo que los usuarios deben prestar atención a posibles problemas de privacidad. Si se deja este campo en blanco, las anotaciones se atribuirán a "Desconocido1".
 2.  La pestaña Apariencia le permite elegir el Tema de la aplicación (oscuro, claro
     o automático para ajustarse a las preferencias del sistema).
-3.  3. La pestaña Atajos de teclado le ayuda a comprobar y manipular las acciones
+3.  La pestaña Atajos de teclado le ayuda a comprobar y manipular las acciones
     teclado dentro de la aplicación. Descubra los tres puntos
     a un lado del título del Panel con acciones adicionales (Restablecer, Editar y
     Cargar). La de Editar abre la aplicación de la carpeta del sistema a la
@@ -115,13 +112,13 @@ independiente que puedes organizar a tu antojo.
 
 ### Panel de navegación de lectura {#reading_nav_panel}
 
-Accesible desde la barra de herramientas superior de la ventana de lectura, ese panel contiene un menú desplegable para acceder a diferentes medios de navegación. La disponibilidad y el contenido de cada medio de navegación. Para epub, son:
+Accesible desde la barra de herramientas superior de la ventana de lectura, ese panel contiene un menú desplegable para acceder a diferentes medios de navegación. La disponibilidad y el contenido de cada medio de navegación. Para EPUB, son:
 * **Tabla de contenido** (TOC), un listado de autoría del contenido del ebook, normalmente similar a la estructura de encabezamiento del contenido pero no necesario. Un creador de contenidos puede decidir, por ejemplo, limitar la Tabla de Contenidos a una cierta profundidad.
 * **Landmarks**, una lista de autoría de los principales puntos de interés del ebook, normalmente Prólogos, Aviso de Copyright, Contenido principal y anexos.
-* Ir a la página**, una lista de saltos de página. La lista de páginas puede hacer referencia a una versión impresa y permitir utilizar el ebook en un entorno de lectura mixto, de modo que sea posible localizarlo o citarlo. En tal caso, Thorium Reader no ofrece ningún medio para identificar el libro impreso relacionado, sino que debe ser informado textual y explícitamente en el contenido por el creador del mismo.  
+* **Ir a la página**, una lista de saltos de página. La lista de páginas puede hacer referencia a una versión impresa y permitir utilizar el ebook en un entorno de lectura mixto, de modo que sea posible localizarlo o citarlo. En tal caso, Thorium Reader no ofrece ningún medio para identificar el libro impreso relacionado, sino que debe ser informado textual y explícitamente en el contenido por el creador del mismo.  
 * **Búsqueda**, una lista generada de coincidencias de búsqueda para ayudar al lector a navegar entre los resultados de búsqueda. Este panel sólo tiene contenido cuando la función de búsqueda está activada.
-* Marcadores**, una lista generada de marcadores del usuario. Este panel ofrece la posibilidad de borrar el marcador o editar su texto adjunto e informa en porcentajes de la progresión de lectura en la que se encuentra.
-**Anotaciones**, una lista generada de anotaciones del usuario.
+* **Marcadores**, una lista generada de marcadores del usuario. Este panel ofrece la posibilidad de borrar el marcador o editar su texto adjunto e informa en porcentajes de la progresión de lectura en la que se encuentra.
+* **Anotaciones**, una lista generada de anotaciones del usuario.
 
 ### Panel de ajustes de lectura {#reading_settings_panel}
 
@@ -132,44 +129,36 @@ Encontrará información detallada sobre los ajustes de lectura disponibles por 
 <ul>
    <li>
       <a href="../211_reading_textuals/index.xhtml">Lectura de contenidos textuales</a>
-    </li> <li>
+    </li> 
     <li>
       <a href="../212_reading_visuals/index.xhtml">Lectura de contenidos visuales</a>
-    </li> <li>
+    </li> 
     <li>
       <a href="../213_reading_auditory/index.xhtml">Lectura de contenidos de audio</a>
-    </li> <li>
+    </li>
     <li>
       <a href="../214_reading_pdfs/index.xhtml">Lectura de PDFs</a>
-    </li> <li>
+    </li> 
 </ul>
 
 ## Panel de información del libro {#book_info_panel}
 
 La información del libro está disponible en un panel dedicado al que se puede acceder
 desde el menú de acción de libros de las estanterías de la biblioteca
-<img src="../../resources/images/icons3/info-icon.svg){.icon
-role="presentación"} <span class="ui_button">Acerca de la publicación</span> o desde la Lectura
-Icono de información
-<img src="../../resources/images/icons3/info-icon.svg){.icon
-role="presentación"}.
+<img src="../../resources/images/icons3/info-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Acerca de la publicación</span> o desde la ventana de lectura, tras el Icono de información
+<img src="../../resources/images/icons3/info-icon.svg" class="icon" alt="" role="presentation"/>.
 
 Este Panel muestra la información del libro electrónico proporcionada por el archivo.
 la fiabilidad de esta información depende del creador del archivo, normalmente
 el editor. La información mostrada es:
 
-- Portada de la publicación con la alternativa textual adjunta si
-    presente
+- Portada de la publicación con la alternativa textual adjunta si presente
 - Título de la publicación
 - Autor de la publicación
 - Descripción o resumen
 - Datos de la publicación, incluido el idioma
-- Información de accesibilidad mostrada según las
-    (para más información, consulte [W3C Display Guide for
-    Accesibilidad
-    metadata](https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated)).
-- Etiquetas, incluida la posibilidad de
-    <img src="../../resources/images/icons3/tag-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Añadir</span> sus propias etiquetas.
+- Información de accesibilidad mostrada según las [W3C Display Guide for Accesibilidad metadata](https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated).
+- Etiquetas, incluida la posibilidad de <img src="../../resources/images/icons3/tag-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Añadir</span> sus propias etiquetas.
 - Progresión
 
 Este panel tiene la particularidad de no ser acoplable ya que no

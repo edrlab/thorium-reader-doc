@@ -826,35 +826,35 @@
     />
     <item id="cover" href="cover/index.xhtml" media-type="application/xhtml+xml"/>
     <item id="toc" properties="nav" href="toc/index.xhtml" media-type="application/xhtml+xml"/>
-    <item id="page1" href="./pages/400_ressources/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page1" href="./pages/000_title/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page2" href="./pages/000_title/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page2" href="./pages/100_forewords/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page3" href="./pages/100_forewords/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page3" href="./pages/101_opening_thorium/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page4" href="./pages/101_opening_thorium/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page4" href="./pages/102_windows_views_panels/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page5" href="./pages/102_windows_views_panels/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page5" href="./pages/110_libraries_actions/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page6" href="./pages/110_libraries_actions/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page6" href="./pages/111_catalogs_actions/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page7" href="./pages/111_catalogs_actions/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page7" href="./pages/210_reading/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page8" href="./pages/210_reading/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page8" href="./pages/211_reading_textuals/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page9" href="./pages/211_reading_textuals/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page9" href="./pages/212_reading_visuals/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page10" href="./pages/212_reading_visuals/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page10" href="./pages/213_reading_auditory/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page11" href="./pages/213_reading_auditory/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page11" href="./pages/214_reading_pdfs/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page12" href="./pages/214_reading_pdfs/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page12" href="./pages/220_reading_actions/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page13" href="./pages/220_reading_actions/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page13" href="./pages/240_annotations/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page14" href="./pages/240_annotations/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page14" href="./pages/300_accessibility/index.xhtml" media-type="application/xhtml+xml"
     />
-    <item id="page15" href="./pages/300_accessibility/index.xhtml" media-type="application/xhtml+xml"
+    <item id="page15" href="./pages/400_ressources/index.xhtml" media-type="application/xhtml+xml"
     />
     <item id="page16" href="./pages/406_formats/index.xhtml" media-type="application/xhtml+xml"
     />
@@ -869,6 +869,7 @@
   </manifest>
   <spine>
     <itemref idref="cover"/>
+    <itemref idref="page2"/>
     <itemref idref="page3"/>
     <itemref idref="page4"/>
     <itemref idref="page5"/>
@@ -882,7 +883,6 @@
     <itemref idref="page13"/>
     <itemref idref="page14"/>
     <itemref idref="page15"/>
-    <itemref idref="page1"/>
     <itemref idref="page16"/>
     <itemref idref="page17"/>
     <itemref idref="page18"/>
