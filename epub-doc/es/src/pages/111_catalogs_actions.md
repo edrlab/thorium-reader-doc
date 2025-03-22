@@ -7,7 +7,7 @@ draft: false
 
 
 
-# ACCiones de Catálogos {#Catalogs_Actions}
+# Acciones de Catálogos {#Catalogs_Actions}
 
 ## Configuración de un catálogo OPDS
 

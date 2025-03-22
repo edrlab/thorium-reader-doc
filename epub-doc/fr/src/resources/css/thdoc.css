@@ -9,7 +9,7 @@ h1 {
 
 .icons {
   width: 1em;
-  vertical-align: middle;
+  vertical-align: baseline;
   border-style: none;
   margin-right: 0.2em;
 }

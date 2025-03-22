@@ -4,7 +4,6 @@ role: ''
 draft: 'false'
 ---
 
-::: section
 
 # Actions sur les catalogues {#Catalogs_actions}
 
