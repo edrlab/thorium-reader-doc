@@ -6,20 +6,15 @@ draft: false
 ---
 
 
-## Your help is precious
+## Tu ayuda es preciosa
 
-You too can help Thorium Reader become the best reading application
-reading application by [becoming a member of
-EDRLab](https://www.edrlab.org/become-a-member/). Or by making a
-donation to the EDRLab via the [Github
-sponsorship](https://github.com/sponsors/edrlab) \"piggy-bank\", which
-accepts small monthly donations.
+Tú también puedes ayudar a Thorium Reader a convertirse en la mejor aplicación de lectura
+aplicación de lectura [haciéndote miembro de EDRLab](https://www.edrlab.org/become-a-member/) o haciendo una
+donación al EDRLab a través del [Github patrocinio](https://github.com/sponsors/edrlab)  que acepta pequeñas donaciones mensuales.
 
-Thorium is built by its community. If you want to participate, please
-contact us !
+Thorium está construido por su comunidad. Si quieres participar, por favor póngase en contacto con nosotros.
 
-You can also:
+También puedes:
 
--   Report an error or suggest a change by opening an Issue in our
-    \[support tracking tool\](https://github.com/edrlab../issues/new).
--   Participate in the translation of resources.
+- Informar de un error o sugerir un cambio abriendo una incidencia en nuestra [herramienta de seguimiento de incidencias](https://github.com/edrlab../issues/new).
+- Participar en la [traducción de recursos](https://thorium.edrlab.org/es/th3/800_collaborating/802_localizing/).

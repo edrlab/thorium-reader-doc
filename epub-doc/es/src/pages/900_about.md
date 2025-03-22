@@ -13,11 +13,11 @@ el desarrollo de la aplicación Thorium-Reader.
 
 Los principales contribuyentes de esta documentación son:
 
--Gautier Chomel
--Georges Kerscher
--Noelia Ruiz Martínez
--Prashant Verma
--  
+- Gautier Chomel
+- Georges Kerscher
+- Noelia Ruiz Martínez
+- Prashant Verma
+ 
 ## Accesibilidad
 
 Este libro electrónico fue probado con NVDA en Firefox en Windows 10. No

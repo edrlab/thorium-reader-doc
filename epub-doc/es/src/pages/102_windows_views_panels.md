@@ -60,123 +60,121 @@ detalles.
 
 
 
-### Catalogs View {#catalog_view}
+### Vista Catálogos {#catalog_view}
 
-This is the place where you can store, access, browse online catalogs
-and acquire or borrow ebooks from them. At first this place will sound
-empty because we do not preload any catalog. The *online additional
-support [Where to get
-ebooks?](https://thorium.edrlab.org/th3/get_ebooks/)* section can help
-you identify available catalogs if you do not already have one in mind.
+Este es el lugar donde puede almacenar, acceder y navegar por los catálogos en línea
+y adquirir o tomar prestados libros electrónicos de ellos. Al principio este lugar parecerá
+vacío porque no precargamos ningún catálogo. El *soporte adicional en línea
+en línea [¿Dónde conseguir
+ebooks?](https://thorium.edrlab.org/th3/get_ebooks/)* puede ayudarle a
+a identificar los catálogos disponibles si aún no tiene ninguno en mente.
 
-Two catalogs protocoles are available.
+Hay dos protocolos de catálogos disponibles.
 
-1.  [OPDS](https://opds.io/), a standard format to display catalog on
-    the Web. Thorium can provide access to OPDS 1 and 2 catalogs.
-2.  French public libraries machine-readable catalog (similar to OPDS
-    but not identical).
+1.  [OPDS](https://opds.io/), un formato estándar para mostrar catálogos en
+    la Web. Thorium puede proporcionar acceso a los catálogos OPDS 1 y 2.
+2.  Catálogo legible por máquina de las bibliotecas públicas francesas (similar a OPDS
+    pero no idéntico).
 
-Details and how to set up and use catalogs are available from the
-[Catalogs actions section]().
-
-
+Los detalles y la forma de configurar y utilizar los catálogos están disponibles en la
+sección [Acciones catálogos]().
 
 
-### Application Settings Panel {#setting_view}
 
-Application settings is divided in three tabs:
 
-1.  The General Tab allow you to:
-    1. select the language of the interface, 
-    2. Manage stored authentification access to catalogues. The <span class="ui_button">clear login data</span> button will delete any Catalog authentification previously stored (useful if you are reading on a public or shared computer or if you want to change the account with
-    wich you are connected).
-    2. Save session (meaning that the application will remember the
-    windows opened at closing and reopen them when launched again).
-    4. Add a library account by activating access to Dilicom PNB API. A How does it works foldable gives more details about this functionality used to access French public libraries.
-    5. Creator allows to set up a Name to be added to annotations. This Name can be categorised as Organization or Person. It will be exported with Annotations, so users must pay attention to potential privacy issues. Leaving this field blank will cause the annotations to be attributed to "Unknown1".
+### Panel de configuración de la aplicación {#setting_view}
 
-2.  The Appearance Tab let you choose the application Theme (dark, light
-    or automatic to fit the system preference).
-3.  The Keyboard shortcuts Tab help you check and manipulate keyboard
-    driven actions within the application. Figure out the three dots
-    menu aside of the Panel title with extra actions (Reset, Edit and
-    Load). The Edit one opens system folder application to the
-    localisation of the stored user setting .json file, allowing you to
-    edit it outside of the application (at your own risks), save it for
-    future uses or share it within your devices or with who you want.
+La configuración de la aplicación está dividida en tres pestañas:
+
+1.  La pestaña General le permite:
+    1. Seleccionar el idioma de la interfaz,
+    2. 3. Gestionar la autentificación almacenada de acceso a los catálogos. El botón <span class="ui_button">borrar datos de acceso</span> borrará cualquier autentificación de Catálogo previamente almacenada (útil si está leyendo en un ordenador público o compartido o si desea cambiar la cuenta con
+    la que está conectado).
+    2. Guardar sesión (significa que la aplicación recordará las
+    ventanas abiertas al cerrar y las reabrirá al volver a lanzarla).
+    4. Añadir una cuenta de biblioteca activando el acceso a la API PNB de Dilicom. Un desplegable Cómo funciona ofrece más detalles sobre esta funcionalidad utilizada para acceder a las bibliotecas públicas francesas.
+    5. 5. El creador permite establecer un nombre para añadirlo a las anotaciones. Este Nombre puede clasificarse como Organización o Persona. Se exportará con las anotaciones, por lo que los usuarios deben prestar atención a posibles problemas de privacidad. Si se deja este campo en blanco, las anotaciones se atribuirán a "Desconocido1".
+
+2.  La pestaña Apariencia le permite elegir el Tema de la aplicación (oscuro, claro
+    o automático para ajustarse a las preferencias del sistema).
+3.  3. La pestaña Atajos de teclado le ayuda a comprobar y manipular las acciones
+    teclado dentro de la aplicación. Descubra los tres puntos
+    a un lado del título del Panel con acciones adicionales (Restablecer, Editar y
+    Cargar). La de Editar abre la aplicación de la carpeta del sistema a la
+    localización del archivo .json de configuración de usuario almacenado, permitiéndole
+    de usuario .json almacenado, lo que le permite editarlo fuera de la
+    usos futuros o compartirlo dentro de tus dispositivos o con quien quieras.
    <img src="../../resources/images/local-es/th3_main_settings_keys_context.png" class="icon" alt="" role="presentation"/>
 
 
+## Ventana de lectura {#reading_window}
 
+Cuando se abre un libro, se muestra en una nueva ventana, lo que significa que usted
+puede tener varios libros abiertos al mismo tiempo, cada uno en una ventana
+independiente que puedes organizar a tu antojo.
 
-## Reading window {#reading_window}
+### Panel de navegación de lectura {#reading_nav_panel}
 
-When a book is opened, it is displayed in a new window, meaning that you
-can have multiple books opened at the same time, each in an independent
-window that you can arrange at your will.
+Accesible desde la barra de herramientas superior de la ventana de lectura, ese panel contiene un menú desplegable para acceder a diferentes medios de navegación. La disponibilidad y el contenido de cada medio de navegación. Para epub, son:
+* **Tabla de contenido** (TOC), un listado de autoría del contenido del ebook, normalmente similar a la estructura de encabezamiento del contenido pero no necesario. Un creador de contenidos puede decidir, por ejemplo, limitar la Tabla de Contenidos a una cierta profundidad.
+* **Landmarks**, una lista de autoría de los principales puntos de interés del ebook, normalmente Prólogos, Aviso de Copyright, Contenido principal y anexos.
+* Ir a la página**, una lista de saltos de página. La lista de páginas puede hacer referencia a una versión impresa y permitir utilizar el ebook en un entorno de lectura mixto, de modo que sea posible localizarlo o citarlo. En tal caso, Thorium Reader no ofrece ningún medio para identificar el libro impreso relacionado, sino que debe ser informado textual y explícitamente en el contenido por el creador del mismo.  
+* **Búsqueda**, una lista generada de coincidencias de búsqueda para ayudar al lector a navegar entre los resultados de búsqueda. Este panel sólo tiene contenido cuando la función de búsqueda está activada.
+* Marcadores**, una lista generada de marcadores del usuario. Este panel ofrece la posibilidad de borrar el marcador o editar su texto adjunto e informa en porcentajes de la progresión de lectura en la que se encuentra.
+**Anotaciones**, una lista generada de anotaciones del usuario.
 
-### Reading navigation panel {#reading_nav_panel}
+### Panel de ajustes de lectura {#reading_settings_panel}
 
-Reachable from the reading window top toolbar, that panel contains a dropdown menu to access different navigation means. The availability and content of each navigation mean. For epub, those are:
-* **Table of Content** (TOC), an authored listing of ebook content, usually similar to the content heading structure but not necessary. A content creator can decide per example to limit the Table of Content to a certain depth.
-* **Landmarks**, an authored list of major interest points of the ebook, usually Forewords, Copyright notice, Main content and annexes. 
-* **Go to page**, an authored list of page breaks. The page list may refers to a print version and allow to use the ebook in a mixed reading environment, so it becomes possible to locate or make a citation. In such case, Thorium Reader actually offers no mean to identify the related print book, it has to be textually and explicitly informed in the content by the content creator.  
-* **Search**, a generated list of search match(es) to help reader navigate between search results. This panel has content only when the search function is activated. 
-* **Bookmarks**, a generated list of user bookmarks. This panel  offer the possibility to delete the bookmark or edit it's attached text and informs in percents the reading progression where it stands.
-* **Annotations**, a generated list of user annotations
+Accesible desde la barra de herramientas superior de la ventana de lectura, este panel contiene todas las configuraciones posibles del usuario para ajustar la visualización de los contenidos textuales. Es importante recordar que estas posibilidades pueden estar restringidas por la forma en que se creó el contenido.
 
-### Reading settings panel {#reading_settings_panel}
-
-Reachable from the reading window top toolbar, that panel contains all possible user settings to adjust the display of the textual contents. It is important to remember that such possibilities may be restricted by how the content was created. 
-
-Detailed information about available reading settings per formats are available from the 
-<a href="../210_reading/index.xhtml">Reading sub sections</a>:
+Encontrará información detallada sobre los ajustes de lectura disponibles por formatos en la página
+<a href="../210_reading/index.xhtml">Subsecciones de lectura</a>:
 <ul>
    <li>
-      <a href="../211_reading_textuals/index.xhtml">Reading textual contents</a>
-    </li>
+      <a href="../211_reading_textuals/index.xhtml">Lectura de contenidos textuales</a>
+    </li> <li>
     <li>
-      <a href="../212_reading_visuals/index.xhtml">Reading visual contents</a>
-    </li>
+      <a href="../212_reading_visuals/index.xhtml">Lectura de contenidos visuales</a>
+    </li> <li>
     <li>
-      <a href="../213_reading_auditory/index.xhtml">Reading audio contents</a>
-    </li>
+      <a href="../213_reading_auditory/index.xhtml">Lectura de contenidos de audio</a>
+    </li> <li>
     <li>
-      <a href="../214_reading_pdfs/index.xhtml">Reading PDFs</a>
-    </li>
+      <a href="../214_reading_pdfs/index.xhtml">Lectura de PDFs</a>
+    </li> <li>
 </ul>
 
-## Book Information panel {#book_info_panel}
+## Panel de información del libro {#book_info_panel}
 
-Book Information is available in a dedicated panel that can be reached
-from the library shelves book action menu
+La información del libro está disponible en un panel dedicado al que se puede acceder
+desde el menú de acción de libros de las estanterías de la biblioteca
 <img src="../../resources/images/icons3/info-icon.svg){.icon
-role="presentation"} <span class="ui_button">About publication</span> or from the Reading
-window Information Icon
+role="presentación"} <span class="ui_button">Acerca de la publicación</span> o desde la Lectura
+Icono de información
 <img src="../../resources/images/icons3/info-icon.svg){.icon
-role="presentation"}.
+role="presentación"}.
 
-This Panel displays ebook information as provided by the file, the
-trustness of this information relies on the creator of the file, usually
-the publisher. The information displayed is:
+Este Panel muestra la información del libro electrónico proporcionada por el archivo.
+la fiabilidad de esta información depende del creador del archivo, normalmente
+el editor. La información mostrada es:
 
--   Cover of the publication with it\'s attached textual alternative if
-    present
--   Title of the publication
--   Author of the publication
--   Description or resume
--   Publication details including publication language
--   Accessibility information displayed following the international
-    guidelines (for more information, see [W3C Display Guide for
-    Accessibility
+- Portada de la publicación con la alternativa textual adjunta si
+    presente
+- Título de la publicación
+- Autor de la publicación
+- Descripción o resumen
+- Datos de la publicación, incluido el idioma
+- Información de accesibilidad mostrada según las
+    (para más información, consulte [W3C Display Guide for
+    Accesibilidad
     metadata](https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated)).
--   Tags, including the possibility to
-    <img src="../../resources/images/icons3/tag-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Add</span> your own tags.
--   Progression
+- Etiquetas, incluida la posibilidad de
+    <img src="../../resources/images/icons3/tag-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Añadir</span> sus propias etiquetas.
+- Progresión
 
-This panel has the particularity of not being dockable as it does not
-provides action that needs to have access to the main content of the
-book.
+Este panel tiene la particularidad de no ser acoplable ya que no
+proporciona acciones que necesiten tener acceso al contenido principal del
+libro.
 
 
 
