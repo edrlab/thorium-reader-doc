@@ -1107,7 +1107,8 @@ footer.bg-dark {
     }
 
     .thorium-support .flex-xl-nowrap {
-        display: block;
+        display: flex;
+        flex-wrap: nowrap;
 
         aside {
             float: left;
@@ -1172,6 +1173,10 @@ footer.bg-dark {
 }
 
 @media (max-width: 768px) {
+
+    .thorium-support .flex-xl-nowrap {
+        display: block;
+    }
 
     .td-navbar-cover {
         background: $color-grey !important;
