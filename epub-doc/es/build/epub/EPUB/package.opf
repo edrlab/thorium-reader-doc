@@ -866,6 +866,8 @@
     />
     <item id="page20" href="./pages/905_contribute/index.xhtml" media-type="application/xhtml+xml"
     />
+    <item id="page21" href="./pages/230_bookmarks/index.xhtml" media-type="application/xhtml+xml"
+    />
   </manifest>
   <spine>
     <itemref idref="cover"/>
@@ -880,6 +882,7 @@
     <itemref idref="page10"/>
     <itemref idref="page11"/>
     <itemref idref="page12"/>
+    <itemref idref="page21"/>
     <itemref idref="page13"/>
     <itemref idref="page14"/>
     <itemref idref="page15"/>
