@@ -79,12 +79,12 @@ Agradecemos cualquier comentario o sugerencia a través de nuestro foro de debat
 
 Los lectores de pantalla de Windows utilizan un búfer virtual
 para la lectura. Para colocar un marcador en el lugar donde está leyendo en ese momento
-pulse la combinación de teclas <kbd>NVDA + Intro</kbd>,
+pulse la combinación de teclas <kbd>NVDA</kbd> + <kbd>Intro</kbd>,
 y NVDA dirá *"activar "*. Este
 sincroniza el búfer virtual con la ubicación real actual para que Thorium
 puede deducir el objeto
 en el que se encuentra el cursor. Entonces usa
-<kbd>Ctrl + B</kbd> para colocar un marcador.
+<kbd>Ctrl</kbd> + <kbd>B</kbd> para colocar un marcador.
 Una notificación sonora le informará del número de marcadores
 en la publicación actual.
 

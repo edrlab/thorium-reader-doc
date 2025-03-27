@@ -87,12 +87,12 @@ D'autres commentaires sont les bienvenus via notre forum de discussion : [Messag
 
 Les lecteurs d'écran Windows utilisent un tampon virtuel
 pour la lecture. Pour placer un signet à l'endroit où vous êtes en train de lire
-appuyez sur la combinaison de touches <kbd>NVDA + Enter</kbd>,
+appuyez sur la combinaison de touches <kbd>NVDA</kbd> + <kbd>Enter</kbd>,
 et NVDA dira *"activer "*. Ceci
 synchronise la mémoire tampon virtuelle avec l'emplacement réel actuel, de sorte que Thorium
 puisse déduire l'objet
 sur lequel se trouve le curseur. Utilisez ensuite
-<kbd>Ctrl + B</kbd> pour placer un signet.
+<kbd>Ctrl</kbd> + <kbd>B</kbd> pour placer un signet.
 Une notification sonore vous informera du nombre de signets
 dans la publication en cours.
 

@@ -84,12 +84,12 @@ More feedback is welcome thru our discussion tracker there:[Message to Thorium s
 
 Windows screen readers use a virtual buffer
 for reading. To place a bookmark where you are currently reading
-press the key combination <kbd>NVDA + Enter</kbd>, 
+press the key combination <kbd>NVDA</kbd> + <kbd>Enter</kbd>, 
 and NVDA will say *"activate "*. This
 synchronizes the virtual buffer with the current real location so Thorium 
 can deduce the object
 on which the cursor is located. Then use
-<kbd>Ctrl + B</kbd> to place a bookmark.
+<kbd>Ctrl</kbd> + <kbd>B</kbd> to place a bookmark.
 A sound notification will inform you of the number of bookmarks 
 in the current publication.
 
