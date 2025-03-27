@@ -15,9 +15,9 @@ La prise en charge des PDF comprend 8 niveaux de zoom et la capacité d'afficher
 
 ## Fonctions de navigation pour les PDF
 
-Le format PDF offre moins d'options de navigation car il n'existe pas de table des matières ou de points de repère. Par conséquent, la seule possibilité de navigation est d'aller à la page.
+La navigation dans les PDF peut toujours se faire à l'aide du panneau "Aller à la page". En outre, lorsque les créateurs de PDF ont inclus des aperçus de documents, ceux-ci sont disponibles via le panneau de navigation de la table des matières. Ce comportement est différent de celui d'Acrobat Reader, qui affiche les plans de documents sous forme de signets et permet aux utilisateurs de les manipuler en changeant leur ordre, en les renommant, en les ajoutant et en les supprimant.
 
-De nombreux auteurs de PDF utilisent des signets pour proposer une navigation dans la table des matières, mais ceux-ci ne sont pas disponibles dans le lecteur Thorium pour le moment.
+Avec Thorium Reader, vous pouvez ajouter vos propres signets en toute sécurité et vous les trouverez dans le panneau de navigation des signets.
 
 ## Signets et annotations pour les PDF
 
