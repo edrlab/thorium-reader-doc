@@ -5,6 +5,8 @@ draft: 'false'
 weight: '301'
 ---
 
+En complemento de esta documentación, recomandamos consultar la pagina web dedicada por de la Comunidad hispanohablante de NVDAe [PUB y NVDA (7). Thorium Reader](https://nvdaes.github.io/epub7).
+
 ## Leer con un lector de pantalla
 
 Al iniciar Thorium, si se detecta un lector de pantalla, el relativo las funciones están activadas.
