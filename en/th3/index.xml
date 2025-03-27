@@ -527,6 +527,17 @@ item.&lt;/em>&lt;/p>
 Thorium actually does pick-up the mouse cursor click on a single text character, as this helps focus a bookmark on a more precise HTML location.&lt;/p>
 &lt;p>In Thorium, currently the bookmark label editor supports multiple lines of text input, which makes it possible to annotate coarse document locations. This can therefore be perceived as a replacement for the actual annotator, but there is no import/export of bookmarks data.&lt;/p>
 &lt;p>More feedback is welcome thru our discussion tracker there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
+&lt;h3 id="using-bookmarks-with-nvda">Using bookmarks with NVDA&lt;/h3>
+&lt;p>Windows screen readers use a virtual buffer
+for reading. To place a bookmark where you are currently reading
+press the key combination &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>Enter&lt;/kbd>,
+and NVDA will say &lt;em>&amp;ldquo;activate &amp;ldquo;&lt;/em>. This
+synchronizes the virtual buffer with the current real location so Thorium
+can deduce the object
+on which the cursor is located. Then use
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> to place a bookmark.
+A sound notification will inform you of the number of bookmarks
+in the current publication.&lt;/p>
 &lt;h2 id="external-ressources-for-screen-reader-use-in-thorium">External ressources for screen reader use in Thorium&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>

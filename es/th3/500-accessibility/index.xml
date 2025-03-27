@@ -1,4 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibility</title><link>https://thorium.edrlab.org/es/th3/500-accessibility/</link><description>Recent content in Accessibility on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/th3/500-accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Leer con un lector de pantalla</title><link>https://thorium.edrlab.org/es/th3/500-accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/500-accessibility/311_screenreaders/</guid><description>
+&lt;p>En complemento de esta documentación, recomandamos consultar la pagina web dedicada por de la Comunidad hispanohablante de NVDAe &lt;a href="https://nvdaes.github.io/epub7">PUB y NVDA (7). Thorium Reader&lt;/a>.&lt;/p>
 &lt;h2 id="leer-con-un-lector-de-pantalla">Leer con un lector de pantalla&lt;/h2>
 &lt;p>Al iniciar Thorium, si se detecta un lector de pantalla, el relativo las funciones están activadas.&lt;/p>
 &lt;p>Tenga en cuenta que los lectores de pantalla utilizan un búfer independiente para acceder al contenido HTML, lo que hace que el desplazamiento visual o el desplazamiento de la página no estén sincronizados. En otras palabras, Thorium generalmente no conoce la ubicación de lectura actual del usuario dentro del búfer del lector de pantalla, a menos que el usuario del lector de pantalla active eventos estándar de la API web (como hacer clic con el mouse en cualquier parte del texto o presionar la tecla Tab en elementos HTML enfocables).&lt;/p>
@@ -121,7 +122,31 @@
 &lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd> ↑&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Th3: Información sobre accesibilidad de los libros</title><link>https://thorium.edrlab.org/es/th3/500-accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/500-accessibility/300_accessibility/</guid><description>
+&lt;/table>
+&lt;h2 id="anotar-y-marcar">Anotar y marcar&lt;/h2>
+&lt;p>Según los comentarios que hemos recibido hasta ahora, parece que a los usuarios de lectores de pantalla les resulta muy difícil seleccionar una gama real de caracteres. Este tipo de tecnología de asistencia permite a los usuarios seleccionar texto dentro del búfer virtual del lector de pantalla, de modo que la aplicación no es consciente de que el usuario está leyendo en un lugar concreto y está seleccionando texto allí.&lt;/p>
+&lt;p>En consecuencia, los usuarios de lectores de pantalla prefieren utilizar la función de marcadores, que fija un marcador sencillo, opcionalmente etiquetado, a una ubicación de lectura habitual (hay un botón de icono en la barra de herramientas superior, pero también se puede utilizar el atajo de teclado &lt;tecla>CTRL&lt;/tecla> + &lt;tecla>B&lt;/tecla>).
+Thorium realmente recoge el clic del cursor del ratón sobre un único carácter de texto, ya que esto ayuda a centrar un marcador en una ubicación HTML más precisa.&lt;/p>
+&lt;p>En Thorium, actualmente el editor de etiquetas de marcadores soporta múltiples líneas de entrada de texto, lo que hace posible anotar ubicaciones de documentos gruesos. Por tanto, puede considerarse un sustituto del actual anotador, pero no hay importación/exportación de datos de marcadores.&lt;/p>
+&lt;p>Agradecemos cualquier comentario o sugerencia a través de nuestro foro de debate.:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
+&lt;h3 id="utilizar-marcadores-con-nvda">Utilizar marcadores con NVDA&lt;/h3>
+&lt;p>Los lectores de pantalla de Windows utilizan un búfer virtual
+para la lectura. Para colocar un marcador en el lugar donde está leyendo en ese momento
+pulse la combinación de teclas &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>Intro&lt;/kbd>,
+y NVDA dirá &lt;em>&amp;ldquo;activar &amp;ldquo;&lt;/em>. Este
+sincroniza el búfer virtual con la ubicación real actual para que Thorium
+puede deducir el objeto
+en el que se encuentra el cursor. Entonces usa
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> para colocar un marcador.
+Una notificación sonora le informará del número de marcadores
+en la publicación actual.&lt;/p>
+&lt;h2 id="recursos-externos-para-el-uso-de-lectores-de-pantalla-en-thorium-in-english">Recursos externos para el uso de lectores de pantalla en Thorium (in English)&lt;/h2>
+&lt;div lang="en">
+&lt;ul>
+&lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div></description></item><item><title>Th3: Información sobre accesibilidad de los libros</title><link>https://thorium.edrlab.org/es/th3/500-accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/500-accessibility/300_accessibility/</guid><description>
 &lt;h2 id="a11y_info">Información de accesibilidad&lt;/h2>
 &lt;p>Actualmente se muestra torio en el panel de información del libro, la información de accesibilidad proporcionada por el editor. El torio muestra esta información tal como se definió. En caso de duda o
 Queja, comuníquese con el distribuidor o al editor del archivo.&lt;/p></description></item><item><title>Th3: Política de accesibilidad</title><link>https://thorium.edrlab.org/es/th3/500-accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/500-accessibility/903_thorium-accessibility-policy/</guid><description>

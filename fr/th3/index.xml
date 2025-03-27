@@ -170,7 +170,31 @@ article.&lt;/em>&lt;/p>
 &lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Th3: Configuration minimale requise</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/390_requirements/</guid><description>
+&lt;/table>
+&lt;h2 id="annotation-et-mise-en-signet">Annotation et mise en signet&lt;/h2>
+&lt;p>D&amp;rsquo;après les commentaires que nous avons reçus jusqu&amp;rsquo;à présent, il semble qu&amp;rsquo;il soit très difficile pour les utilisateurs de lecteurs d&amp;rsquo;écran de sélectionner une gamme réelle de caractères. Cette technologie d&amp;rsquo;assistance permet aux utilisateurs de sélectionner du texte à l&amp;rsquo;intérieur de la mémoire tampon virtuelle du lecteur d&amp;rsquo;écran, de sorte que l&amp;rsquo;application ne sait pas que l&amp;rsquo;utilisateur lit à un endroit particulier et qu&amp;rsquo;il sélectionne du texte à cet endroit.&lt;/p>
+&lt;p>Par conséquent, les utilisateurs de lecteurs d&amp;rsquo;écran préfèrent utiliser la fonction de mise en signet, qui permet d&amp;rsquo;ancrer un signet simple, éventuellement étiqueté, à un emplacement de lecture approximatif (un bouton icône se trouve dans la barre d&amp;rsquo;outils supérieure, mais le raccourci clavier &lt;key>CTRL&lt;/key> + &lt;key>B&lt;/key> peut également être utilisé).
+Thorium détecte le clic du curseur de la souris sur un seul caractère du texte, ce qui permet de focaliser un signet sur un emplacement HTML plus précis.&lt;/p>
+&lt;p>Dans Thorium, l&amp;rsquo;éditeur d&amp;rsquo;étiquettes de signets prend actuellement en charge plusieurs lignes de texte, ce qui permet d&amp;rsquo;annoter des emplacements de documents volumineux. Il peut donc être perçu comme un remplacement de l&amp;rsquo;annotateur proprement dit, mais il n&amp;rsquo;y a pas d&amp;rsquo;importation/exportation de données de signets.&lt;/p>
+&lt;p>D&amp;rsquo;autres commentaires sont les bienvenus via notre forum de discussion : &lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
+&lt;h3 id="utilisation-des-signets-avec-nvda">Utilisation des signets avec NVDA&lt;/h3>
+&lt;p>Les lecteurs d&amp;rsquo;écran Windows utilisent un tampon virtuel
+pour la lecture. Pour placer un signet à l&amp;rsquo;endroit où vous êtes en train de lire
+appuyez sur la combinaison de touches &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>Enter&lt;/kbd>,
+et NVDA dira &lt;em>&amp;ldquo;activer &amp;ldquo;&lt;/em>. Ceci
+synchronise la mémoire tampon virtuelle avec l&amp;rsquo;emplacement réel actuel, de sorte que Thorium
+puisse déduire l&amp;rsquo;objet
+sur lequel se trouve le curseur. Utilisez ensuite
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> pour placer un signet.
+Une notification sonore vous informera du nombre de signets
+dans la publication en cours.&lt;/p>
+&lt;h2 id="ressources-externes-pour-lutilisation-du-lecteur-décran-dans-thorium-en-anglais">Ressources externes pour l&amp;rsquo;utilisation du lecteur d&amp;rsquo;écran dans Thorium (en anglais)&lt;/h2>
+&lt;div lang="en">
+&lt;ul>
+&lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div></description></item><item><title>Th3: Configuration minimale requise</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/390_requirements/</guid><description>
 &lt;p>Le support de la plateforme est fourni par Electron comme défini dans &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">le fichier Readme du dépôt GitHub d&amp;rsquo;Electron&lt;/a>&lt;/p>
 &lt;p>Chaque version d&amp;rsquo;Electron fournit des binaires pour macOS, Windows et Linux.&lt;/p>
 &lt;ul>
