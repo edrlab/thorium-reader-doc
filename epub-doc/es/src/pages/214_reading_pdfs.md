@@ -15,9 +15,9 @@ La compatibilidad con PDF incluye 8 niveles de zoom y la capacidad de visualizac
 
 ## Funciones de navegación para PDF
 
-El formato PDF ofrece menos opciones de navegación, ya que no existen tablas de contenido computadas ni puntos de referencia. Por lo tanto, la única posibilidad de navegación es a través de ir a la página.
+La navegación en PDF siempre se puede hacer con el panel Ir a página. Además, cuando los creadores de PDF han incluido esquemas de documentos, éstos están disponibles a través del panel de navegación de la tabla de contenido. Se trata de un comportamiento diferente al de acrobat reader, que muestra los esquemas de documentos como marcadores y permite a los usuarios manipularlos cambiando el orden, renombrandolos, añadiendolos y eliminandolos.
 
-Muchos autores de PDF utilizan marcadores para proponer una navegación por la tabla de contenido, pero éstos no están disponibles en Thorium reader por el momento.
+Con Thorium Reader, puede añadir sus propios marcadores de forma segura y los encontrará en el panel de navegación de marcadores.
 
 ## Marcadores y anotaciones para PDFs
 
