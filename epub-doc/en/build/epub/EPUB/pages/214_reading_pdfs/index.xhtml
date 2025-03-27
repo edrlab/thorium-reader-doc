@@ -15,7 +15,117 @@
     <section class="colbreak"  role="doc-chapter" >
       <hr class="asterism" aria-hidden="true"></hr>
       <h1>Reading PDFs</h1>
-      <p>PDF support is basic and provides few options.</p>
+      <p>Thorium PDF reading engine relies on pdf.js a Portable Document Format (PDF) viewer that is built with HTML5. PDF.js is community-driven and supported by Mozilla.</p>
+      <h2>Reading settings for PDFs</h2>
+      <p>PDF support include 8 levels of zoom and the capacity to display in one or two columns.</p>
+      <h2>Navigation features for PDFs</h2>
+      <p>The PDF format offers fewer navigation options as no computed table of content or landmarks points exist. Therefore, the only navigation possibility is thru go to page.</p>
+      <p>Many PDF authors use bookmarks to propose a table of content navigation, but those are not available in Thorium reader at the moment.</p>
+      <h2>Bookmarks and annotations for PDFs</h2>
+      <p>At this moment, annotations are not available for PDFs. Bookmarks are fully implemented and can be created and navigated as detailled in the 
+        <a href="../230_bookmarks/index.xhtml">Reading action bookmarks chapter</a>.
+      </p>
+      <p>An attention point here is that only one bookmark per page can be added. Trying to add more than one bookmark per page will remove the existing one.</p>
+      <p>## PDF keyboard shortcuts</p>
+      <p>PDF.js adds keyboard shortcuts that are not configurable in the Thorium setting panel. The list reproduced here is non exhaustive and some shortcuts may not work. It is copied from the 
+        <a href="https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts">PDF.JS Frequently Asked Questions page</a>.
+      </p>
+      <h3>Navigation</h3>
+      <p>The 
+        <kbd>Home</kbd>, 
+        <kbd>End</kbd>, 
+        <kbd>Page up</kbd>, 
+        <kbd>Page down</kbd> and all 
+        <kbd>arrow</kbd> keys can be used to navigate the document. Moreover, the following navigation shortcuts exist:
+      </p>
+      <ul>
+        <li>Next page: 
+          <kbd>n</kbd>, 
+          <kbd>j</kbd>, 
+          <kbd>Space bar</kbd> (presentation mode only), 
+          <kbd>Enter</kbd> (presentation mode only) or left click (presentation mode only)
+        </li>
+        <li>Previous page: 
+          <kbd>p</kbd>, 
+          <kbd>k</kbd>, 
+          <kbd>Shift</kbd> + 
+          <kbd>Space bar</kbd> (presentation mode only), 
+          <kbd>Shift</kbd> + 
+          <kbd>Enter</kbd> (presentation mode only) or 
+          <kbd>Shift</kbd> + left click (presentation mode only)
+        </li>
+      </ul>
+      <h3>Viewer controls</h3>
+      <p>User interface buttons or 
+        <kbd>ctrl</kbd> + mouse wheel can be used to change the zooming level, but keyboard shortcuts are also available:
+      </p>
+      <ul>
+        <li>Zoom in: 
+          <kbd>ctrl</kbd> + 
+          <kbd>+</kbd>, 
+          <kbd>ctrl</kbd> + 
+          <kbd>=</kbd>
+        </li>
+        <li>Zoom out: 
+          <kbd>ctrl</kbd> + 
+          <kbd>-</kbd>
+        </li>
+        <li>Restore normal zoom: 
+          <kbd>ctrl</kbd> + 
+          <kbd>0</kbd>
+        </li>
+        <li>Rotate the document clockwise: 
+          <kbd>r</kbd>
+        </li>
+        <li>Rotate the document counterclockwise: 
+          <kbd>shift</kbd> + 
+          <kbd>r</kbd>
+        </li>
+        <li>Activate presentation mode: 
+          <kbd>ctrl</kbd> + 
+          <kbd>alt</kbd> + 
+          <kbd>p</kbd>
+        </li>
+        <li>Enable the hand tool: 
+          <kbd>h</kbd>
+        </li>
+        <li>Enable the text selection tool: 
+          <kbd>s</kbd>
+        </li>
+        <li>Move focus to the 'go to page' box: 
+          <kbd>ctrl</kbd> + 
+          <kbd>alt</kbd> + 
+          <kbd>g</kbd>
+        </li>
+        <li>Find text in the document: 
+          <kbd>ctrl</kbd> + 
+          <kbd>f</kbd>
+        </li>
+        <li>Find next occurrence of text in the document: 
+          <kbd>ctrl</kbd> + 
+          <kbd>g</kbd>
+        </li>
+        <li>Find previous occurrence of text in the document: 
+          <kbd>shift</kbd> + 
+          <kbd>ctrl</kbd> + 
+          <kbd>g</kbd>
+        </li>
+        <li>Download the document: 
+          <kbd>ctrl</kbd> + 
+          <kbd>s</kbd>
+        </li>
+        <li>Print the document: 
+          <kbd>ctrl</kbd> + 
+          <kbd>p</kbd>
+        </li>
+        <li>Open a file: 
+          <kbd>ctrl</kbd> + 
+          <kbd>o</kbd>
+        </li>
+      </ul>
+      <p>(replace 
+        <kbd>ctrl</kbd> with meta on some configurations)
+      </p>
     </section>
   </body>
 </html>

@@ -7,4 +7,53 @@ draft: false
 
 # Reading PDFs
 
-PDF support is basic and provides few options.
+Thorium PDF reading engine relies on pdf.js a Portable Document Format (PDF) viewer that is built with HTML5. PDF.js is community-driven and supported by Mozilla.
+
+## Reading settings for PDFs
+
+PDF support include 8 levels of zoom and the capacity to display in one or two columns.
+
+## Navigation features for PDFs
+
+The PDF format offers fewer navigation options as no computed table of content or landmarks points exist. Therefore, the only navigation possibility is thru go to page. 
+
+Many PDF authors use bookmarks to propose a table of content navigation, but those are not available in Thorium reader at the moment. 
+
+## Bookmarks and annotations for PDFs
+
+At this moment, annotations are not available for PDFs. Bookmarks are fully implemented and can be created and navigated as detailled in the [Reading action bookmarks chapter](../230_bookmarks/index.xhtml). 
+
+An attention point here is that only one bookmark per page can be added. Trying to add more than one bookmark per page will remove the existing one.
+
+## PDF keyboard shortcuts
+
+PDF.js adds keyboard shortcuts that are not configurable in the Thorium setting panel. The list reproduced here is non exhaustive and some shortcuts may not work. It is copied from the [PDF.JS Frequently Asked Questions page](https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts). 
+
+### Navigation
+
+The <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page up</kbd>, <kbd>Page down</kbd> and all <kbd>arrow</kbd> keys can be used to navigate the document. Moreover, the following navigation shortcuts exist:
+
+* Next page: <kbd>n</kbd>, <kbd>j</kbd>, <kbd>Space bar</kbd> (presentation mode only), <kbd>Enter</kbd> (presentation mode only) or left click (presentation mode only)
+* Previous page: <kbd>p</kbd>, <kbd>k</kbd>, <kbd>Shift</kbd> + <kbd>Space bar</kbd> (presentation mode only), <kbd>Shift</kbd> + <kbd>Enter</kbd> (presentation mode only) or <kbd>Shift</kbd> + left click (presentation mode only)
+
+### Viewer controls
+
+User interface buttons or <kbd>ctrl</kbd> + mouse wheel can be used to change the zooming level, but keyboard shortcuts are also available:
+
+* Zoom in: <kbd>ctrl</kbd> + <kbd>+</kbd>, <kbd>ctrl</kbd> + <kbd>=</kbd>
+* Zoom out: <kbd>ctrl</kbd> + <kbd>-</kbd>
+* Restore normal zoom: <kbd>ctrl</kbd> + <kbd>0</kbd>
+* Rotate the document clockwise: <kbd>r</kbd>
+* Rotate the document counterclockwise: <kbd>shift</kbd> + <kbd>r</kbd>
+* Activate presentation mode: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>p</kbd>
+* Enable the hand tool: <kbd>h</kbd>
+* Enable the text selection tool: <kbd>s</kbd>
+* Move focus to the 'go to page' box: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>g</kbd>
+* Find text in the document: <kbd>ctrl</kbd> + <kbd>f</kbd>
+* Find next occurrence of text in the document: <kbd>ctrl</kbd> + <kbd>g</kbd>
+* Find previous occurrence of text in the document: <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
+* Download the document: <kbd>ctrl</kbd> + <kbd>s</kbd>
+* Print the document: <kbd>ctrl</kbd> + <kbd>p</kbd>
+* Open a file: <kbd>ctrl</kbd> + <kbd>o</kbd>
+
+(replace <kbd>ctrl</kbd> with meta on some configurations)

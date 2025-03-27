@@ -9,13 +9,123 @@
     <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
-    <title>Lectura de PDFS</title>
+    <title>Leer PDF</title>
   </head>
   <body>
     <section class="colbreak"  role="doc-chapter" >
       <hr class="asterism" aria-hidden="true"></hr>
-      <h1>Leer archivos PDF</h1>
-      <p>La compatibilidad con PDF es básica y ofrece pocas opciones.</p>
+      <h1>Lectura de PDF</h1>
+      <p>El motor de lectura de PDF de Thorium se basa en pdf.js, un visor de Formato de Documento Portátil (PDF) construido con HTML5. PDF.js está impulsado por la comunidad y cuenta con el apoyo de Mozilla.</p>
+      <h2>Configuración de lectura de PDF</h2>
+      <p>La compatibilidad con PDF incluye 8 niveles de zoom y la capacidad de visualización en una o dos columnas.</p>
+      <h2>Funciones de navegación para PDF</h2>
+      <p>El formato PDF ofrece menos opciones de navegación, ya que no existen tablas de contenido computadas ni puntos de referencia. Por lo tanto, la única posibilidad de navegación es a través de ir a la página.</p>
+      <p>Muchos autores de PDF utilizan marcadores para proponer una navegación por la tabla de contenido, pero éstos no están disponibles en Thorium reader por el momento.</p>
+      <h2>Marcadores y anotaciones para PDFs</h2>
+      <p>Por el momento, las anotaciones no están disponibles para los PDF. Los marcadores están completamente implementados y pueden ser creados y navegados como se detalla en el 
+        <a href="../230_bookmarks/index.xhtml">Capítulo de marcadores de la acción de lectura</a>.
+      </p>
+      <p>Un punto de atención aquí es que sólo se puede añadir un marcador por página. Si se intenta añadir más de un marcador por página, se eliminará el existente.</p>
+      <h2>Atajos de teclado para PDF</h2>
+      <p>PDF.js añade atajos de teclado que no son configurables en el panel de ajustes de Thorium. La lista reproducida aquí no es exhaustiva y algunos atajos pueden no funcionar. Está copiada de la página 
+        <a href="https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts">PDF.JS Frequently Asked Questions</a>.
+      </p>
+      <h3>Navegación</h3>
+      <p>Las teclas 
+        <kbd>Inicio</kbd>, 
+        <kbd>Fin</kbd>, 
+        <kbd>Página arriba</kbd>, 
+        <kbd>Página abajo</kbd> y todas las 
+        <kbd>flechas</kbd> se pueden utilizar para navegar por el documento. Además, existen los siguientes atajos de navegación:
+      </p>
+      <ul>
+        <li>Página siguiente: 
+          <kbd>n</kbd>, 
+          <kbd>j</kbd>, 
+          <kbd>Barra espaciadora</kbd> (sólo modo presentación), 
+          <kbd>Intro</kbd> (sólo modo presentación) o clic izquierdo (sólo modo presentación).
+        </li>
+        <li>Página anterior: 
+          <kbd>p</kbd>, 
+          <kbd>k</kbd>, 
+          <kbd>Mayúsculas</kbd> + 
+          <kbd>Barra espaciadora</kbd> (solo modo presentación), 
+          <kbd>Mayúsculas</kbd> + 
+          <kbd>Intro</kbd> (solo modo presentación) o 
+          <kbd>Mayúsculas</kbd> + clic izquierdo (solo modo presentación).
+        </li>
+      </ul>
+      <h3>Controles del visor</h3>
+      <p>Se pueden utilizar los botones de la interfaz de usuario o 
+        <kbd>ctrl</kbd> + rueda del ratón para cambiar el nivel de zoom, pero también se dispone de atajos de teclado:
+      </p>
+      <ul>
+        <li>Acercar: 
+          <kbd>ctrl</kbd> + 
+          <kbd>+</kbd>, 
+          <kbd>ctrl</kbd> + 
+          <kbd>=</kbd>.
+        </li>
+        <li>Alejar: 
+          <kbd>ctrl</kbd> + 
+          <kbd>-</kbd>.
+        </li>
+        <li>Restaurar zoom normal: 
+          <kbd>ctrl</kbd> + 
+          <kbd>0</kbd>
+        </li>
+        <li>Girar el documento en el sentido de las agujas del reloj: 
+          <kbd>r</kbd>
+        </li>
+        <li>Girar el documento en sentido contrario a las agujas del reloj: 
+          <kbd>shift</kbd> + 
+          <kbd>r</kbd>
+        </li>
+        <li>Activar el modo de presentación: 
+          <kbd>ctrl</kbd> + 
+          <kbd>alt</kbd> + 
+          <kbd>p</kbd>
+        </li>
+        <li>Activar la herramienta de mano: 
+          <kbd>h</kbd>
+        </li>
+        <li>Habilitar la herramienta de selección de texto: 
+          <kbd>s</kbd>
+        </li>
+        <li>Mover el foco a la casilla 'ir a página': 
+          <kbd>ctrl</kbd> + 
+          <kbd>alt</kbd> + 
+          <kbd>g</kbd>
+        </li>
+        <li>Buscar texto en el documento: 
+          <kbd>ctrl</kbd> + 
+          <kbd>f</kbd>
+        </li>
+        <li>Buscar siguiente aparición de texto en el documento: 
+          <kbd>ctrl</kbd> + 
+          <kbd>g</kbd>
+        </li>
+        <li>Buscar ocurrencia anterior de texto en el documento: 
+          <kbd>mayúsculas</kbd> + 
+          <kbd>ctrl</kbd> + 
+          <kbd>g</kbd>
+        </li>
+        <li>Descargar el documento: 
+          <kbd>ctrl</kbd> + 
+          <kbd>s</kbd>
+        </li>
+        <li>Imprimir el documento: 
+          <kbd>ctrl</kbd> + 
+          <kbd>p</kbd>
+        </li>
+        <li>Abrir un archivo: 
+          <kbd>ctrl</kbd> + 
+          <kbd>o</kbd>
+        </li>
+      </ul>
+      <p>(sustituye 
+        <kbd>ctrl</kbd> por meta en algunas configuraciones)
+      </p>
     </section>
   </body>
 </html>
