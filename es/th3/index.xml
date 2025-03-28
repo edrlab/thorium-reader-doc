@@ -369,6 +369,15 @@ en la publicación actual.&lt;/p>
 &lt;p>Agregar una función de "lectura en un solo paso" no está en nuestra hoja de ruta, como tampoco lo está el mantenimiento de un lector web público y estable.&lt;/p>
 &lt;dt id="PDFsupport">¿Por qué no hay lectura en voz alta ni anotaciones para los archivos PDF? &lt;/dt>
 &lt;dd>EDRLab considera que EPUB 3 es un formato de libro electrónico mucho mejor que PDF y, por lo tanto, prioriza su trabajo para ofrecer una gran experiencia a los usuarios de EPUB. En Thorium Reader, las funciones avanzadas como TTS y anotaciones están disponibles primero para EPUB y esperamos que otros desarrolladores de aplicaciones obtengan lo mejor de los archivos PDF. Esto no significa que las funciones avanzadas nunca estarán disponibles en PDF en Thorium, simplemente que nuestro presupuesto limitado se utiliza para lo que consideramos mejor para los lectores de libros electrónicos. &lt;/dd>
+&lt;dt id="PDFrotate">He girado accidentalmente mis páginas PDF, ¿cómo no puedo recuperarlo?
+&lt;/dt>
+&lt;dd>
+&lt;p>Los atajos para rotar páginas PDF son:&lt;/p>
+&lt;ul>
+&lt;li>Girar el documento en el sentido de las agujas del reloj: r&lt;/li>
+&lt;li>Girar el documento en sentido contrario a las agujas del reloj: shift + r&lt;/li>
+&lt;/ul>
+&lt;/dd>
 &lt;dt id="TTSvoices">No puedo seleccionar la voz adecuada para la función de lectura en voz alta (TTS)&lt;/dt>
 &lt;dd>Thorium utiliza las voces del sistema operativo de la computadora, en combinación con la información del idioma proporcionada por el libro. &lt;/dd>
 &lt;ul>

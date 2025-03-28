@@ -363,7 +363,17 @@ https://github.com/readium/r2-testapp-js"> Readium2 “test app”GitHub’s rel
 &lt;/dd>
 &lt;dt id="PDFsupport">Why is there no read aloud nor annotations for PDFs?
 &lt;/dt>
-&lt;dd>EDRLab considers that EPUB 3 is a far better ebook format than PDF, and therefore prioritises its work on offering a great experience to EPUB users. In Thorium Reader, advanced features like TTS and annotations are consequently available for EPUB first, and we expect that other app developers will get the best from PDF files. It does not mean that advanced features will never be available on PDF in Thorium, simply that our limited budget is used for what we consider best for ebook readers.
+&lt;dd>EDRLab considers that EPUB 3 is a far better ebook format than PDF, and therefore prioritises its work on offering a great experience to EPUB users. In Thorium Reader, advanced features like TTS and annotations are consequently available for EPUB first, and we expect that other app developers will get the best from PDF files. It does not mean that advanced features will never be available on PDF in Thorium, simply that our limited budget is u
+sed for what we consider best for ebook readers.
+&lt;/dd>
+&lt;dt id="PDFrotate">I accidentally rotated my PDF pages, how can't get it back?
+&lt;/dt>
+&lt;dd>
+&lt;p>The shortcuts for rotating PDF pages are:&lt;/p>
+&lt;ul>
+&lt;li>Rotate the document clockwise: r&lt;/li>
+&lt;li>Rotate the document counterclockwise: shift + r&lt;/li>
+&lt;/ul>
 &lt;/dd>
 &lt;dt id="TTSvoices">I can't select the adequate voice for read aloud function (TTS)&lt;/dt>
 &lt;dd>Thorium uses the voices from the computer's operating system, in combination with the language information provided by the book.
