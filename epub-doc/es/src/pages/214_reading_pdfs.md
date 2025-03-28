@@ -45,15 +45,9 @@ Se pueden utilizar los botones de la interfaz de usuario o <kbd>ctrl</kbd> + rue
 * Restaurar zoom normal: <kbd>ctrl</kbd> + <kbd>0</kbd>
 * Girar el documento en el sentido de las agujas del reloj: <kbd>r</kbd>
 * Girar el documento en sentido contrario a las agujas del reloj: <kbd>shift</kbd> + <kbd>r</kbd>
-* Activar el modo de presentación: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>p</kbd>
-* Activar la herramienta de mano: <kbd>h</kbd>
-* Habilitar la herramienta de selección de texto: <kbd>s</kbd>
-* Mover el foco a la casilla 'ir a página': <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>g</kbd>
+* Mover el foco a la casilla 'ir a página': <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd>
 * Buscar texto en el documento: <kbd>ctrl</kbd> + <kbd>f</kbd>
 * Buscar siguiente aparición de texto en el documento: <kbd>ctrl</kbd> + <kbd>g</kbd>
 * Buscar ocurrencia anterior de texto en el documento: <kbd>mayúsculas</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
-* Descargar el documento: <kbd>ctrl</kbd> + <kbd>s</kbd>
-* Imprimir el documento: <kbd>ctrl</kbd> + <kbd>p</kbd>
-* Abrir un archivo: <kbd>ctrl</kbd> + <kbd>o</kbd>
 
 (sustituye <kbd>ctrl</kbd> por meta en algunas configuraciones)
