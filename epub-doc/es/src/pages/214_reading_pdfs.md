@@ -45,7 +45,7 @@ Se pueden utilizar los botones de la interfaz de usuario o <kbd>ctrl</kbd> + rue
 * Restaurar zoom normal: <kbd>ctrl</kbd> + <kbd>0</kbd>
 * Girar el documento en el sentido de las agujas del reloj: <kbd>r</kbd>
 * Girar el documento en sentido contrario a las agujas del reloj: <kbd>shift</kbd> + <kbd>r</kbd>
-* Mover el foco a la casilla 'ir a página': <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd>
+* Mover el foco a la casilla 'ir a página': <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
 * Buscar texto en el documento: <kbd>ctrl</kbd> + <kbd>f</kbd>
 * Buscar siguiente aparición de texto en el documento: <kbd>ctrl</kbd> + <kbd>g</kbd>
 * Buscar ocurrencia anterior de texto en el documento: <kbd>mayúsculas</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
