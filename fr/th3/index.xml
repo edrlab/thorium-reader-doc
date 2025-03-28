@@ -358,9 +358,22 @@ dans la publication en cours.&lt;/p>
 &lt;dd> Système de distribution de publications ouvertes &lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Questions fréquemment posées</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/430_faq/</guid><description>
 &lt;dl>
-&lt;dt id="PDFsupport">Pourquoi n'y a-t-il pas de lecture à voix haute ni d'annotations pour les PDF ?&lt;/dt>
-&lt;dd>EDRLab considère que le format EPUB 3 est un format de livre électronique bien meilleur que le format PDF et s'efforce donc en priorité d'offrir une expérience optimale aux utilisateurs d'EPUB. Dans Thorium Reader, les fonctionnalités avancées telles que la synthèse vocale et les annotations sont donc disponibles en priorité pour les fichiers EPUB et nous espérons que les autres développeurs d'applications tireront le meilleur parti des fichiers PDF. Cela ne signifie pas que les fonctionnalités avancées ne seront jamais disponibles sur PDF dans Thorium, mais simplement que notre budget limité est utilisé pour ce que nous considérons comme le meilleur pour les lecteurs de livres électroniques. &lt;/dd>
-&lt;/dl>
+&lt;dt id="fullscreen">Comment profiter de Thorium en plein écran ?
+&lt;/dt>
+&lt;dd>
+&lt;p>
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> dans une fenêtre de lecture, permet de basculer cette fenêtre en plein écran. Notez que ce mode est différent du mode Zen disponible à partir du pictogramme en haut à droite. Le raccourci clavier est le seul moyen de passer en plein écran.
+&lt;/p>
+&lt;/dd>
+&lt;dt id="manually_manage_files">Pourquoi ne puis-je pas ouvrir un livre électronique sans qu'il soit enregistré dans la bibliothèque de Thorium Reader ?
+&lt;/dt>
+&lt;dd>
+Thorium, comme plusieurs autres lecteurs de livres électroniques et systèmes de lecture, stocke les publications importées dans son propre espace de système de fichiers, car cela garantit que l'état de chaque publication et les métadonnées externes (par exemple, les signets, les paramètres, les annotations, le statut DRM, etc.) peuvent être attachés de manière fiable.
+&lt;/dd>
+&lt;dt id="PDFsupport">Pourquoi n'y a-t-il pas de lecture à voix haute ni d'annotations pour les PDF ?
+&lt;/dt>
+&lt;dd>EDRLab s'efforce en priorité d'offrir une expérience optimale aux utilisateurs d'EPUB. Dans Thorium Reader, les fonctionnalités avancées telles que la synthèse vocale et les annotations sont donc disponibles en priorité pour les fichiers EPUB et nous espérons que les autres développeurs d'applications tireront le meilleur parti des fichiers PDF. Cela ne signifie pas que les fonctionnalités avancées ne seront jamais disponibles sur PDF dans Thorium, mais simplement que notre budget limité est utilisé pour ce que nous considérons comme le meilleur pour les lecteurs de livres électroniques.
+&lt;/dd>
 &lt;dt id="PDFrotate">J'ai accidentellement fait pivoter mes pages PDF, comment puis-je les récupérer ?
 &lt;/dt>
 &lt;dd>
@@ -370,17 +383,15 @@ dans la publication en cours.&lt;/p>
 &lt;li>Rotation du document dans le sens inverse des aiguilles d&amp;rsquo;une montre : shift + r&lt;/li>
 &lt;/ul>
 &lt;/dd>
-&lt;dl>
 &lt;dt id="TTSvoices">Je ne parviens pas à sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)&lt;/dt>
-&lt;dd>Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. &lt;/dd>
-&lt;/dl>
+&lt;dd>Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre.
 &lt;ul>
 &lt;li>Si vous utilisez Windows, vous pouvez suivre &lt;a href="https://support.microsoft.com/en-us/windows/download-language-pack-for-speech-24d06ef3-ca09-ddcc-70a0-63606fd16394">le guide de Microsoft Télécharger le pack de langue pour la voix&lt;/a> .&lt;/li>
 &lt;li>Si vous utilisez Mac OSX, consultez le guide &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Modifier la voix utilisée par le Mac pour prononcer le texte&lt;/a> .&lt;/li>
 &lt;/ul>
 &lt;p>Une fois la voix requise installée, Thorium choisira la voix correspondant à la langue du livre.&lt;/p>
 &lt;p>Il peut arriver que le livre soit dans la mauvaise langue. Dans ce cas, Thorium vous permet de changer la voix pour une voix présente dans le système via le menu Voix&lt;/p>
-&lt;dl>
+&lt;/dd>
 &lt;dt id="localStorage">Comment transférer l'intégralité de la collection de livres d'une machine à une autre.&lt;/dt>
 &lt;dd>
 Avoir une interface utilisateur pour exporter l’intégralité du catalogue n’est pas une priorité actuellement.

@@ -306,15 +306,9 @@ The Marrakech Treaty
 &lt;/dt>
 &lt;dd>
 &lt;p>Thorium, like several other ebook readers and reading systems stores imported publications in its own filesystem space, as this provides a guarantee that per-publication state and external metadata (e.g. bookmarks, settings, annotations, DRM status, etc.) can be reliably attached.&lt;/p>
-&lt;p>If you need to open files without using advanced reading features, and want to keep a manual maintenance of ebook files, you can consider using an alternative. A possibility is the Readium2 “test app”, a basic reader-only app (i.e. no library / bookshelf) which provides rudimentary support for ebook features (bookmarks, highlights), with a crude user interface designed for testing the SDK. You may give it a try using the automated builds from &lt;a href="
-https://github.com/readium/r2-testapp-js"> Readium2 “test app”GitHub’s releases page&lt;/a>&lt;/p>
-&lt;p>Adding a "one shot reading" feature is not on our road map. Neither is the maintenance of a public stable web reader.
-&lt;/p>
 &lt;/dd>
-&lt;dt id="PDFsupport">Why is there no read aloud nor annotations for PDFs?
-&lt;/dt>
-&lt;dd>EDRLab considers that EPUB 3 is a far better ebook format than PDF, and therefore prioritises its work on offering a great experience to EPUB users. In Thorium Reader, advanced features like TTS and annotations are consequently available for EPUB first, and we expect that other app developers will get the best from PDF files. It does not mean that advanced features will never be available on PDF in Thorium, simply that our limited budget is u
-sed for what we consider best for ebook readers.
+&lt;dt id="PDFsupport">Why is there no read aloud nor annotations for PDFs?&lt;/dt>
+&lt;dd>EDRLab prioritises its work on offering a great experience to EPUB users. In Thorium Reader, advanced features like TTS and annotations are consequently available for EPUB first, and we expect that other app developers will get the best from PDF files. It does not mean that advanced features will never be available on PDF in Thorium, simply that our limited budget is used for what we consider best for ebook readers.
 &lt;/dd>
 &lt;dt id="PDFrotate">I accidentally rotated my PDF pages, how can't get it back?
 &lt;/dt>

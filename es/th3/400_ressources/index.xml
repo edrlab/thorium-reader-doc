@@ -179,16 +179,23 @@
 &lt;dd> Sistema de distribución de publicaciones abiertas &lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Preguntas frecuentes</title><link>https://thorium.edrlab.org/es/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/430_faq/</guid><description>
 &lt;dl>
-&lt;dt id="fullscreen">¿Cómo puedo disfrutar de Thorium en pantalla completa?&lt;/dt>
-&lt;dd>&lt;p> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> en una ventana del lector activará esta ventana en modo de pantalla completa. Tenga en cuenta que esto es diferente del modo Zen disponible en el pictograma superior derecho. El atajo de teclado es la única forma de pasar al modo de pantalla completa.&lt;/p>&lt;/dd>
-&lt;/dl>
-&lt;dt id="manually_manage_files">¿Por qué no puedo abrir un libro electrónico sin que esté guardado en la biblioteca de Thorium Reader?&lt;/dt>
-&lt;dd>&lt;p>Thorium, al igual que muchos otros lectores de libros electrónicos y sistemas de lectura, almacena las publicaciones importadas en su propio espacio de sistema de archivos, ya que esto proporciona una garantía de que el estado de cada publicación y los metadatos externos (por ejemplo, marcadores, configuraciones, anotaciones, estado de DRM, etc.) se pueden adjuntar de manera confiable.&lt;/p>&lt;/dd>
-&lt;p>If you need to open files without using advanced reading features, and want to keep a manual maintenance of ebook files, you can consider using an alternative. A possibility is the Readium2 “test app”, a basic reader-only app (i.e. no library / bookshelf) which provides rudimentary support for ebook features (bookmarks, highlights), with a crude user interface designed for testing the SDK. You may give it a try using the automated builds from &lt;a href="https://github.com/readium/r2-testapp-js"> Readium2 “test app”GitHub’s releases page&lt;/a>&lt;/p>
-&lt;p>Agregar una función de "lectura en un solo paso" no está en nuestra hoja de ruta, como tampoco lo está el mantenimiento de un lector web público y estable.&lt;/p>
-&lt;dt id="PDFsupport">¿Por qué no hay lectura en voz alta ni anotaciones para los archivos PDF? &lt;/dt>
-&lt;dd>EDRLab considera que EPUB 3 es un formato de libro electrónico mucho mejor que PDF y, por lo tanto, prioriza su trabajo para ofrecer una gran experiencia a los usuarios de EPUB. En Thorium Reader, las funciones avanzadas como TTS y anotaciones están disponibles primero para EPUB y esperamos que otros desarrolladores de aplicaciones obtengan lo mejor de los archivos PDF. Esto no significa que las funciones avanzadas nunca estarán disponibles en PDF en Thorium, simplemente que nuestro presupuesto limitado se utiliza para lo que consideramos mejor para los lectores de libros electrónicos. &lt;/dd>
-&lt;dt id="PDFrotate">He girado accidentalmente mis páginas PDF, ¿cómo no puedo recuperarlo?
+&lt;dt id="fullscreen">¿Cómo puedo disfrutar de Thorium en pantalla completa?
+&lt;/dt>
+&lt;dd>
+&lt;p>
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> en una ventana del lector activará esta ventana en modo de pantalla completa. Tenga en cuenta que esto es diferente del modo Zen disponible en el pictograma superior derecho. El atajo de teclado es la única forma de pasar al modo de pantalla completa.
+&lt;/p>
+&lt;/dd>
+&lt;dt id="manually_manage_files">¿Por qué no puedo abrir un libro electrónico sin que esté guardado en la biblioteca de Thorium Reader?
+&lt;/dt>
+&lt;dd>
+Thorium, al igual que muchos otros lectores de libros electrónicos y sistemas de lectura, almacena las publicaciones importadas en su propio espacio de sistema de archivos, ya que esto proporciona una garantía de que el estado de cada publicación y los metadatos externos (por ejemplo, marcadores, configuraciones, anotaciones, estado de DRM, etc.) se pueden adjuntar de manera confiable.
+&lt;/dd>
+&lt;dt id="PDFsupport">¿Por qué no hay lectura en voz alta ni anotaciones para los archivos PDF?
+&lt;/dt>
+&lt;dd>EDRLab considera que EPUB 3 es un formato de libro electrónico mucho mejor que PDF y, por lo tanto, prioriza su trabajo para ofrecer una gran experiencia a los usuarios de EPUB. En Thorium Reader, las funciones avanzadas como TTS y anotaciones están disponibles primero para EPUB y esperamos que otros desarrolladores de aplicaciones obtengan lo mejor de los archivos PDF. Esto no significa que las funciones avanzadas nunca estarán disponibles en PDF en Thorium, simplemente que nuestro presupuesto limitado se utiliza para lo que consideramos mejor para los lectores de libros electrónicos.
+&lt;/dd>
+&lt;dt id="PDFrotate">He girado accidentalmente mis páginas PDF, ¿cómo puedo recuperarlo?
 &lt;/dt>
 &lt;dd>
 &lt;p>Los atajos para rotar páginas PDF son:&lt;/p>
@@ -198,22 +205,25 @@
 &lt;/ul>
 &lt;/dd>
 &lt;dt id="TTSvoices">No puedo seleccionar la voz adecuada para la función de lectura en voz alta (TTS)&lt;/dt>
-&lt;dd>Thorium utiliza las voces del sistema operativo de la computadora, en combinación con la información del idioma proporcionada por el libro. &lt;/dd>
+&lt;dd>Thorium utiliza las voces del sistema operativo de la computadora, en combinación con la información del idioma proporcionada por el libro.
 &lt;ul>
 &lt;li>Si está utilizando Windows, puede seguir &lt;a href="https://support.microsoft.com/en-us/windows/download-language-pack-for-speech-24d06ef3-ca09-ddcc-70a0-63606fd16394">la guía de Microsoft Descargar el paquete de idioma para voz&lt;/a> .&lt;/li>
 &lt;li>Si está utilizando Mac OSX, la guía &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Cambiar la voz que usa Mac para pronunciar texto&lt;/a> .&lt;/li>
 &lt;/ul>
 &lt;p>Una vez instalada la voz requerida, Thorium elegirá la voz correspondiente al idioma del libro.&lt;/p>
 &lt;p>Puede suceder que el libro tenga el idioma incorrecto. En este caso, Thorium le permite cambiar la voz a una que esté presente en el sistema a través del menú Voz&lt;/p>
+&lt;/dd>
 &lt;dt id="localStorage">¿Cómo puedo transferir toda la colección de libros de una máquina a otra?&lt;/dt>
-&lt;dd> Tener una interfaz de usuario para exportar todo el catálogo no es una prioridad actualmente. &lt;/dd>
+&lt;dd> Tener una interfaz de usuario para exportar todo el catálogo no es una prioridad actualmente.
 &lt;p>Las publicaciones se almacenan en un directorio conocido.&lt;/p>
 &lt;ul>
 &lt;li>Windows10 : C:\Users\ &lt;em>user name&lt;/em> \AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
 &lt;li>MacOS : /Users/ &lt;em>user name&lt;/em> /Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
 &lt;li>Debian: /home/ &lt;em>user name&lt;/em> /.config/EDRLab.ThoriumReader/publications-dev/&lt;/li>
 &lt;/ul>
-&lt;p>En caso de una migración de una computadora a otra o casos de uso similares, puede copiar todos los archivos de libros electrónicos en este reposiThorium y abrirlos en la nueva instalación de Thorium.&lt;/p></description></item><item><title>Th3: ¿Atascado?</title><link>https://thorium.edrlab.org/es/th3/400_ressources/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/904_issues/</guid><description>
+&lt;p>En caso de una migración de una computadora a otra o casos de uso similares, puede copiar todos los archivos de libros electrónicos en este reposiThorium y abrirlos en la nueva instalación de Thorium.&lt;/p>
+&lt;/dd>
+&lt;/dl></description></item><item><title>Th3: ¿Atascado?</title><link>https://thorium.edrlab.org/es/th3/400_ressources/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/904_issues/</guid><description>
 &lt;p>Si no encuentra la respuesta a su problema en este sitio, puede informarnos su problema a través de nuestra &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">herramienta de seguimiento de soporte&lt;/a> o &lt;a href="https://www.edrlab.org/contact/">formulario de contacto&lt;/a> .&lt;/p>
 &lt;p>Aquí está la información que necesitamos:&lt;/p>
 &lt;ul>
