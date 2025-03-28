@@ -45,15 +45,9 @@ Les boutons de l'interface utilisateur ou <kbd>ctrl</kbd> + molette de la souris
 * Rétablir le zoom normal : <kbd>ctrl</kbd> + <kbd>0</kbd>
 * Tourner le document dans le sens des aiguilles d'une montre : <kbd>r</kbd>
 * Tourner le document dans le sens inverse des aiguilles d'une montre : <kbd>shift</kbd> + <kbd>r</kbd>
-* Activer le mode de présentation : <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>p</kbd>
-* Activer l'outil manuel : <kbd>h</kbd>
-* Activer l'outil de sélection de texte : <kbd>s</kbd>
-* Déplacer le focus sur la case "aller à la page" : <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>g</kbd>
+* Déplacer le focus sur la case "aller à la page" : <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd>
 * Recherche de texte dans le document : <kbd>ctrl</kbd> + <kbd>f</kbd>
 * Recherche de l'occurrence suivante du texte dans le document : <kbd>ctrl</kbd> + <kbd>g</kbd>
 * Recherche de l'occurrence précédente du texte dans le document : <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
-* Télécharger le document : <kbd>ctrl</kbd> + <kbd>s</kbd>
-* Imprimer le document : <kbd>ctrl</kbd> + <kbd>p</kbd>
-* Ouvrir un fichier : <kbd>ctrl</kbd> + <kbd>o</kbd> * Ouvrir un fichier : <kbd>ctrl</kbd> + <kbd>o</kbd>
 
 (remplacer <kbd>ctrl</kbd> par meta dans certaines configurations)

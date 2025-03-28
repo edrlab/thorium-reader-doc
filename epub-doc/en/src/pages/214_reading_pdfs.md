@@ -45,15 +45,9 @@ User interface buttons or <kbd>ctrl</kbd> + mouse wheel can be used to change th
 * Restore normal zoom: <kbd>ctrl</kbd> + <kbd>0</kbd>
 * Rotate the document clockwise: <kbd>r</kbd>
 * Rotate the document counterclockwise: <kbd>shift</kbd> + <kbd>r</kbd>
-* Activate presentation mode: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>p</kbd>
-* Enable the hand tool: <kbd>h</kbd>
-* Enable the text selection tool: <kbd>s</kbd>
-* Move focus to the 'go to page' box: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>g</kbd>
+* Move focus to the 'go to page' box: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
 * Find text in the document: <kbd>ctrl</kbd> + <kbd>f</kbd>
 * Find next occurrence of text in the document: <kbd>ctrl</kbd> + <kbd>g</kbd>
 * Find previous occurrence of text in the document: <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
-* Download the document: <kbd>ctrl</kbd> + <kbd>s</kbd>
-* Print the document: <kbd>ctrl</kbd> + <kbd>p</kbd>
-* Open a file: <kbd>ctrl</kbd> + <kbd>o</kbd>
 
 (replace <kbd>ctrl</kbd> with meta on some configurations)
