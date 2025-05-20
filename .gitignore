@@ -3,6 +3,6 @@ node_modules/
 .hugo_build.lock
 W/
 .vscode/
-epub-doc/en/build/
-epub-doc/fr/build/
-epub-doc/es/build/
+epub-doc/en/build/*
+epub-doc/fr/build/*
+epub-doc/es/build/*
