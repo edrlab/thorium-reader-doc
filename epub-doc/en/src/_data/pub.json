@@ -1,7 +1,7 @@
 {
   "cover": {
     "page": "cover/index.xhtml",
-    "src": "resources/images/cover.jpeg",
+    "src": "resources/images/cover.png",
     "alt": ""
   },
   "toc": {
