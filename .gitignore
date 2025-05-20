@@ -4,3 +4,5 @@ node_modules/
 W/
 .vscode/
 epub-doc/en/build/
+epub-doc/fr/build/
+epub-doc/es/build/
