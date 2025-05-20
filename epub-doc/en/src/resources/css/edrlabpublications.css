@@ -4,7 +4,11 @@
 @namespace svg "http://www.w3.org/2000/svg";
 
 :root{
---color-blue:  #1053c8;
+--color-blue:  #005A9C;
+--color-dark: #252525;
+--color-light: #efefef;
+--color-primary: #005A9C;
+--color-secondary: #9C4200;
 }
 
 svg {
@@ -52,7 +56,7 @@ hr.asterism {
 
 /* We’re asking the rendering engine if it supports the flexbox layout module by using a feature query. */
 
-@supports ((display: flex) or (display: -webkit-flex)) {
+/* @supports ((display: flex) or (display: -webkit-flex)) { */
   .titlepage {
     min-height: 98vh;
     display: -webkit-flex;
@@ -70,6 +74,20 @@ hr.asterism {
     -webkit-align-self: flex-end;
 	align-self: flex-end;
   }
+/* } */
+
+.framed {
+    border: thin var(--color-primary) solid;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+nav[epub|type~=landmarks],
+nav[epub|type~=page-list] {
+  display: none
 }
 
 /* this does not works
