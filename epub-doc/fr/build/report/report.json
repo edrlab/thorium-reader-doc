@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "28/03/2025, 13:51:18",
+  "dct:date": "20/05/2025, 14:27:10",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -26,154 +26,154 @@
         "alt": "",
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../resources/images/cover.png\" alt=\"\" />",
-        "location": "cover/index.xhtml#epubcfi(/4/2/6/2)"
+        "location": "cover/index.xhtml#epubcfi(/4/2/4/2)"
       },
       {
         "src": "EPUB/resources/images/local_en/th3_main_window_home.png",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local_en/th3_main_window_home.png\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/2/14/2)"
+        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/2/12/2)"
       },
       {
         "src": "EPUB/resources/images/local_en/th3_main_settings_keys_context.png",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local_en/th3_main_settings_keys_context.png\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/2/44/6/4)"
+        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/2/42/6/4)"
       },
       {
         "src": "EPUB/resources/images/icons3/tag-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/tag-icon.svg\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/2/70/14/2)"
+        "location": "./pages/102_windows_views_panels/index.xhtml#epubcfi(/4/2/68/14/2)"
       },
       {
         "src": "EPUB/resources/images/local_en/th3_library_grid_actions.png",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local_en/th3_library_grid_actions.png\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/8/2)"
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/6/2)"
       },
       {
         "src": "EPUB/resources/images/local_en/th3_library_table_actions.png",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local_en/th3_library_table_actions.png\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/8/4)"
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/6/4)"
       },
       {
         "src": "EPUB/resources/images/icons3/info-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/info-icon.svg\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/8/6)"
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/6/6)"
       },
       {
         "src": "EPUB/resources/images/icons3/doubleCheck-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/doubleCheck-icon.svg\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/8/8)"
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/6/8)"
       },
       {
         "src": "EPUB/resources/images/icons3/bin-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/bin-icon.svg\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/8/10)"
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/6/10)"
       },
       {
         "src": "EPUB/resources/images/icons3/SaveAs-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/SaveAs-icon.svg\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/8/12)"
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/6/12)"
       },
       {
         "src": "EPUB/resources/images/icons3/search-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/search-icon.svg\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/16/2)"
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/14/2)"
       },
       {
         "src": "EPUB/resources/images/local_en/th3_library_pages.png",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local_en/th3_library_pages.png\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/28/2)"
+        "location": "./pages/110_libraries_actions/index.xhtml#epubcfi(/4/2/26/2)"
       },
       {
         "src": "EPUB/resources/images/local-fr/thorium-opds-add.png",
         "alt": "image",
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-fr/thorium-opds-add.png\" alt=\"image\" />",
-        "location": "./pages/111_catalogs_actions/index.xhtml#epubcfi(/4/2/20/2)"
+        "location": "./pages/111_catalogs_actions/index.xhtml#epubcfi(/4/2/18/2)"
       },
       {
         "src": "EPUB/resources/images/icons3/info-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/info-icon.svg\" class=\"icon\" alt=\"\" role=\"presentation\" />",
-        "location": "./pages/120_book_information_panel/index.xhtml#epubcfi(/4/2/6/4)"
+        "location": "./pages/120_book_information_panel/index.xhtml#epubcfi(/4/2/4/4)"
       },
       {
         "src": "EPUB/resources/images/icons3/tag-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/tag-icon.svg\" class=\"icon\" alt=\"\" role=\"presentation\" />",
-        "location": "./pages/120_book_information_panel/index.xhtml#epubcfi(/4/2/10/14/2)"
+        "location": "./pages/120_book_information_panel/index.xhtml#epubcfi(/4/2/8/14/2)"
       },
       {
         "src": "EPUB/resources/images/icons3/textarea-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/textarea-icon.svg\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/2/10/4)"
+        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/2/8/4)"
       },
       {
         "src": "EPUB/resources/images/local-fr/thorium-verdana.png",
         "alt": "Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture",
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-fr/thorium-verdana.png\" alt=\"Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture\" class=\"\" />",
-        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/2/30/2)"
+        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/2/28/2)"
       },
       {
         "src": "EPUB/resources/images/local-fr/thorium-luciole.png",
         "alt": "Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture",
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-fr/thorium-luciole.png\" alt=\"Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture\" class=\"\" />",
-        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/2/36/2)"
+        "location": "./pages/211_reading_textuals/index.xhtml#epubcfi(/4/2/34/2)"
       },
       {
         "src": "EPUB/resources/images/local-fr/thorium-search-navpanel.png",
         "alt": "Capture d'écran, la barre de recherche est présente au dessus du texte",
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local-fr/thorium-search-navpanel.png\" alt=\"Capture d'écran, la barre de recherche est présente au dessus du texte\" />",
-        "location": "./pages/220_reading_actions/index.xhtml#epubcfi(/4/2/10/2)"
+        "location": "./pages/220_reading_actions/index.xhtml#epubcfi(/4/2/8/2)"
       },
       {
         "src": "EPUB/resources/images/icons3/bookmarkSingle-icon.svg",
         "alt": "",
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/bookmarkSingle-icon.svg\" class=\"icon\" role=\"presentation\" alt=\"\" />",
-        "location": "./pages/230_bookmarks/index.xhtml#epubcfi(/4/2/10/4)"
+        "location": "./pages/230_bookmarks/index.xhtml#epubcfi(/4/2/8/4)"
       },
       {
         "src": "EPUB/resources/images/icons3/annotation-icon.svg",
         "alt": null,
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/icons3/annotation-icon.svg\" class=\"icon\" role=\"presentation\" />",
-        "location": "./pages/240_annotations/index.xhtml#epubcfi(/4/2/8/2)"
+        "location": "./pages/240_annotations/index.xhtml#epubcfi(/4/2/6/2)"
       },
       {
         "src": "EPUB/resources/images/local_en/th3_anotation_pop_up.png",
         "alt": null,
         "role": "presentation",
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../../resources/images/local_en/th3_anotation_pop_up.png\" class=\"icon\" role=\"presentation\" />",
-        "location": "./pages/240_annotations/index.xhtml#epubcfi(/4/2/10)"
+        "location": "./pages/240_annotations/index.xhtml#epubcfi(/4/2/8)"
       }
     ]
   },
@@ -344,10 +344,10 @@
             "dct:description": "Heading order invalid",
             "earl:pointer": {
               "cfi": [
-                "/4/2/22"
+                "/4/2/20"
               ],
               "css": [
-                "h5:nth-child(11)"
+                "h5:nth-child(10)"
               ]
             },
             "html": "<h5 xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de flux OPDS avec contenu protégé par LCP</h5>"

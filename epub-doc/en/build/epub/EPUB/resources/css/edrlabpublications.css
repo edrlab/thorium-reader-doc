@@ -46,7 +46,13 @@ hr.asterism {
   /* Better border color match in night mode (less disruptive) */
 }
 
-@supports ((display: flex) or (display: -webkit-flex)) {
+
+/* From Readium CSS. For demo’s sake, we’ll vertical-align the book’s title in the bottom-right corner of the screen.
+   This should be responsive as we don’t constrain the “page” sizing when the user sets a larger font-size. */
+
+/* We’re asking the rendering engine if it supports the flexbox layout module by using a feature query. */
+
+/* @supports ((display: flex) or (display: -webkit-flex)) { */
   .titlepage {
     min-height: 98vh;
     display: -webkit-flex;
@@ -55,6 +61,11 @@ hr.asterism {
     flex-direction: column;
   }
   .titlepage h1 {
+    margin: auto 0 0 0;
+    -webkit-align-self: flex-end;
+	align-self: flex-end;
+  }
+    .titlepage p {
     margin: auto 0 0 0;
     -webkit-align-self: flex-end;
 	align-self: flex-end;
