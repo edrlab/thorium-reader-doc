@@ -2,27 +2,18 @@
 title: Title page
 role: doc-credit
 epubtype: credit
+class: titlepage
 draft: false
 weight: 100
 auto: false
 ---
 
-<p class="titlepage">
-Published in February 2025 by The European Digital Reading Lab (EDRLab), a non-profit development laboratory.
-</p>
+# Thorium Reader
 
----
+Read, Select, Annotate, Classify<br/>
+Perfect for heavy readers, library-goers, and students alike!<br/>
+No ads, or data leaks to worry about
 
-<div class="titlepage">
-Paris, France
+<hr aria-hidden="true"/>
 
-15 Rue de la Bûcherie, 75005 
-
-[contact@edrlab.org](mailto:contact@edrlab.org)
-
-[edrlab.org](https://www.edrlab.org/)
-
-</div>
-
-
----
+The European Digital Reading Lab (EDRLab)
