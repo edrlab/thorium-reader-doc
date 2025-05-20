@@ -2,6 +2,7 @@
 title: Lectura de contenidos textuales
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 

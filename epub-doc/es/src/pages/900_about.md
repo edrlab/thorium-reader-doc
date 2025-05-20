@@ -2,6 +2,7 @@
 title: Acerca de este libro electrónico
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 # Acerca de este libro electrónico
