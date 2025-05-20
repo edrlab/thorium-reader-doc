@@ -46,6 +46,12 @@ hr.asterism {
   /* Better border color match in night mode (less disruptive) */
 }
 
+
+/* From Readium CSS. For demo’s sake, we’ll vertical-align the book’s title in the bottom-right corner of the screen.
+   This should be responsive as we don’t constrain the “page” sizing when the user sets a larger font-size. */
+
+/* We’re asking the rendering engine if it supports the flexbox layout module by using a feature query. */
+
 @supports ((display: flex) or (display: -webkit-flex)) {
   .titlepage {
     min-height: 98vh;
