@@ -2,6 +2,7 @@
 title: Accessibilité
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 
