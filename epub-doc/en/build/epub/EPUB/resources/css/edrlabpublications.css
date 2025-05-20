@@ -46,6 +46,21 @@ hr.asterism {
   /* Better border color match in night mode (less disruptive) */
 }
 
+@supports ((display: flex) or (display: -webkit-flex)) {
+  .titlepage {
+    min-height: 98vh;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  .titlepage h1 {
+    margin: auto 0 0 0;
+    -webkit-align-self: flex-end;
+	align-self: flex-end;
+  }
+}
+
 /* this does not works
 @media (prefers-color-scheme: dark) {
   .icons{

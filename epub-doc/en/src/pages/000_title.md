@@ -7,13 +7,13 @@ weight: 100
 auto: false
 ---
 
-<p class="title colbreak">
+<p class="titlepage">
 Published in February 2025 by The European Digital Reading Lab (EDRLab), a non-profit development laboratory.
 </p>
 
 ---
 
-<div class="title">
+<div class="titlepage">
 Paris, France
 
 15 Rue de la Bûcherie, 75005 

@@ -7,13 +7,13 @@ weight: 100
 auto: false
 ---
 
-<p class="title colbreak">
+<p class="titlepage">
 Publié en février 2025 par <br/> European Digital Reading Lab (EDRLAB), un laboratoire de développement à but non lucratif.
 </p>
 
 ---
 
-<div class="title">
+<div class="titlepage">
 Paris, France
 
 15 Rue de la Bûcherie, 75005 

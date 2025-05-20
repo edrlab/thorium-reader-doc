@@ -9,14 +9,14 @@ auto: false
 
 
 
-<p class="title colbreak">
+<p class="titlepage">
 Publicado en febrero de 2025 por 
 <br/>el European Digital Reading Lab (EDRLAB), un laboraThorium de desarrollo sin fines de lucro.
 </p>
 
 ---
 
-<div class="title">
+<div class="titlepage">
 París, Francia
 
 15 Rue de la Bûcherie, 75005 
