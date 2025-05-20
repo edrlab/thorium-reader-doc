@@ -2,6 +2,7 @@
 title: Windows, views and panels
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 

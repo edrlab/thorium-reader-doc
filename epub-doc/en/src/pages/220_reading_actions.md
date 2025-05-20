@@ -2,6 +2,7 @@
 title:  Search in a book
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 
