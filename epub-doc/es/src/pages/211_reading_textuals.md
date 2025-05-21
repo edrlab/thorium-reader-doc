@@ -40,7 +40,7 @@ Al seleccionar el `...` puede ingresar el nombre de la fuente que desea
 usar. Para hacer esto, la fuente debe estar presente en su sistema operativo y
 Debe conocer su nombre exacto, ya que está configurado para el sistema operativo.
 
-<div class="info">
+<div class="framed">
 
 #### Ejemplo 1: Configuración de Verdana como la fuente de lectura {#read_text_example_verdana}
 
@@ -85,7 +85,7 @@ barras laterales según la semántica indicada durante la producción de
 El libro digital. `Split TTS` dividirá el contenido por oración para
 Destacado más preciso.
 
-<div class="info">Thorium usa las voces del sistema operativo de la computadora, en
+<div class="framed">Thorium usa las voces del sistema operativo de la computadora, en
 Combinación con la información del idioma proporcionada por el libro. Si usted
 problemas de experiencia verifique la entrada de preguntas frecuentes relacionadas 
 

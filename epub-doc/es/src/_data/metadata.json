@@ -1,10 +1,10 @@
 {
   "dc": {
-    "title": "Guía del usuario del lector Thorium Reader (español, 3.1)",
+    "title": "Guía del usuario del lector Thorium Desktop (español, 3.2)",
     "creator": "The European Digital Reading Lab",
     "publisher": "The European Digital Reading Lab",
-    "description": "Esta es la documentación oficial del Thorium  3.1. Ofrece orientación para ayudarlo a conocer y hacer un mejor uso del lector de Thorium . Las referencias de soporte rápido no se incluyen aquí y están disponibles en línea desde las páginas web de soporte de Thorium.",
-    "identifier": "com.github.edrlab.thorium-reader-doc-epub-es.3.1.0",
+    "description": "Esta es la documentación oficial del Thorium  3.2. Ofrece orientación para ayudarlo a conocer y hacer un mejor uso del lector de Thorium . Las referencias de soporte rápido no se incluyen aquí y están disponibles en línea desde las páginas web de soporte de Thorium.",
+    "identifier": "com.github.edrlab.thorium-reader-doc-epub-es.3.2.0",
     "language": "en",
     "rights": "Creative Commons Attribution-compartir (CC BY-SA) Licencia."
   },
@@ -15,7 +15,7 @@
     }
   ],
   "properties": {
-    "dcterms:modified": "2025-01-30T00:00:00Z",
+    "dcterms:modified": "2025-05-30T00:00:00Z",
     "schema:accessibilityFeature": ["alternativeText", "readingOrder","structuralNavigation", "tableOfContents"],
     "schema:accessMode": ["textual","visual"],
     "schema:accessModeSufficient": "textual",

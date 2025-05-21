@@ -8,24 +8,16 @@ auto: false
 ---
 
 
+# Thorium Desktop
 
-<p class="titlepage">
-Publicado en febrero de 2025 por 
-<br/>el European Digital Reading Lab (EDRLAB), un laboraThorium de desarrollo sin fines de lucro.
-</p>
+<hr aria-hidden="true"/>
 
----
+Leer, Seleccionar, Anotar, Clasificar
 
-<div class="titlepage">
-París, Francia
+Perfecto para lectores empedernidos, bibliotecarios y estudiantes.
 
-15 Rue de la Bûcherie, 75005 
+Sin anuncios ni fugas de datos de las que preocuparse
 
-[contact@edrlab.org](mailto:contact@edrlab.org)
+<hr aria-hidden="true"/>
 
-[edrlab.org](https://www.edrlab.org/)
-
-</div>
-
-
----
+European Digital Reading Lab (EDRLab)
