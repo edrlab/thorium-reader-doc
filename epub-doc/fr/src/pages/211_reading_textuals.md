@@ -73,7 +73,7 @@ La synthèse vocale est lancée à l'aide du bouton du haut-parleur au milieu de
 
 - Une vue alternative (simplifiée) de la publication est fournie via des options disponibles dans le menu `Settings / Readaloud`.
 
-<div class="info"> 
+<div class="framed"> 
 Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante 
 
 [Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](https://thorium.edrlab.org/fr/th3/400_ressources/430_faq/#TTSvoices).

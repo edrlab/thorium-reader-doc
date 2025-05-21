@@ -13,7 +13,7 @@ For textual contents Thorium provides visual reading and audio playback.
 ### Text adjustment settings {#read_text_adjust}
 
 In the reading interface use the `Preferences` button 
-<img src="../../resources/images/icons3/textarea-icon.svg" role="presentation" alt=""/>
+<img src="../../resources/images/textarea-icon.svg" role="presentation" alt=""/>
 
 
 Reading settings can be saved or reset by using buttons <span class="ui_button">Save</span> and <span class="ui_button">Reset</span> located in the menu
@@ -21,7 +21,7 @@ Reading settings can be saved or reset by using buttons <span class="ui_button">
 Reading window.
 
 Major settings are available for EPUB Reflowable , Fixed Layout EPUBs and
-PDF formats just don\'t allow personalisation of appearance. Most Fixed
+PDF formats just don't allow personalisation of appearance. Most Fixed
 Layout EPUBs will allow to open Image view for zooming on a page. PDFs
 can be enlarged using the Zoom sub-menu in the Preferences panel.
 
@@ -41,7 +41,7 @@ By selecting the `...` you can enter the name of the font you want to
 use. To do this, the font must be present on your operating system and
 you must know its exact name as it is set for the operating system.
 
-<div class="info">
+<div class="framed">
 
 #### Example 1: Setting Verdana as the reading font {#read_text_example_verdana}
 
@@ -52,8 +52,6 @@ you must know its exact name as it is set for the operating system.
     drop-down list.
 4.  Confirm with <kbd>Enter</kbd>.
 
-![Screenshot showing the Text settings Pannel with verdana set up as
-reading font](../../resources/images/local-fr/thorium-verdana.png)
 
 #### Example 2: Setting up Luciole as the reading font {#read_text_example_luciole}
 
@@ -66,8 +64,6 @@ reading font](../../resources/images/local-fr/thorium-verdana.png)
     drop-down list.
 5.  Confirm with <kbd>Enter</kbd>.
 
-![Screenshot showing the Text settings Pannel with Luciole set up as
-reading font](../../resources/images/local-fr/thorium-luciole.png)
 </div>
 
 ### Display {#read_text_display}
@@ -90,11 +86,10 @@ sidebars according to the semantics indicated during the production of
 the digital book. `Split TTS` will split the content by sentence for
 more precise highlighting.
 
-<div class="info">
+<div class="framed">
 Thorium uses the voices from the computer's operating system, in
 combination with the language information provided by the book. If you
-experience problems please check the related FAQ entry \[I can\'t select
-the adequate voice for read aloud function (TTS)\]([../../400_ressources/430_faq.xhtml#TTSvoices](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/#TTSvoices)).
+experience problems please check the related FAQ entry.
 </div>
 
 ### Text to Speech (TTS) {#read_text_TTS}
@@ -117,10 +112,10 @@ toolbar, or by using the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 -   An alternative (simplified) view of the publication is provided
     through options available in the `Settings / Readaloud` menu.
 
-<div class="info">
+<div class="framed">
 Thorium uses the voices from the computer's operating system, in
-combination with the language information provided by the book. If you
-experience problems please check the related FAQ entry \[I can\'t select
-the adequate voice for read aloud function
-(TTS)\](../../400_ressources/430_faq.xhtml#TTSvoices).
+combination with the language information provided by the book. 
+If you experience problems please check the 
+[online related FAQ entry](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html).
+
 </div>

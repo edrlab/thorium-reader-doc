@@ -6,8 +6,6 @@ class: colbreak
 draft: false
 ---
 
-
-
 # Catalogs actions {#Catalogs_actions}
 
 ## Setting up an OPDS catalog
@@ -34,8 +32,6 @@ titles](https://www.gutenberg.org/ebooks/search.opds/){target="_blank"}
 Since Thorium 2.2, OPDS feeds can be edited so you can change the name
 or retrieve feed URL.
 
-![image](../../resources/images/local-fr/thorium-opds-add.png)
-
 ### Example of OPDS feeds with LCP protected contents
 
 Feeds with protected contents should allow you to login directly from
@@ -50,7 +46,7 @@ address: [Open Archive.org OPDS feed](https://archive.org/services/opds)
 You can use [feedbooks
 OPDS](https://catalog.feedbooks.com/catalog/index.json) to browse
 [Feedbook catalog](https://www.feedbooks.com/#). Once you have selected
-a book you\'ll be redirected to the webpage where you can buy the book.
+a book you'll be redirected to the webpage where you can buy the book.
 
 Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the
 *Shelf* button on the upper right corner. Anybook bought with your
@@ -77,7 +73,7 @@ in Thorium Reader allows you to download an ebook or audiobook directly
 into Thorium Reader for instant reading.
 
 To connect your French public library account, enter a French city
-(\'Montpellier\') or part of the library name in the Search field and
+('Montpellier') or part of the library name in the Search field and
 hit the Search button. A list of public libraries corresponding to your
 search will appear. Select a library and hit Add. In the updated list of
 catalogs, select this library: an authentication form is displayed.

@@ -28,7 +28,7 @@ This view is for quick access. You find here the books you have been
 reading recently and the ones you added recently. Possible actions are
 to *Import a Publication*, to *Open a publication* and to *Open Publication menu*. 
 
-### All publications View {#all_publications_view}
+### <span class="ui_button">All publications</span> View {#all_publications_view}
 
 This is the place where all your publications stands. With time it may
 become full of hundreds of books so you need options to sort and search.
@@ -105,40 +105,26 @@ window that you can arrange at your will.
 
 Reachable from the reading window top toolbar, that panel contains a dropdown menu to access different navigation means. The availability and content of each navigation mean. For epub, those are:
 
-* <span class="ui_button">Table of Content</span> (TOC), an authored listing of ebook content, usually similar to the content heading structure but not necessary. A content creator can decide per example to limit the Table of Content to a certain depth.
-* <span class="ui_button">Landmarks</span>, an authored list of major interest points of the ebook, usually Forewords, Copyright notice, Main content and annexes. 
-* <span class="ui_button">Go to page</span>, an authored list of page breaks. The page list may refers to a print version and allow to use the ebook in a mixed reading environment, so it becomes possible to locate or make a citation. In such case, Thorium Reader actually offers no mean to identify the related print book, it has to be textually and explicitly informed in the content by the content creator.  
-* <span class="ui_button">Search</span>, a generated list of search match(es) to help reader navigate between search results. This panel has content only when the search function is activated. 
-* <span class="ui_button">Bookmarks</span>, a generated list of user bookmarks. This panel  offer the possibility to delete the bookmark or edit it's attached text and informs in percents the reading progression where it stands.
-* <span class="ui_button">Annotations</span>, a generated list of user annotations
+* <img src="../../resources/images/toc-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Table of Content</span> (TOC), an authored listing of ebook content, usually similar to the content heading structure but not necessary. A content creator can decide per example to limit the Table of Content to a certain depth.
+* <img src="../../resources/images/landmark-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Landmarks</span>, an authored list of major interest points of the ebook, usually Forewords, Copyright notice, Main content and annexes. 
+* <img src="../../resources/images/target-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Go to page</span>, an authored list of page breaks. The page list may refers to a print version and allow to use the ebook in a mixed reading environment, so it becomes possible to locate or make a citation. In such case, Thorium Reader actually offers no mean to identify the related print book, it has to be textually and explicitly informed in the content by the content creator.  
+* <img src="../../resources/images/search-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Search</span>, a generated list of search match(es) to help reader navigate between search results. This panel has content only when the search function is activated. 
+* <img src="../../resources/images/bookmarkMultiple-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Bookmarks</span>, a generated list of user bookmarks. This panel  offer the possibility to delete the bookmark or edit it's attached text and informs in percents the reading progression where it stands.
+* <img src="../../resources/images/annotation-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Annotations</span>, a generated list of user annotations
 
 ### Reading settings panel {#reading_settings_panel}
 
 Reachable from the reading window top toolbar, that panel contains all possible user settings to adjust the display of the textual contents. It is important to remember that such possibilities may be restricted by how the content was created. 
 
 Detailed information about available reading settings per formats are available from the 
-<a href="../210_reading/index.xhtml">Reading sub sections</a>:
-<ul>
-   <li>
-      <a href="../211_reading_textuals/index.xhtml">Reading textual contents</a>
-    </li>
-    <li>
-      <a href="../212_reading_visuals/index.xhtml">Reading visual contents</a>
-    </li>
-    <li>
-      <a href="../213_reading_auditory/index.xhtml">Reading audio contents</a>
-    </li>
-    <li>
-      <a href="../214_reading_pdfs/index.xhtml">Reading PDFs</a>
-    </li>
-</ul>
+<a href="../210_reading/index.xhtml">Reading sub sections</a>.
 
 ## Book Information panel {#book_info_panel}
 
 Book Information is available in a dedicated panel that can be reached
 from the library shelves book action menu
  <span class="ui_button">About publication</span> or from the Reading window Information Icon
-<img src="../../resources/images/info-icon.svg" alt="" role="presentation"/>.
+<img src="../../resources/images/info-icon.svg" alt="" role="presentation" class="icon"/>.
 
 This Panel displays ebook information as provided by the file, the
 trustness of this information relies on the creator of the file, usually

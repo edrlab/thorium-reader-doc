@@ -33,3 +33,22 @@ Navigation in zen mode is only possible with keyboard arrows and shortcuts. Touc
 The alternative Fullscreen mode can be launched with keyboard shortcut 
 <kbd>Ctrl</kbd> + <kbd>F11</kbd>. In this mode, the user interface buttons such as top buttons, side arrows and bottom left jump back and forward icons. 
 
+
+## Search in a book {#read_search}
+
+You can use <kbd>Ctrl</kbd> + <kbd>F</kbd> keys to access the search field.
+Enter your search term. By clicking on the `Search` button, you get
+`Back` and `Next` buttons to navigate between occurences. The number of
+matches found is a link that will open a `List of results` in the right
+panel. Each match displayed is a link you can Activate to go to the
+place of the book where the expression you are looking for was found.
+
+ warning
+Remember that performing a search and navigating thru the results will
+make you loose the reading point you where at. Just place a Bookmark to
+make sure you find your way back.
+
+
+
+
+
