@@ -2,9 +2,27 @@
 title: Acerca de este libro electrónico
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 # Acerca de este libro electrónico
+
+
+Publicado en febrero de 2025 por 
+<br/>el European Digital Reading Lab (EDRLAB), un laboraThorium de desarrollo sin fines de lucro.
+
+
+---
+
+París, Francia
+
+15 Rue de la Bûcherie, 75005 
+
+[contact@edrlab.org](mailto:contact@edrlab.org)
+
+[edrlab.org](https://www.edrlab.org/)
+
+---
 
 ## Créditos
 

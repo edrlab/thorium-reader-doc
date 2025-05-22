@@ -2,11 +2,24 @@
 title: About this ebook
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 
-
 # About this ebook
+
+Published in February 2025 by The European Digital Reading Lab (EDRLab), a non-profit development laboratory.
+
+---
+
+Paris, France
+
+15 Rue de la Bûcherie, 75005 
+
+[contact@edrlab.org](mailto:contact@edrlab.org)
+
+[edrlab.org](https://www.edrlab.org/)
+
 
 ## Credits
 

@@ -2,6 +2,7 @@
 title: Lecture des PDF
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 

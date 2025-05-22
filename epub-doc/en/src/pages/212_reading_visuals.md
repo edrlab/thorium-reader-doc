@@ -2,6 +2,7 @@
 title: Reading visual contents
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 

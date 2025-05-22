@@ -2,6 +2,7 @@
 title: Recursos
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 # Recursos

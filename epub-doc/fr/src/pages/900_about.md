@@ -6,6 +6,22 @@ draft: false
 
 # À propos de cet ebook
 
+Publié en février 2025 par <br/> European Digital Reading Lab (EDRLAB), un laboratoire de développement à but non lucratif.
+
+
+---
+
+Paris, France
+
+15 Rue de la Bûcherie, 75005 
+
+[contact@edrlab.org](mailto:contact@edrlab.org)
+
+[edrlab.org](https://www.edrlab.org/)
+
+
+---
+
 ## Crédits
 
 Ce livre électronique de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.

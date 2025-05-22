@@ -2,6 +2,7 @@
 title: Acciones de bibliotecas
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 

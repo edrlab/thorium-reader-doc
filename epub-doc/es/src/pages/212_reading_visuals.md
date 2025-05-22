@@ -2,6 +2,7 @@
 title: Lectura de contenidos visuales
 role: doc-chapter
 epubtype: chapter
+class: colbreak 
 draft: false
 ---
 # Lectura de contenidos visuales
