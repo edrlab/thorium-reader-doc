@@ -64,7 +64,7 @@ Thorium Reader Desktop supports différent publication formats. Each format comi
 
 * DAISY Usually produced and distributed by specialized libraries or NGOs, the DAISY format offers a significantly enhanced reading experience for ebooks that are not available in EPUB3. Thorium supports reading DAISY 3 and 2.02, both in their text only, audio only, and syncronised text and audio.
 
-* PDF despite a well-known lack of flexibility (no reflow option) and accessibility, many ebooks are still available in PDF only, especially in public libraries.
+* PDF (Portable Document Format) is a fixed layout format reproducing the printed reading experience.
 
 * Audiobooks a standardized format for audiobooks has been designed by the W3C Publishing Working Group in 2020, and EDRLab was part of this WG. Thorium is supporting the packaged (LPF) audiobook format, which will soon be widely used by booksellers, or so we hope.
 
@@ -81,7 +81,7 @@ Each key combination can be changed in Thorium
 [Application Setting Panel](../102_windows_views_panels/index.xhtml#setting_view). 
 Figure out the three dots menu aside of the Panel title with extra actions 
 (Reset, Edit and Load). The Edit one opens system folder application to the
-localisation of the stored user setting .json file, allowing you to
+localisation of the stored user setting `.json` file, allowing you to
 edit it outside of the application (at your own risks) 
 or save it for future uses or share it within your devices or with who you want.
 

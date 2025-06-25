@@ -32,7 +32,7 @@ main windows close the application and all reading windows opened.
 
 This view is for quick access. You find here the books you have been
 reading recently and the ones you added recently. Possible actions are
-to *Import a Publication*, to *Open a publication* and to *Open Publication menu*. 
+to <span class="ui_button">Import Publication</span>, to *Open a publication* by activating the link on it's cover and to *Open Publication menu* using the three dots menu button <img src="../../resources/images/threedot.svg" class="icon"  alt="" role="presentation"/>. 
 
 
 </section>
@@ -83,7 +83,7 @@ details.
 This is the place where you can store, access, browse online catalogs
 and acquire or borrow ebooks from them. At first this place will sound
 empty because we do not preload any catalog. The *online additional
-support [Where to get ebooks?](https://thorium.edrlab.org/th3/get_ebooks/)* 
+support [Where to get ebooks?](https://thorium.edrlab.org/en/th3/get_ebooks/)* 
 section can help you identify available catalogs if you do not already have one in mind.
 
 Two catalogs protocoles are available.
@@ -106,8 +106,7 @@ Application settings is divided in three tabs:
 
 1.  The <span class="ui_button">General</span> Tab allow you to:
     1. *select the language* of the interface, 
-    2. *Manage stored authentification access to catalogues*. The <span class="ui_button">clear login data</span> button will delete any Catalog authentification previously stored (useful if you are reading on a public or shared computer or if you want to change the account with
-    wich you are connected).
+    2. *Access to publication catalogues*. The <span class="ui_button">clear login data</span> button will delete any Catalog authentification previously stored (useful if you are reading on a public or shared computer or if you want to change the account with wich you are connected).
     2. *Save session* (meaning that the application will remember the
     windows opened at closing and reopen them when launched again).
     4. *Add a library account* by activating access to Dilicom PNB API. A How does it works foldable gives more details about this functionality used to access French public libraries.
@@ -140,7 +139,7 @@ window that you can arrange at your will.
 
 ### Reading navigation panel {#reading_nav_panel}
 
-Reachable from the reading window top toolbar, that panel contains a dropdown menu to access different navigation means. The availability and content of each navigation mean. For epub, those are:
+Reachable from the reading window top toolbar thru a open book icon<img src="../../resources/images/open_book.svg" class="icon" alt="" role="presentation"/>, that panel contains a dropdown menu to access different navigation means. The availability and content of each navigation mean. For epub, those are:
 
 * <img src="../../resources/images/toc-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Table of Content</span> (TOC), an authored listing of ebook content, usually similar to the content heading structure but not necessary. A content creator can decide per example to limit the Table of Content to a certain depth.
 * <img src="../../resources/images/landmark-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Landmarks</span>, an authored list of major interest points of the ebook, usually Forewords, Copyright notice, Main content and annexes. 
