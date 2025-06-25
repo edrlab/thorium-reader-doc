@@ -6,125 +6,105 @@ draft: false
 weight: 100
 ---
 
-Thorium is a digital book reader, it is also a library where you can
-store your books and access to online catalogs.
+Thorium est un lecteur de livres numériques, c'est aussi une bibliothèque où vous pouvez stocker vos livres et accéder à des catalogues en ligne.
 
-Thorium allows to read ebooks in different,
-each of them having strengths and limitations. This documentation is
-provided as an EPUB, the format with the larger number of
-functionalities.
+Thorium permet de lire des livres numériques dans différents formats,
+chacun d'entre eux ayant des points forts et des limites. Cette documentation est
+est fournie en EPUB, le format qui offre le plus grand nombre de fonctionnalités.
 
 ------------------------------------------------------------------------
 
-This software is free, open-source and as such, its development is only
-possible because it is funded by different organizations. Among these,
-members of EDRLab, private or public grants and small recurring
-donations from happy users (individuals or companies). If you rely on
-this application, consider [support thru funding and sponsorhip](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/)
+Ce logiciel est gratuit, open-source et, en tant que tel, son développement n'est possible que parce qu'il est financé par différentes organisations.
+Parmi celles-ci,
+les membres de l'EDRLab, des subventions privées ou publiques et de petites
+récurrents de la part d'utilisateurs satisfaits (particuliers ou entreprises). Si vous comptez sur
+cette application, envisagez de [soutenir par le financement et le parrainage](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/)
 
 <section class="filet">
 
-## This is the documentation for Thorium 3, and it is a work in progress! {#th3}
+## Ceci est la documentation pour Thorium 3, et c'est un travail en cours ! {#th3}
 
-Thorium 3 introduces numerous changes and, we hope, a friction less
-reading experience. This documentation is a work in progress trying to
-support new users discovering the software as well as providing the
-missing links for the experimented readers.
+Thorium 3 introduit de nombreux changements et, nous l'espérons, une expérience de lecture facilitée. 
+Cette documentation est un travail en cours qui vise à
+d'aider les nouveaux utilisateurs qui découvrent le logiciel et de fournir les liens manquants pour les lecteurs expérimentés.
 
 
 </section>
 <section class="filet">
 
-## Additional material available online {#th3add}
+## Matériel supplémentaire disponible en ligne {#th3add}
 
-To complete this documentation, the [thorium
-website](https://thorium.edrlab.org) proposes a frequently asked
-questions section as well as a list of ressources including place to
-find ebooks online.
+Pour compléter cette documentation, le [site web du thorium](https://thorium.edrlab.org) propose une foire aux questions ainsi qu'une liste de ressources, y compris des liens pour trouver des trouver des livres électroniques en ligne.
 
-[Github Thorium Issue
-tracker](https://github.com/edrlab/thorium-reader/issues) can also be
-browsed to find answers to specific use cases and give us feedback about
-any difficulty or bug affecting your reading experience.
+Le [Github Thorium Issue tracker](https://github.com/edrlab/thorium-reader/issues) peut également être consulté pour trouver des réponses à des cas d'utilisation spécifiques et nous faire part des
+toute difficulté ou bogue affectant votre expérience de lecture.
 
 
-# Before using Thorium Reader Desktop
+# Avant d'utiliser Thorium Reader Desktop
 
-This user guide limits itself to providing details on features and actions. Aside from it you'll find dedicated ressources in the app itself or on the <a href="https://thorium.edrlab.org/en/th3/"><span>online support webpages </span></a>
+Ce guide d'utilisation se limite à fournir des détails sur les fonctionnalités et les actions. Vous trouverez des ressources dédiées dans l'application elle-même ou sur les pages web du support en ligne.
 
 
 </section>
 <section class="filet">
 
-## Supported publication formats
+## Formats de publication pris en charge
 
-Thorium Reader Desktop supports différent publication formats. Each format coming with particularities, it is not always possible to offer the same features for all. 
+Thorium Reader Desktop supporte différents formats de publication. Chaque format ayant ses particularités, il n'est pas toujours possible d'offrir les mêmes fonctionnalités pour tous les formats.
 
-* EPUB (Electronic PUBlication) is an open file format for electronic publications. EPUB is a native semantic format allowing to use numerous standardised languages such as HTML, ARIA, MATHML, SVG and others. The actual version 3 is known to provide the best up to date reading experience. Obsolete EPUB2 files are also readable in Thorium.
+* EPUB (Electronic PUBlication) est un format de fichier ouvert pour les publications électroniques. EPUB est un format sémantique natif permettant d'utiliser de nombreux langages standardisés tels que HTML, ARIA, MATHML, SVG et autres. La version 3 actuelle est connue pour fournir la meilleure expérience de lecture à jour. Les fichiers EPUB2 obsolètes sont également lisibles dans Thorium.
 
-* DAISY Usually produced and distributed by specialized libraries or NGOs, the DAISY format offers a significantly enhanced reading experience for ebooks that are not available in EPUB3. Thorium supports reading DAISY 3 and 2.02, both in their text only, audio only, and syncronised text and audio.
+* DAISY est un format généralement produit et distribué par des bibliothèques spécialisées ou des ONG, le format DAISY offre une expérience de lecture améliorée pour les livres électroniques qui ne sont pas disponibles en EPUB3. Thorium supporte la lecture des formats DAISY 3 et 2.02, qu'il s'agisse du texte seul, de l'audio seul ou du texte et de l'audio synchronisés.
 
-* PDF despite a well-known lack of flexibility (no reflow option) and accessibility, many ebooks are still available in PDF only, especially in public libraries.
+* PDF (Portable Document Format) est un format à mise en page fixe reproduisant l'expérience de lecture de l'imprimé.
+  
+* Audiobooks : un format standardisé pour les audiobooks a été conçu par le groupe de travail W3C Publishing Working Group en 2020. Thorium supporte le format de livre audio packagé (LPF), qui sera bientôt largement utilisé par les libraires, du moins nous l'espérons.
 
-* Audiobooks a standardized format for audiobooks has been designed by the W3C Publishing Working Group in 2020, and EDRLab was part of this WG. Thorium is supporting the packaged (LPF) audiobook format, which will soon be widely used by booksellers, or so we hope.
-
-* Visual narratives, a standard format for comics, manga, webtoons and other styles of digital works based on sequences of images. Divina is the name of this format. This is still an experimental format.
+* Divina, un format standard pour les bandes dessinées, les mangas, les webtoons et d'autres styles d'œuvres numériques basées sur des séquences d'images. Il s'agit d'un format encore expérimental.
 
 
 
 </section>
 <section class="filet">
 
-## Keyboard functions {#keyboard}
+## Fonctions du clavier {#keyboard}
 
-Each key combination can be changed in Thorium 
-[Application Setting Panel](../102_windows_views_panels/index.xhtml#setting_view). 
-Figure out the three dots menu aside of the Panel title with extra actions 
-(Reset, Edit and Load). The Edit one opens system folder application to the
-localisation of the stored user setting .json file, allowing you to
-edit it outside of the application (at your own risks) 
-or save it for future uses or share it within your devices or with who you want.
+Chaque combinaison de touches peut être modifiée dans le [panneau des préférences de l'application](../102_windows_views_panels/index.xhtml#setting_view).
+Découvrez le menu à trois points à côté du titre du panneau avec des actions supplémentaires
+(Réinitialiser, Modifier et Charger). L'action Modifier ouvre l'application du dossier système à la
+localisation du fichier `.json` des paramètres utilisateur stockés, ce qui vous permet de le modifier en dehors de l'application (au niveau de l'écran).
+de le modifier en dehors de l'application (à vos risques et périls)
+ou de le sauvegarder pour des utilisations futures ou de le partager avec vos appareils ou avec qui vous voulez.
 
-Since 3.2, it is possible to filter actions thru a search box to ease finding keyboard shortcuts.
+Depuis la version 3.2, il est possible de filtrer les actions à travers un champ de recherche pour faciliter la recherche de raccourcis clavier.
 
-The default setup is available online at support page <a href="https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/"><span>Keyboard shortcuts</span></a>
+La configuration par défaut est disponible en ligne sur la page de support <a href="https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/"><span>Raccourcis clavier</span></a>
 
 
 </section>
 <section class="filet">
 
-## Tactile gestures {#tactile}
+## Gestes tactiles {#tactile}
 
-Thorium Reader has limited onscreen touch gesture control. They are
-mainly implemented for Image zoom control and turning pages. Some native
-operating system gestures may also work.
+Le Thorium Reader dispose d'un contrôle gestuel tactile limité à l'écran. Ils sont
+principalement mis en œuvre pour le contrôle du zoom de l'image et pour tourner les pages. Certains gestes du système d'exploitation
+du système d'exploitation peuvent également fonctionner.
 
-The following list repertories the known working gestures so far:
+La liste suivante répertorie les gestes connus qui fonctionnent à ce jour :
 
-* *Tap, in All views* will Activates button
-* *Tap then select and move cursors*, On text will Select text
-* *Place one finger on the screen and slide horizontally or vertically when Reading in scrollable layout* will Scroll
-* *Place one finger on the screen and slide horizontally when Reading in paginated layout* will Turn page
-* *Place fingers on the screen and pinch in or stretch out when Image zoom* view will Zoom in or out
-* *Press and hold in All views* will Show more commands (like right-clicking)
+*Taper, dans toutes les vues* activera le bouton
+*Taper puis sélectionner et déplacer les curseurs*, sur un texte, sélectionnera le texte
+* *Placer un doigt sur l'écran et faire glisser horizontalement ou verticalement lors de la lecture dans une présentation déroulante* fera défiler le texte
+* *Placer un doigt sur l'écran et faire glisser horizontalement lorsque vous lisez dans une présentation paginée* passera à la page suivante.
+* *Placer les doigts sur l'écran et pincer ou étirer dans un panneau image*  permet d'effectuer un zoom avant ou arrière.
+* *Appuyer et maintenir dans toutes les vues* affichera d'autres commandes (comme le clic droit).
 
-# Opening Thorium Reader {#getabook}
+# Ouverture du lecteur de thorium {#getabook}
 
-Once Thorium reader is installed on your system, severals ways are
-possible to open it.
+Une fois que le Thorium est installé sur votre système, plusieurs façons  sont possibles pour l'ouvrir.
 
--   Thorium can be launched from the application menu or from any
-    shortcut created. This action will open the [library home
-    view]() and will allow you to choose a book or to add
-    one but also to access to [catalogs]() and organize your
-    collection. To read a book just click on it or validate with
-    <kbd>Enter</kbd> when selected.
--   Select the book you want to read, use the `contextual menu` (right
-    click), select `open with` and then select `Thorium`.
--   You can set the default application for certain file types through
-    the Windows settings. Select a file, open the context menu, select
-    `Open with`, in the pop-up window select `Thorium`, check the box
-    `Always open with`. This operation must be repeated for each file
-    format you wish to read with Thorium.
+- Thorium peut être lancé à partir du menu de l'application ou à partir de n'importe quel raccourci créé. Cette action ouvrira la vue d'accueil de la bibliothèque et vous permettra de choisir un livre ou d'en ajouter un autre, mais aussi d'accéder aux [catalogues]() et d'organiser votre bibliothèque. Pour lire un livre, il suffit de cliquer dessus ou de valider avec <kbd>Entrée</kbd> lorsqu'il est sélectionné.
+- Sélectionnez le livre que vous voulez lire, utilisez le `menu contextuel` (clic droit), sélectionnez `ouvrir`.
+- Vous pouvez définir l'application par défaut pour certains types de fichiers dans les paramètres de Windows. Sélectionnez un fichier, ouvrez le menu contextuel, sélectionnez `Ouvrir avec`, dans la fenêtre pop-up sélectionnez `Thorium`, cochez la case `Toujours ouvrir avec`. Cette opération doit être répétée pour chaque format de fichier que vous souhaitez lire avec Thorium.
 
 </section>

@@ -1,192 +1,159 @@
 ---
-title: Windows, views and panels
+title: Fenêtres, vues et panneaux
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
+# Fenêtres, vues et panneaux {#windows_and_views}
 
-# Windows, views and panels {#windows_and_views}
+Le lecteur Thorium dispose d'une fenêtre principale et d'une fenêtre supplémentaire par livre ouvert.
+ouvert. La fenêtre principale est toujours ouverte et offre 4 vues (<span class="ui_button">Home</span>, <span class="ui_button">All
+tous les livres</span>, <span class="ui_button">Catalogues</span> et <span class="ui_button">Réglages</span>).
 
-Thorium reader has one main window and one additional window per open
-book. The main window is always open and offers 4 views (<span class="ui_button">Home</span>, <span class="ui_button">All
-books</span>, <span class="ui_button">Catalogs</span> and <span class="ui_button">Settings</span>) while book windows views will
-depend on the book format (textual, audio, visual). Each format will
-allow a selection of action panels that can be docked to one side of the
-view.
+Les fenêtres livres dépendront du format du livre (textuel, audio, visuel). 
+Chaque format permet une sélection de panneaux d'action qui peuvent être ancrés sur un côté de la vue.
 
 <section class="filet">
 
-## Main window {#main_window}
+## Fenêtre principale {#main_window}
 
-The main window is where you can access and organise your collections as
-well as the settings that apply to the whole application. Closing the
-main windows close the application and all reading windows opened.
+La fenêtre principale est l'endroit où vous pouvez accéder à vos collections et les organiser. Elle permet aussi d'accéder aux paramètres qui s'appliquent à l'ensemble de l'application.
+La fermeture de la fenêtre principale ferme l'application et toutes les fenêtres de lecture ouvertes.
 
 </section>
 <section class="filet">
 
 
-### Home View {#home_view}
+### Vue Accueil {#home_view}
 
-This view is for quick access. You find here the books you have been
-reading recently and the ones you added recently. Possible actions are
-to *Import a Publication*, to *Open a publication* and to *Open Publication menu*. 
-
+Cette vue offre un accès rapide. Vous y trouverez les livres que vous avez lus récemment et ceux que vous avez ajoutés récemment.
+Les actions possibles sont <span class="ui_button">Ajouter un livre</span>, *Ouvrir une publication* en activant le lien sur sa couverture et *Ouvrir le menu de la publication* en utilisant le bouton de menu à trois points <img src="../../resources/images/threedot.svg" class="icon" alt="" role="presentation"/>.
 
 </section>
 <section class="filet">
 
 
-### <span class="ui_button">All publications</span> View {#all_publications_view}
+### Vue <span class="ui_button">Toutes les publications</span> {#all_publications_view}
 
-This is the place where all your publications stands. With time it may
-become full of hundreds of books so you need options to sort and search.
-Because of that, this view is more complex. First buttons on this page
-allows to select between two view modes, <span class="ui_button">Grid</span> and <span class="ui_button">Table</span> that will affect
-the display of the ebooks list and offer different options to sort and
-filter, they are detailed two paragraphes below.
+C'est l'endroit où se trouvent tous vos ouvrages. Avec le temps, il peut être rempli de centaines de livres et vous avez donc besoin d'options pour les trier et les rechercher.
+C'est pourquoi cette vue est plus complexe. Les premiers boutons de cette page
+permettent de choisir entre deux modes d'affichage, <span class="ui_button">Grille</span> et <span class="ui_button">Tableau</span>, qui affecteront l'affichage de la liste des livres et les options de recherche. Elles sont détaillées dans les deux paragraphes ci-dessous.
 
-The available actions on the <span class="ui_button">View</span> level are to *Import a Publication*, to
-*Search*, to *Filter by tag* and *navigate by pages of your library*. Library
-pages are like Shelves or stacks as the <span class="ui_button">All publication</span> view is limited
-to 50 publications to keep it usable.
+Les actions disponibles au niveau <span class="ui_button">Vue</span> sont les suivantes : *Importer une publication*, *Rechercher*, *Faire une recherche*, *Filtrer par étiquette* et *naviguer dans les pages de votre bibliothèque*. Les pages de la bibliothèque
+sont comme des étagères ou des piles, car la vue <span class="ui_button">Toutes les publications</span> est limitée à 50 publications par page pour rester utilisable.
 
 </section>
 <section class="filet">
 
-## Grid Mode {#grid_mode}
+## Mode grille {#grid_mode}
 
-The <span class="ui_button">Grid</span> mode presents the books like cards, keyboard tabulation will
-drive you from one book to another. This mode offers the possible
-actions to Open a publication and to Open Publication menu.
-
+Le mode <span class="ui_button">Grille</span> présente les livres comme des cartes disposées les unes à côté des autres. Ce mode offre la possibilité d'ouvrir une publication et d'ouvrir le menu de la publication.
 
 </section>
 <section class="filet">
 
-## Table Mode {#table_mode}
+## Mode tableau {#table_mode}
 
-The <span class="ui_button">Table</span> mode presents the books like cards, keyboard tabulation will mode presents one book per line and allows to visualize a
-large number of informations usually available only in the Book
-information Panel. Keyboard tabulation will drive you thru all those
-details.
-
+Le mode <span class="ui_button">Tableau</span> présente les livres comme des lignes et permet de visualiser un grand nombre d'informations habituellement disponibles uniquement dans le panneau d'information du Livre. La tabulation au clavier vous guidera à travers tous ces détails.
 
 </section>
 <section class="filet">
 
 
-### Catalogs View {#catalog_view}
+### Vue des catalogues {#catalog_view}
 
-This is the place where you can store, access, browse online catalogs
-and acquire or borrow ebooks from them. At first this place will sound
-empty because we do not preload any catalog. The *online additional
-support [Where to get ebooks?](https://thorium.edrlab.org/th3/get_ebooks/)* 
-section can help you identify available catalogs if you do not already have one in mind.
+C'est l'endroit où vous pouvez stocker, consulter, parcourir les catalogues en ligne
+et acquérir ou emprunter des livres électroniques. Au début, cet endroit vous semblera
+vide car nous ne préchargeons aucun catalogue. Le *support supplémentaire en ligne [Où trouver des livres électroniques ?](https://thorium.edrlab.org/fr/th3/get_ebooks/)*
+peut vous aider à identifier les catalogues disponibles si vous n'en avez pas déjà un en tête.
 
-Two catalogs protocoles are available.
+Thorium permet de charger et consulter des catalogues [OPDS](https://opds.io/), un format standard pour afficher un catalogue sur le Web.
 
-1.  [OPDS](https://opds.io/), a standard format to display catalog on
-    the Web. Thorium can provide access to OPDS 1 and 2 catalogs.
-2.  French public libraries machine-readable catalog.
+Un accès aux bibliothèques publiques françaises peut être activé depuis les préférences de l'application (API Dilicom PNB).
 
-Details and how to set up and use catalogs are available from the
-[Catalogs actions section](../111_catalogs_actions/index.xhtml).
+Les détails et la manière de mettre en place et d'utiliser les catalogues sont disponibles dans la rubrique
+[Section actions catalogues](../111_catalogs_actions/index.xhtml).
 
 
 </section>
 <section class="filet">
 
 
-### Application Settings Panel {#setting_view}
+### Paramètres de l'application {#setting_view}
 
-Application settings is divided in three tabs:
+Les paramètres de l'application sont divisés en trois onglets :
 
-1.  The <span class="ui_button">General</span> Tab allow you to:
-    1. *select the language* of the interface, 
-    2. *Manage stored authentification access to catalogues*. The <span class="ui_button">clear login data</span> button will delete any Catalog authentification previously stored (useful if you are reading on a public or shared computer or if you want to change the account with
-    wich you are connected).
-    2. *Save session* (meaning that the application will remember the
-    windows opened at closing and reopen them when launched again).
-    4. *Add a library account* by activating access to Dilicom PNB API. A How does it works foldable gives more details about this functionality used to access French public libraries.
-    5. <span class="ui_button">Creator</span> allows to *set up a Name to be added to annotations*. This Name can be categorised as Organization or Person. It will be exported with Annotations, so users must pay attention to potential privacy issues. Leaving this field blank will cause the annotations to be attributed to "Unknown1".
+1.  L'onglet <span class="ui_button">Général</span> vous permet de :
+    1. *sélectionner la langue* de l'interface,
+    2. *supprimer les identifiants liés aux catalogues*. Le bouton <span class="ui_button">Effacer les données d'identification</span> supprimera toute authentification au catalogue précédemment stockée (utile si vous lisez sur un ordinateur public ou partagé ou si vous souhaitez changer le compte avec lequel vous êtes connecté).
+    3. *Sauvegarder la session* (l'application se souviendra des fenêtres ouvertes à la fermeture et les rouvrira).
+    4. *Ajouter un compte de bibliothèque* en activant l'accès à l'API de Dilicom PNB. Un dépliant "Comment ça marche" donne plus de détails sur cette fonctionnalité utilisée pour accéder aux bibliothèques publiques françaises.
+    5. <span class="ui_button">Créateur</span> permet de *configurer un nom à ajouter aux annotations*. Ce nom peut être défini en tant qu'organisation ou personne. Il sera exporté avec les annotations, et les utilisateurs doivent donc faire attention aux problèmes potentiels de confidentialité. Si vous laissez ce champ vide, les annotations seront attribuées à "Unknown1".
 
-2.  The <span class="ui_button">Appearance</span> Tab let you choose the application Theme (dark, light
-    or automatic to fit the system preference).
-3.  The <span class="ui_button">Keyboard shortcuts</span> Tab help you check and manipulate keyboard
-    driven actions within the application. Figure out the three dots
-    menu aside of the Panel title with extra actions (<span class="ui_button">Reset</span>, <span class="ui_button">Edit</span> and
-    <span class="ui_button">Load</span>). The <span class="ui_button">Edit</span> one opens system folder application to the
-    localisation of the stored user setting `.json` file, allowing you to
-    edit it outside of the application (at your own risks), save it for
-    future uses or share it within your devices or with who you want.
-
+2.  L'onglet <span class="ui_button">Apparence</span> vous permet de choisir le thème de l'application (sombre, clair ou automatique pour s'adapter aux préférences du système).
+3.  L'onglet <span class="ui_button">Raccourcis clavier</span> vous permet de vérifier et de manipuler les actions au clavier dans l'application. Découvrez le menu à trois points
+    à côté du titre du panneau avec des actions supplémentaires (<span class="ui_button">Réinitialiser</span>, <span class="ui_button">Éditer</span> et <span class="ui_button">Réinitialiser</span>).
+    <span class="ui_button">Charger</span>). Le bouton <span class="ui_button">Éditer</span> ouvre le dossier système de l'application dans la
+    localisation du fichier `.json` des paramètres utilisateur stockés, ce qui vous permet de le modifier en dehors de l'application (à vos risques et périls), de l'enregistrer pour des utilisations futures ou le partager avec vos appareils ou avec qui vous voulez.
 
 </section>
 <section class="filet">
 
-## Reading window {#reading_window}
+## Fenêtre de lecture {#reading_window}
 
-When a book is opened, it is displayed in a new window, meaning that you
-can have multiple books opened at the same time, each in an independent
-window that you can arrange at your will.
-
+Lorsqu'un livre est ouvert, il s'affiche dans une nouvelle fenêtre, ce qui signifie que vous pouvez avoir plusieurs livres ouverts en même temps, chacun dans une fenêtre indépendante que vous pouvez agencer à votre guise.
 
 </section>
 <section class="filet">
 
 
-### Reading navigation panel {#reading_nav_panel}
+### Panneau de navigation de lecture {#reading_nav_panel}
 
-Reachable from the reading window top toolbar, that panel contains a dropdown menu to access different navigation means. The availability and content of each navigation mean. For epub, those are:
+Représenté par une icône de livre ouvert <img src="../../resources/images/open_book.svg" class="icon" alt="" role="presentation"/> dans la barre d'outils supérieure de la fenêtre de lecture, ce panneau contient un menu déroulant permettant d'accéder à différents moyens de navigation. La disponibilité et le contenu de chaque moyen de navigation. Pour les livres au format EPUB, il s'agit de
 
-* <img src="../../resources/images/toc-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Table of Content</span> (TOC), an authored listing of ebook content, usually similar to the content heading structure but not necessary. A content creator can decide per example to limit the Table of Content to a certain depth.
-* <img src="../../resources/images/landmark-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Landmarks</span>, an authored list of major interest points of the ebook, usually Forewords, Copyright notice, Main content and annexes. 
-* <img src="../../resources/images/target-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Go to page</span>, an authored list of page breaks. The page list may refers to a print version and allow to use the ebook in a mixed reading environment, so it becomes possible to locate or make a citation. In such case, Thorium Reader actually offers no mean to identify the related print book, it has to be textually and explicitly informed in the content by the content creator.  
-* <img src="../../resources/images/search-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Search</span>, a generated list of search match(es) to help reader navigate between search results. This panel has content only when the search function is activated. 
-* <img src="../../resources/images/bookmarkMultiple-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Bookmarks</span>, a generated list of user bookmarks. This panel  offer the possibility to delete the bookmark or edit it's attached text and informs in percents the reading progression where it stands.
-* <img src="../../resources/images/annotation-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Annotations</span>, a generated list of user annotations
+* <img src="../../resources/images/toc-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Table des matières</span> , une liste rédigée par l'auteur du contenu du livre électronique, généralement similaire à la structure des rubriques du contenu, mais pas obligatoirement. Un créateur de contenu peut décider, par exemple, de limiter la table des matières à un certain niveau de titres.
+* <img src="../../resources/images/landmark-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Points de repère</span>, une liste rédigée par l'auteur des principaux points d'intérêt du livre électronique, généralement les avant-propos, la notice de copyright, le contenu principal et les annexes.
+<img src="../../resources/images/target-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Aller à la page</span>, une liste  des sauts de page rédigée par l'auteur. La liste des pages peut faire référence à une version imprimée et permettre d'utiliser l'ebook dans un environnement de lecture mixte, de sorte qu'il devient possible de localiser ou de faire une citation. Dans ce cas, à ce jour, Thorium Reader n'offre aucun moyen d'identifier le livre imprimé correspondant, qui doit être indiqué textuellement et explicitement dans le contenu par le créateur.  
+<img src="../../resources/images/search-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Recherche</span>, une liste générée de résultats de recherche pour aider le lecteur à naviguer entre les résultats de la recherche. Ce panneau n'a de contenu que lorsque la fonction de recherche est activée.
+<img src="../../resources/images/bookmarkMultiple-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Signets</span>, une liste générée des signets placés par l'utilisateur. Ce panneau offre la possibilité de supprimer le signet ou d'éditer le texte qui y est attaché et informe en pourcentage de la progression de la lecture.
+* <img src="../../resources/images/annotation-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Annotations</span>, une liste générée d'annotations de l'utilisateur.
 
 
 </section>
 <section class="filet">
 
 
-### Reading settings panel {#reading_settings_panel}
+### Panneau des paramètres de lecture {#reading_settings_panel}
 
-Reachable from the reading window top toolbar, that panel contains all possible user settings to adjust the display of the textual contents. It is important to remember that such possibilities may be restricted by how the content was created. 
+Représenté par une icône de deux lettre "aA" <img src="../../resources/images/textarea-icon.svg" class="icon" alt="" role="presentation"/> positionnée dans la barre d'outils supérieure de la fenêtre de lecture, ce panneau contient tous les paramètres utilisateur possibles pour ajuster l'affichage du contenu textuel. Il est important de se rappeler que ces possibilités peuvent être limitées par la manière dont le contenu a été créé.
 
-Detailed information about available reading settings per formats are available from the 
-<a href="../210_reading/index.xhtml">Reading sub sections</a>.
+Des informations détaillées sur les paramètres de lecture disponibles en fonction des formats sont disponibles aux 
+<a href="../210_reading/index.xhtml">sous-sections du chapitre lecture</a>.
 
 
 </section>
 <section class="filet">
 
-## Book Information panel {#book_info_panel}
+## Panneau d'information sur les livres {#book_info_panel}
 
-Book Information is available in a dedicated panel that can be reached
-from the library shelves book action menu
- <span class="ui_button">About publication</span> or from the Reading window Information Icon
-<img src="../../resources/images/info-icon.svg" alt="" role="presentation" class="icon"/>.
+Les informations sur les livres sont disponibles dans un panneau dédié atteignable à partir à partir de l'icône d'information de la fenêtre de lecture
+<img src="../../resources/images/info-icon.svg" alt="" role="presentation" class="icon"/> ou du sous menu 
+<span class="ui_button">À propos de la publication</span>  
+du menu du livre (icône à trois points <img src="../../resources/images/threedot.svg" class="icon" alt="" role="presentation"/>) dans les vues <span class="ui_button">Accueil</span>, <span class="ui_button">Mes Livres</span> et <span class="ui_button">catalogues</span>.
+Ce panneau affiche les informations du livre telles qu'elles sont fournies par le fichier.
+La fiabilité de ces informations dépend du créateur du fichier. Les informations affichées sont les suivantes :
 
-This Panel displays ebook information as provided by the file, the
-trustness of this information relies on the creator of the file, usually
-the publisher. The information displayed is:
-
-* *Cover* of the publication with it's attached textual alternative if present
-* *Title* of the publication
-* *Author* of the publication
-* *Description* or resume
-* Publication details including *publication language*
-* *Accessibility* information displayed following the international guidelines (for more information, see [W3C Display Guide for Accessibility metadata](https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated)).
-* *Tags*, including the possibility to
-    <img src="../../resources/images/tag-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Add</span> your own tags.
-* Progression
-
-This panel has the particularity of not being dockable as it does not provides action that needs to have access to the main content of the book.
+* *Couverture* de la publication avec son texte alternatif si présent
+* *Titre* de la publication
+* *Auteur* de la publication
+* *Description* ou résumé
+* Détails de la publication, y compris *langue de publication*
+* Informations sur l'accessibilité affichées conformément aux lignes directrices internationales (pour plus d'informations, voir [W3C Display Guide for Accessibility metadata] (https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated)).
+* *Mots-clef*, y compris la possibilité de
+    <img src="../../resources/images/tag-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Ajouter</span> des mots-clefs.
+* *Progression*, ou avancement de la lecture du livre, exprimée en nombre de chapitres lus sur le nombre de chapitres totaux ainsi qu'en % du contenu et matérialisé par les niveaux et titres des sections sous lesquelles la lecture est actuellement en cours. Il est possible de déplier cet élément pour obtenir la liste des sections précédant la position de lecture actuelle .
 
 </section>
 

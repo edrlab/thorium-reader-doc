@@ -1,5 +1,5 @@
 ---
-title: Title page
+title: Page de titre
 role: doc-credit
 epubtype: credit
 class: titlepage
@@ -8,10 +8,8 @@ weight: 100
 auto: false
 ---
 
-# Thorium Reader
+# Thorium Reader Desktop
 
-Read, Select, Annotate, Classify<br/>
-Perfect for heavy readers, library-goers, and students alike!<br/>
-No ads, or data leaks to worry about
+Parfait pour les grands lecteurs, les bibliophiles et les étudiants !<br/>Aucune publicité ni fuite de données à craindre
 
 *The European Digital Reading Lab (EDRLab), 2025*
