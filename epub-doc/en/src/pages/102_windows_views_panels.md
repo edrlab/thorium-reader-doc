@@ -86,11 +86,9 @@ empty because we do not preload any catalog. The *online additional
 support [Where to get ebooks?](https://thorium.edrlab.org/en/th3/get_ebooks/)* 
 section can help you identify available catalogs if you do not already have one in mind.
 
-Two catalogs protocoles are available.
+Thorium allows you to load and consult [OPDS](https://opds.io/) catalogues, a standard format for displaying a catalogue on the Web.
 
-1.  [OPDS](https://opds.io/), a standard format to display catalog on
-    the Web. Thorium can provide access to OPDS 1 and 2 catalogs.
-2.  French public libraries machine-readable catalog.
+Access to French public libraries can be activated from the application preferences (API Dilicom PNB).
 
 Details and how to set up and use catalogs are available from the
 [Catalogs actions section](../111_catalogs_actions/index.xhtml).

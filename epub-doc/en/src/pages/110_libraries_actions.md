@@ -13,6 +13,7 @@ Library actions are available in the Main window <span class="ui_button">Home</s
 
 <section class="filet">
 
+
 ## Open a publication
 
 Each publication cover is a link that, when activated, will open a
@@ -40,8 +41,8 @@ It allows to:
 -   Export a copy of the publication on your file system 
 (<img src="../../resources/images/SaveAs-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Save as</span>). 
 This will open a system window to let you choose where to export the publication.
-- Import notes
-- Export notes
+- <span class="ui_button">Import notes</span>
+- <span class="ui_button">Export notes</span>
 
 
 </section>
@@ -118,11 +119,14 @@ or stacks.
 
 You can enrich the information of the books in your library by
 adding <span class="ui_button">Tags</span> to them. *Tags* allow you to quickly search and sort
-books in list view. Putting it into practice. Open the book form,
+books in list view.
+
+<div class="framed">
+Putting it into practice. Open the book form,
 position yourself in the field <span class="ui_button">Add a tag</span>, write the name of the
 tag you want to add then press the <span class="ui_button">Add</span> button. The tag is added in
 a blue box, you can remove it by clicking on the cross.
-
+</div>
 
 
 </section>
