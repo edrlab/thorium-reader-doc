@@ -22,6 +22,7 @@ members of EDRLab, private or public grants and small recurring
 donations from happy users (individuals or companies). If you rely on
 this application, consider [support thru funding and sponsorhip](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/)
 
+<section class="filet">
 
 ## This is the documentation for Thorium 3, and it is a work in progress! {#th3}
 
@@ -29,6 +30,10 @@ Thorium 3 introduces numerous changes and, we hope, a friction less
 reading experience. This documentation is a work in progress trying to
 support new users discovering the software as well as providing the
 missing links for the experimented readers.
+
+
+</section>
+<section class="filet">
 
 ## Additional material available online {#th3add}
 
@@ -47,6 +52,10 @@ any difficulty or bug affecting your reading experience.
 
 This user guide limits itself to providing details on features and actions. Aside from it you'll find dedicated ressources in the app itself or on the <a href="https://thorium.edrlab.org/en/th3/"><span>online support webpages </span></a>
 
+
+</section>
+<section class="filet">
+
 ## Supported publication formats
 
 Thorium Reader Desktop supports différent publication formats. Each format coming with particularities, it is not always possible to offer the same features for all. 
@@ -62,16 +71,27 @@ Thorium Reader Desktop supports différent publication formats. Each format comi
 * Visual narratives, a standard format for comics, manga, webtoons and other styles of digital works based on sequences of images. Divina is the name of this format. This is still an experimental format.
 
 
+
+</section>
+<section class="filet">
+
 ## Keyboard functions {#keyboard}
 
-Each key combination can be changed in Thorium [Application Setting Panel](../102_windows_views_panels/index.xhtml#setting_view). Figure out the three dots
-menu aside of the Panel title with extra actions (Reset, Edit and
-Load). The Edit one opens system folder application to the
+Each key combination can be changed in Thorium 
+[Application Setting Panel](../102_windows_views_panels/index.xhtml#setting_view). 
+Figure out the three dots menu aside of the Panel title with extra actions 
+(Reset, Edit and Load). The Edit one opens system folder application to the
 localisation of the stored user setting .json file, allowing you to
-edit it outside of the application (at your own risks), print it to stick it along your screen or save it for
-future uses or share it within your devices or with who you want.
+edit it outside of the application (at your own risks) 
+or save it for future uses or share it within your devices or with who you want.
+
+Since 3.2, it is possible to filter actions thru a search box to ease finding keyboard shortcuts.
 
 The default setup is available online at support page <a href="https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/"><span>Keyboard shortcuts</span></a>
+
+
+</section>
+<section class="filet">
 
 ## Tactile gestures {#tactile}
 
@@ -107,3 +127,4 @@ possible to open it.
     `Always open with`. This operation must be repeated for each file
     format you wish to read with Thorium.
 
+</section>

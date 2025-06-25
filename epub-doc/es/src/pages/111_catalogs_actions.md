@@ -1,80 +1,103 @@
 ---
-title: Acciones de catálogos
+title: Catalogs actions
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
+# Catalogs actions {#Catalogs_actions}
 
 
-# Acciones de Catálogos {#Catalogs_Actions}
+<section class="filet">
 
-## Configuración de un catálogo OPDS
+## Setting up an OPDS catalog
 
-Seleccione el botón <span class = "ui_button"> catálogos </span> Tab y luego el botón <span class = "ui_button"> Agregar un OPDS
-Feed </span>. Indique un nombre para designar este catálogo y pegar
-Una dirección correspondiente a un catálogo distribuido en formato OPDS.
-Valide con el botón <span class = "ui_button"> add </span>.
+Select the <span class="ui_button">Catalogs</span> tab then the button <span class="ui_button">Add an OPDS
+feed</span>. Indicate a Name to designate this catalog and paste
+an address corresponding to a catalog distributed in OPDS format.
+Validate with the button <span class="ui_button">Add</span>.
 
-Ejemplo :
+Example :
 
-Activar el siguiente enlace descargará un archivo .atom que puede ser
-Inaugurado con Thorium: [Descargar Opds Feed para gutenberg.org nuevo títulos](https://www.gutenberg.org/ebooks/search.opds/)
+Activating the following link will download a .atom file that can be
+opened with Thorium: [Download OPDS feed for Gutenberg.org new
+titles](https://www.gutenberg.org/ebooks/search.opds/){target="_blank"}
 
-También es posible usar el menú contextual (generalmente clic correcto), copiar esto
-Enlace y pégalo en Thorium, agregue un panel OPDS para ver la magia
-suceder.
+It is also possible to use context menu (usually Right clic), Copy this
+link and paste it into Thorium Add an OPDS panel to see the magic
+happen.
 
-Los alimentos OPDS también se pueden proporcionar como enlaces directos que deben abrir
-directamente en Thorium. [Open OPDS feed for Gutenberg.org new titles](https://www.gutenberg.org/ebooks/search.opds/)
+OPDS feeds can also be provided as direct links which should open
+directly in Thorium. [Open OPDS feed for Gutenberg.org new
+titles](https://www.gutenberg.org/ebooks/search.opds/){target="_blank"}
 
-Desde Thorium 2.2, los alimentos OPD se pueden editar para que pueda cambiar el nombre
-o recuperar URL de alimentación.
+Since Thorium 2.2, OPDS feeds can be edited so you can change the name
+or retrieve feed URL.
 
-### Ejemplo de alimentos OPD con contenido protegido de LCP
 
-Los alimentos con contenido protegido deben permitirle iniciar sesión directamente desde
-Página del catálogo de Thorium, el botón o el acceso al inicio de sesión pueden ser diferentes
-dependiendo del proveedor de alimentación.
+</section>
+<section class="filet">
 
-Archive.org Opds Feed permite navegar y pedir prestados libros bajo LCP
-licencia. Se necesita una cuenta de Org de archivo, se abrirá la página de autenticación
-Una vez que seleccione un libro. Puedes agregarlo al Thorium con lo siguiente
-DIRECCIÓN:[Open Archive.org OPDS feed](https://archive.org/services/opds)
 
-Puedes usar [feedbooks
-OPDS](https://catalog.feedbooks.com/catalog/index.json) para navegar
-[Feedbook catalog](https://www.feedbooks.com/#).Una vez que hayas seleccionado
-Un libro que será redirigido a la página web donde puede comprar el libro.
+### Example of OPDS feeds with LCP protected contents
 
-Feedbooks Opds le permite registrar desde la alimentación del catálogo de Thorium con el
-*Estante*botón en la esquina superior derecha. Cualquier libro comprado con tu
-La cuenta de FeedBooks estará disponible para descargar directamente desde el
-Interfaz de catálogo de alimentación de OPD de Thorium.
+Feeds with protected contents should allow you to login directly from
+Thorium catalog page, the button or access to login might be different
+depending on the feed provider.
 
-Para fines de prueba, EDRLAB proporciona una alimentación con tres publicaciones gratuitas
-bajo protección LCP. Puedes agregarlo a Thorium con lo siguiente
-Dirección: [Agregar público EDRLAB OPDS](https://edrlab.org/public/feed/opds-lcp.json)
+Archive.org OPDS feed allows to browse and borrow books under LCP
+license. An Archive org account is needed, authentication page will open
+once you select a book. You can add it to Thorium with the following
+address: [Open Archive.org OPDS feed](https://archive.org/services/opds)
 
-### Responsabilidad de alimentación de OPDS
+You can use [feedbooks
+OPDS](https://catalog.feedbooks.com/catalog/index.json) to browse
+[Feedbook catalog](https://www.feedbooks.com/#). Once you have selected
+a book you'll be redirected to the webpage where you can buy the book.
 
-Los alimentos OPDS y el acceso que proporcionan al contenido están bajo
-Responsabilidad del editor de feed. También lo son la información dada por
-el alimento.
+Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the
+*Shelf* button on the upper right corner. Anybook bought with your
+Feedbooks account will be available for download directly from the
+Thorium OPDS feed catalog interface.
 
-## Configuración de una cuenta de biblioteca pública francesa
+For testing purposes EDRLab provides a feed with three free publications
+under LCP protection. You can add it to Thorium with the following
+address: [Add EDRLab OPDS public
+feed](https://edrlab.org/public/feed/opds-lcp.json)
 
-En Francia, muchas bibliotecas públicas proporcionan un catálogo legible
-(similar a OPD pero no idéntico), dejando que los clientes descarguen digital
-Publicaciones de su estantería personal. Integrando esta tecnología
-Thorium reader le permite descargar un libro electrónico o audiolibro directamente
-en lector de Thorium para lectura instantánea.
 
-Para conectar su cuenta de biblioteca pública francesa, ingrese una ciudad francesa o parte del nombre de la biblioteca en el campo de búsqueda y
-presione el botón de búsqueda. Una lista de bibliotecas públicas correspondientes a su
-La búsqueda aparecerá. Seleccione una biblioteca y presione Agregar. En la lista actualizada de
-Catálogos, seleccione esta biblioteca: se muestra un formulario de autenticación.
-Ingrese su nombre de usuario/dirección de correo electrónico y contraseña, y presione el inicio de sesión. Puede
-Ahora vea el contenido de su estantería personal, desde la cual puede
-Descargue y lea los libros electrónicos y audiolibros que prestó anteriormente.
+</section>
+<section class="filet">
+
+
+### OPDS Feed responsibility
+
+OPDS feeds and the access they provide to content are under
+responsibility of the feed publisher. So are the information given by
+the feed.
+
+
+</section>
+<section class="filet">
+
+## Setting up a french public library account
+
+In France, many public libraries provide a machine-readable catalog
+(similar to OPDS but not identical), letting patrons download digital
+publications from their personal bookshelf. Integrating this technology
+in Thorium Reader allows you to download an ebook or audiobook directly
+into Thorium Reader for instant reading.
+
+To connect your French public library account, enter a French city
+('Montpellier') or part of the library name in the Search field and
+hit the Search button. A list of public libraries corresponding to your
+search will appear. Select a library and hit Add. In the updated list of
+catalogs, select this library: an authentication form is displayed.
+Enter your username/email address and password, and hit Login. You can
+now see the content of your personal bookshelf, from which you can
+download and read the ebooks and audiobooks you previously borrowed.
+
+
+
+</section>

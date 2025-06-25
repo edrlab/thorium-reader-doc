@@ -1,50 +1,61 @@
 ---
-title: "Signets"
+title: "Bookmarking"
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
-## Ajouter un signet
 
-Le bouton <span class="ui_button">bookmark</span> vous permet d'ajouter un signet personnalisé.
-Un <span class="ui_button">marque-page</span> peut être un point fixe ou une sélection de texte.
-Il ne peut y avoir qu'un seul signet à point fixe par page
-(pages du livre ou pages calculées dans le cas où il n'y a pas de référence de page dans le livre).
-En revanche, vous pouvez placer autant de signets de sélection de texte que vous le souhaitez.
+<section class="filet">
 
-Lorsque vous ajoutez un <span class="ui_button">signet</span>, une notification apparaît pour vous informer que
-le <span class="ui_button">signet</span> a été *Ajouté* ou *Supprimé*.
-Le nombre qui suit indique le nombre total de <span class="ui_button">marques de livre</span> dans le Livre
-après cette action.
+## Add a bookmark
 
-Sélectionnez le texte à marquer.
-Appuyez sur le bouton <span class="ui_button">bookmark</span>.
-<img src="../../resources/images/icons3/bookmarkSingle-icon.svg" class="icon" role="presentation" alt=""/>
-ou la combinaison de touches <kbd>Ctrl</kbd> + <kbd>B</kbd>.
+The <span class="ui_button">bookmark</span> button allows you to add a custom bookmark. 
+A <span class="ui_button">bookmark</span> can be a fixed point or a text selection. 
+Only one fixed point bookmark is possible per page 
+(book pages or calculated pages in case there is not page reference in the book). 
+But you can place as many texte selection bookmark as you want. 
 
-Si aucun texte n'est sélectionné, la page entière sera marquée.
+When you add a <span class="ui_button">Bookmark</span> a notification appears to inform you that 
+the <span class="ui_button">Bookmark</span> was *Added* or *Deleted*. 
+The number just after indicates the total number of <span class="ui_button">Bookmarks</span> in the Book 
+after this action. 
 
-## Révision et navigation dans les signets
+Select the text you want to mark.
+Press the <span class="ui_button">bookmark</span> button
+<img src="../../resources/images/bookmarkSingle-icon.svg" class="icon" role="presentation" alt=""/>
+or the key combination  <kbd>Ctrl</kbd>  +  <kbd>B</kbd>.
 
-Appuyez sur le bouton <span class="ui_button">Navigation</span> (<kbd>Ctrl</kbd> + <kbd>N</kbd>), puis sur le bouton <span class="ui_button">Bookmarks</span>.
-le bouton <span class="ui_button">Bookmarks</span>. Vous pouvez modifier le nom de chaque signet, supprimer des
-supprimer des signets et passer d'un signet à l'autre en appuyant sur <kbd>Entrée</kbd>.
-
-Accédez à la liste des signets dans la zone de navigation. Sélectionnez le signet
-auquel vous souhaitez accéder et appuyez sur la touche <kbd>Enter</kbd>. Si vous avez
-renommé le signet, il vous sera facile d'accéder à plusieurs endroits du livre.
+If no text is selected, the last known reading location will be marked. 
 
 
-Si vous sélectionnez une portion de texte et activez ensuite le bouton <span class="ui_button">Signet</span>,
-le signet créé aura pour titre la ligne sélectionnée.
+</section>
+<section class="filet">
 
-Si vous avez créé un signet sur une ligne sans sélectionner de portion de texte, essayez de copier la ligne sur laquelle vous vous trouvez dans le presse-papiers.
-la ligne sur laquelle vous vous trouvez dans le presse-papiers.
-Allez ensuite dans les options de navigation avec <kbd>Ctrl</kbd> + <kbd>N</kbd>,
-puis faites défiler vers le bas jusqu'à la section Signets, où ils sont répertoriés.
-Appuyez sur la touche <kbd>b</kbd> pour accéder au bouton d'édition et renommer le signet.
-renommer le signet. Collez la ligne du presse-papiers et appuyez sur
-<kbd>Entrée</kbd>. Le signet est renommé avec la ligne de texte que vous avez copiée.
-copié. Lorsque vous avez plusieurs signets, ce renommage des signets vous permet de les utiliser facilement.
+## Reviewing and navigating the Bookmarks
+
+Press the <span class="ui_button">Navigation</span> button (<kbd>Ctrl</kbd> + <kbd>N</kbd>), then 
+the <span class="ui_button">Bookmarks</span> button. You can change the name of each bookmark, delete 
+bookmarks and move between bookmarks by pressing <kbd>Enter</kbd>.
+
+Access the list of bookmarks in the navigation area. Select the bookmark
+you wish to access and press the <kbd>Enter</kbd> key. If you have
+renamed the bookmark, it will be easy to go to several places in the book.
+
+If you select a portion of text and then activate the <span class="ui_button">Bookmark</span> button, 
+the bookmark created will have the selected line as its title.
+
+If you have bookmarked a line without selecting a portion of text, try copying 
+the line you are on in the clipboard.
+Then go to the navigation options with <kbd>Ctrl</kbd> + <kbd>N</kbd>,
+then scroll down to the Bookmark section, where they are listed.
+Press the <kbd>b</kbd> key to move to the edit button to 
+rename the bookmark. Paste the line from the clipboard and press
+<kbd>Enter</kbd>. This renames the bookmark with the line of text that you have
+copied. When you have several bookmarks, this renaming of the bookmarks allows 
+you to use them easily.
+
+Since 3.2 it is possible to add Tags to bookmarks to ease filtering, grouping and finding specific locations. 
+
+</section>

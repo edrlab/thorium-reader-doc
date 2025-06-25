@@ -2,9 +2,11 @@
 title: Supported publication formats
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
+
+
 
 ## Supported publication formats
 

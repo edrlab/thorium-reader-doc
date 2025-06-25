@@ -1,19 +1,45 @@
 ---
-title: Formats de publication pris en charge
-role: 
+title: Supported publication formats
+role: doc-chapter
+epubtype: chapter
+class: colbreak filet
 draft: false
 ---
 
-## Formats de publication pris en charge
 
-EPUB 2 : il s'agit d'un format hérité, uniquement adapté aux livres électroniques de base. Le contenu textuel est formaté en XHTML 1 et aucune fonction multimédia n'est prise en charge. Les livres électroniques EPUB 2 sont toujours accessibles s'ils sont correctement formatés.
 
-EPUB 3 : c'est le format recommandé pour le 21e siècle. Le contenu textuel est formaté en (X)HTML 5, il est possible de créer des ebooks à mise en page fixe, des ebooks enrichis et les fonctionnalités d'accessibilité sont bien conçues.
+## Supported publication formats
 
-DAISY v2.02 / v3 : (texte, audio, texte+audio).
+EPUB 2
+:   this is a legacy format, only adequate for basic ebooks. Textual
+    content is formatted in XHTML 1 and no multimedia feature is
+    supported. EPUB 2 ebooks are still accessible if properly formatted.
 
-PDF : malgré un manque notoire de flexibilité (pas d'option de redistribution) et d'accessibilité, de nombreux livres électroniques sont encore disponibles uniquement en PDF, notamment dans les bibliothèques publiques.
+EPUB 3
+:   this is the recommended format for the 21st century. Textual content
+    is formatted in (X)HTML 5, it is possible to create fixed-layout
+    ebooks, enriched ebooks and accessibiltiy features are well
+    designed.
 
-Livres audio : un [format standardisé pour les livres audio](https://www.w3.org/TR/audiobooks/) a été conçu par le groupe de travail sur l'édition du W3C en 2020, et EDRLab faisait partie de ce groupe de travail. Thorium prend en charge le format de livre audio [packagé (LPF)](https://www.w3.org/TR/lpf/) , qui sera bientôt largement utilisé par les libraires, du moins c'est ce que nous espérons.
+DAISY v2.02 / v3
+:   (text, audio, text+audio).
 
-Récits visuels : EDRLab a conçu un format standard pour les bandes dessinées, les mangas, les webtoons et d'autres styles d'œuvres numériques basés sur des séquences d'images. [Divina](https://www.edrlab.org/open-standards/) est le nom de ce format. Il s'agit encore d'un format expérimental, et nous espérons que les éditeurs le dimensionneront en 2021+.
+PDF
+:   despite a well-known lack of flexibility (no reflow option) and
+    accessibility, many ebooks are still available in PDF only,
+    especially in public libraries.
+
+Audiobooks
+:   a [standardized format for
+    audiobooks](https://www.w3.org/TR/audiobooks/) has been designed by
+    the W3C Publishing Working Group in 2020, and EDRLab was part of
+    this WG. Thorium is supporting the [packaged
+    (LPF)](https://www.w3.org/TR/lpf/) audiobook format, which will soon
+    be widely used by booksellers, or so we hope.
+
+Visual narratives
+:   EDRLab has designed a standard format for comics, manga, webtoons
+    and other styles of digital works based on sequances of images.
+    [Divina](https://www.edrlab.org/open-standards/) is the name of this
+    format. This is still an experimental format, and we hope that
+    publishers will size it in 2021+.

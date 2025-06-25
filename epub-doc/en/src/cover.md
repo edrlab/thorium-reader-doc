@@ -5,6 +5,7 @@ EPUBRoot: ".."
 
 <h1>
 <span class="covertitle">Thorium Reader for Desktop (3.2)</span>
+<br/>
 <span class="coversubtitle">Reading journeys</span>
 </h1>
 

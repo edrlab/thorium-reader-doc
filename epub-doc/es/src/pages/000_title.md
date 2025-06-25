@@ -1,23 +1,17 @@
 ---
-title: Título
+title: Title page
 role: doc-credit
 epubtype: credit
+class: titlepage
 draft: false
 weight: 100
 auto: false
 ---
 
+# Thorium Reader
 
-# Thorium Desktop
+Read, Select, Annotate, Classify<br/>
+Perfect for heavy readers, library-goers, and students alike!<br/>
+No ads, or data leaks to worry about
 
-<hr aria-hidden="true"/>
-
-Leer, Seleccionar, Anotar, Clasificar
-
-Perfecto para lectores empedernidos, bibliotecarios y estudiantes.
-
-Sin anuncios ni fugas de datos de las que preocuparse
-
-<hr aria-hidden="true"/>
-
-European Digital Reading Lab (EDRLab)
+*The European Digital Reading Lab (EDRLab), 2025*

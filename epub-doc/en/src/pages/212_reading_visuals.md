@@ -2,11 +2,14 @@
 title: Reading visual contents
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
 # Reading visual contents
+
+
+<section class="filet">
 
 ## Zooming on images {#read_images_zoom}
 
@@ -36,3 +39,6 @@ To close the image zoom view and to return to the reading view, press
 Some restrictions due to ebook design may apply, for example when images
 are inserted as style (CSS), it is not possible to open the image view
 for zooming.
+
+
+</section>

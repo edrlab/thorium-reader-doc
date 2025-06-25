@@ -2,7 +2,7 @@
 title: Accessibility
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
@@ -14,9 +14,16 @@ The [Accessibility online support page](https://thorium.edrlab.org/en/th3/500_ac
 
 This chapter takes up the main information to have it offline.
 
+
+<section class="filet">
+
 ## Accessibility information {#a11y_info}
 
 Currently, Thorium displays in the [Book Information Panel](../102_windows_views_panels/index.xhtml#book_info_panel) under the title `Description` Description 'The content of the accessibility metadata provided by the creators of the file.
+
+
+</section>
+<section class="filet">
 
 ## Native accessibility functions {#a11y_native}
 
@@ -25,10 +32,19 @@ The native accessibility functions are described in each section of this documen
 * [Visual adjustments in the display of the text](../102_windows_views_panels/index.xhtml#reading_settings_panel)
 * [Audio reading generated in summary voice](../211_reading_textuals/index.xhtml#read_text_readaloud)
 
+
+</section>
+<section class="filet">
+
 ## Reading with a screen player {#screenreader}
 
 When launching Thorium, if a screen player is detected, the relative functions are activated.
 Note that screen players use separate buffer memory to access HTML content, which causes the visual scroll desynchronization and a page offset displayed with the page read by the screen player. In other words, Thorium is generally not aware of the current reading location of the screen player user, unless the screen user triggers events (such as a Mouse click anywhere in the text or a keyboard key on focused HTML elements).
+
+
+</section>
+<section class="filet">
+
 
 ### Quick keys for navigation (common to NVDA and Jaws)
 
@@ -57,3 +73,6 @@ To read text, navigate in the tables, navigate in the browser window, the insert
 |Cell on the left |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd>|
 |Cell below|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↓</kbd>|
 |Cell above|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↑</kbd>|
+
+
+</section>

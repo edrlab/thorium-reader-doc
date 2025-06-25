@@ -1,35 +1,63 @@
 ---
-title: Lectura
+title: Reading
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
-# Lectura
+# Reading
 
-El Thorium  proporciona funciones de lectura textuales, visuales y auditivas. En
-para asegurarse de que pueda encontrar su camino alrededor de la publicación,
-Thorium  también ofrece muchas opciones de navegación, así como la posibilidad.
-Para agregar marcadores o buscar dentro de la publicación.
+Thorium provides textual, visual and auditory reading functions. In
+order to ensure that you can find your way around the the publication,
+Thorium also offers many navigation options as well as the possibility
+to add bookmarks or to search within the publication.
 
-Las funcionalidades de lectura son muy diferentes de un formato a otro.
+Reading functionalities are very different from one format to another.
 
--Lectura de las primeras publicaciones textuales como Reglowable Epub y Textual
-    o Daisy completo permitirá la mayor cantidad de funcionalidades.
--Primeras publicaciones visuales como Epubs de diseño fijo y Divina
-    no permitir la personalización de textos.
--Las publicaciones de audio tienen una interfaz de lectura significativa diferente
-    Como no se muestra ningún texto.
--El soporte PDF es básico y proporciona pocas opciones.
+-   Reading Textual first publications like reflowable EPUB and textual
+    or full Daisy will allow for the greatest number of functionalities.
+-   Visual first publications like Fixed Layout EPUBS and Divina will
+    not allow personalization of texts.
+-   Audio publications have a significative different reading interface
+    as no text is displayed.
+-   PDF support is basic and provides few options.
 
 
-## Modo Zen y pantalla completa {#zen_and_full}
+<section class="filet">
 
-Las ventanas de lectura Thorium ofrecen un modo "zen" libre de distracciones que oculta todos los iconos excepto el propio botón de pantalla completa y el enlace azul "saltar al contenido" de la esquina superior (accesible a través de la pestaña del teclado).
+## Zen Mode and Full screen  {#zen_and_full}
 
-La navegación en modo zen sólo es posible con las flechas y atajos del teclado. No se garantiza la compatibilidad con pantallas táctiles, por lo que es posible que no funcionen las interacciones al deslizar los dedos.
+Thorium reading windows offers a distraction free "zen" mode that hides all icons other than the fullscreen icon button itself, and the "skip to content" blue link in the upper corner (reachable via keyboard tab). 
 
-El modo alternativo de pantalla completa se puede iniciar con el atajo de teclado
-<kbd>Ctrl</kbd> + <kbd>F11</kbd>. En este modo, los botones de la interfaz de usuario, como los botones superiores, las flechas laterales y los iconos de salto hacia atrás y hacia delante de la parte inferior izquierda.
+Navigation in zen mode is only possible with keyboard arrows and shortcuts. Touch screen support is not guaranteed so finger swipe interactions may not work.
 
+The alternative Fullscreen mode can be launched with keyboard shortcut 
+<kbd>Ctrl</kbd> + <kbd>F11</kbd>. In this mode, the user interface buttons such as top buttons, side arrows and bottom left jump back and forward icons. 
+
+
+
+</section>
+<section class="filet">
+
+## Search in a book {#read_search}
+
+You can use <kbd>Ctrl</kbd> + <kbd>F</kbd> keys to access the search field.
+Enter your search term. By clicking on the `Search` button, you get
+`Back` and `Next` buttons to navigate between occurences. The number of
+matches found is a link that will open a `List of results` in the right
+panel. Each match displayed is a link you can Activate to go to the
+place of the book where the expression you are looking for was found.
+
+ warning
+Remember that performing a search and navigating thru the results will
+make you loose the reading point you where at. Just place a Bookmark to
+make sure you find your way back.
+
+
+
+
+
+
+
+</section>

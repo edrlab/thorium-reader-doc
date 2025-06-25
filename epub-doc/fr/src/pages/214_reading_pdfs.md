@@ -1,54 +1,91 @@
 ---
-title: Lecture des PDF
+title: Reading PDFs
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
-# Lecture des PDF
+# Reading PDFs
 
-Le moteur de lecture des PDF de Thorium s'appuie sur pdf.js, une visionneuse de Portable Document Format (PDF) construite avec HTML5. PDF.js est piloté par la communauté et soutenu par Mozilla.
+Thorium PDF reading engine relies on pdf.js a Portable Document Format (PDF) viewer that is built with HTML5. PDF.js is community-driven and supported by Mozilla.
 
-## Paramètres de lecture des PDF
 
-La prise en charge des PDF comprend 8 niveaux de zoom et la capacité d'afficher en une ou deux colonnes.
+<section class="filet">
 
-## Fonctions de navigation pour les PDF
+## Reading settings for PDFs
 
-La navigation dans les PDF peut toujours se faire à l'aide du panneau "Aller à la page". En outre, lorsque les créateurs de PDF ont inclus des aperçus de documents, ceux-ci sont disponibles via le panneau de navigation de la table des matières. Ce comportement est différent de celui d'Acrobat Reader, qui affiche les plans de documents sous forme de signets et permet aux utilisateurs de les manipuler en changeant leur ordre, en les renommant, en les ajoutant et en les supprimant.
+PDF support include 8 levels of zoom and the capacity to display in one or two columns.
 
-Avec Thorium Reader, vous pouvez ajouter vos propres signets en toute sécurité et vous les trouverez dans le panneau de navigation des signets.
 
-## Signets et annotations pour les PDF
+</section>
+<section class="filet">
 
-Pour le moment, les annotations ne sont pas disponibles pour les PDF. Les signets sont entièrement implémentés et peuvent être créés et navigués comme détaillé dans le chapitre [Action de lecture signets](../230_bookmarks/index.xhtml).
+## Navigation features for PDFs
 
-Un point d'attention ici est qu'un seul signet par page peut être ajouté. Si vous essayez d'ajouter plus d'un signet par page, le signet existant sera supprimé.
+Navigation in PDF can always be done with the go to page panel. Additionally, when PDFs creators have included Document Outline, those are available thru the Table Of Content Navigation Panel. That's a different behavior of what is done by acrobat reader that displays Document Outlines as Bookmarks and allows users to manipulate them by changing order, renaming, adding and deleting them. 
 
-## Raccourcis clavier PDF
+With Thorium Reader, you can safely add your own bookmarks and you will find them in the Bookmarks navigation panel. 
 
-PDF.js ajoute des raccourcis clavier qui ne sont pas configurables dans le panneau de configuration de Thorium. La liste reproduite ici n'est pas exhaustive et certains raccourcis peuvent ne pas fonctionner. Elle est copiée à partir de la [page PDF.JS Frequently Asked Questions] (https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts).
+
+</section>
+<section class="filet">
+
+## Bookmarks and annotations for PDFs
+
+At this moment, annotations are not available for PDFs. Bookmarks are fully implemented and can be created and navigated as detailled in the [Reading action bookmarks chapter](../230_bookmarks/index.xhtml). 
+
+An attention point here is that only one bookmark per page can be added. Trying to add more than one bookmark per page will remove the existing one.
+
+
+</section>
+<section class="filet">
+
+## Printing PDF
+
+Since 3.2, it is possible to print page ranges of a PDF. This can be limited by LCP rules decided by the vendor or lender. 
+
+
+</section>
+<section class="filet">
+
+## PDF keyboard shortcuts
+
+PDF.js adds keyboard shortcuts that are not configurable in the Thorium setting panel. The list reproduced here is non exhaustive and some shortcuts may not work. It is copied from the [PDF.JS Frequently Asked Questions page](https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts). 
+
+
+</section>
+<section class="filet">
+
 
 ### Navigation
 
-Les touches <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page haut</kbd>, <kbd>Page bas</kbd> et toutes les touches <kbd>flèche</kbd> peuvent être utilisées pour naviguer dans le document. En outre, les raccourcis de navigation suivants existent :
+The <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page up</kbd>, <kbd>Page down</kbd> and all <kbd>arrow</kbd> keys can be used to navigate the document. Moreover, the following navigation shortcuts exist:
 
-* Page suivante : <kbd>n</kbd>, <kbd>j</kbd>, <kbd>Barre d'espace</kbd> (mode présentation uniquement), <kbd>Entrée</kbd> (mode présentation uniquement) ou clic gauche (mode présentation uniquement).
-* Page précédente : <kbd>p</kbd>, <kbd>k</kbd>, <kbd>Shift</kbd> + <kbd>Barre d'espace</kbd> (mode présentation uniquement), <kbd>Shift</kbd> + <kbd>Entrée</kbd> (mode présentation uniquement) ou <kbd>Shift</kbd> + clic gauche (mode présentation uniquement).
+* Next page: <kbd>n</kbd>, <kbd>j</kbd>, <kbd>Space bar</kbd> (presentation mode only), <kbd>Enter</kbd> (presentation mode only) or left click (presentation mode only)
+* Previous page: <kbd>p</kbd>, <kbd>k</kbd>, <kbd>Shift</kbd> + <kbd>Space bar</kbd> (presentation mode only), <kbd>Shift</kbd> + <kbd>Enter</kbd> (presentation mode only) or <kbd>Shift</kbd> + left click (presentation mode only)
 
-### Contrôles de la visionneuse
 
-Les boutons de l'interface utilisateur ou <kbd>ctrl</kbd> + molette de la souris peuvent être utilisés pour modifier le niveau de zoom, mais des raccourcis clavier sont également disponibles :
+</section>
+<section class="filet">
 
-* Zoom avant : <kbd>ctrl</kbd> + <kbd>+</kbd>, <kbd>ctrl</kbd> + <kbd>=</kbd>
-* Zoom arrière : <kbd>ctrl</kbd> + <kbd>-</kbd>
-* Rétablir le zoom normal : <kbd>ctrl</kbd> + <kbd>0</kbd>
-* Tourner le document dans le sens des aiguilles d'une montre : <kbd>r</kbd>
-* Tourner le document dans le sens inverse des aiguilles d'une montre : <kbd>shift</kbd> + <kbd>r</kbd>
-* Déplacer le focus sur la case "aller à la page" : <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
-* Recherche de texte dans le document : <kbd>ctrl</kbd> + <kbd>f</kbd>
-* Recherche de l'occurrence suivante du texte dans le document : <kbd>ctrl</kbd> + <kbd>g</kbd>
-* Recherche de l'occurrence précédente du texte dans le document : <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
 
-(remplacer <kbd>ctrl</kbd> par meta dans certaines configurations)
+### Viewer controls
+
+User interface buttons or <kbd>ctrl</kbd> + mouse wheel can be used to change the zooming level, but keyboard shortcuts are also available:
+
+* Zoom in: <kbd>ctrl</kbd> + <kbd>+</kbd>, <kbd>ctrl</kbd> + <kbd>=</kbd>
+* Zoom out: <kbd>ctrl</kbd> + <kbd>-</kbd>
+* Restore normal zoom: <kbd>ctrl</kbd> + <kbd>0</kbd>
+* Rotate the document clockwise: <kbd>r</kbd>
+* Rotate the document counterclockwise: <kbd>shift</kbd> + <kbd>r</kbd>
+* Move focus to the 'go to page' box: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
+* Find text in the document: <kbd>ctrl</kbd> + <kbd>f</kbd>
+* Find next occurrence of text in the document: <kbd>ctrl</kbd> + <kbd>g</kbd>
+* Find previous occurrence of text in the document: <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
+
+(replace <kbd>ctrl</kbd> with meta on some configurations)
+
+
+
+</section>

@@ -2,9 +2,12 @@
 title: "Bookmarking"
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
+
+
+<section class="filet">
 
 ## Add a bookmark
 
@@ -21,10 +24,14 @@ after this action.
 
 Select the text you want to mark.
 Press the <span class="ui_button">bookmark</span> button
-<img src="../../resources/images/icons3/bookmarkSingle-icon.svg" class="icon" role="presentation" alt=""/>
+<img src="../../resources/images/bookmarkSingle-icon.svg" class="icon" role="presentation" alt=""/>
 or the key combination  <kbd>Ctrl</kbd>  +  <kbd>B</kbd>.
 
-If no text is selected so the full page will be marked. 
+If no text is selected, the last known reading location will be marked. 
+
+
+</section>
+<section class="filet">
 
 ## Reviewing and navigating the Bookmarks
 
@@ -35,7 +42,6 @@ bookmarks and move between bookmarks by pressing <kbd>Enter</kbd>.
 Access the list of bookmarks in the navigation area. Select the bookmark
 you wish to access and press the <kbd>Enter</kbd> key. If you have
 renamed the bookmark, it will be easy to go to several places in the book.
-
 
 If you select a portion of text and then activate the <span class="ui_button">Bookmark</span> button, 
 the bookmark created will have the selected line as its title.
@@ -49,3 +55,7 @@ rename the bookmark. Paste the line from the clipboard and press
 <kbd>Enter</kbd>. This renames the bookmark with the line of text that you have
 copied. When you have several bookmarks, this renaming of the bookmarks allows 
 you to use them easily.
+
+Since 3.2 it is possible to add Tags to bookmarks to ease filtering, grouping and finding specific locations. 
+
+</section>

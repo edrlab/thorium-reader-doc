@@ -1,23 +1,44 @@
 ---
-title: Lecture de contenus visuels
-role: 
+title: Reading visual contents
+role: doc-chapter
+epubtype: chapter
+class: colbreak filet
 draft: false
 ---
 
-# Lecture de contenus visuels
+# Reading visual contents
 
-## Zoom sur les images {#read_images_zoom}
 
-Thorium dispose d'une fonction de zoom d'image (epub uniquement).
+<section class="filet">
 
-Pour zoomer sur une image, vous pouvez sélectionner l'image (un contour de mise au point magenta apparaîtra autour d'elle) et activer le zoom en cliquant avec la souris ou en tapant dessus avec le doigt. L'accès au zoom de l'image via le clavier n'est actuellement pas possible.
+## Zooming on images {#read_images_zoom}
 
-Si l'image est également un lien ou si le livre que vous lisez est dans un format de mise en page fixe, vous devrez appuyer sur la touche <kbd>Maj</kbd> pour accéder à la fonction de zoom de l'image.
+Thorium has an image zoom feature (epub only).
 
-Pour zoomer ou dézoomer, appuyez sur les boutons `+` ou `-` et appuyez sur <kbd>Entrée</kbd>, utilisez la molette de la souris, faites défiler vers le haut et vers le bas ou pincez et étirez le trackpad ou les gestes tactiles à l'écran.
+To zoom on an image you can select the image (a magenta focus outline
+will appear around it) and activate zoom by clicking with the mouse or
+tapping it with the finger. Access to image zoom via keyboard is
+currently not possible.
 
-Une fois l'image zoomée, vous pouvez vous déplacer verticalement et horizontalement avec <kbd>←</kbd>, <kbd>→</kbd>, <kbd>←</kbd> et <kbd>→</kbd>, en déplaçant la souris tout en maintenant le bouton principal enfoncé, avec les gestes habituels du trackpad ou avec les mouvements des doigts sur les écrans tactiles.
+If the image is also a link or if the book your read is in a fixed
+layout format, you will need to hit the <kbd>Shift</kbd> key in order to
+enter the image zoom feature.
 
-Pour fermer la vue zoom de l'image et revenir à la vue de lecture, appuyez sur la touche <kbd>ESC</kbd> ou sur le bouton X.
+To zoom in or out, tab to the `+` or `-` buttons and hit <kbd>Enter</kbd>,
+use mouse wheel, scroll up and down or pinch and stretch trackpad or
+onscreen touch gestures.
 
-Certaines restrictions dues à la conception du livre électronique peuvent s'appliquer, par exemple lorsque des images sont insérées en tant que style (CSS), il n'est pas possible d'ouvrir la vue image pour zoomer.
+Once the image is zoomed you can move vertically and horizontally with
+<kbd>Left arrow</kbd>, <kbd>Right arrow</kbd>, <kbd>Left arrow</kbd> and <kbd>Right arrow</kbd>, 
+by holding down the mouse button and moving the mouse, with usual
+trackpad gestures or with finger moves on tactile screens.
+
+To close the image zoom view and to return to the reading view, press
+<kbd>ESC</kbd> key, or the X button.
+
+Some restrictions due to ebook design may apply, for example when images
+are inserted as style (CSS), it is not possible to open the image view
+for zooming.
+
+
+</section>

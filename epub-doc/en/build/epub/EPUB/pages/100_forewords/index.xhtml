@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Forewords</title>
@@ -15,12 +15,10 @@
     <section class=""  role="doc-foreword" >
       <p>Thorium is a digital book reader, it is also a library where you can
 store your books and access to online catalogs.</p>
-      <p>Thorium allows to read ebooks in different 
-        <a href="../406_formats/index.xhtml">formats</a>,
+      <p>Thorium allows to read ebooks in different,
 each of them having strengths and limitations. This documentation is
 provided as an EPUB, the format with the larger number of
-functionalities.
-      </p>
+functionalities.</p>
       <hr />
       <p>This software is free, open-source and as such, its development is only
 possible because it is funded by different organizations. Among these,
@@ -29,24 +27,130 @@ donations from happy users (individuals or companies). If you rely on
 this application, consider 
         <a href="https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/">support thru funding and sponsorhip</a>
       </p>
-      <h2 id="th3">This is the documentation for Thorium 3, and it is a work in progress!</h2>
-      <p>Thorium 3 introduces numerous changes and, we hope, a friction less
+      <section class="filet">
+        <h2 id="th3">This is the documentation for Thorium 3, and it is a work in progress!</h2>
+        <p>Thorium 3 introduces numerous changes and, we hope, a friction less
 reading experience. This documentation is a work in progress trying to
 support new users discovering the software as well as providing the
 missing links for the experimented readers.</p>
-      <h2 id="th3add">Additional material available online</h2>
-      <p>To complete this documentation, the 
-        <a href="https://thorium.edrlab.org">thorium
+      </section>
+      <section class="filet">
+        <h2 id="th3add">Additional material available online</h2>
+        <p>To complete this documentation, the 
+          <a href="https://thorium.edrlab.org">thorium
 website</a> proposes a frequently asked
 questions section as well as a list of ressources including place to
 find ebooks online.
-      </p>
-      <p>
-        <a href="https://github.com/edrlab/thorium-reader/issues">Github Thorium Issue
+        </p>
+        <p>
+          <a href="https://github.com/edrlab/thorium-reader/issues">Github Thorium Issue
 tracker</a> can also be
 browsed to find answers to specific use cases and give us feedback about
 any difficulty or bug affecting your reading experience.
-      </p>
+        </p>
+        <h1>Before using Thorium Reader Desktop</h1>
+        <p>This user guide limits itself to providing details on features and actions. Aside from it you'll find dedicated ressources in the app itself or on the 
+          <a href="https://thorium.edrlab.org/en/th3/">
+            <span>online support webpages </span>
+          </a>
+        </p>
+      </section>
+      <section class="filet">
+        <h2>Supported publication formats</h2>
+        <p>Thorium Reader Desktop supports différent publication formats. Each format coming with particularities, it is not always possible to offer the same features for all.</p>
+        <ul>
+          <li>
+            <p>EPUB (Electronic PUBlication) is an open file format for electronic publications. EPUB is a native semantic format allowing to use numerous standardised languages such as HTML, ARIA, MATHML, SVG and others. The actual version 3 is known to provide the best up to date reading experience. Obsolete EPUB2 files are also readable in Thorium.</p>
+          </li>
+          <li>
+            <p>DAISY Usually produced and distributed by specialized libraries or NGOs, the DAISY format offers a significantly enhanced reading experience for ebooks that are not available in EPUB3. Thorium supports reading DAISY 3 and 2.02, both in their text only, audio only, and syncronised text and audio.</p>
+          </li>
+          <li>
+            <p>PDF despite a well-known lack of flexibility (no reflow option) and accessibility, many ebooks are still available in PDF only, especially in public libraries.</p>
+          </li>
+          <li>
+            <p>Audiobooks a standardized format for audiobooks has been designed by the W3C Publishing Working Group in 2020, and EDRLab was part of this WG. Thorium is supporting the packaged (LPF) audiobook format, which will soon be widely used by booksellers, or so we hope.</p>
+          </li>
+          <li>
+            <p>Visual narratives, a standard format for comics, manga, webtoons and other styles of digital works based on sequences of images. Divina is the name of this format. This is still an experimental format.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="filet">
+        <h2 id="keyboard">Keyboard functions</h2>
+        <p>Each key combination can be changed in Thorium
+
+          <a href="../102_windows_views_panels/index.xhtml#setting_view">Application Setting Panel</a>.
+Figure out the three dots menu aside of the Panel title with extra actions
+(Reset, Edit and Load). The Edit one opens system folder application to the
+localisation of the stored user setting .json file, allowing you to
+edit it outside of the application (at your own risks)
+or save it for future uses or share it within your devices or with who you want.
+        </p>
+        <p>Since 3.2, it is possible to filter actions thru a search box to ease finding keyboard shortcuts.</p>
+        <p>The default setup is available online at support page 
+          <a href="https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/">
+            <span>Keyboard shortcuts</span>
+          </a>
+        </p>
+      </section>
+      <section class="filet">
+        <h2 id="tactile">Tactile gestures</h2>
+        <p>Thorium Reader has limited onscreen touch gesture control. They are
+mainly implemented for Image zoom control and turning pages. Some native
+operating system gestures may also work.</p>
+        <p>The following list repertories the known working gestures so far:</p>
+        <ul>
+          <li>
+            <em>Tap, in All views</em> will Activates button
+          </li>
+          <li>
+            <em>Tap then select and move cursors</em>, On text will Select text
+          </li>
+          <li>
+            <em>Place one finger on the screen and slide horizontally or vertically when Reading in scrollable layout</em> will Scroll
+          </li>
+          <li>
+            <em>Place one finger on the screen and slide horizontally when Reading in paginated layout</em> will Turn page
+          </li>
+          <li>
+            <em>Place fingers on the screen and pinch in or stretch out when Image zoom</em> view will Zoom in or out
+          </li>
+          <li>
+            <em>Press and hold in All views</em> will Show more commands (like right-clicking)
+          </li>
+        </ul>
+        <h1 id="getabook">Opening Thorium Reader</h1>
+        <p>Once Thorium reader is installed on your system, severals ways are
+possible to open it.</p>
+        <ul>
+          <li>Thorium can be launched from the application menu or from any
+shortcut created. This action will open the 
+            <a href="">library home
+view</a> and will allow you to choose a book or to add
+one but also to access to 
+            <a href="">catalogs</a> and organize your
+collection. To read a book just click on it or validate with
+
+            <kbd>Enter</kbd> when selected.
+          </li>
+          <li>Select the book you want to read, use the 
+            <code>contextual menu</code> (right
+click), select 
+            <code>open with</code> and then select 
+            <code>Thorium</code>.
+          </li>
+          <li>You can set the default application for certain file types through
+the Windows settings. Select a file, open the context menu, select
+
+            <code>Open with</code>, in the pop-up window select 
+            <code>Thorium</code>, check the box
+
+            <code>Always open with</code>. This operation must be repeated for each file
+format you wish to read with Thorium.
+          </li>
+        </ul>
+      </section>
     </section>
   </body>
 </html>

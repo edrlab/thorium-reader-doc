@@ -2,7 +2,7 @@
 title: Reading PDFs
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
@@ -10,9 +10,16 @@ draft: false
 
 Thorium PDF reading engine relies on pdf.js a Portable Document Format (PDF) viewer that is built with HTML5. PDF.js is community-driven and supported by Mozilla.
 
+
+<section class="filet">
+
 ## Reading settings for PDFs
 
 PDF support include 8 levels of zoom and the capacity to display in one or two columns.
+
+
+</section>
+<section class="filet">
 
 ## Navigation features for PDFs
 
@@ -20,15 +27,36 @@ Navigation in PDF can always be done with the go to page panel. Additionally, wh
 
 With Thorium Reader, you can safely add your own bookmarks and you will find them in the Bookmarks navigation panel. 
 
+
+</section>
+<section class="filet">
+
 ## Bookmarks and annotations for PDFs
 
 At this moment, annotations are not available for PDFs. Bookmarks are fully implemented and can be created and navigated as detailled in the [Reading action bookmarks chapter](../230_bookmarks/index.xhtml). 
 
 An attention point here is that only one bookmark per page can be added. Trying to add more than one bookmark per page will remove the existing one.
 
+
+</section>
+<section class="filet">
+
+## Printing PDF
+
+Since 3.2, it is possible to print page ranges of a PDF. This can be limited by LCP rules decided by the vendor or lender. 
+
+
+</section>
+<section class="filet">
+
 ## PDF keyboard shortcuts
 
 PDF.js adds keyboard shortcuts that are not configurable in the Thorium setting panel. The list reproduced here is non exhaustive and some shortcuts may not work. It is copied from the [PDF.JS Frequently Asked Questions page](https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts). 
+
+
+</section>
+<section class="filet">
+
 
 ### Navigation
 
@@ -36,6 +64,11 @@ The <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page up</kbd>, <kbd>Page down</kbd> an
 
 * Next page: <kbd>n</kbd>, <kbd>j</kbd>, <kbd>Space bar</kbd> (presentation mode only), <kbd>Enter</kbd> (presentation mode only) or left click (presentation mode only)
 * Previous page: <kbd>p</kbd>, <kbd>k</kbd>, <kbd>Shift</kbd> + <kbd>Space bar</kbd> (presentation mode only), <kbd>Shift</kbd> + <kbd>Enter</kbd> (presentation mode only) or <kbd>Shift</kbd> + left click (presentation mode only)
+
+
+</section>
+<section class="filet">
+
 
 ### Viewer controls
 
@@ -52,3 +85,7 @@ User interface buttons or <kbd>ctrl</kbd> + mouse wheel can be used to change th
 * Find previous occurrence of text in the document: <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
 
 (replace <kbd>ctrl</kbd> with meta on some configurations)
+
+
+
+</section>

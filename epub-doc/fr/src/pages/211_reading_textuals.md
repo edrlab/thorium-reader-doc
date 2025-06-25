@@ -1,80 +1,160 @@
 ---
-title: Lire des contenus textuels
+title: Reading textual contents
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
-draft: 'false'
+class: colbreak filet
+draft: false
 ---
 
-## Lire des contenus textuels
 
-Pour le contenu textuel, Thorium propose une lecture visuelle et une lecture audio.
+<section class="filet">
 
-### Affichage du texte {#read_text_adjust}
+## Reading textual contents
 
-Dans l'interface de lecture, utilisez le bouton `Preferences` <img src="../../resources/images/icons3/textarea-icon.svg" role="presentation" alt=""/>
-
-Les paramètres de lecture peuvent être sauvegardés ou réinitialisés en utilisant les boutons <span class="ui_button">Enregistrer</span> et <span class="ui_button">Réinitialiser</span> situés dans le menu <span class="ui_button">Paramètres</span> , sous-menu <span class="ui_button">Configuration</span> de la fenêtre de lecture.
-
-Les paramètres principaux sont disponibles pour les formats EPUB redistribuables, EPUB à mise en page fixe et PDF, mais ne permettent pas de personnaliser l'apparence. La plupart des EPUB à mise en page fixe permettent d'ouvrir la vue Image pour zoomer sur une page. Les PDF peuvent être agrandis à l'aide du sous-menu Zoom du panneau Préférences.
-
-### Thème {#read_text_adjust_theme}
-
-La couleur de l'arrière-plan et du premier plan peut être modifiée à l'aide de l'un des thèmes disponibles.
-
-### Texte {#read_text_adjust_font}
-
-La taille de la police peut être augmentée ou diminuée à l'aide du curseur. La police peut également être modifiée. Les options disponibles sont les suivantes : Par défaut, Ancien style, Moderne, Sans, Humaniste, Lisible (Dyslexie), Double espace et Monospace.
-
-En sélectionnant `...` vous pouvez saisir le nom de la police que vous souhaitez utiliser. Pour ce faire, la police doit être présente sur votre système d'exploitation et vous devez connaître son nom exact tel qu'il est défini pour le système d'exploitation.
-
-<h4 >Exemple 1 : Définition de Verdana comme police de lecture {#read_text_example_verdana}</h4>
-<ol>
-<li>Dans l'interface de lecture, allez dans le menu <code>Preference</code> puis <code>Text</code> .</li>
-<li>Dans la liste déroulante, sélectionnez <code>...</code> .</li>
-<li>Écrivez le mot <em>Verdana</em> dans le champ vide qui apparaît à côté de la liste déroulante.</li>
-<li>Confirmez avec <kbd>Entrée</kbd> .</li>
-</ol>
-<p ><img src="../../resources/images/local-fr/thorium-verdana.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" class=""/></p>
-<h4 >Exemple 2 : Configuration de Luciole comme police de lecture {#read_text_example_luciole}</h4>
-<ol>
-<li><a href="https://www.luciole-vision.com/#download">Téléchargez et installez la police Luciole</a></li>
-<li>Dans l'interface de lecture, allez dans le menu <code>Preference</code> puis <code>Text</code> .</li>
-<li>Dans la liste déroulante, sélectionnez <code>...</code> .</li>
-<li>Écrivez le mot <em>Luciole</em> dans le champ vide qui apparaît à côté de la liste déroulante.</li>
-<li>Confirmez avec <kbd>Entrée</kbd> .</li>
-</ol>
-<p ><img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" class=""/></p>
+For textual contents Thorium provides visual reading and audio playback.
 
 
-### Afficher {#read_text_display}
+</section>
+<section class="filet">
 
-Vous pouvez choisir entre une mise en page avec défilement ou pagination, un alignement automatique ou justifié et automatique ou sur 1 ou 2 colonnes. Ici aussi, MathJax peut être activé, pour l'affichage d'expressions mathématiques.
 
-### Espacement {#read_text_spaces}
+### Text adjustment settings {#read_text_adjust}
 
-Les marges, l'espacement des mots, l'espacement des lettres, l'espacement des paragraphes et l'interligne peuvent être ajustés.
+In the reading interface use the `Preferences` button 
+<img src="../../resources/images/textarea-icon.svg" role="presentation" alt="" class="icon"/>
 
-### Lire à haute voix {#read_text_readaloud}
 
-Fournit des options pour une `clean view` et épurée et la possibilité d'ignorer le contenu secondaire ( `skippability` ) qui peut inclure des notes de bas de page ou des barres latérales selon la sémantique indiquée lors de la production du livre numérique. `Split TTS` divisera le contenu par phrase pour une mise en évidence plus précise.
+Reading settings can be saved or reset by using buttons <span class="ui_button">Save</span> and <span class="ui_button">Reset</span> located in the menu
+<span class="ui_button">Settings</span>, submenu <span class="ui_button">Configuration</span> of the
+Reading window.
 
-## Synthèse vocale (TTS) {#read_text_TTS}
+Major settings are available for EPUB Reflowable , Fixed Layout EPUBs and
+PDF formats just don't allow personalisation of appearance. Most Fixed
+Layout EPUBs will allow to open Image view for zooming on a page. PDFs
+can be enlarged using the Zoom sub-menu in the Preferences panel.
 
-La synthèse vocale est lancée à l'aide du bouton du haut-parleur au milieu de la barre d'outils, ou en utilisant le raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
 
-- La lecture et la pause peuvent être contrôlées avec le raccourci clavier <kbd>Ctrl</kbd> + <kbd>2</kbd>.
+</section>
+<section class="filet">
 
-- La position de lecture peut être déplacée avec <kbd>Ctrl</kbd> + <kbd>1</kbd> et <kbd>Ctrl</kbd> + <kbd>3</kbd> pour respectivement précédent et suivant.
 
-- Un contrôle de vitesse est disponible lorsque la lecture à voix haute est sélectionnée, avec une plage de x0,5 à x2.
+### Theme {#read_text_adjust_theme}
 
-- La phrase actuelle est surlignée en jaune clair et chaque mot prononcé est souligné en orange.
+The color of the background and foreground can be changed using one of
+the available themes.
 
-- Une vue alternative (simplifiée) de la publication est fournie via des options disponibles dans le menu `Settings / Readaloud`.
 
-<div class="framed"> 
-Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante 
+</section>
+<section class="filet">
 
-[Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)](https://thorium.edrlab.org/fr/th3/400_ressources/430_faq/#TTSvoices).
+
+### Text {#read_text_adjust_font}
+
+The font size can be increased or decreased using the slider. The font
+can also be changed. The available options are as follows Default, Old
+style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace and
+Monospace.
+
+By selecting the `...` you can enter the name of the font you want to
+use. To do this, the font must be present on your operating system and
+you must know its exact name as it is set for the operating system.
+
+<div class="framed">
+
+
+## Example 1: Setting Verdana as the reading font {#read_text_example_verdana}
+
+1.  In the reading interface go to the `Preference` menu and then
+    `Text`.
+2.  In the drop-down list select `...`.
+3.  Write the word *Verdana* in the empty field that appears next to the
+    drop-down list.
+4.  Confirm with <kbd>Enter</kbd>.
+
+
+## Example 2: Setting up Luciole as the reading font {#read_text_example_luciole}
+
+1.  [Download and install the Luciole
+    font](https://www.luciole-vision.com/#download)
+2.  In the reading interface go to the `Preference` menu and then
+    `Text`.
+3.  In the drop-down list select `...`.
+4.  Write the word *Luciole* in the empty field that appears next to the
+    drop-down list.
+5.  Confirm with <kbd>Enter</kbd>.
+
 </div>
+
+
+</section>
+<section class="filet">
+
+
+### Display {#read_text_display}
+
+You can choose between a page layout with scrolling or pagination,
+automatic or justified alignment and automatic or on 1 or 2 columns.
+Here also, MathJax can be activated, for the display of mathematical
+expressions.
+
+
+</section>
+<section class="filet">
+
+
+### Spacing {#read_text_spaces}
+
+Margins, word spacing, letter spacing, paragraph spacing and line
+spacing can be adjusted.
+
+
+</section>
+<section class="filet">
+
+
+### Readaloud {#read_text_readaloud}
+
+Provides options for an uncluttered `clean view` and the ability to skip
+secondary content ( `skippability`) which may include footnotes or
+sidebars according to the semantics indicated during the production of
+the digital book. `Split TTS` will split the content by sentence for
+more precise highlighting.
+
+<div class="framed">
+Thorium uses the voices from the computer's operating system, in
+combination with the language information provided by the book. If you
+experience problems please check the related FAQ entry.
+</div>
+
+
+</section>
+<section class="filet">
+
+
+### Text to Speech (TTS) {#read_text_TTS}
+
+Text-to-speech is launched using the speaker button in the middle of the
+toolbar, or by using the dedicated keyboard shortcut. 
+There is a voice to text synchronisation showed by 
+highlight of the current sentence and underline of the word.
+
+Possible actions are 
+
+- Play and pause;
+- Move playback position to previous and next;
+- Control speed with a range from x0.5 to x2;
+- Simplify view of the publication ;
+- choose a preferred voice.
+
+
+<div class="framed">
+Thorium uses the voices from the computer's operating system, in
+combination with the language information provided by the book. 
+If you experience problems please check the 
+[online related FAQ entry](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html).
+
+</div>
+
+
+
+</section>

@@ -8,7 +8,7 @@
     "page": "toc/index.xhtml"
   },
   "readingOrder": [
-    "toc", "000_title", "100_forewords", "101_opening_thorium", "102_windows_views_panels", "110_libraries_actions", "111_catalogs_actions", "120_book_information_panel", "210_reading", "211_reading_textuals", "212_reading_visuals", "213_reading_auditory", "214_reading_pdfs", "220_reading_actions", "230_bookmarks", "240_annotations", "300_accessibility", "400_ressources", "406_formats", "900_about"
+    "000_title", "100_forewords", "102_windows_views_panels", "110_libraries_actions", "111_catalogs_actions", "120_book_information_panel", "210_reading", "211_reading_textuals", "212_reading_visuals", "213_reading_auditory", "214_reading_pdfs", "220_reading_actions", "230_bookmarks", "240_annotations", "300_accessibility", "toc", "900_about"
   ]
 }
 

@@ -6,13 +6,13 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Accessibility</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
+    <section class="colbreak filet"  role="doc-chapter" >
       <h1 id="A11Y">Accessibility</h1>
       <p>The application is compatible with assistance technologies such as screen players, including Jaws, NVDA, Narrator and Voiceover. It includes a reading function aloud with visual highlighting. Thorium Reader can be used with mouse or keyboard, and keyboard shortcuts are configurable. The display can be personalized to meet the needs of users, including colors, text size, spacing, font and layout.
 Accessibility features strongly depend on the quality of electronic publication files and are affected by it.</p>
@@ -20,167 +20,175 @@ Accessibility features strongly depend on the quality of electronic publication 
         <a href="https://thorium.edrlab.org/en/th3/500_accessibility/">Accessibility online support page</a> contains complete information related to the accessibility of the application and the features related to it.
       </p>
       <p>This chapter takes up the main information to have it offline.</p>
-      <h2 id="a11y_info">Accessibility information</h2>
-      <p>Currently, Thorium displays in the 
-        <a href="../102_windows_views_panels/index.xhtml#book_info_panel">Book Information Panel</a> under the title 
-        <code>Description</code> Description 'The content of the accessibility metadata provided by the creators of the file.
-      </p>
-      <h2 id="a11y_native">Native accessibility functions</h2>
-      <p>The native accessibility functions are described in each section of this documentation which correspond to their context of use. This includes in particular:</p>
-      <ul>
-        <li>
-          <a href="../102_windows_views_panels/index.xhtml#reading_settings_panel">Visual adjustments in the display of the text</a>
-        </li>
-        <li>
-          <a href="../211_reading_textuals/index.xhtml#read_text_readaloud">Audio reading generated in summary voice</a>
-        </li>
-      </ul>
-      <h2 id="screenreader">Reading with a screen player</h2>
-      <p>When launching Thorium, if a screen player is detected, the relative functions are activated.
+      <section class="filet">
+        <h2 id="a11y_info">Accessibility information</h2>
+        <p>Currently, Thorium displays in the 
+          <a href="../102_windows_views_panels/index.xhtml#book_info_panel">Book Information Panel</a> under the title 
+          <code>Description</code> Description 'The content of the accessibility metadata provided by the creators of the file.
+        </p>
+      </section>
+      <section class="filet">
+        <h2 id="a11y_native">Native accessibility functions</h2>
+        <p>The native accessibility functions are described in each section of this documentation which correspond to their context of use. This includes in particular:</p>
+        <ul>
+          <li>
+            <a href="../102_windows_views_panels/index.xhtml#reading_settings_panel">Visual adjustments in the display of the text</a>
+          </li>
+          <li>
+            <a href="../211_reading_textuals/index.xhtml#read_text_readaloud">Audio reading generated in summary voice</a>
+          </li>
+        </ul>
+      </section>
+      <section class="filet">
+        <h2 id="screenreader">Reading with a screen player</h2>
+        <p>When launching Thorium, if a screen player is detected, the relative functions are activated.
 Note that screen players use separate buffer memory to access HTML content, which causes the visual scroll desynchronization and a page offset displayed with the page read by the screen player. In other words, Thorium is generally not aware of the current reading location of the screen player user, unless the screen user triggers events (such as a Mouse click anywhere in the text or a keyboard key on focused HTML elements).</p>
-      <h3>Quick keys for navigation (common to NVDA and Jaws)</h3>
-      <p>
-        <em>(Contribution of Prashant Verma, Daisy Consortium)</em>
-      </p>
-      <p>To read text, navigate in the tables, navigate in the browser window, the insertion key can be replaced by the screen modification key. The screen player must be in navigation or virtual cursor mode.</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Action</th>
-            <th>Key</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Following title</td>
-            <td>
-              <kbd>H</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Next table</td>
-            <td>
-              <kbd>T</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Following graphic</td>
-            <td>
-              <kbd>G</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Next list</td>
-            <td>
-              <kbd>L</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Following form field</td>
-            <td>
-              <kbd>F</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Element list</td>
-            <td>
-              <kbd>INSERT</kbd> + 
-              <kbd>F7</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Preceding</td>
-            <td>
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Following character</td>
-            <td>
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Previous word</td>
-            <td>
-              <kbd>CTRL</kbd> + 
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Next word</td>
-            <td>
-              <kbd>CTRL</kbd> + 
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Previous line</td>
-            <td>
-              <kbd>↑</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Next line</td>
-            <td>
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Previous sentence</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>↑</kbd> (Jaws uniquement)
-            </td>
-          </tr>
-          <tr>
-            <td>Next sentence</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>↓</kbd> (Jaws uniquement)
-            </td>
-          </tr>
-          <tr>
-            <td>Read everything</td>
-            <td>
-              <kbd>INSERT</kbd> + 
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Cell on the right</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Cell on the left</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Cell below</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Cell above</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>↑</kbd>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      </section>
+      <section class="filet">
+        <h3>Quick keys for navigation (common to NVDA and Jaws)</h3>
+        <p>
+          <em>(Contribution of Prashant Verma, Daisy Consortium)</em>
+        </p>
+        <p>To read text, navigate in the tables, navigate in the browser window, the insertion key can be replaced by the screen modification key. The screen player must be in navigation or virtual cursor mode.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Key</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Following title</td>
+              <td>
+                <kbd>H</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Next table</td>
+              <td>
+                <kbd>T</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Following graphic</td>
+              <td>
+                <kbd>G</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Next list</td>
+              <td>
+                <kbd>L</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Following form field</td>
+              <td>
+                <kbd>F</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Element list</td>
+              <td>
+                <kbd>INSERT</kbd> + 
+                <kbd>F7</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Preceding</td>
+              <td>
+                <kbd>←</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Following character</td>
+              <td>
+                <kbd>→</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Previous word</td>
+              <td>
+                <kbd>CTRL</kbd> + 
+                <kbd>←</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Next word</td>
+              <td>
+                <kbd>CTRL</kbd> + 
+                <kbd>→</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Previous line</td>
+              <td>
+                <kbd>↑</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Next line</td>
+              <td>
+                <kbd>↓</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Previous sentence</td>
+              <td>
+                <kbd>ALT</kbd> + 
+                <kbd>↑</kbd> (Jaws uniquement)
+              </td>
+            </tr>
+            <tr>
+              <td>Next sentence</td>
+              <td>
+                <kbd>ALT</kbd> + 
+                <kbd>↓</kbd> (Jaws uniquement)
+              </td>
+            </tr>
+            <tr>
+              <td>Read everything</td>
+              <td>
+                <kbd>INSERT</kbd> + 
+                <kbd>↓</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Cell on the right</td>
+              <td>
+                <kbd>ALT</kbd> + 
+                <kbd>CTRL</kbd> + 
+                <kbd>→</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Cell on the left</td>
+              <td>
+                <kbd>ALT</kbd> + 
+                <kbd>CTRL</kbd> + 
+                <kbd>←</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Cell below</td>
+              <td>
+                <kbd>ALT</kbd> + 
+                <kbd>CTRL</kbd> + 
+                <kbd>↓</kbd>
+              </td>
+            </tr>
+            <tr>
+              <td>Cell above</td>
+              <td>
+                <kbd>ALT</kbd> + 
+                <kbd>CTRL</kbd> + 
+                <kbd>↑</kbd>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </section>
   </body>
 </html>

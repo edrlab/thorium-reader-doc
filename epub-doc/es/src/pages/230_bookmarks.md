@@ -1,51 +1,61 @@
 ---
-title: "Marcadores"
+title: "Bookmarking"
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
-## Añadir un marcador
 
-El botón <span class="ui_button">marcador</span> permite añadir un marcador personalizado.
-Un <span class="ui_button">marcador</span> puede ser un punto fijo o una selección de texto.
-Sólo es posible un marcador de punto fijo por página
-(páginas del libro o páginas calculadas en caso de que no haya referencia de página en el libro).
-Pero puede colocar tantos marcadores de selección de texto como desee.
+<section class="filet">
 
-Cuando añada un <span class="ui_button">Marcador</span> aparecerá una notificación para informarle de que
-el <span class="ui_button">Marcador</span> ha sido *Agregado* o *Borrado*.
-El número que aparece justo después indica el número total de <span class="ui_button">Marcadores</span> del Libro
-después de esta acción.
+## Add a bookmark
 
-Seleccione el texto que desea marcar.
-Pulse el botón <span class="ui_button">marcar</span>.
-<img src="../../resources/images/icons3/bookmarkSingle-icon.svg" class="icon" role="presentation" alt=""/>
-o la combinación de teclas <kbd>Ctrl</kbd> + <kbd>B</kbd>.
+The <span class="ui_button">bookmark</span> button allows you to add a custom bookmark. 
+A <span class="ui_button">bookmark</span> can be a fixed point or a text selection. 
+Only one fixed point bookmark is possible per page 
+(book pages or calculated pages in case there is not page reference in the book). 
+But you can place as many texte selection bookmark as you want. 
 
-Si no se selecciona ningún texto, se marcará la página completa.
+When you add a <span class="ui_button">Bookmark</span> a notification appears to inform you that 
+the <span class="ui_button">Bookmark</span> was *Added* or *Deleted*. 
+The number just after indicates the total number of <span class="ui_button">Bookmarks</span> in the Book 
+after this action. 
 
-## Revisar y navegar por los Marcadores
+Select the text you want to mark.
+Press the <span class="ui_button">bookmark</span> button
+<img src="../../resources/images/bookmarkSingle-icon.svg" class="icon" role="presentation" alt=""/>
+or the key combination  <kbd>Ctrl</kbd>  +  <kbd>B</kbd>.
 
-Pulsa el botón <span class="ui_button">Navegación</span> (<kbd>Ctrl</kbd> + <kbd>N</kbd>), y a continuación
-el botón <span class="ui_button">Marcadores</span>. Puede cambiar el nombre de cada marcador, eliminar
-marcadores y desplazarse entre ellos pulsando <kbd>Intro</kbd>.
-
-Accede a la lista de marcadores en el área de navegación. Seleccione el marcador
-al que desea acceder y pulse la tecla <kbd>Intro</kbd>. Si ha
-renombrado el marcador, será fácil ir a varios lugares del libro.
+If no text is selected, the last known reading location will be marked. 
 
 
-Si selecciona una porción de texto y luego activa el botón <span class="ui_button">Marcador</span>,
-el marcador creado tendrá como título la línea seleccionada.
+</section>
+<section class="filet">
 
-Si ha marcado una línea sin seleccionar una parte del texto, intente copiar
-la línea en la que se encuentra en el portapapeles.
-A continuación, ve a las opciones de navegación con <kbd>Ctrl</kbd> + <kbd>N</kbd>,
-y desplázate hasta la sección Marcadores, donde aparecen listados.
-Pulsa la tecla <kbd>b</kbd> para desplazarte hasta el botón de edición para
-cambiar el nombre del marcador. Pega la línea desde el portapapeles y pulsa
-<kbd>Intro</kbd>. Esto cambia el nombre del marcador con la línea de texto que ha
-copiado. Cuando tiene varios marcadores, este cambio de nombre de los marcadores le 
-permite utilizarlos fácilmente.
+## Reviewing and navigating the Bookmarks
+
+Press the <span class="ui_button">Navigation</span> button (<kbd>Ctrl</kbd> + <kbd>N</kbd>), then 
+the <span class="ui_button">Bookmarks</span> button. You can change the name of each bookmark, delete 
+bookmarks and move between bookmarks by pressing <kbd>Enter</kbd>.
+
+Access the list of bookmarks in the navigation area. Select the bookmark
+you wish to access and press the <kbd>Enter</kbd> key. If you have
+renamed the bookmark, it will be easy to go to several places in the book.
+
+If you select a portion of text and then activate the <span class="ui_button">Bookmark</span> button, 
+the bookmark created will have the selected line as its title.
+
+If you have bookmarked a line without selecting a portion of text, try copying 
+the line you are on in the clipboard.
+Then go to the navigation options with <kbd>Ctrl</kbd> + <kbd>N</kbd>,
+then scroll down to the Bookmark section, where they are listed.
+Press the <kbd>b</kbd> key to move to the edit button to 
+rename the bookmark. Paste the line from the clipboard and press
+<kbd>Enter</kbd>. This renames the bookmark with the line of text that you have
+copied. When you have several bookmarks, this renaming of the bookmarks allows 
+you to use them easily.
+
+Since 3.2 it is possible to add Tags to bookmarks to ease filtering, grouping and finding specific locations. 
+
+</section>

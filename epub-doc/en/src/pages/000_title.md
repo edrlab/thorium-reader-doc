@@ -14,6 +14,4 @@ Read, Select, Annotate, Classify<br/>
 Perfect for heavy readers, library-goers, and students alike!<br/>
 No ads, or data leaks to worry about
 
-<hr aria-hidden="true"/>
-
-The European Digital Reading Lab (EDRLab)
+*The European Digital Reading Lab (EDRLab), 2025*

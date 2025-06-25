@@ -4,8 +4,16 @@
 @namespace svg "http://www.w3.org/2000/svg";
 
 :root{
---color-blue:  #1053c8;
+--color-blue:  #005A9C;
+--color-dark: #252525;
+--color-light: #efefef;
+--color-primary: #005A9C;
+--color-secondary: #9C4200;
 }
+body {
+  font-family: Serif;
+}
+
 
 svg {
   width: 1em;
@@ -46,6 +54,29 @@ hr.asterism {
   /* Better border color match in night mode (less disruptive) */
 }
 
+h1 .covertitle{
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2em;
+}
+h1 .coversubtitle {
+    text-align: right;
+  line-height: 2em;
+}
+
+  .titlepage {
+text-align: right;
+padding: 2em;
+  }
+  .titlepage h1 {
+text-align: right;
+padding: 2em;
+  }
+    .titlepage p {
+text-align: right;
+padding: 2em;
+  }
 
 /* From Readium CSS. For demo’s sake, we’ll vertical-align the book’s title in the bottom-right corner of the screen.
    This should be responsive as we don’t constrain the “page” sizing when the user sets a larger font-size. */
@@ -65,6 +96,25 @@ hr.asterism {
     -webkit-align-self: flex-end;
 	align-self: flex-end;
   }
+    .titlepage p {
+    margin: auto 0 0 0;
+    -webkit-align-self: flex-end;
+	align-self: flex-end;
+  }
+}
+
+.framed {
+    border: thin var(--color-primary) solid;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+nav[epub|type~=landmarks],
+nav[epub|type~=page-list] {
+  display: none
 }
 
 /* this does not works

@@ -2,7 +2,7 @@
 title: Annotations
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
@@ -24,10 +24,16 @@ creation of the annotation with <span class="ui_button">Save</span>.
 Annotations in the content can not be reached by keyboard tabulation. To navigate between them, keyboard users need to open the Annotation Panel.
 
 
+<section class="filet">
+
 ## Annotations panel {#annotations_panel}
 
 The navigation panel has a section dedicated to Annotations. 
 It allows you to adjust your annotation display and behaviour to your practice and also review, manipulate, delete, sort, filter and navigate thru your annotations.
+
+
+</section>
+<section class="filet">
 
 ## Options for annotations {#annotations_options}
 
@@ -43,6 +49,10 @@ Four options are available:
 The combination of Instant mode and Quick create options let you use the
 serial annotator mode as any selection will create an highlight without
 prompting any pop up.
+
+
+</section>
+<section class="filet">
 
 ## Sort and filter annotations {#annotations_sort_and_filter}
 
@@ -62,12 +72,20 @@ Filtering options are:
 * by Drawtype, Outline, Solid background, Strikethrough	 or Underline;
 * by Creator, if any has been informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
 
+
+</section>
+<section class="filet">
+
 ## Review and manipulation of annotations {#annotations_view_and_manipulation}
 
 Annotations are shown as cards in the panel, one after the other. Each Card contains the text of the annotation, the creation date, the position in the book expressed in progression percentage and  an Edit and a Delete buttons. The text of the annotation acts as a button that will move the focus to the annotation itself, so leaving the context of the annotation panel, some tabulations will have to be done to get back to the annotation panel. 
 
 A coloured border on the left visually indicates the Colour settled up for the annotation. This information is not passed to assistive technologies. 
 
+
+
+</section>
+<section class="filet">
 
 ## Export and Import of Annotations {#annotations_io}
 
@@ -82,3 +100,6 @@ The import button opens so the user can select the file he wants to import. If b
 Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original .annotation file which is never linked. 
 
 
+
+
+</section>

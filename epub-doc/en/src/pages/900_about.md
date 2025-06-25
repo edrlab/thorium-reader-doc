@@ -2,7 +2,7 @@
 title: About this ebook
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
@@ -21,6 +21,8 @@ Paris, France
 [edrlab.org](https://www.edrlab.org/)
 
 
+
+
 ## Credits
 
 This documentation ebook is designed and maintained by EDRLab as part of
@@ -32,7 +34,8 @@ The main contributors of this documentation are :
 -   Georges Kerscher
 -   Noelia Ruiz Martínez
 -   Prashant Verma
--   
+
+
 ## Accessibility
 
 This ebook was tested with NVDA on Firefox on Windows 10. No

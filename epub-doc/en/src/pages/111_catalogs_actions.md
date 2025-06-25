@@ -2,11 +2,14 @@
 title: Catalogs actions
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
 # Catalogs actions {#Catalogs_actions}
+
+
+<section class="filet">
 
 ## Setting up an OPDS catalog
 
@@ -31,6 +34,11 @@ titles](https://www.gutenberg.org/ebooks/search.opds/){target="_blank"}
 
 Since Thorium 2.2, OPDS feeds can be edited so you can change the name
 or retrieve feed URL.
+
+
+</section>
+<section class="filet">
+
 
 ### Example of OPDS feeds with LCP protected contents
 
@@ -58,11 +66,20 @@ under LCP protection. You can add it to Thorium with the following
 address: [Add EDRLab OPDS public
 feed](https://edrlab.org/public/feed/opds-lcp.json)
 
+
+</section>
+<section class="filet">
+
+
 ### OPDS Feed responsibility
 
 OPDS feeds and the access they provide to content are under
 responsibility of the feed publisher. So are the information given by
 the feed.
+
+
+</section>
+<section class="filet">
 
 ## Setting up a french public library account
 
@@ -80,3 +97,7 @@ catalogs, select this library: an authentication form is displayed.
 Enter your username/email address and password, and hit Login. You can
 now see the content of your personal bookshelf, from which you can
 download and read the ebooks and audiobooks you previously borrowed.
+
+
+
+</section>

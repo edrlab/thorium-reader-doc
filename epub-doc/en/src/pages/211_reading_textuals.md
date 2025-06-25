@@ -2,18 +2,26 @@
 title: Reading textual contents
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
+
+
+<section class="filet">
 
 ## Reading textual contents
 
 For textual contents Thorium provides visual reading and audio playback.
 
+
+</section>
+<section class="filet">
+
+
 ### Text adjustment settings {#read_text_adjust}
 
 In the reading interface use the `Preferences` button 
-<img src="../../resources/images/textarea-icon.svg" role="presentation" alt=""/>
+<img src="../../resources/images/textarea-icon.svg" role="presentation" alt="" class="icon"/>
 
 
 Reading settings can be saved or reset by using buttons <span class="ui_button">Save</span> and <span class="ui_button">Reset</span> located in the menu
@@ -25,10 +33,20 @@ PDF formats just don't allow personalisation of appearance. Most Fixed
 Layout EPUBs will allow to open Image view for zooming on a page. PDFs
 can be enlarged using the Zoom sub-menu in the Preferences panel.
 
+
+</section>
+<section class="filet">
+
+
 ### Theme {#read_text_adjust_theme}
 
 The color of the background and foreground can be changed using one of
 the available themes.
+
+
+</section>
+<section class="filet">
+
 
 ### Text {#read_text_adjust_font}
 
@@ -43,7 +61,8 @@ you must know its exact name as it is set for the operating system.
 
 <div class="framed">
 
-#### Example 1: Setting Verdana as the reading font {#read_text_example_verdana}
+
+## Example 1: Setting Verdana as the reading font {#read_text_example_verdana}
 
 1.  In the reading interface go to the `Preference` menu and then
     `Text`.
@@ -53,7 +72,7 @@ you must know its exact name as it is set for the operating system.
 4.  Confirm with <kbd>Enter</kbd>.
 
 
-#### Example 2: Setting up Luciole as the reading font {#read_text_example_luciole}
+## Example 2: Setting up Luciole as the reading font {#read_text_example_luciole}
 
 1.  [Download and install the Luciole
     font](https://www.luciole-vision.com/#download)
@@ -66,6 +85,11 @@ you must know its exact name as it is set for the operating system.
 
 </div>
 
+
+</section>
+<section class="filet">
+
+
 ### Display {#read_text_display}
 
 You can choose between a page layout with scrolling or pagination,
@@ -73,10 +97,20 @@ automatic or justified alignment and automatic or on 1 or 2 columns.
 Here also, MathJax can be activated, for the display of mathematical
 expressions.
 
+
+</section>
+<section class="filet">
+
+
 ### Spacing {#read_text_spaces}
 
 Margins, word spacing, letter spacing, paragraph spacing and line
 spacing can be adjusted.
+
+
+</section>
+<section class="filet">
+
 
 ### Readaloud {#read_text_readaloud}
 
@@ -92,25 +126,26 @@ combination with the language information provided by the book. If you
 experience problems please check the related FAQ entry.
 </div>
 
+
+</section>
+<section class="filet">
+
+
 ### Text to Speech (TTS) {#read_text_TTS}
 
 Text-to-speech is launched using the speaker button in the middle of the
-toolbar, or by using the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>2</kbd>.
+toolbar, or by using the dedicated keyboard shortcut. 
+There is a voice to text synchronisation showed by 
+highlight of the current sentence and underline of the word.
 
--   Play and pause can be controlled with the keyboard shortcut
-    <kbd>Ctrl</kbd> + <kbd>2</kbd>.
+Possible actions are 
 
--   The playback position can be moved with <kbd>Ctrl</kbd> + <kbd>1</kbd> and
-    <kbd>Ctrl</kbd> + <kbd>3</kbd> for previous and next respectively.
+- Play and pause;
+- Move playback position to previous and next;
+- Control speed with a range from x0.5 to x2;
+- Simplify view of the publication ;
+- choose a preferred voice.
 
--   A speed control is available when read aloud is selected, with a
-    range from x0.5 to x2.
-
--   The current sentence is highlighted in light yellow, and each word
-    spoken is underlined in orange.
-
--   An alternative (simplified) view of the publication is provided
-    through options available in the `Settings / Readaloud` menu.
 
 <div class="framed">
 Thorium uses the voices from the computer's operating system, in
@@ -119,3 +154,7 @@ If you experience problems please check the
 [online related FAQ entry](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html).
 
 </div>
+
+
+
+</section>

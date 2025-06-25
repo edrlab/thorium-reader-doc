@@ -2,7 +2,7 @@
 title: Windows, views and panels
 role: doc-chapter
 epubtype: chapter
-class: colbreak 
+class: colbreak filet
 draft: false
 ---
 
@@ -16,17 +16,28 @@ depend on the book format (textual, audio, visual). Each format will
 allow a selection of action panels that can be docked to one side of the
 view.
 
+<section class="filet">
+
 ## Main window {#main_window}
 
 The main window is where you can access and organise your collections as
 well as the settings that apply to the whole application. Closing the
 main windows close the application and all reading windows opened.
 
+</section>
+<section class="filet">
+
+
 ### Home View {#home_view}
 
 This view is for quick access. You find here the books you have been
 reading recently and the ones you added recently. Possible actions are
 to *Import a Publication*, to *Open a publication* and to *Open Publication menu*. 
+
+
+</section>
+<section class="filet">
+
 
 ### <span class="ui_button">All publications</span> View {#all_publications_view}
 
@@ -42,18 +53,30 @@ The available actions on the <span class="ui_button">View</span> level are to *I
 pages are like Shelves or stacks as the <span class="ui_button">All publication</span> view is limited
 to 50 publications to keep it usable.
 
-#### Grid Mode {#grid_mode}
+</section>
+<section class="filet">
+
+## Grid Mode {#grid_mode}
 
 The <span class="ui_button">Grid</span> mode presents the books like cards, keyboard tabulation will
 drive you from one book to another. This mode offers the possible
 actions to Open a publication and to Open Publication menu.
 
-#### Table Mode {#table_mode}
+
+</section>
+<section class="filet">
+
+## Table Mode {#table_mode}
 
 The <span class="ui_button">Table</span> mode presents the books like cards, keyboard tabulation will mode presents one book per line and allows to visualize a
 large number of informations usually available only in the Book
 information Panel. Keyboard tabulation will drive you thru all those
 details.
+
+
+</section>
+<section class="filet">
+
 
 ### Catalogs View {#catalog_view}
 
@@ -71,6 +94,11 @@ Two catalogs protocoles are available.
 
 Details and how to set up and use catalogs are available from the
 [Catalogs actions section](../111_catalogs_actions/index.xhtml).
+
+
+</section>
+<section class="filet">
+
 
 ### Application Settings Panel {#setting_view}
 
@@ -95,11 +123,20 @@ Application settings is divided in three tabs:
     edit it outside of the application (at your own risks), save it for
     future uses or share it within your devices or with who you want.
 
+
+</section>
+<section class="filet">
+
 ## Reading window {#reading_window}
 
 When a book is opened, it is displayed in a new window, meaning that you
 can have multiple books opened at the same time, each in an independent
 window that you can arrange at your will.
+
+
+</section>
+<section class="filet">
+
 
 ### Reading navigation panel {#reading_nav_panel}
 
@@ -112,12 +149,21 @@ Reachable from the reading window top toolbar, that panel contains a dropdown me
 * <img src="../../resources/images/bookmarkMultiple-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Bookmarks</span>, a generated list of user bookmarks. This panel  offer the possibility to delete the bookmark or edit it's attached text and informs in percents the reading progression where it stands.
 * <img src="../../resources/images/annotation-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Annotations</span>, a generated list of user annotations
 
+
+</section>
+<section class="filet">
+
+
 ### Reading settings panel {#reading_settings_panel}
 
 Reachable from the reading window top toolbar, that panel contains all possible user settings to adjust the display of the textual contents. It is important to remember that such possibilities may be restricted by how the content was created. 
 
 Detailed information about available reading settings per formats are available from the 
 <a href="../210_reading/index.xhtml">Reading sub sections</a>.
+
+
+</section>
+<section class="filet">
 
 ## Book Information panel {#book_info_panel}
 
@@ -142,5 +188,6 @@ the publisher. The information displayed is:
 
 This panel has the particularity of not being dockable as it does not provides action that needs to have access to the main content of the book.
 
+</section>
 
 
