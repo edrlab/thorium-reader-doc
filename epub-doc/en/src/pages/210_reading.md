@@ -51,8 +51,4 @@ make sure you find your way back.
 </div>
 
 
-
-
-
-
 </section>

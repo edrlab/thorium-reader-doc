@@ -112,7 +112,7 @@ spacing can be adjusted.
 <section class="filet">
 
 
-### Readaloud {#read_text_readaloud}
+### Readaloud {#readaloud}
 
 Provides options for an uncluttered `clean view` and the ability to skip
 secondary content ( `skippability`) which may include footnotes or
