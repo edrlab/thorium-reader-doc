@@ -1,24 +1,58 @@
 ---
-title: Reading audio contents
+title: Lecture de contenus audio
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Reading audio contents
+# Lecture de contenus audio
 
-Thorium provides visual reading and audio playback. In order to ensure
-that you can find your way around the the publication, Thorium also
-offers many navigation options as well as the possibility to add
-bookmarks or to search within the publication.
+Les contenus audio peuvent apparaître dans presque tous les formats. Lorsqu'ils sont inclus dans des livres électroniques textuels ou visuels, ils sont accompagnés d'un ensemble de boutons tels que *play, pause, stop*, et éventuellement *rembobinage* et *avance rapide* ou d'autres options comme la vitesse. Ces boutons ne font pas partie de l'interface de Thorium, ils peuvent être fournis par le moteur de rendu spécifique (Chromium pour les contenus web en EPUB et Daisy ; pdf.js pour les PDF). Ils peuvent également être stylisés par le créateur du contenu. Par conséquent, ce guide d'utilisation peut difficilement donner des informations détaillées sur leur conception et leurs fonctionnalités.
 
-Reading functionalities are very different from one format to another.
+Les contenus audio, les audios synchronisés et les audios générés par la synthèse vocale, en revanche, sont directement pilotés par l'interface Thorium.
 
--   Reading Textual first publications like reflowable EPUB and textual
-    or full Daisy will allow for the greatest number of functionalities.
--   Visual first publications like Fixed Layout EPUBS and Divina will
-    not allow personalization of texts.
--   Audio publications have a significative different reading interface
-    as no text is displayed.
--   PDF support is basic and provides few options.
+## Audio seulement {#audioonly}
+
+Thorium peut lire des livres audio dans les formats standardisés W3C audiobook et Daisy audio seulement. Lorsqu'un tel livre est ouvert, la lecture commence. La fenêtre de lecture affichera la couverture, un ensemble de boutons de fonctions et une barre de progression.
+
+L'interface est composée de :
+* Un bouton de lecture pour lire ou mettre en pause ;
+* Un bouton Précédent et un bouton Suivant pour passer à la section précédente ou suivante ;
+* Un bouton de Précédent et un bouton Suivant pour passer à la section précédente ou suivante ; 
+* * Un bouton de retour en arrière et un bouton d'avance pour se déplacer 30 secondes avant ou après
+* Un menu déroulant pour changer la vitesse de lecture ;
+* Une barre de progression indiquant le temps écoulé et le temps total de la section actuelle du livre.
+
+Il est possible d'ajouter un signet à un endroit de la lecture et d'ajouter une note au signet. Les annotations ne sont pas possibles.
+
+La navigation dans les livres audio est généralement fournie par le créateur sous la forme d'une table des matières.
+
+Il n'est en fait pas possible d'effectuer des recherches dans les contenus audio uniquement.
+
+
+## Lecture à voix haute, synthèse vocale (TTS) {#readaloud}
+
+La synthèse vocale est lancée à l'aide du bouton haut-parleur situé au milieu de la barre d'outils, ou en utilisant le raccourci clavier dédié.
+La synchronisation entre la voix et le texte est illustrée la mise en évidence de la phrase en cours et le soulignement du mot.
+
+Les actions possibles sont affichées dans la barre en haut de l'interface. Il s'agit de :
+
+- Lecture et pause ;
+- Déplacer la position de lecture vers la portion précédente ou suivante ;
+- Contrôler la vitesse avec une gamme de x0,5 à x2 ;
+- Simplifier l'affichage de la publication ;
+- choisir une voix préférée.
+
+
+<div class="framed">
+Thorium utilise les voix du système d'exploitation de l'ordinateur, en
+combinaison avec les informations linguistiques fournies par le livre.
+Si vous rencontrez des problèmes, veuillez consulter [la FAQ en ligne](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html).
+
+</div>
+
+### Options pour la lecture en voix de synthèse
+
+À côté des fonctionnalités, un volet d'options spécifiques fournit des options pour une "vue claire" et la possibilité de sauter le contenu secondaire ("skippability"), qui peut inclure des notes de bas de page ou d'autres contenus marqués comme complémentaires (`aside`) selon la sémantique indiquée lors de la production du livre numérique. `Split TTS` divisera le contenu par phrase pour une
+pour une mise en évidence plus précise.
