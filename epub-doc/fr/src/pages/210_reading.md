@@ -1,63 +1,50 @@
 ---
-title: Reading
+title: Lire
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Reading
+# Lire
 
-Thorium provides textual, visual and auditory reading functions. In
-order to ensure that you can find your way around the the publication,
-Thorium also offers many navigation options as well as the possibility
-to add bookmarks or to search within the publication.
+Thorium offre des fonctions de lecture textuelle, visuelle et auditive. 
+Pour vous permettre trouver votre chemin dans la publication, Thorium offre également de nombreuses options de navigation,
+ainsi que la possibilité
+d'ajouter des signets ou d'effectuer des recherches dans la publication.
 
-Reading functionalities are very different from one format to another.
+Les fonctionnalités de lecture sont très différentes d'un format à l'autre.
 
--   Reading Textual first publications like reflowable EPUB and textual
-    or full Daisy will allow for the greatest number of functionalities.
--   Visual first publications like Fixed Layout EPUBS and Divina will
-    not allow personalization of texts.
--   Audio publications have a significative different reading interface
-    as no text is displayed.
--   PDF support is basic and provides few options.
-
+- Les publications principalement textuelles, comme les EPUB à mise en forme adaptable et les Daisy textuels ou les Daisy intégraux (texte et audio pré enregistré). Ces formats permettent d'ajuster la taille des caractères, de modifier la police d'affichage et les couleurs du texte et du fond.
+- Les publications visuelles, telles que les EPUB à mise en page fixe, les formats de documents portable (PDF) et les narrations visuelles (comme Divina) ne permettent pas la personnalisation des textes.
+- Les publications audio seulement ont une interface de lecture sensiblement différente car aucun texte n'est affiché.
+- Les EPUB à superposition des médias (media overlay) peuvent être à mise en page fixe ou adaptable, les possibilités offertes dépendent de ces derniers paramètres.
 
 <section class="filet">
 
-## Zen Mode and Full screen  {#zen_and_full}
+## Mode Zen et Plein écran {#zen_and_full}
 
-Thorium reading windows offers a distraction free "zen" mode that hides all icons other than the fullscreen icon button itself, and the "skip to content" blue link in the upper corner (reachable via keyboard tab). 
+La fenêtre de lecture Thorium offre un mode "zen" sans distraction qui masque toutes les icônes autres que le bouton de l'icône plein écran et le lien rapide "passer au contenu" dans le coin supérieur gauche (accessible en utilisant la touche <kbd>Tabulation</kbd> du clavier clavier).
 
-Navigation in zen mode is only possible with keyboard arrows and shortcuts. Touch screen support is not guaranteed so finger swipe interactions may not work.
+En mode Zen, la navigation n'est possible qu'avec les flèches et les raccourcis du clavier. La prise en charge des écrans tactiles n'est pas garantie, il se peut donc que les interactions par glissement de doigt ne fonctionnent pas.
 
-The alternative Fullscreen mode can be launched with keyboard shortcut 
-<kbd>Ctrl</kbd> + <kbd>F11</kbd>. In this mode, the user interface buttons such as top buttons, side arrows and bottom left jump back and forward icons. 
-
-
+Le mode alternatif Plein écran peut être lancé avec le raccourci clavier
+<kbd>Ctrl</kbd> + <kbd>F11</kbd>. Dans ce mode, les boutons de l'interface utilisateur restent affichés. Il s'agit des boutons en haut de l'interface, des flèches latérales et des icônes de saut en arrière et en avant en bas à gauche.
 
 </section>
 <section class="filet">
 
-## Search in a book {#read_search}
+## Rechercher dans un livre {#read_search}
 
-You can use <kbd>Ctrl</kbd> + <kbd>F</kbd> keys to access the search field.
-Enter your search term. By clicking on the `Search` button, you get
-`Back` and `Next` buttons to navigate between occurences. The number of
-matches found is a link that will open a `List of results` in the right
-panel. Each match displayed is a link you can Activate to go to the
-place of the book where the expression you are looking for was found.
+Vous pouvez utiliser les touches <kbd>Ctrl</kbd> + <kbd>F</kbd> pour accéder au champ de recherche.
+Saisissez votre terme de recherche. En cliquant sur le bouton `Recherche`, vous obtenez
+les boutons `Retour` et `Suivant` pour naviguer entre les occurrences. Le nombre de résultats trouvés est un lien qui ouvrira une "Liste de résultats" dans le panneau de navigation.
+Chaque correspondance affichée est un lien que vous pouvez activer pour aller à l'endroit du livre où se trouve l'expression que vous recherchez.
 
- warning
-Remember that performing a search and navigating thru the results will
-make you loose the reading point you where at. Just place a Bookmark to
-make sure you find your way back.
-
-
-
-
-
-
+<div class="framed">
+ avertissement
+N'oubliez pas que le fait d'effectuer une recherche et de naviguer dans les résultats vous fera
+perdre le point de lecture où vous étiez. Vous pourrez le retrouver en utilisant la fonction "Saut en arrière". Vous pouvez aussi placer un marque-page pour être sûr de retrouver votre chemin.
+</div>
 
 </section>
