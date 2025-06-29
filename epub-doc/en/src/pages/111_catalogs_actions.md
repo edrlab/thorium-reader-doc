@@ -8,7 +8,6 @@ draft: false
 
 # Catalogs actions {#Catalogs_actions}
 
-
 <section class="filet">
 
 ## Setting up an OPDS catalog
