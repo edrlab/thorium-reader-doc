@@ -140,10 +140,13 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
 <nav epub:type="landmarks">
 <ol>
 <li>
+<a href="../toc/index.xhtml" epub:type="toc">Table of contents</a>
+</li>
+<li>
 <a href="../pages/100_forewords/index.xhtml" epub:type="forewords" >Forewords</a>
 </li>
 <li>
-<a href="../toc/index.xhtml" epub:type="toc">Table of contents</a>
+<a href="../pages/900_about/index.xhtml" epub:type="acknowledgments">About this ebook</a>
 </li>
 </ol>
 </nav>

@@ -30,7 +30,7 @@ Currently, Thorium displays in the [Book Information Panel](../102_windows_views
 The native accessibility functions are described in each section of this documentation which correspond to their context of use. This includes in particular:
 
 * [Visual adjustments in the display of the text](../102_windows_views_panels/index.xhtml#reading_settings_panel)
-* [Audio reading generated in summary voice](../211_reading_textuals/index.xhtml#readaloud)
+* [Audio reading in generated voice](../213_reading_auditory/index.xhtml#readaloud)
 
 
 </section>

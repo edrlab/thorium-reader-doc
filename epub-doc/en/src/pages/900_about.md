@@ -1,7 +1,7 @@
 ---
 title: About this ebook
-role: doc-chapter
-epubtype: chapter
+role: doc-acknowledgments
+epubtype: acknowledgments
 class: colbreak filet
 draft: false
 ---
