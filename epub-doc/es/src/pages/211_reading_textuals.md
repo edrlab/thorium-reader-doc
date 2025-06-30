@@ -11,8 +11,8 @@ draft: false
 
 ## Reading textual contents
 
-For textual contents Thorium provides visual reading and audio playback.
-
+For textual contents Thorium provides visual reading and read aloud, also known as Text to speech (TTS). This section focuses on text adjustements while the [Read aloud (text to speech)](../213_reading_auditory/index.xhtml#readaloud). 
+capacities are covered in a dedicated section from the Reading auditory section.
 
 </section>
 <section class="filet">
@@ -106,55 +106,6 @@ expressions.
 
 Margins, word spacing, letter spacing, paragraph spacing and line
 spacing can be adjusted.
-
-
-</section>
-<section class="filet">
-
-
-### Readaloud {#readaloud}
-
-Provides options for an uncluttered `clean view` and the ability to skip
-secondary content ( `skippability`) which may include footnotes or
-sidebars according to the semantics indicated during the production of
-the digital book. `Split TTS` will split the content by sentence for
-more precise highlighting.
-
-<div class="framed">
-Thorium uses the voices from the computer's operating system, in
-combination with the language information provided by the book. If you
-experience problems please check the related FAQ entry.
-</div>
-
-
-</section>
-<section class="filet">
-
-
-### Text to Speech (TTS) {#read_text_TTS}
-
-Text-to-speech is launched using the speaker button in the middle of the
-toolbar, or by using the dedicated keyboard shortcut. 
-There is a voice to text synchronisation showed by 
-highlight of the current sentence and underline of the word.
-
-Possible actions are 
-
-- Play and pause;
-- Move playback position to previous and next;
-- Control speed with a range from x0.5 to x2;
-- Simplify view of the publication ;
-- choose a preferred voice.
-
-
-<div class="framed">
-Thorium uses the voices from the computer's operating system, in
-combination with the language information provided by the book. 
-If you experience problems please check the 
-[online related FAQ entry](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html).
-
-</div>
-
 
 
 </section>

@@ -8,7 +8,6 @@ draft: false
 
 # Catalogs actions {#Catalogs_actions}
 
-
 <section class="filet">
 
 ## Setting up an OPDS catalog
@@ -18,19 +17,20 @@ feed</span>. Indicate a Name to designate this catalog and paste
 an address corresponding to a catalog distributed in OPDS format.
 Validate with the button <span class="ui_button">Add</span>.
 
+<div class="framed">
 Example :
 
 Activating the following link will download a .atom file that can be
-opened with Thorium: [Download OPDS feed for Gutenberg.org new
-titles](https://www.gutenberg.org/ebooks/search.opds/){target="_blank"}
+opened with Thorium: [Download OPDS feed for Gutenberg.org new titles](https://www.gutenberg.org/ebooks/search.opds/)
+
+</div>
 
 It is also possible to use context menu (usually Right clic), Copy this
 link and paste it into Thorium Add an OPDS panel to see the magic
 happen.
 
 OPDS feeds can also be provided as direct links which should open
-directly in Thorium. [Open OPDS feed for Gutenberg.org new
-titles](https://www.gutenberg.org/ebooks/search.opds/){target="_blank"}
+directly in Thorium. [Open OPDS feed for Gutenberg.org new titles](opds://www.gutenberg.org/ebooks/search.opds/)
 
 Since Thorium 2.2, OPDS feeds can be edited so you can change the name
 or retrieve feed URL.
@@ -51,8 +51,7 @@ license. An Archive org account is needed, authentication page will open
 once you select a book. You can add it to Thorium with the following
 address: [Open Archive.org OPDS feed](https://archive.org/services/opds)
 
-You can use [feedbooks
-OPDS](https://catalog.feedbooks.com/catalog/index.json) to browse
+You can use [feedbooks OPDS](opds://catalog.feedbooks.com/catalog/index.json) to browse
 [Feedbook catalog](https://www.feedbooks.com/#). Once you have selected
 a book you'll be redirected to the webpage where you can buy the book.
 
@@ -92,7 +91,7 @@ into Thorium Reader for instant reading.
 To connect your French public library account, enter a French city
 ('Montpellier') or part of the library name in the Search field and
 hit the Search button. A list of public libraries corresponding to your
-search will appear. Select a library and hit Add. In the updated list of
+search will appear. Select a library and hit <span class="ui_button">Add</span>. In the updated list of
 catalogs, select this library: an authentication form is displayed.
 Enter your username/email address and password, and hit Login. You can
 now see the content of your personal bookshelf, from which you can

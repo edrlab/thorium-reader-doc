@@ -49,6 +49,7 @@ Since 3.2, it is possible to print page ranges of a PDF. This can be limited by 
 </section>
 <section class="filet">
 
+
 ## PDF keyboard shortcuts
 
 PDF.js adds keyboard shortcuts that are not configurable in the Thorium setting panel. The list reproduced here is non exhaustive and some shortcuts may not work. It is copied from the [PDF.JS Frequently Asked Questions page](https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts). 
