@@ -6,22 +6,60 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Lecture de contenus audio</title>
   </head>
   <body>
-    <section class="" >
+    <section class="colbreak filet"  role="doc-chapter" >
       <h1>Lecture de contenus audio</h1>
-      <p>Thorium propose une lecture visuelle et une lecture audio. Afin de vous permettre de vous repérer facilement dans la publication, Thorium propose également de nombreuses options de navigation ainsi que la possibilité d'ajouter des signets ou d'effectuer une recherche au sein de la publication.</p>
-      <p>Les fonctionnalités de lecture sont très différentes d'un format à l'autre.</p>
+      <p>Les contenus audio peuvent apparaître dans presque tous les formats. Lorsqu'ils sont inclus dans des livres électroniques textuels ou visuels, ils sont accompagnés d'un ensemble de boutons tels que 
+        <em>play, pause, stop</em>, et éventuellement 
+        <em>rembobinage</em> et 
+        <em>avance rapide</em> ou d'autres options comme la vitesse. Ces boutons ne font pas partie de l'interface de Thorium, ils peuvent être fournis par le moteur de rendu spécifique (Chromium pour les contenus web en EPUB et Daisy ; pdf.js pour les PDF). Ils peuvent également être stylisés par le créateur du contenu. Par conséquent, ce guide d'utilisation peut difficilement donner des informations détaillées sur leur conception et leurs fonctionnalités.
+      </p>
+      <p>Les contenus audio, les audios synchronisés et les audios générés par la synthèse vocale, en revanche, sont directement pilotés par l'interface Thorium.</p>
+      <h2 id="audioonly">Audio seulement</h2>
+      <p>Thorium peut lire des livres audio dans les formats standardisés W3C audiobook et Daisy audio seulement. Lorsqu'un tel livre est ouvert, la lecture commence. La fenêtre de lecture affichera la couverture, un ensemble de boutons de fonctions et une barre de progression.</p>
+      <p>L'interface est composée de :</p>
       <ul>
-        <li>La lecture de premières publications textuelles de type EPUB reflowable et Daisy textuelle ou complète permettra le plus grand nombre de fonctionnalités.</li>
-        <li>Les premières publications visuelles comme les EPUBS à mise en page fixe et Divina ne permettront pas la personnalisation des textes.</li>
-        <li>Les publications audio ont une interface de lecture significativement différente car aucun texte n'est affiché.</li>
-        <li>La prise en charge PDF est basique et offre peu d'options.</li>
+        <li>Un bouton de lecture pour lire ou mettre en pause ;</li>
+        <li>Un bouton Précédent et un bouton Suivant pour passer à la section précédente ou suivante ;</li>
+        <li>Un bouton de Précédent et un bouton Suivant pour passer à la section précédente ou suivante ;</li>
+        <li>
+          <ul>
+            <li>Un bouton de retour en arrière et un bouton d'avance pour se déplacer 30 secondes avant ou après</li>
+          </ul>
+        </li>
+        <li>Un menu déroulant pour changer la vitesse de lecture ;</li>
+        <li>Une barre de progression indiquant le temps écoulé et le temps total de la section actuelle du livre.</li>
       </ul>
+      <p>Il est possible d'ajouter un signet à un endroit de la lecture et d'ajouter une note au signet. Les annotations ne sont pas possibles.</p>
+      <p>La navigation dans les livres audio est généralement fournie par le créateur sous la forme d'une table des matières.</p>
+      <p>Il n'est en fait pas possible d'effectuer des recherches dans les contenus audio uniquement.</p>
+      <h2 id="readaloud">Lecture à voix haute, synthèse vocale (TTS)</h2>
+      <p>La synthèse vocale est lancée à l'aide du bouton haut-parleur situé au milieu de la barre d'outils, ou en utilisant le raccourci clavier dédié.
+La synchronisation entre la voix et le texte est illustrée la mise en évidence de la phrase en cours et le soulignement du mot.</p>
+      <p>Les actions possibles sont affichées dans la barre en haut de l'interface. Il s'agit de :</p>
+      <ul>
+        <li>Lecture et pause ;</li>
+        <li>Déplacer la position de lecture vers la portion précédente ou suivante ;</li>
+        <li>Contrôler la vitesse avec une gamme de x0,5 à x2 ;</li>
+        <li>Simplifier l'affichage de la publication ;</li>
+        <li>choisir une voix préférée.</li>
+      </ul>
+      <div class="framed">
+Thorium utilise les voix du système d'exploitation de l'ordinateur, en
+combinaison avec les informations linguistiques fournies par le livre.
+Si vous rencontrez des problèmes, veuillez consulter [la FAQ en ligne](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html).
+</div>
+      <h3 id="readaloudoptions">Options pour la lecture en voix de synthèse</h3>
+      <p>À côté des fonctionnalités, un volet d'options spécifiques fournit des options pour une &quot;vue claire&quot; et la possibilité de sauter le contenu secondaire (&quot;skippability&quot;), qui peut inclure des notes de bas de page ou d'autres contenus marqués comme complémentaires (
+        <code>aside</code>) selon la sémantique indiquée lors de la production du livre numérique. 
+        <code>Split TTS</code> divisera le contenu par phrase pour une
+pour une mise en évidence plus précise.
+      </p>
     </section>
   </body>
 </html>

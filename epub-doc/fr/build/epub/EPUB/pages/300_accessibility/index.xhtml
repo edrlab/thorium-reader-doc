@@ -6,184 +6,33 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Accessibilité</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
-      <h1 id="a11y">Accessibilité</h1>
-      <p>L'application est compatible avec les technologies d'assistance comme les lecteurs d'écran, notamment JAWS, NVDA, Narrator et VoiceOver. Elle comprend une fonction de lecture à voix haute avec surlignage visuel. Thorium Reader peut être utilisé avec la souris ou le clavier, et les raccourcis clavier sont configurables. L'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment les couleurs, la taille du texte, l'espacement, la police et la mise en page.</p>
-      <p>Les fonctionnalités d'accessibilité dépendent fortement de la qualité des fichiers de publication électronique et sont affectées par celle-ci.</p>
-      <p>La page de 
-        <a href="https://thorium.edrlab.org/fr/th3/500_accessibility/">support en ligne accessibilité</a> contient les informations complètes liées à l'accessibilité de l'application et les fonctionnalités qui y sont liées.
+    <section class="colbreak filet"  role="doc-chapter" >
+      <h1 id="A11Y">Accessibilité</h1>
+      <p>L'application est compatible avec les technologies d'assistance telles que les lecteurs d'écran, notamment Jaws, NVDA, Narrator et Voiceover. Elle inclut une fonction de lecture à haute voix avec mise en évidence visuelle. Thorium Reader peut être utilisé avec une souris ou un clavier, et les raccourcis clavier sont configurables. L'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment en ce qui concerne les couleurs, la taille du texte, l'espacement, la police et la mise en page.
+Les fonctions d'accessibilité dépendent fortement de la qualité des fichiers de publication électronique et sont affectées par celle-ci.</p>
+      <p>La 
+        <a href="https://thorium.edrlab.org/en/th3/500_accessibility/">page d'assistance en ligne sur l'accessibilité</a> contient des informations complètes sur l'accessibilité de l'application et les fonctionnalités qui y sont liées.
       </p>
-      <p>Ce chapitre reprend les informations principales pour les avoir à disposition hors ligne.</p>
-      <h2 id="a11y_info">Informations sur l'accessibilité</h2>
-      <p>Actuellement, Thorium affiche dans le 
-        <a href="../102_windows_views_panels/index.xhtml#book_info_panel">panneau Informations sur le livre</a> sous le titre 
-        <code>Description</code> le contenu des métadonnées d'accessibilité fournies par les créateurs du fichier.
-      </p>
-      <h2 id="a11y_native">Fonctions d'accessibilité natives</h2>
-      <p>Les fonctions d'accessibilité natives sont décrites dans chacune des section de cette documentation qui correspondent à leur contexte d'utilisation. Cela inclut notamment:</p>
-      <ul>
-        <li>
-          <a href="../102_windows_views_panels/index.xhtml#reading_settings_panel">Les ajustements visuels de l'affichage du texte</a>
-        </li>
-        <li>
-          <a href="../211_reading_textuals/index.xhtml#read_text_readaloud">La lecture audio générée en voix de synthèse</a>
-        </li>
-      </ul>
-      <h2 id="screenreader">Lire avec un lecteur d'écran</h2>
-      <p>Lors du lancement de Thorium, si un lecteur d'écran est détecté, les fonctions relatives sont activées.</p>
-      <p>Notez que les lecteurs d'écran utilisent une mémoire tampon séparée pour accéder au contenu HTML, ce qui entraîne une désynchronisation du défilement visuel et un décalage de la page affichée avec la page lue par le lecteur d'écran. En d'autres termes, Thorium n'est généralement pas conscient de l'emplacement de lecture actuel de l'utilisateur du lecteur d'écran, à moins que l'utilisateur du lecteur d'écran ne déclenche des événements (tels qu'un clic de souris n'importe où dans le texte ou une touche de clavier sur des éléments HTML focalisables).</p>
-      <h3>Touches rapides pour la navigation (communes à NVDA et JAWS)</h3>
-      <p>
-        <em>(contribution de Prashant Verma, DAISY Consortium)</em>
-      </p>
-      <p>Pour lire du texte, naviguer dans les tableaux, naviguer dans la fenêtre du navigateur, la touche d'insertion peut être remplacée par la touche de modification du lecteur d'écran (par exemple la touche 
-        <kbd>Verr. Maj</kbd>).
-      </p>
-      <p>Le lecteur d'écran doit être en mode navigation ou curseur virtuel.</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Action</th>
-            <th>Commande</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Titre suivant</td>
-            <td>
-              <kbd>H</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Table suivante</td>
-            <td>
-              <kbd>T</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Graphique suivant</td>
-            <td>
-              <kbd>G</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Liste suivante</td>
-            <td>
-              <kbd>L</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Champ de formulaire suivant</td>
-            <td>
-              <kbd>F</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Liste des éléments</td>
-            <td>
-              <kbd>INSERT</kbd> + 
-              <kbd>F7</kbd> (fonctionne quel que soit le mode curseur)
-            </td>
-          </tr>
-          <tr>
-            <td>Caractère précédent</td>
-            <td>
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Caractère suivant</td>
-            <td>
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Mot précédent</td>
-            <td>
-              <kbd>CTRL</kbd> + 
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Dire le mot suivant</td>
-            <td>
-              <kbd>CTRL</kbd> + 
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Ligne précédente</td>
-            <td>
-              <kbd>↑</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Ligne suivante</td>
-            <td>
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Phrase précédente</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>↑</kbd> (Jaws uniquement)
-            </td>
-          </tr>
-          <tr>
-            <td>Phrase suivante</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>↓</kbd> (Jaws uniquement)
-            </td>
-          </tr>
-          <tr>
-            <td>Lire tout</td>
-            <td>
-              <kbd>INSERT</kbd> + 
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Cellule à droite</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Cellule à gauche</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Cellule en dessous</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Cellule au dessus</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>↑</kbd>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <p>Ce chapitre reprend les principales informations nécessaires pour en disposer hors ligne.</p>
+      <section class="filet">
+        <h2 id="a11y_native">Informations generales</h2>
+        <p>Actuellement, Thorium affiche dans le 
+          <a href="../102_windows_views_panels/index.xhtml#book_info_panel">Panneau d'information sur le livre</a> sous le titre 
+          <code>Description</code> Le contenu des métadonnées d'accessibilité fournies par les créateurs du fichier.
+        </p>
+        <p>Les fonctions d'accessibilité natives sont décrites dans chaque section de cette documentation qui correspond à leur contexte d'utilisation.</p>
+      </section>
+      <section class="filet">
+        <h2 id="screenreader">Lire avec un lecteur d'écran</h2>
+        <p>Lors du lancement de Thorium, si un lecteur d'écran est détecté, les fonctions correspondantes sont activées.
+Notez que les lecteurs d'écran utilisent une mémoire tampon séparée pour accéder au contenu HTML, ce qui entraîne une désynchronisation du défilement visuel et un décalage de page affiché avec la page lue par le lecteur d'écran. En d'autres termes, Thorium n'est généralement pas au courant de la position de lecture actuelle de l'utilisateur du lecteur d'écran, à moins que l'utilisateur de l'écran ne déclenche des événements (tels qu'un clic de souris n'importe où dans le texte ou une touche du clavier sur des éléments HTML ciblés).</p>
+      </section>
     </section>
   </body>
 </html>

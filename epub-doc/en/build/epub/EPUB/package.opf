@@ -85,46 +85,66 @@
     
     />
     <item id="rsc13"
-      href="resources/images/info-icon.svg"
+      href="resources/images/export-icon.svg"
       media-type="image/svg+xml"
     
     />
     <item id="rsc14"
-      href="resources/images/landmark-icon.svg"
+      href="resources/images/import-icon.svg"
       media-type="image/svg+xml"
     
     />
     <item id="rsc15"
-      href="resources/images/logo_edrlab.svg"
+      href="resources/images/info-icon.svg"
       media-type="image/svg+xml"
     
     />
     <item id="rsc16"
-      href="resources/images/logo_th.png"
-      media-type="image/png"
+      href="resources/images/landmark-icon.svg"
+      media-type="image/svg+xml"
     
     />
     <item id="rsc17"
-      href="resources/images/search-icon.svg"
+      href="resources/images/logo_edrlab.svg"
       media-type="image/svg+xml"
     
     />
     <item id="rsc18"
-      href="resources/images/tag-icon.svg"
-      media-type="image/svg+xml"
+      href="resources/images/logo_th.png"
+      media-type="image/png"
     
     />
     <item id="rsc19"
-      href="resources/images/target-icon.svg"
+      href="resources/images/open_book.svg"
       media-type="image/svg+xml"
     
     />
     <item id="rsc20"
-      href="resources/images/textarea-icon.svg"
+      href="resources/images/search-icon.svg"
       media-type="image/svg+xml"
     
     />
     <item id="rsc21"
+      href="resources/images/tag-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc22"
+      href="resources/images/target-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc23"
+      href="resources/images/textarea-icon.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc24"
+      href="resources/images/threedot.svg"
+      media-type="image/svg+xml"
+    
+    />
+    <item id="rsc25"
       href="resources/images/toc-icon.svg"
       media-type="image/svg+xml"
     
@@ -158,8 +178,6 @@
     <item id="page13" href="./pages/214_reading_pdfs/index.xhtml" media-type="application/xhtml+xml"
     />
     <item id="page14" href="./pages/230_bookmarks/index.xhtml" media-type="application/xhtml+xml"
-    />
-    <item id="page15" href="./pages/406_formats/index.xhtml" media-type="application/xhtml+xml"
     />
   </manifest>
   <spine>
