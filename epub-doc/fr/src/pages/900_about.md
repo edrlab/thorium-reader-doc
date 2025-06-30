@@ -1,20 +1,20 @@
 ---
-title: About this ebook
-role: doc-chapter
-epubtype: chapter
+title: À propos de cet ebook
+role: doc-acknowledgments
+epubtype: acknowledgments
 class: colbreak filet
 draft: false
 ---
 
-# About this ebook
+# À propos de cet ebook
 
-Published in February 2025 by The European Digital Reading Lab (EDRLab), a non-profit development laboratory.
+Publié en février 2025 par le Laboratoire européen de lecture numérique (EDRLab), un laboratoire de développement à but non lucratif.
 
 ---
 
 Paris, France
 
-15 Rue de la Bûcherie, 75005 
+15 Rue de la Bûcherie, 75005
 
 [contact@edrlab.org](mailto:contact@edrlab.org)
 
@@ -23,34 +23,34 @@ Paris, France
 
 
 
-## Credits
+## Crédits
 
-This documentation ebook is designed and maintained by EDRLab as part of
-the development of the Thorium-Reader application.
+Ce manuel de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.
+du développement de l'application Thorium-Reader.
 
-The main contributors of this documentation are :
+Les principaux contributeurs de cette documentation sont :
 
--   Gautier Chomel
--   Georges Kerscher
--   Noelia Ruiz Martínez
--   Prashant Verma
+- Gautier Chomel
+- Georges Kerscher
+- Noelia Ruiz Martínez
+- Prashant Verma
 
 
-## Accessibility
+## Accessibilité
 
-This ebook was tested with NVDA on Firefox on Windows 10. No
-accessibility blockers were found.
+Cet ebook a été testé avec NVDA sur Firefox sur Windows 10. Non
+aucun bloqueur d'accessibilité n'a été trouvé.
 
-If you encounter any difficulties you can inform us via the contact form
-or by opening an issue on our [support
-tracker](https://github.com/edrlab/thorium-reader-doc/issues/new).
+Si vous rencontrez des difficultés, vous pouvez nous en informer via le formulaire de contact
+ou en ouvrant un problème sur notre [support
+tracker] (https://github.com/edrlab/thorium-reader-doc/issues/new).
 
-The page is in English but you can write in your language by telling us
-so we can in your language so that we can mobilize the right people.
+La page est en anglais mais vous pouvez écrire dans votre langue en nous disant
+afin que nous puissions mobiliser les bonnes personnes.
 
-Here is the information we need:
+Voici les informations dont nous avons besoin :
 
--   Operating system and its version
--   Thorium version (it is indicated at the bottom of the library under
-    the title About Thorium)
--   Assistive technology used.
+- Système d'exploitation et sa version
+- Version de Thorium (elle est indiquée en bas de la bibliothèque sous le titre
+    le titre A propos de Thorium)
+- Technologie d'assistance utilisée.

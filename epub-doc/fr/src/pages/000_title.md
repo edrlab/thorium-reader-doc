@@ -1,7 +1,7 @@
 ---
 title: Page de titre
-role: doc-credit
-epubtype: credit
+role: 
+epubtype: title
 class: titlepage
 draft: false
 weight: 100

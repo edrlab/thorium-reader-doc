@@ -11,7 +11,7 @@ draft: false
 
 ## Reading textual contents
 
-Pour les contenus principalement textuels, Thorium propose la lecture visuelle et la lecture à voix haute, également connue comme synthèse vocale ou <span lang=een">Text to speech (TTS)</span> en anglais. Cette section se concentre sur les ajustements du texte, tandis que les capacités de [Lecture à voix haute (synthèse vocale)](../213_reading_auditory/index.xhtml#setting_view) lecture à haute voix font l'objet d'une section spécifique dans la section Lecture audio.
+Pour les contenus principalement textuels, Thorium propose la lecture visuelle et la lecture à voix haute, également connue comme synthèse vocale ou <span lang="en">Text to speech (TTS)</span> en anglais. Cette section se concentre sur les ajustements du texte, tandis que les capacités de [Lecture à voix haute (synthèse vocale)](../213_reading_auditory/index.xhtml#readaloud) lecture à haute voix font l'objet d'une section spécifique dans la section Lecture audio.
 
 
 </section>
@@ -26,7 +26,7 @@ Dans l'interface de lecture, utilisez le bouton "Préférences".
 Les paramètres de lecture peuvent être sauvegardés ou réinitialisés à l'aide des boutons <span class="ui_button">Sauvegarder</span> et <span class="ui_button">Réinitialiser</span> situés dans le menu
 <span class="ui_button">Réglages</span>, sous-menu <span class="ui_button">Configuration</span> de la fenêtre de lecture.
 
-Les principaux paramètres sont disponibles pour les formats EPUB à mise en forme adaptable, Les formats PDF ne permettent pas de personnaliser l'apparence. La plupart des EPUB à Fixed Layout permettent d'utiliser la vue Image pour zoomer sur une page (voir la section [Lire des visuels](../211/reading_visuals/index.xhtml)). Les PDF peuvent être agrandis à l'aide du sous-menu Zoom dans le panneau des préférences.
+Les principaux paramètres sont disponibles pour les formats EPUB à mise en forme adaptable, Les formats PDF ne permettent pas de personnaliser l'apparence. La plupart des EPUB à Fixed Layout permettent d'utiliser la vue Image pour zoomer sur une page (voir la section [Lire des visuels](../212_reading_visuals/index.xhtml)). Les PDF peuvent être agrandis à l'aide du sous-menu Zoom dans le panneau des préférences.
 
 </section>
 <section class="filet">

@@ -44,7 +44,7 @@ Une fenêtre système s'ouvrira pour vous permettre de choisir l'endroit où exp
 
 ## Importer une publication
 
-Situé dans le coin supérieur droit et 5e élément dans l'ordre de tabulation, juste avant le contenu principal, le bouton <span class= ui_button>+ Ajouter un livre</span> parle de lui-même. 
+Situé dans le coin supérieur droit et 5e élément dans l'ordre de tabulation, juste avant le contenu principal, le bouton <span class="ui_button">+ Ajouter un livre</span> parle de lui-même. 
 Son activation déclenche 
 l'ouverture d'une fenêtre contextuelle du système vous permettant de sélectionner un
 fichier sur votre ordinateur. Naviguez jusqu'au fichier que vous souhaitez ouvrir 
