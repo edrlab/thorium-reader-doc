@@ -87,19 +87,22 @@ A coloured border on the left visually indicates the Colour settled up for the a
 </section>
 <section class="filet">
 
-## Export and Import of Annotations {#annotations_io}
+## Exchange annotations (Programmatic Import and Export) {#annotations_io}
 
-A set of annotations can be exported or imported. 
+A set of annotations can be exported or imported. This can be done from the Annotations panel in the Reading view and from the book's context menu in the Library views. This allows annotations to be exported even after an LCP licence has expired.
 
-The export button will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification. 
+The export button  <img src="../../resources/images/export-icon.svg" class="icon"  alt="" role="presentation"/> will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification. 
 
-Annotations are stored with the file extension .annotation and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
+Annotations are stored with the file extension `.annotation` and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
 
-The import button opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported. 
+The import button  <img src="../../resources/images/import-icon.svg" class="icon"  alt="" role="presentation"/> opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported. 
 
-Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original .annotation file which is never linked. 
+Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original `.annotation` file which is never linked. 
 
+## Exporter des annotations au format HTML
 
+Depuis Thorium 3.2, il est possible d'exporter les marques pages et les annotations sous la forme d'une page web au format HTML. Dans une version future, nous espérons qu'il soit possible de personnaliser cet export grace à un gabarit personnalisable.
 
+Lors de l'export, sélectionnez l'extension du fichier `.annotation` et modifiez la en `.html`. La suite de l'export se déroule de la même façon. Le bouton "Enregistrer" ouvre une fenêtre "Fichier système" dans laquelle l'utilisateur doit sélectionner l'endroit où il souhaite stocker le fichier d'annotations ainsi que le nom du fichier. Le titre sera utilisé comme nom de fichier prérempli par défaut, mais il peut être modifié sans affecter l'identification du fichier.
 
 </section>
