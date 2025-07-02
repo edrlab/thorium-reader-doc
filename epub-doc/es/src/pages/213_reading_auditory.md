@@ -54,7 +54,7 @@ Si tiene problemas, consulte la
 
 ### Opciones de texto a voz {#readalouptions}
 
-Además de las funcionalidades, un panel de opciones específico ofrece opciones para una "vista clara" y la posibilidad de omitir contenido secundario (<span class="ui_info">omision de informacion auxiliar</span>), que puede incluir notas a pie de página u otro contenido marcado como complementario (`aside`) según la semántica indicada al producir el libro digital. La opcion <span class="ui_info">Dividir (texto a voz)</<span>> dividirá el contenido por frases para un resaltado más preciso.
+Además de las funcionalidades, un panel de opciones específico ofrece opciones para una "vista clara" y la posibilidad de omitir contenido secundario (<span class="ui_info">omision de informacion auxiliar</span>), que puede incluir notas a pie de página u otro contenido marcado como complementario (`aside`) según la semántica indicada al producir el libro digital. La opcion <span class="ui_info">Dividir (texto a voz)</span> dividirá el contenido por frases para un resaltado más preciso.
 
 </section>
 <section class="filet">

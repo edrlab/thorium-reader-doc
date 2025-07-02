@@ -28,8 +28,8 @@ No se puede acceder a las anotaciones en el contenido mediante la tabulación de
 El panel de navegación tiene una sección dedicada a las Anotaciones.
 Le permite ajustar la visualización y el comportamiento de sus anotaciones a su práctica y también revisar, manipular, borrar, ordenar, filtrar y navegar a través de sus anotaciones.
 
-</sección>
-<sección class="filet">
+</section>
+<section class="filet">
 
 ## Opciones para anotaciones {#annotations_options}
 
@@ -76,7 +76,7 @@ Las anotaciones se muestran como tarjetas en el panel, una tras otra. Cada tarje
 
 Un borde coloreado a la izquierda indica visualmente el Color establecido para la anotación. Esta información no se transmite a las tecnologías de asistencia.
 
-</sección>
+</section>
 <section class="filet">
 
 ## Intercambiar anotaciones (Importación y exportación programática) {#annotations_io}
@@ -90,6 +90,9 @@ Las anotaciones se almacenan con la extensión de archivo `.annotation` y utiliz
 El botón de importación <img src="../../resources/images/import-icon.svg" class="icon" alt="" role="presentation"/> se abre para que el usuario seleccione el archivo que desea importar. Si el identificador del libro no es similar al libro abierto donde se realiza la importación, se mostrará un mensaje de error y no se importarán las anotaciones.
 
 Una vez importadas, las anotaciones aparecen en el panel de anotaciones y pueden ser revisadas y manipuladas como cualquier anotación creada. Heredan el título del archivo de anotación original como etiqueta. Estas manipulaciones no afectarán al archivo original `.annotation` que nunca se vincula.
+
+</section>
+<section class="filet">
 
 ## Exportar anotaciones al formato HTML
 

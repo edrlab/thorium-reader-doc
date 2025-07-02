@@ -44,7 +44,7 @@ permite seleccionar entre dos modos de vista, <span class="ui_button">Presentaci
 la visualización de la lista de ebooks y ofrecen diferentes opciones para ordenar y
 filtrar, se detallan dos párrafos más abajo.
 
-Las acciones disponibles en el nivel <span class="ui_button">Ver</span> son *Importar una publicación*, *Buscar*, *Buscar en la lista de libros electrónicos</span>.
+Las acciones disponibles en el nivel <span class="ui_button">Ver</span> son *Importar una publicación*, *Buscar*, *Buscar en la lista de libros electrónicos*.
 *Buscar*, para *Filtrar por etiqueta* y *navegar por páginas de su biblioteca*. Biblioteca
 biblioteca son como estanterías o pilas, ya que la vista <span class="ui_button">Todas las publicaciones</span> está limitada
 a 50 publicaciones para mantenerla utilizable.
