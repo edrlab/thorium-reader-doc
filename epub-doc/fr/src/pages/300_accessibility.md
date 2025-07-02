@@ -11,7 +11,7 @@ draft: false
 L'application est compatible avec les technologies d'assistance telles que les lecteurs d'écran, notamment Jaws, NVDA, Narrator et Voiceover. Elle inclut une fonction de lecture à haute voix avec mise en évidence visuelle. Thorium Reader peut être utilisé avec une souris ou un clavier, et les raccourcis clavier sont configurables. L'affichage peut être personnalisé pour répondre aux besoins des utilisateurs, notamment en ce qui concerne les couleurs, la taille du texte, l'espacement, la police et la mise en page.
 Les fonctions d'accessibilité dépendent fortement de la qualité des fichiers de publication électronique et sont affectées par celle-ci.
 
-La [page d'assistance en ligne sur l'accessibilité](https://thorium.edrlab.org/en/th3/500_accessibility/) contient des informations complètes sur l'accessibilité de l'application et les fonctionnalités qui y sont liées.
+La [page d'assistance en ligne sur l'accessibilité](https://thorium.edrlab.org/fr/th3/500_accessibility/) contient des informations complètes sur l'accessibilité de l'application et les fonctionnalités qui y sont liées.
 
 Ce chapitre reprend les principales informations nécessaires pour en disposer hors ligne.
 

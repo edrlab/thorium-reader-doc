@@ -46,13 +46,13 @@ Les actions possibles sont affichées dans la barre en haut de l'interface. Il s
 
 
 <div class="framed">
+
 Thorium utilise les voix du système d'exploitation de l'ordinateur, en
 combinaison avec les informations linguistiques fournies par le livre.
-Si vous rencontrez des problèmes, veuillez consulter [la FAQ en ligne](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html).
+Si vous rencontrez des problèmes, veuillez consulter [la FAQ en ligne](https://thorium.edrlab.org/fr/th3/400_ressources/430_faq/index.html).
 
 </div>
 
 ### Options pour la lecture en voix de synthèse {#readaloudoptions}
 
-À côté des fonctionnalités, un volet d'options spécifiques fournit des options pour une "vue claire" et la possibilité de sauter le contenu secondaire ("skippability"), qui peut inclure des notes de bas de page ou d'autres contenus marqués comme complémentaires (`aside`) selon la sémantique indiquée lors de la production du livre numérique. `Split TTS` divisera le contenu par phrase pour une
-pour une mise en évidence plus précise.
+À côté des fonctionnalités, un volet d'options spécifiques fournit des options pour une "vue claire" et la possibilité de sauter le contenu secondaire (<span class="ui_info">Omettre les informations auxiliaires</span>), qui peut inclure des notes de bas de page ou d'autres contenus marqués comme complémentaires (`aside`) selon la sémantique indiquée lors de la production du livre numérique. <span class="ui_info">Découper à la phrase</span> divisera le contenu par phrase pour une mise en évidence plus précise.

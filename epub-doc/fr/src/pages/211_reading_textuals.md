@@ -43,7 +43,7 @@ La couleur de l'arrière-plan et de l'avant-plan peut être modifiée en utilisa
 ### Texte {#read_text_adjust_font}
 
 La taille de la police peut être augmentée ou diminuée à l'aide du curseur. La police
-peut également être modifiée. Des options prédéfinies sont disponiblesmais il est également possible d'entrer le nom de la police que vous voulez utiliser.
+peut également être modifiée. Des options prédéfinies sont disponibles mais il est également possible d'entrer le nom de la police que vous voulez utiliser.
 Pour cela, la police doit être présente sur votre système d'exploitation et vous devez connaître son nom exact tel qu'il est défini pour le système d'exploitation.
 
 <div class="framed">
@@ -80,9 +80,7 @@ Pour cela, la police doit être présente sur votre système d'exploitation et v
 Vous pouvez choisir entre une mise en page avec défilement ou pagination,
 l'alignement automatique ou justifié et l'affichage automatique ou sur 1 ou 2 colonnes. Selon la taille de la fenêtre de lecture, le choix du nombre de colonnes peut être impossible.
 
-Ici aussi, MathJax peut être activé, pour l'affichage d'expressions mathématiques.
-mathématiques.
-
+Ici aussi, MathJax peut être activé, pour un affichage alternatif des expressions mathématiques.
 
 </section>
 <section class="filet">
