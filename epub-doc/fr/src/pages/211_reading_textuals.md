@@ -1,5 +1,5 @@
 ---
-title: Reading textual contents
+title: Lire des contenus textuels
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
@@ -9,7 +9,7 @@ draft: false
 
 <section class="filet">
 
-## Reading textual contents
+## Lire de contenus textuels
 
 Pour les contenus principalement textuels, Thorium propose la lecture visuelle et la lecture à voix haute, également connue comme synthèse vocale ou <span lang="en">Text to speech (TTS)</span> en anglais. Cette section se concentre sur les ajustements du texte, tandis que les capacités de [Lecture à voix haute (synthèse vocale)](../213_reading_auditory/index.xhtml#readaloud) lecture à haute voix font l'objet d'une section spécifique dans la section Lecture audio.
 

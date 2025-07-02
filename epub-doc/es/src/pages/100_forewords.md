@@ -3,6 +3,7 @@ title: Prólogos
 role: doc-foreword
 epubtype: foreword
 draft: false
+class: filet
 weight: 100
 ---
 
@@ -98,6 +99,10 @@ La siguiente lista recoge los gestos que funcionan hasta ahora:
 * Coloque un dedo en la pantalla y deslícelo horizontalmente cuando lea en *formato paginado*.
 * *Coloque los dedos en la pantalla y pellizque o estire cuando Vista con zoom de imagen* Acercará o alejará la imagen
 * Mantener pulsado en *Todas las vistas* mostrará más comandos (como hacer clic con el botón derecho)
+
+
+</section>
+<section class="filet">
 
 ## Abrir Thorium Reader {#getabook}
 

@@ -10,11 +10,10 @@ draft: false
 
 Library actions are available in the Main window <span class="ui_button">Home</span> View and <span class="ui_button">All publications</span> View.
 
-
 <section class="filet">
 
 
-## Open a publication
+## Opening a publication
 
 Each publication cover is a link that, when activated, will open a
 reading window for this ebook. The main window will not be closed
@@ -122,10 +121,12 @@ adding <span class="ui_button">Tags</span> to them. *Tags* allow you to quickly 
 books in list view.
 
 <div class="framed">
+
 Putting it into practice. Open the book form,
 position yourself in the field <span class="ui_button">Add a tag</span>, write the name of the
 tag you want to add then press the <span class="ui_button">Add</span> button. The tag is added in
 a blue box, you can remove it by clicking on the cross.
+
 </div>
 
 

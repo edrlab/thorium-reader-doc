@@ -10,10 +10,10 @@ draft: false
 
 Les actions sur la bibliothèque sont disponibles dans la fenêtre principale <span class="ui_button">Accueil</span> et <span class="ui_button">Toutes les publications</span>.
 
-
 <section class="filet">
 
-## Ouvrir une publication
+
+## Ouvrir un livre
 
 Chaque couverture de publication est un lien qui, lorsqu'il est activé, ouvre une fenêtre de lecture pour ce livre. 
 La nouvelle fenêtre s'ouvre à la position exacte de la fenêtre principale, visuellement, l'utilisateur peut penser que la même fenêtre a été utilisée, mais ce n'est pas le cas. Déplacer la

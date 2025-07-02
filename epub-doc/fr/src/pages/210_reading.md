@@ -42,9 +42,10 @@ les boutons `Retour` et `Suivant` pour naviguer entre les occurrences. Le nombre
 Chaque correspondance affichée est un lien que vous pouvez activer pour aller à l'endroit du livre où se trouve l'expression que vous recherchez.
 
 <div class="framed">
- avertissement
+
 N'oubliez pas que le fait d'effectuer une recherche et de naviguer dans les résultats vous fera
 perdre le point de lecture où vous étiez. Vous pourrez le retrouver en utilisant la fonction "Saut en arrière". Vous pouvez aussi placer un marque-page pour être sûr de retrouver votre chemin.
+
 </div>
 
 </section>

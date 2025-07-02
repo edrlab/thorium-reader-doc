@@ -3,6 +3,7 @@ title: Forewords
 role: doc-foreword
 epubtype: foreword
 draft: false
+class: filet
 weight: 100
 ---
 
@@ -93,6 +94,9 @@ La liste suivante répertorie les gestes connus qui fonctionnent à ce jour :
 * *Placer un doigt sur l'écran et faire glisser horizontalement lorsque vous lisez dans une présentation paginée* passera à la page suivante.
 * *Placer les doigts sur l'écran et pincer ou étirer dans un panneau image*  permet d'effectuer un zoom avant ou arrière.
 * *Appuyer et maintenir dans toutes les vues* affichera d'autres commandes (comme le clic droit).
+
+</section>
+<section class="filet">
 
 ## Ouverture de Thorium {#getabook}
 

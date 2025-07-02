@@ -1,12 +1,12 @@
 ---
-title: Lecture de contenus audio
+title: Lire des contenus en audio
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Lecture de contenus audio
+# Lire des contenus en audio
 
 Les contenus audio peuvent apparaître dans presque tous les formats. Lorsqu'ils sont inclus dans des livres électroniques textuels ou visuels, ils sont accompagnés d'un ensemble de boutons tels que *play, pause, stop*, et éventuellement *rembobinage* et *avance rapide* ou d'autres options comme la vitesse. Ces boutons ne font pas partie de l'interface de Thorium, ils peuvent être fournis par le moteur de rendu spécifique (Chromium pour les contenus web en EPUB et Daisy ; pdf.js pour les PDF). Ils peuvent également être stylisés par le créateur du contenu. Par conséquent, ce guide d'utilisation peut difficilement donner des informations détaillées sur leur conception et leurs fonctionnalités.
 

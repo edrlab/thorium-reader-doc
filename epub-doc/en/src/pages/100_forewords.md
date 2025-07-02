@@ -3,6 +3,7 @@ title: Forewords
 role: doc-foreword
 epubtype: foreword
 draft: false
+class: filet
 weight: 100
 ---
 
@@ -99,6 +100,9 @@ The following list repertories the known working gestures so far:
 * *Place one finger on the screen and slide horizontally when Reading in paginated layout* will Turn page
 * *Place fingers on the screen and pinch in or stretch out when Image zoom* view will Zoom in or out
 * *Press and hold in All views* will Show more commands (like right-clicking)
+
+</section>
+<section class="filet">
 
 # Opening Thorium Reader {#getabook}
 
