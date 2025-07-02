@@ -11,7 +11,7 @@ draft: false
 Thorium offre des fonctions de lecture textuelle, visuelle et auditive. 
 Pour vous permettre trouver votre chemin dans la publication, Thorium offre également de nombreuses options de navigation,
 ainsi que la possibilité
-d'ajouter des signets ou d'effectuer des recherches dans la publication.
+d'ajouter des marques-pages ou d'effectuer des recherches dans la publication.
 
 Les fonctionnalités de lecture sont très différentes d'un format à l'autre.
 

@@ -21,18 +21,18 @@ La prise en charge des PDF comprend 8 niveaux de zoom et la capacité d'afficher
 
 ## Fonctions de navigation pour les PDF
 
-La navigation dans les PDF peut toujours se faire à l'aide du panneau "Aller à la page". En outre, lorsque les créateurs de PDF ont inclus des plans de documents, ceux-ci sont disponibles dans le panneau de navigation de la table des matières. Il s'agit d'un comportement différent de celui d'Acrobat Reader, qui affiche les plans de documents sous forme de signets et permet aux utilisateurs de les manipuler en changeant leur ordre, en les renommant, en les ajoutant et en les supprimant.
+La navigation dans les PDF peut toujours se faire à l'aide du panneau "Aller à la page". En outre, lorsque les créateurs de PDF ont inclus des plans de documents, ceux-ci sont disponibles dans le panneau de navigation de la table des matières. Il s'agit d'un comportement différent de celui d'Acrobat Reader, qui affiche les plans de documents sous forme de marques-pages et permet aux utilisateurs de les manipuler en changeant leur ordre, en les renommant, en les ajoutant et en les supprimant.
 
-Avec Thorium Reader, vous pouvez ajouter vos propres signets en toute sécurité et vous les trouverez dans le panneau de navigation des signets.
+Avec Thorium Reader, vous pouvez ajouter vos propres marques-pages en toute sécurité et vous les trouverez dans le panneau de navigation des marques-pages.
 
 </section>
 <section class="filet">
 
-## Signets et annotations pour les PDF
+## marques-pages et annotations pour les PDF
 
-Pour l'instant, les annotations ne sont pas disponibles pour les PDF. Les signets sont entièrement implémentés et peuvent être créés et utilisés comme détaillé dans le chapitre [Action de lecture - Signets](../230_bookmarks/index.xhtml).
+Pour l'instant, les annotations ne sont pas disponibles pour les PDF. Les marques-pages sont entièrement implémentés et peuvent être créés et utilisés comme détaillé dans le chapitre [Action de lecture - marques-pages](../230_bookmarks/index.xhtml).
 
-Un point d'attention ici est qu'un seul signet par page peut être ajouté. Si vous essayez d'ajouter plus d'un signet par page, le signet existant sera supprimé.
+Un point d'attention ici est qu'un seul marque-page par page peut être ajouté. Si vous essayez d'ajouter plus d'un marque-page par page, le marque-page existant sera supprimé.
 
 </section>
 <section class="filet">

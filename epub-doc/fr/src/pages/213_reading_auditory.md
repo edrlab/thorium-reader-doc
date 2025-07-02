@@ -24,7 +24,7 @@ L'interface est composée de :
 * Un menu déroulant pour changer la vitesse de lecture ;
 * Une barre de progression indiquant le temps écoulé et le temps total de la section actuelle du livre.
 
-Il est possible d'ajouter un signet à un endroit de la lecture et d'ajouter une note au signet. Les annotations ne sont pas possibles.
+Il est possible d'ajouter un marque-page à un endroit de la lecture et d'ajouter une note au marque-page. Les annotations ne sont pas possibles.
 
 La navigation dans les livres audio est généralement fournie par le créateur sous la forme d'une table des matières.
 

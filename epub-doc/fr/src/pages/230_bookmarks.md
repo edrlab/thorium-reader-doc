@@ -14,7 +14,7 @@ draft: false
 
 Le bouton <span class="ui_button">marque page</span> vous permet d'ajouter un marque page personnalisé.
 Ce peut être un point fixe ou une sélection de texte.
-Il ne peut y avoir qu'un seul signet à point fixe par page (pages du livre ou pages calculées dans le cas où il n'y a pas de référence de page dans le livre). En revanche, vous pouvez placer autant de marque page de sélection de texte que vous le souhaitez.
+Il ne peut y avoir qu'un seul marque-page à point fixe par page (pages du livre ou pages calculées dans le cas où il n'y a pas de référence de page dans le livre). En revanche, vous pouvez placer autant de marque page de sélection de texte que vous le souhaitez.
 
 Lorsque vous ajoutez un <span class="ui_button">marque page</span>, une notification apparaît pour vous informer que
 le <span class="ui_button">marque page</span> a été *Ajouté* ou *Supprimé*.
@@ -35,12 +35,12 @@ Si aucun texte n'est sélectionné, le dernier emplacement de lecture connu sera
 
 Appuyez sur le bouton <span class="ui_button">Navigation</span> (<kbd>Ctrl</kbd> + <kbd>N</kbd>), puis sélectionnez <span class="ui_button">marque page</span>.Vous pouvez modifier le nom de chaque marque page, supprimer des marque page et passer d'un marque page à l'autre en appuyant sur <kbd>Entrée</kbd>.
 
-Accédez à la liste des marque page dans la zone de navigation. Sélectionnez le signet
+Accédez à la liste des marque page dans la zone de navigation. Sélectionnez le marque-page
 auquel vous souhaitez accéder et appuyez sur la touche <kbd>Enter</kbd>. Si vous avez
-renommé le signet, il vous sera facile d'accéder à plusieurs endroits du livre.
+renommé le marque-page, il vous sera facile d'accéder à plusieurs endroits du livre.
 
 Si vous sélectionnez une portion de texte et activez ensuite le bouton <span class="ui_button">marque page</span>,
-le signet créé aura pour titre la ligne sélectionnée.
+le marque-page créé aura pour titre la ligne sélectionnée.
 
 Si vous avez créé un marque page sur une ligne sans sélectionner de portion de texte, essayez de copier la ligne sur laquelle vous vous trouvez dans le presse-papiers.
 Allez ensuite dans les options de navigation avec <kbd>Ctrl</kbd> + <kbd>N</kbd>,
@@ -48,8 +48,8 @@ puis faites défiler vers le bas jusqu'à la section marque page, où ils sont r
 Appuyez sur la touche <kbd>b</kbd> pour accéder au bouton d'édition et renommer le marque page.
 Collez la ligne du presse-papiers et appuyez sur
 <kbd>Entrée</kbd>. Le marque page est renommé avec la ligne de texte que vous avez copiée.
-Lorsque vous avez plusieurs signets, ce renommage des signets vous permet de les identifier plus facilement.
+Lorsque vous avez plusieurs marques-pages, ce renommage des marques-pages vous permet de les identifier plus facilement.
 
-Depuis la version 3.2, il est possible d'ajouter des Étiquettes aux signets pour faciliter le filtrage, le regroupement et la recherche d'emplacements spécifiques.
+Depuis la version 3.2, il est possible d'ajouter des Étiquettes aux marques-pages pour faciliter le filtrage, le regroupement et la recherche d'emplacements spécifiques.
 
 </section>
