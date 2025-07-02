@@ -1,56 +1,50 @@
 ---
-title: About this ebook
+title: Acerca de este ebook
 role: doc-acknowledgments
 epubtype: acknowledgments
 class: colbreak filet
 draft: false
 ---
 
-# About this ebook
+# Acerca de este ebook
 
-Published in February 2025 by The European Digital Reading Lab (EDRLab), a non-profit development laboratory.
+Publicado en febrero de 2025 por The European Digital Reading Lab (EDRLab), un laboratorio de desarrollo sin ánimo de lucro.
 
 ---
 
-Paris, France
+París, Francia
 
-15 Rue de la Bûcherie, 75005 
+15 Rue de la Bûcherie, 75005
 
 [contact@edrlab.org](mailto:contact@edrlab.org)
 
 [edrlab.org](https://www.edrlab.org/)
 
+## Créditos
 
+Este ebook de documentación está diseñado y mantenido por EDRLab como parte del
+el desarrollo de la aplicación Thorium-Reader.
 
+Los principales colaboradores de esta documentación son :
 
-## Credits
+- Gautier Chomel
+- Georges Kerscher
+- Noelia Ruiz Martínez
+- Prashant Verma
 
-This documentation ebook is designed and maintained by EDRLab as part of
-the development of the Thorium-Reader application.
+## Accesibilidad
 
-The main contributors of this documentation are :
+Este ebook fue probado con NVDA en Firefox en Windows 10. No se encontraron bloqueadores de accesibilidad en
+se encontraron bloqueadores de accesibilidad.
 
--   Gautier Chomel
--   Georges Kerscher
--   Noelia Ruiz Martínez
--   Prashant Verma
+Si encuentra alguna dificultad puede informarnos a través del formulario de contacto
+o abriendo una incidencia en nuestro [support tracker](https://github.com/edrlab/thorium-reader-doc/issues/new).
 
+La página está en inglés pero puedes escribir en tu idioma diciéndonos
+en tu idioma para que podamos movilizar a las personas adecuadas.
 
-## Accessibility
+Aquí tienes la información que necesitamos:
 
-This ebook was tested with NVDA on Firefox on Windows 10. No
-accessibility blockers were found.
-
-If you encounter any difficulties you can inform us via the contact form
-or by opening an issue on our [support
-tracker](https://github.com/edrlab/thorium-reader-doc/issues/new).
-
-The page is in English but you can write in your language by telling us
-so we can in your language so that we can mobilize the right people.
-
-Here is the information we need:
-
--   Operating system and its version
--   Thorium version (it is indicated at the bottom of the library under
-    the title About Thorium)
--   Assistive technology used.
+- Sistema operativo y su versión
+- Versión de Thorium (se indica en la parte inferior de la biblioteca bajo el título Acerca de Thorium)
+- Tecnología de asistencia utilizada.

@@ -1,108 +1,100 @@
 ---
-title: Annotations
+title: Anotaciones
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Annotations
+# Anotaciones
 
-*Annotations have been introduced first in Thorium 3, as a new feature,
-it may present unexpected behaviors. Let us know any difficulty you face
-by [opening an issue](https://github.com/edrlab/thorium-reader/issues/new) or [sending us an email](https://www.edrlab.org/contact/).*
+*Las anotaciones han sido introducidas por primera vez en Thorium 3, como una nueva característica, puede presentar comportamientos inesperados. Háganos saber cualquier dificultad que encuentre [abriendo una incidencia](https://github.com/edrlab/thorium-reader/issues/new) o [enviándonos un correo electrónico](https://www.edrlab.org/contact/).*
 
-The simplest way to add an annotation is to select a text and hit the
-Annotations button
-(<img src="../../resources/images/annotation-icon.svg" class="icon" role="presentation"/>) or stroke the keyboard shortcut <kbd>Shift</kbd> +
-<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd>. This opens the Annotation pop up
-and place the cursor into the input box where you can write your
-annotation (optional). You can change highlight color and type (Solid
-background, Underline, Strikethrough or Outline) then validate the
-creation of the annotation with <span class="ui_button">Save</span>.
+La forma más sencilla de añadir una anotación es seleccionar un texto y pulsar el 
+Botón de anotaciones
+(<img src="../../resources/images/annotation-icon.svg" class="icon" role="presentation"/>) o pulsar el atajo de teclado <kbd>Shift</kbd> +
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd>. Esto abre la ventana emergente Anotación
+y coloca el cursor en el cuadro de entrada donde puede escribir su
+anotación (opcional). Puede cambiar el color y el tipo de resalte (Sólido
+fondo, Subrayado, Tachado o Contorno) y, a continuación, validar la
+creación de la anotación con <span class="ui_button">Guardar</span>.
 
-Annotations in the content can not be reached by keyboard tabulation. To navigate between them, keyboard users need to open the Annotation Panel.
-
+No se puede acceder a las anotaciones en el contenido mediante la tabulación del teclado. Para navegar entre ellas, los usuarios de teclado deben abrir el Panel de anotaciones.
 
 <section class="filet">
 
-## Annotations panel {#annotations_panel}
+## Panel de anotaciones {#annotations_panel}
 
-The navigation panel has a section dedicated to Annotations. 
-It allows you to adjust your annotation display and behaviour to your practice and also review, manipulate, delete, sort, filter and navigate thru your annotations.
+El panel de navegación tiene una sección dedicada a las Anotaciones.
+Le permite ajustar la visualización y el comportamiento de sus anotaciones a su práctica y también revisar, manipular, borrar, ordenar, filtrar y navegar a través de sus anotaciones.
 
+</sección>
+<sección class="filet">
+
+## Opciones para anotaciones {#annotations_options}
+
+Las opciones de anotación están disponibles en la barra de herramientas del panel de anotaciones.
+
+Hay cuatro opciones disponibles:
+
+- *Modo instantáneo* Abrirá la ventana emergente de anotación en cada selección.
+- *Creación rápida* Resalta el texto seleccionado y crea una anotación vacía.
+- *Mostrar en márgenes* Cambia el resaltado del texto por una indicación más discreta en el margen de que hay una anotación en esa línea.
+- *No mostrar* simplemente oculta cualquier marca de anotación (pero no desactiva la posibilidad de añadir anotaciones).
+
+La combinación de las opciones *Modo instantáneo* y *Creación rápida* le permite utilizar el
+modo de anotador en serie, ya que cualquier selección creará un resalte sin
+ninguna ventana emergente.
 
 </section>
 <section class="filet">
 
-## Options for annotations {#annotations_options}
+## Ordenar y filtrar anotaciones {#annotations_sort_and_filter}
 
-Annotation options are available from the annotation panel toolbar.
+Las opciones de Ordenar y Filtrar tienen cada una su botón dedicado. Ambas modifican la lista de anotaciones visualizadas en el panel.
 
-Four options are available:
+La ordenación puede hacerse por Progresión (de principio a fin del libro), Última creación y Última modificación. Sólo afecta al orden de presentación.
 
-- Instant mode will open the Annotation pop up at each selection.
-- Quick create Highlights the select text and create an empty annotation.
-- Display in margins switches the text highlight for a more discret margin indication that an annotation is present at this line.
-- Do not display just hides any annotation mark (but does not deactivate the possibility to add annotations).
+El filtrado modificará la lista de anotaciones mostradas, sin eliminarlas. Si busca una anotación que no aparece, puede deberse a que haya un filtro activo. Aparecerá un número en una burbuja junto al icono de opciones de Filtros para visualizar rápidamente si hay filtros activos y cuántos hay. Es un número en texto plano que será anunciado por los lectores de pantalla.
 
-The combination of Instant mode and Quick create options let you use the
-serial annotator mode as any selection will create an highlight without
-prompting any pop up.
+Los filtros de etiquetas activos se muestran visualmente con un fondo azul y son anunciados como activos por los lectores de pantalla.
 
+Todos los filtros permiten la selección múltiple y actúan como casillas de verificación, un clic activa el filtro, otro clic lo desactiva.
 
-</section>
-<section class="filet">
-
-## Sort and filter annotations {#annotations_sort_and_filter}
-
-Sorting options and Filter options have each their dedicated button. Both modify the list of annotations viewed in the panel. 
-
-Sorting can be done by Progression (from beginning to end of the book), Last created and Last modified. It only affect the presentation order.
-
-Filtering will modify the list of displayed annotations, without removing them. If you are searching for an annotation that does not appear, it can be because a filter is active. A  number in a bubble will appear next to the Filters options icon for quick visualisation of if and how many filters are actives. It's a plain text number that will be announced by screen readers. 
-
-Active tag filters are visually shown by a blue background and announced as active by screen readers.
-
-All filters allow multiple selection and they act like checkbox, one clic activate the filter, one more clic deactivates it. 
-
-Filtering options are:
-* by Tag, if any tag as been affected to any annotation, it will appear here;
-* by Color, Red, Orange, Yellow, Green, Blue-green, Light-blue, Cyan and Violet;
-* by Drawtype, Outline, Solid background, Strikethrough	 or Underline;
-* by Creator, if any has been informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
-
+Las opciones de filtrado son:
+* por Etiqueta, si alguna etiqueta ha sido afectada a alguna anotación, aparecerá aquí;
+* por Color, Rojo, Naranja, Amarillo, Verde, Azul-verde, Azul claro, Cian y Violeta;
+* por Tipo de dibujo, Contorno, Fondo sólido, Tachado o Subrayado;
+* por Creador, si se ha informado de alguno en el <a href="../102_windows_views_panels/index.xhtml#setting_view" >Panel de configuración de la aplicación</a >, o se ha importado con un conjunto de anotaciones.
 
 </section>
 <section class="filet">
 
-## Review and manipulation of annotations {#annotations_view_and_manipulation}
+## Revisión y manipulación de anotaciones {#annotations_view_and_manipulation}
 
-Annotations are shown as cards in the panel, one after the other. Each Card contains the text of the annotation, the creation date, the position in the book expressed in progression percentage and  an Edit and a Delete buttons. The text of the annotation acts as a button that will move the focus to the annotation itself, so leaving the context of the annotation panel, some tabulations will have to be done to get back to the annotation panel. 
+Las anotaciones se muestran como tarjetas en el panel, una tras otra. Cada tarjeta contiene el texto de la anotación, la fecha de creación, la posición en el libro expresada en porcentaje de progresión y unos botones Editar y Suprimir. El texto de la anotación actúa como un botón que desplazará el foco a la propia anotación, por lo que al salir del contexto del panel de anotaciones, habrá que realizar algunas tabulaciones para volver al panel de anotaciones.
 
-A coloured border on the left visually indicates the Colour settled up for the annotation. This information is not passed to assistive technologies. 
+Un borde coloreado a la izquierda indica visualmente el Color establecido para la anotación. Esta información no se transmite a las tecnologías de asistencia.
 
-
-
-</section>
+</sección>
 <section class="filet">
 
-## Exchange annotations (Programmatic Import and Export) {#annotations_io}
+## Intercambiar anotaciones (Importación y exportación programática) {#annotations_io}
 
-A set of annotations can be exported or imported. This can be done from the Annotations panel in the Reading view and from the book's context menu in the Library views. This allows annotations to be exported even after an LCP licence has expired.
+Se puede exportar o importar un conjunto de anotaciones. Esto puede hacerse desde el panel Anotaciones en la vista Lectura y desde el menú contextual del libro en las vistas Biblioteca. Esto permite exportar anotaciones incluso después de que haya caducado una licencia LCP.
 
-The export button  <img src="../../resources/images/export-icon.svg" class="icon"  alt="" role="presentation"/> will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification. 
+El botón exportar <img src="../../resources/images/export-icon.svg" class="icon" alt="" role="presentation"/> abrirá un cuadro de diálogo en el que se pedirá un título que se utilizará para identificar el conjunto de anotaciones al importarlo. El botón Guardar abrirá una ventana de Archivo de sistema para seleccionar el lugar donde el usuario desea almacenar este archivo de anotación, así como el nombre del archivo. El título se utilizará como nombre de archivo predeterminado, pero puede cambiarse sin que ello afecte a la identificación del archivo.
 
-Annotations are stored with the file extension `.annotation` and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
+Las anotaciones se almacenan con la extensión de archivo `.annotation` y utilizan un formato JSON-LD definido por la recomendación del W3C [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). Contiene el identificador del ebook y la información del Creador informada en el <a href="../102_windows_views_panels/index.xhtml#setting_view" >Panel de Configuración de la Aplicación</a > así como varios tipos de selectores para permitir la importación y el correcto posicionamiento de las anotaciones por diferentes sistemas de lectura.
 
-The import button  <img src="../../resources/images/import-icon.svg" class="icon"  alt="" role="presentation"/> opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported. 
+El botón de importación <img src="../../resources/images/import-icon.svg" class="icon" alt="" role="presentation"/> se abre para que el usuario seleccione el archivo que desea importar. Si el identificador del libro no es similar al libro abierto donde se realiza la importación, se mostrará un mensaje de error y no se importarán las anotaciones.
 
-Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original `.annotation` file which is never linked. 
+Una vez importadas, las anotaciones aparecen en el panel de anotaciones y pueden ser revisadas y manipuladas como cualquier anotación creada. Heredan el título del archivo de anotación original como etiqueta. Estas manipulaciones no afectarán al archivo original `.annotation` que nunca se vincula.
 
-## Exporter des annotations au format HTML
+## Exportar anotaciones al formato HTML
 
-Depuis Thorium 3.2, il est possible d'exporter les marques pages et les annotations sous la forme d'une page web au format HTML. Dans une version future, nous espérons qu'il soit possible de personnaliser cet export grace à un gabarit personnalisable.
+Desde Thorium 3.2, es posible exportar las páginas de marcas y las anotaciones bajo la forma de una página web en formato HTML. En una versión futura, esperamos que sea posible personalizar esta exportación a un gabinete personalizable.
 
-Lors de l'export, sélectionnez l'extension du fichier `.annotation` et modifiez la en `.html`. La suite de l'export se déroule de la même façon. Le bouton "Enregistrer" ouvre une fenêtre "Fichier système" dans laquelle l'utilisateur doit sélectionner l'endroit où il souhaite stocker le fichier d'annotations ainsi que le nom du fichier. Le titre sera utilisé comme nom de fichier prérempli par défaut, mais il peut être modifié sans affecter l'identification du fichier.
+Durante la exportación, seleccione la extensión del archivo `.annotation` y modifíquela a `.html`. La exportación se realiza de la misma manera. El botón "Registrar" abre la ventana "Sistema de archivos", en la que el usuario debe seleccionar la ubicación en la que desea guardar el archivo de anotaciones y el nombre del archivo. El título se utilizará como nombre de archivo predeterminado, pero puede modificarse sin que ello afecte a la identificación del archivo.
 
 </section>

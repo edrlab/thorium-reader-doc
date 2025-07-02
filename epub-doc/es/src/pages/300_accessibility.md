@@ -1,78 +1,44 @@
 ---
-title: Accessibility
+title: Accesibilidad
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Accessibility {#A11Y}
-The application is compatible with assistance technologies such as screen players, including Jaws, NVDA, Narrator and Voiceover. It includes a reading function aloud with visual highlighting. Thorium Reader can be used with mouse or keyboard, and keyboard shortcuts are configurable. The display can be personalized to meet the needs of users, including colors, text size, spacing, font and layout.
-Accessibility features strongly depend on the quality of electronic publication files and are affected by it. 
+# Accesibilidad {#A11Y}
 
-The [Accessibility online support page](https://thorium.edrlab.org/en/th3/500_accessibility/) contains complete information related to the accessibility of the application and the features related to it.
+La aplicación es compatible con tecnologías de asistencia como reproductores de pantalla, incluidos Jaws, NVDA, Narrator y Voiceover. Incluye una función de lectura en voz alta con resaltado visual. Thorium Reader puede utilizarse con ratón o teclado, y los atajos de teclado son configurables. La visualización puede personalizarse para satisfacer las necesidades de los usuarios, incluidos los colores, el tamaño del texto, el espaciado, la fuente y el diseño.
+Las funciones de accesibilidad dependen en gran medida de la calidad de los archivos de publicación electrónica y se ven afectadas por ella.
 
-This chapter takes up the main information to have it offline.
+La [Página de ayuda en línea sobre accesibilidad](https://thorium.edrlab.org/es/th3/500_accessibility/) contiene información completa sobre la accesibilidad de la aplicación y las funciones relacionadas con ella.
 
+Este capítulo recoge la información principal para tenerla fuera de línea.
 
 <section class="filet">
 
-## Accessibility information {#a11y_info}
+## Información de accesibilidad {#a11y_info}
 
-Currently, Thorium displays in the [Book Information Panel](../102_windows_views_panels/index.xhtml#book_info_panel) under the title `Description` Description 'The content of the accessibility metadata provided by the creators of the file.
+Actualmente, Thorium muestra en el [Panel de información del libro](../102_windows_views_panels/index.xhtml#book_info_panel) bajo el título `Description` Descripción `El contenido de los metadatos de accesibilidad proporcionados por los creadores del archivo.
+
+</section>
+<section class="filet">
+
+## Funciones nativas de accesibilidad {#a11y_native}
+
+Las funciones nativas de accesibilidad se describen en cada una de las secciones de esta documentación que corresponden a su contexto de uso. Esto incluye en particular:
+
+* [Ajustes visuales en la visualización del texto](../102_windows_views_panels/index.xhtml#reading_settings_panel)
+* [Lectura de audio en voz generada](../213_reading_auditory/index.xhtml#readaloud)
 
 
 </section>
 <section class="filet">
 
-## Native accessibility functions {#a11y_native}
+## Lectura con un reproductor de pantalla {#screenreader}
 
-The native accessibility functions are described in each section of this documentation which correspond to their context of use. This includes in particular:
-
-* [Visual adjustments in the display of the text](../102_windows_views_panels/index.xhtml#reading_settings_panel)
-* [Audio reading in generated voice](../213_reading_auditory/index.xhtml#readaloud)
-
-
-</section>
-<section class="filet">
-
-## Reading with a screen player {#screenreader}
-
-When launching Thorium, if a screen player is detected, the relative functions are activated.
-Note that screen players use separate buffer memory to access HTML content, which causes the visual scroll desynchronization and a page offset displayed with the page read by the screen player. In other words, Thorium is generally not aware of the current reading location of the screen player user, unless the screen user triggers events (such as a Mouse click anywhere in the text or a keyboard key on focused HTML elements).
-
-
-</section>
-<section class="filet">
-
-
-### Quick keys for navigation (common to NVDA and Jaws)
-
-*(Contribution of Prashant Verma, Daisy Consortium)*
-
-To read text, navigate in the tables, navigate in the browser window, the insertion key can be replaced by the screen modification key. The screen player must be in navigation or virtual cursor mode.
-
-|Action |Key|
-|---|---|
-|Following title| <kbd>H</kbd> |
-|Next table| <kbd>T</kbd>|
-|Following graphic| <kbd>G</kbd>|
-|Next list|<kbd>L</kbd>|
-|Following form field|<kbd>F</kbd>|
-|Element list| <kbd>INSERT</kbd> + <kbd>F7</kbd> |
-|Preceding| <kbd>←</kbd> |
-|Following character| <kbd>→</kbd> |
-|Previous word |<kbd>CTRL</kbd> + <kbd>←</kbd> |
-|Next word|<kbd>CTRL</kbd> + <kbd>→</kbd> |
-|Previous line |<kbd>↑</kbd> |
-|Next line |<kbd>↓</kbd> |
-|Previous sentence |<kbd>ALT</kbd> + <kbd>↑</kbd> (Jaws uniquement) |
-|Next sentence|<kbd>ALT</kbd> + <kbd>↓</kbd> (Jaws uniquement) |
-|Read everything|<kbd>INSERT</kbd> + <kbd>↓</kbd> |
-|Cell on the right|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd> |
-|Cell on the left |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd>|
-|Cell below|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↓</kbd>|
-|Cell above|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↑</kbd>|
+Al lanzar Thorium, si se detecta un reproductor de pantalla, se activan las funciones relativas.
+Tenga en cuenta que los reproductores de pantalla utilizan una memoria intermedia independiente para acceder al contenido HTML, lo que provoca la desincronización del desplazamiento visual y un desplazamiento de página que se muestra con la página leída por el reproductor de pantalla. En otras palabras, Thorium generalmente no es consciente de la ubicación de lectura actual del usuario del reproductor de pantalla, a menos que el usuario de la pantalla active eventos (como un clic del ratón en cualquier parte del texto o una tecla del teclado en elementos HTML enfocados).
 
 
 </section>

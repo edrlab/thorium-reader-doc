@@ -1,111 +1,94 @@
 ---
-title: Reading textual contents
+title: Leer contenidos textuales
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-
 <section class="filet">
 
-## Reading textual contents
+## Lectura de contenidos textuales
 
-For textual contents Thorium provides visual reading and read aloud, also known as Text to speech (TTS). This section focuses on text adjustements while the [Read aloud (text to speech)](../213_reading_auditory/index.xhtml#readaloud). 
-capacities are covered in a dedicated section from the Reading auditory section.
+Para los contenidos textuales, Thorium ofrece lectura visual y lectura en voz alta, también conocida como Text to speech (TTS). Esta sección se centra en los ajustes de texto, mientras que la [Lectura en voz alta (texto a voz)](../213_reading_auditory/index.xhtml#readaloud).
+se trata en una sección específica de la sección Lectura auditiva.
 
 </section>
 <section class="filet">
 
+### Configuración del ajuste de texto {#read_text_adjust}
 
-### Text adjustment settings {#read_text_adjust}
-
-In the reading interface use the `Preferences` button 
+En la interfaz de lectura utiliza el botón `Preferencias`.
 <img src="../../resources/images/textarea-icon.svg" role="presentation" alt="" class="icon"/>
 
+Los ajustes de lectura pueden guardarse o restablecerse mediante los botones <span class="ui_button">Guardar</span> y <span class="ui_button">Restablecer</span> situados en el submenú <span class="ui_button">Establecer opciones predeterminadas</span>.
 
-Reading settings can be saved or reset by using buttons <span class="ui_button">Save</span> and <span class="ui_button">Reset</span> located in the menu
-<span class="ui_button">Settings</span>, submenu <span class="ui_button">Configuration</span> of the
-Reading window.
+Los ajustes principales están disponibles para EPUB Reflowable. La mayoría de los EPUB de diseño fijo 
+permiten abrir la vista de imagen para ampliar una página. 
+Los PDF pueden ampliarse utilizando el submenú Zoom del panel OPciones de configuracion.
 
-Major settings are available for EPUB Reflowable , Fixed Layout EPUBs and
-PDF formats just don't allow personalisation of appearance. Most Fixed
-Layout EPUBs will allow to open Image view for zooming on a page. PDFs
-can be enlarged using the Zoom sub-menu in the Preferences panel.
+</section>
+<section class="filet">
 
+### Tema {#read_text_adjust_theme}
+
+El color del fondo y del primer plano puede cambiarse utilizando uno de los
+los temas disponibles.
 
 </section>
 <section class="filet">
 
 
-### Theme {#read_text_adjust_theme}
+### Texto {#read_text_adjust_font}
 
-The color of the background and foreground can be changed using one of
-the available themes.
+El tamaño de la fuente se puede aumentar o disminuir utilizando el control deslizante. 
 
-
-</section>
-<section class="filet">
-
-
-### Text {#read_text_adjust_font}
-
-The font size can be increased or decreased using the slider. The font
-can also be changed. The available options are as follows Default, Old
-style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace and
-Monospace.
-
-By selecting the `...` you can enter the name of the font you want to
-use. To do this, the font must be present on your operating system and
-you must know its exact name as it is set for the operating system.
+El tipo de letra
+también puede cambiarse. Existen opciones predefinidas, pero también es posible introducir el nombre de la fuente que se desea utilizar.
+Para ello, el tipo de letra debe estar presente en su sistema operativo y debe conocer su nombre exacto tal y como está definido para el sistema operativo.
 
 <div class="framed">
 
 
-## Example 1: Setting Verdana as the reading font {#read_text_example_verdana}
+#### Ejemplo 1: Establecer Verdana como fuente de lectura {#read_text_example_verdana}
 
-1.  In the reading interface go to the `Preference` menu and then
-    `Text`.
-2.  In the drop-down list select `...`.
-3.  Write the word *Verdana* in the empty field that appears next to the
-    drop-down list.
-4.  Confirm with <kbd>Enter</kbd>.
+1.  En la interfaz de lectura vaya al menú `Preference` y luego a
+    `Texto`.
+2.  Sitúe el cursor en el campo de selección de fuentes.
+3.  Escriba la palabra *Verdana* en el campo vacío que aparece junto a la lista desplegable.
+    lista desplegable.
+4.  Confirma con <kbd>Intro</kbd>.
 
 
-## Example 2: Setting up Luciole as the reading font {#read_text_example_luciole}
+#### Ejemplo 2: Configuración de Luciole como fuente de lectura {#read_text_example_luciole}
 
-1.  [Download and install the Luciole
+1.  1. [Descargue e instale la fuente Luciole
     font](https://www.luciole-vision.com/#download)
-2.  In the reading interface go to the `Preference` menu and then
-    `Text`.
-3.  In the drop-down list select `...`.
-4.  Write the word *Luciole* in the empty field that appears next to the
-    drop-down list.
-5.  Confirm with <kbd>Enter</kbd>.
+2.  En la interfaz de lectura vaya al menú `Preferencias` y después a
+    `Texto`.
+3.  Sitúe el cursor en el campo de selección de fuentes.
+4.  Escriba la palabra *Luciole* en el campo vacío que aparece junto a la lista desplegable.
+    lista desplegable.
+5.  Confirma con <kbd>Intro</kbd>.
 
 </div>
 
-
 </section>
 <section class="filet">
-
 
 ### Display {#read_text_display}
 
-You can choose between a page layout with scrolling or pagination,
-automatic or justified alignment and automatic or on 1 or 2 columns.
-Here also, MathJax can be activated, for the display of mathematical
-expressions.
-
+Puede elegir entre un diseño de página con desplazamiento o paginación,
+alineación automática o justificada y automática o en 1 o 2 columnas.
+Aquí también se puede activar MathJax, para una visualización alternativa de expresiones matemáticas.
 
 </section>
 <section class="filet">
 
 
-### Spacing {#read_text_spaces}
+### Espaciado {#read_text_spaces}
 
-Margins, word spacing, letter spacing, paragraph spacing and line
-spacing can be adjusted.
-
+Se puede modificar los márgenes, el espaciado de palabras, el espaciado de letras, el espaciado de párrafos y el interlineado
+y el interlineado.
 
 </section>

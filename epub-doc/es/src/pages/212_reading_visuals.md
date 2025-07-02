@@ -1,45 +1,43 @@
 ---
-title: Reading visual contents
+title: Leer contenidos visuales
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Reading visual contents
+# Leer contenidos visuales
 
-Visual content can appears in all formats except those that are exclusively audio. This section covers the various situations with the exception of portable document formats (PDF) for which a third-party reader (pdf.js, also used by Firefox notably) is integrated into Thorium. Therefore, a specific section of this user guide is dedicated to [Reading PDF](../214_reading_pdfs/index.xhtml).
+Los contenidos visuales pueden aparecer en todos los formatos excepto en los que son exclusivamente sonoros. Esta sección cubre las distintas situaciones con la excepción de los formatos de documentos portátiles (PDF) para los que se integra en Thorium un lector de terceros (pdf.js, también utilizado por Firefox en particular). Por ello, se dedica una sección específica de esta guía del usuario a la [Lectura de PDF](../214_reading_pdfs/index.xhtml).
 
 <section class="filet">
 
-## Zooming on images {#read_images_zoom}
+## Zoom sobre imágenes {#read_images_zoom}
 
-Thorium has an image zoom feature (epub only).
+Thorium dispone de una función de zoom sobre las imágenes (sólo epub).
 
-To zoom on an image you can select the image (a magenta focus outline
-will appear around it) and activate zoom by clicking with the mouse or
-tapping it with the finger. Access to image zoom via keyboard is
-currently not possible.
+Para hacer zoom sobre una imagen, puede seleccionarla (aparecerá un contorno de enfoque magenta 
+a su alrededor) y activar el zoom haciendo clic con el ratón o
+con el dedo. El acceso al zoom de la imagen a través del teclado
+actualmente no es posible.
 
-If the image is also a link or if the book your read is in a fixed
-layout format, you will need to hit the <kbd>Shift</kbd> key in order to
-enter the image zoom feature.
+Si la imagen es también un enlace o si el libro que lees tiene un formato de
+formato fijo, tendrá que mantener pulsada la tecla <kbd>Mayús</kbd> para acceder al zoom de la imagen.
 
-To zoom in or out, tab to the `+` or `-` buttons and hit <kbd>Enter</kbd>,
-use mouse wheel, scroll up and down or pinch and stretch trackpad or
-onscreen touch gestures.
+Para ampliar o reducir la imagen, desplázate hasta los botones "+" o "-" y pulsa <kbd>Intro</kbd>,
+utilice la rueda del ratón, desplácese arriba y abajo o pellizque y estire el trackpad 
+o gestos táctiles en pantalla.
 
-Once the image is zoomed you can move vertically and horizontally with
-<kbd>Left arrow</kbd>, <kbd>Right arrow</kbd>, <kbd>Left arrow</kbd> and <kbd>Right arrow</kbd>, 
-by holding down the mouse button and moving the mouse, with usual
-trackpad gestures or with finger moves on tactile screens.
+Una vez ampliada la imagen puedes moverte vertical y horizontalmente con
+<kbd>flecha izquierda</kbd>, <kbd>flecha derecha</kbd>, <kbd>flecha arriba</kbd> y <kbd>flecha abajo</kbd>,
+manteniendo pulsado el botón del ratón y moviéndolo, con los gestos habituales del
+gestos del trackpad o con movimientos de los dedos en pantallas táctiles.
 
-To close the image zoom view and to return to the reading view, press
-<kbd>ESC</kbd> key, or the X button.
+Para cerrar la vista de zoom de la imagen y volver a la vista de lectura, pulse
+<kbd>ESC</kbd> o el botón X.
 
-Some restrictions due to ebook design may apply, for example when images
-are inserted as style (CSS), it is not possible to open the image view
-for zooming.
-
+Pueden aplicarse algunas restricciones debidas al diseño del libro electrónico, por ejemplo cuando las imágenes
+se insertan como estilo (CSS), no es posible abrir la vista de imagen
+para hacer zoom.
 
 </section>

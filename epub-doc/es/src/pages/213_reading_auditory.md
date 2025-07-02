@@ -1,61 +1,60 @@
 ---
-title: Reading audio contents
+title: Leer contenidos de audio
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Reading audio contents
+# Leer contenidos de audio
 
-Audio contents can appear in almost all formats. When they are included in textual or visual first ebooks, they come with a set of buttons as play, pause, stop, and eventually rewind and forward or other options like speed. Those buttons are not part of the Thorium interface, they can be provided by the specific rendering engine (Chromium for web contents in EPUB and Daisy ; pdf.js for PDF). They can also be styled by the content creator. Therefore, this user guide can hardly give detailed information on their design and functionalities.
+Los contenidos de audio pueden aparecer en casi todos los formatos. Cuando se incluyen en primeros ebooks textuales o visuales, vienen con un conjunto de botones como play, pausa, stop, y eventualmente rebobinar y avanzar u otras opciones como la velocidad. Estos botones no forman parte de la interfaz de Thorium, pueden ser proporcionados por el motor de renderizado específico (Chromium para contenidos web en EPUB y Daisy ; pdf.js para PDF). También pueden ser estilizados por el creador del contenido. Por lo tanto, esta guía de usuario apenas puede dar información detallada sobre su diseño y funcionalidades.
 
-Audio only contents, synchronied audios and Text to speech generated audio, in contrast, are directly piloted by the Thorium interface.
+Por el contrario, los contenidos sólo audio, los audios sincronizados y el audio generado por Text to speech se controlan directamente mediante la interfaz de Thorium.
 
-## Audio only {#audioonly}
+## Sólo audio {#audioonly}
 
-Thorium can read audiobooks in the standardises W3C audiobook and in Daisy audio only formats. When such a book is opened, the book will start to play. The reading window will display the cover, a set of functions buttons and a progression bar. 
+Thorium puede leer audiolibros en los formatos estandarizados W3C audiobook y libros Daisy audio solo. Cuando se abra un libro de este tipo, comenzará a reproducirse. La ventana de lectura mostrará la portada, un conjunto de botones de funciones y una barra de progresión.
 
-The interface is composed of:
-* A Shift button to Play or Pause;
-* A Previous and a Next buttons passing to the previous or next authored section; 
-* A rewind and a forward buttons to move 30 seconds before or after
-* A dropdown menu to change the reading speed;
-* A progression bar showing the time elapsed and the total time of the current section of the book.
+La interfaz se compone de:
+* Un botón Shift para Reproducir o Pausar;
+* Un botón Anterior y otro Siguiente para pasar a la sección de autoría anterior o siguiente;
+* Un botón para rebobinar y otro para avanzar 30 segundos antes o después.
+* Un menú desplegable para cambiar la velocidad de lectura;
+* Una barra de progresión que muestra el tiempo transcurrido y el tiempo total de la sección actual del libro.
 
-It is possible to bookmark a reading location, and to add a note to the bookmark. Annotations are not possible.
+Es posible marcar un lugar de lectura y añadir una nota al marcador. No es posible realizar anotaciones.
 
-Navigation in audiobooks are usually only authored as table of content.
+La navegación en los audiolibros suele hacerse sólo como tabla de contenidos.
 
-It is actually not possible to search in audio only contents.
+En realidad, no es posible realizar búsquedas en contenidos sólo de audio.
 
+## Texto a voz (TTS) {#readaloud}
 
-## Readaloud, Text to speech (TTS) {#readaloud}
+La función de texto a voz se activa mediante el botón del altavoz situado en el centro de la barra de herramientas o mediante un atajo de teclado.
+Hay una sincronización de voz a texto que se muestra mediante
+resaltado de la frase actual y subrayado de la palabra.
 
-Text-to-speech is launched using the speaker button in the middle of the
-toolbar, or by using the dedicated keyboard shortcut. 
-There is a voice to text synchronisation showed by 
-highlight of the current sentence and underline of the word.
+Las acciones posibles son
 
-Possible actions are 
-
-- Play and pause;
-- Move playback position to previous and next;
-- Control speed with a range from x0.5 to x2;
-- Simplify view of the publication ;
-- choose a preferred voice.
+- Reproducir y pausar;
+- Mover la posición de reproducción a anterior y siguiente;
+- Controlar la velocidad con un rango de x0,5 a x2;
+- Simplificar la vista de la publicación ;
+- Elegir la voz preferida.
 
 <div class="framed">
-Thorium uses the voices from the computer's operating system, in
-combination with the language information provided by the book. 
-If you experience problems please check the 
-[online related FAQ entry](https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html).
+
+Thorium utiliza las voces del sistema operativo del ordenador, en
+combinación con la información de idioma proporcionada por el libro.
+Si tiene problemas, consulte la 
+[entrada FAQ relacionada en línea](https://thorium.edrlab.org/es/th3/400_ressources/430_faq/index.html).
 
 </div>
 
-### Text-to-speech options {#readaloudoptions}
+### Opciones de texto a voz {#readalouptions}
 
-In addition to the functionalities, a specific options panel provides options for a "clear view" and the ability to skip secondary content ("skippability"), which may include footnotes or other content marked as complementary (`aside`) according to the semantics indicated when the digital book was produced. `Split TTS` will divide content by sentence for more precise highlighting.
+Además de las funcionalidades, un panel de opciones específico ofrece opciones para una "vista clara" y la posibilidad de omitir contenido secundario (<span class="ui_info">omision de informacion auxiliar</span>), que puede incluir notas a pie de página u otro contenido marcado como complementario (`aside`) según la semántica indicada al producir el libro digital. La opcion <span class="ui_info">Dividir (texto a voz)</<span>> dividirá el contenido por frases para un resaltado más preciso.
 
 </section>
 <section class="filet">

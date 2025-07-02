@@ -1,132 +1,122 @@
 ---
-title: Libraries actions
+title: Acciones de las bibliotecas
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Library actions {#Libraries_actions}
+# Acciones de la biblioteca {#Libraries_actions}
 
-Library actions are available in the Main window <span class="ui_button">Home</span> View and <span class="ui_button">All publications</span> View.
-
+Las acciones de biblioteca están disponibles en la ventana principal <span class="ui_button">Vista Inicio</span> y <span class="ui_button">Vista Todos los libros</span>.
 
 <section class="filet">
 
+## Abrir una publicación
 
-## Open a publication
-
-Each publication cover is a link that, when activated, will open a
-reading window for this ebook. The main window will not be closed
-but focus will be positioned on the new window. The new window opens
-at the exact position of the main window, visually, user may think
-that the same window was used but it is not the case. Moving the
-reading window will make appear the main one.
-
+Cada portada de publicación es un enlace que, al activarse, abrirá una
+ventana de lectura para este libro. La ventana principal no se cerrará
+pero el foco se situará en la nueva ventana. La nueva ventana se abre
+en la posición exacta de la ventana principal, visualmente, el usuario puede pensar
+que se ha utilizado la misma ventana pero no es el caso. Al mover la
+ventana de lectura hará aparecer la principal.
 
 </section>
 <section class="filet">
 
-## Open Publication menu
-Publication menu is available from the three dots button at the
-bottom right of the publication card on the <span class="ui_button">Home</span> and <span class="ui_button">Grid</span> Views or
-at the last column (Action) of the <span class="ui_button">Table</span> View.
-It allows to:
--   Open the book information panel (
-<img src="../../resources/images/info-icon.svg" class="icon"  alt="" role="presentation"/><span class="ui_button"> About publication</span>);
--   Change publication reading status to Finished;
-(<img src="../../resources/images/doubleCheck-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Mark as read</span>) 
--   Suppress the Publication from Thorium Library 
-(<img src="../../resources/images/bin-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button"> Delete</span>) that will open a confirmation pop up;
--   Export a copy of the publication on your file system 
-(<img src="../../resources/images/SaveAs-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Save as</span>). 
-This will open a system window to let you choose where to export the publication.
-- <span class="ui_button">Import notes</span>
-- <span class="ui_button">Export notes</span>
-
-
-</section>
-<section class="filet">
-
-## Import a Publication
-
-Located at the top right corner and 5th element in te tabulation
-order, just before the main content, the <span class="ui_button">+ Import a
-Publication</span> button speaks by itself. Activating it will
-cause the opening of a system context window to let your select a
-file on your computer system. Navigate to the file you want to open,
-and validate. The file will appear in the Recently added section of
-the <span class="ui_button">Home</span> View and as the first element of the All publication Grid
-or Table view. In this last View, if a filter was active, it is
-reset to display most recent added publication.
-
+## Abrir el menú Publicación
+El menú de publicación está disponible desde el botón de tres puntos situado en la parte
+parte inferior derecha de la tarjeta de publicación en las vistas <span class="ui_button">Inicio</span> y <span class="ui_button">Presentación en cuadrícula</span> o
+en la última columna (Acción) de la <span class="ui_button">Presentación en lista</span>.
+Permite:
+- Abrir el panel de información del libro (
+<img src="../../resources/images/info-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button">Acerca de la publicación</span>);
+- Cambiar el estado de lectura de la publicación a Finalizado;
+(<img src="../../resources/images/doubleCheck-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Marcar como leído</span>)
+- Suprimir la publicación de la Biblioteca Thorium
+(<img src="../../resources/images/bin-icon.svg" class="icon" alt=""" role="presentation"/> <span class="ui_button"> Suprimir</span>) que abrirá una ventana emergente de confirmación;
+- Exporte una copia de la publicación en su sistema de archivos
+(<img src="../../resources/images/SaveAs-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Guardar como</span>).
+Se abrirá una ventana del sistema que le permitirá elegir dónde exportar la publicación.
+- <span class="ui_button">Importar notas</span>
+- <span class="ui_button">Exportar notas</span>
 
 </section>
 <section class="filet">
 
-## Search publications (Filtering by keyword)
+## Importar una publicación
 
-The Search ebooks function acts as a filter, meaning that when you
-start typing a search query, the ebooks displayed in the shelve will
-be limited to the ones matching your query. To use this function,
-Activate the Search Box
-(<img src="../../resources/images/search-icon.svg" class="icon" alt="" role="presentation"/>) by clicking in it, moving focus or pressing
-the <kbd>Ctrl</kbd> + <kbd>F</kbd> key combination, enter the text you want to
-search. `Results` will display instantly. The search is performed
-thru the books informations including user added tags. The content
-of the book is not included in the search. 
-
-<aside class="framed">To perform a search
-inside a book content you have to open the book and activate the
-Search in a book function.</aside>
-
+Situado en la esquina superior derecha y 5º elemento en tabulación
+justo antes del contenido principal, el botón <span class="ui_button">+ Importar
+Publicación</span> habla por sí solo. Al activarlo
+abrirá una ventana contextual del sistema que le permitirá seleccionar un
+archivo de su sistema informático. Navegue hasta el archivo que desea abrir,
+y valídelo. El archivo aparecerá en la sección Añadidos recientemente de
+la vista <span class="ui_button">Inicio</span> y como primer elemento de las vistas Cuadrícula o Lista de todas las publicaciones.
+En esta última vista, si había un filtro activo, se restablece para mostrar la publicación añadida más reciente.
 
 </section>
 <section class="filet">
 
-## Filter by tag (Grid mode)
+## Buscar (Filtrar por palabra clave)
 
-Additionally to the search filter, there is a <img src="../../resources/images/tag-icon.svg" class="icon" alt="" role="presentation"/>Tag filter. This box is a text free input that will filter the list of available Tags. A dropdown menu is also provided to select existing tags.
+La función Buscar (dentro de la biblioteca) actúa como un filtro, lo que significa que cuando se empeza
+una consulta de búsqueda, los libros mostrados en la estantería se limitarán
+a los que coincidan con la consulta. Para utilizar esta función
+Active el cuadro de búsqueda
+(<img src="../../resources/images/search-icon.svg" class="icon" alt="" role="presentation"/>) haciendo clic en él, moviendo el foco o pulsando
+la combinación de teclas <kbd>Ctrl</kbd> + <kbd>F</kbd>, introduzca el texto que desea
+buscar. Los `Resultados` se mostrarán al instante. La búsqueda se realiza
+a través de la información de los libros, incluidas las etiquetas añadidas por el usuario. El contenido
+del libro no se incluye en la búsqueda.
 
-
-</section>
-<section class="filet">
-
-## Sort by and Filter by (Table mode)
-
-The <span class="ui_button">Table</span> View allows for sorting and detailed filtering by every
-column headings (<span class="ui_button">Title, Author, Progression, remaining days for
-loans, Tags, Format, Last reading date</span>). For filters
-to work, the information must be present in the publication
-metadata.
-
-
-</section>
-<section class="filet">
-
-## Navigate by pages of your library
-
-For performance reasons, the All publication view is limited to 50
-publications. If you have more ebooks than that, they will be
-available thru different pages that can be considered like Shelves
-or stacks.
-
+<aside class="framed">
+Para realizar una búsqueda
+dentro del contenido de un libro hay que abrir el libro y activar la función
+Buscar en un libro.
+</aside>
 
 </section>
 <section class="filet">
 
-## Add tags
+## Filtrar por etiqueta (modo cuadrícula)
 
-You can enrich the information of the books in your library by
-adding <span class="ui_button">Tags</span> to them. *Tags* allow you to quickly search and sort
-books in list view.
+Además del filtro de búsqueda, existe un filtro <img src="../../resources/images/tag-icon.svg" class="icon" alt="" role="presentation"/>Etiqueta. Esta casilla es una entrada libre de texto que filtrará la lista de etiquetas disponibles. También se proporciona un menú desplegable para seleccionar las etiquetas existentes.
+
+</section>
+<section class="filet">
+
+## Ordenar por y Filtrar por (modo tabla)
+
+La vista <span class="ui_button">Presentación en lista</span> permite ordenar y filtrar detalladamente por cada
+encabezados de columna (<span class="ui_button">Título, Autor, Progresión, Días restantes para
+préstamos, Etiquetas, Formato, Fecha de última lectura</span>). Para que los filtros
+funcionen, la información debe estar presente en los metadatos
+
+</section>
+<section class="filet">
+
+## Navegar por las páginas de su biblioteca
+
+Por razones de rendimiento, la vista Todas las publicaciones está limitada a 50
+publicaciones. Si tiene más libros electrónicos que eso, estarán
+disponibles a través de diferentes páginas que pueden ser consideradas como Estantes
+o pilas.
+
+</section>
+<section class="filet">
+
+## Añadir etiquetas
+
+Puedes enriquecer la información de los libros de tu biblioteca
+añadiéndoles <span class="ui_button">Etiquetas</span>. *Las etiquetas* le permiten buscar y ordenar rápidamente
+libros en la vista de lista.
 
 <div class="framed">
-Putting it into practice. Open the book form,
-position yourself in the field <span class="ui_button">Add a tag</span>, write the name of the
-tag you want to add then press the <span class="ui_button">Add</span> button. The tag is added in
-a blue box, you can remove it by clicking on the cross.
+Poniéndolo en práctica. Abre el formulario de libros,
+sitúate en el campo <span class="ui_button">Añadir una etiqueta</span>, escribe el nombre de la
+etiqueta que quieres añadir y luego pulsa el botón <span class="ui_button">Añadir</span>. La etiqueta se añade en
+un recuadro azul, puede eliminarla haciendo clic en la cruz.
 </div>
-
 
 </section>
