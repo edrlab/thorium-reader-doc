@@ -8,7 +8,7 @@
     <dc:publisher>The European Digital Reading Lab</dc:publisher>
     <dc:description>Il s&#39;agit de la documentation officielle de Thorium Reader for Desktop 3.2. Elle offre des conseils pour vous aider à connaître et à mieux utiliser Thorium Reader. Les références d&#39;assistance rapide ne sont pas incluses ici et sont disponibles en ligne sur les pages web de Thorium Support.</dc:description>
     <dc:identifier id="uid">com.github.edrlab.thorium-reader-doc-epub-fr.3.2.0</dc:identifier>
-    <dc:language>en</dc:language>
+    <dc:language>fr</dc:language>
     <dc:rights>Creative Commons Attribution-Share Alike (CC BY-SA) license.</dc:rights>
     <meta property="dcterms:modified">2025-06-10T00:00:00Z</meta>
     <meta property="schema:accessibilityFeature">alternativeText</meta>

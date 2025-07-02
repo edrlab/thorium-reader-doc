@@ -3,12 +3,12 @@
   xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="uid" prefix="cc: http://creativecommons.org/ns#">
   <metadata 
     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:title>Thorium Reader for Desktop user&#39;s guide (English, 3.2)</dc:title>
+    <dc:title>Guía del usuario de Thorium Reader for Desktop (español, 3.2)</dc:title>
     <dc:creator>The European Digital Reading Lab</dc:creator>
     <dc:publisher>The European Digital Reading Lab</dc:publisher>
-    <dc:description>This is the official Thorium Reader for Desktop 3.2 documentation. It offers guidance to help you get to know and make better use of Thorium Reader. Quick support references are not included here and are available online from the Thorium Support webpages.</dc:description>
+    <dc:description>Esta es la documentación oficial de Thorium Reader for Desktop 3.2. Ofrece una guía para ayudarle a conocer y hacer un mejor uso de Thorium Reader. Las referencias de soporte rápido no se incluyen aquí y están disponibles en línea en las páginas web de soporte de Thorium.</dc:description>
     <dc:identifier id="uid">com.github.edrlab.thorium-reader-doc-epub-en.3.2.0</dc:identifier>
-    <dc:language>en</dc:language>
+    <dc:language>es</dc:language>
     <dc:rights>Creative Commons Attribution-Share Alike (CC BY-SA) license.</dc:rights>
     <meta property="dcterms:modified">2025-05-30T00:00:00Z</meta>
     <meta property="schema:accessibilityFeature">alternativeText</meta>
