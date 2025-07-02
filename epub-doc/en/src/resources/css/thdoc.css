@@ -44,7 +44,7 @@ border-left-color: var(--color-blue);
 }
 
 .ui_info {
-color rgb(77, 77, 77);
-font-family Nunito, sans-serif;
-font-weight 400;
+color: rgb(77, 77, 77);
+font-family: Nunito, sans-serif;
+font-weight: 400;
 }
