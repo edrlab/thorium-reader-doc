@@ -43,6 +43,7 @@ Quatre options sont disponibles :
 - <span class="ui_button">Ne pas afficher</span> masque simplement toute marque d'annotation (mais ne désactive pas la possibilité d'ajouter des annotations).
 
 <div class="framed">
+
 La combinaison des options <span class="ui_button">Mode instantané</span> et <span class="ui_button">Création rapide</span> vous permet d'utiliser le mode annotateur en série : toute sélection créera une surbrillance sans
 sans qu'aucune fenêtre ne s'affiche.
 </div>

@@ -20,7 +20,7 @@ L'interface est composée de :
 * Un bouton de lecture pour lire ou mettre en pause ;
 * Un bouton Précédent et un bouton Suivant pour passer à la section précédente ou suivante ;
 * Un bouton de Précédent et un bouton Suivant pour passer à la section précédente ou suivante ; 
-* * Un bouton de retour en arrière et un bouton d'avance pour se déplacer 30 secondes avant ou après
+* Un bouton de retour en arrière et un bouton d'avance pour se déplacer 30 secondes avant ou après
 * Un menu déroulant pour changer la vitesse de lecture ;
 * Une barre de progression indiquant le temps écoulé et le temps total de la section actuelle du livre.
 
