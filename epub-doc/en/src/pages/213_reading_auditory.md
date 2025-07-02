@@ -46,6 +46,7 @@ Possible actions are
 - choose a preferred voice.
 
 <div class="framed">
+
 Thorium uses the voices from the computer's operating system, in
 combination with the language information provided by the book. 
 If you experience problems please check the 
@@ -55,7 +56,7 @@ If you experience problems please check the
 
 ### Text-to-speech options {#readaloudoptions}
 
-In addition to the functionalities, a specific options panel provides options for a "clear view" and the ability to skip secondary content ("skippability"), which may include footnotes or other content marked as complementary (`aside`) according to the semantics indicated when the digital book was produced. `Split TTS` will divide content by sentence for more precise highlighting.
+In addition to the functionalities, a specific options panel provides options for a "clear view" and the ability to skip secondary content (<span class="ui_info">skippability</span>), which may include footnotes or other content marked as complementary (`aside`) according to the semantics indicated when the digital book was produced. <span class="ui_info">Split TTS</span> will divide content by sentence for more precise highlighting.
 
 </section>
 <section class="filet">

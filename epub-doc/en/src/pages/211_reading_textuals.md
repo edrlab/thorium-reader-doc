@@ -50,14 +50,9 @@ the available themes.
 
 ### Text {#read_text_adjust_font}
 
-The font size can be increased or decreased using the slider. The font
-can also be changed. The available options are as follows Default, Old
-style, Modern, Sans, Humanist, Readable (Dyslexia), Dualspace and
-Monospace.
-
-By selecting the `...` you can enter the name of the font you want to
-use. To do this, the font must be present on your operating system and
-you must know its exact name as it is set for the operating system.
+The font
+can also be changed. Predefined options are available, but it is also possible to enter the name of the font you want to use.
+To do this, the font must be present on your operating system and you must know its exact name as defined for the operating system.
 
 <div class="framed">
 
@@ -66,7 +61,7 @@ you must know its exact name as it is set for the operating system.
 
 1.  In the reading interface go to the `Preference` menu and then
     `Text`.
-2.  In the drop-down list select `...`.
+2.  Position the cursor in the font selection field.
 3.  Write the word *Verdana* in the empty field that appears next to the
     drop-down list.
 4.  Confirm with <kbd>Enter</kbd>.
@@ -78,34 +73,29 @@ you must know its exact name as it is set for the operating system.
     font](https://www.luciole-vision.com/#download)
 2.  In the reading interface go to the `Preference` menu and then
     `Text`.
-3.  In the drop-down list select `...`.
+3.  Position the cursor in the font selection field.
 4.  Write the word *Luciole* in the empty field that appears next to the
     drop-down list.
 5.  Confirm with <kbd>Enter</kbd>.
 
 </div>
 
-
 </section>
 <section class="filet">
-
 
 ### Display {#read_text_display}
 
 You can choose between a page layout with scrolling or pagination,
 automatic or justified alignment and automatic or on 1 or 2 columns.
-Here also, MathJax can be activated, for the display of mathematical
+Here also, MathJax can be activated, for an alternate display of mathematical
 expressions.
-
 
 </section>
 <section class="filet">
-
 
 ### Spacing {#read_text_spaces}
 
 Margins, word spacing, letter spacing, paragraph spacing and line
 spacing can be adjusted.
-
 
 </section>

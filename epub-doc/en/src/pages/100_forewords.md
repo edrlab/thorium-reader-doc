@@ -31,6 +31,8 @@ reading experience. This documentation is a work in progress trying to
 support new users discovering the software as well as providing the
 missing links for the experimented readers.
 
+This user guide limits itself to providing details on features and actions. Aside from it you'll find dedicated ressources in the app itself or on the <a href="https://thorium.edrlab.org/en/th3/"><span>online support webpages </span></a>
+
 
 </section>
 <section class="filet">
@@ -44,10 +46,6 @@ find ebooks online.
 [Github Thorium Issue tracker](https://github.com/edrlab/thorium-reader/issues) can also be
 browsed to find answers to specific use cases and give us feedback about
 any difficulty or bug affecting your reading experience.
-
-# Before using Thorium Reader Desktop
-
-This user guide limits itself to providing details on features and actions. Aside from it you'll find dedicated ressources in the app itself or on the <a href="https://thorium.edrlab.org/en/th3/"><span>online support webpages </span></a>
 
 </section>
 <section class="filet">

@@ -15,7 +15,7 @@ Thorium PDF reading engine relies on pdf.js a Portable Document Format (PDF) vie
 
 ## Reading settings for PDFs
 
-PDF support include 8 levels of zoom and the capacity to display in one or two columns.
+PDF support include 8 levels of zoom and the capacity to display in one or two pages.
 
 
 </section>
