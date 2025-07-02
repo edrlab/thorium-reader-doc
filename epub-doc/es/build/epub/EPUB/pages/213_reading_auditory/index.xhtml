@@ -6,26 +6,56 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Leer contenidos de audio</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
-      <h1>Lectura de contenidos de audio</h1>
-      <p>Thorium proporciona lectura visual y reproducción de audio. Para asegurar
-que puedes orientarte en la publicación, Thorium también
-ofrece muchas opciones de navegación, así como la posibilidad de agregar
-favoritos o para buscar dentro de la publicación.</p>
-      <p>Las funcionalidades de lectura son muy diferentes de un formato a otro.</p>
-      <p>-Lectura de primeras publicaciones textuales como EPUB ajustable y textuales.
-o Daisy completo permitirá el mayor número de funcionalidades.
--Primeras publicaciones visuales como Epubs de diseño fijo y Divina
-no permitir la personalización de textos.
--Las publicaciones de audio tienen una interfaz de lectura significativa diferente
-Como no se muestra ningún texto.
--El soporte PDF es básico y proporciona pocas opciones.</p>
+    <section class="colbreak filet"  role="doc-chapter" >
+      <h1>Leer contenidos de audio</h1>
+      <p>Los contenidos de audio pueden aparecer en casi todos los formatos. Cuando se incluyen en primeros ebooks textuales o visuales, vienen con un conjunto de botones como play, pausa, stop, y eventualmente rebobinar y avanzar u otras opciones como la velocidad. Estos botones no forman parte de la interfaz de Thorium, pueden ser proporcionados por el motor de renderizado específico (Chromium para contenidos web en EPUB y Daisy ; pdf.js para PDF). También pueden ser estilizados por el creador del contenido. Por lo tanto, esta guía de usuario apenas puede dar información detallada sobre su diseño y funcionalidades.</p>
+      <p>Por el contrario, los contenidos sólo audio, los audios sincronizados y el audio generado por Text to speech se controlan directamente mediante la interfaz de Thorium.</p>
+      <h2 id="audioonly">Sólo audio</h2>
+      <p>Thorium puede leer audiolibros en los formatos estandarizados W3C audiobook y libros Daisy audio solo. Cuando se abra un libro de este tipo, comenzará a reproducirse. La ventana de lectura mostrará la portada, un conjunto de botones de funciones y una barra de progresión.</p>
+      <p>La interfaz se compone de:</p>
+      <ul>
+        <li>Un botón Shift para Reproducir o Pausar;</li>
+        <li>Un botón Anterior y otro Siguiente para pasar a la sección de autoría anterior o siguiente;</li>
+        <li>Un botón para rebobinar y otro para avanzar 30 segundos antes o después.</li>
+        <li>Un menú desplegable para cambiar la velocidad de lectura;</li>
+        <li>Una barra de progresión que muestra el tiempo transcurrido y el tiempo total de la sección actual del libro.</li>
+      </ul>
+      <p>Es posible marcar un lugar de lectura y añadir una nota al marcador. No es posible realizar anotaciones.</p>
+      <p>La navegación en los audiolibros suele hacerse sólo como tabla de contenidos.</p>
+      <p>En realidad, no es posible realizar búsquedas en contenidos sólo de audio.</p>
+      <h2 id="readaloud">Texto a voz (TTS)</h2>
+      <p>La función de texto a voz se activa mediante el botón del altavoz situado en el centro de la barra de herramientas o mediante un atajo de teclado.
+Hay una sincronización de voz a texto que se muestra mediante
+resaltado de la frase actual y subrayado de la palabra.</p>
+      <p>Las acciones posibles son</p>
+      <ul>
+        <li>Reproducir y pausar;</li>
+        <li>Mover la posición de reproducción a anterior y siguiente;</li>
+        <li>Controlar la velocidad con un rango de x0,5 a x2;</li>
+        <li>Simplificar la vista de la publicación ;</li>
+        <li>Elegir la voz preferida.</li>
+      </ul>
+      <div class="framed">
+        <p>Thorium utiliza las voces del sistema operativo del ordenador, en
+combinación con la información de idioma proporcionada por el libro.
+Si tiene problemas, consulte la
+
+          <a href="https://thorium.edrlab.org/es/th3/400_ressources/430_faq/index.html">entrada FAQ relacionada en línea</a>.
+        </p>
+      </div>
+      <h3 id="readalouptions">Opciones de texto a voz</h3>
+      <p>Además de las funcionalidades, un panel de opciones específico ofrece opciones para una &quot;vista clara&quot; y la posibilidad de omitir contenido secundario (
+        <span class="ui_info">omision de informacion auxiliar</span>), que puede incluir notas a pie de página u otro contenido marcado como complementario (
+        <code>aside</code>) según la semántica indicada al producir el libro digital. La opcion 
+        <span class="ui_info">Dividir (texto a voz)</span> dividirá el contenido por frases para un resaltado más preciso.
+      </p>
     </section>
+    <section class="filet"></section>
   </body>
 </html>

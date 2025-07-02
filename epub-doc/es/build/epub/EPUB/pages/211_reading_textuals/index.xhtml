@@ -6,104 +6,101 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
-    <title>Lectura de contenidos textuales</title>
+    <title>Leer contenidos textuales</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
-      <h2>Lectura de contenido textual</h2>
-      <p>Para contenido textual, el Thorium proporciona lectura visual y reproducción de audio.</p>
-      <h3 id="read_text_adjust">Configuración de ajuste de texto</h3>
-      <p>En la interfaz de lectura, use el botón 
-        <code>Preferencias</code>
-        <img src="../../resources/images/icons3/textarea-icon.svg" role="presentation" alt=""/>
-      </p>
-      <p>La configuración de lectura se puede guardar o restablecer utilizando botones 
-        <span class="ui_button"> save </span> y 
-        <span class="ui_button"> reiniciar </span> ubicado en el menú
-
-        <span class="ui_button"> configuración </span>, submenu 
-        <span class="ui_button"> configuración </span> de la
-Ventana de lectura.
-      </p>
-      <p>Las principales configuraciones están disponibles para EPUB Reflewable, Epubs de diseño fijo y
-Los formatos PDF simplemente no permiten la personalización de la apariencia. El mas fijo
-Diseño Epubs permitirá abrir la vista de imagen para zoom en una página. Pdfs
-se puede ampliar utilizando el submenú Zoom en el panel de preferencias.</p>
-      <h3 id="read_text_adjust_theme">Tema</h3>
-      <p>El color del fondo y el primer plano se puede cambiar utilizando uno de
-los temas disponibles.</p>
-      <h3 id="Read_Text_adjust_Font">Texto</h3>
-      <p>El tamaño de la fuente se puede aumentar o disminuir usando el control deslizante. La fuente
-También se puede cambiar. Las opciones disponibles son las siguientes predeterminadas, viejas
-estilo, moderno, sans, humanista, legible (dislexia), dualspace y
-Monoespacio.</p>
-      <p>Al seleccionar el 
-        <code>...</code> puede ingresar el nombre de la fuente que desea
-usar. Para hacer esto, la fuente debe estar presente en su sistema operativo y
-Debe conocer su nombre exacto, ya que está configurado para el sistema operativo.
-      </p>
-      <div class="info">
-        <h4 id="read_text_example_verdana">Ejemplo 1: Configuración de Verdana como la fuente de lectura</h4>
-        <ol>
-          <li>En la interfaz de lectura, vaya al menú 
-            <code>preferencia 'y luego  </code>Text`.
-          </li>
-          <li>En la lista desplegable, seleccione 
-            <code>...</code>.
-          </li>
-          <li>Escribe la palabra *verdana *en el campo vacío que aparece al lado del
-lista desplegable.</li>
-          <li>Confirme con 
-            <kbd> Enter </kbd>.
-          </li>
-        </ol>
-        <h4 id="read_text_example_luciole">EXample 2: Configuración de Luciole como la fuente de lectura</h4>
-        <ol>
-          <li>
-            <a href="https://www.luciole-vision.com/#download">Descargue e instale el Luciole
-Font</a>
-          </li>
-          <li>En la interfaz de lectura, vaya al menú 
-            <code>preferencia 'y luego  </code>Text`.
-          </li>
-          <li>En la lista desplegable Seleccione 
-            <code>...</code>.
-          </li>
-          <li>Escribe la palabra *luciole *en el campo vacío que aparece al lado del
-lista desplegable.</li>
-          <li>Confirme con 
-            <kbd> Enter </kbd>.
-          </li>
-        </ol>
-      </div>
-      <h3 id="read_text_display">Visualización</h3>
-      <p>Puede elegir entre un diseño de página con desplazamiento o paginación,
-Alineación automática o justificada y automática o en 1 o 2 columnas.
-Aquí también, MathJax se puede activar, para mostrar matemática
-Expresiones.</p>
-      <h3 id="read_text_spaces">Spacing</h3>
-      <p>Márgenes, espaciado de palabras, espaciado de letras, espacio de párrafo y línea
-El espacio se puede ajustar.</p>
-      <h3 id="read_text_readaloud">Readaloud</h3>
-      <p>Proporciona opciones para una 'Vista limpia' y la capacidad de omitir
-Contenido secundario (
-        <code>skippability</code>) que puede incluir notas al pie o
-barras laterales según la semántica indicada durante la producción de
-El libro digital. 
-        <code>Split TTS</code> dividirá el contenido por oración para
-Destacado más preciso.
-      </p>
-      <div class="info">Thorium usa las voces del sistema operativo de la computadora, en
-Combinación con la información del idioma proporcionada por el libro. Si usted
-problemas de experiencia verifique la entrada de preguntas frecuentes relacionadas 
-
-        <p>
-          <a href="https://thorium.edrlab.org/es/th3/400_ressources/430_faq/#TTSvoices">No puedo seleccionar la voz adecuada para leer en voz alta</a>.
+    <section class="colbreak filet"  role="doc-chapter" >
+      <section class="filet">
+        <h2>Lectura de contenidos textuales</h2>
+        <p>Para los contenidos textuales, Thorium ofrece lectura visual y lectura en voz alta, también conocida como Text to speech (TTS). Esta sección se centra en los ajustes de texto, mientras que la 
+          <a href="../213_reading_auditory/index.xhtml#readaloud">Lectura en voz alta (texto a voz)</a>.
+se trata en una sección específica de la sección Lectura auditiva.
         </p>
-      </div>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_adjust">Configuración del ajuste de texto</h3>
+        <p>En la interfaz de lectura utiliza el botón 
+          <code>Preferencias</code>.
+
+          <img src="../../resources/images/textarea-icon.svg" role="presentation" alt="" class="icon"/>
+        </p>
+        <p>Los ajustes de lectura pueden guardarse o restablecerse mediante los botones 
+          <span class="ui_button">Guardar</span> y 
+          <span class="ui_button">Restablecer</span> situados en el submenú 
+          <span class="ui_button">Establecer opciones predeterminadas</span>.
+        </p>
+        <p>Los ajustes principales están disponibles para EPUB Reflowable. La mayoría de los EPUB de diseño fijo
+permiten abrir la vista de imagen para ampliar una página.
+Los PDF pueden ampliarse utilizando el submenú Zoom del panel OPciones de configuracion.</p>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_adjust_theme">Tema</h3>
+        <p>El color del fondo y del primer plano puede cambiarse utilizando uno de los
+los temas disponibles.</p>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_adjust_font">Texto</h3>
+        <p>El tamaño de la fuente se puede aumentar o disminuir utilizando el control deslizante.</p>
+        <p>El tipo de letra
+también puede cambiarse. Existen opciones predefinidas, pero también es posible introducir el nombre de la fuente que se desea utilizar.
+Para ello, el tipo de letra debe estar presente en su sistema operativo y debe conocer su nombre exacto tal y como está definido para el sistema operativo.</p>
+        <div class="framed">
+          <h4 id="read_text_example_verdana">Ejemplo 1: Establecer Verdana como fuente de lectura</h4>
+          <ol>
+            <li>En la interfaz de lectura vaya al menú 
+              <code>Preference</code> y luego a
+
+              <code>Texto</code>.
+            </li>
+            <li>Sitúe el cursor en el campo de selección de fuentes.</li>
+            <li>Escriba la palabra 
+              <em>Verdana</em> en el campo vacío que aparece junto a la lista desplegable.
+lista desplegable.
+            </li>
+            <li>Confirma con 
+              <kbd>Intro</kbd>.
+            </li>
+          </ol>
+          <h4 id="read_text_example_luciole">Ejemplo 2: Configuración de Luciole como fuente de lectura</h4>
+          <ol>
+            <li>
+              <ol>
+                <li>
+                  <a href="https://www.luciole-vision.com/#download">Descargue e instale la fuente Luciole
+font</a>
+                </li>
+              </ol>
+            </li>
+            <li>En la interfaz de lectura vaya al menú 
+              <code>Preferencias</code> y después a
+
+              <code>Texto</code>.
+            </li>
+            <li>Sitúe el cursor en el campo de selección de fuentes.</li>
+            <li>Escriba la palabra 
+              <em>Luciole</em> en el campo vacío que aparece junto a la lista desplegable.
+lista desplegable.
+            </li>
+            <li>Confirma con 
+              <kbd>Intro</kbd>.
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_display">Display</h3>
+        <p>Puede elegir entre un diseño de página con desplazamiento o paginación,
+alineación automática o justificada y automática o en 1 o 2 columnas.
+Aquí también se puede activar MathJax, para una visualización alternativa de expresiones matemáticas.</p>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_spaces">Espaciado</h3>
+        <p>Se puede modificar los márgenes, el espaciado de palabras, el espaciado de letras, el espaciado de párrafos y el interlineado
+y el interlineado.</p>
+      </section>
     </section>
   </body>
 </html>

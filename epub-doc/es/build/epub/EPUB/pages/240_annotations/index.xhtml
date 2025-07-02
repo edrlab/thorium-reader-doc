@@ -6,27 +6,25 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Anotaciones</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
+    <section class="colbreak filet"  role="doc-chapter" >
       <h1>Anotaciones</h1>
       <p>
-        <em>Las anotaciones han sido introducidas por primera vez en Thorium 3, como una nueva característica,
-puede presentar comportamientos inesperados. Háganos saber cualquier dificultad que enfrente
-abriendo un tema](
-          <a href="https://github.com/edrlab/thorium-reader/issues/new">https://github.com/edrlab/thorium-reader/issues/new</a>) o 
-          <a href="https://www.edrlab.org/contact/">enviandonos un email</a>.
+        <em>Las anotaciones han sido introducidas por primera vez en Thorium 3, como una nueva característica, puede presentar comportamientos inesperados. Háganos saber cualquier dificultad que encuentre 
+          <a href="https://github.com/edrlab/thorium-reader/issues/new">abriendo una incidencia</a> o 
+          <a href="https://www.edrlab.org/contact/">enviándonos un correo electrónico</a>.
         </em>
       </p>
-      <p>La forma más sencilla de añadir una anotación es seleccionar un texto y pulsar el botón
+      <p>La forma más sencilla de añadir una anotación es seleccionar un texto y pulsar el
 Botón de anotaciones
 (
-        <img src="../../resources/images/icons3/annotation-icon.svg" class="icon" role="presentation"/>) o pulsar la combinación de teclas 
-        <kbd>Mayúsculas</kbd> +
+        <img src="../../resources/images/annotation-icon.svg" class="icon" role="presentation"/>) o pulsar el atajo de teclado 
+        <kbd>Shift</kbd> +
 
         <kbd>Ctrl</kbd> + 
         <kbd>Alt</kbd> + 
@@ -37,50 +35,85 @@ fondo, Subrayado, Tachado o Contorno) y, a continuación, validar la
 creación de la anotación con 
         <span class="ui_button">Guardar</span>.
       </p>
-      <img src="../../resources/images/local-es/th3_anotation_pop_up.png" class="icon" role="presentation"/>
-      <p>No es posible acceder a las anotaciones del contenido mediante tabulación con el teclado. Para navegar entre ellas, los usuarios de teclado deben abrir el Panel de anotaciones.</p>
-      <h2 id="annotations_panel">Panel de anotaciones</h2>
-      <p>El panel de navegación tiene una sección dedicada a las Anotaciones.
+      <p>No se puede acceder a las anotaciones en el contenido mediante la tabulación del teclado. Para navegar entre ellas, los usuarios de teclado deben abrir el Panel de anotaciones.</p>
+      <section class="filet">
+        <h2 id="annotations_panel">Panel de anotaciones</h2>
+        <p>El panel de navegación tiene una sección dedicada a las Anotaciones.
 Le permite ajustar la visualización y el comportamiento de sus anotaciones a su práctica y también revisar, manipular, borrar, ordenar, filtrar y navegar a través de sus anotaciones.</p>
-      <h2 id="annotations_options">Opciones para las anotaciones</h2>
-      <p>Las opciones de anotación están disponibles en la barra de herramientas del panel de anotaciones.</p>
-      <p>Hay cuatro opciones disponibles:</p>
-      <ul>
-        <li>Modo instantáneo Abrirá la ventana emergente de anotación en cada selección.</li>
-        <li>Creación rápida Resalta el texto seleccionado y crea una anotación vacía.</li>
-        <li>Mostrar en márgenes cambia el resaltado del texto por una indicación más discreta en el margen de que hay una anotación en esa línea.</li>
-        <li>No mostrar simplemente oculta cualquier marca de anotación (pero no desactiva la posibilidad de añadir anotaciones).</li>
-      </ul>
-      <p>La combinación de las opciones Modo instantáneo y Creación rápida le permite utilizar el
+      </section>
+      <section class="filet">
+        <h2 id="annotations_options">Opciones para anotaciones</h2>
+        <p>Las opciones de anotación están disponibles en la barra de herramientas del panel de anotaciones.</p>
+        <p>Hay cuatro opciones disponibles:</p>
+        <ul>
+          <li>
+            <em>Modo instantáneo</em> Abrirá la ventana emergente de anotación en cada selección.
+          </li>
+          <li>
+            <em>Creación rápida</em> Resalta el texto seleccionado y crea una anotación vacía.
+          </li>
+          <li>
+            <em>Mostrar en márgenes</em> Cambia el resaltado del texto por una indicación más discreta en el margen de que hay una anotación en esa línea.
+          </li>
+          <li>
+            <em>No mostrar</em> simplemente oculta cualquier marca de anotación (pero no desactiva la posibilidad de añadir anotaciones).
+          </li>
+        </ul>
+        <p>La combinación de las opciones 
+          <em>Modo instantáneo</em> y 
+          <em>Creación rápida</em> le permite utilizar el
 modo de anotador en serie, ya que cualquier selección creará un resalte sin
-ninguna ventana emergente.</p>
-      <h2 id="annotations_sort_and_filter">Ordenar y filtrar anotaciones</h2>
-      <p>Las opciones de Ordenar y Filtrar tienen cada una su botón dedicado. Ambas modifican la lista de anotaciones visualizadas en el panel.</p>
-      <p>La ordenación puede hacerse por Progresión (de principio a fin del libro), Última creación y Última modificación. Sólo afecta al orden de presentación.</p>
-      <p>El filtrado modificará la lista de anotaciones mostradas, sin eliminarlas. Si busca una anotación que no aparece, puede deberse a que haya un filtro activo. Aparecerá un número en una burbuja junto al icono de opciones de Filtros para visualizar rápidamente si hay filtros activos y cuántos hay. Es un número en texto plano que será anunciado por los lectores de pantalla.</p>
-      <p>Los filtros de etiquetas activos se muestran visualmente con un fondo azul y son anunciados como activos por los lectores de pantalla.</p>
-      <p>Todos los filtros permiten la selección múltiple y actúan como casillas de verificación, un clic activa el filtro, otro clic lo desactiva.</p>
-      <p>Las opciones de filtrado son:</p>
-      <ul>
-        <li>por Etiqueta, si alguna etiqueta ha sido afectada a alguna anotación, aparecerá aquí;</li>
-        <li>por Color, Rojo, Naranja, Amarillo, Verde, Azul-verde, Azul claro, Cian y Violeta;</li>
-        <li>por Tipo de dibujo, Contorno, Fondo sólido, Tachado o Subrayado;</li>
-        <li>por Creador, si se ha informado de alguno en el 
-          <a href="../102_windows_views_panels/index.xhtml#setting_view" >Panel de configuración de la aplicación</a >, o se ha importado con un conjunto de anotaciones.
-        </li>
-      </ul>
-      <h2 id="annotations_view_and_manipulation">Revisión y manipulación de anotaciones</h2>
-      <p>Las anotaciones se muestran como tarjetas en el panel, una tras otra. Cada tarjeta contiene el texto de la anotación, la fecha de creación, la posición en el libro expresada en porcentaje de progresión y unos botones Editar y Suprimir. El texto de la anotación actúa como un botón que desplazará el foco a la propia anotación, por lo que al salir del contexto del panel de anotaciones, habrá que realizar algunas tabulaciones para volver al panel de anotaciones.</p>
-      <p>Un borde coloreado a la izquierda indica visualmente el Color establecido para la anotación. Esta información no se transmite a las tecnologías de asistencia.</p>
-      <h2 id="annotations_io">Exportación e importación de anotaciones</h2>
-      <p>Un conjunto de anotaciones puede exportarse o importarse.</p>
-      <p>El botón exportar abrirá un cuadro de diálogo solicitando un título que se utilizará para identificar el conjunto de anotaciones al importarlo. El botón de guardar abrirá una ventana de Archivo de Sistema para seleccionar el lugar donde el usuario quiere almacenar este archivo de anotaciones así como el nombre del archivo. El título se utilizará como nombre de archivo predeterminado, pero puede cambiarse sin que ello afecte a la identificación del archivo.</p>
-      <p>Las anotaciones se almacenan con la extensión de archivo .annotation y utilizan un formato JSON-LD definido por la recomendación del W3C 
-        <a href="https://www.w3.org/TR/annotation-model/">Web Annotation Data Model</a>. Contiene el identificador del ebook y la información del Creador informada en el 
-        <a href="../102_windows_views_panels/index.xhtml#setting_view" >Panel de Configuración de la Aplicación</a > así como varios tipos de selectores para permitir la importación y el correcto posicionamiento de las anotaciones por diferentes sistemas de lectura.
-      </p>
-      <p>El botón de importación se abre para que el usuario seleccione el archivo que desea importar. Si el identificador del libro no es similar al libro abierto donde se realiza la importación, aparecerá un mensaje de error y las anotaciones no se importarán.</p>
-      <p>Una vez importadas, las anotaciones aparecen en el panel de anotaciones y pueden ser revisadas y manipuladas como cualquier anotación creada. Heredan el título del archivo de anotación original como etiqueta. Estas manipulaciones no afectarán al archivo .annotation original, que nunca se vincula.</p>
+ninguna ventana emergente.
+        </p>
+      </section>
+      <section class="filet">
+        <h2 id="annotations_sort_and_filter">Ordenar y filtrar anotaciones</h2>
+        <p>Las opciones de Ordenar y Filtrar tienen cada una su botón dedicado. Ambas modifican la lista de anotaciones visualizadas en el panel.</p>
+        <p>La ordenación puede hacerse por Progresión (de principio a fin del libro), Última creación y Última modificación. Sólo afecta al orden de presentación.</p>
+        <p>El filtrado modificará la lista de anotaciones mostradas, sin eliminarlas. Si busca una anotación que no aparece, puede deberse a que haya un filtro activo. Aparecerá un número en una burbuja junto al icono de opciones de Filtros para visualizar rápidamente si hay filtros activos y cuántos hay. Es un número en texto plano que será anunciado por los lectores de pantalla.</p>
+        <p>Los filtros de etiquetas activos se muestran visualmente con un fondo azul y son anunciados como activos por los lectores de pantalla.</p>
+        <p>Todos los filtros permiten la selección múltiple y actúan como casillas de verificación, un clic activa el filtro, otro clic lo desactiva.</p>
+        <p>Las opciones de filtrado son:</p>
+        <ul>
+          <li>por Etiqueta, si alguna etiqueta ha sido afectada a alguna anotación, aparecerá aquí;</li>
+          <li>por Color, Rojo, Naranja, Amarillo, Verde, Azul-verde, Azul claro, Cian y Violeta;</li>
+          <li>por Tipo de dibujo, Contorno, Fondo sólido, Tachado o Subrayado;</li>
+          <li>por Creador, si se ha informado de alguno en el 
+            <a href="../102_windows_views_panels/index.xhtml#setting_view" >Panel de configuración de la aplicación</a >, o se ha importado con un conjunto de anotaciones.
+          </li>
+        </ul>
+      </section>
+      <section class="filet">
+        <h2 id="annotations_view_and_manipulation">Revisión y manipulación de anotaciones</h2>
+        <p>Las anotaciones se muestran como tarjetas en el panel, una tras otra. Cada tarjeta contiene el texto de la anotación, la fecha de creación, la posición en el libro expresada en porcentaje de progresión y unos botones Editar y Suprimir. El texto de la anotación actúa como un botón que desplazará el foco a la propia anotación, por lo que al salir del contexto del panel de anotaciones, habrá que realizar algunas tabulaciones para volver al panel de anotaciones.</p>
+        <p>Un borde coloreado a la izquierda indica visualmente el Color establecido para la anotación. Esta información no se transmite a las tecnologías de asistencia.</p>
+      </section>
+      <section class="filet">
+        <h2 id="annotations_io">Intercambiar anotaciones (Importación y exportación programática)</h2>
+        <p>Se puede exportar o importar un conjunto de anotaciones. Esto puede hacerse desde el panel Anotaciones en la vista Lectura y desde el menú contextual del libro en las vistas Biblioteca. Esto permite exportar anotaciones incluso después de que haya caducado una licencia LCP.</p>
+        <p>El botón exportar 
+          <img src="../../resources/images/export-icon.svg" class="icon" alt="" role="presentation"/> abrirá un cuadro de diálogo en el que se pedirá un título que se utilizará para identificar el conjunto de anotaciones al importarlo. El botón Guardar abrirá una ventana de Archivo de sistema para seleccionar el lugar donde el usuario desea almacenar este archivo de anotación, así como el nombre del archivo. El título se utilizará como nombre de archivo predeterminado, pero puede cambiarse sin que ello afecte a la identificación del archivo.
+        </p>
+        <p>Las anotaciones se almacenan con la extensión de archivo 
+          <code>.annotation</code> y utilizan un formato JSON-LD definido por la recomendación del W3C 
+          <a href="https://www.w3.org/TR/annotation-model/">Web Annotation Data Model</a>. Contiene el identificador del ebook y la información del Creador informada en el 
+          <a href="../102_windows_views_panels/index.xhtml#setting_view" >Panel de Configuración de la Aplicación</a > así como varios tipos de selectores para permitir la importación y el correcto posicionamiento de las anotaciones por diferentes sistemas de lectura.
+        </p>
+        <p>El botón de importación 
+          <img src="../../resources/images/import-icon.svg" class="icon" alt="" role="presentation"/> se abre para que el usuario seleccione el archivo que desea importar. Si el identificador del libro no es similar al libro abierto donde se realiza la importación, se mostrará un mensaje de error y no se importarán las anotaciones.
+        </p>
+        <p>Una vez importadas, las anotaciones aparecen en el panel de anotaciones y pueden ser revisadas y manipuladas como cualquier anotación creada. Heredan el título del archivo de anotación original como etiqueta. Estas manipulaciones no afectarán al archivo original 
+          <code>.annotation</code> que nunca se vincula.
+        </p>
+      </section>
+      <section class="filet">
+        <h2>Exportar anotaciones al formato HTML</h2>
+        <p>Desde Thorium 3.2, es posible exportar las páginas de marcas y las anotaciones bajo la forma de una página web en formato HTML. En una versión futura, esperamos que sea posible personalizar esta exportación a un gabinete personalizable.</p>
+        <p>Durante la exportación, seleccione la extensión del archivo 
+          <code>.annotation</code> y modifíquela a 
+          <code>.html</code>. La exportación se realiza de la misma manera. El botón &quot;Registrar&quot; abre la ventana &quot;Sistema de archivos&quot;, en la que el usuario debe seleccionar la ubicación en la que desea guardar el archivo de anotaciones y el nombre del archivo. El título se utilizará como nombre de archivo predeterminado, pero puede modificarse sin que ello afecte a la identificación del archivo.
+        </p>
+      </section>
     </section>
   </body>
 </html>

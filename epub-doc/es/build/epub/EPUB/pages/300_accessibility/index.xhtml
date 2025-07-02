@@ -6,181 +6,44 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Accesibilidad</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
-      <h1 id="a11y">Accesibilidad</h1>
-      <p>La aplicación es compatible con tecnologías de asistencia como reproductores de pantalla, incluidos Jaws, NVDA, Narrador y ValiceOver. Incluye una función de lectura en voz alta con resaltado visual. El lector de torio se puede usar con mouse o teclado, y los atajos de teclado son configurables. La pantalla se puede personalizar para satisfacer las necesidades de los usuarios, incluidos los colores, el tamaño del texto, el espacio, la fuente y el diseño.
-Las características de accesibilidad dependen en gran medida de la calidad de los archivos de publicación electrónica y se ven afectadas por ello.</p>
-      <p>La página de 
-        <a href="https://thorium.edrlab.org/es/th3/500_accessibility/">soporte en línea de accesibilidad</a> contiene información completa relacionada con la accesibilidad de la aplicación y las características relacionadas con ella.
+    <section class="colbreak filet"  role="doc-chapter" >
+      <h1 id="A11Y">Accesibilidad</h1>
+      <p>La aplicación es compatible con tecnologías de asistencia como reproductores de pantalla, incluidos Jaws, NVDA, Narrator y Voiceover. Incluye una función de lectura en voz alta con resaltado visual. Thorium Reader puede utilizarse con ratón o teclado, y los atajos de teclado son configurables. La visualización puede personalizarse para satisfacer las necesidades de los usuarios, incluidos los colores, el tamaño del texto, el espaciado, la fuente y el diseño.
+Las funciones de accesibilidad dependen en gran medida de la calidad de los archivos de publicación electrónica y se ven afectadas por ella.</p>
+      <p>La 
+        <a href="https://thorium.edrlab.org/es/th3/500_accessibility/">Página de ayuda en línea sobre accesibilidad</a> contiene información completa sobre la accesibilidad de la aplicación y las funciones relacionadas con ella.
       </p>
-      <p>Este capítulo toma la información principal para tenerla fuera de línea.</p>
-      <h2 id="a11y_info">Información de accesibilidad</h2>
-      <p>Actualmente, se muestra torio en el 
-        <a href="../102_windows_views_panels/index.xhtml#book_info_panel">panel de información del libro</a> bajo el título 'Descripción' Descripción 'el contenido de los metadatos de accesibilidad proporcionados por los creadores del archivo.
-      </p>
-      <h2 id="a11y_native">Funciones de accesibilidad nativa</h2>
-      <p>Las funciones de accesibilidad nativa se describen en cada sección de esta documentación que corresponde a su contexto de uso. Esto incluye en particular:</p>
-      <ul>
-        <li>
-          <a href="../102_windows_views_panels/index.xhtml#reading_settings_panel">Ajustes visuales en la visualización del texto</a>
-        </li>
-        <li>
-          <a href="../211_reading_textuals/index.xhtml#read_text_readaloud">Lectura de audio generada en voz syntetica</a>
-        </li>
-      </ul>
-      <h2 id="screenreader">Leer con un lector de pantalla</h2>
-      <p>Al lanzar torio, si se detecta un reproductor de pantalla, las funciones relativas se activan.
-Tenga en cuenta que los reproductores de pantalla usan memoria de búfer separada para acceder al contenido HTML, lo que provoca la desincronización de desplazamiento visual y una compensación de página que se muestra con la página leída por el reproductor de pantalla. En otras palabras, el torio generalmente no es consciente de la ubicación de lectura actual del usuario del reproductor de pantalla, a menos que el usuario de la pantalla desencadene eventos (como un clic del mouse en cualquier lugar del texto o una tecla de teclado en elementos HTML enfocados).</p>
-      <h3>Teclas rápidas para la navegación (municipios en NVDA y Jaws)</h3>
-      <p>
-        <em>(Contribución de Prashant Verma, consorcio Daisy)</em>
-      </p>
-      <p>Para leer texto, navegue en las tablas, navegue en la ventana del navegador, la tecla de inserción se puede reemplazar mediante la tecla de cambio de pantalla.</p>
-      <p>El reproductor de pantalla debe estar en modo de navegación o cursor virtual.</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Acción</th>
-            <th>Teclas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Siguiente título</td>
-            <td>
-              <kbd>H</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Siguiente mesa</td>
-            <td>
-              <kbd>T</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Siguiente gráfico</td>
-            <td>
-              <kbd>G</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Siguiente lista</td>
-            <td>
-              <kbd>L</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Siguiente campo de formulario</td>
-            <td>
-              <kbd>F</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Lista de elementos</td>
-            <td>
-              <kbd>INSERT</kbd> + 
-              <kbd>F7</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Letra anterior</td>
-            <td>
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Siguiente letra</td>
-            <td>
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Palabra anterior</td>
-            <td>
-              <kbd>CTRL</kbd> + 
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Siguiente palabra</td>
-            <td>
-              <kbd>CTRL</kbd> + 
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Línea anterior</td>
-            <td>
-              <kbd>↑</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Siguiente línea</td>
-            <td>
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Oración anterior</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>↑</kbd> (Jaws uniquement)
-            </td>
-          </tr>
-          <tr>
-            <td>Siguiente oración</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>↓</kbd> (Jaws uniquement)
-            </td>
-          </tr>
-          <tr>
-            <td>Leer todo</td>
-            <td>
-              <kbd>INSERT</kbd> + 
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Celda a la derecha</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>→</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Celda a la izquierda</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>←</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Célula a continuación</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>↓</kbd>
-            </td>
-          </tr>
-          <tr>
-            <td>Celda arriba</td>
-            <td>
-              <kbd>ALT</kbd> + 
-              <kbd>CTRL</kbd> + 
-              <kbd>↑</kbd>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <p>Este capítulo recoge la información principal para tenerla fuera de línea.</p>
+      <section class="filet">
+        <h2 id="a11y_info">Información de accesibilidad</h2>
+        <p>Actualmente, Thorium muestra en el 
+          <a href="../102_windows_views_panels/index.xhtml#book_info_panel">Panel de información del libro</a> bajo el título 
+          <code>Description</code> Descripción `El contenido de los metadatos de accesibilidad proporcionados por los creadores del archivo.
+        </p>
+      </section>
+      <section class="filet">
+        <h2 id="a11y_native">Funciones nativas de accesibilidad</h2>
+        <p>Las funciones nativas de accesibilidad se describen en cada una de las secciones de esta documentación que corresponden a su contexto de uso. Esto incluye en particular:</p>
+        <ul>
+          <li>
+            <a href="../102_windows_views_panels/index.xhtml#reading_settings_panel">Ajustes visuales en la visualización del texto</a>
+          </li>
+          <li>
+            <a href="../213_reading_auditory/index.xhtml#readaloud">Lectura de audio en voz generada</a>
+          </li>
+        </ul>
+      </section>
+      <section class="filet">
+        <h2 id="screenreader">Lectura con un reproductor de pantalla</h2>
+        <p>Al lanzar Thorium, si se detecta un reproductor de pantalla, se activan las funciones relativas.
+Tenga en cuenta que los reproductores de pantalla utilizan una memoria intermedia independiente para acceder al contenido HTML, lo que provoca la desincronización del desplazamiento visual y un desplazamiento de página que se muestra con la página leída por el reproductor de pantalla. En otras palabras, Thorium generalmente no es consciente de la ubicación de lectura actual del usuario del reproductor de pantalla, a menos que el usuario de la pantalla active eventos (como un clic del ratón en cualquier parte del texto o una tecla del teclado en elementos HTML enfocados).</p>
+      </section>
     </section>
   </body>
 </html>
