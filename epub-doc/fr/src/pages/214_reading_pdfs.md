@@ -53,27 +53,27 @@ PDF.js ajoute des raccourcis clavier qui ne sont pas configurables dans le panne
 
 ### Navigation
 
-Les touches <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page haut</kbd>, <kbd>Page bas</kbd> et toutes les touches <kbd>flèche</kbd> peuvent être utilisées pour naviguer dans le document. En outre, les raccourcis de navigation suivants existent :
+Les touches <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page haut</kbd>, <kbd>Page bas</kbd> et toutes les touches <kbd>flèche</kbd> peuvent être utilisées pour naviguer dans le document. En outre, les raccourcis de navigation suivants existent&nbsp;:
 
-* Page suivante : <kbd>n</kbd>, <kbd>j</kbd>, <kbd>Barre d'espace</kbd> (mode présentation uniquement), <kbd>Entrée</kbd> (mode présentation uniquement) ou clic gauche (mode présentation uniquement).
-* Page précédente : <kbd>p</kbd>, <kbd>k</kbd>, <kbd>Shift</kbd> + <kbd>Barre d'espace</kbd> (mode présentation uniquement), <kbd>Shift</kbd> + <kbd>Entrée</kbd> (mode présentation uniquement) ou <kbd>Shift</kbd> + clic gauche (mode présentation uniquement).
+* Page suivante&nbsp;: <kbd>n</kbd>, <kbd>j</kbd>, <kbd>Barre d'espace</kbd> (mode présentation uniquement), <kbd>Entrée</kbd> (mode présentation uniquement) ou clic gauche (mode présentation uniquement).
+* Page précédente&nbsp;: <kbd>p</kbd>, <kbd>k</kbd>, <kbd>Shift</kbd> + <kbd>Barre d'espace</kbd> (mode présentation uniquement), <kbd>Shift</kbd> + <kbd>Entrée</kbd> (mode présentation uniquement) ou <kbd>Shift</kbd> + clic gauche (mode présentation uniquement).
 
 </section>
 <section class="filet">
 
 ### Contrôles de la visionneuse
 
-Les boutons de l'interface utilisateur ou <kbd>ctrl</kbd> + molette de la souris peuvent être utilisés pour modifier le niveau de zoom. Des raccourcis clavier sont également disponibles :
+Les boutons de l'interface utilisateur ou <kbd>ctrl</kbd> + molette de la souris peuvent être utilisés pour modifier le niveau de zoom. Des raccourcis clavier sont également disponibles&nbsp;:
 
-* Zoom avant : <kbd>ctrl</kbd> + <kbd>+</kbd>, <kbd>ctrl</kbd> + <kbd>=</kbd>
-* Zoom arrière : <kbd>ctrl</kbd> + <kbd>-</kbd>
-* Rétablir le zoom normal : <kbd>ctrl</kbd> + <kbd>0</kbd>
-* Tourner le document dans le sens des aiguilles d'une montre : <kbd>r</kbd>
-* Tourner le document dans le sens inverse des aiguilles d'une montre : <kbd>shift</kbd> + <kbd>r</kbd>
-* Déplacer le focus sur la case "aller à la page" : <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
-* Rechercher du texte dans le document : <kbd>ctrl</kbd> + <kbd>f</kbd>
-* Recherche de l'occurrence suivante du texte dans le document : <kbd>ctrl</kbd> + <kbd>g</kbd>
-* Recherche de l'occurrence précédente du texte dans le document : <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
+* Zoom avant&nbsp;: <kbd>ctrl</kbd> + <kbd>+</kbd>, <kbd>ctrl</kbd> + <kbd>=</kbd>
+* Zoom arrière&nbsp;: <kbd>ctrl</kbd> + <kbd>-</kbd>
+* Rétablir le zoom normal&nbsp;: <kbd>ctrl</kbd> + <kbd>0</kbd>
+* Tourner le document dans le sens des aiguilles d'une montre&nbsp;: <kbd>r</kbd>
+* Tourner le document dans le sens inverse des aiguilles d'une montre&nbsp;: <kbd>shift</kbd> + <kbd>r</kbd>
+* Déplacer le focus sur la case "aller à la page"&nbsp;: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
+* Rechercher du texte dans le document&nbsp;: <kbd>ctrl</kbd> + <kbd>f</kbd>
+* Recherche de l'occurrence suivante du texte dans le document&nbsp;: <kbd>ctrl</kbd> + <kbd>g</kbd>
+* Recherche de l'occurrence précédente du texte dans le document&nbsp;: <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>g</kbd>
 
 (remplacer <kbd>ctrl</kbd> par meta dans certaines configurations)
 

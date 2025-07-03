@@ -35,7 +35,7 @@ Il vous permet d'adapter l'affichage et le comportement des annotations à votre
 
 Les options d'annotation sont disponibles dans la barre d'outils du panneau d'annotation.
 
-Quatre options sont disponibles :
+Quatre options sont disponibles&nbsp;:
 
 - Le <span class="ui_button">mode instantané</span> ouvre la fenêtre contextuelle d'annotation à chaque sélection.
 - <span class="ui_button">Création rapide</span> met en surbrillance le texte sélectionné et crée une annotation vide.
@@ -44,7 +44,7 @@ Quatre options sont disponibles :
 
 <div class="framed">
 
-La combinaison des options <span class="ui_button">Mode instantané</span> et <span class="ui_button">Création rapide</span> vous permet d'utiliser le mode annotateur en série : toute sélection créera une surbrillance sans
+La combinaison des options <span class="ui_button">Mode instantané</span> et <span class="ui_button">Création rapide</span> vous permet d'utiliser le mode annotateur en série&nbsp;: toute sélection créera une surbrillance sans
 sans qu'aucune fenêtre ne s'affiche.
 </div>
 
@@ -64,9 +64,9 @@ Les filtres de balises actifs sont représentés visuellement par un fond bleu e
 Tous les filtres permettent une sélection multiple et agissent comme des cases à cocher, un clic active le filtre, un autre clic le désactive.
 
 Les options de filtrage sont les suivantes
-* par balise, si une balise a été affectée à une annotation, elle apparaîtra ici ;
-* par Couleur : Rouge, Orange, Jaune, Vert, Bleu-vert, Bleu clair, Cyan et Violet ;
-* par Type de dessin, Contour, Fond uni, Barré ou Souligné ;
+* par balise, si une balise a été affectée à une annotation, elle apparaîtra ici&nbsp;;
+* par Couleur&nbsp;: Rouge, Orange, Jaune, Vert, Bleu-vert, Bleu clair, Cyan et Violet&nbsp;;
+* par Type de dessin, Contour, Fond uni, Barré ou Souligné&nbsp;;
 * par Créateur, s'il a été indiqué dans le <a href="../102_windows_views_panels/index.xhtml#setting_view" >Panneau des paramètres de l'application</a >, ou importé avec un ensemble d'annotations.
 
 </section>

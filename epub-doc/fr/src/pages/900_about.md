@@ -28,7 +28,7 @@ Paris, France
 Ce manuel de documentation est conçu et maintenu par EDRLab dans le cadre du développement de l'application Thorium-Reader.
 du développement de l'application Thorium-Reader.
 
-Les principaux contributeurs de cette documentation sont :
+Les principaux contributeurs de cette documentation sont&nbsp;:
 
 - Gautier Chomel
 - Georges Kerscher
@@ -48,7 +48,7 @@ tracker] (https://github.com/edrlab/thorium-reader-doc/issues/new).
 La page est en anglais mais vous pouvez écrire dans votre langue en nous disant
 afin que nous puissions mobiliser les bonnes personnes.
 
-Voici les informations dont nous avons besoin :
+Voici les informations dont nous avons besoin&nbsp;:
 
 - Système d'exploitation et sa version
 - Version de Thorium (elle est indiquée en bas de la bibliothèque sous le titre

@@ -19,10 +19,10 @@ une adresse correspondant à un catalogue distribué au format OPDS.
 Validez avec le bouton <span class="ui_button">Ajouter</span>.
 
 <div class="framed">
-Exemple :
+Exemple&nbsp;:
 
 L'activation du lien suivant permet de télécharger un fichier .atom qui peut être ouvert avec Thorium.
-ouvrir avec Thorium : [Télécharger le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/)
+ouvrir avec Thorium&nbsp;: [Télécharger le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/)
 
 </div>
 
@@ -46,7 +46,7 @@ Les flux dont le contenu est protégé doivent vous permettre de vous connecter 
 Le flux OPDS d'Archive.org permet de parcourir et d'emprunter des livres sous licence LCP
 et de les emprunter. Un compte Archive.org est nécessaire, la page d'authentification s'ouvrira
 une fois que vous aurez sélectionné un livre. Vous pouvez l'ajouter à Thorium avec l'adresse suivante
-adresse : [Flux OPDS d'Archive.org](https://archive.org/services/opds)
+adresse&nbsp;: [Flux OPDS d'Archive.org](https://archive.org/services/opds)
 
 Vous pouvez utiliser aussi utiliser [feedbooks
 OPDS](opds://catalog.feedbooks.com/catalog/index.json) pour parcourir le
@@ -59,7 +59,7 @@ Feedbooks sera disponible au téléchargement directement à partir de l'interfa
 
 À des fins de test, EDRLab fournit un flux avec trois publications gratuites
 sous protection LCP. Vous pouvez l'ajouter à Thorium avec l'adresse suivante
-adresse : [Ajouter le flux public OPDS d'EDRLab feed](https://edrlab.org/public/feed/opds-lcp.json)
+adresse&nbsp;: [Ajouter le flux public OPDS d'EDRLab feed](https://edrlab.org/public/feed/opds-lcp.json)
 
 
 </section>
@@ -86,7 +86,7 @@ dans Thorium Reader vous permet de télécharger un livre électronique ou un li
 
 Pour connecter votre compte de bibliothèque publique française, entrez une ville française (par exemple "Montpellier") ou une partie du nom de la bibliothèque dans le champ de recherche et cliquez sur le bouton Rechercher. Une liste de bibliothèques publiques correspondant à votre
 recherche apparaîtra. Sélectionnez une bibliothèque et cliquez sur <span class="ui_button">Ajouter</span>. Dans la liste mise à jour des
-sélectionnez cette bibliothèque : un formulaire d'authentification s'affiche.
+sélectionnez cette bibliothèque&nbsp;: un formulaire d'authentification s'affiche.
 Saisissez votre nom d'utilisateur et votre mot de passe fournis par la bibliothèque, puis cliquez sur <span class="ui_button">Connexion</span>. 
 Vous pouvez maintenant voir le contenu emprunté auprès de votre bibliothèque. Vous pouvez télécharger et lire les livres électroniques et les livres audio.
 

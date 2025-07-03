@@ -23,7 +23,7 @@ cette application, envisagez de [soutenir par le financement et le parrainage](h
 
 <section class="filet">
 
-## Ceci est la documentation pour Thorium 3, et c'est un travail en cours ! {#th3}
+## Ceci est la documentation pour Thorium 3, et c'est un travail en cours&nbsp;! {#th3}
 
 Thorium 3 introduit de nombreux changements et, nous l'espérons, une expérience de lecture facilitée. 
 Cette documentation est un travail en cours qui vise à
@@ -54,7 +54,7 @@ Thorium Reader Desktop supporte différents formats de publication. Chaque forma
 
 * PDF (Portable Document Format) est un format à mise en page fixe reproduisant l'expérience de lecture de l'imprimé.
   
-* Audiobooks : un format standardisé pour les audiobooks a été conçu par le groupe de travail W3C Publishing Working Group en 2020. Thorium supporte le format de livre audio packagé (LPF), qui sera bientôt largement utilisé par les libraires, du moins nous l'espérons.
+* Audiobooks&nbsp;: un format standardisé pour les audiobooks a été conçu par le groupe de travail W3C Publishing Working Group en 2020. Thorium supporte le format de livre audio packagé (LPF), qui sera bientôt largement utilisé par les libraires, du moins nous l'espérons.
 
 * Divina, un format standard pour les bandes dessinées, les mangas, les webtoons et d'autres styles d'œuvres numériques basées sur des séquences d'images. Il s'agit d'un format encore expérimental.
 
@@ -86,7 +86,7 @@ Le Thorium Reader dispose d'un contrôle gestuel tactile limité à l'écran. Il
 principalement mis en œuvre pour le contrôle du zoom de l'image et pour tourner les pages. Certains gestes du système d'exploitation
 du système d'exploitation peuvent également fonctionner.
 
-La liste suivante répertorie les gestes connus qui fonctionnent à ce jour :
+La liste suivante répertorie les gestes connus qui fonctionnent à ce jour&nbsp;:
 
 *Taper, dans toutes les vues* activera le bouton
 *Taper puis sélectionner et déplacer les curseurs*, sur un texte, sélectionnera le texte
@@ -100,10 +100,10 @@ La liste suivante répertorie les gestes connus qui fonctionnent à ce jour :
 
 ## Ouverture de Thorium {#getabook}
 
-Une fois que Thorium est installé sur votre système, plusieurs façons permettent de le lancer :
+Une fois que Thorium est installé sur votre système, plusieurs façons permettent de le lancer&nbsp;:
 
-- à partir du menu de l'application ou à partir de n'importe quel raccourci créé. Cette action ouvrira la vue d'accueil de la bibliothèque et vous permettra de choisir un livre ou d'en ajouter un autre, mais aussi d'accéder aux catalogues et d'organiser votre bibliothèque. Pour lire un livre, il suffit de cliquer dessus ou de valider avec <kbd>Entrée</kbd> lorsqu'il est sélectionné ;
-- en sélectionnant un livre sur votre ordinateur, utilisez le `menu contextuel` (clic droit), sélectionnez `ouvrir` ;
+- à partir du menu de l'application ou à partir de n'importe quel raccourci créé. Cette action ouvrira la vue d'accueil de la bibliothèque et vous permettra de choisir un livre ou d'en ajouter un autre, mais aussi d'accéder aux catalogues et d'organiser votre bibliothèque. Pour lire un livre, il suffit de cliquer dessus ou de valider avec <kbd>Entrée</kbd> lorsqu'il est sélectionné&nbsp;;
+- en sélectionnant un livre sur votre ordinateur, utilisez le `menu contextuel` (clic droit), sélectionnez `ouvrir`&nbsp;;
 - vous pouvez définir l'application par défaut pour certains types de fichiers dans les paramètres de Windows. Sélectionnez un fichier, ouvrez le menu contextuel, sélectionnez `Ouvrir avec`, dans la fenêtre pop-up sélectionnez `Thorium`, cochez la case `Toujours ouvrir avec`. Cette opération doit être répétée pour chaque format de fichier que vous souhaitez lire avec Thorium.
 
 </section>

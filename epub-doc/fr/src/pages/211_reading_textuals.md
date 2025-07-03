@@ -48,7 +48,7 @@ Pour cela, la police doit être présente sur votre système d'exploitation et v
 
 <div class="framed">
 
-## Exemple 1 : Définir Verdana comme police de lecture {#read_text_example_verdana}
+## Exemple 1&nbsp;: Définir Verdana comme police de lecture {#read_text_example_verdana}
 
 1.  Dans l'interface de lecture, allez dans le menu `Préférence` et ensuite
     `Texte`.
@@ -58,7 +58,7 @@ Pour cela, la police doit être présente sur votre système d'exploitation et v
 4.  Confirmez avec <kbd>Enter</kbd>.
 
 
-## Exemple 2 : Configurer Luciole comme police de lecture {#read_text_example_luciole}
+## Exemple 2&nbsp;: Configurer Luciole comme police de lecture {#read_text_example_luciole}
 
 1.  [Téléchargez et installez la police Luciole
     font](https://www.luciole-vision.com/#download)

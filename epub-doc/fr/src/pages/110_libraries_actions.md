@@ -25,13 +25,13 @@ fenêtre de lecture fera apparaître la fenêtre principale.
 ## Ouvrir le menu Publication
 Le menu de la publication est accessible à partir du bouton à trois points <img src="../../resources/images/threedot.svg" class="icon"  alt="" role="presentation"/> situé
 sous la fiche de publication dans les vues <span class="ui_button">Accueil</span> et <span class="ui_button">Grille</span> ou dans la dernière colonne (Action) de la vue <span class="ui_button">Tableau</span>.
-Il permet :
+Il permet&nbsp;:
 - d'ouvrir le panneau d'information sur le livre (
-<img src="../../resources/images/info-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> À propos de la publication</span>) ;
+<img src="../../resources/images/info-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> À propos de la publication</span>)&nbsp;;
 - d'indiquer que la lecture est finie via le bouton
 (<img src="../../resources/images/doubleCheck-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Marquer comme lu</span>)
 - de supprimer la publication de la bibliothèque de Thorium
-(<img src="../../resources/images/bin-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button"> Supprimer</span>). Une confirmation sera demandée ;
+(<img src="../../resources/images/bin-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button"> Supprimer</span>). Une confirmation sera demandée&nbsp;;
 - d'exporter une copie de la publication sur votre système de fichiers
 (<img src="../../resources/images/SaveAs-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Enregistrer sous</span>).
 Une fenêtre système s'ouvrira pour vous permettre de choisir l'endroit où exporter la publication.

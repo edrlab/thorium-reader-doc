@@ -41,7 +41,7 @@ C'est l'endroit où se trouvent tous vos ouvrages. Avec le temps, il peut être 
 C'est pourquoi cette vue est plus complexe. Les premiers boutons de cette page
 permettent de choisir entre deux modes d'affichage, <span class="ui_button">Grille</span> et <span class="ui_button">Tableau</span>, qui affecteront l'affichage de la liste des livres et les options de recherche. Elles sont détaillées dans les deux paragraphes ci-dessous.
 
-Les actions disponibles au niveau <span class="ui_button">Vue</span> sont les suivantes : *Importer une publication*, *Rechercher*, *Faire une recherche*, *Filtrer par étiquette* et *naviguer dans les pages de votre bibliothèque*. Les pages de la bibliothèque
+Les actions disponibles au niveau <span class="ui_button">Vue</span> sont les suivantes&nbsp;: *Importer une publication*, *Rechercher*, *Faire une recherche*, *Filtrer par étiquette* et *naviguer dans les pages de votre bibliothèque*. Les pages de la bibliothèque
 sont comme des étagères ou des piles, car la vue <span class="ui_button">Toutes les publications</span> est limitée à 50 publications par page pour rester utilisable.
 
 </section>
@@ -66,7 +66,7 @@ Le mode <span class="ui_button">Tableau</span> présente les livres comme des li
 
 C'est l'endroit où vous pouvez stocker, consulter, parcourir les catalogues en ligne
 et acquérir ou emprunter des livres électroniques. Au début, cet endroit vous semblera
-vide car nous ne préchargeons aucun catalogue. Le *support supplémentaire en ligne [Où trouver des livres électroniques ?](https://thorium.edrlab.org/fr/th3/get_ebooks/)*
+vide car nous ne préchargeons aucun catalogue. Le *support supplémentaire en ligne [Où trouver des livres électroniques&nbsp;?](https://thorium.edrlab.org/fr/th3/get_ebooks/)*
 peut vous aider à identifier les catalogues disponibles si vous n'en avez pas déjà un en tête.
 
 Thorium permet de charger et consulter des catalogues [OPDS](https://opds.io/), un format standard pour afficher un catalogue sur le Web.
@@ -83,9 +83,9 @@ Les détails et la manière de mettre en place et d'utiliser les catalogues sont
 
 ### Paramètres de l'application {#setting_view}
 
-Les paramètres de l'application sont divisés en trois onglets :
+Les paramètres de l'application sont divisés en trois onglets&nbsp;:
 
-1.  L'onglet <span class="ui_button">Général</span> vous permet de :
+1.  L'onglet <span class="ui_button">Général</span> vous permet de&nbsp;:
     1. *sélectionner la langue* de l'interface,
     2. *supprimer les identifiants liés aux catalogues*. Le bouton <span class="ui_button">Effacer les données d'identification</span> supprimera toute authentification au catalogue précédemment stockée (utile si vous lisez sur un ordinateur public ou partagé ou si vous souhaitez changer le compte avec lequel vous êtes connecté).
     3. *Sauvegarder la session* (l'application se souviendra des fenêtres ouvertes à la fermeture et les rouvrira).
@@ -143,7 +143,7 @@ Les informations sur les livres sont disponibles dans un panneau dédié atteign
 <span class="ui_button">À propos de la publication</span>  
 du menu du livre (icône à trois points <img src="../../resources/images/threedot.svg" class="icon" alt="" role="presentation"/>) dans les vues <span class="ui_button">Accueil</span>, <span class="ui_button">Mes Livres</span> et <span class="ui_button">catalogues</span>.
 Ce panneau affiche les informations du livre telles qu'elles sont fournies par le fichier.
-La fiabilité de ces informations dépend du créateur du fichier. Les informations affichées sont les suivantes :
+La fiabilité de ces informations dépend du créateur du fichier. Les informations affichées sont les suivantes&nbsp;:
 
 * *Couverture* de la publication avec son texte alternatif si présent
 * *Titre* de la publication
