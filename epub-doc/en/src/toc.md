@@ -14,10 +14,6 @@ tocRule: title
 <a href="../pages/100_forewords/index.xhtml">Forewords</a>
 </li>
 <li>
-<a href="../pages/101_opening_thorium/index.xhtml">Opening Thorium Reader</a>
-</li>
-
-<li>
 <a href="../pages/102_windows_views_panels/index.xhtml">Windows, views and panels</a>
 <ol>
 <li>
@@ -97,9 +93,6 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
 </ol>
 </li>
 <li>
-<a href="../pages/220_reading_actions/index.xhtml">Search in a book</a>
-</li>
-<li>
 <a href="../pages/230_bookmarks/index.xhtml">Bookmarking</a>
 </li>
 <li>
@@ -137,26 +130,8 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
     </ol>
 </li>
 <li>
-<a href="../pages/400_ressources/index.xhtml">Ressources</a>
-<ol>
-    <li>
-    <a href="../pages/400_ressources/index.xhtml#keyboard"> Keyboard functions</a>
-    </li>
-        <li>
-    <a href="../pages/400_ressources/index.xhtml#tactile">Tactile gestures</a>
-    </li>
-        <li>
-    <a href="../pages/400_ressources/index.xhtml#support">links to online support pages</a>
-    </li>
-    </ol>
-</li>
-<li>
-<a href="../pages/406_formats/index.xhtml">Supported publication formats</a>
-</li>
-<li>
 <a href="../pages/900_about/index.xhtml">About this ebook</a>
 </li>
-
 </ol>
 </nav>
 </section>
@@ -165,10 +140,13 @@ href="../pages/102_windows_views_panels/index.xhtml#reading_settings_panel">Read
 <nav epub:type="landmarks">
 <ol>
 <li>
+<a href="../toc/index.xhtml" epub:type="toc">Table of contents</a>
+</li>
+<li>
 <a href="../pages/100_forewords/index.xhtml" epub:type="forewords" >Forewords</a>
 </li>
 <li>
-<a href="../toc/index.xhtml" epub:type="toc">Table of contents</a>
+<a href="../pages/900_about/index.xhtml" epub:type="acknowledgments">About this ebook</a>
 </li>
 </ol>
 </nav>

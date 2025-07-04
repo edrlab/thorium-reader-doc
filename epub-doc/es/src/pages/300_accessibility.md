@@ -2,60 +2,43 @@
 title: Accesibilidad
 role: doc-chapter
 epubtype: chapter
+class: colbreak filet
 draft: false
 ---
 
-# Accesibilidad {#a11y}
+# Accesibilidad {#A11Y}
 
-La aplicación es compatible con tecnologías de asistencia como reproductores de pantalla, incluidos Jaws, NVDA, Narrador y ValiceOver. Incluye una función de lectura en voz alta con resaltado visual. El lector de torio se puede usar con mouse o teclado, y los atajos de teclado son configurables. La pantalla se puede personalizar para satisfacer las necesidades de los usuarios, incluidos los colores, el tamaño del texto, el espacio, la fuente y el diseño.
-Las características de accesibilidad dependen en gran medida de la calidad de los archivos de publicación electrónica y se ven afectadas por ello. 
+La aplicación es compatible con tecnologías de asistencia como reproductores de pantalla, incluidos Jaws, NVDA, Narrator y Voiceover. Incluye una función de lectura en voz alta con resaltado visual. Thorium Reader puede utilizarse con ratón o teclado, y los atajos de teclado son configurables. La visualización puede personalizarse para satisfacer las necesidades de los usuarios, incluidos los colores, el tamaño del texto, el espaciado, la fuente y el diseño.
+Las funciones de accesibilidad dependen en gran medida de la calidad de los archivos de publicación electrónica y se ven afectadas por ella.
 
-La página de [soporte en línea de accesibilidad](https://thorium.edrlab.org/es/th3/500_accessibility/) contiene información completa relacionada con la accesibilidad de la aplicación y las características relacionadas con ella.
+La [Página de ayuda en línea sobre accesibilidad](https://thorium.edrlab.org/es/th3/500_accessibility/) contiene información completa sobre la accesibilidad de la aplicación y las funciones relacionadas con ella.
 
-Este capítulo toma la información principal para tenerla fuera de línea.
+Este capítulo recoge la información principal para tenerla fuera de línea.
+
+<section class="filet">
 
 ## Información de accesibilidad {#a11y_info}
 
-Actualmente, se muestra torio en el [panel de información del libro](../102_windows_views_panels/index.xhtml#book_info_panel) bajo el título 'Descripción' Descripción 'el contenido de los metadatos de accesibilidad proporcionados por los creadores del archivo.
+Actualmente, Thorium muestra en el [Panel de información del libro](../102_windows_views_panels/index.xhtml#book_info_panel) bajo el título `Description` Descripción `El contenido de los metadatos de accesibilidad proporcionados por los creadores del archivo.
 
-## Funciones de accesibilidad nativa {#a11y_native}
+</section>
+<section class="filet">
 
-Las funciones de accesibilidad nativa se describen en cada sección de esta documentación que corresponde a su contexto de uso. Esto incluye en particular:
+## Funciones nativas de accesibilidad {#a11y_native}
+
+Las funciones nativas de accesibilidad se describen en cada una de las secciones de esta documentación que corresponden a su contexto de uso. Esto incluye en particular:
 
 * [Ajustes visuales en la visualización del texto](../102_windows_views_panels/index.xhtml#reading_settings_panel)
-* [Lectura de audio generada en voz syntetica](../211_reading_textuals/index.xhtml#read_text_readaloud)
-  
-## Leer con un lector de pantalla {#screenreader}
+* [Lectura de audio en voz generada](../213_reading_auditory/index.xhtml#readaloud)
 
-Al lanzar torio, si se detecta un reproductor de pantalla, las funciones relativas se activan.
-Tenga en cuenta que los reproductores de pantalla usan memoria de búfer separada para acceder al contenido HTML, lo que provoca la desincronización de desplazamiento visual y una compensación de página que se muestra con la página leída por el reproductor de pantalla. En otras palabras, el torio generalmente no es consciente de la ubicación de lectura actual del usuario del reproductor de pantalla, a menos que el usuario de la pantalla desencadene eventos (como un clic del mouse en cualquier lugar del texto o una tecla de teclado en elementos HTML enfocados).
 
-### Teclas rápidas para la navegación (municipios en NVDA y Jaws)
+</section>
+<section class="filet">
 
-*(Contribución de Prashant Verma, consorcio Daisy)*
+## Lectura con un reproductor de pantalla {#screenreader}
 
-Para leer texto, navegue en las tablas, navegue en la ventana del navegador, la tecla de inserción se puede reemplazar mediante la tecla de cambio de pantalla.
+Al lanzar Thorium, si se detecta un reproductor de pantalla, se activan las funciones relativas.
+Tenga en cuenta que los reproductores de pantalla utilizan una memoria intermedia independiente para acceder al contenido HTML, lo que provoca la desincronización del desplazamiento visual y un desplazamiento de página que se muestra con la página leída por el reproductor de pantalla. En otras palabras, Thorium generalmente no es consciente de la ubicación de lectura actual del usuario del reproductor de pantalla, a menos que el usuario de la pantalla active eventos (como un clic del ratón en cualquier parte del texto o una tecla del teclado en elementos HTML enfocados).
 
-El reproductor de pantalla debe estar en modo de navegación o cursor virtual.
 
-|Acción |Teclas|
-|---|---|
-|Siguiente título| <kbd>H</kbd> |
-|Siguiente mesa| <kbd>T</kbd>|
-|Siguiente gráfico| <kbd>G</kbd>|
-|Siguiente lista|<kbd>L</kbd>|
-|Siguiente campo de formulario|<kbd>F</kbd>|
-|Lista de elementos| <kbd>INSERT</kbd> + <kbd>F7</kbd>|
-|Letra anterior| <kbd>←</kbd> |
-|Siguiente letra| <kbd>→</kbd> |
-|Palabra anterior |<kbd>CTRL</kbd> + <kbd>←</kbd> |
-|Siguiente palabra|<kbd>CTRL</kbd> + <kbd>→</kbd> |
-|Línea anterior |<kbd>↑</kbd> |
-|Siguiente línea |<kbd>↓</kbd> |
-|Oración anterior |<kbd>ALT</kbd> + <kbd>↑</kbd> (Jaws uniquement) |
-|Siguiente oración |<kbd>ALT</kbd> + <kbd>↓</kbd> (Jaws uniquement) |
-|Leer todo |<kbd>INSERT</kbd> + <kbd>↓</kbd> |
-|Celda a la derecha |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd> |
-|Celda a la izquierda |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd>|
-| Célula a continuación|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↓</kbd>|
-| Celda arriba|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>↑</kbd>|
+</section>

@@ -1,16 +1,17 @@
-{% extends 'base.njk' %}
+
 
 {% block head %}
 <title>{{ title }}</title>
 {% endblock %}
 
 {% block content %}
-<section id="toc">
-   <h1>{{title}}</h1>
-   <nav epub:type="toc">
+
       {% if auto == false %}
         {{ content | safe}}
       {% else -%}
+      <section id="toc">
+   <h1>{{title}}</h1>
+   <nav epub:type="toc">
       <ol>
         {# use the reading order, if specified #}
         {% if pub.readingOrder -%}
@@ -27,8 +28,9 @@
           {%- endfor %}
         {%- endif %}
       </ol>
+         </nav>
+</section>
       {%- endif %}
 
-   </nav>
-</section>
+
 {% endblock %}

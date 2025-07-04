@@ -6,103 +6,118 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
-    <title>Lecture des PDF</title>
+    <title>Lire des documents PDF</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
-      <hr class="asterism" aria-hidden="true"></hr>
-      <h1>Lecture des PDF</h1>
-      <p>Le moteur de lecture des PDF de Thorium s'appuie sur pdf.js, une visionneuse de Portable Document Format (PDF) construite avec HTML5. PDF.js est piloté par la communauté et soutenu par Mozilla.</p>
-      <h2>Paramètres de lecture des PDF</h2>
-      <p>La prise en charge des PDF comprend 8 niveaux de zoom et la capacité d'afficher en une ou deux colonnes.</p>
-      <h2>Fonctions de navigation pour les PDF</h2>
-      <p>La navigation dans les PDF peut toujours se faire à l'aide du panneau &quot;Aller à la page&quot;. En outre, lorsque les créateurs de PDF ont inclus des aperçus de documents, ceux-ci sont disponibles via le panneau de navigation de la table des matières. Ce comportement est différent de celui d'Acrobat Reader, qui affiche les plans de documents sous forme de signets et permet aux utilisateurs de les manipuler en changeant leur ordre, en les renommant, en les ajoutant et en les supprimant.</p>
-      <p>Avec Thorium Reader, vous pouvez ajouter vos propres signets en toute sécurité et vous les trouverez dans le panneau de navigation des signets.</p>
-      <h2>Signets et annotations pour les PDF</h2>
-      <p>Pour le moment, les annotations ne sont pas disponibles pour les PDF. Les signets sont entièrement implémentés et peuvent être créés et navigués comme détaillé dans le chapitre 
-        <a href="../230_bookmarks/index.xhtml">Action de lecture signets</a>.
-      </p>
-      <p>Un point d'attention ici est qu'un seul signet par page peut être ajouté. Si vous essayez d'ajouter plus d'un signet par page, le signet existant sera supprimé.</p>
-      <h2>Raccourcis clavier PDF</h2>
-      <p>PDF.js ajoute des raccourcis clavier qui ne sont pas configurables dans le panneau de configuration de Thorium. La liste reproduite ici n'est pas exhaustive et certains raccourcis peuvent ne pas fonctionner. Elle est copiée à partir de la [page PDF.JS Frequently Asked Questions] (
-        <a href="https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts">https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts</a>).
-      </p>
-      <h3>Navigation</h3>
-      <p>Les touches 
-        <kbd>Home</kbd>, 
-        <kbd>End</kbd>, 
-        <kbd>Page haut</kbd>, 
-        <kbd>Page bas</kbd> et toutes les touches 
-        <kbd>flèche</kbd> peuvent être utilisées pour naviguer dans le document. En outre, les raccourcis de navigation suivants existent :
-      </p>
-      <ul>
-        <li>Page suivante : 
-          <kbd>n</kbd>, 
-          <kbd>j</kbd>, 
-          <kbd>Barre d'espace</kbd> (mode présentation uniquement), 
-          <kbd>Entrée</kbd> (mode présentation uniquement) ou clic gauche (mode présentation uniquement).
-        </li>
-        <li>Page précédente : 
-          <kbd>p</kbd>, 
-          <kbd>k</kbd>, 
-          <kbd>Shift</kbd> + 
-          <kbd>Barre d'espace</kbd> (mode présentation uniquement), 
-          <kbd>Shift</kbd> + 
-          <kbd>Entrée</kbd> (mode présentation uniquement) ou 
-          <kbd>Shift</kbd> + clic gauche (mode présentation uniquement).
-        </li>
-      </ul>
-      <h3>Contrôles de la visionneuse</h3>
-      <p>Les boutons de l'interface utilisateur ou 
-        <kbd>ctrl</kbd> + molette de la souris peuvent être utilisés pour modifier le niveau de zoom, mais des raccourcis clavier sont également disponibles :
-      </p>
-      <ul>
-        <li>Zoom avant : 
-          <kbd>ctrl</kbd> + 
-          <kbd>+</kbd>, 
-          <kbd>ctrl</kbd> + 
-          <kbd>=</kbd>
-        </li>
-        <li>Zoom arrière : 
-          <kbd>ctrl</kbd> + 
-          <kbd>-</kbd>
-        </li>
-        <li>Rétablir le zoom normal : 
-          <kbd>ctrl</kbd> + 
-          <kbd>0</kbd>
-        </li>
-        <li>Tourner le document dans le sens des aiguilles d'une montre : 
-          <kbd>r</kbd>
-        </li>
-        <li>Tourner le document dans le sens inverse des aiguilles d'une montre : 
-          <kbd>shift</kbd> + 
-          <kbd>r</kbd>
-        </li>
-        <li>Déplacer le focus sur la case &quot;aller à la page&quot; : 
-          <kbd>ctrl</kbd> + 
-          <kbd>shift</kbd> + 
-          <kbd>g</kbd>
-        </li>
-        <li>Recherche de texte dans le document : 
-          <kbd>ctrl</kbd> + 
-          <kbd>f</kbd>
-        </li>
-        <li>Recherche de l'occurrence suivante du texte dans le document : 
-          <kbd>ctrl</kbd> + 
-          <kbd>g</kbd>
-        </li>
-        <li>Recherche de l'occurrence précédente du texte dans le document : 
-          <kbd>shift</kbd> + 
-          <kbd>ctrl</kbd> + 
-          <kbd>g</kbd>
-        </li>
-      </ul>
-      <p>(remplacer 
-        <kbd>ctrl</kbd> par meta dans certaines configurations)
-      </p>
+    <section class="colbreak filet"  role="doc-chapter" >
+      <h1>Lire des documents PDF</h1>
+      <p>Le moteur de lecture PDF de Thorium s'appuie sur pdf.js, une visionneuse construite avec HTML5. PDF.js est piloté par la communauté et soutenu par Mozilla.</p>
+      <section class="filet">
+        <h2>Paramètres de lecture des PDF</h2>
+        <p>La prise en charge des PDF comprend 8 niveaux de zoom et la capacité d'afficher une ou deux pages.</p>
+      </section>
+      <section class="filet">
+        <h2>Fonctions de navigation pour les PDF</h2>
+        <p>La navigation dans les PDF peut toujours se faire à l'aide du panneau &quot;Aller à la page&quot;. En outre, lorsque les créateurs de PDF ont inclus des plans de documents, ceux-ci sont disponibles dans le panneau de navigation de la table des matières. Il s'agit d'un comportement différent de celui d'Acrobat Reader, qui affiche les plans de documents sous forme de marques-pages et permet aux utilisateurs de les manipuler en changeant leur ordre, en les renommant, en les ajoutant et en les supprimant.</p>
+        <p>Avec Thorium Reader, vous pouvez ajouter vos propres marques-pages en toute sécurité et vous les trouverez dans le panneau de navigation des marques-pages.</p>
+      </section>
+      <section class="filet">
+        <h2>marques-pages et annotations pour les PDF</h2>
+        <p>Pour l'instant, les annotations ne sont pas disponibles pour les PDF. Les marques-pages sont entièrement implémentés et peuvent être créés et utilisés comme détaillé dans le chapitre 
+          <a href="../230_bookmarks/index.xhtml">Action de lecture - marques-pages</a>.
+        </p>
+        <p>Un point d'attention ici est qu'un seul marque-page par page peut être ajouté. Si vous essayez d'ajouter plus d'un marque-page par page, le marque-page existant sera supprimé.</p>
+      </section>
+      <section class="filet">
+        <h2>Imprimer le PDF</h2>
+        <p>Depuis la version 3.2, il est possible d'imprimer des plages de pages d'un PDF. Cette possibilité peut être limitée par des règles LCP décidées par le vendeur ou le prêteur.</p>
+      </section>
+      <section class="filet">
+        <p>## Raccourcis clavier PDF</p>
+        <p>PDF.js ajoute des raccourcis clavier qui ne sont pas configurables dans le panneau de configuration de Thorium. La liste reproduite ici n'est pas exhaustive et certains raccourcis peuvent ne pas fonctionner. Elle est copiée à partir de la 
+          <a href="https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts">page PDF.JS Frequently Asked Questions</a>.
+        </p>
+      </section>
+      <section class="filet">
+        <h3>Navigation</h3>
+        <p>Les touches 
+          <kbd>Home</kbd>, 
+          <kbd>End</kbd>, 
+          <kbd>Page haut</kbd>, 
+          <kbd>Page bas</kbd> et toutes les touches 
+          <kbd>flèche</kbd> peuvent être utilisées pour naviguer dans le document. En outre, les raccourcis de navigation suivants existent :
+        </p>
+        <ul>
+          <li>Page suivante : 
+            <kbd>n</kbd>, 
+            <kbd>j</kbd>, 
+            <kbd>Barre d'espace</kbd> (mode présentation uniquement), 
+            <kbd>Entrée</kbd> (mode présentation uniquement) ou clic gauche (mode présentation uniquement).
+          </li>
+          <li>Page précédente : 
+            <kbd>p</kbd>, 
+            <kbd>k</kbd>, 
+            <kbd>Shift</kbd> + 
+            <kbd>Barre d'espace</kbd> (mode présentation uniquement), 
+            <kbd>Shift</kbd> + 
+            <kbd>Entrée</kbd> (mode présentation uniquement) ou 
+            <kbd>Shift</kbd> + clic gauche (mode présentation uniquement).
+          </li>
+        </ul>
+      </section>
+      <section class="filet">
+        <h3>Contrôles de la visionneuse</h3>
+        <p>Les boutons de l'interface utilisateur ou 
+          <kbd>ctrl</kbd> + molette de la souris peuvent être utilisés pour modifier le niveau de zoom. Des raccourcis clavier sont également disponibles :
+        </p>
+        <ul>
+          <li>Zoom avant : 
+            <kbd>ctrl</kbd> + 
+            <kbd>+</kbd>, 
+            <kbd>ctrl</kbd> + 
+            <kbd>=</kbd>
+          </li>
+          <li>Zoom arrière : 
+            <kbd>ctrl</kbd> + 
+            <kbd>-</kbd>
+          </li>
+          <li>Rétablir le zoom normal : 
+            <kbd>ctrl</kbd> + 
+            <kbd>0</kbd>
+          </li>
+          <li>Tourner le document dans le sens des aiguilles d'une montre : 
+            <kbd>r</kbd>
+          </li>
+          <li>Tourner le document dans le sens inverse des aiguilles d'une montre : 
+            <kbd>shift</kbd> + 
+            <kbd>r</kbd>
+          </li>
+          <li>Déplacer le focus sur la case &quot;aller à la page&quot; : 
+            <kbd>ctrl</kbd> + 
+            <kbd>shift</kbd> + 
+            <kbd>p</kbd>
+          </li>
+          <li>Rechercher du texte dans le document : 
+            <kbd>ctrl</kbd> + 
+            <kbd>f</kbd>
+          </li>
+          <li>Recherche de l'occurrence suivante du texte dans le document : 
+            <kbd>ctrl</kbd> + 
+            <kbd>g</kbd>
+          </li>
+          <li>Recherche de l'occurrence précédente du texte dans le document : 
+            <kbd>shift</kbd> + 
+            <kbd>ctrl</kbd> + 
+            <kbd>g</kbd>
+          </li>
+        </ul>
+        <p>(remplacer 
+          <kbd>ctrl</kbd> par meta dans certaines configurations)
+        </p>
+      </section>
     </section>
   </body>
 </html>

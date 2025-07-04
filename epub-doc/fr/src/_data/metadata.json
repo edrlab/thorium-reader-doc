@@ -1,35 +1,24 @@
 {
   "dc": {
-    "title": "Guide d'utilisation du lecteur de thorium (français, 3.1)",
+    "title": "Guide de l'utilisateur de Thorium Reader for Desktop (Français, 3.2)",
     "creator": "The European Digital Reading Lab",
     "publisher": "The European Digital Reading Lab",
-    "description": "Il s'agit de la documentation officielle de Thorium 3.1. Elle propose des conseils pour vous aider à mieux connaître et utiliser Thorium Reader. Les références d'assistance rapide ne sont pas incluses ici et sont disponibles en ligne sur les pages Web d'assistance de Thorium.",
-    "identifier": "com.github.edrlab.thorium-reader-doc-epub-fr.3.1.0",
+    "description": "Il s'agit de la documentation officielle de Thorium Reader for Desktop 3.2. Elle offre des conseils pour vous aider à connaître et à mieux utiliser Thorium Reader. Les références d'assistance rapide ne sont pas incluses ici et sont disponibles en ligne sur les pages web de Thorium Support.",
+    "identifier": "com.github.edrlab.thorium-reader-doc-epub-fr.3.2.0",
     "language": "fr",
-    "rights": "Licence Creative Commons Attribution-Share Alike (CC BY-SA)."
+    "rights": "Creative Commons Attribution-Share Alike (CC BY-SA) license."
   },
   "links": [
     {
-      "rel": "cc:licence",
+      "rel": "cc:license",
       "href": "http://creativecommons.org/licenses/by-sa/3.0/"
     }
   ],
   "properties": {
-    "dcterms:modified": "2025-01-30T00:00:00Z",
-    "schema:accessibilityFeature": [
-      "alternativeText",
-      "readingOrder",
-      "structuralNavigation",
-      "tableOfContents"
-    ],
-    "schema:accessMode": [
-      "textual",
-      "visual"
-    ],
+    "dcterms:modified": "2025-06-10T00:00:00Z",
+    "schema:accessibilityFeature": ["alternativeText", "readingOrder","structuralNavigation", "tableOfContents"],
+    "schema:accessMode": ["textual","visual"],
     "schema:accessModeSufficient": "textual",
-    "schema:accessibilityControl": [
-      "fullKeyboardControl",
-      "fullMouseControl"
-    ]
+    "schema:accessibilityControl": ["fullKeyboardControl", "fullMouseControl"]
   }
 }

@@ -2,10 +2,15 @@
 title: Reading visual contents
 role: doc-chapter
 epubtype: chapter
+class: colbreak filet
 draft: false
 ---
 
 # Reading visual contents
+
+Visual content can appears in all formats except those that are exclusively audio. This section covers the various situations with the exception of portable document formats (PDF) for which a third-party reader (pdf.js, also used by Firefox notably) is integrated into Thorium. Therefore, a specific section of this user guide is dedicated to [Reading PDF](../214_reading_pdfs/index.xhtml).
+
+<section class="filet">
 
 ## Zooming on images {#read_images_zoom}
 
@@ -35,3 +40,6 @@ To close the image zoom view and to return to the reading view, press
 Some restrictions due to ebook design may apply, for example when images
 are inserted as style (CSS), it is not possible to open the image view
 for zooming.
+
+
+</section>

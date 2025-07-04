@@ -6,125 +6,94 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Lire des contenus textuels</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
-      <hr class="asterism" aria-hidden="true"></hr>
-      <h2>Lire des contenus textuels</h2>
-      <p>Pour le contenu textuel, Thorium propose une lecture visuelle et une lecture audio.</p>
-      <h3 id="read_text_adjust">Affichage du texte</h3>
-      <p>Dans l'interface de lecture, utilisez le bouton 
-        <code>Preferences</code>
-        <img src="../../resources/images/icons3/textarea-icon.svg" role="presentation" alt=""/>
-      </p>
-      <p>Les paramètres de lecture peuvent être sauvegardés ou réinitialisés en utilisant les boutons 
-        <span class="ui_button">Enregistrer</span> et 
-        <span class="ui_button">Réinitialiser</span> situés dans le menu 
-        <span class="ui_button">Paramètres</span> , sous-menu 
-        <span class="ui_button">Configuration</span> de la fenêtre de lecture.
-      </p>
-      <p>Les paramètres principaux sont disponibles pour les formats EPUB redistribuables, EPUB à mise en page fixe et PDF, mais ne permettent pas de personnaliser l'apparence. La plupart des EPUB à mise en page fixe permettent d'ouvrir la vue Image pour zoomer sur une page. Les PDF peuvent être agrandis à l'aide du sous-menu Zoom du panneau Préférences.</p>
-      <h3 id="read_text_adjust_theme">Thème</h3>
-      <p>La couleur de l'arrière-plan et du premier plan peut être modifiée à l'aide de l'un des thèmes disponibles.</p>
-      <h3 id="read_text_adjust_font">Texte</h3>
-      <p>La taille de la police peut être augmentée ou diminuée à l'aide du curseur. La police peut également être modifiée. Les options disponibles sont les suivantes : Par défaut, Ancien style, Moderne, Sans, Humaniste, Lisible (Dyslexie), Double espace et Monospace.</p>
-      <p>En sélectionnant 
-        <code>...</code> vous pouvez saisir le nom de la police que vous souhaitez utiliser. Pour ce faire, la police doit être présente sur votre système d'exploitation et vous devez connaître son nom exact tel qu'il est défini pour le système d'exploitation.
-      </p>
-      <h4 >Exemple 1 : Définition de Verdana comme police de lecture {#read_text_example_verdana}</h4>
-      <ol>
-        <li>Dans l'interface de lecture, allez dans le menu 
-          <code>Preference</code> puis 
-          <code>Text</code> .
-        </li>
-        <li>Dans la liste déroulante, sélectionnez 
-          <code>...</code> .
-        </li>
-        <li>Écrivez le mot 
-          <em>Verdana</em> dans le champ vide qui apparaît à côté de la liste déroulante.
-        </li>
-        <li>Confirmez avec 
-          <kbd>Entrée</kbd> .
-        </li>
-      </ol>
-      <p >
-        <img src="../../resources/images/local-fr/thorium-verdana.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" class=""/>
-      </p>
-      <h4 >Exemple 2 : Configuration de Luciole comme police de lecture {#read_text_example_luciole}</h4>
-      <ol>
-        <li>
-          <a href="https://www.luciole-vision.com/#download">Téléchargez et installez la police Luciole</a>
-        </li>
-        <li>Dans l'interface de lecture, allez dans le menu 
-          <code>Preference</code> puis 
-          <code>Text</code> .
-        </li>
-        <li>Dans la liste déroulante, sélectionnez 
-          <code>...</code> .
-        </li>
-        <li>Écrivez le mot 
-          <em>Luciole</em> dans le champ vide qui apparaît à côté de la liste déroulante.
-        </li>
-        <li>Confirmez avec 
-          <kbd>Entrée</kbd> .
-        </li>
-      </ol>
-      <p >
-        <img src="../../resources/images/local-fr/thorium-luciole.png" alt="Capture d'écran montrant le panneau de paramètres du texte avec Verdana configuré comme Police de lecture" class=""/>
-      </p>
-      <h3 id="read_text_display">Afficher</h3>
-      <p>Vous pouvez choisir entre une mise en page avec défilement ou pagination, un alignement automatique ou justifié et automatique ou sur 1 ou 2 colonnes. Ici aussi, MathJax peut être activé, pour l'affichage d'expressions mathématiques.</p>
-      <h3 id="read_text_spaces">Espacement</h3>
-      <p>Les marges, l'espacement des mots, l'espacement des lettres, l'espacement des paragraphes et l'interligne peuvent être ajustés.</p>
-      <h3 id="read_text_readaloud">Lire à haute voix</h3>
-      <p>Fournit des options pour une 
-        <code>clean view</code> et épurée et la possibilité d'ignorer le contenu secondaire ( 
-        <code>skippability</code> ) qui peut inclure des notes de bas de page ou des barres latérales selon la sémantique indiquée lors de la production du livre numérique. 
-        <code>Split TTS</code> divisera le contenu par phrase pour une mise en évidence plus précise.
-      </p>
-      <h2 id="read_text_TTS">Synthèse vocale (TTS)</h2>
-      <p>La synthèse vocale est lancée à l'aide du bouton du haut-parleur au milieu de la barre d'outils, ou en utilisant le raccourci clavier 
-        <kbd>Ctrl</kbd> + 
-        <kbd>2</kbd>.
-      </p>
-      <ul>
-        <li>
-          <p>La lecture et la pause peuvent être contrôlées avec le raccourci clavier 
-            <kbd>Ctrl</kbd> + 
-            <kbd>2</kbd>.
-          </p>
-        </li>
-        <li>
-          <p>La position de lecture peut être déplacée avec 
-            <kbd>Ctrl</kbd> + 
-            <kbd>1</kbd> et 
-            <kbd>Ctrl</kbd> + 
-            <kbd>3</kbd> pour respectivement précédent et suivant.
-          </p>
-        </li>
-        <li>
-          <p>Un contrôle de vitesse est disponible lorsque la lecture à voix haute est sélectionnée, avec une plage de x0,5 à x2.</p>
-        </li>
-        <li>
-          <p>La phrase actuelle est surlignée en jaune clair et chaque mot prononcé est souligné en orange.</p>
-        </li>
-        <li>
-          <p>Une vue alternative (simplifiée) de la publication est fournie via des options disponibles dans le menu 
-            <code>Settings / Readaloud</code>.
-          </p>
-        </li>
-      </ul>
-      <div class="info"> 
-Thorium utilise les voix du système d'exploitation de l'ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l'entrée de la FAQ correspondante 
-
-        <p>
-          <a href="https://thorium.edrlab.org/fr/th3/400_ressources/430_faq/#TTSvoices">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à voix haute (TTS)</a>.
+    <section class="colbreak filet"  role="doc-chapter" >
+      <section class="filet">
+        <h2>Lire de contenus textuels</h2>
+        <p>Pour les contenus principalement textuels, Thorium propose la lecture visuelle et la lecture à voix haute, également connue comme synthèse vocale ou 
+          <span lang="en">Text to speech (TTS)</span> en anglais. Cette section se concentre sur les ajustements du texte, tandis que les capacités de 
+          <a href="../213_reading_auditory/index.xhtml#readaloud">Lecture à voix haute (synthèse vocale)</a> lecture à haute voix font l'objet d'une section spécifique dans la section Lecture audio.
         </p>
-      </div>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_adjust">Paramètres d'ajustement du texte</h3>
+        <p>Dans l'interface de lecture, utilisez le bouton &quot;Préférences&quot;.
+
+          <img src="../../resources/images/textarea-icon.svg" role="presentation" alt="" class="icon"/>
+        </p>
+        <p>Les paramètres de lecture peuvent être sauvegardés ou réinitialisés à l'aide des boutons 
+          <span class="ui_button">Sauvegarder</span> et 
+          <span class="ui_button">Réinitialiser</span> situés dans le menu
+
+          <span class="ui_button">Réglages</span>, sous-menu 
+          <span class="ui_button">Configuration</span> de la fenêtre de lecture.
+        </p>
+        <p>Les principaux paramètres sont disponibles pour les formats EPUB à mise en forme adaptable, Les formats PDF ne permettent pas de personnaliser l'apparence. La plupart des EPUB à Fixed Layout permettent d'utiliser la vue Image pour zoomer sur une page (voir la section 
+          <a href="../212_reading_visuals/index.xhtml">Lire des visuels</a>). Les PDF peuvent être agrandis à l'aide du sous-menu Zoom dans le panneau des préférences.
+        </p>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_adjust_theme">Theme</h3>
+        <p>La couleur de l'arrière-plan et de l'avant-plan peut être modifiée en utilisant l'un des thèmes disponibles.</p>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_adjust_font">Texte</h3>
+        <p>La taille de la police peut être augmentée ou diminuée à l'aide du curseur. La police
+peut également être modifiée. Des options prédéfinies sont disponibles mais il est également possible d'entrer le nom de la police que vous voulez utiliser.
+Pour cela, la police doit être présente sur votre système d'exploitation et vous devez connaître son nom exact tel qu'il est défini pour le système d'exploitation.</p>
+        <div class="framed">
+          <h2 id="read_text_example_verdana">Exemple 1 : Définir Verdana comme police de lecture</h2>
+          <ol>
+            <li>Dans l'interface de lecture, allez dans le menu 
+              <code>Préférence</code> et ensuite
+
+              <code>Texte</code>.
+            </li>
+            <li>Positionnez le curseur dans le champ de sélection de la police.</li>
+            <li>Ecrivez le mot 
+              <em>Verdana</em> dans le champ vide qui apparaît à côté de la liste déroulante.
+liste déroulante.
+            </li>
+            <li>Confirmez avec 
+              <kbd>Enter</kbd>.
+            </li>
+          </ol>
+          <h2 id="read_text_example_luciole">Exemple 2 : Configurer Luciole comme police de lecture</h2>
+          <ol>
+            <li>
+              <a href="https://www.luciole-vision.com/#download">Téléchargez et installez la police Luciole
+font</a>
+            </li>
+            <li>Dans l'interface de lecture, allez dans le menu 
+              <code>Préférence</code> et ensuite
+
+              <code>Texte</code>.
+            </li>
+            <li>Positionnez le curseur dans le champ de sélection de la police.</li>
+            <li>Ecrivez le mot 
+              <em>Luciole</em> dans le champ vide qui apparaît à côté de la liste déroulante.
+            </li>
+            <li>Confirmez avec 
+              <kbd>Enter</kbd>.
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_display">Affichage</h3>
+        <p>Vous pouvez choisir entre une mise en page avec défilement ou pagination,
+l'alignement automatique ou justifié et l'affichage automatique ou sur 1 ou 2 colonnes. Selon la taille de la fenêtre de lecture, le choix du nombre de colonnes peut être impossible.</p>
+        <p>Ici aussi, MathJax peut être activé, pour un affichage alternatif des expressions mathématiques.</p>
+      </section>
+      <section class="filet">
+        <h3 id="read_text_spaces">Espacement</h3>
+        <p>Les marges, l'espacement des mots, l'espacement des lettres, l'espacement des paragraphes et l'espacement des lignes peuvent être ajustés.</p>
+      </section>
     </section>
   </body>
 </html>

@@ -6,182 +6,227 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
-    <title>Ventanas, vistas y paneles.</title>
+    <title>Ventanas, vistas y paneles</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
-      <hr class="asterism" aria-hidden="true"></hr>
-      <h1 id="windows_and_views">Ventanas, vistas y paneles.</h1>
-      <p>El lector Thorium tiene una ventana principal y una ventana adicional por abierto
-libro. La ventana principal siempre está abierta y ofrece 4 vistas (en casa, todo
-libros, catálogos y configuraciones generales) mientras que las vistas de Windows de libros
-Depende del formato del libro (textual, audio, visual). Cada formato
-Permitir una selección de paneles de acción que se puedan acoplar a un lado del
-vista.</p>
-      <h2 id="main_window">Ventana principal</h2>
-      <p>La ventana principal es donde puede acceder y organizar sus colecciones como
-así como la configuración que se aplican a toda la aplicación. Cerrando el
-Windows principal Clese la aplicación y todas las ventanas de lectura se abrieron.</p>
-      <h3 id="home_view">Home View</h3>
-      <p>Esta vista es para acceso rápido. Encuentras aquí los libros que has estado
-Lectura recientemente y las que agregó recientemente. Las posibles acciones son
-para importar una publicación, abrir una publicación y abrir una publicación
-menú. 
-        <img src="../../resources/images/local-es/th3_main_window_home.png" class="icon" alt="" role="presentation"/>
+    <section class="colbreak filet"  role="doc-chapter" >
+      <h1 id="windows_and_views">Ventanas, vistas y paneles</h1>
+      <p>Thorium reader tiene una ventana principal y una ventana adicional por cada libro abierto.
+abierto. La ventana principal está siempre abierta y ofrece 4 vistas (
+        <span class="ui_button">Inicio</span>, 
+        <span class="ui_button">Todos los
+libros</span>, 
+        <span class="ui_button">Catálogos</span> y 
+        <span class="ui_button">Configuración</span>) mientras que las vistas de las ventanas de los libros
+dependerán del formato del libro (textual, audio, visual). Cada formato
+permitirá una selección de paneles de acción que pueden acoplarse a un lado de la
+vista.
       </p>
-      <h3 id="all_publications_view">Todas las publicaciones</h3>
-      <p>Este es el lugar donde están todas sus publicaciones. Con el tiempo puede
-llena de cientos de libros para que necesite opciones para clasificar y buscar.
-Debido a eso, este punto de vista es más complejo. Primeros botones en esta página
-permite seleccionar entre dos modos de vista, cuadrícula y tabla que afectará
-la visualización de la lista de libros electrónicos y ofrece diferentes opciones para clasificar y
-Filtro, se detallan dos párrafos a continuación.</p>
-      <p>Las acciones disponibles en el nivel de vista son importar una publicación, para
-Buscar, para filtrar por etiqueta y navegar por páginas de su biblioteca. Biblioteca
-Las páginas son como estantes o pilas, ya que toda la vista de publicación es limitada
-a 50 publicaciones para mantenerlo utilizable.</p>
-      <h4 id="grid_mode">Modo de cuadrícula</h4>
-      <p>El modo de cuadrícula presenta los libros como tarjetas, la tabulación del teclado
-conducirlo de un libro a otro. Este modo ofrece lo posible
-Acciones para abrir una publicación y para abrir el menú de publicación.</p>
-      <h4 id="table_mode">Modo de tabla</h4>
-      <p>El modo de tabla presenta un libro por línea y permite visualizar un
-Gran cantidad de información generalmente disponible solo en el libro
-panel de información. La tabulación del teclado lo conducirá a través de todos esos
-detalles.</p>
-      <h3 id="catalog_view">Vista Catálogos</h3>
-      <p>Este es el lugar donde puede almacenar, acceder y navegar por los catálogos en línea
+      <section class="filet">
+        <h2 id="main_window">Ventana principal</h2>
+        <p>La ventana principal es donde puede acceder y organizar sus colecciones, así como
+así como los ajustes que se aplican a toda la aplicación. Al cerrar la
+ventana principal cierra la aplicación y todas las ventanas de lectura abiertas.</p>
+      </section>
+      <section class="filet">
+        <h3 id="home_view">Vista de inicio</h3>
+        <p>Esta vista es de acceso rápido. Aquí encontrará los libros que ha
+leído recientemente y los que ha añadido recientemente. Las acciones posibles son
+para 
+          <span class="ui_button">Importar publicación</span>, para 
+          <em>Abrir una publicación</em> activando el enlace en su portada y para 
+          <em>Abrir menú de publicación</em> usando el botón de menú de tres puntos 
+          <img src="../../resources/images/threedot.svg" class="icon" alt="" role="presentation"/>.
+        </p>
+      </section>
+      <section class="filet">
+        <h3 id="all_publications_view">Vista 
+          <span class="ui_button">Todos los libros</span>
+        </h3>
+        <p>Este es el lugar donde están todas tus publicaciones. Con el tiempo puede
+llenarse de cientos de libros por lo que necesitas opciones para ordenar y buscar.
+Por eso, esta vista es más compleja. Los primeros botones de esta página
+permite seleccionar entre dos modos de vista, 
+          <span class="ui_button">Presentación en cuadrícula</span> y 
+          <span class="ui_button">Presentación en lista</span> que afectarán a
+la visualización de la lista de ebooks y ofrecen diferentes opciones para ordenar y
+filtrar, se detallan dos párrafos más abajo.
+        </p>
+        <p>Las acciones disponibles en el nivel 
+          <span class="ui_button">Ver</span> son 
+          <em>Importar una publicación</em>, 
+          <em>Buscar</em>, 
+          <em>Buscar en la lista de libros electrónicos</em>.
+
+          <em>Buscar</em>, para 
+          <em>Filtrar por etiqueta</em> y 
+          <em>navegar por páginas de su biblioteca</em>. Biblioteca
+biblioteca son como estanterías o pilas, ya que la vista 
+          <span class="ui_button">Todas las publicaciones</span> está limitada
+a 50 publicaciones para mantenerla utilizable.
+        </p>
+      </section>
+      <section class="filet">
+        <h2 id="grid_mode">Presentación en cuadrícula</h2>
+        <p>La 
+          <span class="ui_button">Presentación en cuadrícula</span> presenta los libros como tarjetas, la tabulación por teclado le
+le conducirá de un libro a otro. Este modo ofrece las
+acciones &quot;Abrir una publicación&quot; y &quot;Abrir el menú Publicación&quot;.
+        </p>
+      </section>
+      <section class="filet">
+        <h2 id="table_mode">Presentación en lista</h2>
+        <p>La 
+          <span class="ui_button">Presentación en lista </span> presenta un libro por línea y permite visualizar un
+un gran número de informaciones normalmente disponibles sólo en el &quot;Panel de
+información del libro&quot;. La tabulación por teclado le guiará a través de todos esos
+detalles.
+        </p>
+      </section>
+      <section class="filet">
+        <h3 id="catalog_view">Vista de catálogos</h3>
+        <p>Este es el lugar donde puede almacenar, acceder y navegar por los catálogos en línea
 y adquirir o tomar prestados libros electrónicos de ellos. Al principio este lugar parecerá
-vacío porque no precargamos ningún catálogo. El 
-        <em>soporte adicional en línea
-en línea 
-          <a href="https://thorium.edrlab.org/th3/get_ebooks/">¿Dónde conseguir
-ebooks?</a>
-        </em> puede ayudarle a
-a identificar los catálogos disponibles si aún no tiene ninguno en mente.
-      </p>
-      <p>Hay dos protocolos de catálogos disponibles.</p>
-      <ol>
-        <li>
-          <a href="https://opds.io/">OPDS</a>, un formato estándar para mostrar catálogos en
-la Web. Thorium puede proporcionar acceso a los catálogos OPDS 1 y 2.
-        </li>
-        <li>Catálogo legible por máquina de las bibliotecas públicas francesas (similar a OPDS
-pero no idéntico).</li>
-      </ol>
-      <p>Los detalles y la forma de configurar y utilizar los catálogos están disponibles en la
+vacío porque no precargamos ningún catálogo. El soporte adicional en línea
+
+          <a href="https://thorium.edrlab.org/es/th3/get_ebooks/">¿Dónde conseguir ebooks?</a>
+puede ayudarle a identificar los catálogos disponibles si aún no tiene ninguno en mente.
+        </p>
+        <p>Thorium le permite cargar y consultar catálogos 
+          <a href="https://opds.io/">OPDS</a>, un formato estándar para mostrar un catálogo en la Web.
+        </p>
+        <p>El acceso a las bibliotecas públicas francesas puede activarse desde las preferencias de la aplicación (API Dilicom PNB).</p>
+        <p>Los detalles y la forma de configurar y utilizar los catálogos están disponibles en la
 sección 
-        <a href="../111_catalogs_actions/index.xhtml">Acciones catálogos</a>.
-      </p>
-      <h3 id="setting_view">Panel de configuración de la aplicación</h3>
-      <p>La configuración de la aplicación está dividida en tres pestañas:</p>
-      <ol>
-        <li>La pestaña General le permite:
+          <a href="../111_catalogs_actions/index.xhtml">Acciones catálogos</a>.
+        </p>
+      </section>
+      <section class="filet">
+        <h3 id="setting_view">Panel de configuración de la aplicación</h3>
+        <p>La configuración de la aplicación está dividida en tres pestañas:</p>
+        <ol>
+          <li>La pestaña 
+            <span class="ui_button">General</span> permite:
 
-          <ol>
-            <li>Seleccionar el idioma de la interfaz,</li>
-            <li>Gestionar la autentificación almacenada de acceso a los catálogos. El botón 
-              <span class="ui_button">borrar datos de acceso</span> borrará cualquier autentificación de Catálogo previamente almacenada (útil si está leyendo en un ordenador público o compartido o si desea cambiar la cuenta con
-la que está conectado).
-            </li>
-            <li>Guardar sesión (significa que la aplicación recordará las
-ventanas abiertas al cerrar y las reabrirá al volver a lanzarla).</li>
-            <li>Añadir una cuenta de biblioteca activando el acceso a la API PNB de Dilicom. Un desplegable Cómo funciona ofrece más detalles sobre esta funcionalidad utilizada para acceder a las bibliotecas públicas francesas.</li>
-            <li>El creador permite establecer un nombre para añadirlo a las anotaciones. Este Nombre puede clasificarse como Organización o Persona. Se exportará con las anotaciones, por lo que los usuarios deben prestar atención a posibles problemas de privacidad. Si se deja este campo en blanco, las anotaciones se atribuirán a &quot;Desconocido1&quot;.</li>
-          </ol>
-        </li>
-        <li>La pestaña Apariencia le permite elegir el Tema de la aplicación (oscuro, claro
-o automático para ajustarse a las preferencias del sistema).</li>
-        <li>La pestaña Atajos de teclado le ayuda a comprobar y manipular las acciones
-teclado dentro de la aplicación. Descubra los tres puntos
-a un lado del título del Panel con acciones adicionales (Restablecer, Editar y
-Cargar). La de Editar abre la aplicación de la carpeta del sistema a la
-localización del archivo .json de configuración de usuario almacenado, permitiéndole
-de usuario .json almacenado, lo que le permite editarlo fuera de la
-usos futuros o compartirlo dentro de tus dispositivos o con quien quieras.
+            <ol>
+              <li>
+                <em>seleccionar el idioma</em> de la interfaz,
+              </li>
+              <li>
+                <em>Acceder a los catálogos de publicaciones</em>. El botón 
+                <span class="ui_button">Borrar datos de acceso</span> borrará cualquier autentificación de Catálogo previamente almacenada (útil si estás leyendo en un ordenador público o compartido o si quieres cambiar la cuenta con la que estás conectado).
+              </li>
+              <li>
+                <em>Guardar sesión</em> (significa que la aplicación recordará las ventanas abiertas al cerrar y las volverá a abrir cuando se vuelva a lanzar).
+              </li>
+              <li>
+                <em>Añadir una cuenta de biblioteca</em> activando el acceso a la API PNB de Dilicom. Un desplegable Cómo funciona ofrece más detalles sobre esta funcionalidad utilizada para acceder a las bibliotecas públicas francesas.
+              </li>
+              <li>
+                <span class="ui_button">Creator</span> permite 
+                <em>configurar un Nombre para añadirlo a las anotaciones</em>. Este Nombre puede categorizarse como Organización o Persona. Se exportará con las anotaciones, por lo que los usuarios deben prestar atención a posibles problemas de privacidad. Si deja este campo en blanco, las anotaciones se atribuirán a &quot;Desconocido1&quot;.
+              </li>
+            </ol>
+          </li>
+          <li>La pestaña 
+            <span class="ui_button">Apariencia</span> permite elegir el Tema de la aplicación (oscuro, claro o automático para ajustarse a las preferencias del sistema).
+          </li>
+          <li>La pestaña 
+            <span class="ui_button">Accesos directos del teclado</span> le ayuda a comprobar y manipular las acciones del teclado dentro de la aplicación. Descubre los tres puntos a un lado del título del Panel con acciones adicionales (
+            <span class="ui_button">Reiniciar</span>, 
+            <span class="ui_button">Editar</span> y 
+            <span class="ui_button">Cargar</span>). El 
+            <span class="ui_button">Editar</span> abre la aplicación de carpeta de sistema a la localización del archivo 
+            <code>.json</code> de configuración de usuario almacenado, lo que le permite editarlo fuera de la aplicación (a su propio riesgo), guardarlo para usos futuros o compartirlo dentro de tus dispositivos o con quien quieras.
+          </li>
+        </ol>
+      </section>
+      <section class="filet">
+        <h2 id="reading_window">Ventana de lectura</h2>
+        <p>Cuando se abre un libro, se muestra en una nueva ventana, lo que significa que puede tener varios libros abiertos al mismo tiempo, cada uno en una ventana independiente que puedes organizar a tu antojo.</p>
+      </section>
+      <section class="filet">
+        <h3 id="reading_nav_panel">Panel de navegación de lectura</h3>
+        <p>Accesible desde la barra de herramientas superior de la ventana de lectura a través de un icono de libro abierto
+          <img src="../../resources/images/open_book.svg" class="icon" alt="" role="presentation"/>, ese panel contiene un menú desplegable para acceder a diferentes medios de navegación. La disponibilidad y el contenido de cada medio de navegación. Para epub, son:
+        </p>
+        <ul>
+          <li>
+            <img src="../../resources/images/toc-icon.svg" class="icon" alt="" role="presentation"/>
+            <span class="ui_button"> Tabla de contenido</span> (TOC), un listado proporcionado por el autor del ebook, normalmente similar a la estructura de encabezados de contenido pero no necesario. Un creador de contenido puede decidir, por ejemplo, limitar la Tabla de Contenido a una cierta profundidad.
+          </li>
+          <li>
+            <img src="../../resources/images/landmark-icon.svg" class="icon" alt="" role="presentation"/>
+            <span class="ui_button"> Puntos de referencia</span>, una lista autoríada de los principales puntos de interés del ebook, por ejemplo Prólogos, Aviso de copyright, Contenido principal y anexos.
+          </li>
+          <li>
+            <img src="../../resources/images/target-icon.svg" class="icon" alt="" role="presentation"/>
+            <span class="ui_button"> Ir a la página</span>, una lista de saltos de página. La lista de páginas puede hacer referencia a una versión impresa y permitir utilizar el ebook en un entorno de lectura mixto, de modo que sea posible localizar o hacer una cita. En tal caso, Thorium Reader en realidad no ofrece ningún medio para identificar el libro impreso relacionado, sino que tiene que ser informado textual y explícitamente en el contenido por el creador del contenido.
+          </li>
+          <li>
+            <img src="../../resources/images/search-icon.svg" class="icon" alt="" role="presentation"/>
+            <span class="ui_button"> Buscar</span>, una lista generada de coincidencias de búsqueda para ayudar al lector a navegar entre los resultados de búsqueda. Este panel sólo tiene contenido cuando la función de búsqueda está activada.
+          </li>
+          <li>
+            <img src="../../resources/images/bookmarkMultiple-icon.svg" class="icon" alt="" role="presentation"/>
+            <span class="ui_button"> Marcadores</span>, una lista generada de marcadores del usuario. Este panel ofrece la posibilidad de eliminar el marcador o editar su texto adjunto e informa en porcentajes de la progresión de lectura en la que se encuentra.
+          </li>
+          <li>
+            <img src="../../resources/images/annotation-icon.svg" class="icon" alt="" role="presentation"/>
+            <span class="ui_button"> Anotaciones</span>, una lista generada de anotaciones del usuario.
+          </li>
+        </ul>
+      </section>
+      <section class="filet">
+        <h3 id="reading_settings_panel">Panel de ajustes de lectura</h3>
+        <p>Accesible desde la barra de herramientas superior de la ventana de lectura, este panel contiene todas las posibles configuraciones del usuario para ajustar la visualización de los contenidos textuales. Es importante recordar que estas posibilidades pueden estar restringidas por la forma en que se creó el contenido.</p>
+        <p>Encontrará información detallada sobre los ajustes de lectura disponibles por formatos en la página
 
-          <img src="../../resources/images/local-es/th3_main_settings_keys_context.png" class="icon" alt="" role="presentation"/>
-        </li>
-      </ol>
-      <h2 id="reading_window">Ventana de lectura</h2>
-      <p>Cuando se abre un libro, se muestra en una nueva ventana, lo que significa que usted
-puede tener varios libros abiertos al mismo tiempo, cada uno en una ventana
-independiente que puedes organizar a tu antojo.</p>
-      <h3 id="reading_nav_panel">Panel de navegación de lectura</h3>
-      <p>Accesible desde la barra de herramientas superior de la ventana de lectura, ese panel contiene un menú desplegable para acceder a diferentes medios de navegación. La disponibilidad y el contenido de cada medio de navegación. Para EPUB, son:</p>
-      <ul>
-        <li>
-          <strong>Tabla de contenido</strong> (TOC), un listado de autoría del contenido del ebook, normalmente similar a la estructura de encabezamiento del contenido pero no necesario. Un creador de contenidos puede decidir, por ejemplo, limitar la Tabla de Contenidos a una cierta profundidad.
-        </li>
-        <li>
-          <strong>Landmarks</strong>, una lista de autoría de los principales puntos de interés del ebook, normalmente Prólogos, Aviso de Copyright, Contenido principal y anexos.
-        </li>
-        <li>
-          <strong>Ir a la página</strong>, una lista de saltos de página. La lista de páginas puede hacer referencia a una versión impresa y permitir utilizar el ebook en un entorno de lectura mixto, de modo que sea posible localizarlo o citarlo. En tal caso, Thorium Reader no ofrece ningún medio para identificar el libro impreso relacionado, sino que debe ser informado textual y explícitamente en el contenido por el creador del mismo.
-        </li>
-        <li>
-          <strong>Búsqueda</strong>, una lista generada de coincidencias de búsqueda para ayudar al lector a navegar entre los resultados de búsqueda. Este panel sólo tiene contenido cuando la función de búsqueda está activada.
-        </li>
-        <li>
-          <strong>Marcadores</strong>, una lista generada de marcadores del usuario. Este panel ofrece la posibilidad de borrar el marcador o editar su texto adjunto e informa en porcentajes de la progresión de lectura en la que se encuentra.
-        </li>
-        <li>
-          <strong>Anotaciones</strong>, una lista generada de anotaciones del usuario.
-        </li>
-      </ul>
-      <h3 id="reading_settings_panel">Panel de ajustes de lectura</h3>
-      <p>Accesible desde la barra de herramientas superior de la ventana de lectura, este panel contiene todas las configuraciones posibles del usuario para ajustar la visualización de los contenidos textuales. Es importante recordar que estas posibilidades pueden estar restringidas por la forma en que se creó el contenido.</p>
-      <p>Encontrará información detallada sobre los ajustes de lectura disponibles por formatos en la página
+          <a href="../210_reading/index.xhtml">Subsecciones de lectura</a>.
+        </p>
+      </section>
+      <section class="filet">
+        <h2 id="book_info_panel">Panel de información del libro</h2>
+        <p>La información sobre los libros está disponible en un panel específico al que se puede acceder
+desde el menú de acciones del libro de las estanterías de la biblioteca
 
-        <a href="../210_reading/index.xhtml">Subsecciones de lectura</a>:
-      </p>
-      <ul>
-        <li>
-          <a href="../211_reading_textuals/index.xhtml">Lectura de contenidos textuales</a>
-        </li>
-        <li>
-          <a href="../212_reading_visuals/index.xhtml">Lectura de contenidos visuales</a>
-        </li>
-        <li>
-          <a href="../213_reading_auditory/index.xhtml">Lectura de contenidos de audio</a>
-        </li>
-        <li>
-          <a href="../214_reading_pdfs/index.xhtml">Lectura de PDFs</a>
-        </li>
-      </ul>
-      <h2 id="book_info_panel">Panel de información del libro</h2>
-      <p>La información del libro está disponible en un panel dedicado al que se puede acceder
-desde el menú de acción de libros de las estanterías de la biblioteca
+          <span class="ui_button">Acerca de la publicación</span> o desde el icono de información de la ventana de lectura
 
-        <img src="../../resources/images/icons3/info-icon.svg" class="icon" alt="" role="presentation"/>
-        <span class="ui_button">Acerca de la publicación</span> o desde la ventana de lectura, tras el Icono de información
-
-        <img src="../../resources/images/icons3/info-icon.svg" class="icon" alt="" role="presentation"/>.
-      </p>
-      <p>Este Panel muestra la información del libro electrónico proporcionada por el archivo.
+          <img src="../../resources/images/info-icon.svg" alt="" role="presentation" class="icon"/>.
+        </p>
+        <p>Este Panel muestra la información del libro electrónico proporcionada por el archivo.
 la fiabilidad de esta información depende del creador del archivo, normalmente
 el editor. La información mostrada es:</p>
-      <ul>
-        <li>Portada de la publicación con la alternativa textual adjunta si presente</li>
-        <li>Título de la publicación</li>
-        <li>Autor de la publicación</li>
-        <li>Descripción o resumen</li>
-        <li>Datos de la publicación, incluido el idioma</li>
-        <li>Información de accesibilidad mostrada según las 
-          <a href="https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated">W3C Display Guide for Accesibilidad metadata</a>.
-        </li>
-        <li>Etiquetas, incluida la posibilidad de 
-          <img src="../../resources/images/icons3/tag-icon.svg" class="icon" alt="" role="presentation"/>
-          <span class="ui_button">Añadir</span> sus propias etiquetas.
-        </li>
-        <li>Progresión</li>
-      </ul>
-      <p>Este panel tiene la particularidad de no ser acoplable ya que no
-proporciona acciones que necesiten tener acceso al contenido principal del
-libro.</p>
+        <ul>
+          <li>
+            <em>Cubierta</em> de la publicación con su alternativa textual adjunta si está presente
+          </li>
+          <li>
+            <em>Título</em> de la publicación
+          </li>
+          <li>
+            <em>Autor</em> de la publicación
+          </li>
+          <li>
+            <em>Descripción</em> o currículum
+          </li>
+          <li>*Detalles de la publicación, incluido el *idioma de la publicación</li>
+          <li>
+            <em>Información de accesibilidad</em> mostrada siguiendo las directrices internacionales (para más información, véase 
+            <a href="https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles/?updated">W3C Display Guide for Accessibility metadata</a>).
+          </li>
+          <li>
+            <em>Etiquetas</em>, incluida la posibilidad de 
+            <img src="../../resources/images/tag-icon.svg" class="icon" alt="" role="presentation"/>
+            <span class="ui_button">Añadir</span> sus propias etiquetas.
+          </li>
+          <li>Progresión</li>
+        </ul>
+        <p>Este panel tiene la particularidad de no ser acoplable ya que no proporciona acciones que necesiten tener acceso al contenido principal del libro.</p>
+      </section>
     </section>
   </body>
 </html>

@@ -2,6 +2,7 @@
 title: Annotations
 role: doc-chapter
 epubtype: chapter
+class: colbreak filet
 draft: false
 ---
 
@@ -13,22 +14,26 @@ by [opening an issue](https://github.com/edrlab/thorium-reader/issues/new) or [s
 
 The simplest way to add an annotation is to select a text and hit the
 Annotations button
-(<img src="../../resources/images/icons3/annotation-icon.svg" class="icon" role="presentation"/>) or stroke the keyboard shortcut <kbd>Shift</kbd> +
+(<img src="../../resources/images/annotation-icon.svg" class="icon" role="presentation"/>) or stroke the keyboard shortcut <kbd>Shift</kbd> +
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd>. This opens the Annotation pop up
 and place the cursor into the input box where you can write your
 annotation (optional). You can change highlight color and type (Solid
 background, Underline, Strikethrough or Outline) then validate the
 creation of the annotation with <span class="ui_button">Save</span>.
 
-<img src="../../resources/images/local_en/th3_anotation_pop_up.png" class="icon" role="presentation"/>
-
 Annotations in the content can not be reached by keyboard tabulation. To navigate between them, keyboard users need to open the Annotation Panel.
 
+
+<section class="filet">
 
 ## Annotations panel {#annotations_panel}
 
 The navigation panel has a section dedicated to Annotations. 
 It allows you to adjust your annotation display and behaviour to your practice and also review, manipulate, delete, sort, filter and navigate thru your annotations.
+
+
+</section>
+<section class="filet">
 
 ## Options for annotations {#annotations_options}
 
@@ -44,6 +49,10 @@ Four options are available:
 The combination of Instant mode and Quick create options let you use the
 serial annotator mode as any selection will create an highlight without
 prompting any pop up.
+
+
+</section>
+<section class="filet">
 
 ## Sort and filter annotations {#annotations_sort_and_filter}
 
@@ -63,6 +72,10 @@ Filtering options are:
 * by Drawtype, Outline, Solid background, Strikethrough	 or Underline;
 * by Creator, if any has been informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
 
+
+</section>
+<section class="filet">
+
 ## Review and manipulation of annotations {#annotations_view_and_manipulation}
 
 Annotations are shown as cards in the panel, one after the other. Each Card contains the text of the annotation, the creation date, the position in the book expressed in progression percentage and  an Edit and a Delete buttons. The text of the annotation acts as a button that will move the focus to the annotation itself, so leaving the context of the annotation panel, some tabulations will have to be done to get back to the annotation panel. 
@@ -70,16 +83,26 @@ Annotations are shown as cards in the panel, one after the other. Each Card cont
 A coloured border on the left visually indicates the Colour settled up for the annotation. This information is not passed to assistive technologies. 
 
 
-## Export and Import of Annotations {#annotations_io}
 
-A set of annotations can be exported or imported. 
+</section>
+<section class="filet">
 
-The export button will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification. 
+## Exchange annotations (Programmatic Import and Export) {#annotations_io}
 
-Annotations are stored with the file extension .annotation and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
+A set of annotations can be exported or imported. This can be done from the Annotations panel in the Reading view and from the book's context menu in the Library views. This allows annotations to be exported even after an LCP licence has expired.
 
-The import button opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported. 
+The export button  <img src="../../resources/images/export-icon.svg" class="icon"  alt="" role="presentation"/> will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification. 
 
-Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original .annotation file which is never linked. 
+Annotations are stored with the file extension `.annotation` and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
 
+The import button  <img src="../../resources/images/import-icon.svg" class="icon"  alt="" role="presentation"/> opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported. 
 
+Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original `.annotation` file which is never linked. 
+
+## Exporter des annotations au format HTML
+
+Depuis Thorium 3.2, il est possible d'exporter les marques pages et les annotations sous la forme d'une page web au format HTML. Dans une version future, nous espérons qu'il soit possible de personnaliser cet export grace à un gabarit personnalisable.
+
+Lors de l'export, sélectionnez l'extension du fichier `.annotation` et modifiez la en `.html`. La suite de l'export se déroule de la même façon. Le bouton "Enregistrer" ouvre une fenêtre "Fichier système" dans laquelle l'utilisateur doit sélectionner l'endroit où il souhaite stocker le fichier d'annotations ainsi que le nom du fichier. Le titre sera utilisé comme nom de fichier prérempli par défaut, mais il peut être modifié sans affecter l'identification du fichier.
+
+</section>

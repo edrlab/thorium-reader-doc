@@ -17,7 +17,7 @@ menu:
 
 <!-- <hr class="asterism"/> -->
 
-<p><b>  La documentation de Thorium 3 est disponible au format EPUB, différentes traductions sont disponibles via le catalogue de documentation de Thorium. Vous pouvez <a class="" href="opds://edrlab.github.io/publications/feeds/thorium31_documentation.json">ajouter le catalogue de documentation à Thorium (lien OPDS)</a> ou <a class="" href="https://thorium.edrlab.org/en/onlinedoc">parcourir la documentation en anglais en ligne dans le lecteur Web Readium</a> .</b></p>
+<p><b>  La documentation de Thorium 3 est disponible au format EPUB, différentes traductions sont disponibles via le catalogue de documentation de Thorium. Vous pouvez <a class="" href="opds://edrlab.github.io/publications/feeds/thorium32_documentation.json">ajouter le catalogue de documentation à Thorium (lien OPDS)</a> ou <a class="" href="https://thorium.edrlab.org/en/onlinedoc">parcourir la documentation en anglais en ligne dans le lecteur Web Readium</a> .</b></p>
 
 <p>Nous serons heureux d'avoir de vos nouvelles par le biais de notre [enquête en ligne](https://ec.europa.eu/eusurvey/runner/2df185ee-057c-42d1-6a02-f405097f052d) afin de mieux connaître les utilisateurs de Thorium Reader.</p>
 

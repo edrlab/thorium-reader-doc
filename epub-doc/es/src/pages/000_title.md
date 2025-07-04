@@ -1,31 +1,17 @@
 ---
-title: Título
-role: doc-credit
-epubtype: credit
+title: Portada
+role: 
+epubtype: title
+class: titlepage
 draft: false
 weight: 100
 auto: false
 ---
 
+# Thorium Reader
 
+Leer, seleccionar, anotar, clasificar<br/>
+¡Perfecto para lectores empedernidos, asiduos a la biblioteca y estudiantes!<br/>
+Sin anuncios ni fugas de datos de los que preocuparse
 
-<p class="title colbreak">
-Publicado en febrero de 2025 por 
-<br/>el European Digital Reading Lab (EDRLAB), un laboraThorium de desarrollo sin fines de lucro.
-</p>
-
----
-
-<div class="title">
-París, Francia
-
-15 Rue de la Bûcherie, 75005 
-
-[contact@edrlab.org](mailto:contact@edrlab.org)
-
-[edrlab.org](https://www.edrlab.org/)
-
-</div>
-
-
----
+*The European Digital Reading Lab (EDRLab), 2025*

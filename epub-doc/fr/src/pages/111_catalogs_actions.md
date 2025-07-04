@@ -1,46 +1,95 @@
 ---
-title: Actions sur les catalogues
-role: ''
-draft: 'false'
+title: Actions pour les catalogues
+role: doc-chapter
+epubtype: chapter
+class: colbreak filet
+draft: false
 ---
 
+# Actions pour les catalogues {#Catalogs_actions}
 
-# Actions sur les catalogues {#Catalogs_actions}
+
+<section class="filet">
 
 ## Mise en place d'un catalogue OPDS
 
-Sélectionnez l'onglet [Catalogues]{.ui_button} puis le bouton [Ajouter un flux OPDS]{.ui_button}. Indiquez un Nom pour désigner ce catalogue et collez une adresse correspondant à un catalogue diffusé au format OPDS. Validez avec le bouton [Ajouter]{.ui_button}.
+Sélectionnez l'onglet <span class="ui_button">Catalogues</span> puis le bouton <span class="ui_button">Ajouter un flux OPDS
+</span>. Indiquez un Nom pour désigner ce catalogue et collez
+une adresse correspondant à un catalogue distribué au format OPDS.
+Validez avec le bouton <span class="ui_button">Ajouter</span>.
 
-Exemple :
+<div class="framed">
 
-L'activation du lien suivant téléchargera un fichier OPDS qui peut être ouvert avec Thorium : [Télécharger le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/)
+Exemple&nbsp;:
 
-Il est également possible d'utiliser le menu contextuel (généralement un clic droit), de copier ce lien et de le coller dans Thorium. Ajoutez un panneau OPDS pour voir la magie se produire.
+L'activation du lien suivant permet de télécharger un fichier .atom qui peut être ouvert avec Thorium.
+ouvrir avec Thorium&nbsp;: [Télécharger le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/)
 
-Les flux OPDS peuvent également être fournis sous forme de liens directs qui doivent s'ouvrir directement dans Thorium. [Ouvrir le flux OPDS pour les nouveaux titres de Gutenberg.org](https://www.gutenberg.org/ebooks/search.opds/)
+</div>
 
-Depuis Thorium 2.2, les flux OPDS peuvent être modifiés afin que vous puissiez changer le nom ou récupérer l'URL du flux.
+Il est également possible d'utiliser le menu contextuel (généralement clic droit), 
+copier le lien et le coller dans Thorium <span class="ui_button">Ajouter un catalogue OPDS</span> pour voir la magie opérer.
 
-![image](../../resources/images/local-fr/thorium-opds-add.png)
+Les flux OPDS peuvent également être fournis sous forme de liens directs qui s'ouvrent directement dans Thorium.
+directement dans Thorium. [Ouvrir le flux OPDS pour la nouvelle version de Gutenberg.org](opds://www.gutenberg.org/ebooks/search.opds/)
 
-##### Exemple de flux OPDS avec contenu protégé par LCP
+Depuis Thorium 2.2, les flux OPDS peuvent être édités, vous pouvez donc changer le nom ou récupérer l'URL du flux.
 
-Les flux avec du contenu protégé devraient vous permettre de vous connecter directement depuis la page du catalogue Thorium, le bouton ou l'accès à la connexion peut être différent selon le fournisseur de flux.
 
-Le flux OPDS d'Archive.org permet de parcourir et d'emprunter des livres sous licence LCP. Un compte Archive org est nécessaire, la page d'authentification s'ouvrira une fois que vous aurez sélectionné un livre. Vous pouvez l'ajouter à Thorium avec l'adresse suivante : [Ouvrir le flux OPDS d'Archive.org](https://archive.org/services/opds)
+</section>
+<section class="filet">
 
-Vous pouvez utiliser [les livres de flux OPDS](https://catalog.feedbooks.com/catalog/index.json) pour parcourir [le catalogue de livres de flux](https://www.feedbooks.com/#) . Une fois que vous avez sélectionné un livre, vous serez redirigé vers la page Web où vous pourrez acheter le livre.
 
-Feedbooks OPDS vous permet de vous connecter depuis le flux du catalogue Thorium avec le bouton *Étagère* dans le coin supérieur droit. Tout livre acheté avec votre compte Feedbooks sera disponible en téléchargement directement depuis l'interface du catalogue de flux Thorium OPDS.
+### Exemple de flux OPDS avec des contenus protégés par LCP
 
-A des fins de test, EDRLab fournit un flux avec trois publications gratuites sous protection LCP. Vous pouvez l'ajouter à Thorium avec l'adresse suivante : [Ajouter le flux public EDRLab OPDS](https://edrlab.org/public/feed/opds-lcp.json)
+Les flux dont le contenu est protégé doivent vous permettre de vous connecter directement à partir de la page du catalogue dans Thorium. Le bouton ou l'accès à la connexion peuvent être différents selon le fournisseur du flux.
 
-##### Responsabilité du flux OPDS
+Le flux OPDS d'Archive.org permet de parcourir et d'emprunter des livres sous licence LCP
+et de les emprunter. Un compte Archive.org est nécessaire, la page d'authentification s'ouvrira
+une fois que vous aurez sélectionné un livre. Vous pouvez l'ajouter à Thorium avec l'adresse suivante
+adresse&nbsp;: [Flux OPDS d'Archive.org](https://archive.org/services/opds)
 
-Les flux OPDS et l'accès au contenu qu'ils permettent sont sous la responsabilité de l'éditeur du flux. Il en va de même pour les informations fournies par le flux.
+Vous pouvez utiliser aussi utiliser [feedbooks
+OPDS](opds://catalog.feedbooks.com/catalog/index.json) pour parcourir le
+[Catalogue Feedbook](https://www.feedbooks.com/#). Une fois que vous avez sélectionné
+un livre, vous serez redirigé vers la page web où vous pourrez acheter le livre.
 
-## Créer un compte dans une bibliothèque publique française
+Feedbooks OPDS vous permet de vous connecter au flux du catalogue Thorium en cliquant sur le bouton
+*Shelf* dans le coin supérieur droit. Tout livre acheté avec votre compte
+Feedbooks sera disponible au téléchargement directement à partir de l'interface du catalogue de flux Thorium Reader.
 
-En France, de nombreuses bibliothèques publiques proposent un catalogue lisible par machine (similaire à OPDS mais pas identique), permettant aux usagers de télécharger des publications numériques depuis leur bibliothèque personnelle. L'intégration de cette technologie dans Thorium Reader vous permet de télécharger un livre électronique ou un livre audio directement dans Thorium Reader pour une lecture instantanée.
+À des fins de test, EDRLab fournit un flux avec trois publications gratuites
+sous protection LCP. Vous pouvez l'ajouter à Thorium avec l'adresse suivante
+adresse&nbsp;: [Ajouter le flux public OPDS d'EDRLab feed](https://edrlab.org/public/feed/opds-lcp.json)
 
-Pour vous connecter à votre compte de bibliothèque publique française, saisissez une ville française ('Montpellier') ou une partie du nom de la bibliothèque dans le champ Rechercher et cliquez sur le bouton Rechercher. Une liste des bibliothèques publiques correspondant à votre recherche apparaît. Sélectionnez une bibliothèque et cliquez sur Ajouter. Dans la liste des catalogues mise à jour, sélectionnez cette bibliothèque : un formulaire d'authentification s'affiche. Saisissez votre nom d'utilisateur/adresse e-mail et votre mot de passe, puis cliquez sur Connexion. Vous pouvez désormais voir le contenu de votre bibliothèque personnelle, à partir de laquelle vous pouvez télécharger et lire les livres électroniques et les livres audio que vous avez empruntés précédemment. 
+
+</section>
+<section class="filet">
+
+
+### Responsabilité de l'alimentation de l'OPDS
+
+Les flux OPDS et l'accès au contenu qu'ils fournissent sont sous la responsabilité de l'éditeur du flux. 
+Il en va de même pour les informations fournies par
+le flux.
+
+
+</section>
+<section class="filet">
+
+## Création d'un compte de bibliothèque publique française
+
+En France, de nombreuses bibliothèques publiques proposent un catalogue lisible par machine
+(similaire à l'OPDS mais pas identique), permettant aux usagers de télécharger des
+publications numériques à partir de leur bibliothèque locale. L'intégration de cette technologie
+dans Thorium Reader vous permet de télécharger un livre électronique ou un livre audio directement dans Thorium Reader pour une lecture instantanée.
+
+
+Pour connecter votre compte de bibliothèque publique française, entrez une ville française (par exemple "Montpellier") ou une partie du nom de la bibliothèque dans le champ de recherche et cliquez sur le bouton Rechercher. Une liste de bibliothèques publiques correspondant à votre
+recherche apparaîtra. Sélectionnez une bibliothèque et cliquez sur <span class="ui_button">Ajouter</span>. Dans la liste mise à jour des
+sélectionnez cette bibliothèque&nbsp;: un formulaire d'authentification s'affiche.
+Saisissez votre nom d'utilisateur et votre mot de passe fournis par la bibliothèque, puis cliquez sur <span class="ui_button">Connexion</span>. 
+Vous pouvez maintenant voir le contenu emprunté auprès de votre bibliothèque. Vous pouvez télécharger et lire les livres électroniques et les livres audio.
+
+
+</section>

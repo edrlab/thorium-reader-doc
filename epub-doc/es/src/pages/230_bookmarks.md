@@ -2,8 +2,13 @@
 title: "Marcadores"
 role: doc-chapter
 epubtype: chapter
+class: colbreak filet
 draft: false
 ---
+
+# Marcadores
+
+<section class="filet">
 
 ## Añadir un marcador
 
@@ -20,10 +25,13 @@ después de esta acción.
 
 Seleccione el texto que desea marcar.
 Pulse el botón <span class="ui_button">marcar</span>.
-<img src="../../resources/images/icons3/bookmarkSingle-icon.svg" class="icon" role="presentation" alt=""/>
+<img src="../../resources/images/bookmarkSingle-icon.svg" class="icon" role="presentation" alt=""/>
 o la combinación de teclas <kbd>Ctrl</kbd> + <kbd>B</kbd>.
 
-Si no se selecciona ningún texto, se marcará la página completa.
+Si no se selecciona ningún texto, se marcará el último lugar de lectura conocido.
+
+</section>
+<section class="filet">
 
 ## Revisar y navegar por los Marcadores
 
@@ -35,7 +43,6 @@ Accede a la lista de marcadores en el área de navegación. Seleccione el marcad
 al que desea acceder y pulse la tecla <kbd>Intro</kbd>. Si ha
 renombrado el marcador, será fácil ir a varios lugares del libro.
 
-
 Si selecciona una porción de texto y luego activa el botón <span class="ui_button">Marcador</span>,
 el marcador creado tendrá como título la línea seleccionada.
 
@@ -46,5 +53,9 @@ y desplázate hasta la sección Marcadores, donde aparecen listados.
 Pulsa la tecla <kbd>b</kbd> para desplazarte hasta el botón de edición para
 cambiar el nombre del marcador. Pega la línea desde el portapapeles y pulsa
 <kbd>Intro</kbd>. Esto cambia el nombre del marcador con la línea de texto que ha
-copiado. Cuando tiene varios marcadores, este cambio de nombre de los marcadores le 
+copiado. Cuando tiene varios marcadores, este cambio de nombre de los marcadores le permite
 permite utilizarlos fácilmente.
+
+Desde la versión 3.2 es posible añadir etiquetas a los marcadores para facilitar el filtrado, la agrupación y la búsqueda de ubicaciones específicas.
+
+</section>

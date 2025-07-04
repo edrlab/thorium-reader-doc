@@ -6,31 +6,54 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Lire</title>
   </head>
   <body>
-    <section class="colbreak" >
-      <hr class="asterism" aria-hidden="true"></hr>
+    <section class="colbreak filet"  role="doc-chapter" >
       <h1>Lire</h1>
-      <p>Thorium propose des fonctions de lecture textuelle, visuelle et auditive. Afin de vous permettre de vous repérer facilement dans la publication, Thorium propose également de nombreuses options de navigation ainsi que la possibilité d'ajouter des signets ou d'effectuer une recherche au sein de la publication.</p>
+      <p>Thorium offre des fonctions de lecture textuelle, visuelle et auditive.
+Pour vous permettre trouver votre chemin dans la publication, Thorium offre également de nombreuses options de navigation,
+ainsi que la possibilité
+d'ajouter des marques-pages ou d'effectuer des recherches dans la publication.</p>
       <p>Les fonctionnalités de lecture sont très différentes d'un format à l'autre.</p>
       <ul>
-        <li>La lecture de premières publications textuelles de type EPUB reflowable et Daisy textuelle ou complète permettra le plus grand nombre de fonctionnalités.</li>
-        <li>Les premières publications visuelles comme les EPUBS à mise en page fixe et Divina ne permettront pas la personnalisation des textes.</li>
-        <li>Les publications audio ont une interface de lecture significativement différente car aucun texte n'est affiché.</li>
-        <li>La prise en charge PDF est basique et offre peu d'options.</li>
+        <li>Les publications principalement textuelles, comme les EPUB à mise en forme adaptable et les Daisy textuels ou les Daisy intégraux (texte et audio pré enregistré). Ces formats permettent d'ajuster la taille des caractères, de modifier la police d'affichage et les couleurs du texte et du fond.</li>
+        <li>Les publications visuelles, telles que les EPUB à mise en page fixe, les formats de documents portable (PDF) et les narrations visuelles (comme Divina) ne permettent pas la personnalisation des textes.</li>
+        <li>Les publications audio seulement ont une interface de lecture sensiblement différente car aucun texte n'est affiché.</li>
+        <li>Les EPUB à superposition des médias (media overlay) peuvent être à mise en page fixe ou adaptable, les possibilités offertes dépendent de ces derniers paramètres.</li>
       </ul>
-      <h2 id="zen_and_full">Mode Zen et plein écran</h2>
-      <p>La fenêtre de lecture Thorium offre un mode &quot;zen&quot; sans distraction qui masque toutes les icônes autres que le bouton &quot;plein écran&quot; lui-même, et le lien bleu &quot;passer au contenu&quot; dans le coin supérieur (accessible via l'onglet du clavier).</p>
-      <p>La navigation en mode zen n'est possible qu'avec les flèches et les raccourcis du clavier. La prise en charge des écrans tactiles n'est pas garantie, il est donc possible que les interactions par glissement de doigt ne fonctionnent pas.</p>
-      <p>Le mode alternatif Plein écran peut être lancé avec le raccourci clavier
+      <section class="filet">
+        <h2 id="zen_and_full">Mode Zen et Plein écran</h2>
+        <p>La fenêtre de lecture Thorium offre un mode &quot;zen&quot; sans distraction qui masque toutes les icônes autres que le bouton de l'icône plein écran et le lien rapide &quot;passer au contenu&quot; dans le coin supérieur gauche (accessible en utilisant la touche 
+          <kbd>Tabulation</kbd> du clavier clavier).
+        </p>
+        <p>En mode Zen, la navigation n'est possible qu'avec les flèches et les raccourcis du clavier. La prise en charge des écrans tactiles n'est pas garantie, il se peut donc que les interactions par glissement de doigt ne fonctionnent pas.</p>
+        <p>Le mode alternatif Plein écran peut être lancé avec le raccourci clavier
 
-        <kbd>Ctrl</kbd> + 
-        <kbd>F11</kbd>. Dans ce mode, les boutons de l'interface utilisateur tels que les boutons du haut, les flèches latérales et les icônes de saut en arrière et en avant en bas à gauche.
-      </p>
+          <kbd>Ctrl</kbd> + 
+          <kbd>F11</kbd>. Dans ce mode, les boutons de l'interface utilisateur restent affichés. Il s'agit des boutons en haut de l'interface, des flèches latérales et des icônes de saut en arrière et en avant en bas à gauche.
+        </p>
+      </section>
+      <section class="filet">
+        <h2 id="read_search">Rechercher dans un livre</h2>
+        <p>Vous pouvez utiliser les touches 
+          <kbd>Ctrl</kbd> + 
+          <kbd>F</kbd> pour accéder au champ de recherche.
+Saisissez votre terme de recherche. En cliquant sur le bouton 
+          <code>Recherche</code>, vous obtenez
+les boutons 
+          <code>Retour</code> et 
+          <code>Suivant</code> pour naviguer entre les occurrences. Le nombre de résultats trouvés est un lien qui ouvrira une &quot;Liste de résultats&quot; dans le panneau de navigation.
+Chaque correspondance affichée est un lien que vous pouvez activer pour aller à l'endroit du livre où se trouve l'expression que vous recherchez.
+        </p>
+        <div class="framed">
+          <p>N'oubliez pas que le fait d'effectuer une recherche et de naviguer dans les résultats vous fera
+perdre le point de lecture où vous étiez. Vous pourrez le retrouver en utilisant la fonction &quot;Saut en arrière&quot;. Vous pouvez aussi placer un marque-page pour être sûr de retrouver votre chemin.</p>
+        </div>
+      </section>
     </section>
   </body>
 </html>

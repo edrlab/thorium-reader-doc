@@ -6,29 +6,57 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="../../resources/css/blitz-lite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/readiumbase.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/edrlabpublications.css"/>
     <link rel="stylesheet" type="text/css" href="../../resources/css/thdoc.css"/>
     <title>Reading audio contents</title>
   </head>
   <body>
-    <section class="colbreak"  role="doc-chapter" >
-      <hr class="asterism" aria-hidden="true"></hr>
+    <section class="colbreak filet"  role="doc-chapter" >
       <h1>Reading audio contents</h1>
-      <p>Thorium provides visual reading and audio playback. In order to ensure
-that you can find your way around the the publication, Thorium also
-offers many navigation options as well as the possibility to add
-bookmarks or to search within the publication.</p>
-      <p>Reading functionalities are very different from one format to another.</p>
+      <p>Audio contents can appear in almost all formats. When they are included in textual or visual first ebooks, they come with a set of buttons as play, pause, stop, and eventually rewind and forward or other options like speed. Those buttons are not part of the Thorium interface, they can be provided by the specific rendering engine (Chromium for web contents in EPUB and Daisy ; pdf.js for PDF). They can also be styled by the content creator. Therefore, this user guide can hardly give detailed information on their design and functionalities.</p>
+      <p>Audio only contents, synchronied audios and Text to speech generated audio, in contrast, are directly piloted by the Thorium interface.</p>
+      <h2 id="audioonly">Audio only</h2>
+      <p>Thorium can read audiobooks in the standardises W3C audiobook and in Daisy audio only formats. When such a book is opened, the book will start to play. The reading window will display the cover, a set of functions buttons and a progression bar.</p>
+      <p>The interface is composed of:</p>
       <ul>
-        <li>Reading Textual first publications like reflowable EPUB and textual
-or full Daisy will allow for the greatest number of functionalities.</li>
-        <li>Visual first publications like Fixed Layout EPUBS and Divina will
-not allow personalization of texts.</li>
-        <li>Audio publications have a significative different reading interface
-as no text is displayed.</li>
-        <li>PDF support is basic and provides few options.</li>
+        <li>A Shift button to Play or Pause;</li>
+        <li>A Previous and a Next buttons passing to the previous or next authored section;</li>
+        <li>A rewind and a forward buttons to move 30 seconds before or after</li>
+        <li>A dropdown menu to change the reading speed;</li>
+        <li>A progression bar showing the time elapsed and the total time of the current section of the book.</li>
       </ul>
+      <p>It is possible to bookmark a reading location, and to add a note to the bookmark. Annotations are not possible.</p>
+      <p>Navigation in audiobooks are usually only authored as table of content.</p>
+      <p>It is actually not possible to search in audio only contents.</p>
+      <h2 id="readaloud">Readaloud, Text to speech (TTS)</h2>
+      <p>Text-to-speech is launched using the speaker button in the middle of the
+toolbar, or by using the dedicated keyboard shortcut.
+There is a voice to text synchronisation showed by
+highlight of the current sentence and underline of the word.</p>
+      <p>Possible actions are</p>
+      <ul>
+        <li>Play and pause;</li>
+        <li>Move playback position to previous and next;</li>
+        <li>Control speed with a range from x0.5 to x2;</li>
+        <li>Simplify view of the publication ;</li>
+        <li>choose a preferred voice.</li>
+      </ul>
+      <div class="framed">
+        <p>Thorium uses the voices from the computer's operating system, in
+combination with the language information provided by the book.
+If you experience problems please check the
+
+          <a href="https://thorium.edrlab.org/en/th3/400_ressources/430_faq/index.html">online related FAQ entry</a>.
+        </p>
+      </div>
+      <h3 id="readaloudoptions">Text-to-speech options</h3>
+      <p>In addition to the functionalities, a specific options panel provides options for a &quot;clear view&quot; and the ability to skip secondary content (
+        <span class="ui_info">skippability</span>), which may include footnotes or other content marked as complementary (
+        <code>aside</code>) according to the semantics indicated when the digital book was produced. 
+        <span class="ui_info">Split TTS</span> will divide content by sentence for more precise highlighting.
+      </p>
     </section>
+    <section class="filet"></section>
   </body>
 </html>
