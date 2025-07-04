@@ -19,6 +19,7 @@ une adresse correspondant à un catalogue distribué au format OPDS.
 Validez avec le bouton <span class="ui_button">Ajouter</span>.
 
 <div class="framed">
+
 Exemple&nbsp;:
 
 L'activation du lien suivant permet de télécharger un fichier .atom qui peut être ouvert avec Thorium.

@@ -107,7 +107,6 @@ padding: 2em;
     border: thin var(--color-primary) solid;
     padding: 1rem;
     border-radius: 10px;
-    gap: 1rem;
 }
 
 nav[epub|type~=landmarks],
