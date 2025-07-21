@@ -78,7 +78,7 @@ Thorium actually does pick-up the mouse cursor click on a single text character,
 
 In Thorium, currently the bookmark label editor supports multiple lines of text input, which makes it possible to annotate coarse document locations. This can therefore be perceived as a replacement for the actual annotator, but there is no import/export of bookmarks data.
 
-More feedback is welcome thru our discussion tracker there:[Message to Thorium screen reader users... #2867](https://github.com/edrlab/thorium-reader/discussions/2867).
+More feedback is welcome through our discussion tracker there:[Message to Thorium screen reader users... #2867](https://github.com/edrlab/thorium-reader/discussions/2867).
 
 ### Using bookmarks with NVDA
 

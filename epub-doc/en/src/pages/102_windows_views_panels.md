@@ -70,7 +70,7 @@ actions to Open a publication and to Open Publication menu.
 
 The <span class="ui_button">Table</span> mode presents the books like cards, keyboard tabulation will mode presents one book per line and allows to visualize a
 large number of informations usually available only in the Book
-information Panel. Keyboard tabulation will drive you thru all those
+information Panel. Keyboard tabulation will drive you through all those
 details.
 
 
@@ -137,7 +137,7 @@ window that you can arrange at your will.
 
 ### Reading navigation panel {#reading_nav_panel}
 
-Reachable from the reading window top toolbar thru a open book icon<img src="../../resources/images/open_book.svg" class="icon" alt="" role="presentation"/>, that panel contains a dropdown menu to access different navigation means. The availability and content of each navigation mean. For epub, those are:
+Reachable from the reading window top toolbar through a open book icon<img src="../../resources/images/open_book.svg" class="icon" alt="" role="presentation"/>, that panel contains a dropdown menu to access different navigation means. The availability and content of each navigation mean. For epub, those are:
 
 * <img src="../../resources/images/toc-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Table of Content</span> (TOC), an authored listing of ebook content, usually similar to the content heading structure but not necessary. A content creator can decide per example to limit the Table of Content to a certain depth.
 * <img src="../../resources/images/landmark-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Landmarks</span>, an authored list of major interest points of the ebook, usually Forewords, Copyright notice, Main content and annexes. 
