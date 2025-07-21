@@ -1,19 +1,30 @@
 # How to Contribute
 
-We'd love to accept your patches and contributions to this project. There are
-just a few small guidelines you need to follow.
+We'd love to accept your patches and contributions to this project. 
 
 ## Contributor License Agreement
 
-Contributions to this project must be accompanied by a Contributor License
-Agreement. You (or your employer) retain the copyright to your contribution;
-this simply gives us permission to use and redistribute your contributions as
-part of the project. Head over to <https://cla.developers.google.com/> to see
-your current agreements on file or to sign a new one.
+By contributing to this project you accept that your contents are placed under the [CC-BY-4.0 licence](https://github.com/edrlab/thorium-reader-doc?tab=CC-BY-4.0-1-ov-file#readme)
 
-You generally only need to submit a CLA once, so if you've already submitted one
-(even if it was for a different project), you probably don't need to do it
-again.
+
+If you are not the sole contributor to a contribution (pull request), please identify all 
+contributors in the pull request comment.
+
+To add a contributor (other than yourself, that's automatic), mark them one per line as follows:
+
+```
++@github_username
+```
+
+If you added a contributor by mistake, you can remove them in a comment with:
+
+```
+-@github_username
+```
+
+If you are making a pull request on behalf of someone else but you had no part in designing the 
+feature, you can remove yourself with the above syntax.
+
 
 ## Code reviews
 
@@ -22,7 +33,6 @@ use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
 
-## Community Guidelines
+<!-- ## Community Guidelines
 
-This project follows
-[Google's Open Source Community Guidelines](https://opensource.google.com/conduct/).
+This project follows -->
