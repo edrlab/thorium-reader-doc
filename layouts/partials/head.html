@@ -72,3 +72,21 @@
   })();
 </script>
 <!-- End Matomo Code -->
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const lang = params.get('lang');
+
+  if (lang) {
+    // Vérifiez si la langue est supportée
+    const supportedLanguages = ['en', 'fr', 'es'];
+    if (supportedLanguages.includes(lang)) {
+      const currentPath = window.location.pathname;
+      // Redirige vers le chemin correspondant à la langue
+      const newPath = `/${lang}${currentPath}`;
+      if (!window.location.pathname.startsWith(`/${lang}`)) {
+        window.location.href = newPath;
+      }
+    }
+  }
+</script>
