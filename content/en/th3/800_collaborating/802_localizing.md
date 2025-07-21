@@ -9,7 +9,7 @@ Thorium Reader user Interface localisation are provided and maintained thanks to
 
 Since february 2025 we use [Weblate project Thorium](https://hosted.weblate.org/projects/thorium-reader/) as the main tool for localisation. For help, you can refer to the [Weblate Documentation](https://docs.weblate.org/en/latest/index.html). 
 
-Alternatively, translations can be done directly thru Github Pull request. This may be easier if you are familiar with local translation editors like [poedit](https://poedit.net/) that allows a less noisy translating environment and are documented to be used with screen readers. 
+Alternatively, translations can be done directly through Github Pull request. This may be easier if you are familiar with local translation editors like [poedit](https://poedit.net/) that allows a less noisy translating environment and are documented to be used with screen readers. 
 All locales are stored in the [sources resources locales folder](https://github.com/edrlab/thorium-reader/tree/develop/src/resources/locales). 
     
 For issues related to localisation, flag @gautierchomel in the comments.

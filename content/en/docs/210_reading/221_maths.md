@@ -30,7 +30,7 @@ compatible editor.
 You can read mathematical expressions tagged with MathML using
 different NVDA approaches. Although NVDA is already equipped with this feature by applying Math Player, some functions still needed to be improved, especially in Math Player some language support is not provided. You may want to use an addon like [MathCAT](https://addons.nvda-project.org/addons/MathCAT.en.html) or [Access8Math](https://addons.nvda-project.org/addons/access8math.fr.html).
 
-In case of instabilities, we recommend to disable MathJax accessibility features thru context menu.
+In case of instabilities, we recommend to disable MathJax accessibility features through context menu.
 
 Using Access8Math:
 

@@ -18,7 +18,7 @@ entrée sur couverture ouvre livre
 when bk open, it reads whats oon the screen.
 ctrl for stopping it.
 
-down arrow moves thru buttons
+down arrow moves through buttons
 
 until main content, down arrow, start reading
 
