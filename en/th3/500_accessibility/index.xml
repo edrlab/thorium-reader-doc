@@ -139,7 +139,7 @@ item.&lt;/em>&lt;/p>
 &lt;p>Consequently, screen reader users prefer to use the bookmarking feature which anchors a simple, optionally-labelled bookmark to a coarse reading location (there is an icon button in the top toolbar, but the &lt;key>CTRL&lt;/key> + &lt;key>B&lt;/key> keyboard shortcut can be used too).
 Thorium actually does pick-up the mouse cursor click on a single text character, as this helps focus a bookmark on a more precise HTML location.&lt;/p>
 &lt;p>In Thorium, currently the bookmark label editor supports multiple lines of text input, which makes it possible to annotate coarse document locations. This can therefore be perceived as a replacement for the actual annotator, but there is no import/export of bookmarks data.&lt;/p>
-&lt;p>More feedback is welcome thru our discussion tracker there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
+&lt;p>More feedback is welcome through our discussion tracker there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
 &lt;h3 id="using-bookmarks-with-nvda">Using bookmarks with NVDA&lt;/h3>
 &lt;p>Windows screen readers use a virtual buffer
 for reading. To place a bookmark where you are currently reading
@@ -162,12 +162,12 @@ Funding limitations may also affect our action and will to provide the best read
 These are the main reasons why we cannot, at this moment, afford a full accessibility testing cycle at each release.&lt;/p>
 &lt;p>Any identified blockers are publicly informed and searchable via a dedicated Label &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibility on our Issue tracker&lt;/a> that are treated as priority by the development team.&lt;/p>
 &lt;h2 id="understanding-all-and-each-users-needs">understanding all and each users’ needs&lt;/h2>
-&lt;p>We capture feedback about customers’ experiences from an accessibility perspective thru different channels:
+&lt;p>We capture feedback about customers’ experiences from an accessibility perspective through different channels:
 * Developpement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dedicated Label Accessibility&lt;/a>
 * Email &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>
 * Indivdual feedback collected by our &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">members organisations dedicated to serving people with disabilities&lt;/a>&lt;/p>
 &lt;h2 id="thorium-reader-accessibility-features-are-informed">Thorium Reader accessibility features are informed&lt;/h2>
-&lt;p>When an accessibility feature is introduced, we make that information public thru&lt;/p>
+&lt;p>When an accessibility feature is introduced, we make that information public through&lt;/p>
 &lt;ul>
 &lt;li>the version change log&lt;/li>
 &lt;li>a short mention on the website landing page&lt;/li>
@@ -176,8 +176,8 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;/ul>
 &lt;p>We are maintaining a &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">VPAT (voluntary product accessibility template) for Thorium Reader&lt;/a>.&lt;/p>
 &lt;h2 id="support-for-assistive-technology">Support for assistive technology&lt;/h2>
-&lt;p>A specific attention is given to non visual access thru screen readers.&lt;/p>
+&lt;p>A specific attention is given to non visual access through screen readers.&lt;/p>
 &lt;p>As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.&lt;/p>
 &lt;p>New functionalities are tested with screen readers.&lt;/p>
 &lt;h2 id="accessibility-testing">Accessibility testing&lt;/h2>
-&lt;p>Thorium EPUB accessible reading features are community testing thru &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>Thorium EPUB accessible reading features are community testing through &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item></channel></rss>

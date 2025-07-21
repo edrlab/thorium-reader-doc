@@ -154,7 +154,7 @@ in the right panel.
 Each match displayed is a link you can Activate to go to the place
 of the book where the expression you are looking for was found.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
-Remember that performing a search and navigating thru the results
+Remember that performing a search and navigating through the results
 will make you loose the reading point you where at.
 Just place a Bookmark to make sure you find your way back.
 &lt;/div>
@@ -288,7 +288,7 @@ compatible editor.&lt;/p>
 &lt;div class="markdown-inner">
 &lt;p>You can read mathematical expressions tagged with MathML using
 different NVDA approaches. Although NVDA is already equipped with this feature by applying Math Player, some functions still needed to be improved, especially in Math Player some language support is not provided. You may want to use an addon like &lt;a href="https://addons.nvda-project.org/addons/MathCAT.en.html">MathCAT&lt;/a> or &lt;a href="https://addons.nvda-project.org/addons/access8math.fr.html">Access8Math&lt;/a>.&lt;/p>
-&lt;p>In case of instabilities, we recommend to disable MathJax accessibility features thru context menu.&lt;/p>
+&lt;p>In case of instabilities, we recommend to disable MathJax accessibility features through context menu.&lt;/p>
 &lt;p>Using Access8Math:&lt;/p>
 &lt;p>To install the add-on, navigate to Access8Math webpage and click on “Stable” link to download the add-on.&lt;/p>
 &lt;p>When reading a EPUB with Math content, Down Arrow to the line containing the equation and place your focus on the equation.

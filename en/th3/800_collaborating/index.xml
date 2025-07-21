@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Want to collaborate?</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/</link><description>Recent content in Want to collaborate? on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/800_collaborating/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Translating</title><link>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/800_collaborating/802_localizing/</guid><description>
 &lt;p>Thorium Reader user Interface localisation are provided and maintained thanks to volunteers and contributing organisations.&lt;/p>
 &lt;p>Since february 2025 we use &lt;a href="https://hosted.weblate.org/projects/thorium-reader/">Weblate project Thorium&lt;/a> as the main tool for localisation. For help, you can refer to the &lt;a href="https://docs.weblate.org/en/latest/index.html">Weblate Documentation&lt;/a>.&lt;/p>
-&lt;p>Alternatively, translations can be done directly thru Github Pull request. This may be easier if you are familiar with local translation editors like &lt;a href="https://poedit.net/">poedit&lt;/a> that allows a less noisy translating environment and are documented to be used with screen readers.
+&lt;p>Alternatively, translations can be done directly through Github Pull request. This may be easier if you are familiar with local translation editors like &lt;a href="https://poedit.net/">poedit&lt;/a> that allows a less noisy translating environment and are documented to be used with screen readers.
 All locales are stored in the &lt;a href="https://github.com/edrlab/thorium-reader/tree/develop/src/resources/locales">sources resources locales folder&lt;/a>.&lt;/p>
 &lt;p>For issues related to localisation, flag @gautierchomel in the comments.&lt;/p>
 &lt;h2 id="contributors">Contributors:&lt;/h2>
@@ -72,7 +72,7 @@ All locales are stored in the &lt;a href="https://github.com/edrlab/thorium-read
 &lt;tr>
 &lt;td>accessibility.mainContent&lt;/td>
 &lt;td>main content&lt;/td>
-&lt;td>Accessible name (&lt;code>aria-label&lt;/code>) of the main part of the window, not rendered visually but rendered thru screen reader&lt;/td>
+&lt;td>Accessible name (&lt;code>aria-label&lt;/code>) of the main part of the window, not rendered visually but rendered through screen reader&lt;/td>
 &lt;td>&lt;img alt="screenshot" src="https://thorium.edrlab.org/images/localisation_context/accessibility_mainContent.png">&lt;/td>
 &lt;/tr>
 &lt;tr>
