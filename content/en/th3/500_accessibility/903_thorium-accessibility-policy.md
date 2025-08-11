@@ -17,7 +17,7 @@ Any identified blockers are publicly informed and searchable via a dedicated Lab
 
 ## understanding all and each users’ needs
 
-We capture feedback about customers’ experiences from an accessibility perspective thru different channels: 
+We capture feedback about customers’ experiences from an accessibility perspective through different channels: 
     * Developpement [Issue tracker dedicated Label Accessibility](https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility)
     * Email [contact form](https://www.edrlab.org/contact/) 
     * Indivdual feedback collected by our [members organisations dedicated to serving people with disabilities](https://members.edrlab.org/categories/serving-persons-with-print-disabilities/) 
@@ -25,7 +25,7 @@ We capture feedback about customers’ experiences from an accessibility perspec
 
 ## Thorium Reader accessibility features are informed
 
-When an accessibility feature is introduced, we make that information public thru
+When an accessibility feature is introduced, we make that information public through
 * the version change log
 * a short mention on the website landing page
 * listed for reference in this website [ressources section, accessibility page](../../500_accessibility)
@@ -36,7 +36,7 @@ We are maintaining a [VPAT (voluntary product accessibility template) for Thoriu
 
 ## Support for assistive technology
 
-A specific attention is given to non visual access thru screen readers. 
+A specific attention is given to non visual access through screen readers. 
 
 As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.
 
@@ -44,4 +44,4 @@ New functionalities are tested with screen readers.
 
 ## Accessibility testing
 
-Thorium EPUB accessible reading features are community testing thru [epubtest.org](https://epubtest.org/)
+Thorium EPUB accessible reading features are community testing through [epubtest.org](https://epubtest.org/)

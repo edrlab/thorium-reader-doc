@@ -72,7 +72,7 @@ Activate the Search Box
 (<img src="../../resources/images/search-icon.svg" class="icon" alt="" role="presentation"/>) by clicking in it, moving focus or pressing
 the <kbd>Ctrl</kbd> + <kbd>F</kbd> key combination, enter the text you want to
 search. `Results` will display instantly. The search is performed
-thru the books informations including user added tags. The content
+through the books informations including user added tags. The content
 of the book is not included in the search. 
 
 <aside class="framed">To perform a search
@@ -107,7 +107,7 @@ metadata.
 
 For performance reasons, the All publication view is limited to 50
 publications. If you have more ebooks than that, they will be
-available thru different pages that can be considered like Shelves
+available through different pages that can be considered like Shelves
 or stacks.
 
 

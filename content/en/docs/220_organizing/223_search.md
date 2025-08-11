@@ -17,7 +17,7 @@ For example among the authors only.
 {{< /alert>}}
 
 
-The search is performed thru the books informations including 
+The search is performed through the books informations including 
 user added tags. 
 The content of the book is not included in the search. 
 To perform a search inside book content you have to open the book and 

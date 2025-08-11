@@ -23,7 +23,7 @@ PDF support include 8 levels of zoom and the capacity to display in one or two p
 
 ## Navigation features for PDFs
 
-Navigation in PDF can always be done with the go to page panel. Additionally, when PDFs creators have included Document Outline, those are available thru the Table Of Content Navigation Panel. That's a different behavior of what is done by acrobat reader that displays Document Outlines as Bookmarks and allows users to manipulate them by changing order, renaming, adding and deleting them. 
+Navigation in PDF can always be done with the go to page panel. Additionally, when PDFs creators have included Document Outline, those are available through the Table Of Content Navigation Panel. That's a different behavior of what is done by acrobat reader that displays Document Outlines as Bookmarks and allows users to manipulate them by changing order, renaming, adding and deleting them. 
 
 With Thorium Reader, you can safely add your own bookmarks and you will find them in the Bookmarks navigation panel. 
 

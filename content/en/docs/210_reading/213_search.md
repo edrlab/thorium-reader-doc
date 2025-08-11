@@ -17,7 +17,7 @@ of the book where the expression you are looking for was found.
 
 {{< alert warning >}}
 
-Remember that performing a search and navigating thru the results 
+Remember that performing a search and navigating through the results 
 will make you loose the reading point you where at. 
 Just place a Bookmark to make sure you find your way back.
 

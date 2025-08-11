@@ -29,7 +29,7 @@ Annotations in the content can not be reached by keyboard tabulation. To navigat
 ## Annotations panel {#annotations_panel}
 
 The navigation panel has a section dedicated to Annotations. 
-It allows you to adjust your annotation display and behaviour to your practice and also review, manipulate, delete, sort, filter and navigate thru your annotations.
+It allows you to adjust your annotation display and behaviour to your practice and also review, manipulate, delete, sort, filter and navigate through your annotations.
 
 
 </section>

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 <!-- {{% pageinfo %}}
-    For digital books, comics, audiobooks and PDF documents, including 
+    For digital books, comics, audiobooks, and PDF documents, including 
     those protected by the
     <a href="https://edrlab.org/readium-lcp">LCP DRM</a>
     (DRM meaning <span lang="en">Digital Rights Management</span>)
@@ -19,7 +19,7 @@ weight: 20
 
 <h2>Welcome to the Thorium Reader documentation</h2>
   <p>
-    For digital books, comics, audiobooks and PDF documents, including 
+    For digital books, comics, audiobooks, and PDF documents, including 
     those protected by the
     <a href="https://edrlab.org/readium-lcp">LCP DRM</a>
     (DRM meaning <span lang="en">Digital Rights Management</span>)

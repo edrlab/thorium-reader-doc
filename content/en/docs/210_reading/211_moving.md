@@ -1,6 +1,6 @@
 ---
 title: "Moving around in a book"
-description: "Learn how to move with agility thru a book. Fast forward and backward to next or previous chapter, page or content. Navigate thru table of content, landmarks and reference pages."
+description: "Learn how to move with agility through a book. Fast forward and backward to next or previous chapter, page or content. Navigate through table of content, landmarks and reference pages."
 draft: false
 weight: 211
 toc: false

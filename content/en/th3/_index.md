@@ -8,7 +8,7 @@ menu:
 ---
 
 <!-- {{% pageinfo %}}
-    For digital books, comics, audiobooks and PDF documents, including 
+    For digital books, comics, audiobooks, and PDF documents, including 
     those protected by the
     <a href="https://edrlab.org/readium-lcp">LCP DRM</a>
     (DRM meaning <span lang="en">Digital Rights Management</span>)
@@ -18,14 +18,14 @@ menu:
 
 <!-- <hr class="asterism"/> -->
 <p><b>
- Thorium 3 documentation is available as EPUB, different translations are available thru the Thorium documentation catalog. You can <a class="" href="opds://edrlab.github.io/publications/feeds/thorium32_documentation.json">Add Documentation catalog to Thorium (OPDS link) </a> or <a class="" href="https://thorium.edrlab.org/en/onlinedoc">browse English documentation inline within the Readium web reader</a>.</b></p>
+ Thorium 3 documentation is available as EPUB, different translations are available through the Thorium documentation catalog. You can <a class="" href="opds://edrlab.github.io/publications/feeds/thorium32_documentation.json">Add Documentation catalog to Thorium (OPDS link)</a> or <a class="" href="https://thorium.edrlab.org/en/onlinedoc">browse English documentation inline within the Readium web reader</a>.</b></p>
 
-<p>We'll be glad to ear from you thru our [online survey feedback](https://ec.europa.eu/eusurvey/runner/2df185ee-057c-42d1-6a02-f405097f052d) to get to know better who's using Thorium Reader.</p>
+<p>We'll be glad to hear from you through our <a class="" href="https://ec.europa.eu/eusurvey/runner/2df185ee-057c-42d1-6a02-f405097f052d">online survey feedback</a> to get to know better who's using Thorium Reader.</p>
 
 <h2>Welcome to the Thorium Reader documentation</h2>
 <ul>
   <li>
-    For digital books, comics, audiobooks and PDF documents, including 
+    For digital books, comics, audiobooks, and PDF documents, including 
     those protected by the
     <a href="https://edrlab.org/readium-lcp">LCP DRM</a>
     (DRM meaning <span lang="en">Digital Rights Management</span>)
@@ -49,7 +49,7 @@ menu:
 ## Accessibility
 
   <p>
-    <em>For everyone</em> means any visual impairment,  and even blind people.
+    <em>For everyone</em> means any visual impairment, and even blind people.
     Compatible with JAWS, NVDA, Narrator, and VoiceOver screen readers.
     A read-aloud feature with visual highlighting also helps.
     Colors, text size, spacing, font and layout can be adjusted.

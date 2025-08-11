@@ -21,7 +21,7 @@ This software is free, open-source and as such, its development is only
 possible because it is funded by different organizations. Among these,
 members of EDRLab, private or public grants and small recurring
 donations from happy users (individuals or companies). If you rely on
-this application, consider [support thru funding and sponsorhip](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/)
+this application, consider [support through funding and sponsorhip](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-sponsorship/)
 
 <section class="filet">
 
@@ -78,7 +78,7 @@ localisation of the stored user setting `.json` file, allowing you to
 edit it outside of the application (at your own risks) 
 or save it for future uses or share it within your devices or with who you want.
 
-Since 3.2, it is possible to filter actions thru a search box to ease finding keyboard shortcuts.
+Since 3.2, it is possible to filter actions through a search box to ease finding keyboard shortcuts.
 
 The default setup is available online at support page <a href="https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/"><span>Keyboard shortcuts</span></a>
 
