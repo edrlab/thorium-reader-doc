@@ -24598,7 +24598,8 @@ footer.bg-dark {
   footer .left {
     width: 50%; }
   .thorium-support .flex-xl-nowrap {
-    display: block; }
+    display: flex;
+    flex-wrap: nowrap; }
     .thorium-support .flex-xl-nowrap aside {
       float: left;
       margin-bottom: 100px; }
@@ -24634,6 +24635,8 @@ footer.bg-dark {
       height: 100px; } }
 
 @media (max-width: 768px) {
+  .thorium-support .flex-xl-nowrap {
+    display: block; }
   .td-navbar-cover {
     background: #6B748E !important; }
   .container .lead,
