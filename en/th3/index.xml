@@ -693,7 +693,7 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;li>listed for reference in this website &lt;a href="../../500_accessibility">ressources section, accessibility page&lt;/a>&lt;/li>
 &lt;li>all accessibility related explanations are available in the documentation, not in a separate chapter or place.&lt;/li>
 &lt;/ul>
-&lt;p>We are maintaining a &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">VPAT (voluntary product accessibility template) for Thorium Reader&lt;/a>.&lt;/p>
+&lt;p>We are maintaining an &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">Accessibility Conformance Report for Thorium Reader&lt;/a>.&lt;/p>
 &lt;h2 id="support-for-assistive-technology">Support for assistive technology&lt;/h2>
 &lt;p>A specific attention is given to non visual access through screen readers.&lt;/p>
 &lt;p>As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.&lt;/p>
