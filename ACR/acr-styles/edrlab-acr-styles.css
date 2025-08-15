@@ -4,6 +4,7 @@
   margin-top: 10 px;
 }
 h1 {
+  font-size: 2em;
     background-color: #f0f0f0;
     color: rgb(29, 62, 128);
     font-weight: bold;
@@ -11,10 +12,25 @@ h1 {
     margin: 0;
     border-bottom-color: rgb(29, 62, 128);
 }
+h2 {
+    color: rgb(29, 62, 128);
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
 h3 {
     color: rgb(29, 62, 128);
     font-weight: normal;
     margin-top: 20px;
     margin-bottom: 5px;
     padding-top: 20px;
+}
+
+.details{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: ;
 }
