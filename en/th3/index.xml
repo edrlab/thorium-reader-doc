@@ -63,6 +63,8 @@ Whether you&amp;rsquo;re looking for the latest bestseller, a classic novel, a t
 &lt;/li>
 &lt;/ul>
 &lt;p>Thorium 3.0 has memories issues under Linux, as documented in Issue &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Keyboard shortcuts</title><link>https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/</guid><description>
+&lt;p>Keyboard shortcuts are available from the application settings panel third tab. It help you check and manipulate keyboard driven actions within the application. Figure out the three dots menu aside of the Panel title with extra actions (&lt;span class="ui_button">Reset&lt;/span>, &lt;span class="ui_button">Edit&lt;/span> and &lt;span class="ui_button">Load&lt;/span>). The &lt;span class="ui_button">Edit&lt;/span> one opens system folder application to the localisation of the stored user setting &lt;code>.json&lt;/code> file, allowing you to edit it outside of the application (at your own risks), save it for future uses or share it within your devices or with who you want.&lt;/p>
+&lt;p>The following list is showing the default keyboard shortcut settings.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Information&lt;/p>
 &lt;p>The &lt;kbd>Shift&lt;/kbd> key is represented by an empty arrow pointing up on some keyboards: &lt;kbd>
