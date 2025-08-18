@@ -6,6 +6,10 @@ weight: 402
 toc: false
 ---
 
+Keyboard shortcuts are available from the application settings panel third tab. It help you check and manipulate keyboard driven actions within the application. Figure out the three dots menu aside of the Panel title with extra actions (<span class="ui_button">Reset</span>, <span class="ui_button">Edit</span> and <span class="ui_button">Load</span>). The <span class="ui_button">Edit</span> one opens system folder application to the localisation of the stored user setting `.json` file, allowing you to edit it outside of the application (at your own risks), save it for future uses or share it within your devices or with who you want.
+
+The following list is showing the default keyboard shortcut settings.
+
 {{< alert info >}}
 Information
 
