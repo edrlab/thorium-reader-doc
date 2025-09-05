@@ -48,8 +48,7 @@
 						<h3 class="inline">Change log</h3>
 					</summary>
 					<ul>
-						<li>2025, September 15th: new template include "About this report" section with context
-							information about the product and testing methodology.</li>
+						<li>2025, September 15th: new template include "About this report" section with context information about the product and testing methodology.</li>
 						<li>2025 January 15th: initial full testing internally performed by Gautier Chomel.</li>
 					</ul>
 				</details>
@@ -108,8 +107,17 @@
 					<summary>
 						<h3 class="inline">Glossary</h3>
 					</summary>
+					<p>We refer to the <a href="https://www.w3.org/TR/act-rules-format-1.1/#outcome">ACT vocabulary</a></p>
 					<dl>
-						<dt>Supports</dt>
+						<dd>inapplicable: No part of the test subject matches the applicability</dd>
+						<dd>passed: A test target meets all expectations</dd>
+						<dd>failed: A test target does not meet all expectations</dd>
+						<dd>cantTell: Whether the rule is applicable, or whether all expectations were met could not be fully determined by the tester.</dd>
+						<dd>Untested: The test subject was not evaluated for the rule.</dd>  						
+					</dl>
+
+<!-- alt US VPAT vocabulary:
+	 <dt>Supports</dt>
 						<dd>The functionality of the product has at least one method that meets the criterion without
 							known defects or meets with equivalent facilitation.</dd>
 						<dt>Partially Supports</dt>
@@ -120,14 +128,7 @@
 						<dd>The criterion is not relevant to the product.</dd>
 						<dt>Not Evaluated</dt>
 						<dd>The product has not been evaluated against the criterion.</dd>
-					</dl>
-
-<!-- consider ACT vocabulary as an alternative: https://www.w3.org/TR/act-rules-format-1.1/#outcome
-	 inapplicable: No part of the test subject matches the applicability
-    passed: A test target meets all expectations
-    failed: A test target does not meet all expectations
-    cantTell: Whether the rule is applicable, or whether all expectations were met could not be fully determined by the tester.
-    Untested: The test subject was not evaluated for the rule.  -->
+					-->
 
 				</details>
 
@@ -353,11 +354,14 @@
 								</details>
 							</th>
 							<td class="lvl">A</td>
-							<td class="pass">
+							<td class="NA">
 								<p class="label">Pass</p>
-								<!--
-					<p class="additional">Additional Info: </p>
-					-->
+								<p class="additional">
+									<ul>
+										<li>Users can access `alt` text through TTS. However, that support can be enhanced by providing the `alt` text in the image viewing modal. See <a href="https://github.com/edrlab/thorium-reader/issues/3139">Issue #3139: Allow users to display alt texts to extend support for UAAG Guideline 1.1: Alternative content accessibility.</a> </li>
+										<li>The video player allows to activate subtitles if they are available. Embed players are the responsibility of the ebook content creator. </li>
+									</ul>
+								</p>
 							</td>
 							</tr>
 							<th>
