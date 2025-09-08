@@ -216,7 +216,7 @@ ACR voc.
 						<div id="result">
 							<div class="label">Statistics:</div>
 							<ul>
-								<li>UAAG: 116 Pass, 0 Fail, 0 Obsolete, 0 N/A</li>
+								<li>UAAG: 115 Pass, 1 Fail, 0 Obsolete, 0 N/A</li>
 								<li>WCAG: 60 Pass, 1 Fail, 1 Obsolete, 2 N/A</li>
 								<li>EPUB Accessibility: 6 Pass, 0 Fail, 0 Obsolete, 0 N/A</li>
 							</ul>
@@ -369,10 +369,11 @@ ACR voc.
 								</details>
 							</th>
 							<td class="lvl">A</td>
-							<td class="NA">
+							<td class="pass">
 								<p class="label">Pass</p>
 								<p class="additional">
 									<ul>
+										<li><code>Abbr</code> are rendered in a tooltip when they get focus.</li>
 										<li>Users can access `alt` text through TTS. However, that support can be enhanced by providing the `alt` text in the image viewing modal. See <a href="https://github.com/edrlab/thorium-reader/issues/3139">Issue #3139: Allow users to display alt texts to extend support for UAAG Guideline 1.1: Alternative content accessibility.</a> </li>
 										<li>The video player allows to activate subtitles if they are available. Embed players are the responsibility of the ebook content creator. </li>
 									</ul>
@@ -476,11 +477,19 @@ ACR voc.
 								</details>
 							</th>
 							<td class="lvl">A</td>
-							<td class="pass">
-								<p class="label">Pass</p>
-								<!--
-					<p class="additional">Additional Info: </p>
-					-->
+							<td class="fail">
+								<p class="label">Fail</p>
+
+
+
+					<p class="additional">
+						<ul><li><code>Abbr</code> are indicated by a
+							 dotted underline.</li>
+							<li><code>alt</code> text are not indicated. See <a href="https://github.com/edrlab/thorium-reader/issues/3139">Issue #3139: Allow users to display alt texts.</a> </li>
+							<li>The video player indic	ates the presence of subtitles if they are available. Embed players are the responsibility of the ebook content creator. </li>
+							</ul>
+								</p>
+
 							</td>
 							</tr>
 							<th>
@@ -608,9 +617,7 @@ ACR voc.
 							<td class="lvl">A</td>
 							<td class="pass">
 								<p class="label">Pass</p>
-								<!--
-					<p class="additional">Additional Info: </p>
-					-->
+								<p class="additional">Caption Clean view is available for TTS reading. It should be extended to visual reading (see <a href="https://github.com/edrlab/thorium-reader/issues/3141">Issue  #3141 Extend Caption / Clean View to visual reading (UAAG1.1.3 Replace Non-Text Content)</a>)</p>
 							</td>
 							</tr>
 							<th>
