@@ -102,7 +102,7 @@ en modifiant la valeur à l&amp;rsquo;aide de la boîte &lt;code>Aller à la pag
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-gotopage.png" alt="Capture d'écran, Aller à la page. Page courante : 3. Un menu déroulant indique 3, un champ éditable indique Entrer un numéro de page, un bouton indiquer Aller à."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
-&lt;p>Les &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">
+&lt;p>Les &lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_resources/420_glossary#AdaptedBooks">
 livres adaptés&lt;/a> utilisent parfois la pagination de référence pour proposer un
 découpage du livre régulier aux lecteurs sans reproduire la pagination de
 l&amp;rsquo;original. Dans ce cas la pagination de référence ne peut pas être utilisée
@@ -288,7 +288,7 @@ comporter les notes de bas de page ou bien des encadrés selon la sémantique
 indiquée lors de la fabrication du livre numérique.
 &lt;code>Split TTS&lt;/code> découpera le contenu par phrase permettant un surlignage plus précis.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
-Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l&amp;rsquo;entrée correspondante de la section questions fréquentes &lt;a href="../400_ressources/430_faq#TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)&lt;/a>
+Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l&amp;rsquo;entrée correspondante de la section questions fréquentes &lt;a href="../400_resources/430_faq#TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)&lt;/a>
 &lt;/div></description></item><item><title>Docs: La bibliothèque</title><link>https://thorium.edrlab.org/fr/docs/220_organizing/221_libraries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/220_organizing/221_libraries/</guid><description>
 &lt;h2 id="ajouter-un-ou-des-livres">Ajouter un ou des livres&lt;/h2>
 &lt;p>Vous pouvez glisser-déposer un dossier dans la fenêtre de la bibliothèque à partir de l&amp;rsquo;explorateur de fichiers de votre système d&amp;rsquo;exploitation, il sera analysé de manière récursive (c&amp;rsquo;est-à-dire que les sous-dossiers seront également analysés à la recherche de publications).&lt;/p>
@@ -467,13 +467,13 @@ des options disponible dans le menu &lt;code>Paramètres / Readaloud&lt;/code>.&
 &lt;/li>
 &lt;/ul>
 &lt;div class="alert alert-primary" role="alert">
-Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l&amp;rsquo;entrée correspondante de la section questions fréquentes &lt;a href="https://thorium.edrlab.org/docs/400_ressources/430_faq#TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)&lt;/a>
+Thorium utilise les voix du système d&amp;rsquo;exploitation de l&amp;rsquo;ordinateur, en combinaison avec les informations linguistiques fournies par le livre. Si vous rencontrez des problèmes, veuillez consulter l&amp;rsquo;entrée correspondante de la section questions fréquentes &lt;a href="https://thorium.edrlab.org/docs/400_resources/430_faq#TTSvoicesFR">Je ne peux pas sélectionner la voix adéquate pour la fonction de lecture à haute voix (TTS)&lt;/a>
 &lt;/div>
 &lt;div class="alert alert-primary" role="alert">
 Thorium 2.3 TTS lit les numéros de page par défaut, ce qui peut entraîner une expérience d&amp;rsquo;écoute trop verbeuse. L&amp;rsquo;option &lt;code>skipability&lt;/code> dans le paramètre &lt;code>readaloud&lt;/code> n&amp;rsquo;affecte pas la lecture TTS comme prévu. Ce problème a été corrigé dans la &lt;a href="https://github.com/edrlab/thorium-reader/releases">2.4 alpha continuous test build&lt;/a> et sera intégré à la version 2.4.
 &lt;/div></description></item><item><title>Docs: Informations d'accessibilité</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/301_a11yinfos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/300_accessibility/301_a11yinfos/</guid><description>
 &lt;p>Actuellement Thorium affiche dans la
-&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_ressources/420_glossary#bookInformation">Fiche Livre&lt;/a>
+&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_resources/420_glossary#bookInformation">Fiche Livre&lt;/a>
 sous l&amp;rsquo;intitulé &lt;code>Description&lt;/code> le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité
 (&lt;span lang="en">accessibilitySummary&lt;/span>).&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>

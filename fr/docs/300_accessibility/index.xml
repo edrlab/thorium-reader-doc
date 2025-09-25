@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibilité</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/</link><description>Recent content in Accessibilité on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://thorium.edrlab.org/fr/docs/300_accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Informations d'accessibilité</title><link>https://thorium.edrlab.org/fr/docs/300_accessibility/301_a11yinfos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/docs/300_accessibility/301_a11yinfos/</guid><description>
 &lt;p>Actuellement Thorium affiche dans la
-&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_ressources/420_glossary#bookInformation">Fiche Livre&lt;/a>
+&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/fr/400_resources/420_glossary#bookInformation">Fiche Livre&lt;/a>
 sous l&amp;rsquo;intitulé &lt;code>Description&lt;/code> le contenu de la métadonnée Résumé d&amp;rsquo;accessibilité
 (&lt;span lang="en">accessibilitySummary&lt;/span>).&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Capture d'écran, le livre La marque des quatre indique : Cette publication est conforme à la « Charte SNE - EPUBs “textuels” nativement accessibles »."/>
