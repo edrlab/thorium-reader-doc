@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Ressources</title><link>https://thorium.edrlab.org/en/th3/400_ressources/</link><description>Recent content in Ressources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/400_ressources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/en/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/390_requirements/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – resources</title><link>https://thorium.edrlab.org/en/th3/400_resources/</link><description>Recent content in resources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/400_resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/en/th3/400_resources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/390_requirements/</guid><description>
 &lt;p>Platform support is provided by Electron as defined in &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">Electron github repo Readme&lt;/a>&lt;/p>
 &lt;p>Each Electron release provides binaries for macOS, Windows, and Linux.&lt;/p>
 &lt;ul>
@@ -12,7 +12,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>Thorium 3.0 has memories issues under Linux, as documented in Issue &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Keyboard shortcuts</title><link>https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/</guid><description>
+&lt;p>Thorium 3.0 has memories issues under Linux, as documented in Issue &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Keyboard shortcuts</title><link>https://thorium.edrlab.org/en/th3/400_resources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/402_keyboard-shortcuts/</guid><description>
 &lt;p>Keyboard shortcuts are available from the application settings panel third tab. It help you check and manipulate keyboard driven actions within the application. Figure out the three dots menu aside of the Panel title with extra actions (&lt;span class="ui_button">Reset&lt;/span>, &lt;span class="ui_button">Edit&lt;/span> and &lt;span class="ui_button">Load&lt;/span>). The &lt;span class="ui_button">Edit&lt;/span> one opens system folder application to the localisation of the stored user setting &lt;code>.json&lt;/code> file, allowing you to edit it outside of the application (at your own risks), save it for future uses or share it within your devices or with who you want.&lt;/p>
 &lt;p>The following list is showing the default keyboard shortcut settings.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
@@ -234,7 +234,7 @@ in reader window, publication info popup modal dialog with direct keyboard focus
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> &lt;/dt>
 &lt;dd>In reader window, toggle fullscreen. Note that this is different from the Zen mode. Keyboard shortcut is the only way to go full screen.
 &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Supported publication formats</title><link>https://thorium.edrlab.org/en/th3/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/406_formats/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Supported publication formats</title><link>https://thorium.edrlab.org/en/th3/400_resources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/406_formats/</guid><description>
 &lt;dl>
 &lt;dt>EPUB&lt;/dt>
 &lt;dd>(Electronic PUBlication) is an open file format for electronic publications.
@@ -274,7 +274,7 @@ sequances of images.
 this format. This is still an experimental format, and we hope that
 publishers will size it in 2021+.
 &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Glossary</title><link>https://thorium.edrlab.org/en/th3/400_ressources/420_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/420_glossary/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Glossary</title><link>https://thorium.edrlab.org/en/th3/400_resources/420_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/420_glossary/</guid><description>
 &lt;dl>
 &lt;dt id="bookInformation">Book information panel (Book Details)&lt;/dt>
 &lt;dd> Gives information about the digital book. This information is
@@ -295,7 +295,7 @@ The Marrakech Treaty
 &lt;dl>
 &lt;dt id="OPDS">OPDS&lt;/dt>&lt;dd> Open Publication Distribution System
 &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Frequently asked questions</title><link>https://thorium.edrlab.org/en/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/430_faq/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Frequently asked questions</title><link>https://thorium.edrlab.org/en/th3/400_resources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/430_faq/</guid><description>
 &lt;dl>
 &lt;dt id="fullscreen">How can I enjoy Thorium in Fullscreen?
 &lt;/dt>
@@ -341,7 +341,7 @@ Having a UI for exporting the whole catalog is not a priority currently.
 &lt;/ul>
 &lt;p>In case of a migration from one computer to another or similar usecases, you can copy all ebook files in this repository and open them in the new installation of Thorium.&lt;/p>
 &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Stuck?</title><link>https://thorium.edrlab.org/en/th3/400_ressources/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/904_issues/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Stuck?</title><link>https://thorium.edrlab.org/en/th3/400_resources/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/904_issues/</guid><description>
 &lt;p>If you do not find the answer to your problem on this site,
 you can tell us your problem via our &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">support tracking tool&lt;/a> or &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>.&lt;/p>
 &lt;p>Here is the information we need:&lt;/p>

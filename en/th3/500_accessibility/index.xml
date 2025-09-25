@@ -151,7 +151,7 @@ on which the cursor is located. Then use
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> to place a bookmark.
 A sound notification will inform you of the number of bookmarks
 in the current publication.&lt;/p>
-&lt;h2 id="external-ressources-for-screen-reader-use-in-thorium">External ressources for screen reader use in Thorium&lt;/h2>
+&lt;h2 id="external-resources-for-screen-reader-use-in-thorium">External resources for screen reader use in Thorium&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
@@ -171,7 +171,7 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;ul>
 &lt;li>the version change log&lt;/li>
 &lt;li>a short mention on the website landing page&lt;/li>
-&lt;li>listed for reference in this website &lt;a href="../../500_accessibility">ressources section, accessibility page&lt;/a>&lt;/li>
+&lt;li>listed for reference in this website &lt;a href="../../500_accessibility">resources section, accessibility page&lt;/a>&lt;/li>
 &lt;li>all accessibility related explanations are available in the documentation, not in a separate chapter or place.&lt;/li>
 &lt;/ul>
 &lt;p>We are maintaining an &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">Accessibility Conformance Report for Thorium Reader&lt;/a>.&lt;/p>

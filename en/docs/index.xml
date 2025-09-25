@@ -115,7 +115,7 @@ changing the value using the &lt;code>Go to page&lt;/code> box.&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-gotopage.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
 &lt;div class="alert alert-primary" role="alert">
 &lt;p>Attention !&lt;/p>
-&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_ressources/420_glossary#AdaptedBooks">
+&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_resources/420_glossary#AdaptedBooks">
 Adapted books&lt;/a> sometimes use the reference pagination to offer a regular
 book breakdown to readers without reproducing the pagination of the
 original pagination. In this case the reference pagination cannot be used
@@ -297,7 +297,7 @@ footnotes or sidebars according to the semantics
 indicated during the production of the digital book.
 &lt;code>Split TTS&lt;/code> will split the content by sentence for more precise highlighting.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
-Thorium uses the voices from the computer&amp;rsquo;s operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry &lt;a href="../400_ressources/430_faq#TTSvoices">I can&amp;rsquo;t select the adequate voice for read aloud function (TTS)&lt;/a>.
+Thorium uses the voices from the computer&amp;rsquo;s operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry &lt;a href="../400_resources/430_faq#TTSvoices">I can&amp;rsquo;t select the adequate voice for read aloud function (TTS)&lt;/a>.
 &lt;/div></description></item><item><title>Docs: Read mathematics</title><link>https://thorium.edrlab.org/en/docs/210_reading/221_maths/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/210_reading/221_maths/</guid><description>
 &lt;p>Since 2.3 Thorium Reader supports mathematical formulas in MathML natively thanks to Chromium.
 MathJax module is incorporated and may be of use for interoperability and accessibility needs.&lt;/p>
@@ -475,13 +475,13 @@ underlined in orange.&lt;/p>
 &lt;li>Split text focuses phrase by phrase&lt;/li>
 &lt;/ul>
 &lt;div class="alert alert-primary" role="alert">
-Thorium uses the voices from the computer&amp;rsquo;s operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry &lt;a href="https://thorium.edrlab.org/docs/400_ressources/430_faq#TTSvoices">I can&amp;rsquo;t select the adequate voice for read aloud function (TTS)&lt;/a>.
+Thorium uses the voices from the computer&amp;rsquo;s operating system, in combination with the language information provided by the book. If you experience problems please check the related FAQ entry &lt;a href="https://thorium.edrlab.org/docs/400_resources/430_faq#TTSvoices">I can&amp;rsquo;t select the adequate voice for read aloud function (TTS)&lt;/a>.
 &lt;/div>
 &lt;div class="alert alert-primary" role="alert">
 Thorium 2.3 TTS reads page numbers by default which might result in a too verbose earing experience. The &lt;code>skipability&lt;/code> option in &lt;code>readaloud&lt;/code> parameter does not affect TTS reading as expected. This is fixed in &lt;a href="https://github.com/edrlab/thorium-reader/releases">2.4 alpha continuous test build&lt;/a> and will be shipped in 2.4 release.
 &lt;/div></description></item><item><title>Docs: Accessibility information</title><link>https://thorium.edrlab.org/en/docs/300_accessibility/301_a11yinfos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/docs/300_accessibility/301_a11yinfos/</guid><description>
 &lt;p>Currently Thorium displays in the
-&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_ressources/420_glossary#bookInformation">Book information panel&lt;/a>
+&lt;a href="https://thorium.edrlab.org/thorium-reader-doc/400_resources/420_glossary#bookInformation">Book information panel&lt;/a>
 under the heading &lt;code>Description&lt;/code> the content of the accessibility summary metadata
 (&lt;span lang="en">accessibilitySummary&lt;/span>).&lt;/p>
 &lt;img src="https://thorium.edrlab.org/images/local-fr/thorium-bookinfo-a11ysummary.png" alt="Screenshot, the book The Mark of Four indicates: This publication complies with the SNE Charter - natively accessible textual EPUBs »."/>

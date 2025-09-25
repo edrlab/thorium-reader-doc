@@ -48,7 +48,7 @@ Whether you&amp;rsquo;re looking for the latest bestseller, a classic novel, a t
 &lt;h2 id="academic-and-professional-e-books">Academic and Professional E-Books:&lt;/h2>
 &lt;p>Google Scholar: Google Scholar provides a simple way to broadly search for scholarly literature. From one place, you can search across many disciplines and sources.&lt;/p>
 &lt;p>JSTOR: JSTOR is a digital library founded in 1995. Originally containing digitized back issues of academic journals, it now also includes books and primary sources. It is available to many universities and institutions across Europe.&lt;/p>
-&lt;p>Directory of Open Access Books (DOAB): DOAB provides open access to peer-reviewed books from various publishers. It is based in the Netherlands.&lt;/p></description></item><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/en/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/390_requirements/</guid><description>
+&lt;p>Directory of Open Access Books (DOAB): DOAB provides open access to peer-reviewed books from various publishers. It is based in the Netherlands.&lt;/p></description></item><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/en/th3/400_resources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/390_requirements/</guid><description>
 &lt;p>Platform support is provided by Electron as defined in &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">Electron github repo Readme&lt;/a>&lt;/p>
 &lt;p>Each Electron release provides binaries for macOS, Windows, and Linux.&lt;/p>
 &lt;ul>
@@ -62,7 +62,7 @@ Whether you&amp;rsquo;re looking for the latest bestseller, a classic novel, a t
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>Thorium 3.0 has memories issues under Linux, as documented in Issue &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Keyboard shortcuts</title><link>https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/</guid><description>
+&lt;p>Thorium 3.0 has memories issues under Linux, as documented in Issue &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Keyboard shortcuts</title><link>https://thorium.edrlab.org/en/th3/400_resources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/402_keyboard-shortcuts/</guid><description>
 &lt;p>Keyboard shortcuts are available from the application settings panel third tab. It help you check and manipulate keyboard driven actions within the application. Figure out the three dots menu aside of the Panel title with extra actions (&lt;span class="ui_button">Reset&lt;/span>, &lt;span class="ui_button">Edit&lt;/span> and &lt;span class="ui_button">Load&lt;/span>). The &lt;span class="ui_button">Edit&lt;/span> one opens system folder application to the localisation of the stored user setting &lt;code>.json&lt;/code> file, allowing you to edit it outside of the application (at your own risks), save it for future uses or share it within your devices or with who you want.&lt;/p>
 &lt;p>The following list is showing the default keyboard shortcut settings.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
@@ -284,7 +284,7 @@ in reader window, publication info popup modal dialog with direct keyboard focus
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> &lt;/dt>
 &lt;dd>In reader window, toggle fullscreen. Note that this is different from the Zen mode. Keyboard shortcut is the only way to go full screen.
 &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Supported publication formats</title><link>https://thorium.edrlab.org/en/th3/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/406_formats/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Supported publication formats</title><link>https://thorium.edrlab.org/en/th3/400_resources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/406_formats/</guid><description>
 &lt;dl>
 &lt;dt>EPUB&lt;/dt>
 &lt;dd>(Electronic PUBlication) is an open file format for electronic publications.
@@ -324,7 +324,7 @@ sequances of images.
 this format. This is still an experimental format, and we hope that
 publishers will size it in 2021+.
 &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Glossary</title><link>https://thorium.edrlab.org/en/th3/400_ressources/420_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/420_glossary/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Glossary</title><link>https://thorium.edrlab.org/en/th3/400_resources/420_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/420_glossary/</guid><description>
 &lt;dl>
 &lt;dt id="bookInformation">Book information panel (Book Details)&lt;/dt>
 &lt;dd> Gives information about the digital book. This information is
@@ -345,7 +345,7 @@ The Marrakech Treaty
 &lt;dl>
 &lt;dt id="OPDS">OPDS&lt;/dt>&lt;dd> Open Publication Distribution System
 &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Frequently asked questions</title><link>https://thorium.edrlab.org/en/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/430_faq/</guid><description>
+&lt;/dl></description></item><item><title>Th3: Frequently asked questions</title><link>https://thorium.edrlab.org/en/th3/400_resources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/430_faq/</guid><description>
 &lt;dl>
 &lt;dt id="fullscreen">How can I enjoy Thorium in Fullscreen?
 &lt;/dt>
@@ -544,7 +544,7 @@ on which the cursor is located. Then use
 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> to place a bookmark.
 A sound notification will inform you of the number of bookmarks
 in the current publication.&lt;/p>
-&lt;h2 id="external-ressources-for-screen-reader-use-in-thorium">External ressources for screen reader use in Thorium&lt;/h2>
+&lt;h2 id="external-resources-for-screen-reader-use-in-thorium">External resources for screen reader use in Thorium&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
@@ -692,7 +692,7 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;ul>
 &lt;li>the version change log&lt;/li>
 &lt;li>a short mention on the website landing page&lt;/li>
-&lt;li>listed for reference in this website &lt;a href="../../500_accessibility">ressources section, accessibility page&lt;/a>&lt;/li>
+&lt;li>listed for reference in this website &lt;a href="../../500_accessibility">resources section, accessibility page&lt;/a>&lt;/li>
 &lt;li>all accessibility related explanations are available in the documentation, not in a separate chapter or place.&lt;/li>
 &lt;/ul>
 &lt;p>We are maintaining an &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">Accessibility Conformance Report for Thorium Reader&lt;/a>.&lt;/p>
@@ -701,7 +701,7 @@ These are the main reasons why we cannot, at this moment, afford a full accessib
 &lt;p>As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.&lt;/p>
 &lt;p>New functionalities are tested with screen readers.&lt;/p>
 &lt;h2 id="accessibility-testing">Accessibility testing&lt;/h2>
-&lt;p>Thorium EPUB accessible reading features are community testing through &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item><item><title>Th3: Stuck?</title><link>https://thorium.edrlab.org/en/th3/400_ressources/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/904_issues/</guid><description>
+&lt;p>Thorium EPUB accessible reading features are community testing through &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item><item><title>Th3: Stuck?</title><link>https://thorium.edrlab.org/en/th3/400_resources/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/904_issues/</guid><description>
 &lt;p>If you do not find the answer to your problem on this site,
 you can tell us your problem via our &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">support tracking tool&lt;/a> or &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>.&lt;/p>
 &lt;p>Here is the information we need:&lt;/p>
