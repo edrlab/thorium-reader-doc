@@ -25,7 +25,7 @@ Nous recueillons les commentaires sur les expériences des clients du point de v
 Lorsqu'une fonctionnalité d'accessibilité est introduite, nous rendons cette information publique via
 *le journal des changements de version
 *une courte mention sur la landing page du site
-*répertorié pour référence sur ce site Web [section ressources, page accessibilité](../../400_ressources/300_accessibility)
+*répertorié pour référence sur ce site Web [section ressources, page accessibilité](../../400_resources/300_accessibility)
 *toutes les explications liées à l'accessibilité sont disponibles dans la documentation, et non dans un chapitre ou un endroit séparé.
 
 ## Prise en charge des technologies d'assistance
