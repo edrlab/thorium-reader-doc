@@ -93,7 +93,7 @@ on which the cursor is located. Then use
 A sound notification will inform you of the number of bookmarks 
 in the current publication.
 
-## External ressources for screen reader use in Thorium
+## External resources for screen reader use in Thorium
 
 * [The DAISY Consortium Thorium Reader Getting Started Guide](https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/)
 * [The DAISY Consortium Thorium Archives Page](https://daisy.org/news-events/tag/thorium/)
