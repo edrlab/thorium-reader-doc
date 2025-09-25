@@ -23,7 +23,7 @@ Cuando se introduce una función de accesibilidad, hacemos pública esa informac
 
 - el registro de cambios de versión
 - Una breve mención en la página de inicio del sitio web.
-- listado para referencia en [la sección de recursos de este sitio web, página de accesibilidad](../../400_ressources/300_accessibility)
+- listado para referencia en [la sección de recursos de este sitio web, página de accesibilidad](../../400_resources/300_accessibility)
 - Todas las explicaciones relacionadas con la accesibilidad están disponibles en la documentación, no en un capítulo o lugar separado.
 
 Estamos manteniendo una [VPAT (plantilla de accesibilidad voluntaria del producto) para Thorium Reader](https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html) .

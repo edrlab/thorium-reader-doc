@@ -130,7 +130,7 @@ en modifiant la valeur à l'aide de la boîte `Aller à la page`.
 
 Attention !
 
-Les <a href="/thorium-reader-doc/fr/400_ressources/420_glossary#AdaptedBooks">
+Les <a href="/thorium-reader-doc/fr/400_resources/420_glossary#AdaptedBooks">
 livres adaptés</a> utilisent parfois la pagination de référence pour proposer un 
 découpage du livre régulier aux lecteurs sans reproduire la pagination de 
 l'original. Dans ce cas la pagination de référence ne peut pas être utilisée 
