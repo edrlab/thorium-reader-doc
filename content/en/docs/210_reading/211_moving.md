@@ -141,7 +141,7 @@ changing the value using the `Go to page` box.
 
 Attention !
 
-<a href="/thorium-reader-doc/400_ressources/420_glossary#AdaptedBooks">
+<a href="/thorium-reader-doc/400_resources/420_glossary#AdaptedBooks">
 Adapted books</a> sometimes use the reference pagination to offer a regular 
 book breakdown to readers without reproducing the pagination of the 
 original pagination. In this case the reference pagination cannot be used 

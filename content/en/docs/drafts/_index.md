@@ -4,7 +4,7 @@ type: docs
 draft: true
 ---
 
-# Help and ressources for enhanced reading experience
+# Help and resources for enhanced reading experience
 
 Thorium Reader is the Reading Application of choice for Windows 10, MacOS and Linux.
 
