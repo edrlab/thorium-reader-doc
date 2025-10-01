@@ -7,12 +7,11 @@ weight: '502'
 
 ## Reading with a screen reader
 
-When launching Thorium, if a screen reader is detected, the relative
-functions are activated.
+Since Thorium 3.3, users must explicitly activate screen reader support in the application preferences.
+In the previous versions, Thorium detected active screen readers and automatically activated the related functionalities. We had to change because of apps creating false positives because they activate assistive technology privileges.
 
-Note that screen readers use a separate buffer to access the HTML
-content which results in the visual scroll / page offset to be out of
-sync. In other words, Thorium is generally not aware of the user\'s
+Since Thorium 3.2, Thorium knows the screen reader reading position and therefore maintains visual scroll synchronisation. In previous versions, because of the screen reader using a separate buffer, 
+Thorium was not aware of the user\'s
 current reading location inside the screen reader buffer, unless the
 screen reader user triggers standard web API events (such as mouse click
 anywhere in the text, or keyboard tab into focusable HTML elements).
