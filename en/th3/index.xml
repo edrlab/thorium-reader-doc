@@ -149,9 +149,9 @@ Version: 3.3&lt;/p>
 &lt;li>&lt;strong>DAISY&lt;/strong> 3 and 2.02, both in their text only, audio only, and syncronised text and audio.&lt;/li>
 &lt;li>&lt;strong>PDF&lt;/strong> without support for forms nor annotations.&lt;/li>
 &lt;li>&lt;strong>Audiobooks&lt;/strong> standardized as per W3C packaged (LPF) audiobook format.&lt;/li>
-&lt;li>&lt;strong>Divina&lt;/strong>, an experimental format for comics, manga, webtoons and other styles of digital works based on sequances of images.&lt;/li>
+&lt;li>&lt;strong>Divina&lt;/strong>, an experimental format for comics, manga, webtoons and other styles of digital works based on sequences of images.&lt;/li>
 &lt;/ul>
-&lt;p>## App Features&lt;/p>
+&lt;h2 id="app-features">App features&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>Load &amp;amp; Read ebooks:&lt;/strong> Thorium Reader Desktop allows you to load an ebook from your computer and read it in a dedicated windows.&lt;/li>
 &lt;li>&lt;strong>Organise ebooks:&lt;/strong> ebooks can be sorted, tagged, exported, deleted and lending can be managed from the Library window.&lt;/li>
@@ -167,9 +167,7 @@ Version: 3.3&lt;/p>
 &lt;li>&lt;strong>Offline support:&lt;/strong> Thorium Reader Desktop can be used offline, however, online catalogs can not be accessed offline.&lt;/li>
 &lt;/ul>
 &lt;h2 id="security-information">Security Information&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Security Reports:&lt;/strong> security vulnerabilities must be reported privately to maintainers through the dedicated &lt;a href="https://github.com/edrlab/thorium-reader/security/advisories/new">report a vulnerability page&lt;/a>. A GitHub account is necessary. Alternatively, vulnerability reports can be sent by email at: &lt;a href="mailto:contact@edrlab.org">contact@edrlab.org&lt;/a>.&lt;/li>
-&lt;/ul>
+&lt;p>&lt;strong>Security Reports:&lt;/strong> security vulnerabilities must be reported privately to maintainers through the dedicated &lt;a href="https://github.com/edrlab/thorium-reader/security/advisories/new">report a vulnerability page&lt;/a>. A GitHub account is necessary. Alternatively, vulnerability reports can be sent by email at: &lt;a href="mailto:contact@edrlab.org">contact@edrlab.org&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Data protection:&lt;/strong> Thorium Reader Desktop collects no personal data&lt;/p>
 &lt;p>&lt;strong>Permissions:&lt;/strong> : Thorium Reader Desktop requires device access to the following:&lt;/p>
 &lt;ul>
