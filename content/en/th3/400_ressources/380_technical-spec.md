@@ -62,10 +62,10 @@ Thorium Reader Desktop is available on the Windows store and can also be install
  * **DAISY** 3 and 2.02, both in their text only, audio only, and syncronised text and audio.
  * **PDF** without support for forms nor annotations.
  * **Audiobooks** standardized as per W3C packaged (LPF) audiobook format.
- * **Divina**, an experimental format for comics, manga, webtoons and other styles of digital works based on sequances of images.
+ * **Divina**, an experimental format for comics, manga, webtoons and other styles of digital works based on sequences of images.
 
 
-## App Features
+## App features
 
 * **Load & Read ebooks:** Thorium Reader Desktop allows you to load an ebook from your computer and read it in a dedicated windows.
 * **Organise ebooks:** ebooks can be sorted, tagged, exported, deleted and lending can be managed from the Library window.
@@ -82,7 +82,7 @@ Thorium Reader Desktop is available on the Windows store and can also be install
 
 ## Security Information
 
-* **Security Reports:** security vulnerabilities must be reported privately to maintainers through the dedicated [report a vulnerability page](https://github.com/edrlab/thorium-reader/security/advisories/new). A GitHub account is necessary. Alternatively, vulnerability reports can be sent by email at: contact@edrlab.org.
+**Security Reports:** security vulnerabilities must be reported privately to maintainers through the dedicated [report a vulnerability page](https://github.com/edrlab/thorium-reader/security/advisories/new). A GitHub account is necessary. Alternatively, vulnerability reports can be sent by email at: contact@edrlab.org.
 
 **Data protection:** Thorium Reader Desktop collects no personal data
 
