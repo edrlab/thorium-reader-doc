@@ -108,7 +108,7 @@ Thorium Reader Desktop does not use SSH, direct TCP connections, or WebSockets f
 * **Error Reports:** errors and problems should preferably be reported via our [support tracking tool](https://github.com/edrlab/thorium-reader-doc/issues/new) (necessitate a free GitHub account) or [contact form](https://www.edrlab.org/contact/). To reproduce and find a solution, we need to know Operating system and Thorium version (indicated at the bottom of the library under the title About Thorium).
 
 ## Version
-**Current Version:** 3.3
+**Current Version:** 3
 
 **Version File Sizes:**
   * Windows AMD .exe: 102 MB
