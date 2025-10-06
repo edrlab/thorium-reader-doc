@@ -7,7 +7,8 @@ toc: false
 ---
 
 Last updated 2025, October 6
-Version: 3
+
+About Thorium Reader Desktop Version: 3
 
 ## App Overview
 
@@ -16,7 +17,7 @@ Version: 3
 **Target Audience:** General public with a particular attention for heavy readers, library-goers, and students.
 
 **Supported Operating Systems:** 
-  * macOS (Big Sur and up)
+  * macOS (Big Sur, 11 and up)
   * Windows (Windows 10 and up)
   * Linux: 
     * Ubuntu 18.04 and newer
@@ -38,31 +39,31 @@ Thorium Reader Desktop is available on the Windows store and can also be install
 ### Installation
   * On Windows: 
     * Select the download link corresponding to your Windows architecture (ARM 64 or AMD 64), this information is available from your system information panel.
-    * Download the Thorium.Setup.3.3.x.exe file to your Windows device.
+    * Download the Thorium.Setup.3.x.x.exe file to your Windows device.
     * Open the Explorer and navigate to Downloads.
-    * Double-click the downloaded *.exe file.Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install. 
+    * Double-click the downloaded *.exe file. Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install. 
   * On MacOS: 
     * Select the download link corresponding to your Mac architecture (Recent M1, M2, M3, M4 or Intel for Mac produced before fourth quarter of 2021), this information is available from your system information panel.
-    * Download the Thorium.Setup.3.3.x.dmg file to your macOS device.
+    * Download the Thorium.Setup.3.x.x.dmg file to your macOS device.
     * Open the Finder and navigate to Downloads.
     * Double-click the downloaded *.dmg file.
     * Now drag and drop the application icon to the Applications folder to install the application.
     * Close the window and press the eject button in Finder to dismount the image.
   * On Linux: 
     * Select the download link corresponding to your computer architecture (ARM 64 or AMD 64), this information is available from your system information panel.
-    * Download the Thorium.Setup.3.3.x.deb file to your Windows device.
+    * Download the Thorium.Setup.3.x.x.deb file to your Windows device.
     * Open the Explorer and navigate to Downloads.
     * Double-click the downloaded *.exe file.Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install. 
 
 ### Accounts & passphrases
   * No account nor registration are necessary to use Thorium Reader Desktop. 
-  * An account can be necessary to access catalogs loaded into Thorium. In that case, the catalog provider is responsible for any related question, support or reclamation.
-  * A passphrase can be necessary to read protected ebooks. In that case, the file provider is responsible for any related question, support or reclamation.
+  * An account is necessary to access catalogs loaded into Thorium. In that case, the catalog provider is responsible for any related question, support or reclamation.
+  * A passphrase can be necessary to read protected ebooks. This passphrase is stored by the application after being entered once, and is therefore requested once only.  The provider of the protected ebook is responsible for any related question, support or reclamation. 
 
 ## Supported publication formats
- * **EPUB** (Electronic PUBlication), 2 and 3 including Reflowable, Fixed-Layout and MediaOverlay variants. 
- * **Web Publication** both in their W3C and Readium flavors.
- * **DAISY** 3 and 2.02, both in their text only, audio only, and syncronised text and audio.
+ * **EPUB** (Electronic PUBlication), version 2 and 3 including Reflowable, Fixed-Layout and MediaOverlay variants. 
+ * **Web Publications** both in their W3C and Readium flavors.
+ * **DAISY**, version 2.02 and 3, both in their text only, audio only, and syncronised text and audio flavors.
  * **PDF** without support for forms nor annotations.
  * **Audiobooks** standardized as per W3C packaged (LPF) audiobook format.
  * **Divina**, an experimental format for comics, manga, webtoons and other styles of digital works based on sequences of images.
@@ -73,12 +74,12 @@ Thorium Reader Desktop is available on the Windows store and can also be install
 * **Load & Read ebooks:** Thorium Reader Desktop allows you to load an ebook from your computer and read it in a dedicated windows.
 * **Organise ebooks:** ebooks can be sorted, tagged, exported, deleted and lending can be managed from the Library window.
 * **Bookmark:** Users can add, comment, tag, modify, sort, access, export and import bookmarks.
-* **Annotations:**  Users can add, personalize (with color and stroke), comment, tag, modify, sort, access, export and import annotations.
+* **Annotate:**  Users can add, personalize (with color and stroke), comment, tag, modify, sort, access, export and import annotations.
 * **Filter:** Users can filter ebooks with a range of options, including free text (like search).
 * **Search:** Users can search inside an ebook, list and navigate between search results.
 * **Add & Browse catalogs:** Users can add catalogs in the OPDS format and browse them depending on the options provided by the catalog provider.
 * **Lend & acquire ebooks:** Users can download ebooks from catalogs for a timeless access or under a time period depending on the catalog provider terms of lending or acquisition.
-* **Personalization:** Users can personalize the reading experience according to the formats capacities.
+* **Personalize:** Users can personalize the reading experience according to the formats capacities.
 * **Accessibility:** Users can use assistive technology to access and use Thorium Reader Desktop.
 * **User guide:** Users can download, read online or load as catalog a complete user guide as ebook. 
 * **Offline support:** Thorium Reader Desktop can be used offline, however, online catalogs can not be accessed offline.
