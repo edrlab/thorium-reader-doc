@@ -1,4 +1,143 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – resources</title><link>https://thorium.edrlab.org/en/th3/400_resources/</link><description>Recent content in resources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/400_resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/en/th3/400_resources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/390_requirements/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – resources</title><link>https://thorium.edrlab.org/en/th3/400_resources/</link><description>Recent content in resources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/400_resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Technical Specification for Thorium Reader Desktop</title><link>https://thorium.edrlab.org/en/th3/400_resources/380_technical-spec/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/380_technical-spec/</guid><description>
+&lt;p>Last updated 2025, October 6
+Version: 3&lt;/p>
+&lt;h2 id="app-overview">App Overview&lt;/h2>
+&lt;p>&lt;strong>Purpose:&lt;/strong> Thorium is a digital book reader, it is also a library where you can store your books and access to online catalogs.&lt;/p>
+&lt;p>&lt;strong>Target Audience:&lt;/strong> General public with a particular attention for heavy readers, library-goers, and students.&lt;/p>
+&lt;p>&lt;strong>Supported Operating Systems:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>macOS (Big Sur and up)&lt;/li>
+&lt;li>Windows (Windows 10 and up)&lt;/li>
+&lt;li>Linux:
+&lt;ul>
+&lt;li>Ubuntu 18.04 and newer&lt;/li>
+&lt;li>Fedora 32 and newer&lt;/li>
+&lt;li>Debian 10 and newer&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Hardware &amp;amp; Software Requirements:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Both ARM 64 and AMD 64 architectures are supported via different installers.&lt;/li>
+&lt;li>No additional software is needed.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Major and minor versions:&lt;/strong> Thorium releases minor versions every 3 to 4 months; those are numbered with a dot and numbers after the main version number (e.g., 3.1.1). Those versions usually include bug fixes and enhanced features, but no breaking changes. This technical specification page addresses the main version and associated minor revisions. If a minor version introduces a notable difference, it will be clearly indicated in the relevant section.&lt;/p>
+&lt;h2 id="download-installation--registration">Download, Installation, &amp;amp; Registration&lt;/h2>
+&lt;h3 id="download">Download&lt;/h3>
+&lt;p>Thorium Reader Desktop is available on the Windows store and can also be installed directly from the installer files available from the &lt;a href="https://thorium.edrlab.org">Thorium website&lt;/a>. A standalone (with no need to be installed) AppImage is also available for Linux, once this one downloaded, it is necessary to change permissions to make it executable as a program, then double-click on the Icon to launch the app.&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;ul>
+&lt;li>On Windows:
+&lt;ul>
+&lt;li>Select the download link corresponding to your Windows architecture (ARM 64 or AMD 64), this information is available from your system information panel.&lt;/li>
+&lt;li>Download the Thorium.Setup.3.3.x.exe file to your Windows device.&lt;/li>
+&lt;li>Open the Explorer and navigate to Downloads.&lt;/li>
+&lt;li>Double-click the downloaded *.exe file.Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>On MacOS:
+&lt;ul>
+&lt;li>Select the download link corresponding to your Mac architecture (Recent M1, M2, M3, M4 or Intel for Mac produced before fourth quarter of 2021), this information is available from your system information panel.&lt;/li>
+&lt;li>Download the Thorium.Setup.3.3.x.dmg file to your macOS device.&lt;/li>
+&lt;li>Open the Finder and navigate to Downloads.&lt;/li>
+&lt;li>Double-click the downloaded *.dmg file.&lt;/li>
+&lt;li>Now drag and drop the application icon to the Applications folder to install the application.&lt;/li>
+&lt;li>Close the window and press the eject button in Finder to dismount the image.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>On Linux:
+&lt;ul>
+&lt;li>Select the download link corresponding to your computer architecture (ARM 64 or AMD 64), this information is available from your system information panel.&lt;/li>
+&lt;li>Download the Thorium.Setup.3.3.x.deb file to your Windows device.&lt;/li>
+&lt;li>Open the Explorer and navigate to Downloads.&lt;/li>
+&lt;li>Double-click the downloaded *.exe file.Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="accounts--passphrases">Accounts &amp;amp; passphrases&lt;/h3>
+&lt;ul>
+&lt;li>No account nor registration are necessary to use Thorium Reader Desktop.&lt;/li>
+&lt;li>An account can be necessary to access catalogs loaded into Thorium. In that case, the catalog provider is responsible for any related question, support or reclamation.&lt;/li>
+&lt;li>A passphrase can be necessary to read protected ebooks. In that case, the file provider is responsible for any related question, support or reclamation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="supported-publication-formats">Supported publication formats&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>EPUB&lt;/strong> (Electronic PUBlication), 2 and 3 including Reflowable, Fixed-Layout and MediaOverlay variants.&lt;/li>
+&lt;li>&lt;strong>Web Publication&lt;/strong> both in their W3C and Readium flavors.&lt;/li>
+&lt;li>&lt;strong>DAISY&lt;/strong> 3 and 2.02, both in their text only, audio only, and syncronised text and audio.&lt;/li>
+&lt;li>&lt;strong>PDF&lt;/strong> without support for forms nor annotations.&lt;/li>
+&lt;li>&lt;strong>Audiobooks&lt;/strong> standardized as per W3C packaged (LPF) audiobook format.&lt;/li>
+&lt;li>&lt;strong>Divina&lt;/strong>, an experimental format for comics, manga, webtoons and other styles of digital works based on sequences of images.&lt;/li>
+&lt;/ul>
+&lt;h2 id="app-features">App features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Load &amp;amp; Read ebooks:&lt;/strong> Thorium Reader Desktop allows you to load an ebook from your computer and read it in a dedicated windows.&lt;/li>
+&lt;li>&lt;strong>Organise ebooks:&lt;/strong> ebooks can be sorted, tagged, exported, deleted and lending can be managed from the Library window.&lt;/li>
+&lt;li>&lt;strong>Bookmark:&lt;/strong> Users can add, comment, tag, modify, sort, access, export and import bookmarks.&lt;/li>
+&lt;li>&lt;strong>Annotations:&lt;/strong> Users can add, personalize (with color and stroke), comment, tag, modify, sort, access, export and import annotations.&lt;/li>
+&lt;li>&lt;strong>Filter:&lt;/strong> Users can filter ebooks with a range of options, including free text (like search).&lt;/li>
+&lt;li>&lt;strong>Search:&lt;/strong> Users can search inside an ebook, list and navigate between search results.&lt;/li>
+&lt;li>&lt;strong>Add &amp;amp; Browse catalogs:&lt;/strong> Users can add catalogs in the OPDS format and browse them depending on the options provided by the catalog provider.&lt;/li>
+&lt;li>&lt;strong>Lend &amp;amp; acquire ebooks:&lt;/strong> Users can download ebooks from catalogs for a timeless access or under a time period depending on the catalog provider terms of lending or acquisition.&lt;/li>
+&lt;li>&lt;strong>Personalization:&lt;/strong> Users can personalize the reading experience according to the formats capacities.&lt;/li>
+&lt;li>&lt;strong>Accessibility:&lt;/strong> Users can use assistive technology to access and use Thorium Reader Desktop.&lt;/li>
+&lt;li>&lt;strong>User guide:&lt;/strong> Users can download, read online or load as catalog a complete user guide as ebook.&lt;/li>
+&lt;li>&lt;strong>Offline support:&lt;/strong> Thorium Reader Desktop can be used offline, however, online catalogs can not be accessed offline.&lt;/li>
+&lt;/ul>
+&lt;h2 id="security-information">Security Information&lt;/h2>
+&lt;p>&lt;strong>Security Reports:&lt;/strong> security vulnerabilities must be reported privately to maintainers through the dedicated &lt;a href="https://github.com/edrlab/thorium-reader/security/advisories/new">report a vulnerability page&lt;/a>. A GitHub account is necessary. Alternatively, vulnerability reports can be sent by email at: &lt;a href="mailto:contact@edrlab.org">contact@edrlab.org&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Data protection:&lt;/strong> Thorium Reader Desktop collects no personal data&lt;/p>
+&lt;p>&lt;strong>Permissions:&lt;/strong> : Thorium Reader Desktop requires device access to the following:&lt;/p>
+&lt;ul>
+&lt;li>File system access - Required for downloading digital content (e.g. books) and storing annotations.&lt;/li>
+&lt;li>Network access - Necessary for connecting third party catalogs and downloading digital content from those.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Network Communications:&lt;/strong> Thorium Reader Desktop works entirely offline by default. If network access is available, it uses only HTTP and HTTPS protocols, typically over ports 80 and 443, for these specific functions:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>HTTP POST https://telemetry.edrlab.org/&lt;/code> — Sends anonymized telemetry data (no personal information).&lt;/li>
+&lt;li>&lt;code>HTTP GET https://raw.githubusercontent.com/edrlab/thorium-reader/master/latest.json&lt;/code> — Checks if a new version of Thorium Reader is available.&lt;/li>
+&lt;/ul>
+&lt;p>When users add third-party catalogs (such as OPDS feeds), Thorium Reader may connect using HTTP or HTTPS with GET, POST, or PUT requests. These catalogs may use ports other than 80 and 443, depending on their configuration.&lt;/p>
+&lt;p>Thorium Reader Desktop does not use SSH, direct TCP connections, or WebSockets for any communication.&lt;/p>
+&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>User guide:&lt;/strong> is available in English, French and Spanish, as an ebook to Download or read online. The &lt;a href="opds://edrlab.github.io/publications/feeds/thorium32_documentation.json">complete user guide catalog&lt;/a> can be added to Thorium Reader. as EPUB, different translations are available through the Thorium documentation catalog. You can Add Documentation catalog to Thorium (OPDS link) or browse English documentation inline within the Readium web reader.&lt;/li>
+&lt;li>&lt;strong>Support:&lt;/strong> the webpage contains &lt;a href="https://thorium.edrlab.org/en/th3/">support&lt;/a> information in English, French and Spanish. That includes &lt;a href="https://thorium.edrlab.org/en/th3/400_resources/430_faq/">Frequently asked questions&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Known/Common issues:&lt;/strong> are available publicly from our &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">Issue tracker&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Error Reports:&lt;/strong> errors and problems should preferably be reported via our &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">support tracking tool&lt;/a> (necessitate a free GitHub account) or &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>. To reproduce and find a solution, we need to know Operating system and Thorium version (indicated at the bottom of the library under the title About Thorium).&lt;/li>
+&lt;/ul>
+&lt;h2 id="version">Version&lt;/h2>
+&lt;p>&lt;strong>Current Version:&lt;/strong> 3.3&lt;/p>
+&lt;p>&lt;strong>Version File Sizes:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Windows AMD .exe: 102 MB&lt;/li>
+&lt;li>Windows ARM .exe: 104 MB&lt;/li>
+&lt;li>MacOS AMD .dmg: 129 MB&lt;/li>
+&lt;li>MacOS ARM .dmg: 129 MB&lt;/li>
+&lt;li>Linux AMD .deb: 89.6 MB&lt;/li>
+&lt;li>Linux ARM .deb: 84.8 MB&lt;/li>
+&lt;li>Linux AMD .app: 135 MB&lt;/li>
+&lt;li>Linux ARM .app: 135 MB&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Release Notes:&lt;/strong> Full release note are available from the &lt;a href="https://github.com/edrlab/thorium-reader/releases/tag/v3.3">code repository release page&lt;/a>&lt;/p>
+&lt;h2 id="legal-information">Legal Information&lt;/h2>
+&lt;p>EDRLab is the owner of the Application, including all copyrights, trademarks, trade names, logos, patents, trade secrets and other intellectual property rights relating thereto. EDRLab may license third parties for the use or operation of the Application.&lt;/p>
+&lt;p>Complete and up to date &lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/">Terms of use&lt;/a> are available from the Thorium Reader website. A short list is provided here for quick reference:&lt;/p>
+&lt;ul>
+&lt;li>We reserve the right to withdraw or modify the Application and any service we provide on it.&lt;/li>
+&lt;li>We may change the Terms of Use from time to time.&lt;/li>
+&lt;li>the user does not have and will acquire no rights in the Application, other than the right to use it under the Terms of Use.&lt;/li>
+&lt;li>You may use the Application only for lawful purposes.&lt;/li>
+&lt;li>In the event that you have authorized a minor to use the Application and its Content, you acknowledge that you are responsible for.&lt;/li>
+&lt;li>The Application may import Content that is inappropriate for a minor.&lt;/li>
+&lt;li>Contents imported in the Application can be protected by copyright or other intellectual property rights. You are responsible for ensuring that your use of the Contents, as well as of all the elements that compose them, does not violate any intellectual property right or any other right.&lt;/li>
+&lt;li>By using the Application, you accept the terms of the privacy policy relative to the Application.&lt;/li>
+&lt;li>Links to Other Sites or Resources in the Application links to third-party services or resources not operated by EDRLab, including Library data feeds. EDRLab has no control over such third-party sites or resources and is not responsible for their availability, security, Content or resources. The inclusion of such links does not imply an endorsement or a recommendation by EDRLab of the third-party service or resource in question. EDRLab is not responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with your use of or reliance on any Content, information, products, goods or services available on or through any third party service.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Applicable Laws and Jurisdiction&lt;/strong>
+These Terms of Use and any dispute arising out of or relating to these Terms of Use shall be governed by the laws in force in France, without reference to its conflict of law rules. Any action, suit or proceeding arising out of these Terms of Use (whether for breach of contract, wrongful conduct or otherwise) shall be brought exclusively in France, as the case may be, located in Paris, and you agree to submit to the jurisdiction of such courts for any action, suit or proceeding arising out of these Terms of Use.&lt;/p>
+&lt;p>&lt;strong>Contact Us&lt;/strong>
+All questions, comments or requests regarding these terms of use should be sent to EDRLab at: &lt;a href="mailto:contact@edrlab.org">contact@edrlab.org&lt;/a>.&lt;/p></description></item><item><title>Th3: Minimum system requirements</title><link>https://thorium.edrlab.org/en/th3/400_resources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/390_requirements/</guid><description>
 &lt;p>Platform support is provided by Electron as defined in &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">Electron github repo Readme&lt;/a>&lt;/p>
 &lt;p>Each Electron release provides binaries for macOS, Windows, and Linux.&lt;/p>
 &lt;ul>
