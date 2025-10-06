@@ -26,7 +26,7 @@ About Thorium Reader Desktop Version: 3
 
 **Hardware & Software Requirements:** 
   * Both ARM 64 and AMD 64 architectures are supported via different installers.
-  * No additional software is needed.
+  * No additional software is needed to run Thorium Reader Desktop.
 
 **Major and minor versions:** Thorium releases minor versions every 3 to 4 months; those are numbered with a dot and numbers after the main version number (e.g., 3.1.1). Those versions usually include bug fixes and enhanced features, but no breaking changes. This technical specification page addresses the main version and associated minor revisions. If a minor version introduces a notable difference, it will be clearly indicated in the relevant section.
 
