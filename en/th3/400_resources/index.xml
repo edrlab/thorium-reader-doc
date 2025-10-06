@@ -1,12 +1,12 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – resources</title><link>https://thorium.edrlab.org/en/th3/400_resources/</link><description>Recent content in resources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/400_resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Technical Specification for Thorium Reader Desktop</title><link>https://thorium.edrlab.org/en/th3/400_resources/380_technical-spec/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/380_technical-spec/</guid><description>
-&lt;p>Last updated 2025, October 6
-Version: 3&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Resources</title><link>https://thorium.edrlab.org/en/th3/400_resources/</link><description>Recent content in Resources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/400_resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Technical Specification for Thorium Reader Desktop</title><link>https://thorium.edrlab.org/en/th3/400_resources/380_technical-spec/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/380_technical-spec/</guid><description>
+&lt;p>Last updated 2025, October 6&lt;/p>
+&lt;p>About Thorium Reader Desktop Version: 3&lt;/p>
 &lt;h2 id="app-overview">App Overview&lt;/h2>
 &lt;p>&lt;strong>Purpose:&lt;/strong> Thorium is a digital book reader, it is also a library where you can store your books and access to online catalogs.&lt;/p>
 &lt;p>&lt;strong>Target Audience:&lt;/strong> General public with a particular attention for heavy readers, library-goers, and students.&lt;/p>
 &lt;p>&lt;strong>Supported Operating Systems:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>macOS (Big Sur and up)&lt;/li>
+&lt;li>macOS (Big Sur, 11 and up)&lt;/li>
 &lt;li>Windows (Windows 10 and up)&lt;/li>
 &lt;li>Linux:
 &lt;ul>
@@ -30,15 +30,15 @@ Version: 3&lt;/p>
 &lt;li>On Windows:
 &lt;ul>
 &lt;li>Select the download link corresponding to your Windows architecture (ARM 64 or AMD 64), this information is available from your system information panel.&lt;/li>
-&lt;li>Download the Thorium.Setup.3.3.x.exe file to your Windows device.&lt;/li>
+&lt;li>Download the Thorium.Setup.3.x.x.exe file to your Windows device.&lt;/li>
 &lt;li>Open the Explorer and navigate to Downloads.&lt;/li>
-&lt;li>Double-click the downloaded *.exe file.Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install.&lt;/li>
+&lt;li>Double-click the downloaded *.exe file. Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>On MacOS:
 &lt;ul>
 &lt;li>Select the download link corresponding to your Mac architecture (Recent M1, M2, M3, M4 or Intel for Mac produced before fourth quarter of 2021), this information is available from your system information panel.&lt;/li>
-&lt;li>Download the Thorium.Setup.3.3.x.dmg file to your macOS device.&lt;/li>
+&lt;li>Download the Thorium.Setup.3.x.x.dmg file to your macOS device.&lt;/li>
 &lt;li>Open the Finder and navigate to Downloads.&lt;/li>
 &lt;li>Double-click the downloaded *.dmg file.&lt;/li>
 &lt;li>Now drag and drop the application icon to the Applications folder to install the application.&lt;/li>
@@ -48,7 +48,7 @@ Version: 3&lt;/p>
 &lt;li>On Linux:
 &lt;ul>
 &lt;li>Select the download link corresponding to your computer architecture (ARM 64 or AMD 64), this information is available from your system information panel.&lt;/li>
-&lt;li>Download the Thorium.Setup.3.3.x.deb file to your Windows device.&lt;/li>
+&lt;li>Download the Thorium.Setup.3.x.x.deb file to your Windows device.&lt;/li>
 &lt;li>Open the Explorer and navigate to Downloads.&lt;/li>
 &lt;li>Double-click the downloaded *.exe file.Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install.&lt;/li>
 &lt;/ul>
@@ -57,14 +57,14 @@ Version: 3&lt;/p>
 &lt;h3 id="accounts--passphrases">Accounts &amp;amp; passphrases&lt;/h3>
 &lt;ul>
 &lt;li>No account nor registration are necessary to use Thorium Reader Desktop.&lt;/li>
-&lt;li>An account can be necessary to access catalogs loaded into Thorium. In that case, the catalog provider is responsible for any related question, support or reclamation.&lt;/li>
-&lt;li>A passphrase can be necessary to read protected ebooks. In that case, the file provider is responsible for any related question, support or reclamation.&lt;/li>
+&lt;li>An account is necessary to access catalogs loaded into Thorium. In that case, the catalog provider is responsible for any related question, support or reclamation.&lt;/li>
+&lt;li>A passphrase can be necessary to read protected ebooks. This passphrase is stored by the application after being entered once, and is therefore requested once only. The provider of the protected ebook is responsible for any related question, support or reclamation.&lt;/li>
 &lt;/ul>
 &lt;h2 id="supported-publication-formats">Supported publication formats&lt;/h2>
 &lt;ul>
-&lt;li>&lt;strong>EPUB&lt;/strong> (Electronic PUBlication), 2 and 3 including Reflowable, Fixed-Layout and MediaOverlay variants.&lt;/li>
-&lt;li>&lt;strong>Web Publication&lt;/strong> both in their W3C and Readium flavors.&lt;/li>
-&lt;li>&lt;strong>DAISY&lt;/strong> 3 and 2.02, both in their text only, audio only, and syncronised text and audio.&lt;/li>
+&lt;li>&lt;strong>EPUB&lt;/strong> (Electronic PUBlication), version 2 and 3 including Reflowable, Fixed-Layout and MediaOverlay variants.&lt;/li>
+&lt;li>&lt;strong>Web Publications&lt;/strong> both in their W3C and Readium flavors.&lt;/li>
+&lt;li>&lt;strong>DAISY&lt;/strong>, version 2.02 and 3, both in their text only, audio only, and syncronised text and audio flavors.&lt;/li>
 &lt;li>&lt;strong>PDF&lt;/strong> without support for forms nor annotations.&lt;/li>
 &lt;li>&lt;strong>Audiobooks&lt;/strong> standardized as per W3C packaged (LPF) audiobook format.&lt;/li>
 &lt;li>&lt;strong>Divina&lt;/strong>, an experimental format for comics, manga, webtoons and other styles of digital works based on sequences of images.&lt;/li>
@@ -74,12 +74,12 @@ Version: 3&lt;/p>
 &lt;li>&lt;strong>Load &amp;amp; Read ebooks:&lt;/strong> Thorium Reader Desktop allows you to load an ebook from your computer and read it in a dedicated windows.&lt;/li>
 &lt;li>&lt;strong>Organise ebooks:&lt;/strong> ebooks can be sorted, tagged, exported, deleted and lending can be managed from the Library window.&lt;/li>
 &lt;li>&lt;strong>Bookmark:&lt;/strong> Users can add, comment, tag, modify, sort, access, export and import bookmarks.&lt;/li>
-&lt;li>&lt;strong>Annotations:&lt;/strong> Users can add, personalize (with color and stroke), comment, tag, modify, sort, access, export and import annotations.&lt;/li>
+&lt;li>&lt;strong>Annotate:&lt;/strong> Users can add, personalize (with color and stroke), comment, tag, modify, sort, access, export and import annotations.&lt;/li>
 &lt;li>&lt;strong>Filter:&lt;/strong> Users can filter ebooks with a range of options, including free text (like search).&lt;/li>
 &lt;li>&lt;strong>Search:&lt;/strong> Users can search inside an ebook, list and navigate between search results.&lt;/li>
 &lt;li>&lt;strong>Add &amp;amp; Browse catalogs:&lt;/strong> Users can add catalogs in the OPDS format and browse them depending on the options provided by the catalog provider.&lt;/li>
 &lt;li>&lt;strong>Lend &amp;amp; acquire ebooks:&lt;/strong> Users can download ebooks from catalogs for a timeless access or under a time period depending on the catalog provider terms of lending or acquisition.&lt;/li>
-&lt;li>&lt;strong>Personalization:&lt;/strong> Users can personalize the reading experience according to the formats capacities.&lt;/li>
+&lt;li>&lt;strong>Personalize:&lt;/strong> Users can personalize the reading experience according to the formats capacities.&lt;/li>
 &lt;li>&lt;strong>Accessibility:&lt;/strong> Users can use assistive technology to access and use Thorium Reader Desktop.&lt;/li>
 &lt;li>&lt;strong>User guide:&lt;/strong> Users can download, read online or load as catalog a complete user guide as ebook.&lt;/li>
 &lt;li>&lt;strong>Offline support:&lt;/strong> Thorium Reader Desktop can be used offline, however, online catalogs can not be accessed offline.&lt;/li>
