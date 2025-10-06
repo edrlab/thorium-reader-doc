@@ -7,7 +7,7 @@ toc: false
 ---
 
 Last updated 2025, October 6
-Version: 3.3
+Version: 3
 
 ## App Overview
 
@@ -26,6 +26,9 @@ Version: 3.3
 **Hardware & Software Requirements:** 
   * Both ARM 64 and AMD 64 architectures are supported via different installers.
   * No additional software is needed.
+
+**Major and minor versions:** Thorium releases minor versions each 3 to 4 months, those are numbered with a dot and numbers after the main version number (e.g. 3.1.1). Those versions usually include bug fix, minor improvements and enhanced features but no major break. This technical specification page address the main version and all it's minor versions. In case of significative difference with a minor version, this will be informed in the corresponding section.
+
 
 ## Download, Installation, & Registration
 
