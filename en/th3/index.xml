@@ -83,7 +83,7 @@ Whether you&amp;rsquo;re looking for the latest bestseller, a classic novel, a t
 &lt;p>JSTOR: JSTOR is a digital library founded in 1995. Originally containing digitized back issues of academic journals, it now also includes books and primary sources. It is available to many universities and institutions across Europe.&lt;/p>
 &lt;p>Directory of Open Access Books (DOAB): DOAB provides open access to peer-reviewed books from various publishers. It is based in the Netherlands.&lt;/p></description></item><item><title>Th3: Technical Specification for Thorium Reader Desktop</title><link>https://thorium.edrlab.org/en/th3/400_ressources/380_technical-spec/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_ressources/380_technical-spec/</guid><description>
 &lt;p>Last updated 2025, October 6
-Version: 3.3&lt;/p>
+Version: 3&lt;/p>
 &lt;h2 id="app-overview">App Overview&lt;/h2>
 &lt;p>&lt;strong>Purpose:&lt;/strong> Thorium is a digital book reader, it is also a library where you can store your books and access to online catalogs.&lt;/p>
 &lt;p>&lt;strong>Target Audience:&lt;/strong> General public with a particular attention for heavy readers, library-goers, and students.&lt;/p>
@@ -104,6 +104,7 @@ Version: 3.3&lt;/p>
 &lt;li>Both ARM 64 and AMD 64 architectures are supported via different installers.&lt;/li>
 &lt;li>No additional software is needed.&lt;/li>
 &lt;/ul>
+&lt;p>&lt;strong>Major and minor versions:&lt;/strong> Thorium releases minor versions each 3 to 4 months, those are numbered with a dot and numbers after the main version number (e.g. 3.1.1). Those versions usually include bug fix, minor improvements and enhanced features but no major break. This technical specification page address the main version and all it&amp;rsquo;s minor versions. In case of significative difference with a minor version, this will be informed in the corresponding section.&lt;/p>
 &lt;h2 id="download-installation--registration">Download, Installation, &amp;amp; Registration&lt;/h2>
 &lt;h3 id="download">Download&lt;/h3>
 &lt;p>Thorium Reader Desktop is available on the Windows store and can also be installed directly from the installer files available from the &lt;a href="https://thorium.edrlab.org">Thorium website&lt;/a>. A standalone (with no need to be installed) AppImage is also available for Linux, once this one downloaded, it is necessary to change permissions to make it executable as a program, then double-click on the Icon to launch the app.&lt;/p>
