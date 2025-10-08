@@ -7,66 +7,25 @@ weight: '502'
 
 ## Reading with a screen reader
 
-Since Thorium 3.3, users must explicitly activate screen reader support in the application preferences.
-In the previous versions, Thorium detected active screen readers and automatically activated the related functionalities. We had to change because of apps creating false positives because they activate assistive technology privileges.
+### Activating screen reader support 
+
+Thorium automatically detects assistive technology, but, since 3.3, users must explicitly activate screen reader support by ticking the checkbox in the application settings (this is a global preference for the main library window as well as all reader windows). 
+
+In the previous versions, this support was automatically activated. We had to change because of third party apps creating false positives because they activate assistive technology privileges.
+
+Thorium adapts its behavior when screen reader support is enabled:
+* Text input fields for bookshelf searches require explicit validation (e.g., pressing Enter or clicking the search button) to trigger the search, instead of the default "search as you type" behavior.
+* In the reader window, EPUB HTML documents default to scroll mode instead of paginated presentation to avoid issues with CSS columns.
+* HTML document webviews are fully refreshed on navigation, instead of being reused, to prevent screen readers from losing track of the text.
+* Detection of the user's reading location based on visual scroll offset is disabled to avoid misinterpretations caused by screen reader interaction-induced HTML layout shifts.
+
+### Reading position synchronisation
 
 Since Thorium 3.2, Thorium knows the screen reader reading position and therefore maintains visual scroll synchronisation. In previous versions, because of the screen reader using a separate buffer, 
 Thorium was not aware of the user\'s
 current reading location inside the screen reader buffer, unless the
 screen reader user triggers standard web API events (such as mouse click
 anywhere in the text, or keyboard tab into focusable HTML elements).
-
-Accessibility features addressed to assistive technologies are strongly
-affected by the quality of the book files.
-
-## Keystrokes common to NVDA and JAWS
-
-(contribution from Prashant Verma, DAISY Consortium)
-
-For reading text, navigating in tables, navigating in the browser
-window, the insertion key can be replaced by the modifier key of the screen
-reader (e.g. the Caps Lock key).
-
-### Quick keys for navigation
-
-The screen reader must be in navigation or virtual cursor mode.
-
-|Action|Command|
-|---|---|
-|Next title| <kbd>H</kbd>|
-|Next table| <kbd>T</kbd>|
-|Next chart| <kbd>G</kbd>|
-|Next list|<kbd>L</kbd>|
-|Next form field|<kbd>F</kbd>|
-|List of elements| <kbd>INSERT</kbd> + <kbd>F7</kbd> (works regardless of cursor mode)|
-
-*Use the above keys with the <kbd>Shift</kbd> key to move to the previous
-item.*
-
-### Text
-
-|Action|Command|
-|---|---|
-|Previous character| <kbd>←</kbd>|
-|Next character| <kbd>→</kbd>|
-|Previous word|<kbd>Ctrl</kbd> + <kbd>←</kbd>|
-|Say Next word|<kbd>Ctrl</kbd> + <kbd>→</kbd>|
-|Previous line|<kbd>↑</kbd>|
-|Next line|<kbd>↓</kbd>|
-|Previous sentence|<kbd>Alt</kbd> + <kbd>↑</kbd> (Jaws only)|
-|Next sentence|<kbd>Alt</kbd> + <kbd>↓</kbd> (Jaws only)|
-|Read all| <kbd>INSERT</kbd> + <kbd>↓</kbd>|
-|Announce Font|<kbd>INSERT</kbd> + <kbd>F</kbd>|
-
-### Tables
-
-|Action|Command|
-|---|---|
-|Cell to the right| <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>→</kbd>|
-|Cell to the left|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd>|
-|Cell below|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd>|
-|Cell above|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↑</kbd>|
-
 
 ## Annotating & bookmarking
 
@@ -97,3 +56,50 @@ in the current publication.
 * [The DAISY Consortium Thorium Reader Getting Started Guide](https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/)
 * [The DAISY Consortium Thorium Archives Page](https://daisy.org/news-events/tag/thorium/)
 
+### Keystrokes common to NVDA and JAWS
+
+(contribution from Prashant Verma, DAISY Consortium)
+
+For reading text, navigating in tables, navigating in the browser
+window, the insertion key can be replaced by the modifier key of the screen
+reader (e.g. the Caps Lock key).
+
+#### Quick keys for navigation
+
+The screen reader must be in navigation or virtual cursor mode.
+
+|Action|Command|
+|---|---|
+|Next title| <kbd>H</kbd>|
+|Next table| <kbd>T</kbd>|
+|Next chart| <kbd>G</kbd>|
+|Next list|<kbd>L</kbd>|
+|Next form field|<kbd>F</kbd>|
+|List of elements| <kbd>INSERT</kbd> + <kbd>F7</kbd> (works regardless of cursor mode)|
+
+*Use the above keys with the <kbd>Shift</kbd> key to move to the previous
+item.*
+
+#### Text
+
+|Action|Command|
+|---|---|
+|Previous character| <kbd>←</kbd>|
+|Next character| <kbd>→</kbd>|
+|Previous word|<kbd>Ctrl</kbd> + <kbd>←</kbd>|
+|Say Next word|<kbd>Ctrl</kbd> + <kbd>→</kbd>|
+|Previous line|<kbd>↑</kbd>|
+|Next line|<kbd>↓</kbd>|
+|Previous sentence|<kbd>Alt</kbd> + <kbd>↑</kbd> (Jaws only)|
+|Next sentence|<kbd>Alt</kbd> + <kbd>↓</kbd> (Jaws only)|
+|Read all| <kbd>INSERT</kbd> + <kbd>↓</kbd>|
+|Announce Font|<kbd>INSERT</kbd> + <kbd>F</kbd>|
+
+#### Tables
+
+|Action|Command|
+|---|---|
+|Cell to the right| <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>→</kbd>|
+|Cell to the left|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd>|
+|Cell below|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd>|
+|Cell above|<kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>↑</kbd>|
