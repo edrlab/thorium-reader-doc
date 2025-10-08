@@ -11,13 +11,14 @@ weight: '502'
 
 Thorium automatically detects assistive technology, but, since 3.3, users must explicitly activate screen reader support by ticking the checkbox in the application settings (this is a global preference for the main library window as well as all reader windows). 
 
-In the previous versions, this support was automatically activated. We had to change because of third party apps creating false positives because they activate assistive technology privileges.
+In the previous versions, this support was automatically activated. We had to modify this feature because third-party applications can request the same privileges as assistive technology at the level of the operating system, which in turn causes Thorium to incorrectly detect screen readers.
 
 Thorium adapts its behavior when screen reader support is enabled:
 * Text input fields for bookshelf searches require explicit validation (e.g., pressing Enter or clicking the search button) to trigger the search, instead of the default "search as you type" behavior.
 * In the reader window, EPUB HTML documents default to scroll mode instead of paginated presentation to avoid issues with CSS columns.
 * HTML document webviews are fully refreshed on navigation, instead of being reused, to prevent screen readers from losing track of the text.
 * Detection of the user's reading location based on visual scroll offset is disabled to avoid misinterpretations caused by screen reader interaction-induced HTML layout shifts.
+
 
 ### Reading position synchronisation
 
@@ -27,7 +28,7 @@ current reading location inside the screen reader buffer, unless the
 screen reader user triggers standard web API events (such as mouse click
 anywhere in the text, or keyboard tab into focusable HTML elements).
 
-## Annotating & bookmarking
+### Annotating & bookmarking
 
 Based on the feedback we have received so far, it looks like it is very difficult for screen reader users to select an actual range of characters. Such assistive technology allows users to select text inside the screen reader's virtual buffer, so the application isn't aware that the user is reading at a particular location and is selecting text there.
 
