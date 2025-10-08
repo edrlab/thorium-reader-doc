@@ -14,7 +14,7 @@ Thorium automatically detects assistive technology, but, since 3.3, users must e
 In the previous versions, this support was automatically activated. We had to modify this feature because third-party applications can request the same privileges as assistive technology at the level of the operating system, which in turn causes Thorium to incorrectly detect screen readers.
 
 Thorium adapts its behavior when screen reader support is enabled:
-* Text input fields for bookshelf searches require explicit validation (e.g., pressing Enter or clicking the search button) to trigger the search, instead of the default "search as you type" behavior.
+* Text input fields for bookshelf searches require explicit validation (e.g., pressing Enter or clicking the search button) to trigger the search, instead of the default instantaneous "search as you type" behavior.
 * In the reader window, EPUB HTML documents default to scroll mode instead of paginated presentation to avoid issues with CSS columns.
 * HTML document webviews are fully refreshed on navigation, instead of being reused, to prevent screen readers from losing track of the text.
 * Detection of the user's reading location based on visual scroll offset is disabled to avoid misinterpretations caused by screen reader interaction-induced HTML layout shifts.
