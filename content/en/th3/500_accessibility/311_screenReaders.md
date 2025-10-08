@@ -15,18 +15,9 @@ In the previous versions, this support was automatically activated. We had to mo
 
 Thorium adapts its behavior when screen reader support is enabled:
 * Text input fields for bookshelf searches require explicit validation (e.g., pressing Enter or clicking the search button) to trigger the search, instead of the default instantaneous "search as you type" behavior.
-* In the reader window, EPUB HTML documents default to scroll mode instead of paginated presentation to avoid issues with CSS columns.
-* HTML document webviews are fully refreshed on navigation, instead of being reused, to prevent screen readers from losing track of the text.
-* Detection of the user's reading location based on visual scroll offset is disabled to avoid misinterpretations caused by screen reader interaction-induced HTML layout shifts.
-
-
-### Reading position synchronisation
-
-Since Thorium 3.2, Thorium knows the screen reader reading position and therefore maintains visual scroll synchronisation. In previous versions, because of the screen reader using a separate buffer, 
-Thorium was not aware of the user\'s
-current reading location inside the screen reader buffer, unless the
-screen reader user triggers standard web API events (such as mouse click
-anywhere in the text, or keyboard tab into focusable HTML elements).
+* In the reader window, the presentation of EPUB HTML documents is forced to "scroll" mode instead of the default "paginated" view, in order to avoid issues with CSS columns.
+* Webviews are fully refreshed during navigation because some screen readers do not support Thorium's optimized HTML rendering.
+* The automatic estimation of the user's reading location (i.e. position inside the text) based on how far the HTML content is scrolled inside the visible viewport is disabled. This is necessary because screen readers do not consistently move into view the actively-spoken text.
 
 ### Annotating & bookmarking
 
