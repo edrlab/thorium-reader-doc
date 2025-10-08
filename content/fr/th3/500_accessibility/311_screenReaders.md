@@ -6,15 +6,14 @@ weight: '301'
 ---
 ## Lire avec un lecteur d'écran
 
-Au lancement de Thorium, si un lecteur d'écran est détecté, le relatif
-les fonctions sont activées.
+Depuis Thorium 3.3, les utilisateurs doivent explicitement activer le support des lecteurs d'écran dans les préférences de l'application.
+Dans les versions précédentes, Thorium détectait les lecteurs d'écran actifs et activait automatiquement les fonctionnalités correspondantes. Nous avons dû changer ce système à cause d'applications tierces qui créaient des faux positifs parce qu'elles activaient les privilèges de la technologie d'assistance.
 
-Notez que les lecteurs d'écran utilisent un tampon séparé pour accéder au code HTML.
-contenu qui entraîne le défilement visuel /le décalage de page hors de
-synchroniser. En d'autres termes, Thorium n'a généralement pas connaissance des informations de l'utilisateur.
-emplacement de lecture actuel à l'intérieur du tampon du lecteur d'écran, à moins que le
-l'utilisateur du lecteur d'écran déclenche des événements API Web standard (tels qu'un clic de souris)
-n'importe où dans le texte, ou une tabulation clavier dans des éléments HTML focalisables).
+Depuis Thorium 3.2, Thorium connaît la position de lecture du lecteur d'écran et maintient donc la synchronisation visuelle du défilement. Dans les versions précédentes, le lecteur d'écran utilisait une mémoire tampon distincte,
+Thorium ne connaissait pas la position de lecture de l'utilisateur dans la mémoire tampon du lecteur d'écran.
+de l'utilisateur dans la mémoire tampon du lecteur d'écran, à moins que l'utilisateur du lecteur d'écran ne déclenche l'API web standard.
+l'utilisateur du lecteur d'écran ne déclenche des événements standard de l'API web (tels qu'un clic de souris dans le texte, ou une tabulation au clavier).
+n'importe où dans le texte, ou une tabulation du clavier dans des éléments HTML focalisables).
 
  avertissement
 Attention !
