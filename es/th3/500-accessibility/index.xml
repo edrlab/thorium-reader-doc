@@ -1,8 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibility</title><link>https://thorium.edrlab.org/es/th3/500-accessibility/</link><description>Recent content in Accessibility on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/th3/500-accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Leer con un lector de pantalla</title><link>https://thorium.edrlab.org/es/th3/500-accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/500-accessibility/311_screenreaders/</guid><description>
 &lt;p>En complemento de esta documentación, recomandamos consultar la pagina web dedicada por de la Comunidad hispanohablante de NVDAe &lt;a href="https://nvdaes.github.io/epub7">PUB y NVDA (7). Thorium Reader&lt;/a>.&lt;/p>
 &lt;h2 id="leer-con-un-lector-de-pantalla">Leer con un lector de pantalla&lt;/h2>
-&lt;p>Al iniciar Thorium, si se detecta un lector de pantalla, el relativo las funciones están activadas.&lt;/p>
-&lt;p>Tenga en cuenta que los lectores de pantalla utilizan un búfer independiente para acceder al contenido HTML, lo que hace que el desplazamiento visual o el desplazamiento de la página no estén sincronizados. En otras palabras, Thorium generalmente no conoce la ubicación de lectura actual del usuario dentro del búfer del lector de pantalla, a menos que el usuario del lector de pantalla active eventos estándar de la API web (como hacer clic con el mouse en cualquier parte del texto o presionar la tecla Tab en elementos HTML enfocables).&lt;/p>
+&lt;p>Desde Thorium 3.3, los usuarios deben activar explícitamente la compatibilidad con lectores de pantalla en las preferencias de la aplicación.
+En las versiones anteriores, Thorium detectaba los lectores de pantalla activos y activaba automáticamente las funcionalidades relacionadas. Tuvimos que cambiar debido a que unas aplicaciones creaban falsos positivos porque activaban privilegios de tecnología de asistencia.&lt;/p>
+&lt;p>Desde Thorium 3.2, Thorium conoce la posición de lectura del lector de pantalla y, por lo tanto, mantiene la sincronización visual del desplazamiento. En versiones anteriores, debido a que el lector de pantalla utilizaba un búfer independiente,
+Thorium no conocía la posición de lectura actual del usuario dentro del búfer del lector de pantalla.
+usuario dentro del búfer del lector de pantalla, a menos que el usuario
+usuario del lector de pantalla active eventos estándar de la API web (como un clic del ratón
+en cualquier parte del texto, o el tabulador del teclado en elementos HTML enfocables).&lt;/p>
 &lt;p>advertencia Atención !&lt;/p>
 &lt;p>Las características de accesibilidad dirigidas a las tecnologías de asistencia se ven fuertemente afectadas por la calidad de los archivos del libro.&lt;/p>
 &lt;h1 id="pulsaciones-de-teclas-comunes-a-nvda-y-jaws">Pulsaciones de teclas comunes a NVDA y JAWS&lt;/h1>

@@ -3,22 +3,44 @@
 &lt;p>Currently Thorium displays in the Book information panel, the accessibility information provided by the publisher. Thorium displays this information as it was defined. In case of doubt or
 complaint, please contact the distributor or the publisher of the file.&lt;/p></description></item><item><title>Th3: Reading with a screen reader</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/311_screenreaders/</guid><description>
 &lt;h2 id="reading-with-a-screen-reader">Reading with a screen reader&lt;/h2>
-&lt;p>When launching Thorium, if a screen reader is detected, the relative
-functions are activated.&lt;/p>
-&lt;p>Note that screen readers use a separate buffer to access the HTML
-content which results in the visual scroll / page offset to be out of
-sync. In other words, Thorium is generally not aware of the user's
-current reading location inside the screen reader buffer, unless the
-screen reader user triggers standard web API events (such as mouse click
-anywhere in the text, or keyboard tab into focusable HTML elements).&lt;/p>
-&lt;p>Accessibility features addressed to assistive technologies are strongly
-affected by the quality of the book files.&lt;/p>
-&lt;h2 id="keystrokes-common-to-nvda-and-jaws">Keystrokes common to NVDA and JAWS&lt;/h2>
+&lt;h3 id="activating-screen-reader-support">Activating screen reader support&lt;/h3>
+&lt;p>Thorium automatically detects assistive technology, but, since 3.3, users must explicitly activate screen reader support by ticking the checkbox in the application settings (this is a global preference for the main library window as well as all reader windows).&lt;/p>
+&lt;p>In the previous versions, this support was automatically activated. We had to modify this feature because third-party applications can request the same privileges as assistive technology at the level of the operating system, which in turn causes Thorium to incorrectly detect screen readers.&lt;/p>
+&lt;p>Thorium adapts its behavior when screen reader support is enabled:&lt;/p>
+&lt;ul>
+&lt;li>Text input fields for bookshelf searches require explicit validation (e.g., pressing Enter or clicking the search button) to trigger the search, instead of the default instantaneous &amp;ldquo;search as you type&amp;rdquo; behavior.&lt;/li>
+&lt;li>In the reader window, the presentation of EPUB HTML documents is forced to &amp;ldquo;scroll&amp;rdquo; mode instead of the default &amp;ldquo;paginated&amp;rdquo; view, in order to avoid issues with CSS columns.&lt;/li>
+&lt;li>Webviews are fully refreshed during navigation because some screen readers do not support Thorium&amp;rsquo;s optimized HTML rendering.&lt;/li>
+&lt;li>The automatic estimation of the user&amp;rsquo;s reading location (i.e. position inside the text) based on how far the HTML content is scrolled inside the visible viewport is disabled. This is necessary because screen readers do not consistently move into view the actively-spoken text.&lt;/li>
+&lt;/ul>
+&lt;h3 id="annotating--bookmarking">Annotating &amp;amp; bookmarking&lt;/h3>
+&lt;p>Based on the feedback we have received so far, it looks like it is very difficult for screen reader users to select an actual range of characters. Such assistive technology allows users to select text inside the screen reader&amp;rsquo;s virtual buffer, so the application isn&amp;rsquo;t aware that the user is reading at a particular location and is selecting text there.&lt;/p>
+&lt;p>Consequently, screen reader users prefer to use the bookmarking feature which anchors a simple, optionally-labelled bookmark to a coarse reading location (there is an icon button in the top toolbar, but the &lt;key>CTRL&lt;/key> + &lt;key>B&lt;/key> keyboard shortcut can be used too).
+Thorium actually does pick-up the mouse cursor click on a single text character, as this helps focus a bookmark on a more precise HTML location.&lt;/p>
+&lt;p>In Thorium, currently the bookmark label editor supports multiple lines of text input, which makes it possible to annotate coarse document locations. This can therefore be perceived as a replacement for the actual annotator, but there is no import/export of bookmarks data.&lt;/p>
+&lt;p>More feedback is welcome through our discussion tracker there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
+&lt;h3 id="using-bookmarks-with-nvda">Using bookmarks with NVDA&lt;/h3>
+&lt;p>Windows screen readers use a virtual buffer
+for reading. To place a bookmark where you are currently reading
+press the key combination &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>Enter&lt;/kbd>,
+and NVDA will say &lt;em>&amp;ldquo;activate &amp;ldquo;&lt;/em>. This
+synchronizes the virtual buffer with the current real location so Thorium
+can deduce the object
+on which the cursor is located. Then use
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> to place a bookmark.
+A sound notification will inform you of the number of bookmarks
+in the current publication.&lt;/p>
+&lt;h2 id="external-resources-for-screen-reader-use-in-thorium">External resources for screen reader use in Thorium&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="keystrokes-common-to-nvda-and-jaws">Keystrokes common to NVDA and JAWS&lt;/h3>
 &lt;p>(contribution from Prashant Verma, DAISY Consortium)&lt;/p>
 &lt;p>For reading text, navigating in tables, navigating in the browser
 window, the insertion key can be replaced by the modifier key of the screen
 reader (e.g. the Caps Lock key).&lt;/p>
-&lt;h3 id="quick-keys-for-navigation">Quick keys for navigation&lt;/h3>
+&lt;h4 id="quick-keys-for-navigation">Quick keys for navigation&lt;/h4>
 &lt;p>The screen reader must be in navigation or virtual cursor mode.&lt;/p>
 &lt;table>
 &lt;thead>
@@ -56,7 +78,7 @@ reader (e.g. the Caps Lock key).&lt;/p>
 &lt;/table>
 &lt;p>&lt;em>Use the above keys with the &lt;kbd>Shift&lt;/kbd> key to move to the previous
 item.&lt;/em>&lt;/p>
-&lt;h3 id="text">Text&lt;/h3>
+&lt;h4 id="text">Text&lt;/h4>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -107,7 +129,7 @@ item.&lt;/em>&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h3 id="tables">Tables&lt;/h3>
+&lt;h4 id="tables">Tables&lt;/h4>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -133,29 +155,7 @@ item.&lt;/em>&lt;/p>
 &lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table>
-&lt;h2 id="annotating--bookmarking">Annotating &amp;amp; bookmarking&lt;/h2>
-&lt;p>Based on the feedback we have received so far, it looks like it is very difficult for screen reader users to select an actual range of characters. Such assistive technology allows users to select text inside the screen reader&amp;rsquo;s virtual buffer, so the application isn&amp;rsquo;t aware that the user is reading at a particular location and is selecting text there.&lt;/p>
-&lt;p>Consequently, screen reader users prefer to use the bookmarking feature which anchors a simple, optionally-labelled bookmark to a coarse reading location (there is an icon button in the top toolbar, but the &lt;key>CTRL&lt;/key> + &lt;key>B&lt;/key> keyboard shortcut can be used too).
-Thorium actually does pick-up the mouse cursor click on a single text character, as this helps focus a bookmark on a more precise HTML location.&lt;/p>
-&lt;p>In Thorium, currently the bookmark label editor supports multiple lines of text input, which makes it possible to annotate coarse document locations. This can therefore be perceived as a replacement for the actual annotator, but there is no import/export of bookmarks data.&lt;/p>
-&lt;p>More feedback is welcome through our discussion tracker there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
-&lt;h3 id="using-bookmarks-with-nvda">Using bookmarks with NVDA&lt;/h3>
-&lt;p>Windows screen readers use a virtual buffer
-for reading. To place a bookmark where you are currently reading
-press the key combination &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>Enter&lt;/kbd>,
-and NVDA will say &lt;em>&amp;ldquo;activate &amp;ldquo;&lt;/em>. This
-synchronizes the virtual buffer with the current real location so Thorium
-can deduce the object
-on which the cursor is located. Then use
-&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> to place a bookmark.
-A sound notification will inform you of the number of bookmarks
-in the current publication.&lt;/p>
-&lt;h2 id="external-resources-for-screen-reader-use-in-thorium">External resources for screen reader use in Thorium&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Th3: Accessibility policy</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
+&lt;/table></description></item><item><title>Th3: Accessibility policy</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
 &lt;p>EDRLab is a non profit developpement laboratory and places accessibility as a core requirement of it&amp;rsquo;s actions. That include the developpement of Thorium Reader.&lt;/p>
 &lt;p>However, the core aspect of innovation and experimentation of our work may affect accessibility at some points.
 Funding limitations may also affect our action and will to provide the best reading experience for all readers.
