@@ -1,6 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Resources</title><link>https://thorium.edrlab.org/en/th3/400_resources/</link><description>Recent content in Resources on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/400_resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Technical Specification for Thorium Reader Desktop</title><link>https://thorium.edrlab.org/en/th3/400_resources/380_technical-spec/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/400_resources/380_technical-spec/</guid><description>
-&lt;p>Last updated 2025, October 6&lt;/p>
+&lt;p>Last updated 2025, November 27&lt;/p>
 &lt;p>About Thorium Reader Desktop Version: 3&lt;/p>
+&lt;p>&lt;a href="https://docs.google.com/spreadsheets/d/1SDya5FGF1eakmwu_dSnqeeBqJLBFohGa/edit?usp=sharing&amp;ouid=105423198055318923834&amp;rtpof=true&amp;sd=true">Higher Education Community Vendor Assessment Toolkit (google sheet)&lt;/a>&lt;/p>
 &lt;h2 id="app-overview">App Overview&lt;/h2>
 &lt;p>&lt;strong>Purpose:&lt;/strong> Thorium is a digital book reader, it is also a library where you can store your books and access to online catalogs.&lt;/p>
 &lt;p>&lt;strong>Target Audience:&lt;/strong> General public with a particular attention for heavy readers, library-goers, and students.&lt;/p>
