@@ -9,9 +9,14 @@ En complemento de esta documentación, recomandamos consultar la pagina web dedi
 
 ## Leer con un lector de pantalla
 
-Al iniciar Thorium, si se detecta un lector de pantalla, el relativo las funciones están activadas.
+Desde Thorium 3.3, los usuarios deben activar explícitamente la compatibilidad con lectores de pantalla en las preferencias de la aplicación.
+En las versiones anteriores, Thorium detectaba los lectores de pantalla activos y activaba automáticamente las funcionalidades relacionadas. Tuvimos que cambiar debido a que unas aplicaciones creaban falsos positivos porque activaban privilegios de tecnología de asistencia.
 
-Tenga en cuenta que los lectores de pantalla utilizan un búfer independiente para acceder al contenido HTML, lo que hace que el desplazamiento visual o el desplazamiento de la página no estén sincronizados. En otras palabras, Thorium generalmente no conoce la ubicación de lectura actual del usuario dentro del búfer del lector de pantalla, a menos que el usuario del lector de pantalla active eventos estándar de la API web (como hacer clic con el mouse en cualquier parte del texto o presionar la tecla Tab en elementos HTML enfocables).
+Desde Thorium 3.2, Thorium conoce la posición de lectura del lector de pantalla y, por lo tanto, mantiene la sincronización visual del desplazamiento. En versiones anteriores, debido a que el lector de pantalla utilizaba un búfer independiente,
+Thorium no conocía la posición de lectura actual del usuario dentro del búfer del lector de pantalla.
+usuario dentro del búfer del lector de pantalla, a menos que el usuario
+usuario del lector de pantalla active eventos estándar de la API web (como un clic del ratón
+en cualquier parte del texto, o el tabulador del teclado en elementos HTML enfocables).
 
 advertencia Atención !
 

@@ -1,5 +1,5 @@
 ---
-Title: Ressources
+Title: Resources
 weight: 400
 bookCollapseSection: false
 ---

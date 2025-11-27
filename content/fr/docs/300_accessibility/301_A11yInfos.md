@@ -7,7 +7,7 @@ toc: false
 ---
 
 Actuellement Thorium affiche dans la 
-<a href="/thorium-reader-doc/fr/400_ressources/420_glossary#bookInformation">Fiche Livre</a> 
+<a href="/thorium-reader-doc/fr/400_resources/420_glossary#bookInformation">Fiche Livre</a> 
 sous l'intitulé `Description` le contenu de la métadonnée Résumé d'accessibilité 
 (<span lang="en">accessibilitySummary</span>). 
 

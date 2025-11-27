@@ -72,17 +72,14 @@ Filtering options are:
 * by Drawtype, Outline, Solid background, Strikethrough	 or Underline;
 * by Creator, if any has been informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
 
-
 </section>
 <section class="filet">
 
-## Review and manipulation of annotations {#annotations_view_and_manipulation}
+## Review and manipulation of annotations {#annotations_view_and_manipulation}
 
 Annotations are shown as cards in the panel, one after the other. Each Card contains the text of the annotation, the creation date, the position in the book expressed in progression percentage and  an Edit and a Delete buttons. The text of the annotation acts as a button that will move the focus to the annotation itself, so leaving the context of the annotation panel, some tabulations will have to be done to get back to the annotation panel. 
 
 A coloured border on the left visually indicates the Colour settled up for the annotation. This information is not passed to assistive technologies. 
-
-
 
 </section>
 <section class="filet">
@@ -99,10 +96,10 @@ The import button  <img src="../../resources/images/import-icon.svg" class="icon
 
 Once imported, annotations appears in the annotation panel and can be reviewed and manipulated as any annotation created. They inherit the original annotation file title as a tag. Those manipulations will not affect the original `.annotation` file which is never linked. 
 
-## Exporter des annotations au format HTML
+## Export annotations in HTML format
 
-Depuis Thorium 3.2, il est possible d'exporter les marques pages et les annotations sous la forme d'une page web au format HTML. Dans une version future, nous espérons qu'il soit possible de personnaliser cet export grace à un gabarit personnalisable.
+Since Thorium 3.2, it has been possible to export bookmarks and annotations in the form of a web page in HTML format. In a future version, we hope to be able to customise this export using a template.
 
-Lors de l'export, sélectionnez l'extension du fichier `.annotation` et modifiez la en `.html`. La suite de l'export se déroule de la même façon. Le bouton "Enregistrer" ouvre une fenêtre "Fichier système" dans laquelle l'utilisateur doit sélectionner l'endroit où il souhaite stocker le fichier d'annotations ainsi que le nom du fichier. Le titre sera utilisé comme nom de fichier prérempli par défaut, mais il peut être modifié sans affecter l'identification du fichier.
+When exporting, select the file extension `.annotation` and change it to `.html`. The rest of the export is carried out in the same way. The 'Save' button opens a 'System file' window in which the user must select the location where they wish to store the annotation file and the file name. The title will be used as the default pre-filled file name, but it can be changed without affecting the identification of the file.
 
 </section>

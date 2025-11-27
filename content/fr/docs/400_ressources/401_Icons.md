@@ -10,7 +10,7 @@ toc: false
 
 ## les icones de la bibliothèque
 <!--
-[L'article 401_fuctionsIcons en brouillon conserve les icones qui ne sont pas documentés ici ou qui sont en doublons](400_ressources/401_fuctionsIcons)
+[L'article 401_fuctionsIcons en brouillon conserve les icones qui ne sont pas documentés ici ou qui sont en doublons](400_resources/401_fuctionsIcons)
 -->
 
 <figure>
