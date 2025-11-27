@@ -6,9 +6,11 @@ weight: 380
 toc: false
 ---
 
-Last updated 2025, October 6
+Last updated 2025, November 27
 
 About Thorium Reader Desktop Version: 3
+
+[Higher Education Community Vendor Assessment Toolkit (google sheet)](https://docs.google.com/spreadsheets/d/1SDya5FGF1eakmwu_dSnqeeBqJLBFohGa/edit?usp=sharing&ouid=105423198055318923834&rtpof=true&sd=true)
 
 ## App Overview
 
