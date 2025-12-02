@@ -45,7 +45,7 @@ Thorium Reader Desktop is available on the Windows store and can also be install
     * Open the Explorer and navigate to Downloads.
     * Double-click the downloaded *.exe file. Double-click the downloaded installer file and complete the installation process. Managed devices may require admin authorization to install. 
   * On MacOS: 
-    * Select the download link corresponding to your Mac architecture (Recent M1, M2, M3, M4 or Intel for Mac produced before fourth quarter of 2021), this information is available from your system information panel.
+    * Select the download link corresponding to your Mac architecture (Recent M1, M2, M3, M4, M5 or Intel for Mac produced before fourth quarter of 2021), this information is available from your system information panel.
     * Download the Thorium.Setup.3.x.x.dmg file to your macOS device.
     * Open the Finder and navigate to Downloads.
     * Double-click the downloaded *.dmg file.
