@@ -31,7 +31,7 @@ When an accessibility feature is introduced, we make that information public thr
 * listed for reference in this website [resources section, accessibility page](../../500_accessibility)
 * all accessibility related explanations are available in the documentation, not in a separate chapter or place.
 
-We are maintaining an [Accessibility Conformance Report for Thorium Reader](https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html). 
+We are maintaining an [Accessibility Conformance Report for Thorium Reader](https://rawcdn.githack.com/edrlab/thorium-reader-doc/main/ACR/ACR-thorium-desktop-3.html). 
 
 
 ## Support for assistive technology
