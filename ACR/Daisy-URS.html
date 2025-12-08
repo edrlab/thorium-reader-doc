@@ -2,7 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="utf-8">
-    <title>DAISY Reading Apps User Requirements</title>
+    <title>DAISY Reading Apps User Requirements Report for Thorium Reader</title>
+    	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.datatables.net/responsive/2.3.0/css/responsive.dataTables.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://smart.daisy.org/css/report.css?v=2024-05-31T12:00:00Z" />
+	<link rel="stylesheet" type="text/css" href="https://smart.daisy.org/css/tabs.css?v=2024-05-31T12:00:00Z" />
+	<link rel="stylesheet" type="text/css" href="acr-styles/edrlab-acr-styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 </head>
 <body>
@@ -18,8 +25,8 @@
 				</tr>
 			</thead>
 		<tbody>
-<tr id="navigation"><a href="">Navigation</a>
-        <!-- <h2>Navigation</h2>
+ <!--<tr id="navigation"><a href="">Navigation</a>
+        <h2>Navigation</h2>
         <p>
             Effective navigation is a critical aspect of digital accessibility.
             Users often face challenges in understanding where they are within a
@@ -33,8 +40,8 @@
             user requirements is key to creating inclusive digital experiences
             that empower all users to navigate content independently and with
             ease.
-        </p> -->
-        </tr>    
+        </p> 
+        </tr>  -->  
         <tr>
         <th>
             The user must have a straightforward way to navigate forward and
@@ -332,7 +339,7 @@ The user could be able to search within the table of contents.</td>
 <br/>
             If a screen reader is being used, then the read aloud should start
             from the screen reader position.
-<br/>If a screen reader is not being used, then:</td>
+<br/>If a screen reader is not being used, then:
         <ul>
             <li>
                 if the user has indicated a start position, then read aloud
@@ -343,7 +350,7 @@ The user could be able to search within the table of contents.</td>
                 from an approximate reading position (e.g., the first visible
                 text on the display).
             </li>
-        </ul>
+        </ul></td>
         <td>Priority: Must-have</td>
         <td>Passed</td>
     </tr>
@@ -1889,7 +1896,8 @@ The user could be able to search within the table of contents.</td>
             should support a variety of question types and be designed to
             complement, not replace, human review and feedback.
         </td><td>Priority: Could-have</td>
-        <p>cantTell. This would be a feature of the book.</p>
+        <td>
+        <p>cantTell. This would be a feature of the book.</p></td>
 </tr>
 <tr id="library-and-bookshelf">
         <!-- <h2>Library and Bookshelf</h2>
@@ -2178,6 +2186,8 @@ The user could be able to search within the table of contents.</td>
             This reduces cognitive load and visual distractions, benefiting
             users with attention-related or cognitive disabilities.
         </td>
+
+        <td>potentially valuable</td>
         <td>Passed</td>
 </tr>
 <tr>
@@ -2193,6 +2203,7 @@ The user could be able to search within the table of contents.</td>
             reading mode) may need to be overridden per document. Per-document
             settings should be saved when relevant.
         </td>
+                <td>potentially valuable</td>
         <td>Passed</td>
 </tr>
 <tr>
@@ -2205,6 +2216,7 @@ The user could be able to search within the table of contents.</td>
             disabilities can benefit from the full range of content referenced
             in the publication.
         </td>
+                <td>potentially valuable</td>
         <td>Passed</td>
 </tr>
 <tr>
@@ -2217,6 +2229,7 @@ The user could be able to search within the table of contents.</td>
             side, such as an original and a translation, or a text with
             annotations, supporting comparative reading and study.
         </td>
+                <td>potentially valuable</td>
         <td>Untested. No test file.</td>
 </tr>
 <tr>
@@ -2228,6 +2241,7 @@ The user could be able to search within the table of contents.</td>
             the table of contents, helping users estimate the length and effort
             required for each section.
         </td>
+                <td>potentially valuable</td>
         <td>failed</td>
 </tr>
 <tr>
@@ -2243,6 +2257,7 @@ The user could be able to search within the table of contents.</td>
             convey visual structure and emphasis in non-visual ways, enhancing
             comprehension.
         </td>
+                <td>potentially valuable</td>
         <td>Passed</td>
 </tr>
 <tr>
@@ -2253,6 +2268,7 @@ The user could be able to search within the table of contents.</td>
             experience, especially for users with dyslexia or low vision, by
             reducing visual clutter and improving text flow.
         </td>
+                <td>potentially valuable</td>
         <td>cantTell. Hyphenation is turned off when text is not justified.</td>
 </tr>
 <tr>
@@ -2263,6 +2279,7 @@ The user could be able to search within the table of contents.</td>
             Text in fixed-layout documents should be able to reflow, allowing
             for better readability on small screens or when using magnification.
         </td>
+                <td>potentially valuable</td>
         <td>failed</td>
 </tr>
 <tr>
@@ -2272,6 +2289,7 @@ The user could be able to search within the table of contents.</td>
             steps the reader though a defined reading order. The reader could
             navigate between regions at their own pace.
         </td>
+                <td>potentially valuable</td>
         <td>Untested. No test file.</td>
 </tr>
 <tr>
@@ -2283,6 +2301,7 @@ The user could be able to search within the table of contents.</td>
             summarization, question answering, or contextual assistance based on
             the content of the publication.
         </td>
+                <td>potentially valuable</td>
         <td>failed. This would be subject to respect of copyrighted content by third party AI providers.</td>
 </tr>
 <tr>
@@ -2295,6 +2314,7 @@ The user could be able to search within the table of contents.</td>
             hands-on learning and accessibility for users who benefit from
             physical or tactile formats.
         </td>
+                <td>potentially valuable</td>
         <td>Passed for PDF only.</td>
 </tr>
 <tr>
@@ -2306,6 +2326,7 @@ The user could be able to search within the table of contents.</td>
             suitable for creating alternative accessible formats, such as
             braille or large print.
         </td>
+                <td>potentially valuable</td>
         <td>failed</td>
 </tr>
 <tr>
@@ -2321,6 +2342,7 @@ The user could be able to search within the table of contents.</td>
             but not mandatory, depending on user needs and technical
             feasibility.
         </td>
+                <td>potentially valuable</td>
         <td>failed</td>
 </tr>
 <tr>
@@ -2334,6 +2356,7 @@ The user could be able to search within the table of contents.</td>
             This makes digital publications more engaging and practical, and
             helps reduce cognitive load for users with print disabilities.
         </td>
+                <td>potentially valuable</td>
         <td>Passed</td>
 </tr>
 <tr>
@@ -2345,6 +2368,7 @@ The user could be able to search within the table of contents.</td>
             the user’s reading history, interests, or profile, making it easier
             to discover relevant content.
         </td>
+                <td>potentially valuable</td>
         <td>failed</td>
 </tr>
 <tr>
@@ -2354,6 +2378,7 @@ The user could be able to search within the table of contents.</td>
             example via social media or within the reading platform, to
             encourage community and engagement.
         </td>
+                <td>potentially valuable</td>
         <td>inapplicable</td>
 </tr>
 <tr>
@@ -2362,6 +2387,7 @@ The user could be able to search within the table of contents.</td>
             The app should indicate which books a user has previously borrowed
             or read, helping them avoid duplicates and revisit favorites.
         </td>
+                <td>potentially valuable</td>
         <td>cantTell, dependent of the feed.</td>
 </tr>
 <tr>
@@ -2371,6 +2397,7 @@ The user could be able to search within the table of contents.</td>
             from digital publications, functioning as a digital scrapbook for
             easy reference and study.
         </td>
+                <td>potentially valuable</td>
         <td>cantTell. This is possible through annotations.</td>
     </tbody>
     </table>
