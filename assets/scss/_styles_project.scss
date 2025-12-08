@@ -378,13 +378,13 @@ footer.bg-dark {
 
 .banner {
     display: flex;
-    align-items: end;
+    align-items: start;
     margin: auto;
     color: $color-dark-blue;
     background-color: $color-extralight;
     height: 600px;
     gap: 20px;
-    padding: 10px 100px 50px;
+    padding: 150px 100px 0;
 
     h1 {
         font-size: 3.35rem;
@@ -399,7 +399,7 @@ footer.bg-dark {
     button {
         color: white;
         background-color: $color-dark-blue;
-        height: 90px;
+        height: 60px;
         border-radius: 10px;
         border-style: none;
         display: flex;
@@ -1080,10 +1080,6 @@ footer.bg-dark {
         }
     }
 
-    .donation_section {
-        padding-top: 0;
-    }
-
     .donation_section>img {
         display: none;
     }
@@ -1151,10 +1147,6 @@ footer.bg-dark {
     .td-navbar .td-navbar-nav-scroll,
     .td-navbar .td-navbar-nav-scroll .navbar-nav {
         overflow: unset;
-    }
-
-    .banner-element {
-        height: unset;
     }
 }
 
@@ -1248,7 +1240,6 @@ footer.bg-dark {
         padding: 40px;
         flex-direction: column;
         gap: 150px;
-        align-items: center;
 
         >div:not(.banner-element) {
             width: unset;
