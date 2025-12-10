@@ -123,7 +123,7 @@ Thorium Reader Desktop does not use SSH, direct TCP connections, or WebSockets f
   * Linux AMD .app: 135 MB
   * Linux ARM .app: 135 MB
 
-**Release Notes:** Full release note are available from the [code repository release page](https://github.com/edrlab/thorium-reader/releases/tag/v3.3)
+**Release Notes:** Full release note are available from the [code repository release page](https://github.com/edrlab/thorium-reader/releases/tag/v3.3.0)
 
 ## Legal Information
 
