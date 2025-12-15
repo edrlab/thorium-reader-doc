@@ -48,6 +48,8 @@
 						<h3 class="inline">Change log</h3>
 					</summary>
 					<ul>
+						<li>2025, December 15th: include Daisy UX requirement conformance report.</li>
+						<li>2025, December 15th: update of WCAG and UAAG reports following 3.3 releases.</li>
 						<li>2025, September 15th: new template include "About this report" section with context information about the product and testing methodology.</li>
 						<li>2025 January 15th: initial full testing internally performed by Gautier Chomel.</li>
 					</ul>
@@ -220,7 +222,7 @@ ACR voc.
 							<div class="label">Statistics:</div>
 							<ul>
 								<li>UAAG: 115 Pass, 1 Fail, 0 Obsolete, 0 N/A</li>
-								<li>WCAG: 60 Pass, 1 Fail, 1 Obsolete, 2 N/A</li>
+								<li>WCAG: 60 Pass, 0 Fail, 1 Obsolete, 2 N/A</li>
 								<li>EPUB Accessibility: 6 Pass, 0 Fail, 0 Obsolete, 0 N/A</li>
 							</ul>
 						</div>
@@ -3518,11 +3520,9 @@ ACR voc.
 						</details>
 					</th>
 					<td class="lvl">A</td>
-					<td class="pass">
-						<p class="label">Passed</p>
-						<!--
-					<p class="additional">Additional Info: </p>
-					-->
+					<td class="fail">
+						<p class="label">Failed</p>
+					<p class="additional">Additional Info: Reflowable contents can be adjusted in size and fixed layout contents can be zoomed. However the text from the interface cannot be resized. This is tracked in Issue <a href="https://github.com/edrlab/thorium-reader/issues/3293">Make the interface scalable</a></p>
 					</td>
 					</tr>
 					<th>
@@ -11460,11 +11460,9 @@ ACR voc.
 					<tr>
 						<th>1.4.4 Resize text</th>
 						<td class="lvl">AA</td>
-						<td class="pass">
-							<p class="label">Passed</p>
-							<!--
-<p class="additional">Additional Info: </p>
--->
+						<td class="fail">
+						<p class="label">Failed</p>
+						<p class="additional">Additional Info: The text from the interface cannot be resized. This is tracked in Issue <a href="https://github.com/edrlab/thorium-reader/issues/3293">Make the interface scalable</a></p>
 						</td>
 					</tr>
 					<tr>
@@ -11520,11 +11518,11 @@ ACR voc.
 					<tr>
 						<th>1.4.10 Reflow</th>
 						<td class="lvl">AA</td>
-						<td class="pass">
-							<p class="label">Passed</p>
-							<!--
-<p class="additional">Additional Info: </p>
--->
+						<td class="fail">
+							<p class="label">Failed</p>
+						
+<p class="additional">Additional Info: The text from the interface cannot be </p>
+
 						</td>
 					</tr>
 					<tr>
@@ -11640,8 +11638,8 @@ ACR voc.
 					<tr>
 						<th>2.2.5 Re-authenticating</th>
 						<td class="lvl">AAA</td>
-						<td class="pass">
-							<p class="label">Passed</p>
+							<td class="na">
+							<p class="label">Not Applicable</p>
 							<!--
 <p class="additional">Additional Info: </p>
 -->
@@ -11650,8 +11648,8 @@ ACR voc.
 					<tr>
 						<th>2.2.6 Timeouts</th>
 						<td class="lvl">AAA</td>
-						<td class="pass">
-							<p class="label">Passed</p>
+							<td class="na">
+							<p class="label">Not Applicable</p>
 							<!--
 <p class="additional">Additional Info: </p>
 -->
@@ -11920,11 +11918,11 @@ ACR voc.
 					<tr>
 						<th>3.1.3 Unusual Words</th>
 						<td class="lvl">AAA</td>
-						<td class="pass">
-							<p class="label">Passed</p>
-							<!--
-<p class="additional">Additional Info: </p>
--->
+						<td class="fail">
+							<p class="label">Failed</p>
+							
+<p class="additional">Additional Info: There is an ongoing discussion about <a href="https://github.com/edrlab/thorium-reader/discussions/1751">Dictionary Integration in Thorium Reader</a></p>
+
 						</td>
 					</tr>
 					<tr>
@@ -11932,16 +11930,14 @@ ACR voc.
 						<td class="lvl">AAA</td>
 						<td class="pass">
 							<p class="label">Passed</p>
-							<!--
-<p class="additional">Additional Info: </p>
--->
+<p class="additional">Additional Info: If the <code>abbr</code> tag is present in a puiblication, it will be rendered as a tooltip and made available to assistive technologies.</p>
 						</td>
 					</tr>
 					<tr>
 						<th>3.1.5 Reading Level</th>
 						<td class="lvl">AAA</td>
-						<td class="pass">
-							<p class="label">Passed</p>
+						<td class="na">
+							<p class="label">Not Applicable</p>
 							<!--
 <p class="additional">Additional Info: </p>
 -->
@@ -11950,8 +11946,8 @@ ACR voc.
 					<tr>
 						<th>3.1.6 Pronunciation</th>
 						<td class="lvl">AAA</td>
-						<td class="pass">
-							<p class="label">Passed</p>
+						<td class="na">
+							<p class="label">Not Applicable</p>
 							<!--
 <p class="additional">Additional Info: </p>
 -->
@@ -12764,7 +12760,7 @@ The user could be able to search within the table of contents.</td>
             announcement, use of different voice, or other technique.
         </td><td>Priority: Must-have</td>
         <td class="pass">
-<p class="label">Passed</p>. Alt text are visible in Caption / clean view, underlined. No audio mecanisme permits to distinguish it.</td>
+<p class="label">Passed</p>Alt text are visible in Caption / clean view, underlined. No audio mecanisme permits to distinguish it.</td>
 </tr>
 <tr>
 <th>
