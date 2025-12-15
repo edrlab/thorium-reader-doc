@@ -10,3 +10,4 @@ epub-doc/es/build/*
 epub-doc/en/src-legacy/*
 epub-doc/fr/src-legacy/*
 epub-doc/es/src-legacy/*
+.DS_Store
