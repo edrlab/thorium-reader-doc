@@ -381,7 +381,8 @@ footer.bg-dark {
     margin: auto;
     color: $color-dark-blue;
     background-color: $color-extralight;
-    height: 600px;
+    min-height: 600px;
+    height: fit-content;
     gap: 20px;
     padding: 10px 100px 50px;
 
