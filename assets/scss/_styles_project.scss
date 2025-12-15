@@ -378,7 +378,6 @@ footer.bg-dark {
 
 .banner {
     display: flex;
-    align-items: end;
     margin: auto;
     color: $color-dark-blue;
     background-color: $color-extralight;
@@ -427,9 +426,11 @@ footer.bg-dark {
         background-color: white;
         border-radius: 10px;
         position: relative;
-        height: 400px;
+        height: fit-content;
         padding-top: 90px;
+        padding-bottom: 10px;
         text-align: center;
+        margin-top: 100px;
 
         h3 {
             font-weight: 300;
@@ -1075,6 +1076,10 @@ footer.bg-dark {
             margin-bottom: 50px;
         }
 
+        .banner-element {
+            margin-top: 0;
+        }
+
         a {
             text-decoration: underline;
         }
@@ -1153,9 +1158,9 @@ footer.bg-dark {
         overflow: unset;
     }
 
-    .banner-element {
-        height: unset;
-    }
+    // .banner-element {
+    //     height: unset;
+    // }
 }
 
 @media (max-width: 800px) {
