@@ -1,7 +1,7 @@
 ---
 title: Atajos de teclado
 description: ''
-draft: 'false'
+draft: 'true'
 weight: '402'
 toc: 'false'
 ---
