@@ -97,7 +97,7 @@ Thorium Reader Desktop is available on the Windows store and can also be install
   * Network access - Necessary for connecting third party catalogs and downloading digital content from those.
 
 **Network Communications:** Thorium Reader Desktop works entirely offline by default. If network access is available, it uses only HTTP and HTTPS protocols, typically over ports 80 and 443, for these specific functions:
-  * `HTTP POST https://telemetry.edrlab.org/` — Sends anonymized telemetry data (no personal information).
+  * `HTTP POST https://telemetry.edrlab.org/` — Sends anonymized telemetry data (a timestamp, the version of Thorium Reader, the operating system of the device and its version, the locale of the application at the time it is started, if this is the first start of Thorium Reader after a fresh install).
   * `HTTP GET https://raw.githubusercontent.com/edrlab/thorium-reader/master/latest.json` — Checks if a new version of Thorium Reader is available.
 
 When users add third-party catalogs (such as OPDS feeds), Thorium Reader may connect using HTTP or HTTPS with GET, POST, or PUT requests. These catalogs may use ports other than 80 and 443, depending on their configuration.
