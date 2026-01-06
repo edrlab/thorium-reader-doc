@@ -80,7 +80,7 @@ or save it for future uses or share it within your devices or with who you want.
 
 Since 3.2, it is possible to filter actions through a search box to ease finding keyboard shortcuts.
 
-The default setup is available online at support page <a href="https://thorium.edrlab.org/en/th3/400_ressources/402_keyboard-shortcuts/"><span>Keyboard shortcuts</span></a>
+The default setup is available online at support page <a href="https://thorium.edrlab.org/en/th3/400_resources/402_keyboard-shortcuts/"><span>Keyboard shortcuts</span></a>
 
 
 </section>
