@@ -1,7 +1,7 @@
 ---
 title: "Keyboard shortcuts"
 description: ""
-draft: false
+draft: true
 weight: 402
 toc: false
 ---
