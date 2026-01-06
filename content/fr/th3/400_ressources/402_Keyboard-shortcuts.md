@@ -1,7 +1,7 @@
 ---
 title: Raccourcis clavier
 description: ''
-draft: false
+draft: true
 weight: '402'
 toc: false
 ---

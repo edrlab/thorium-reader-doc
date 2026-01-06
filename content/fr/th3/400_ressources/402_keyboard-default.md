@@ -1,5 +1,5 @@
 ---
-title: "Keyboard default shortcuts"
+title: "Raccourcis clavier par défaut"
 description: ""
 draft: false
 weight: 402
@@ -24,18 +24,18 @@ toc: false
 </head>
 <body>
 
-Keyboard shortcuts are available from the application settings panel third tab. It help you check and manipulate keyboard driven actions within the application. Figure out the three dots menu aside of the Panel title with extra actions (<span class="ui_button">Reset</span>, <span class="ui_button">Edit</span> and <span class="ui_button">Load</span>). The <span class="ui_button">Edit</span> one opens system folder application to the localisation of the stored user setting `.json` file, allowing you to edit it outside of the application (at your own risks), save it for future uses or share it within your devices or with who you want.
+Les raccourcis clavier sont disponibles dans le troisième onglet du panneau des paramètres de l'application. Ils vous aident à vérifier et à manipuler les actions commandées par le clavier dans l'application. Repérez le menu à trois points à côté du titre du panneau avec des actions supplémentaires (<span class="ui_button">Réinitialiser</span>, <span class="ui_button">Modifier</span> et <span class="ui_button">Charger</span>). L'option <span class="ui_button">Modifier</span> ouvre le dossier système de l'application à l'emplacement du fichier de paramètres utilisateur `.json` stocké, vous permettant de le modifier en dehors de l'application (à vos propres risques), de l'enregistrer pour une utilisation future ou de le partager avec vos appareils ou avec qui vous voulez.
 
-The following list is showing the default keyboard shortcut settings.
+La liste suivante présente les paramètres par défaut des raccourcis clavier.
 
 {{< alert info >}}
-Information
+Informations
 
-The <kbd>Shift</kbd> key is represented by an empty arrow pointing up on some keyboards: <kbd>
+La touche <kbd>Shift</kbd> est représentée par une flèche vide pointant vers le haut sur certains claviers : <kbd>
 <b>&#x21E7;</b>
 </kbd>. 
 
-The <kbd>Ctrl</kbd> key is replaced by <kbd>Cmd</kbd> key on Mac keyboards.
+La touche <kbd>Ctrl</kbd> est remplacée par la touche <kbd>Cmd</kbd> sur les claviers Mac.
 
 
 {{< /alert>}}
@@ -43,10 +43,10 @@ The <kbd>Ctrl</kbd> key is replaced by <kbd>Cmd</kbd> key on Mac keyboards.
   <table id="shortcutsTable" aria-describedby="shortcutsHelp">
     <thead>
       <tr>
-        <th>Human description</th>
-        <th>Key combination</th>
-        <th>Action id</th>
-        <th>Scope</th>
+        <th>Description humaine</th>
+        <th>Combinaison de touches</th>
+        <th>ID de l'action</th>
+        <th>Portée</th>
       </tr>
     </thead>
     <tbody>
@@ -55,15 +55,14 @@ The <kbd>Ctrl</kbd> key is replaced by <kbd>Cmd</kbd> key on Mac keyboards.
   </table>
 
   <p id="shortcutsHelp">
-    The table is built by merging keyboard defaults with the English localization
-    entries under <code>settings.keyboard.list.*</code>.
+        Le tableau est créé en fusionnant les valeurs par défaut du clavier avec les entrées de localisation.
   </p>
 
   <script>
     const DEFAULTS_URL =
       "https://raw.githubusercontent.com/edrlab/thorium-reader-doc/main/assets/data/defaults.json";
     const LOCALE_URL =
-      "https://raw.githubusercontent.com/edrlab/thorium-reader/develop/src/resources/locales/en.json";
+      "https://raw.githubusercontent.com/edrlab/thorium-reader/develop/src/resources/locales/fr.json";
 
     function formatKeyCombo(entry) {
       const parts = [];
