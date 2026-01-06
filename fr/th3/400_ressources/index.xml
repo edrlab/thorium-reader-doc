@@ -12,123 +12,121 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>Thorium 3.0 présente des problèmes de mémoire sous Linux, comme documenté dans le numéro &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Raccourcis clavier</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/402_keyboard-shortcuts/</guid><description>
-&lt;p>{{&amp;lt; info alerte &amp;gt;}} Informations&lt;/p>
-&lt;p>La touche &lt;kbd>Shift&lt;/kbd> est représentée par une flèche vide pointant vers le haut sur certains claviers : &lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd> .&lt;/p>
+&lt;p>Thorium 3.0 présente des problèmes de mémoire sous Linux, comme documenté dans le numéro &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Raccourcis clavier par défaut</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/402_keyboard-default/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/402_keyboard-default/</guid><description>
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;style>
+body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem; line-height: 1.5; }
+h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+p.lead { color: #444; margin-bottom: 1.5rem; }
+table { border-collapse: collapse; width: 100%; max-width: 1000px; }
+th, td { border: 1px solid #ccc; padding: 0.4rem 0.6rem; vertical-align: top; }
+th { background: #f5f5f5; text-align: left; }
+code { font-size: 0.9em; }
+.kbd { display: inline-block; border-radius: 4px; border: 1px solid #aaa; padding: 0.1rem 0.35rem; margin: 0 0.05rem; background: #fafafa; font-size: 0.9em; }
+small { color: #555; }
+&lt;/style>
+&lt;/head>
+&lt;body>
+&lt;p>Les raccourcis clavier sont disponibles dans le troisième onglet du panneau des paramètres de l&amp;rsquo;application. Ils vous aident à vérifier et à manipuler les actions commandées par le clavier dans l&amp;rsquo;application. Repérez le menu à trois points à côté du titre du panneau avec des actions supplémentaires (&lt;span class="ui_button">Réinitialiser&lt;/span>, &lt;span class="ui_button">Modifier&lt;/span> et &lt;span class="ui_button">Charger&lt;/span>). L&amp;rsquo;option &lt;span class="ui_button">Modifier&lt;/span> ouvre le dossier système de l&amp;rsquo;application à l&amp;rsquo;emplacement du fichier de paramètres utilisateur &lt;code>.json&lt;/code> stocké, vous permettant de le modifier en dehors de l&amp;rsquo;application (à vos propres risques), de l&amp;rsquo;enregistrer pour une utilisation future ou de le partager avec vos appareils ou avec qui vous voulez.&lt;/p>
+&lt;p>La liste suivante présente les paramètres par défaut des raccourcis clavier.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;p>Informations&lt;/p>
+&lt;p>La touche &lt;kbd>Shift&lt;/kbd> est représentée par une flèche vide pointant vers le haut sur certains claviers : &lt;kbd>
+&lt;b>⇧&lt;/b>
+&lt;/kbd>.&lt;/p>
 &lt;p>La touche &lt;kbd>Ctrl&lt;/kbd> est remplacée par la touche &lt;kbd>Cmd&lt;/kbd> sur les claviers Mac.&lt;/p>
-&lt;p>{{&amp;lt; /alerte&amp;gt;}}&lt;/p>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd> : Contenu principal (`FocusMain`)&lt;/dt>
-&lt;dd>dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier vers le point de repère de la zone « principale » (dans la vue du lecteur, c'est juste avant le cadre qui affiche le contenu de la publication) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>t&lt;/kbd> : Barre d'outils (`FocusToolbar`)&lt;/dt>
-&lt;dd>dans les fenêtres du lecteur et de la bibliothèque, déplace le focus du clavier vers la barre d'outils horizontale supérieure, immédiatement avant le lien « ignorer » (qui déplace lui-même le focus vers le point de repère de la zone « principale ») &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> : Navigation (`FocusReaderNavigation`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, déplace le focus du clavier vers le panneau de navigation (table des matières, signets, etc.) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Maj&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>n&lt;/kbd> : Table des matières (`FocusReaderNavigationTOC`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, déplace le focus du clavier vers le panneau de navigation, mais plus précisément dans la table des matières, et si possible sur le titre détecté / le plus proche de l'emplacement de lecture. &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Maj&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>p&lt;/kbd> : Aller à la page (`FocusReaderGotoPage`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, déplace le focus du clavier vers la section « aller à la page » dans le panneau de navigation &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>s&lt;/kbd> : Paramètres du lecteur (`FocusReaderSettings`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, déplace le focus du clavier vers le panneau des paramètres (préférences de l'utilisateur pour l'affichage du contenu de la publication) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>b&lt;/kbd> : Signets (`ToggleBookmark`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, basculer le signet (une notification est produite pour que les lecteurs d'écran annoncent le changement) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> : Plein écran (`ToggleReaderFullscreen`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, basculer en plein écran &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd> : Panneau d'informations sur le livre (`OpenReaderInfo`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, boîte de dialogue modale contextuelle d'informations sur la publication (peut être utilisée dans une future version de Thorium pour une fonctionnalité similaire dans la fenêtre de la bibliothèque) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>i&lt;/kbd> : où suis-je (`OpenReaderInfoWhereAmI`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, boîte de dialogue modale contextuelle d'informations sur la publication avec focus clavier direct sur la section qui affiche la hiérarchie des titres et d'autres informations contextuelles pour l'emplacement de lecture actuel, telles que le saut de page précédent le plus proche, ainsi que l'index du document dans l'ordre de lecture (il s'agit de la fonction « où suis-je »). &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>k&lt;/kbd> : où suis-je (notification rapide prise en charge par les lecteurs d'écran) (`SpeakReaderInfoWhereAmI`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, il s'agit de la fonction « où suis-je », comme ci-dessus, mais uniquement parlée via le lecteur d'écran TTS grâce à une région en direct ARIA avec un discours assertif qui interrompt la narration en cours. &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>w&lt;/kbd> : Fermer le livre (`CloseReader`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, ferme la fenêtre et revient à la vue de la bibliothèque. &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd> : Rechercher un livre (`FocusSearch`)&lt;/dt>
-&lt;dd>dans la fenêtre de la bibliothèque, déplace le focus du clavier vers la saisie de texte de recherche de la bibliothèque locale ou du flux OPDS &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>f&lt;/kbd> : rechercher dans un livre (`FocusSearch`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, déplace le focus du clavier vers la saisie de texte de recherche à l'échelle de la publication &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> (facultatif) + &lt;kbd>F3&lt;/kbd> : résultat de recherche précédent ou suivant (`SearchPrevious` / `SearchNext`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, lorsque la saisie de texte de recherche à l'échelle de la publication est ouverte, trouve la correspondance précédente/suivante &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Shift&lt;/kbd> (facultatif) + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>G&lt;/kbd> : résultat de recherche précédent ou suivant (`SearchPreviousAlt` / `SearchNextAlt`)&lt;/dt>
-&lt;dd>idem que ci-dessus (raccourci clavier alternatif) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd> ou &lt;kbd>→&lt;/kbd> : Page OPDS suivante (`NavigatePreviousOPDSPage` / `NavigateNextOPDSPage`)&lt;/dt>
-&lt;dd>dans la fenêtre de la bibliothèque pour les flux OPDS, active les liens de pagination précédents ou suivants &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>virgule&lt;/kbd> ou &lt;kbd>point&lt;/kbd> : page OPDS suivante (`NavigatePreviousOPDSPageAlt / NavigateNextOPDSPageAlt`)&lt;/dt>
-&lt;dd>idem que ci-dessus (raccourci clavier alternatif) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> (sauf sur MacOS) + &lt;kbd>←&lt;/kbd> ou &lt;kbd>→&lt;/kbd> : Chapitre précédent ou suivant (`NavigatePreviousChapter` / `NavigateNextChapter`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, passer au « chapitre » précédent ou suivant (élément de la colonne vertébrale dans l'ordre de lecture de la publication). Notez que le focus du clavier est automatiquement déplacé vers le point de repère de la zone « principale », qui se trouve immédiatement avant le cadre qui affiche le contenu de la publication (tout comme lorsque vous suivez/activez un lien dans la table des matières). &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>page suivante&lt;/kbd> ou &lt;kbd>page précédente&lt;/kbd> : Chapitre précédent ou suivant (`NavigatePreviousChapterAlt` / `NavigateNextChapterAlt`)&lt;/dt>
-&lt;dd>idem que ci-dessus (raccourci clavier alternatif) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>←&lt;/kbd> ou &lt;kbd>→&lt;/kbd> : Page précédente ou suivante (`NavigatePreviousPage` / `NavigateNextPage`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, passer à la « page » précédente ou suivante (ou à l'unité de défilement, si la pagination est désactivée) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>virgule&lt;/kbd> ou &lt;kbd>point&lt;/kbd> : Page précédente ou suivante (`NavigatePreviousPageAlt` / `NavigateNextPageAlt`)&lt;/dt>
-&lt;dd>idem que ci-dessus (raccourci clavier alternatif) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Accueil&lt;/kbd> ou &lt;kbd>Fin&lt;/kbd> : Début ou Fin de la publication (`NavigateToBegin` / `NavigateToEnd`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, va au début ou à la fin de la publication &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>retour arrière&lt;/kbd> avec modificateur &lt;kbd>Maj&lt;/kbd> pour l'opération inverse : Historique précédent et historique suivant (`NavigatePreviousHistory` / `NavigateNextHistory`) : &lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, revenir en arrière ou en avant dans l'historique de navigation : Début ou Fin de la publication &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>1&lt;/kbd> : Audio précédent (`AudioPrevious`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, appelle la commande « précédent » pour l'audio (TTS ou EPUB3 Media Overlays lus à haute voix, ou « rewind » pour les livres audio) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>2&lt;/kbd> : Lire ou mettre en pause l'audio (`AudioPlayPause`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, appelle les commandes de basculement « lecture » ou « pause » pour l'audio (TTS ou EPUB3 Media Overlays readaloud) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>3&lt;/kbd> : Audio suivant (`AudioNext`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, appelle la commande « suivant » pour l'audio (TTS ou EPUB3 Media Overlays lus à haute voix, ou « avancer » pour les livres audio) &lt;/dd>
-&lt;/dl>
-&lt;dl>
-&lt;dt> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>4&lt;/kbd> : Arrêter l'audio (`AudioStop`)&lt;/dt>
-&lt;dd>dans la fenêtre du lecteur, appelle la commande « stop » pour l'audio (TTS ou EPUB3 Media Overlays readaloud, ou « pause » pour les livres audio) &lt;/dd>
-&lt;/dl></description></item><item><title>Th3: Formats de publication pris en charge</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/406_formats/</guid><description>
+&lt;/div>
+&lt;table id="shortcutsTable" aria-describedby="shortcutsHelp">
+&lt;thead>
+&lt;tr>
+&lt;th>Description humaine&lt;/th>
+&lt;th>Combinaison de touches&lt;/th>
+&lt;th>ID de l'action&lt;/th>
+&lt;th>Portée&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;!-- Filled by JavaScript -->
+&lt;/tbody>
+&lt;/table>
+&lt;p id="shortcutsHelp">
+Le tableau est créé en fusionnant les valeurs par défaut du clavier avec les entrées de localisation.
+&lt;/p>
+&lt;script>
+const DEFAULTS_URL =
+"https://raw.githubusercontent.com/edrlab/thorium-reader-doc/main/assets/data/defaults.json";
+const LOCALE_URL =
+"https://raw.githubusercontent.com/edrlab/thorium-reader/develop/src/resources/locales/fr.json";
+function formatKeyCombo(entry) {
+const parts = [];
+if (entry.control) parts.push("Ctrl");
+if (entry.meta) parts.push("Cmd");
+if (entry.alt) parts.push("Alt");
+if (entry.shift) parts.push("Shift");
+let key = entry.key || "";
+if (key.startsWith("Key")) {
+key = key.slice(3);
+}
+parts.push(key);
+return parts
+.filter(Boolean)
+.map(k => `&lt;span class="kbd">${k}&lt;/span>`)
+.join(" + ");
+}
+function formatScope(scopeArr) {
+if (!Array.isArray(scopeArr)) return "";
+return scopeArr.join(", ");
+}
+async function loadShortcuts() {
+const tableBody = document.querySelector("#shortcutsTable tbody");
+tableBody.innerHTML = "&lt;tr>&lt;td colspan='4'>Loading…&lt;/td>&lt;/tr>";
+try {
+const [defaultsRes, localeRes] = await Promise.all([
+fetch(DEFAULTS_URL),
+fetch(LOCALE_URL)
+]);
+if (!defaultsRes.ok) throw new Error("defaults.json HTTP " + defaultsRes.status);
+if (!localeRes.ok) throw new Error("en.json HTTP " + localeRes.status);
+const defaults = await defaultsRes.json();
+const locale = await localeRes.json();
+// Thorium stores keyboard labels under settings.keyboard.list.{ActionId}.{name,description}
+const kbList =
+locale?.settings?.keyboard?.list || {};
+const rows = Object.entries(defaults)
+.sort(([aId], [bId]) => aId.localeCompare(bId))
+.map(([id, entry]) => {
+const loc = kbList[id] || {};
+const name = loc.name || id;
+const description = loc.description || "";
+const combo = formatKeyCombo(entry);
+const scope = formatScope(entry.scope);
+return `
+&lt;tr>
+&lt;td>
+&lt;strong>${name}&lt;/strong>&lt;br>
+&lt;small>${description}&lt;/small>
+&lt;/td>
+&lt;td>${combo}&lt;/td>
+&lt;td>&lt;code>${id}&lt;/code>&lt;/td>
+&lt;td>${scope}&lt;/td>
+&lt;/tr>`;
+});
+tableBody.innerHTML = rows.join("");
+} catch (err) {
+tableBody.innerHTML = `
+&lt;tr>
+&lt;td colspan="4">
+Error loading shortcuts: ${err.message}
+&lt;/td>
+&lt;/tr>`;
+}
+}
+loadShortcuts();
+&lt;/script>
+&lt;/body>
+&lt;/html></description></item><item><title>Th3: Formats de publication pris en charge</title><link>https://thorium.edrlab.org/fr/th3/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/400_ressources/406_formats/</guid><description>
 &lt;dl>
 &lt;dt>EPUB&lt;/dt>
 &lt;dd>(Electronic PUBlication) est un format de fichier ouvert pour les publications électroniques. EPUB est un format sémantique natif permettant d'utiliser de nombreux langages standardisés tels que HTML, ARIA, MATHML, SVG et autres. La version 3 actuelle est connue pour offrir la meilleure expérience de lecture actuelle. Les fichiers EPUB2 obsolètes sont également lisibles dans Thorium. &lt;/dd>
@@ -202,9 +200,10 @@ Avoir une interface utilisateur pour exporter l’intégralité du catalogue n�
 &lt;p>Les publications sont stockées dans un répertoire bien connu.&lt;/p>
 &lt;ul>
 &lt;li>Windows10 : C:\Users\ &lt;em>user name&lt;/em> \AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
-&lt;li>MacOS : /Users/ &lt;em>user name&lt;/em> /Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
-&lt;li>Debian: /home/ &lt;em>user name&lt;/em> /.config/EDRLab.ThoriumReader/publications-dev/&lt;/li>
+&lt;li>MacOS : /Users/ &lt;em>user name&lt;/em> /Library/Application Support/EDRLab.ThoriumReader/publications/&lt;/li>
+&lt;li>Debian: /home/ &lt;em>user name&lt;/em> /.config/EDRLab.ThoriumReader/publications/&lt;/li>
 &lt;/ul>
 &lt;p>En cas de migration d&amp;rsquo;un ordinateur vers un autre ou de cas d&amp;rsquo;utilisation similaires, vous pouvez copier tous les fichiers ebook de ce référentiel et les ouvrir dans la nouvelle installation de Thorium.&lt;/p>
+&lt;p>Les instances auto-construites stockent alternativement la publication dans un dossier publication-dev.&lt;/p>
 &lt;/dd>
 &lt;/dl></description></item></channel></rss>
