@@ -1,0 +1,558 @@
+{
+    "AddBookmarkWithLabel": {
+        "alt": true,
+        "control": false,
+        "key": "KeyB",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "AnnotationsCreate": {
+        "alt": true,
+        "control": false,
+        "key": "KeyA",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "AnnotationsCreateQuick": {
+        "alt": true,
+        "control": false,
+        "key": "KeyQ",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "AnnotationsToggleMargin": {
+        "alt": true,
+        "control": true,
+        "key": "KeyZ",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "AudioNext": {
+        "alt": false,
+        "control": true,
+        "key": "Digit3",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "AudioNextAlt": {
+        "alt": true,
+        "control": true,
+        "key": "Digit3",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "AudioPlayPause": {
+        "alt": false,
+        "control": true,
+        "key": "Digit2",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "AudioPrevious": {
+        "alt": false,
+        "control": true,
+        "key": "Digit1",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "AudioPreviousAlt": {
+        "alt": true,
+        "control": true,
+        "key": "Digit1",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "AudioStop": {
+        "alt": false,
+        "control": true,
+        "key": "Digit4",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "CloseReader": {
+        "alt": false,
+        "control": true,
+        "key": "KeyW",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "FXLZoomIn": {
+        "alt": false,
+        "control": true,
+        "key": "Digit9",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "FXLZoomOut": {
+        "alt": false,
+        "control": true,
+        "key": "Digit8",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "FXLZoomReset": {
+        "alt": false,
+        "control": true,
+        "key": "Digit0",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "FocusMain": {
+        "alt": false,
+        "control": true,
+        "key": "F10",
+        "meta": false,
+        "scope": [
+            "reader",
+            "bookshelf",
+            "catalogs"
+        ],
+        "shift": false
+    },
+    "FocusMainDeep": {
+        "alt": false,
+        "control": true,
+        "key": "F10",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "FocusReaderGotoPage": {
+        "alt": false,
+        "control": true,
+        "key": "KeyP",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "FocusReaderNavigation": {
+        "alt": false,
+        "control": true,
+        "key": "KeyN",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "FocusReaderNavigationAnnotations": {
+        "alt": false,
+        "control": true,
+        "key": "KeyA",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "FocusReaderNavigationBookmarks": {
+        "alt": false,
+        "control": true,
+        "key": "KeyB",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "FocusReaderNavigationSearch": {
+        "alt": false,
+        "control": true,
+        "key": "KeyF",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "FocusReaderNavigationTOC": {
+        "alt": false,
+        "control": true,
+        "key": "KeyN",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "FocusReaderSettings": {
+        "alt": false,
+        "control": true,
+        "key": "KeyS",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "FocusSearch": {
+        "alt": false,
+        "control": true,
+        "key": "KeyF",
+        "meta": false,
+        "scope": [
+            "reader",
+            "bookshelf",
+            "catalogs"
+        ],
+        "shift": false
+    },
+    "FocusToolbar": {
+        "alt": false,
+        "control": true,
+        "key": "KeyT",
+        "meta": false,
+        "scope": [
+            "reader",
+            "bookshelf",
+            "catalogs"
+        ],
+        "shift": false
+    },
+    "NavigateNextChapter": {
+        "alt": false,
+        "control": true,
+        "key": "ArrowRight",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "NavigateNextChapterAlt": {
+        "alt": false,
+        "control": true,
+        "key": "PageDown",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "NavigateNextHistory": {
+        "alt": false,
+        "control": true,
+        "key": "Backspace",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "NavigateNextLibraryPage": {
+        "alt": false,
+        "control": true,
+        "key": "ArrowRight",
+        "meta": false,
+        "scope": [
+            "bookshelf"
+        ],
+        "shift": true
+    },
+    "NavigateNextLibraryPageAlt": {
+        "alt": false,
+        "control": true,
+        "key": "Period",
+        "meta": false,
+        "scope": [
+            "bookshelf"
+        ],
+        "shift": true
+    },
+    "NavigateNextOPDSPage": {
+        "alt": false,
+        "control": true,
+        "key": "ArrowRight",
+        "meta": false,
+        "scope": [
+            "catalogs"
+        ],
+        "shift": true
+    },
+    "NavigateNextOPDSPageAlt": {
+        "alt": false,
+        "control": true,
+        "key": "Period",
+        "meta": false,
+        "scope": [
+            "catalogs"
+        ],
+        "shift": true
+    },
+    "NavigateNextPage": {
+        "alt": false,
+        "control": false,
+        "key": "ArrowRight",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "NavigateNextPageAlt": {
+        "alt": false,
+        "control": true,
+        "key": "Period",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "NavigatePreviousChapter": {
+        "alt": false,
+        "control": true,
+        "key": "ArrowLeft",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "NavigatePreviousChapterAlt": {
+        "alt": false,
+        "control": true,
+        "key": "PageUp",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "NavigatePreviousHistory": {
+        "alt": false,
+        "control": true,
+        "key": "Backspace",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "NavigatePreviousLibraryPage": {
+        "alt": false,
+        "control": true,
+        "key": "ArrowLeft",
+        "meta": false,
+        "scope": [
+            "bookshelf"
+        ],
+        "shift": true
+    },
+    "NavigatePreviousLibraryPageAlt": {
+        "alt": false,
+        "control": true,
+        "key": "Comma",
+        "meta": false,
+        "scope": [
+            "bookshelf"
+        ],
+        "shift": true
+    },
+    "NavigatePreviousOPDSPage": {
+        "alt": false,
+        "control": true,
+        "key": "ArrowLeft",
+        "meta": false,
+        "scope": [
+            "catalogs"
+        ],
+        "shift": true
+    },
+    "NavigatePreviousOPDSPageAlt": {
+        "alt": false,
+        "control": true,
+        "key": "Comma",
+        "meta": false,
+        "scope": [
+            "catalogs"
+        ],
+        "shift": true
+    },
+    "NavigatePreviousPage": {
+        "alt": false,
+        "control": false,
+        "key": "ArrowLeft",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "NavigatePreviousPageAlt": {
+        "alt": false,
+        "control": true,
+        "key": "Comma",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "NavigateToBegin": {
+        "alt": false,
+        "control": true,
+        "key": "Home",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "NavigateToEnd": {
+        "alt": false,
+        "control": true,
+        "key": "End",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "OpenReaderInfo": {
+        "alt": false,
+        "control": true,
+        "key": "KeyI",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "OpenReaderInfoWhereAmI": {
+        "alt": false,
+        "control": true,
+        "key": "KeyI",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "Print": {
+        "alt": false,
+        "control": true,
+        "key": "KeyP",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "SearchNext": {
+        "alt": false,
+        "control": false,
+        "key": "F3",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "SearchNextAlt": {
+        "alt": false,
+        "control": true,
+        "key": "KeyG",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "SearchPrevious": {
+        "alt": false,
+        "control": false,
+        "key": "F3",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "SearchPreviousAlt": {
+        "alt": false,
+        "control": true,
+        "key": "KeyG",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "SpeakReaderInfoWhereAmI": {
+        "alt": false,
+        "control": true,
+        "key": "KeyK",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": true
+    },
+    "ToggleBookmark": {
+        "alt": false,
+        "control": true,
+        "key": "KeyB",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    },
+    "ToggleReaderFullscreen": {
+        "alt": false,
+        "control": true,
+        "key": "F11",
+        "meta": false,
+        "scope": [
+            "reader"
+        ],
+        "shift": false
+    }
+}
