@@ -19,7 +19,7 @@ About Thorium Reader Desktop Version: 3
 **Target Audience:** General public with a particular attention for heavy readers, library-goers, and students.
 
 **Supported Operating Systems:** 
-  * macOS (Big Sur, 11 and up)
+  * macOS (Monterey  and up)
   * Windows (Windows 10 and up)
   * Linux: 
     * Ubuntu 18.04 and newer

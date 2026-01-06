@@ -10,7 +10,7 @@ Le support de la plateforme est fourni par Electron comme défini dans [le fichi
 
 Chaque version d'Electron fournit des binaires pour macOS, Windows et Linux.
 
-- macOS (Big Sur et versions ultérieures) : Electron fournit des binaires Intel et Apple Silicon / ARM 64 bits pour macOS.
+- macOS (Monterey  et versions ultérieures) : Electron fournit des binaires Intel et Apple Silicon / ARM 64 bits pour macOS.
 - Windows (Windows 10 et versions ultérieures) : Electron fournit les binaires ia32 (x86), x64 (amd64) et arm64 pour Windows. La prise en charge de Windows sur ARM a été ajoutée dans Electron 5.0.8. La prise en charge de Windows 7, 8 et 8.1 a été supprimée dans Electron 23, conformément à la politique d'obsolescence de Windows de Chromium.
 - Linux : les binaires pré-compilés d'Electron sont basés sur Ubuntu 20.04. Ils ont également été vérifiés pour fonctionner sur :
     - Ubuntu 18.04 et versions ultérieures
