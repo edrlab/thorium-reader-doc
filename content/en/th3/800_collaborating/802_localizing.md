@@ -14,6 +14,26 @@ All locales are stored in the [sources resources locales folder](https://github.
     
 For issues related to localisation, flag @gautierchomel in the comments.
 
+## Plural forms
+
+Thorium Reader now supports proper plural forms in all languages using i18next’s built‑in pluralization rules, which slightly changes how some translation keys must be written.[1]
+
+### What changed technically
+
+- The i18n code now uses the special placeholder **`count`** whenever a message can vary depending on a number (for example, “1 match” vs “5 matches”).
+- i18next treats `count` as a reserved variable and will automatically pick the correct plural form based on the target language’s rules.
+
+### Impact on translation keys
+
+- Keys that depend on a number must offer plural variants such as `key_one`, `key_other`, and possibly additional forms (`key_few`, `key_many`, etc.), depending on the language.
+- English and Lithuanian JSON files in the PR have been updated as examples: they now use plural suffixes instead of generic “match(es)”‑type workarounds.[
+
+## How to translate pluralized strings
+
+- When you see a key with a `count` variable and plural suffixes, translate each plural form separately, matching natural usage in your language (e.g. singular, dual, paucal, etc.).
+- To know which plural forms your language needs and which suffixes i18next expects (e.g. `_one`, `_few`, `_many`), you can use the JSFiddle linked in the PR description.
+
+
 ## Contributors:
 We maintain a list of contributors to properly credit theyre work, and also to help us who to mention in calls for translation. The list is non exhaustive, and we'll delete mentions on requests. 
 
