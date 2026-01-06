@@ -90,7 +90,7 @@ Whether you&amp;rsquo;re looking for the latest bestseller, a classic novel, a t
 &lt;p>&lt;strong>Target Audience:&lt;/strong> General public with a particular attention for heavy readers, library-goers, and students.&lt;/p>
 &lt;p>&lt;strong>Supported Operating Systems:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>macOS (Big Sur, 11 and up)&lt;/li>
+&lt;li>macOS (Monterey and up)&lt;/li>
 &lt;li>Windows (Windows 10 and up)&lt;/li>
 &lt;li>Linux:
 &lt;ul>
@@ -225,7 +225,7 @@ All questions, comments or requests regarding these terms of use should be sent 
 &lt;p>Platform support is provided by Electron as defined in &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">Electron github repo Readme&lt;/a>&lt;/p>
 &lt;p>Each Electron release provides binaries for macOS, Windows, and Linux.&lt;/p>
 &lt;ul>
-&lt;li>macOS (Big Sur and up): Electron provides 64-bit Intel and Apple Silicon / ARM binaries for macOS.&lt;/li>
+&lt;li>macOS (Monterey and up): Electron provides 64-bit Intel and Apple Silicon / ARM binaries for macOS.&lt;/li>
 &lt;li>Windows (Windows 10 and up): Electron provides ia32 (x86), x64 (amd64), and arm64 binaries for Windows. Windows on ARM support was added in Electron 5.0.8. Support for Windows 7, 8 and 8.1 was removed in Electron 23, in line with Chromium&amp;rsquo;s Windows deprecation policy.&lt;/li>
 &lt;li>Linux: The prebuilt binaries of Electron are built on Ubuntu 20.04. They have also been verified to work on:
 &lt;ul>

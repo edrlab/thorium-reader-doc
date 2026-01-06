@@ -188,7 +188,7 @@ en la publicación actual.&lt;/p>
 &lt;p>El soporte de la plataforma lo proporciona Electron, tal como se define en el &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">archivo Readme del repositorio de Github de Electron.&lt;/a>&lt;/p>
 &lt;p>Cada versión de Electron proporciona binarios para macOS, Windows y Linux.&lt;/p>
 &lt;ul>
-&lt;li>macOS (Big Sur y superiores): Electron proporciona binarios Intel y Apple Silicon/ARM de 64 bits para macOS.&lt;/li>
+&lt;li>macOS (Monterey y superiores): Electron proporciona binarios Intel y Apple Silicon/ARM de 64 bits para macOS.&lt;/li>
 &lt;li>Windows (Windows 10 y posteriores): Electron proporciona binarios ia32 (x86), x64 (amd64) y arm64 para Windows. La compatibilidad con Windows en ARM se agregó en Electron 5.0.8. La compatibilidad con Windows 7, 8 y 8.1 se eliminó en Electron 23, de acuerdo con la política de desuso de Windows de Chromium.&lt;/li>
 &lt;li>Linux: Los binarios precompilados de Electron están compilados en Ubuntu 20.04. También se ha verificado que funcionan en:
 &lt;ul>
