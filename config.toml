@@ -1,9 +1,9 @@
 baseURL = "https://thorium.edrlab.org/"
 title = "Thorium Reader"
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+# contentDir = "content/en"
+# defaultContentLanguage = "en"
+# defaultContentLanguageInSubdir = true
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
@@ -83,6 +83,7 @@ blog = "/:section/:year/:month/:day/:slug/"
 title = "Thorium Reader"
 description = "The Reading Experience"
 languageName ="English"
+contentDir = "content/en"
 # Weight used for sorting.
 weight = 1
 [languages.fr]
