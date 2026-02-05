@@ -12,16 +12,16 @@ Thorium Reader allows users to annotate texts easily.
 
 ## How to Annotate
 
-The simplest way to add an annotation is to select a text and hit the
+The simplest way to add an annotation is to select text and press the
 Annotations button
-(<img src="../../resources/images/annotation-icon.svg" class="icon" role="presentation"/>) or stroke the keyboard shortcut <kbd>Shift</kbd> +
+(<img src="../../resources/images/annotation-icon.svg" class="icon" role="presentation"/>) or use the keyboard shortcut <kbd>Shift</kbd> +
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd>. This opens the Annotation pop up
 and place the cursor into the input box where you can write your
 annotation (optional). You can change highlight color and type (Solid
 background, Underline, Strikethrough or Outline) then validate the
 creation of the annotation with <span class="ui_button">Save</span>.
 
-Annotations in the content can not be reached by keyboard tabulation. To navigate between them, keyboard users need to open the Annotation Panel.
+Annotations in the content cannot be reached by keyboard tabulation. To navigate between them, keyboard users need to open the Annotations panel.
 
 
 <section class="filet">
@@ -64,13 +64,13 @@ Filtering will modify the list of displayed annotations, without removing them. 
 
 Active tag filters are visually shown by a blue background and announced as active by screen readers.
 
-All filters allow multiple selection and they act like checkbox, one clic activate the filter, one more clic deactivates it. 
+All filters allow multiple selection and act like checkboxes: one click activates the filter, another click deactivates it. 
 
 Filtering options are:
-* by Tag, if any tag as been affected to any annotation, it will appear here;
+* by Tag, if any tag has been assigned to any annotation, it will appear here;
 * by Color, Red, Orange, Yellow, Green, Blue-green, Light-blue, Cyan and Violet;
-* by Drawtype, Outline, Solid background, Strikethrough	 or Underline;
-* by Creator, if any has been informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a >, or imported with a set of annotations.
+* by Draw type, Outline, Solid background, Strikethrough, or Underline;
+* by Creator, if any has been set in the <a href="../102_windows_views_panels/index.xhtml#setting_view">Application Settings Panel</a>, or imported with a set of annotations.
 
 </section>
 <section class="filet">
@@ -90,7 +90,7 @@ A set of annotations can be exported or imported. This can be done from the Anno
 
 The export button  <img src="../../resources/images/export-icon.svg" class="icon"  alt="" role="presentation"/> will open a dialog box asking for a title that will be used as to identify the annotation set when importing it. The save button will trigger a System File window to select the place where the user want to store this annotation file as well as the file name. Title will be used as default pre filled filename but can be changed without affecting file identification. 
 
-Annotations are stored with the file extension `.annotation` and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view" >Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
+Annotations are stored with the file extension `.annotation` and makes use of a JSON-LD format defined by the W3C recommandation [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/). It contains ebook identifier and the Creator information informed in the <a href="../102_windows_views_panels/index.xhtml#setting_view">Application Settings Panel</a > as well as various selector types to allow import and correct positioning of annotations by different reading systems.
 
 The import button  <img src="../../resources/images/import-icon.svg" class="icon"  alt="" role="presentation"/> opens so the user can select the file he wants to import. If book identifier is not similar to the open book where the import intent happens, an error message will shows and the annotations will not be imported. 
 
