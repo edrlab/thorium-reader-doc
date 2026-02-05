@@ -1,5 +1,5 @@
 ---
-title: Title page
+title: Welcome to Thorium Reader
 role: 
 epubtype: title
 class: titlepage
@@ -10,8 +10,8 @@ auto: false
 
 # Thorium Reader
 
-Read, Select, Annotate, Classify<br/>
-Perfect for heavy readers, library-goers, and students alike!<br/>
-No ads, or data leaks to worry about
+Read, Select, Annotate, and Classify<br/>
+Ideal for avid readers, library enthusiasts, and students!<br/>
+No ads or data privacy concerns.
 
 *The European Digital Reading Lab (EDRLab), 2025*
