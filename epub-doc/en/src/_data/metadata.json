@@ -1,15 +1,14 @@
 {
   "dc": {
-    "title": "Thorium Reader for Desktop user's guide (English, 3.4)",
+    "title": "Thorium Reader for Desktop User Guide (3.4)",
     "creator": "The European Digital Reading Lab",
     "publisher": "The European Digital Reading Lab",
-    "description": "This is the official Thorium Reader for Desktop 3.4 documentation. It offers guidance to help you get to know and make better use of Thorium Reader. Quick support references are not included here and are available online from the Thorium Support webpages.",
+    "description": "Official Thorium Reader for Desktop 3.4 documentation. Comprehensive guidance for getting to know and using Thorium Reader effectively. Additional support resources are available online at thorium.edrlab.org.",
     "identifier": "com.github.edrlab.thorium-reader-doc-epub-en.3.4.0",
     "language": "en",
     "rights": "Creative Commons Attribution-Share Alike (CC BY-SA) license."
   },
   "version": "3.4",
-  "description": "Thorium Reader is a versatile digital book reader and library management tool.",
   "links": [
     {
       "rel": "cc:license",
@@ -17,10 +16,12 @@
     }
   ],
   "properties": {
-    "dcterms:modified": "2025-05-30T00:00:00Z",
+    "dcterms:modified": "2025-01-15T00:00:00Z",
     "schema:accessibilityFeature": ["alternativeText", "readingOrder","structuralNavigation", "tableOfContents"],
     "schema:accessMode": ["textual","visual"],
     "schema:accessModeSufficient": "textual",
-    "schema:accessibilityControl": ["fullKeyboardControl", "fullMouseControl"]
+    "schema:accessibilityControl": ["fullKeyboardControl", "fullMouseControl"],
+    "schema:accessibilityHazard": "none",
+    "schema:accessibilitySummary": "This publication meets WCAG 2.1 Level AA."
   }
 }
