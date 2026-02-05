@@ -1,12 +1,12 @@
 ---
-title: Reading audio contents
+title: Reading auditory contents
 role: doc-chapter
 epubtype: chapter
 class: colbreak filet
 draft: false
 ---
 
-# Reading audio contents
+# Reading auditory content
 
 Audio contents can appear in almost all formats. When they are included in textual or visual first ebooks, they come with a set of buttons as play, pause, stop, and eventually rewind and forward or other options like speed. Those buttons are not part of the Thorium interface, they can be provided by the specific rendering engine (Chromium for web contents in EPUB and Daisy ; pdf.js for PDF). They can also be styled by the content creator. Therefore, this user guide can hardly give detailed information on their design and functionalities.
 
@@ -14,7 +14,7 @@ Audio only contents, synchronied audios and Text to speech generated audio, in c
 
 ## Audio only {#audioonly}
 
-Thorium can read audiobooks in the standardises W3C audiobook and in Daisy audio only formats. When such a book is opened, the book will start to play. The reading window will display the cover, a set of functions buttons and a progression bar. 
+Thorium can read audiobooks in the standardised W3C audiobook and in Daisy audio only formats. When such a book is opened, the book will start to play. The reading window will display the cover, a set of functions buttons and a progression bar. 
 
 The interface is composed of:
 * A Shift button to Play or Pause;
