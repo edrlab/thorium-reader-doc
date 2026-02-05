@@ -8,7 +8,7 @@ draft: false
 
 # About this ebook
 
-Published in February 2025 by The European Digital Reading Lab (EDRLab), a non-profit development laboratory.
+Published in june 2026 by The European Digital Reading Lab (EDRLab), a non-profit development laboratory.
 
 ---
 
@@ -19,8 +19,6 @@ Paris, France
 [contact@edrlab.org](mailto:contact@edrlab.org)
 
 [edrlab.org](https://www.edrlab.org/)
-
-
 
 
 ## Credits
