@@ -8,6 +8,8 @@
     "language": "en",
     "rights": "Creative Commons Attribution-Share Alike (CC BY-SA) license."
   },
+  "version": "3.4",
+  "description": "Thorium Reader is a versatile digital book reader and library management tool.",
   "links": [
     {
       "rel": "cc:license",
