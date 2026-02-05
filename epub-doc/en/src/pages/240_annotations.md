@@ -8,9 +8,9 @@ draft: false
 
 # Annotations
 
-*Annotations have been introduced first in Thorium 3, as a new feature,
-it may present unexpected behaviors. Let us know any difficulty you face
-by [opening an issue](https://github.com/edrlab/thorium-reader/issues/new) or [sending us an email](https://www.edrlab.org/contact/).*
+Thorium Reader allows users to annotate texts easily. 
+
+## How to Annotate
 
 The simplest way to add an annotation is to select a text and hit the
 Annotations button
@@ -101,5 +101,12 @@ Once imported, annotations appears in the annotation panel and can be reviewed a
 Since Thorium 3.2, it has been possible to export bookmarks and annotations in the form of a web page in HTML format. In a future version, we hope to be able to customise this export using a template.
 
 When exporting, select the file extension `.annotation` and change it to `.html`. The rest of the export is carried out in the same way. The 'Save' button opens a 'System file' window in which the user must select the location where they wish to store the annotation file and the file name. The title will be used as the default pre-filled file name, but it can be changed without affecting the identification of the file.
+
+
+## Warning
+
+*Annotations have been introduced first in Thorium 3, as a new feature,
+it may present unexpected behaviors. Let us know any difficulty you face
+by [opening an issue](https://github.com/edrlab/thorium-reader/issues/new) or [sending us an email](https://www.edrlab.org/contact/).*
 
 </section>
