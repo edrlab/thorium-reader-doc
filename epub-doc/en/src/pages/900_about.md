@@ -6,49 +6,43 @@ class: colbreak filet
 draft: false
 ---
 
-# About this ebook
+# About This Documentation
 
 Published in june 2026 by The European Digital Reading Lab (EDRLab), a non-profit development laboratory.
 
 ---
 
-Paris, France
+**EDRLab**  
+15 Rue de la Bûcherie  
+75005 Paris, France
 
-15 Rue de la Bûcherie, 75005 
-
-[contact@edrlab.org](mailto:contact@edrlab.org)
-
+[contact@edrlab.org](mailto:contact@edrlab.org)  
 [edrlab.org](https://www.edrlab.org/)
 
+## Contributors
 
-## Credits
+This documentation is designed and maintained by EDRLab as part of Thorium Reader development.
 
-This documentation ebook is designed and maintained by EDRLab as part of
-the development of the Thorium-Reader application.
+**Main contributors:**
+- Gautier Chomel - Documentation lead
+- Georges Kerscher - Accessibility expertise
+- Noelia Ruiz Martínez - Internationalization
+- Prashant Verma - Accessibility testing
 
-The main contributors of this documentation are :
+## Accessibility Statement
 
--   Gautier Chomel
--   Georges Kerscher
--   Noelia Ruiz Martínez
--   Prashant Verma
+This documentation has been tested with NVDA on Firefox (Windows 10) and found to be fully accessible. 
 
+If you encounter accessibility issues, please report them via:
+- Our [contact form](https://www.edrlab.org/contact/)
+- [GitHub issue tracker](https://github.com/edrlab/thorium-reader-doc/issues/new)
 
-## Accessibility
+Please include:
+- Operating system and version
+- Thorium version (found in Settings → About Thorium)
+- Assistive technology used
+- Description of the issue
 
-This ebook was tested with NVDA on Firefox on Windows 10. No
-accessibility blockers were found.
+## License
 
-If you encounter any difficulties you can inform us via the contact form
-or by opening an issue on our [support
-tracker](https://github.com/edrlab/thorium-reader-doc/issues/new).
-
-The page is in English but you can write in your language by telling us
-so we can in your language so that we can mobilize the right people.
-
-Here is the information we need:
-
--   Operating system and its version
--   Thorium version (it is indicated at the bottom of the library under
-    the title About Thorium)
--   Assistive technology used.
+This documentation is licensed under [Creative Commons Attribution-Share Alike (CC BY-SA)](http://creativecommons.org/licenses/by-sa/3.0/).
