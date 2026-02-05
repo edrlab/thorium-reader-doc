@@ -7,6 +7,13 @@ class: filet
 weight: 100
 ---
 
+# Forewords
+
+Welcome to the Thorium Reader documentation.
+
+## Purpose
+This documentation aims to assist users in navigating the application.
+
 Thorium is a digital book reader, it is also a library where you can
 store your books and access to online catalogs.
 
