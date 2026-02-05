@@ -77,7 +77,7 @@ tocRule: title
 <a href="../pages/100_forewords/index.xhtml" epub:type="forewords" >Forewords</a>
 </li>
 <li>
-<a href="../pages/900_about/index.xhtml" epub:type="acknowledgments">About this ebook</a>
+<a href="../pages/900_about/index.xhtml" epub:type="acknowledgments">About This Documentation</a>
 </li>
 </ol>
 </nav>
