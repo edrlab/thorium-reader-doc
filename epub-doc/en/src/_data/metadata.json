@@ -16,12 +16,12 @@
     }
   ],
   "properties": {
-    "dcterms:modified": "2025-01-15T00:00:00Z",
-    "schema:accessibilityFeature": ["alternativeText", "readingOrder","structuralNavigation", "tableOfContents"],
-    "schema:accessMode": ["textual","visual"],
+    "dcterms:modified": "2026-06-15T00:00:00Z",
+    "schema:accessibilityFeature": ["alternativeText", "readingOrder", "structuralNavigation", "tableOfContents"],
+    "schema:accessMode": ["textual", "visual"],
     "schema:accessModeSufficient": "textual",
     "schema:accessibilityControl": ["fullKeyboardControl", "fullMouseControl"],
     "schema:accessibilityHazard": "none",
-    "schema:accessibilitySummary": "This publication meets WCAG 2.1 Level AA."
+    "schema:accessibilitySummary": "Tested with various combinations, results available at epubtest.org."
   }
 }
