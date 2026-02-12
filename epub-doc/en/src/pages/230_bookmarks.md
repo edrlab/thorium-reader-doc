@@ -16,7 +16,7 @@ The <span class="ui_button">bookmark</span> button allows you to add a custom bo
 A <span class="ui_button">bookmark</span> can be a fixed point or a text selection. 
 Only one fixed point bookmark is possible per page 
 (book pages or calculated pages in case there is not page reference in the book). 
-But you can place as many texte selection bookmark as you want. 
+But you can place as many text-selection bookmarks as you want. 
 
 When you add a <span class="ui_button">Bookmark</span> a notification appears to inform you that 
 the <span class="ui_button">Bookmark</span> was *Added* or *Deleted*. 
@@ -32,9 +32,10 @@ If no text is selected, the last known reading location will be marked.
 
 
 </section>
+
 <section class="filet">
 
-## Reviewing and navigating the Bookmarks
+## Reviewing and navigating bookmarks
 
 Press the <span class="ui_button">Navigation</span> button (<kbd>Ctrl</kbd> + <kbd>N</kbd>), then 
 the <span class="ui_button">Bookmarks</span> button. You can change the name of each bookmark, delete 
@@ -57,6 +58,6 @@ rename the bookmark. Paste the line from the clipboard and press
 copied. When you have several bookmarks, this renaming of the bookmarks allows 
 you to use them easily.
 
-Since 3.2 it is possible to add Tags to bookmarks to ease filtering, grouping and finding specific locations. 
+Since 3.2 it is possible to add tags to bookmarks to ease filtering, grouping, and finding specific locations.
 
 </section>
