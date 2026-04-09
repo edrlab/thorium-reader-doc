@@ -76,7 +76,7 @@ Thorium Reader Desktop is available on the Windows store and can also be install
 * **Load & Read ebooks:** Thorium Reader Desktop allows you to load an ebook from your computer and read it in a dedicated windows.
 * **Organise ebooks:** ebooks can be sorted, tagged, exported, deleted and lending can be managed from the Library window.
 * **Bookmark:** Users can add, comment, tag, modify, sort, access, export and import bookmarks.
-* **Annotate:**  Users can add, personalize (with color and stroke), comment, tag, modify, sort, access, export and import annotations.
+* **Annotate:**  Users can add, personalize (with color and stroke), comment, tag, modify, sort, access, export and import annotations. **Note:** As of version 3.4.0, annotations and notes are stored exclusively in SQLite for improved performance and reliability.
 * **Filter:** Users can filter ebooks with a range of options, including free text (like search).
 * **Search:** Users can search inside an ebook, list and navigate between search results.
 * **Add & Browse catalogs:** Users can add catalogs in the OPDS format and browse them depending on the options provided by the catalog provider.
@@ -123,7 +123,7 @@ Thorium Reader Desktop does not use SSH, direct TCP connections, or WebSockets f
   * Linux AMD .app: 135 MB
   * Linux ARM .app: 135 MB
 
-**Release Notes:** Full release note are available from the [code repository release page](https://github.com/edrlab/thorium-reader/releases/tag/v3.3.0)
+**Release Notes:** Full release notes are available from the [code repository release page](https://github.com/edrlab/thorium-reader/releases/tag/v3.4.0)
 
 ## Legal Information
 
