@@ -25,9 +25,8 @@ opened with Thorium: [Download OPDS feed for Gutenberg.org new titles](https://w
 
 </div>
 
-It is also possible to use context menu (usually Right clic), Copy this
-link and paste it into Thorium Add an OPDS panel to see the magic
-happen.
+It is also possible to use the context menu (usually right click): copy this
+link and paste it into Thorium’s “Add an OPDS feed” panel.
 
 OPDS feeds can also be provided as direct links which should open
 directly in Thorium. [Open OPDS feed for Gutenberg.org new titles](opds://www.gutenberg.org/ebooks/search.opds/)
@@ -55,7 +54,7 @@ You can use [feedbooks OPDS](opds://catalog.feedbooks.com/catalog/index.json) to
 [Feedbook catalog](https://www.feedbooks.com/#). Once you have selected
 a book you'll be redirected to the webpage where you can buy the book.
 
-Feedbooks OPDS allows you to loggin from Thorium Catalog feed with the
+Feedbooks OPDS allows you to log in from the Thorium catalog view with the
 *Shelf* button on the upper right corner. Anybook bought with your
 Feedbooks account will be available for download directly from the
 Thorium OPDS feed catalog interface.
@@ -80,7 +79,7 @@ the feed.
 </section>
 <section class="filet">
 
-## Setting up a french public library account
+## Setting up a French public library account
 
 In France, many public libraries provide a machine-readable catalog
 (similar to OPDS but not identical), letting patrons download digital

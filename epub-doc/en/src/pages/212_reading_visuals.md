@@ -8,7 +8,9 @@ draft: false
 
 # Reading visual contents
 
-Visual content can appears in all formats except those that are exclusively audio. This section covers the various situations with the exception of portable document formats (PDF) for which a third-party reader (pdf.js, also used by Firefox notably) is integrated into Thorium. Therefore, a specific section of this user guide is dedicated to [Reading PDF](../214_reading_pdfs/index.xhtml).
+Visual content can appear in all formats except those that are exclusively audio.
+This section covers the various situations with the exception of portable document formats (PDF) for which a third-party reader (pdf.js, also used by Firefox notably) is integrated into Thorium.
+Therefore, a specific section of this user guide is dedicated to [Reading PDF](../214_reading_pdfs/index.xhtml).
 
 <section class="filet">
 
@@ -30,7 +32,7 @@ use mouse wheel, scroll up and down or pinch and stretch trackpad or
 onscreen touch gestures.
 
 Once the image is zoomed you can move vertically and horizontally with
-<kbd>Left arrow</kbd>, <kbd>Right arrow</kbd>, <kbd>Left arrow</kbd> and <kbd>Right arrow</kbd>, 
+<kbd>Up arrow</kbd>, <kbd>Down arrow</kbd>, <kbd>Left arrow</kbd> and <kbd>Right arrow</kbd>,
 by holding down the mouse button and moving the mouse, with usual
 trackpad gestures or with finger moves on tactile screens.
 

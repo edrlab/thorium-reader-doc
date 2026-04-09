@@ -7,7 +7,11 @@ draft: false
 ---
 
 # Accessibility {#A11Y}
-The application is compatible with assistance technologies such as screen players, including Jaws, NVDA, Narrator and Voiceover. It includes a reading function aloud with visual highlighting. Thorium Reader can be used with mouse or keyboard, and keyboard shortcuts are configurable. The display can be personalized to meet the needs of users, including colors, text size, spacing, font and layout.
+
+The application is compatible with assistive technologies such as screen readers, including JAWS, NVDA, Narrator, and VoiceOver.
+It includes a Read Aloud function with visual highlighting.
+Thorium Reader can be used with mouse or keyboard, and keyboard shortcuts are configurable.
+The display can be personalized to meet the needs of users, including colors, text size, spacing, font and layout.
 Accessibility features strongly depend on the quality of electronic publication files and are affected by it. 
 
 The [Accessibility online support page](https://thorium.edrlab.org/en/th3/500_accessibility/) contains complete information related to the accessibility of the application and the features related to it.
@@ -19,7 +23,8 @@ This chapter takes up the main information to have it offline.
 
 ## Accessibility information {#a11y_info}
 
-Currently, Thorium displays in the [Book Information Panel](../102_windows_views_panels/index.xhtml#book_info_panel) under the title `Description` Description 'The content of the accessibility metadata provided by the creators of the file.
+Currently, Thorium displays (in the [Book Information panel](../102_windows_views_panels/index.xhtml#book_info_panel), under `Description`)
+the accessibility metadata provided by the publication.
 
 
 </section>
@@ -36,10 +41,10 @@ The native accessibility functions are described in each section of this documen
 </section>
 <section class="filet">
 
-## Reading with a screen player {#screenreader}
+## Reading with a screen reader {#screenreader}
 
-When launching Thorium, if a screen player is detected, the relative functions are activated.
-Note that screen players use separate buffer memory to access HTML content, which causes the visual scroll desynchronization and a page offset displayed with the page read by the screen player. In other words, Thorium is generally not aware of the current reading location of the screen player user, unless the screen user triggers events (such as a Mouse click anywhere in the text or a keyboard key on focused HTML elements).
+When launching Thorium, if a screen reader is detected, related functions are activated.
+Note that screen readers use separate buffer memory to access HTML content, which causes the visual scroll desynchronization and a page offset displayed with the page read by the screen reader. In other words, Thorium is generally not aware of the current reading location of the screen reader user, unless the screen user triggers events (such as a Mouse click anywhere in the text or a keyboard key on focused HTML elements).
 
 
 </section>
@@ -66,8 +71,8 @@ To read text, navigate in the tables, navigate in the browser window, the insert
 |Next word|<kbd>CTRL</kbd> + <kbd>→</kbd> |
 |Previous line |<kbd>↑</kbd> |
 |Next line |<kbd>↓</kbd> |
-|Previous sentence |<kbd>ALT</kbd> + <kbd>↑</kbd> (Jaws uniquement) |
-|Next sentence|<kbd>ALT</kbd> + <kbd>↓</kbd> (Jaws uniquement) |
+|Previous sentence |<kbd>ALT</kbd> + <kbd>↑</kbd> (JAWS only) |
+|Next sentence|<kbd>ALT</kbd> + <kbd>↓</kbd> (JAWS only) |
 |Read everything|<kbd>INSERT</kbd> + <kbd>↓</kbd> |
 |Cell on the right|<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>→</kbd> |
 |Cell on the left |<kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>←</kbd>|
