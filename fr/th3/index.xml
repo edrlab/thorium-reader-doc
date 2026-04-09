@@ -365,11 +365,11 @@ loadShortcuts();
 &lt;dt id="manually_manage_files">Pourquoi ne puis-je pas ouvrir un livre électronique sans qu'il soit enregistré dans la bibliothèque de Thorium Reader ?
 &lt;/dt>
 &lt;dd>
-Thorium, comme plusieurs autres lecteurs de livres électroniques et systèmes de lecture, stocke les publications importées dans son propre espace de système de fichiers, car cela garantit que l'état de chaque publication et les métadonnées externes (par exemple, les signets, les paramètres, les annotations, le statut DRM, etc.) peuvent être attachés de manière fiable.
+Thorium, comme plusieurs autres lecteurs de livres électroniques et systèmes de lecture, stocke les publications importées dans son propre espace de système de fichiers, car cela garantit que l'état de chaque publication et les métadonnées externes (par exemple, les marque-pages, les paramètres, les sutlignages, le statut DRM, etc.) peuvent être attachés de manière fiable.
 &lt;/dd>
-&lt;dt id="PDFsupport">Pourquoi n'y a-t-il pas de lecture à voix haute ni d'annotations pour les PDF ?
+&lt;dt id="PDFsupport">Pourquoi n'y a-t-il pas de lecture à voix haute ni de notes pour les PDF ?
 &lt;/dt>
-&lt;dd>EDRLab s'efforce en priorité d'offrir une expérience optimale aux utilisateurs d'EPUB. Dans Thorium Reader, les fonctionnalités avancées telles que la synthèse vocale et les annotations sont donc disponibles en priorité pour les fichiers EPUB et nous espérons que les autres développeurs d'applications tireront le meilleur parti des fichiers PDF. Cela ne signifie pas que les fonctionnalités avancées ne seront jamais disponibles sur PDF dans Thorium, mais simplement que notre budget limité est utilisé pour ce que nous considérons comme le meilleur pour les lecteurs de livres électroniques.
+&lt;dd>EDRLab s'efforce en priorité d'offrir une expérience optimale aux utilisateurs d'EPUB. Dans Thorium Reader, les fonctionnalités avancées telles que la synthèse vocale et les notes sont donc disponibles en priorité pour les fichiers EPUB et nous espérons que les autres développeurs d'applications tireront le meilleur parti des fichiers PDF. Cela ne signifie pas que les fonctionnalités avancées ne seront jamais disponibles sur PDF dans Thorium, mais simplement que notre budget limité est utilisé pour ce que nous considérons comme le meilleur pour les lecteurs de livres électroniques.
 &lt;/dd>
 &lt;dt id="PDFrotate">J'ai accidentellement fait pivoter mes pages PDF, comment puis-je les récupérer ?
 &lt;/dt>
@@ -400,6 +400,20 @@ Avoir une interface utilisateur pour exporter l’intégralité du catalogue n�
 &lt;/ul>
 &lt;p>En cas de migration d&amp;rsquo;un ordinateur vers un autre ou de cas d&amp;rsquo;utilisation similaires, vous pouvez copier tous les fichiers ebook de ce référentiel et les ouvrir dans la nouvelle installation de Thorium.&lt;/p>
 &lt;p>Les instances auto-construites stockent alternativement la publication dans un dossier publication-dev.&lt;/p>
+&lt;/dd>
+&lt;dt id="notes-export">Si je reviens à une version antérieure de Thorium, qu'advient-il de mes notes ?&lt;/dt>
+&lt;dd>
+&lt;p>À partir de Thorium 3.4.0, le stockage des notes a été modifié pour de meilleures performances et fiabilité, ce qui représente une évolution importante de la manière dont Thorium persiste vos surlignages et marque-pages.&lt;/p>
+&lt;p>&lt;strong>Important :&lt;/strong> Si vous prévoyez de revenir à une version antérieure de Thorium (comme 3.3.0 ou une version plus ancienne), toutes les notes que vous avez créées dans Thorium 3.4.0 ou version ultérieure &lt;strong>ne seront pas accessibles&lt;/strong> dans la version antérieure, car elles utilisent un format de stockage différent.&lt;/p>
+&lt;p>Pour préserver vos notes, marque-pages et surlignages avant de revenir à une version antérieure :&lt;/p>
+&lt;ol>
+&lt;li>Ouvrez Thorium Reader&lt;/li>
+&lt;li>Allez à la vue Bibliothèque&lt;/li>
+&lt;li>Pour chaque livre contenant des notes, ouvrez-le et exportez les&lt;/li>
+&lt;li>Utilisez le bouton &lt;span class="ui_button">Exporter les notes&lt;/span> pour enregistrer vos marque-pages et surlignages dans un fichier&lt;/li>
+&lt;li>Ensuite, revenez à la version souhaitée&lt;/li>
+&lt;/ol>
+&lt;p>Nous vous recommandons de rester sur la version 3.4.0 ou ultérieure pour bénéficier du meilleur stockage des notes et éviter les problèmes de compatibilité.&lt;/p>
 &lt;/dd>
 &lt;/dl></description></item><item><title>Th3: Traduction</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/802_localizing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/802_localizing/</guid><description>
 &lt;p>La localisation de l&amp;rsquo;interface utilisateur du Thorium Reader est assurée et maintenue grâce à des bénévoles et à des organisations contributrices.&lt;/p>
@@ -448,38 +462,18 @@ Toutes les locales sont stockées dans le dossier &lt;a href="https://github.com
 *&lt;a href="https://github.com/sponsors/edrlab">Faites un petit don récurrent via le sponsor GitHub&lt;/a>
 *&lt;a href="https://members.edrlab.org/join/">Enrôlez votre organisation en tant que membre d&amp;rsquo;Edrlab&lt;/a>&lt;/p>
 &lt;p>Nous sommes également heureux d&amp;rsquo;envisager un financement basé sur le projet, car ainsi, [contactez-nous] (&lt;a href="https://www.edrlab.org/contact/)">https://www.edrlab.org/contact/)&lt;/a>!&lt;/p></description></item><item><title>Th3: Conditions d'utilisation</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/901_thorium-terms-of-use/</guid><description>
-&lt;p>Pour des raisons légales, les conditions d&amp;rsquo;utilisation du logiciel, disponibles en anglais, ne sont pas traduites.&lt;/p>
-&lt;p>Vous les trouverez à la page en anglais
-&lt;a href="https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/">Terms of use&lt;/a>&lt;/p></description></item><item><title>Th3: Privacy Policy</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
-&lt;p>22 November 2022&lt;/p>
-&lt;h2 id="owner-of-the-application">Owner of the application&lt;/h2>
-&lt;p>European Digital Reading Lab
-14 rue Alexandre Parodi
-75010 Paris
-France&lt;/p>
-&lt;h2 id="types-of-data-collected">Types of data collected&lt;/h2>
-&lt;p>The application does not collect Personal Data from its users.&lt;/p>
-&lt;p>The application sends two kinds of non-personal data to servers:&lt;/p>
-&lt;p>1/ Generic usage data: a notification is sent to an EDRLab telemery server each time the application is started. This information is for analytics only and not accessed by any third party. It is used to get information about the evolution of the number of installs of the application per operating system, the evolution of usage sessions and the main locales in use.&lt;/p>
-&lt;p>Parameters of such notification are:&lt;/p>
-&lt;ul>
-&lt;li>a timestamp,&lt;/li>
-&lt;li>the version of Thorium Reader,&lt;/li>
-&lt;li>the operating system of the device and its version,&lt;/li>
-&lt;li>the locale of the application at the time it is started,&lt;/li>
-&lt;li>if this is the first start of Thorium Reader after a fresh install.&lt;/li>
-&lt;/ul>
-&lt;p>The IP address of the device is not stored along with the above information.&lt;/p>
-&lt;p>It is not possible to opt-out from this notification.&lt;/p>
-&lt;p>2/ Readium LCP DRM information: a notification is sent to an LCP Server each time a protected publication is open. This is required by the LCP specification for checking if the license of use of the publication has been updated. There is not centralized LCP Server, each server is operated by the distributor of the protected publication acquired by the user.&lt;/p>
-&lt;p>Parameters of such notification are:&lt;/p>
-&lt;ul>
-&lt;li>a device identifier, automatically generated at the install of the application.&lt;/li>
-&lt;li>a device name, automatically generated at the install of the application.&lt;/li>
-&lt;/ul>
-&lt;p>The codebase of Thorium Reader is open-sourced and can therefore be fully inspected, with the exception of a small software library used as core for the Readium LCP DRM, which does not store or send any data.&lt;/p>
-&lt;h2 id="updates">Updates&lt;/h2>
-&lt;p>We may change the Privacy Policy from time to time. We will notify you by posting the revised Privacy Policy on this page and the date on which the last changes were made will be noted at the top of the page.&lt;/p></description></item><item><title>Th3: Votre aide est précieuse</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</guid><description>
+&lt;head>
+&lt;meta http-equiv="refresh" content="6; url=https://conformance.thoriumreader.com/documents/desktop3/terms-of-use/" />
+&lt;/head>
+&lt;body>
+&lt;p>
+Les conditions d'utilisation de Thorium Reader ont été transférées sur une &lt;a href="https://conformance.thoriumreader.com/documents/desktop3/terms-of-use/">page web dédiée&lt;/a>. Vous allez y être redirigé.&lt;/p></description></item><item><title>Th3: Privacy Policy</title><link>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/900_about_thorium/902_thorium-privacy-policy/</guid><description>
+&lt;head>
+&lt;meta http-equiv="refresh" content="6; url=https://conformance.thoriumreader.com/documents/desktop3/privacy-policy/" />
+&lt;/head>
+&lt;body>
+&lt;p>La politique de confidentialité de Thorium Reader a été déplacée vers une &lt;a href="https://conformance.thoriumreader.com/documents/desktop3/privacy-policy/">page Web dédiée&lt;/a>. Vous y serez redirigé.&lt;/p>
+&lt;/body></description></item><item><title>Th3: Votre aide est précieuse</title><link>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/800_collaborating/903_support/</guid><description>
 &lt;p> Vous aussi, vous pouvez aider Thorium Reader à devenir la meilleure application de lecture en &lt;a href="https://www.edrlab.org/become-a-member/">devenant membre de l'EDRLab&lt;/a> . Ou en faisant un don à l'EDRLab via le &lt;a href="https://github.com/sponsors/edrlab">parrainage Github&lt;/a> "piggy-bank", qui accepte les petits dons mensuels. &lt;/p>
 &lt;p> Thorium est construit par sa communauté. Si vous souhaitez participer, contactez-nous ! &lt;/p>
 &lt;p>Vous pouvez également : &lt;/p>

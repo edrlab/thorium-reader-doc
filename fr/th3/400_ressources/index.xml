@@ -170,11 +170,11 @@ loadShortcuts();
 &lt;dt id="manually_manage_files">Pourquoi ne puis-je pas ouvrir un livre électronique sans qu'il soit enregistré dans la bibliothèque de Thorium Reader ?
 &lt;/dt>
 &lt;dd>
-Thorium, comme plusieurs autres lecteurs de livres électroniques et systèmes de lecture, stocke les publications importées dans son propre espace de système de fichiers, car cela garantit que l'état de chaque publication et les métadonnées externes (par exemple, les signets, les paramètres, les annotations, le statut DRM, etc.) peuvent être attachés de manière fiable.
+Thorium, comme plusieurs autres lecteurs de livres électroniques et systèmes de lecture, stocke les publications importées dans son propre espace de système de fichiers, car cela garantit que l'état de chaque publication et les métadonnées externes (par exemple, les marque-pages, les paramètres, les sutlignages, le statut DRM, etc.) peuvent être attachés de manière fiable.
 &lt;/dd>
-&lt;dt id="PDFsupport">Pourquoi n'y a-t-il pas de lecture à voix haute ni d'annotations pour les PDF ?
+&lt;dt id="PDFsupport">Pourquoi n'y a-t-il pas de lecture à voix haute ni de notes pour les PDF ?
 &lt;/dt>
-&lt;dd>EDRLab s'efforce en priorité d'offrir une expérience optimale aux utilisateurs d'EPUB. Dans Thorium Reader, les fonctionnalités avancées telles que la synthèse vocale et les annotations sont donc disponibles en priorité pour les fichiers EPUB et nous espérons que les autres développeurs d'applications tireront le meilleur parti des fichiers PDF. Cela ne signifie pas que les fonctionnalités avancées ne seront jamais disponibles sur PDF dans Thorium, mais simplement que notre budget limité est utilisé pour ce que nous considérons comme le meilleur pour les lecteurs de livres électroniques.
+&lt;dd>EDRLab s'efforce en priorité d'offrir une expérience optimale aux utilisateurs d'EPUB. Dans Thorium Reader, les fonctionnalités avancées telles que la synthèse vocale et les notes sont donc disponibles en priorité pour les fichiers EPUB et nous espérons que les autres développeurs d'applications tireront le meilleur parti des fichiers PDF. Cela ne signifie pas que les fonctionnalités avancées ne seront jamais disponibles sur PDF dans Thorium, mais simplement que notre budget limité est utilisé pour ce que nous considérons comme le meilleur pour les lecteurs de livres électroniques.
 &lt;/dd>
 &lt;dt id="PDFrotate">J'ai accidentellement fait pivoter mes pages PDF, comment puis-je les récupérer ?
 &lt;/dt>
@@ -205,5 +205,19 @@ Avoir une interface utilisateur pour exporter l’intégralité du catalogue n�
 &lt;/ul>
 &lt;p>En cas de migration d&amp;rsquo;un ordinateur vers un autre ou de cas d&amp;rsquo;utilisation similaires, vous pouvez copier tous les fichiers ebook de ce référentiel et les ouvrir dans la nouvelle installation de Thorium.&lt;/p>
 &lt;p>Les instances auto-construites stockent alternativement la publication dans un dossier publication-dev.&lt;/p>
+&lt;/dd>
+&lt;dt id="notes-export">Si je reviens à une version antérieure de Thorium, qu'advient-il de mes notes ?&lt;/dt>
+&lt;dd>
+&lt;p>À partir de Thorium 3.4.0, le stockage des notes a été modifié pour de meilleures performances et fiabilité, ce qui représente une évolution importante de la manière dont Thorium persiste vos surlignages et marque-pages.&lt;/p>
+&lt;p>&lt;strong>Important :&lt;/strong> Si vous prévoyez de revenir à une version antérieure de Thorium (comme 3.3.0 ou une version plus ancienne), toutes les notes que vous avez créées dans Thorium 3.4.0 ou version ultérieure &lt;strong>ne seront pas accessibles&lt;/strong> dans la version antérieure, car elles utilisent un format de stockage différent.&lt;/p>
+&lt;p>Pour préserver vos notes, marque-pages et surlignages avant de revenir à une version antérieure :&lt;/p>
+&lt;ol>
+&lt;li>Ouvrez Thorium Reader&lt;/li>
+&lt;li>Allez à la vue Bibliothèque&lt;/li>
+&lt;li>Pour chaque livre contenant des notes, ouvrez-le et exportez les&lt;/li>
+&lt;li>Utilisez le bouton &lt;span class="ui_button">Exporter les notes&lt;/span> pour enregistrer vos marque-pages et surlignages dans un fichier&lt;/li>
+&lt;li>Ensuite, revenez à la version souhaitée&lt;/li>
+&lt;/ol>
+&lt;p>Nous vous recommandons de rester sur la version 3.4.0 ou ultérieure pour bénéficier du meilleur stockage des notes et éviter les problèmes de compatibilité.&lt;/p>
 &lt;/dd>
 &lt;/dl></description></item></channel></rss>
