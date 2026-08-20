@@ -501,6 +501,23 @@ item.&lt;/em>&lt;/p>
 &lt;p>Alternatively, translations can be done directly through Github Pull request. This may be easier if you are familiar with local translation editors like &lt;a href="https://poedit.net/">poedit&lt;/a> that allows a less noisy translating environment and are documented to be used with screen readers.
 All locales are stored in the &lt;a href="https://github.com/edrlab/thorium-reader/tree/develop/src/resources/locales">sources resources locales folder&lt;/a>.&lt;/p>
 &lt;p>For issues related to localisation, flag @gautierchomel in the comments.&lt;/p>
+&lt;h2 id="plural-forms">Plural forms&lt;/h2>
+&lt;p>Thorium Reader now supports proper plural forms in all languages using i18next’s built‑in pluralization rules, which slightly changes how some translation keys must be written.[1]&lt;/p>
+&lt;h3 id="what-changed-technically">What changed technically&lt;/h3>
+&lt;ul>
+&lt;li>The i18n code now uses the special placeholder &lt;strong>&lt;code>count&lt;/code>&lt;/strong> whenever a message can vary depending on a number (for example, “1 match” vs “5 matches”).&lt;/li>
+&lt;li>i18next treats &lt;code>count&lt;/code> as a reserved variable and will automatically pick the correct plural form based on the target language’s rules.&lt;/li>
+&lt;/ul>
+&lt;h3 id="impact-on-translation-keys">Impact on translation keys&lt;/h3>
+&lt;ul>
+&lt;li>Keys that depend on a number must offer plural variants such as &lt;code>key_one&lt;/code>, &lt;code>key_other&lt;/code>, and possibly additional forms (&lt;code>key_few&lt;/code>, &lt;code>key_many&lt;/code>, etc.), depending on the language.&lt;/li>
+&lt;li>English and Lithuanian JSON files in the PR have been updated as examples: they now use plural suffixes instead of generic “match(es)”‑type workarounds.[&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-translate-pluralized-strings">How to translate pluralized strings&lt;/h2>
+&lt;ul>
+&lt;li>When you see a key with a &lt;code>count&lt;/code> variable and plural suffixes, translate each plural form separately, matching natural usage in your language (e.g. singular, dual, paucal, etc.).&lt;/li>
+&lt;li>To know which plural forms your language needs and which suffixes i18next expects (e.g. &lt;code>_one&lt;/code>, &lt;code>_few&lt;/code>, &lt;code>_many&lt;/code>), you can use the JSFiddle linked in the PR description.&lt;/li>
+&lt;/ul>
 &lt;h2 id="contributors">Contributors:&lt;/h2>
 &lt;p>We maintain a list of contributors to properly credit theyre work, and also to help us who to mention in calls for translation. The list is non exhaustive, and we&amp;rsquo;ll delete mentions on requests.&lt;/p>
 &lt;ul>
