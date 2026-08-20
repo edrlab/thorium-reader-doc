@@ -7,14 +7,14 @@ draft: false
 ---
 
 
-<section class="filet">
 
 ## Reading textual contents
 
-For textual contents Thorium provides visual reading and read aloud, also known as Text to speech (TTS). This section focuses on text adjustements while the [Read aloud (text to speech)](../213_reading_auditory/index.xhtml#readaloud). 
-capacities are covered in a dedicated section from the Reading auditory section.
+For textual content, Thorium provides visual reading and Read Aloud (text-to-speech, TTS).
+This section focuses on text adjustments, while Read Aloud capabilities are covered in
+<a href="../213_reading_auditory/index.xhtml#readaloud">Reading auditory content</a>.
 
-</section>
+
 <section class="filet">
 
 

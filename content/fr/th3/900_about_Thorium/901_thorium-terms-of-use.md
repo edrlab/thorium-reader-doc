@@ -6,8 +6,9 @@ layout: single
 weight: 902
 toc: false
 ---
-
-Pour des raisons légales, les conditions d'utilisation du logiciel, disponibles en anglais, ne sont pas traduites. 
-
-Vous les trouverez à la page en anglais 
-[Terms of use](https://thorium.edrlab.org/en/th3/900_about_thorium/901_thorium-terms-of-use/)
+<head>
+<meta http-equiv="refresh" content="6; url=https://conformance.thoriumreader.com/documents/desktop3/terms-of-use/" />
+</head>
+<body>
+<p>
+Les conditions d'utilisation de Thorium Reader ont été transférées sur une <a href="https://conformance.thoriumreader.com/documents/desktop3/terms-of-use/">page web dédiée</a>. Vous allez y être redirigé.</p>

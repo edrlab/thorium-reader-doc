@@ -8,14 +8,14 @@ draft: false
 
 # Reading PDFs
 
-Thorium PDF reading engine relies on pdf.js a Portable Document Format (PDF) viewer that is built with HTML5. PDF.js is community-driven and supported by Mozilla.
-
+Thorium’s PDF reading engine relies on PDF.js, a Portable Document Format (PDF) viewer built with HTML5.
+PDF.js is community-driven and supported by Mozilla.
 
 <section class="filet">
 
 ## Reading settings for PDFs
 
-PDF support include 8 levels of zoom and the capacity to display in one or two pages.
+PDF support includes 8 levels of zoom and the capacity to display in one or two pages.
 
 
 </section>
@@ -23,9 +23,9 @@ PDF support include 8 levels of zoom and the capacity to display in one or two p
 
 ## Navigation features for PDFs
 
-Navigation in PDF can always be done with the go to page panel. Additionally, when PDFs creators have included Document Outline, those are available through the Table Of Content Navigation Panel. That's a different behavior of what is done by acrobat reader that displays Document Outlines as Bookmarks and allows users to manipulate them by changing order, renaming, adding and deleting them. 
+Navigation in PDF can always be done with the go to page panel. Additionally, when PDF creators have included Document Outline, those are available through the Table Of Content Navigation Panel. That's a different behavior of what is done by Acrobat Reader that displays Document Outlines as Bookmarks and allows users to manipulate them by changing order, renaming, adding and deleting them.
 
-With Thorium Reader, you can safely add your own bookmarks and you will find them in the Bookmarks navigation panel. 
+With Thorium Reader, you can safely add your own bookmarks and you will find them in the Bookmarks navigation panel.
 
 
 </section>
@@ -33,7 +33,7 @@ With Thorium Reader, you can safely add your own bookmarks and you will find the
 
 ## Bookmarks and annotations for PDFs
 
-At this moment, annotations are not available for PDFs. Bookmarks are fully implemented and can be created and navigated as detailled in the [Reading action bookmarks chapter](../230_bookmarks/index.xhtml). 
+At this moment, annotations are not available for PDFs. Bookmarks are fully implemented and can be created and navigated as detailed in the [Reading action bookmarks chapter](../230_bookmarks/index.xhtml).
 
 An attention point here is that only one bookmark per page can be added. Trying to add more than one bookmark per page will remove the existing one.
 
@@ -43,21 +43,21 @@ An attention point here is that only one bookmark per page can be added. Trying 
 
 ## Printing PDF
 
-Since 3.2, it is possible to print page ranges of a PDF. This can be limited by LCP rules decided by the vendor or lender. 
+Since 3.2, it is possible to print page ranges of a PDF. This can be limited by LCP rules decided by the vendor or lender.
 
 
 </section>
 <section class="filet">
 
+## PDF keyboard shortcuts
 
-## PDF keyboard shortcuts
-
-PDF.js adds keyboard shortcuts that are not configurable in the Thorium setting panel. The list reproduced here is non exhaustive and some shortcuts may not work. It is copied from the [PDF.JS Frequently Asked Questions page](https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts). 
+PDF.js adds keyboard shortcuts that are not configurable in Thorium’s settings.
+The list below is non-exhaustive; some shortcuts may not work. Reference:
+https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#what-are-the-pdfjs-keyboard-shortcuts
 
 
 </section>
 <section class="filet">
-
 
 ### Navigation
 
@@ -69,7 +69,6 @@ The <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page up</kbd>, <kbd>Page down</kbd> an
 
 </section>
 <section class="filet">
-
 
 ### Viewer controls
 

@@ -44,11 +44,9 @@ panel. Each match displayed is a link you can Activate to go to the
 place of the book where the expression you are looking for was found.
 
 <div class="framed">
- warning
-Remember that performing a search and navigating through the results will
-make you loose the reading point you where at. To get back to that point you can use the "Jump Back" function or place a Bookmark to
-make sure you find your way back.
+<strong>Warning:</strong>
+Performing a search and navigating through results may make you lose your previous reading location.
+To get back to that point you can use the “Jump Back” function or place a bookmark first.
 </div>
-
 
 </section>

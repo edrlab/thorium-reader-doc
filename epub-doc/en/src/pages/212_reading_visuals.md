@@ -30,7 +30,7 @@ use mouse wheel, scroll up and down or pinch and stretch trackpad or
 onscreen touch gestures.
 
 Once the image is zoomed you can move vertically and horizontally with
-<kbd>Left arrow</kbd>, <kbd>Right arrow</kbd>, <kbd>Left arrow</kbd> and <kbd>Right arrow</kbd>, 
+<kbd>Up arrow</kbd>, <kbd>Down arrow</kbd>, <kbd>Left arrow</kbd> and <kbd>Right arrow</kbd>,
 by holding down the mouse button and moving the mouse, with usual
 trackpad gestures or with finger moves on tactile screens.
 

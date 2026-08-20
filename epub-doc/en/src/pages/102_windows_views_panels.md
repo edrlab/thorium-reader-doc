@@ -9,9 +9,9 @@ draft: false
 
 # Windows, views and panels {#windows_and_views}
 
-Thorium reader has one main window and one additional window per open
+Thorium Reader has one main window and one additional window per open
 book. The main window is always open and offers 4 views (<span class="ui_button">Home</span>, <span class="ui_button">All
-books</span>, <span class="ui_button">Catalogs</span> and <span class="ui_button">Settings</span>) while book windows views will
+publications</span>, <span class="ui_button">Catalogs</span> and <span class="ui_button">Settings</span>) while book windows views will
 depend on the book format (textual, audio, visual). Each format will
 allow a selection of action panels that can be docked to one side of the
 view.
@@ -22,7 +22,7 @@ view.
 
 The main window is where you can access and organise your collections as
 well as the settings that apply to the whole application. Closing the
-main windows close the application and all reading windows opened.
+main window closes the application and all reading windows opened.
 
 </section>
 <section class="filet">
@@ -68,11 +68,9 @@ actions to Open a publication and to Open Publication menu.
 
 ## Table Mode {#table_mode}
 
-The <span class="ui_button">Table</span> mode presents the books like cards, keyboard tabulation will mode presents one book per line and allows to visualize a
-large number of informations usually available only in the Book
-information Panel. Keyboard tabulation will drive you through all those
-details.
-
+The <span class="ui_button">Table</span> mode presents one publication per row and allows you to view
+a large number of details (often also available in the Book Information panel).
+Keyboard tabulation will drive you through those details.
 
 </section>
 <section class="filet">

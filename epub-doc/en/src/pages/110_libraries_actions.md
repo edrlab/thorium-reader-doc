@@ -26,7 +26,7 @@ reading window will make appear the main one.
 </section>
 <section class="filet">
 
-## Open Publication menu
+## Open publication menu
 Publication menu is available from the three dots button at the
 bottom right of the publication card on the <span class="ui_button">Home</span> and <span class="ui_button">Grid</span> Views or
 at the last column (Action) of the <span class="ui_button">Table</span> View.
@@ -35,8 +35,8 @@ It allows to:
 <img src="../../resources/images/info-icon.svg" class="icon"  alt="" role="presentation"/><span class="ui_button"> About publication</span>);
 -   Change publication reading status to Finished;
 (<img src="../../resources/images/doubleCheck-icon.svg" class="icon" alt="" role="presentation"/><span class="ui_button"> Mark as read</span>) 
--   Suppress the Publication from Thorium Library 
-(<img src="../../resources/images/bin-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button"> Delete</span>) that will open a confirmation pop up;
+-   Delete the publication from Thorium Library
+(<img src="../../resources/images/bin-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button"> Delete</span>) which opens a confirmation dialog;
 -   Export a copy of the publication on your file system 
 (<img src="../../resources/images/SaveAs-icon.svg" class="icon" alt="" role="presentation"/> <span class="ui_button">Save as</span>). 
 This will open a system window to let you choose where to export the publication.
@@ -47,13 +47,13 @@ This will open a system window to let you choose where to export the publication
 </section>
 <section class="filet">
 
-## Import a Publication
+## Import a publication
 
-Located at the top right corner and 5th element in te tabulation
-order, just before the main content, the <span class="ui_button">+ Import a
-Publication</span> button speaks by itself. Activating it will
-cause the opening of a system context window to let your select a
-file on your computer system. Navigate to the file you want to open,
+Located at the top right corner and early in the tab order, the <span class="ui_button">+ Import a
+Publication</span> button opens a system file chooser so you can select a
+file on your computer.
+
+Navigate to the file you want to open,
 and validate. The file will appear in the Recently added section of
 the <span class="ui_button">Home</span> View and as the first element of the All publication Grid
 or Table view. In this last View, if a filter was active, it is
