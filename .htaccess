@@ -1,0 +1,5 @@
+# Redirect all pages to thoriumreader.com
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^thorium\.edrlab\.org [NC,OR]
+RewriteCond %{HTTP_HOST} ^.*\.thorium\.edrlab\.org [NC]
+RewriteRule ^(.*)$ https://thoriumreader.com/$1 [R=301,L]

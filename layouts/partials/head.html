@@ -6,11 +6,14 @@
 {{ end -}}
 
 {{ $outputFormat := partial "outputformat.html" . -}}
-{{ if and hugo.IsProduction (ne $outputFormat "print") -}}
-<meta name="robots" content="index, follow">
-{{ else -}}
 <meta name="robots" content="noindex, nofollow">
-{{ end -}}
+<!-- Redirect to thoriumreader.com -->
+<meta http-equiv="refresh" content="0;url=https://thoriumreader.com/" />
+<script>
+  if (typeof window !== 'undefined') {
+    window.location.href = 'https://thoriumreader.com/';
+  }
+</script>
 
 {{ partialCached "favicons.html" . }}
 <title>
