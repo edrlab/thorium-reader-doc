@@ -6,11 +6,7 @@
 {{ end -}}
 
 {{ $outputFormat := partial "outputformat.html" . -}}
-{{ if and hugo.IsProduction (ne $outputFormat "print") -}}
 <meta name="robots" content="noindex, nofollow">
-{{ else -}}
-<meta name="robots" content="noindex, nofollow">
-{{ end -}}
 <!-- Redirect to thoriumreader.com -->
 <meta http-equiv="refresh" content="0;url=https://thoriumreader.com/" />
 <script>
